@@ -58,4 +58,13 @@ h=re.sub(r"const MHR_THROUGH='[^']*', MHR_PUBLISHED='[^']*';","const MHR_THROUGH
 # --- joint-pool solver (13U+14U one MHR pool; ignore games vs 15U/16U/18U; dedupe cross-listed 13U-14U games)
 a=h.index('function solve(dv,extra){');b=h.index('const f2=x=>x.toFixed(2)',a)
 h=h[:a]+open('build/solver.js').read()+h[b:]
+
+# --- UI: movement arrows vs last published MHR rank
+def rep(old,new):
+    global h
+    assert h.count(old)==1,old[:60]; h=h.replace(old,new)
+rep("function table(rows,numbered){","function prevRanks(list){const m=MHR[div]||{};const o=list.filter(x=>m[x.t]!==undefined).slice().sort((a,b)=>m[b.t]-m[a.t]);const p={};o.forEach((x,i)=>p[x.t]=i+1);return p}\nfunction mv(prev,now){if(!prev)return '';const d=prev-now;if(!d)return '';return d>0?`<span class=\"mv up\" title=\"Up ${d} from #${prev} in MHR ${MHR_PUBLISHED}\">▲${d}</span>`:`<span class=\"mv dn\" title=\"Down ${-d} from #${prev} in MHR ${MHR_PUBLISHED}\">▼${-d}</span>`}\nfunction table(rows,numbered){const pv=numbered?prevRanks(rows):{};")
+rep('<td class="t">${esc(x.t)}</td>','<td class="t">${esc(x.t)}${numbered?mv(pv[x.t],k+1):\'\'}</td>')
+rep("<p class=\"legend\">Tap any team for its math page. Canadian teams","<p class=\"legend\"><span class=\"mv up\">▲</span> <span class=\"mv dn\">▼</span> = spots moved since MHR’s last published ratings ('+MHR_PUBLISHED+'), from games applied live. Tap any team for its math page. Canadian teams")
+rep("<style>","<style>.mv{font-size:11px;font-weight:700;margin-left:6px;white-space:nowrap}.mv.up{color:#16a34a}.mv.dn{color:#dc2626}")
 open('index.html','w').write(h);print('ok',len(h))

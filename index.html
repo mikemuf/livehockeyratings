@@ -6,7 +6,7 @@
 <title>Live Ratings 2026-27</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
+<style>.mv{font-size:11px;font-weight:700;margin-left:6px;white-space:nowrap}.mv.up{color:#16a34a}.mv.dn{color:#dc2626}
 :root{
   --ice:#F3F7FA;--sheet:#FFFFFF;--navy:#0F2A4A;--ink:#17263A;--slate:#5B6B7C;--line:#D5DEE7;
   --red:#C8102E;--blue:#1F5FBF;--blue-soft:#E4EEFC;--red-soft:#FBE7EA;--green:#1C7C4E;
@@ -207,9 +207,11 @@ function solve(dv,extra){
 }
 const f2=x=>x.toFixed(2),fs=x=>(x>=0?'+':'')+x.toFixed(2);
 const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;');
-function table(rows,numbered){
+function prevRanks(list){const m=MHR[div]||{};const o=list.filter(x=>m[x.t]!==undefined).slice().sort((a,b)=>m[b.t]-m[a.t]);const p={};o.forEach((x,i)=>p[x.t]=i+1);return p}
+function mv(prev,now){if(!prev)return '';const d=prev-now;if(!d)return '';return d>0?`<span class="mv up" title="Up ${d} from #${prev} in MHR ${MHR_PUBLISHED}">▲${d}</span>`:`<span class="mv dn" title="Down ${-d} from #${prev} in MHR ${MHR_PUBLISHED}">▼${-d}</span>`}
+function table(rows,numbered){const pv=numbered?prevRanks(rows):{};
   let h='<div class="wrap"><table><thead><tr>'+(numbered?'<th></th>':'')+'<th class="t">Team</th><th>Rating</th><th>Rec</th><th>AGD</th><th>Sched</th><th>GP</th></tr></thead><tbody>';
-  rows.forEach((x,k)=>{h+=`<tr class="click" data-t="${esc(x.t)}">${numbered?`<td class="rk num">${k+1}</td>`:''}<td class="t">${esc(x.t)}</td><td class="rating"><span class="num">${f2(x.r)}</span></td><td>${(MHR_REC[div]||{})[x.t]||x.rec.join('-')}</td><td class="${x.agd>=0?'pos':'neg'}">${fs(x.agd)}</td><td>${f2(x.sched)}</td><td>${x.gp}</td></tr>`});
+  rows.forEach((x,k)=>{h+=`<tr class="click" data-t="${esc(x.t)}">${numbered?`<td class="rk num">${k+1}</td>`:''}<td class="t">${esc(x.t)}${numbered?mv(pv[x.t],k+1):''}</td><td class="rating"><span class="num">${f2(x.r)}</span></td><td>${(MHR_REC[div]||{})[x.t]||x.rec.join('-')}</td><td class="${x.agd>=0?'pos':'neg'}">${fs(x.agd)}</td><td>${f2(x.sched)}</td><td>${x.gp}</td></tr>`});
   return h+'</tbody></table></div>';
 }
 function renderRank(S){
@@ -218,7 +220,7 @@ function renderRank(S){
   let h=`<p class="meta">${name}: ${S.rows.length} teams, ${S.G.length} games${S.comps>1?', '+S.comps+' separate pools':''}. Anchored to MHR ratings published ${MHR_PUBLISHED} (games through ${MHR_THROUGH.slice(5)}), ${S.nMhr} teams matched${S.liveN?`; <b>${S.liveN} newer game${S.liveN>1?'s':''} applied live</b>`:'; no newer games yet'}${added.filter(g=>g[0]===div).length?` <span class="chip">${added.filter(g=>g[0]===div).length} added here</span>`:''}</p>`;
   h+=`<h2>USA<span class="n">${usa.length} teams ranked by MHR</span></h2>`+table(usa,true);
     h+=`<h2>Not in MHR's rankings (estimated from games logged)<span class="n">${few.length}</span></h2>`+(few.length?table(few,false):'<p class="small">None.</p>');
-  h+='<p class="legend">Tap any team for its math page. Canadian teams are on the Canada tab. Ratings are only comparable within a pool.</p>';
+  h+='<p class="legend"><span class="mv up">▲</span> <span class="mv dn">▼</span> = spots moved since MHR’s last published ratings ('+MHR_PUBLISHED+'), from games applied live. Tap any team for its math page. Canadian teams are on the Canada tab. Ratings are only comparable within a pool.</p>';
   return h;
 }
 function renderCan(S){
