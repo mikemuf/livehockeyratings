@@ -1,0 +1,13 @@
+WEEKEND NOV 6-8 (container was reset Fri night; the live app = artifact v92 + games in pending_games.json NOT yet published)
+216 SHOWCASE 2013 Elite (GameSheet): https://gamesheetstats.com/seasons/15033/games?configuration=296&filter[division]=89124
+  names: Nor'Easter -> Nor'easters; Mid-Fairfield Rangers -> Mid-Fairfield; others same. Sat: NOR-MF 8:00, CHI-SYR 9:35, LC-CLE 11:10, ANA-NOR 12:45, COL-MF 2:20, SYR-CLE 3:55, ANA-CHI 5:30, COL-LC 7:05 (ET); Sun playoffs.
+CCM WORLD INVITE 2012 top division "2012 Vizion": https://my.200x85.com/tournaments/1a0a158e-5bf4-4e1e-93a9-01bb7e7963ba/divisions/13773cbb-5ccc-43cd-a275-6531efeebaa3?division=1020
+  score order HOME then VISITOR; Tri-Valley Bulls -> Tri-Valley Bulls (14U AA); Tampa Junior Lightning -> Tampa Bay Jr Lightning; SKIP Edina, Rochester Mustangs, OMGHA.
+NE Pack: https://gamesheetstats.com/seasons/16174/games (divisions 88258-88267)
+CCM WORLD INVITE 2013 top division "2013 Tacks" (16 teams; Chicago Mission, Team Illinois, HB Detroit, Milwaukee, Windy City, Music City, Pittsburgh Predators, Team Maryland, Fury, etc.):
+https://my.200x85.com/tournaments/1a0a158e-5bf4-4e1e-93a9-01bb7e7963ba/divisions/0d958f8f-80d0-46e8-9c56-a23e1cc6168b?division=998
+  score order HOME then VISITOR; SKIP HKMK BLED (Slovenian club, not rated). Names: Okanagan Hockey -> Okanagan. 14 Friday 2013 games already in pending_games.json.
+MIKE (Sat 11:39): ALWAYS include a 2012 section in every update (even "no finals yet" + what's in progress/next). Also track other 2012 games via MHR team pages (games tab): Shattuck vs Upper Canada College (Nov 6,7,8), Top Gun vs Neponset (Nov 5) & at Mount St Charles (Nov 7), Kitchener event: Buffalo Regals, Rochester Coalition, Pittsburgh Stars; Sylvania vs Indiana Elite (Nov 7,8); Seacoast vs Minuteman (Nov 7), Biggby vs Fox Motors (Nov 7). Also offer the 216 Showcase scoring leaders (GameSheet players page: https://gamesheetstats.com/seasons/15033/players?configuration=296&filter[division]=89124).
+Logged Sat so far: NOR 1-3 MF, CHI 4-3 SYR (216); TI 5-0 PHANTOMS, MISSION 7-2 PITT PRED, IND 5-2 MAD (2013 Tacks); CAR 5-3 RMR (2012 Vizion).
+Logged Sat noon: LC 3-3 CLE (216); Shattuck 10-0 UCC Nov 6 (MHR). 2013 Tacks QF: TI vs Indiana 3:30, MISSION vs Team Maryland 3:40 (Central).
+Logged Sat 2pm: REAPERS 3-1 FLA, TB 5-2 MAD (2012 Vizion; ROCH 3-2 MD SO skipped); HB 4-0 FURY, MCM 8-1 RMR, WCS 0-5 MIL, CAR 3-1 OKA (2013 Tacks); ANA 7-3 NOR (216). Vizion QF: Reapers vs C2nd 6:00pm; Tacks QF: TI-IND 3:30, MISSION-MD 3:40.

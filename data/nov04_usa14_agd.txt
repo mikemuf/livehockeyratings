@@ -1,0 +1,84 @@
+Mid-Fairfield Hockey Club (Elite)|4.56|95.42
+Shattuck St Mary's|3.57|95.95
+Little Caesars|2.79|94.64
+Woodbridge Wolfpack|1.96|95.19
+Team Illinois|2.61|94.35
+Chicago Mission|0.86|96.09
+Nashville Jr Predators|1.68|94.94
+Mount St Charles Hockey Academy|1.65|94.84
+Top Gun (Elite)|1.85|94.57
+MN Green Giants|2.91|93.40
+Pittsburgh Penguins Elite|1.17|95.12
+Bishop Kearney Selects|2.08|94.19
+MN Lakers|2.72|93.28
+HB Detroit|2.05|93.94
+New Jersey Rockets (Premier)|-0.30|96.03
+LA Jr Kings|2.00|93.71
+Chicago Reapers|0.71|94.96
+Boston Jr Eagles (Elite)|0.89|94.00
+Biggby Coffee|1.11|93.49
+New Jersey Colonials|0.12|94.33
+PAL Jr Islanders|1.64|92.76
+Neponset Valley River Rats|-0.22|94.45
+Seacoast Performance Academy|0.09|94.13
+Philadelphia Hockey Club|0.62|93.41
+Atlantic Coast Academy|-0.43|94.41
+St Louis Blues|-1.00|94.92
+Masters Academy|0.75|93.15
+Ohio Blue Jackets|0.79|93.01
+Fox Motors|1.19|92.55
+North Jersey Avalanche|0.04|93.69
+Dallas Stars Elite|1.87|91.74
+MN Grey Ducks|0.22|93.29
+Windy City Storm|0.80|92.69
+Phoenix Jr Coyotes|3.88|89.58
+Connecticut Jr Rangers (Elite)|1.88|91.56
+Team North Dakota|0.68|92.72
+Minuteman Flames (Elite)|0.10|93.29
+Washington Little Capitals|0.30|92.98
+Victory Honda|0.24|92.99
+MN Moose|-0.31|93.50
+South Shore Kings (Elite)|0.50|92.39
+Okanagan Hockey Colorado|-0.15|93.02
+Buffalo Jr Sabres|-0.18|92.99
+Pittsburgh Stars|0.95|91.73
+MN Blue Ox|-0.16|92.82
+Chicago Fury|-0.95|93.47
+Milwaukee Jr Admirals|0.94|91.45
+Jersey Hitmen|-0.28|92.62
+Tampa Bay Jr Lightning|0.94|91.36
+Sylvania North Stars|0.50|91.76
+East Coast Militia (National)|-0.45|92.60
+Team Maryland|-1.20|93.17
+MN Polars|-1.05|92.97
+MN Voyageurs|-1.15|93.03
+Team Wisconsin|-0.37|92.17
+Florida Surf|-0.35|92.09
+Florida Alliance|2.22|89.50
+Oakland Jr Grizzlies|-1.33|92.98
+MN Loons|-2.00|93.62
+Middlesex Islanders East (Elite)|-0.76|92.33
+Syracuse Nationals|0.37|91.18
+Belle Tire|-1.05|92.54
+Colorado Thunderbirds|1.61|89.75
+Tri-Valley Bulls (#1) 14U AA|2.86|88.49
+MN Walleye|-2.35|93.58
+Compuware|-1.11|92.32
+Yale Junior Bulldogs|0.50|90.70
+Indiana Elite|0.20|90.98
+CDA Hockey Academy U15 Prep|-1.37|92.36
+Team Alaska|2.25|88.69
+Team Dallas|1.15|89.61
+Cleveland Barons|-3.00|93.76
+Boston Advantage (Elite #1)|0.73|90.00
+CarShield|-1.14|91.87
+Pittsburgh Predators|-1.90|92.58
+Valley Jr Warriors (Elite)|1.09|89.53
+Cape Cod Whalers|-0.90|91.48
+Buffalo Regals|0.30|90.20
+Red Bank Generals|-0.10|90.56
+Midwest Warriors|-0.80|91.14
+Palmyra Black Knights|-0.76|91.09
+New York City Hockey Club|2.03|88.21
+Rochester Coalition|-0.78|91.03
+Madison Capitols|-0.53|90.66
