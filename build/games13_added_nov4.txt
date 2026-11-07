@@ -1,0 +1,60 @@
+10-31|Milwaukee Jr Admirals|6|Windy City Storm|1
+10-31|Milwaukee Jr Admirals|5|Windy City Storm|3
+11-01|North Jersey Avalanche|1|Philadelphia Jr Flyers|7
+10-28|CarShield|2|St. Louis Blues|6
+10-31|Compuware|2|Fox Motors|6
+10-31|PAL Islanders|2|Team Maryland|3
+11-01|PAL Islanders|2|Team Maryland|0
+10-31|Long Island Royals|4|New Jersey Colonials|3
+11-01|New Jersey Colonials|7|New Jersey Jr Titans|3
+10-25|San Jose Jr Sharks|4|Vegas Jr Golden Knights|3
+11-01|Chicago Fury|5|Madison Capitols|0
+11-01|Chicago Fury|2|Madison Capitols|1
+10-25|Boston Jr Terriers (Elite)|3|Minuteman Flames|3
+10-31|Minuteman Flames|1|Top Gun (Elite)|0
+10-31|Florida Jr Panthers|3|Florida Surf|1
+10-31|Florida Jr Panthers|2|Florida Surf|5
+10-24|Oakland Jr Grizzlies|2|Victory Honda|4
+10-30|Belle Tire|0|Victory Honda|7
+10-24|New Jersey Jr Titans|3|South Shore Kings (Elite)|6
+10-24|Florida Jr Panthers|4|South Shore Kings (Elite)|2
+10-25|Florida Alliance|4|South Shore Kings (Elite)|4
+10-31|Providence Capitals|1|South Shore Kings (Elite)|5
+11-01|Boston Jr Terriers (Elite)|4|South Shore Kings (Elite)|7
+10-24|Madison Capitols|3|Team Illinois|6
+10-24|Madison Capitols|4|Team Illinois|5
+10-24|Halton Hurricanes|3|Mercer Chiefs|0
+10-24|Markham Majors|4|Mercer Chiefs|5
+10-30|Jersey Hitmen|3|Mercer Chiefs|6
+11-01|Providence Capitals|1|Top Gun (Elite)|6
+10-24|Detroit Bulldogs (Gold)|1|Southeast Blades|1
+10-25|Carolina Junior Canes|2|Southeast Blades|3
+10-24|New Jersey Jr Titans|2|Seacoast Performance Academy|2
+10-25|Seacoast Performance Academy|3|Westchester Express (Elite)|4
+10-31|Biggby Coffee|1|Oakland Jr Grizzlies|6
+10-24|Carolina Junior Canes|4|Nashville Jr. Predators|2
+10-24|Florida Jr Panthers|7|Top Gun (Elite)|1
+10-25|New Jersey Jr Titans|6|Valley Forge Minutemen|4
+10-24|Philadelphia Little Flyers|0|Toronto Jr Canadiens|11
+10-24|Northern CT Nor'Easter (Showcase)|0|Valley Forge Minutemen|3
+10-24|Boston Ice Dogs (Selects)|4|Valley Forge Minutemen|2
+10-24|Boston Ice Dogs (Selects)|3|Westchester Express (Elite)|5
+10-31|Boston Ice Dogs (Selects)|6|New Hampshire Mountain Kings (Minor)|5
+10-24|Biggby Coffee|1|Chicago Phantoms|3
+10-24|Chicago Phantoms|5|Team Dallas|4
+10-25|Biggby Coffee|0|Chicago Phantoms|3
+10-24|Utica Jr Comets|2|Wilkes Barre Scranton Knights|4
+10-24|Utica Jr Comets|5|Wilkes Barre Scranton Knights|2
+10-31|Wilkes Barre Scranton Knights|8|Yale Junior Bulldogs|2
+10-31|Wilkes Barre Scranton Knights|3|Yale Junior Bulldogs|5
+10-30|Colorado Rampage|1|Okanagan|7
+10-24|Colorado Rampage|3|Detroit Bulldogs (Gold)|5
+10-24|Florida Alliance|5|Top Gun (Elite)|1
+10-25|Northern CT Nor'Easter (Showcase)|2|Top Gun (Elite)|0
+10-31|Palmyra Black Knights|2|Pittsburgh Stars|4
+10-31|Palmyra Black Knights|0|Pittsburgh Stars|2
+11-01|Hartford Jr Wolfpack|2|Philadelphia Revolution|5
+11-01|Hartford Jr Wolfpack|2|Philadelphia Revolution|7
+10-25|Colorado Rampage|2|Team Dallas|5
+10-24|East Coast Militia (National)|4|Red Bank Generals|1
+10-25|Saginaw Jr Spirit|1|St Clair Shores Saints (Red)|1

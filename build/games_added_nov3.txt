@@ -1,0 +1,80 @@
+10-30|Cleveland Barons|5|HB Detroit|9
+10-31|Masters Academy|1|Seacoast Performance Academy|3
+11-01|Masters Academy|4|Seacoast Performance Academy|1
+11-01|Middlesex Islanders East (Elite)|0|Seacoast Performance Academy|3
+10-30|Atlantic Coast Academy|2|Masters Academy|5
+10-31|Cape Cod Whalers|2|Masters Academy|4
+11-01|Fox Motors|6|Oakland Jr Grizzlies|1
+10-31|Connecticut Jr Rangers (National)|2|Washington Little Capitals|1
+11-01|Connecticut Jr Rangers (National)|6|Washington Little Capitals|3
+10-31|Ohio Blue Jackets|7|Pittsburgh Predators|0
+11-01|Ohio Blue Jackets|9|Pittsburgh Predators|2
+10-31|Middlesex Islanders East (Half)|0|South Shore Kings Elite|4
+10-31|Palmyra Black Knights|1|Pittsburgh Stars|1
+11-01|Palmyra Black Knights|3|Pittsburgh Stars|2
+10-30|Belle Tire|1|Sylvania North Stars|0
+10-30|Cleveland Barons|3|Sylvania North Stars|2
+11-01|Cleveland Barons|4|Sylvania North Stars|5
+10-31|Milwaukee Jr Admirals|2|Team Dallas|3
+11-01|Jersey Hitmen|3|Red Bank Generals|4
+10-24|Florida Surf|7|Valley Jr Warriors (Elite)|0
+10-24|Florida Surf|3|Yale Jr Bulldogs|3
+10-25|Florida Alliance|6|Florida Surf|3
+10-24|Florida Alliance|6|Yale Jr Bulldogs|1
+10-24|Florida Alliance|3|Syracuse Nationals|2
+10-25|Florida Alliance|2|Tri-Valley Bulls (14U AA)|3
+11-03|Compuware|2|Oakland Jr Grizzlies|5
+10-31|Red Bank Generals|2|Team Maryland|7
+10-24|Palmyra Black Knights|4|Syracuse Nationals|4
+10-25|Red Bank Generals|8|Syracuse Nationals|1
+10-24|Middlesex Islanders East (Elite)|6|Red Bank Generals|4
+10-24|Middlesex Islanders East (Elite)|1|Tri-Valley Bulls (14U AA)|2
+10-25|Middlesex Islanders East (Elite)|2|Tri-Valley Bulls (14U AA)|3
+10-31|Middlesex Islanders East (Elite)|5|Providence Capitals (Elite)|1
+10-31|Belle Tire|2|Cleveland Barons|1
+10-24|Colorado Thunderbirds|12|Omaha Mastery|0
+10-25|Colorado Thunderbirds|10|Omaha Mastery|2
+10-30|Colorado Thunderbirds|7|Rocky Mountain RoughRiders|3
+10-31|Colorado Thunderbirds|3|Rocky Mountain RoughRiders|2
+11-01|Colorado Thunderbirds|6|Rocky Mountain RoughRiders|2
+10-24|Boston Advantage (Elite)|2|Tri-Valley Bulls (14U AA)|3
+10-31|California Bears|2|Tri-Valley Bulls (14U AA)|5
+11-01|California Jr Reign (14U AA)|0|Tri-Valley Bulls (14U AA)|7
+10-25|Boston Advantage (Elite)|4|Yale Jr Bulldogs|2
+11-01|New York Saints|1|Yale Jr Bulldogs|8
+10-24|Boston Advantage (Elite)|5|Palmyra Black Knights|2
+10-24|CDA Hockey Academy|6|Pacific Coast Academy|8
+10-25|CDA Hockey Academy|2|Pacific Coast Academy|1
+10-31|CDA Hockey Academy|3|North Shore Warriors|4
+11-01|CDA Hockey Academy|0|Delta Hockey Academy|9
+10-30|Madison Capitols|1|Team Dallas|3
+10-31|Madison Capitols|1|Team Dallas|1
+11-01|Madison Capitols|4|Team Dallas|1
+11-01|Cape Cod Whalers|3|East Coast Wizards (Elite)|2
+10-24|Red Bank Generals|2|Valley Jr Warriors (Elite)|4
+10-25|Palmyra Black Knights|2|Valley Jr Warriors (Elite)|3
+10-25|Buffalo Regals|6|Carolina Jr Canes|3
+10-30|Buffalo Regals|5|Rochester Coalition|4
+10-31|Buffalo Regals|2|Rochester Coalition|0
+10-24|Long Island Gulls|0|New York City Hockey Club|9
+10-25|Madison Capitols|2|New York City Hockey Club|5
+10-25|NY Dynamo|3|New York City Hockey Club|5
+10-31|NY Dynamo|4|New York City Hockey Club|6
+11-01|Long Island Gulls|1|New York City Hockey Club|15
+10-28|Rochester Coalition|6|Rochester Jr Americans|1
+10-24|Madison Capitols|9|Mid-Fairfield (T1)|2
+10-24|Anaheim Jr Ducks|1|Madison Capitols|3
+10-31|Hartland Huskies (Black) (14U AA)|2|Ohio Prospects|3
+10-24|Providence Capitals (Elite)|5|Springfield Jr Thunderbirds (Elite #1)|7
+10-24|Long Island Gulls|0|Mercer Chiefs|11
+10-24|Boston Jr Terriers (Elite)|3|Mercer Chiefs|3
+10-25|Mercer Chiefs|5|New Hampshire Mountain Kings|4
+10-25|Anaheim Jr Ducks|0|NY Dynamo|2
+11-01|Middlesex Islanders East (Half)|4|Providence Capitals (Elite)|2
+10-25|Boston Jr Terriers (Elite)|3|Mid-Fairfield (T1)|1
+10-24|NY Dynamo|2|New Hampshire Mountain Kings|3
+10-25|San Jose Jr Sharks|4|Vegas Jr Golden Knights|3
+11-01|Ohio Prospects|2|Plymouth Flyers Black (14U AA)|5
+10-24|Philadelphia Jr Flyers|1|Valley Forge Minutemen|6
+10-24|Long Island Royals|1|Westchester Express (South)|1
+11-01|Hartford Jr Wolfpack|4|Mid-Fairfield (T1)|6
