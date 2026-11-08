@@ -15,3 +15,4 @@ Logged Sat 4:15pm: 2012 TRI 4-5 MIL, MWW 0-2 VFM (Vizion); Woodbridge 0-4 ACA, N
 LAST MHR SCAN: Sat Nov 7 4:15 PM CT (both divisions). Mike 5:44pm: busy times → check every 20 min; reports include upcoming games with both teams' live rank/rating.
 Logged Sat 6:05pm: 2013 TI 4-3 IND (QF), MISSION 6-0 MD (QF), SYR 2-1 CLE, ANA 3-3 REAPERS (216); 2012 MD 7-2 MAD (cons.), PHC 3-1 Washington Little Caps (MHR). LAST MHR SCAN: Sat Nov 7 6:05 PM CT (2012 only; 2013 at 4:15).
 UNRATED TEAMS (Mike 6:14pm): games vs Edina, OMGHA, Rochester Mustangs (2012) and HKMK Bled (2013) go into data/unrated_games.json (display-only 'Not rated by MHR' section) instead of being dropped.
+Logged Sat 6:35pm: 2013 WCS 2-1 HB (QF upset) → Mission vs Windy City SF Sun 9:10; Bled 3-5 MAD (unrated).

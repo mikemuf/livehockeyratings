@@ -1,14 +1,119 @@
 [
-["2012","2026-11-06","Edina",7,"CarShield",0,"CCM World Invite"],
-["2012","2026-11-06","Rocky Mountain RoughRiders",0,"Edina",4,"CCM World Invite"],
-["2012","2026-11-07","Edina",2,"Windy City Storm",0,"CCM World Invite"],
-["2012","2026-11-06","Madison Capitols",1,"OMGHA",7,"CCM World Invite"],
-["2012","2026-11-06","OMGHA",6,"Tampa Bay Jr Lightning",1,"CCM World Invite"],
-["2012","2026-11-07","Chicago Fury",2,"OMGHA",1,"CCM World Invite"],
-["2012","2026-11-06","Chicago Reapers",7,"Rochester Mustangs",0,"CCM World Invite"],
-["2012","2026-11-06","Rochester Mustangs",0,"Florida Alliance",7,"CCM World Invite"],
-["2012","2026-11-07","Rochester Mustangs",2,"Team Maryland",2,"CCM World Invite (Rochester won SO)"],
-["2013","2026-11-06","HKMK Bled",1,"Team Illinois",8,"CCM World Invite"],
-["2013","2026-11-06","Chicago Phantoms",6,"HKMK Bled",2,"CCM World Invite"],
-["2013","2026-11-07","HKMK Bled",0,"Team Maryland",7,"CCM World Invite"]
+[
+"2012",
+"2026-11-06",
+"Edina",
+7,
+"CarShield",
+0,
+"CCM World Invite"
+],
+[
+"2012",
+"2026-11-06",
+"Rocky Mountain RoughRiders",
+0,
+"Edina",
+4,
+"CCM World Invite"
+],
+[
+"2012",
+"2026-11-07",
+"Edina",
+2,
+"Windy City Storm",
+0,
+"CCM World Invite"
+],
+[
+"2012",
+"2026-11-06",
+"Madison Capitols",
+1,
+"OMGHA",
+7,
+"CCM World Invite"
+],
+[
+"2012",
+"2026-11-06",
+"OMGHA",
+6,
+"Tampa Bay Jr Lightning",
+1,
+"CCM World Invite"
+],
+[
+"2012",
+"2026-11-07",
+"Chicago Fury",
+2,
+"OMGHA",
+1,
+"CCM World Invite"
+],
+[
+"2012",
+"2026-11-06",
+"Chicago Reapers",
+7,
+"Rochester Mustangs",
+0,
+"CCM World Invite"
+],
+[
+"2012",
+"2026-11-06",
+"Rochester Mustangs",
+0,
+"Florida Alliance",
+7,
+"CCM World Invite"
+],
+[
+"2012",
+"2026-11-07",
+"Rochester Mustangs",
+2,
+"Team Maryland",
+2,
+"CCM World Invite (Rochester won SO)"
+],
+[
+"2013",
+"2026-11-06",
+"HKMK Bled",
+1,
+"Team Illinois",
+8,
+"CCM World Invite"
+],
+[
+"2013",
+"2026-11-06",
+"Chicago Phantoms",
+6,
+"HKMK Bled",
+2,
+"CCM World Invite"
+],
+[
+"2013",
+"2026-11-07",
+"HKMK Bled",
+0,
+"Team Maryland",
+7,
+"CCM World Invite"
+],
+[
+"2013",
+"2026-11-07",
+"HKMK Bled",
+3,
+"Madison Capitols",
+5,
+"CCM World Invite"
+]
 ]
