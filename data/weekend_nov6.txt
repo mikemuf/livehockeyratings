@@ -25,3 +25,4 @@ Sun 10:15am: 216 MF 4-3 OT SYR. Scheduling: rescheduling the task needs Mike's a
 *** OVERRIDES (Mike, Sun Nov 8 10:17am) — these beat the task prompt ***
 - Weekend task is now a repeating HOURLY schedule (cron :15 every hour, every day) set by Mike. NEVER call update_trigger to reschedule (step 4 is obsolete) — every scheduled-task edit pops an approval on Mike's phone. Same for the Wednesday task (now weekly Wed 1:15 AM): do not reschedule it; if MHR hasn't published yet at 1:15, just say so — the next hourly weekend-task run can do the Wednesday update later that morning.
 - Mon–Fri hourly runs with no games: do the quick checks silently, send NO message unless there is a new final or a top-25 change.
+Sun 11:17am: 2013 SF WCS 2-1 MISSION, TI 4-2 MCM → F WCS vs TI 1:30. 2012 SF EDINA 2-0 FURY (unrated); OMGHA-MIL 2-2 in progress. 216 NOR-COL 1-1 live.
