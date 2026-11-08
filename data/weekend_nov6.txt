@@ -30,3 +30,4 @@ Sun 12:20pm: LAST MHR SCAN (2012) 12:20pm. Added 12 MHR finals (Shattuck 9-1 UCC
 *** OVERRIDE (Mike Sun 1:04pm): ALL games count — Edina, OMGHA, Rochester Mustangs (2012), HKMK Bled (2013) go into data/pending_games.json like everyone else (build.py whitelists them as new teams). data/unrated_games.json is now empty/unused. Shootouts: winner +1 goal (same as all other SO games).
 Sun 1:17pm: 216 REAPERS 3-1 ANA (216 Showcase complete).
 Sun 3:20pm: LAST MHR SCAN (2012) 3:20pm. 2013 CCM F: TI 4-2 WCS (TI champs). 2012 MHR: LC 7-0 Belle Tire, Woodbridge 8-0 Providence Caps (Elite), Biggby 3-0 Compuware, Seacoast 5-3 SSK Elite. CCM 2012 F Edina-OMGHA 2-3 still in progress.
+Sun 5:16pm: CCM 2012 F EDINA 5-3 OMGHA (Edina champs). Weekend events complete.
