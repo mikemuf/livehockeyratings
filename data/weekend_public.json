@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 6–8",
  "status": "Weekend complete",
- "updated": "Sun Nov 8, 8:40 PM CT",
+ "updated": "Sun Nov 8, 9:00 PM CT",
  "from": "2026-11-06",
  "to": "2026-11-09",
  "next": "Next weekend's preview (Nov 13–15) goes up Wednesday, after MHR posts its new ratings.",
@@ -56,13 +56,20 @@
   },
   "2015": {
    "summary": [
-    "Little Caesars (#1, 95.26 → 94.97) are still #1 but went 2-1-1: they lost 5-1 to Pittsburgh Penguins Elite (#2) and tied Florida Surf (#14) 4-4.",
-    "Florida Surf (#14, 91.64 → 91.85) were the spoiler. They beat Penguins Elite (#2) 2-1 and Mid-Fairfield Elite (#6) 4-2, then tied Little Caesars.",
-    "Mid-Fairfield Elite (#6 → now #4, 93.42) beat Penguins Elite twice (2-0 and 6-2) and lost 5-4 to Little Caesars.",
-    "Chicago Mission (#7, 92.63 → now #9, 92.48) dropped two spots after an upset 6-4 loss to Vegas (#30, 89.58). They bounced back to beat Woodbridge (#45) 8-1 and Queen City (#59) 6-1.",
-    "Biggby Coffee (#13 → #12) went 5-0. Victory Honda (#23 → #20) beat St Louis (#10, now #13) 6-4 and Florida Surf 4-1."
+    "Worcester Shamrocks (#3, 93.64 → 93.79) won the Chop Detroit Invitational in Brighton, MI at 5-0. They beat Little Caesars (#1) 10-6, Victory Honda twice, St Louis (#10) 4-1 and Mid-Fairfield Elite (#6) 2-1 in Sunday's finale.",
+    "Little Caesars (#1, 95.26 → 94.76) are still #1 but had a rough showcase at 2-2-1. They gave up 10 goals to Worcester, lost 5-1 to Pittsburgh Penguins Elite (#2) and tied Florida Surf (#14) 4-4.",
+    "Florida Surf (#14, 91.64 → 91.84) were the spoiler. They beat Penguins Elite (#2) 2-1 and Mid-Fairfield Elite (#6) 4-2, then tied Little Caesars.",
+    "Mid-Fairfield Elite (#6 → now #4, 93.40) went 3-2, with two wins over Penguins Elite (2-0 and 6-2).",
+    "Chicago Mission (#7, 92.63 → now #9, 92.44) dropped two spots after an upset 6-4 loss to Vegas (#30, 89.58). They bounced back to beat Woodbridge (#45) 8-1 and Queen City (#59) 6-1.",
+    "Biggby Coffee (#13, 91.92) went 5-0. Victory Honda (#23 → #20) beat St Louis (#10, now #12) 6-4 and Florida Surf 4-1."
    ],
-   "events": [],
+   "events": [
+    {
+     "name": "Chop Detroit Invitational",
+     "where": "Ice Cube, Brighton MI",
+     "result": "Worcester Shamrocks 5-0. Then Mid-Fairfield Elite 3-2, Little Caesars 2-2-1, Florida Surf 2-2-1, Victory Honda, Penguins Elite, St Louis, Chicago Fury"
+    }
+   ],
    "watch": []
   }
  },
