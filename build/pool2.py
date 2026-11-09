@@ -1,7 +1,7 @@
 # 2014 (USA 12U) + 2015 (USA 11U): one MHR pool (top 12U = 99.99), built like 2012/2013:
 # full game logs from the top-40 teams' Rating Math pages (data/math1?u_nov4.txt) + anchors from the
 # Nov 4 rank files; opponents seen only on math pages are anchored to the rating shown there.
-import re
+import re,glob
 TIER=re.compile(r' (12U|11U|U13|U12|M13|M12)\b(.*)$')
 def node(full):
     m=TIER.search(full)
@@ -20,7 +20,7 @@ def load_rank(fn,skip):
     return out
 def build():
     games={};ratings={};canada=set();xmap={'2014':{},'2015':{}}
-    for fn in ('data/math11u_nov4.txt','data/math12u_nov4.txt'):
+    for fn in sorted(glob.glob('data/math1[12]u_nov4*.txt')):
         try: L=open(fn).read().split('\nG\n')
         except FileNotFoundError: continue
         names={}
