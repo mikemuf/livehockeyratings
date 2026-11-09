@@ -1,5 +1,6 @@
 # Rebuild the Live Ratings app: Nov 2 base + Nov 4 MHR anchors + joint 13U/14U pool + games logged since + pending weekend games.
-import json,re
+import json,sys
+sys.path.insert(0,'build');import pool2,re
 h=open('build/base_nov2.html').read()
 def getline(name):
     i=h.index('const '+name);j=h.index('\n',i);return i,j
@@ -31,6 +32,8 @@ for f,dv in (('build/games_added_nov3.txt','2012'),('build/games13_added_nov4.tx
     for l in open(f):
         d,a,ga,b,gb=l.strip().split('|');add([dv,'2026-'+d,a,int(ga),b,int(gb)],rep)
 for g in json.load(open('data/pending_games.json')): add(g,rep)
+P2games,P2X,P2M,P2G,P2R,P2CA=pool2.build()
+BASE.extend(P2games);print('pool2 games',len(P2games))
 for r in rep: print(*r)
 h=h[:i]+'const BASE = '+json.dumps(BASE)+';'+h[j:]
 # --- anchors from Nov 4 rank files
@@ -58,6 +61,7 @@ for dv,fs in files.items():
 def setline(name,val):
     global h
     i=h.index('const '+name+'=');j=h.index('\n',i);h=h[:i]+'const '+name+'='+json.dumps(val)+';'+h[j:]
+M.update(P2M);G.update(P2G);R.update(P2R)
 setline('MHR_REC',R);setline('MHR_GP',G);setline('MHR',M)
 h=re.sub(r"const MHR_THROUGH='[^']*', MHR_PUBLISHED='[^']*';","const MHR_THROUGH='2026-11-03', MHR_PUBLISHED='Nov 4';",h)
 # --- joint-pool solver (13U+14U one MHR pool; ignore games vs 15U/16U/18U; dedupe cross-listed 13U-14U games)
@@ -86,7 +90,10 @@ def liteload(fn,skip):
         if len(p)<5 or skip in p[0]: continue
         w,l,t=map(int,p[1].split('-'));out[p[0]]=[float(p[2]),w,l,t,float(p[3]),float(p[4])]
     return out
-LITE={'2014':liteload('data/nov04_usa12.txt','11U'),'2015':liteload('data/nov04_usa11.txt','12U')}
+LITE={}
+h=h.replace("(MHR_REC[div]||{})[x.t]||x.rec.join('-')","(((MHR_REC[div]||{})[x.t]||'0-0-0')!=='0-0-0'?MHR_REC[div][x.t]:x.rec.join('-'))")
+h=h.replace('const XPOOL=','Object.assign(XMAP,'+json.dumps(P2X)+');\nconst XPOOL=',1)
+h=h.replace('CANADA_BASE = [','CANADA_BASE = ['+','.join(json.dumps(x) for x in P2CA)+(',' if P2CA else ''),1)
 h=h.replace('const BASE = ','const LITE='+json.dumps(LITE)+';\nconst BASE = ',1)
 i=h.index('const MHR=');j=h.index('\n',i);mh=json.loads(h[i+len('const MHR='):j].rstrip(';'))
 for dv in LITE: mh[dv]={t:a[0] for t,a in LITE[dv].items()}

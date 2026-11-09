@@ -4,17 +4,19 @@ const XMAP={'2012':{'Dallas Stars Elite (13U)':'2013|Dallas Stars','Thunder Bay 
 const XPOOL=/\b(1[5-8]U|U1[6-8])\b|\bHS\b/;
 const nodeOf=(dv,t)=>(XMAP[dv]&&XMAP[dv][t])||dv+'|'+t;
 const inPool=g=>!XPOOL.test(g[2])&&!XPOOL.test(g[4]);
+const POOLS={A:['2012','2013'],B:['2014','2015']},POOL_OF={'2012':'A','2013':'A','2014':'B','2015':'B'};
 const _pool={};
-function solvePool(extra){
-  const key=JSON.stringify(extra||[])+allGames().length;if(_pool.k===key)return _pool.v;
-  const all=allGames().concat(extra||[]);const G=[],xc={},_xs=new Set();
+function solvePool(extra,pool){
+  pool=pool||'A';const PD=POOLS[pool];const _c=_pool[pool]=_pool[pool]||{};
+  const key=JSON.stringify(extra||[])+allGames().length;if(_c.k===key)return _c.v;
+  const all=allGames().concat(extra||[]).filter(g=>PD.includes(g[0]));const G=[],xc={},_xs=new Set();
   for(const g of all){const [dv,dt,a,ga,b,gb]=g;const A=nodeOf(dv,a),B=nodeOf(dv,b);
     if(!inPool(g)){if(dt<=MHR_THROUGH)for(const [t,x] of [[a,A],[b,B]])if(!XPOOL.test(t))xc[x]=(xc[x]||0)+1;continue}
     const k=dt+'|'+(A<B?A+'|'+ga+'|'+B+'|'+gb:B+'|'+gb+'|'+A+'|'+ga);if(dv!==A.slice(0,4)||dv!==B.slice(0,4)){if(_xs.has(k))continue;_xs.add(k)}
     G.push([dv,dt,A,ga,B,gb])}
   const GB=G.filter(g=>g[1]<=MHR_THROUGH);
   const cur=rawSolve(G), base=rawSolve(GB);
-  const M={},MG={};for(const dv of ['2012','2013']){for(const t in (MHR[dv]||{}))M[dv+'|'+t]=MHR[dv][t];
+  const M={},MG={};for(const dv of PD){for(const t in (MHR[dv]||{}))M[dv+'|'+t]=MHR[dv][t];
     const g=(typeof MHR_GP!=='undefined'&&MHR_GP[dv])||{};for(const t in g)MG[dv+'|'+t]=g[t]-(xc[dv+'|'+t]||0)}
   const cs=[];for(const t in M){if(t in base.ix)cs.push(M[t]-base.r[base.ix[t]])}
   cs.sort((a,b)=>a-b);const off=cs.length?(cs.length%2?cs[(cs.length-1)/2]:(cs[cs.length/2-1]+cs[cs.length/2])/2):0;
@@ -37,10 +39,10 @@ function solvePool(extra){
     r=nw}
   if(n){const vals=Object.values(M);if(vals.length){const top=Math.max(...vals);let mx=-Infinity;for(let i=0;i<n;i++)if(teams[i] in M&&r[i]>mx)mx=r[i];if(isFinite(mx)){const sh=top-mx;for(let i=0;i<n;i++)r[i]+=sh}}}
   const sched=r.map((_,i)=>opp[i].reduce((s,j)=>s+r[j],0)/gp[i]);
-  const v={teams,ix,r,rec,agd,sched,gp,M,G,GB,ncomp:cur.ncomp,base};_pool.k=key;_pool.v=v;return v;
+  const v={teams,ix,r,rec,agd,sched,gp,M,G,GB,ncomp:cur.ncomp,base};_c.k=key;_c.v=v;return v;
 }
 function solveFull(dv,extra){
-  const P=solvePool(extra);const pre=dv+'|';
+  const P=solvePool(extra,POOL_OF[dv]);const pre=dv+'|';
   const rows=[];for(let i=0;i<P.teams.length;i++){const t=P.teams[i];if(!t.startsWith(pre))continue;
     const nm=t.slice(pre.length);rows.push({t:nm,r:P.r[i],rec:P.rec[i],agd:P.agd[i],sched:P.sched[i],gp:P.gp[i],mhr:(t in P.M)&&((MHR_REC[dv]||{})[nm]!=='0-0-0'),adj:P.r[i]-(P.sched[i]+P.agd[i])})}
   rows.sort((a,b)=>b.r-a.r);
