@@ -1,54 +1,70 @@
 {
  "label": "Weekend of Nov 6–8",
  "status": "Weekend complete",
- "updated": "Sun Nov 8, 8:30 PM CT",
+ "updated": "Sun Nov 8, 8:40 PM CT",
  "from": "2026-11-06",
  "to": "2026-11-09",
  "next": "Next weekend's preview (Nov 13–15) goes up Wednesday, after MHR posts its new ratings.",
  "divs": {
   "2012": {
    "summary": [
-    "Edina won the CCM World Invite (2012 Vizion), beating OMGHA 5-3 in the final. Edina went 6-0 with five shutouts.",
-    "OMGHA knocked out the Chicago Reapers 5-4 in the quarterfinals, then edged Milwaukee 4-3 in the semis.",
-    "Shattuck St Mary's swept Upper Canada College three times by a combined 27-1.",
-    "Woodbridge went 2-0 with shutouts of Neponset (5-0) and Providence Capitals (8-0)."
+    "Woodbridge Wolfpack (#4, 97.16 → now #6, 96.79): the weekend's biggest stumble. Went 2-2, with upset losses to East Coast Militia National (#51, 92.14) 3-2 and Atlantic Coast Academy (#25, 93.97) 4-0. Shutouts of Neponset (#22) and Providence Capitals Elite (#95) weren't enough to hold their spot.",
+    "East Coast Militia National (#51 → #47) were the giant-killers: they beat Woodbridge, Neponset (#22) 5-4 and ACA (#25) 5-3.",
+    "Edina (not in MHR's rankings yet, live 96.06) won the CCM World Invite 2012 Vizion at 6-0 with five shutouts, beating OMGHA (live 94.78) 5-3 in the final. OMGHA knocked out the Chicago Reapers (#17) 5-4 in the quarterfinals and Milwaukee (#47) 4-3 in the semis.",
+    "Team Illinois (#5 → #4) and Chicago Mission (#6 → #5, 96.98) moved up a spot each without playing, because Woodbridge dropped.",
+    "Biggby Coffee (#19 → #18, 94.96) went 3-0, including 8-1 over Fox Motors (#29). NJ Rockets (#15, 95.92) beat CT Jr Rangers National (#35) 8-0.",
+    "Shattuck St Mary's (#2, 99.63) went 3-0 against Upper Canada College by a combined 27-1, as expected."
    ],
    "events": [
-    {"name": "CCM World Invite – 2012 Vizion", "where": "Chicagoland", "result": "Champion: Edina (5-3 over OMGHA)"}
+    {
+     "name": "CCM World Invite – 2012 Vizion",
+     "where": "Chicagoland",
+     "result": "Champion: Edina (5-3 over OMGHA)"
+    }
    ],
    "watch": []
   },
   "2013": {
    "summary": [
-    "Team Illinois won the CCM World Invite (2013 Tacks), beating Windy City Storm 4-2 in the final.",
-    "Chicago Mission went 4-1. They beat Indiana Elite, Madison and Pittsburgh Predators, then won the quarterfinal 6-0 over Team Maryland before losing the semi 2-1 to Windy City.",
-    "Chicago Reapers finished the 216 Showcase with a 3-1 win over Anaheim on Sunday, and they're the live #1.",
-    "Windy City Storm reached the CCM final after upsetting HB Detroit and Mission."
+    "Team Illinois (#53, 87.24 → now #45, 87.81) won the CCM World Invite 2013 Tacks as a big underdog. They beat Team Maryland (#34), Indiana Elite in the quarterfinal, Music City (#28) 4-2 in the semi and Windy City Storm (#22) 4-2 in the final.",
+    "Chicago Mission (#12, 91.19 → now #9, 91.33) went 4-1 and outscored opponents 26-5. They beat Team Maryland 6-0 in the quarterfinal, then lost the semifinal 2-1 to Windy City (#22).",
+    "Windy City Storm (#22 → #23) upset HB Detroit (#23) and Mission to reach the CCM final, but lost 4-2 to Team Illinois.",
+    "Chicago Reapers (#1, 95.13 → 94.97) went 3-0-2 at the 216 Showcase and stay #1, but ties with Syracuse (#7) and Anaheim (#3) cost them a little rating. Syracuse (#7) moved up to 93.08."
    ],
    "events": [
-    {"name": "CCM World Invite – 2013 Tacks", "where": "Chicagoland", "result": "Champion: Team Illinois (4-2 over Windy City Storm)"},
-    {"name": "216 Showcase – 2013 Elite", "result": "Field: Chicago Reapers, Anaheim, Little Caesars, Mid-Fairfield, Syracuse, Cleveland, Nor'easters, Columbus"}
+    {
+     "name": "CCM World Invite – 2013 Tacks",
+     "where": "Chicagoland",
+     "result": "Champion: Team Illinois (4-2 over Windy City Storm)"
+    },
+    {
+     "name": "216 Showcase – 2013 Elite",
+     "result": "Field: Chicago Reapers, Anaheim, Little Caesars, Mid-Fairfield, Syracuse, Cleveland, Nor'easters, Columbus"
+    }
    ],
    "watch": []
   },
   "2014": {
    "summary": [
-    "Chicago Reapers went 3-1, beating Pittsburgh Predators (5-0), CarShield (7-2) and Indiana Elite (6-0) before falling 6-3 to Lehigh Valley.",
-    "Pittsburgh Penguins Elite went 1-3-1, with losses to Little Caesars, South Shore Kings and Boston Advantage.",
-    "North Jersey Avalanche beat Washington Little Capitals twice (7-0 and 13-2), and Vegas swept LA Jr Kings."
+    "Chicago Reapers (#19, 95.22 → now #18, 95.30) went 3-1, but their 6-3 loss to Lehigh Valley Phantoms (#35, 93.03) was the upset of the weekend.",
+    "Florida Alliance (#4, 98.63 → 98.41) tied Pittsburgh Penguins Elite (#10) 3-3, which cost them some rating.",
+    "Indiana Elite (#26 → #28) went 3-2, losing 6-0 to the Reapers and 1-0 to London Jr Knights.",
+    "Ohio Blue Jackets (#24 → #23) split with Belle Tire (#42), losing 6-5 and then winning 6-0. North Jersey Avalanche (#12) beat Washington (#109) 7-0 and 13-2."
    ],
    "events": [],
    "watch": []
   },
   "2015": {
    "summary": [
-    "Biggby Coffee went 5-0, including wins over Team Illinois and Vegas.",
-    "Chicago Mission went 2-1, losing 6-4 to Vegas, then beating Woodbridge 8-1 and Queen City 6-1.",
-    "Mid-Fairfield Elite beat Pittsburgh Penguins Elite twice, and Worcester Shamrocks went 3-0.",
-    "Lovell Elite won 1-0 over a 12U Springfield Thunderbirds team."
+    "Little Caesars (#1, 95.26 → 94.97) are still #1 but went 2-1-1: they lost 5-1 to Pittsburgh Penguins Elite (#2) and tied Florida Surf (#14) 4-4.",
+    "Florida Surf (#14, 91.64 → 91.85) were the spoiler. They beat Penguins Elite (#2) 2-1 and Mid-Fairfield Elite (#6) 4-2, then tied Little Caesars.",
+    "Mid-Fairfield Elite (#6 → now #4, 93.42) beat Penguins Elite twice (2-0 and 6-2) and lost 5-4 to Little Caesars.",
+    "Chicago Mission (#7, 92.63 → now #9, 92.48) dropped two spots after an upset 6-4 loss to Vegas (#30, 89.58). They bounced back to beat Woodbridge (#45) 8-1 and Queen City (#59) 6-1.",
+    "Biggby Coffee (#13 → #12) went 5-0. Victory Honda (#23 → #20) beat St Louis (#10, now #13) 6-4 and Florida Surf 4-1."
    ],
    "events": [],
    "watch": []
   }
- }
+ },
+ "note": "Ranks in notes: (#MHR rank before the weekend, rating) → live rank now."
 }
