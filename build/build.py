@@ -34,6 +34,12 @@ for f,dv in (('build/games_added_nov3.txt','2012'),('build/games13_added_nov4.tx
 for g in json.load(open('data/pending_games.json')): add(g,rep)
 P2games,P2X,P2M,P2G,P2R,P2CA=pool2.build()
 BASE.extend(P2games);print('pool2 games',len(P2games))
+# cross-age opponents in 2014/2015 pending games: 'Name (12U)' in a 2015 game / 'Name (11U)' in a 2014 game
+for g in json.load(open('data/pending_games.json')):
+    if g[0] not in ('2014','2015'): continue
+    for n in (g[2],g[4]):
+        for suf,dv in ((' (12U)','2014'),(' (11U)','2015')):
+            if n.endswith(suf) and dv!=g[0]: P2X.setdefault(g[0],{})[n]=dv+'|'+n[:-len(suf)]
 for r in rep: print(*r)
 h=h[:i]+'const BASE = '+json.dumps(BASE)+';'+h[j:]
 # --- anchors from Nov 4 rank files
