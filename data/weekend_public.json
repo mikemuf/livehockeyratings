@@ -1,0 +1,54 @@
+{
+ "label": "Weekend of Nov 6–8",
+ "status": "Weekend complete",
+ "updated": "Sun Nov 8, 8:30 PM CT",
+ "from": "2026-11-06",
+ "to": "2026-11-09",
+ "next": "Next weekend's preview (Nov 13–15) goes up Wednesday, after MHR posts its new ratings.",
+ "divs": {
+  "2012": {
+   "summary": [
+    "Edina won the CCM World Invite (2012 Vizion), beating OMGHA 5-3 in the final. Edina went 6-0 with five shutouts.",
+    "OMGHA knocked out the Chicago Reapers 5-4 in the quarterfinals, then edged Milwaukee 4-3 in the semis.",
+    "Shattuck St Mary's swept Upper Canada College three times by a combined 27-1.",
+    "Woodbridge went 2-0 with shutouts of Neponset (5-0) and Providence Capitals (8-0)."
+   ],
+   "events": [
+    {"name": "CCM World Invite – 2012 Vizion", "where": "Chicagoland", "result": "Champion: Edina (5-3 over OMGHA)"}
+   ],
+   "watch": []
+  },
+  "2013": {
+   "summary": [
+    "Team Illinois won the CCM World Invite (2013 Tacks), beating Windy City Storm 4-2 in the final.",
+    "Chicago Mission went 4-1. They beat Indiana Elite, Madison and Pittsburgh Predators, then won the quarterfinal 6-0 over Team Maryland before losing the semi 2-1 to Windy City.",
+    "Chicago Reapers finished the 216 Showcase with a 3-1 win over Anaheim on Sunday, and they're the live #1.",
+    "Windy City Storm reached the CCM final after upsetting HB Detroit and Mission."
+   ],
+   "events": [
+    {"name": "CCM World Invite – 2013 Tacks", "where": "Chicagoland", "result": "Champion: Team Illinois (4-2 over Windy City Storm)"},
+    {"name": "216 Showcase – 2013 Elite", "result": "Field: Chicago Reapers, Anaheim, Little Caesars, Mid-Fairfield, Syracuse, Cleveland, Nor'easters, Columbus"}
+   ],
+   "watch": []
+  },
+  "2014": {
+   "summary": [
+    "Chicago Reapers went 3-1, beating Pittsburgh Predators (5-0), CarShield (7-2) and Indiana Elite (6-0) before falling 6-3 to Lehigh Valley.",
+    "Pittsburgh Penguins Elite went 1-3-1, with losses to Little Caesars, South Shore Kings and Boston Advantage.",
+    "North Jersey Avalanche beat Washington Little Capitals twice (7-0 and 13-2), and Vegas swept LA Jr Kings."
+   ],
+   "events": [],
+   "watch": []
+  },
+  "2015": {
+   "summary": [
+    "Biggby Coffee went 5-0, including wins over Team Illinois and Vegas.",
+    "Chicago Mission went 2-1, losing 6-4 to Vegas, then beating Woodbridge 8-1 and Queen City 6-1.",
+    "Mid-Fairfield Elite beat Pittsburgh Penguins Elite twice, and Worcester Shamrocks went 3-0.",
+    "Lovell Elite won 1-0 over a 12U Springfield Thunderbirds team."
+   ],
+   "events": [],
+   "watch": []
+  }
+ }
+}
