@@ -1,0 +1,39 @@
+Little Caesars|Nov 6|Pittsburgh Penguins Elite (Mueller)|L 1-5
+Little Caesars|Nov 7|Mid-Fairfield Hockey Club (Elite)|W 5-4
+Little Caesars|Nov 7|Florida Surf|W 6-0
+Little Caesars|Nov 8|Florida Surf|T 4-4
+Pittsburgh Penguins Elite (Mueller)|Nov 6|Florida Surf|L 1-2
+Pittsburgh Penguins Elite (Mueller)|Nov 7|Chicago Fury|W 3-2
+Pittsburgh Penguins Elite (Mueller)|Nov 7|Mid-Fairfield Hockey Club (Elite)|L 0-2
+Pittsburgh Penguins Elite (Mueller)|Nov 8|Mid-Fairfield Hockey Club (Elite)|L 2-6
+Worcester Shamrocks|Nov 6|Chicago Fury|W 6-2
+Worcester Shamrocks|Nov 7|Victory Honda|W 1-0
+Worcester Shamrocks|Nov 8|Victory Honda|W 2-1
+Mid-Fairfield Hockey Club (Elite)|Nov 6|Florida Surf|L 2-4
+Mid-Fairfield Hockey Club (Elite)|Nov 6|St Louis Blues|W 6-3
+Chicago Mission|Nov 6|Vegas Jr Golden Knights|L 4-6
+Chicago Mission|Nov 6|Woodbridge Wolfpack|W 8-1
+Chicago Mission|Nov 7|Queen City Royals|W 6-1
+South Shore Kings (Elite)|Nov 7|Minuteman Flames (Elite)|W 8-0
+South Shore Kings (Elite)|Nov 8|Boston Jr Terriers (Elite)|W 2-1
+St Louis Blues|Nov 6|Victory Honda|L 4-6
+Bay State Breakers (Elite)|Nov 8|Providence Capitals (Elite)|W 4-1
+Biggby Coffee|Nov 6|CarShield|W 6-3
+Biggby Coffee|Nov 6|Team Illinois|W 5-1
+Biggby Coffee|Nov 7|Mid-Fairfield Hockey Club (T1)|W 4-2
+Biggby Coffee|Nov 7|Indiana Elite|W 7-3
+Biggby Coffee|Nov 8|Vegas Jr Golden Knights|W 5-1
+Florida Surf|Nov 7|Victory Honda|L 1-4
+Chicago Fury|Nov 6|Victory Honda|W 6-2
+Cleveland Barons|Nov 7|HB Detroit|W 7-0
+Cleveland Barons|Nov 8|Oakland Jr Grizzlies|T 4-4
+Cleveland Barons|Nov 8|Oakland Jr Grizzlies|W 4-0
+PAL Jr Islanders (Blue)|Nov 6|Madison Capitols|W 3-1
+PAL Jr Islanders (Blue)|Nov 6|Battle Creek Bombers 11U A|W 6-3
+PAL Jr Islanders (Blue)|Nov 7|Chicago Reapers|W 2-1
+Philadelphia Little Flyers|Nov 7|Valley Forge Minutemen|W 7-1
+Philadelphia Little Flyers|Nov 8|North Jersey Avalanche|L 1-4
+Philadelphia Little Flyers|Nov 8|North Jersey Avalanche|W 4-2
+Chicago Reapers|Nov 6|Madison Capitols|W 5-3
+Chicago Reapers|Nov 6|Queen City Royals|W 9-1
+North Jersey Avalanche|Nov 7|Connecticut Elite Hockey Academy|W 5-1

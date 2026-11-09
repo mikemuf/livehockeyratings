@@ -16,6 +16,9 @@ teams={dv:{x for g in BASE if g[0]==dv for x in (g[2],g[4])} for dv in ('2012','
 for dv,ns in {'2012':['Edina','OMGHA','Rochester Mustangs'],'2013':['HKMK Bled']}.items(): teams[dv].update(ns)
 have={(g[0],g[1],frozenset((g[2],g[4]))) for g in BASE}
 def add(g,report):
+    if g[0] in ('2014','2015'):
+        if g not in BASE: BASE.append(g)
+        return
     k=(g[0],g[1],frozenset((g[2],g[4])))
     bad=[t for t in (g[2],g[4]) if t not in teams[g[0]]]
     if bad: report.append(('unknown',g,bad));return
@@ -74,4 +77,23 @@ rep("<style>","<style>.mv{font-size:11px;font-weight:700;margin-left:6px;white-s
 UNR=json.load(open('data/unrated_games.json'))
 rep("function renderRank(S){","const UNRATED="+json.dumps(UNR)+";\nfunction unratedTable(){const S=cache[div];const G=UNRATED.filter(g=>g[0]===div);const known=new Set(S?S.rows.map(x=>x.t):[]);const T={};G.forEach(g=>{[[2,3,4,5],[4,5,2,3]].forEach(([a,af,b,bf])=>{const t=g[a];if(known.has(t))return;const o=T[t]=T[t]||{w:0,l:0,t:0,gf:0,ga:0,games:[],d:[],op:[]};const f=g[af],x=g[bf];o.gf+=f;o.ga+=x;f>x?o.w++:f<x?o.l++:o.t++;const opp=S&&S.byName[g[b]];if(opp){o.d.push(Math.max(-7,Math.min(7,f-x)));o.op.push(opp.r)}o.games.push(`${g[1].slice(5)} ${f>x?'W':f<x?'L':'T'} ${f}-${x} vs ${g[b]}${opp?' ('+f2(opp.r)+')':''}`)})});const ks=Object.keys(T);ks.forEach(k=>{const o=T[k],n=o.d.length;o.agd=n?o.d.reduce((a,b)=>a+b,0)/n:null;o.sch=n?o.op.reduce((a,b)=>a+b,0)/n:null;o.r=n?o.agd+o.sch:null});ks.sort((a,b)=>(T[b].r??-1e9)-(T[a].r??-1e9));if(!ks.length)return '';let h=`<h2>Under 5 games — rating not published by MHR<span class=\"n\">${ks.length}</span></h2><p class=\"small\">MHR keeps a rating for these teams but doesn’t publish it until 5 games. Estimated here with MHR’s formula (average goal differential, capped at ±7, plus average opponent rating) from the games below. Display only: these games don’t change any other team’s rating.</p><div class=\"wrap\"><table><thead><tr><th class=\"t\">Team</th><th>Rating</th><th>Rec</th><th>AGD</th><th>Sched</th><th>GP</th><th class=\"t\">Games</th></tr></thead><tbody>`;ks.forEach(k=>{const o=T[k];h+=`<tr><td class=\"t\">${esc(k)}</td><td class=\"rating\"><span class=\"num\">${o.r==null?'—':f2(o.r)}</span></td><td>${o.w}-${o.l}-${o.t}</td><td class=\"${(o.agd??0)>=0?'pos':'neg'}\">${o.agd==null?'':fs(o.agd)}</td><td>${o.sch==null?'':f2(o.sch)}</td><td>${o.games.length}</td><td class=\"t small\">${o.games.map(esc).join('<br>')}</td></tr>`});return h+'</tbody></table></div>'}\nfunction renderRank(S){")
 rep("  h+='<p class=\"legend\"><span class=\"mv up\">","  h+=unratedTable();\n  h+='<p class=\"legend\"><span class=\"mv up\">")
+
+# --- 2014 (USA 12U) and 2015 (USA 11U) "lite" divisions: anchored to MHR rank pages, live games folded in
+def liteload(fn,skip):
+    out={}
+    for line in open(fn):
+        p=line.strip().split('|')
+        if len(p)<5 or skip in p[0]: continue
+        w,l,t=map(int,p[1].split('-'));out[p[0]]=[float(p[2]),w,l,t,float(p[3]),float(p[4])]
+    return out
+LITE={'2014':liteload('data/nov04_usa12.txt','11U'),'2015':liteload('data/nov04_usa11.txt','12U')}
+h=h.replace('const BASE = ','const LITE='+json.dumps(LITE)+';\nconst BASE = ',1)
+i=h.index('const MHR=');j=h.index('\n',i);mh=json.loads(h[i+len('const MHR='):j].rstrip(';'))
+for dv in LITE: mh[dv]={t:a[0] for t,a in LITE[dv].items()}
+h=h[:i]+'const MHR='+json.dumps(mh)+';'+h[j:]
+rep('<button data-div="2013">2013 Minor</button>','<button data-div="2013">2013 Minor</button><button data-div="2014">2014 Major</button><button data-div="2015">2015 Minor</button>')
+rep('<option value="2013">2013 Bantam Minor</option>','<option value="2013">2013 Bantam Minor</option><option value="2014">2014 Peewee Major (12U)</option><option value="2015">2015 Peewee Minor (11U)</option>')
+rep('<small>2026-27 Bantam</small>','<small>2026-27 Bantam &amp; Peewee</small>')
+rep('<style>','<style>.bar{flex-wrap:wrap;row-gap:6px}@media (max-width:560px){.seg{margin-left:0;width:100%}.seg button{flex:1;padding:6px 4px}}')
+h=h.replace("div==='2012'?'2012 Bantam Major':'2013 Bantam Minor'","({'2012':'2012 Bantam Major','2013':'2013 Bantam Minor','2014':'2014 Peewee Major (12U)','2015':'2015 Peewee Minor (11U)'})[div]")
 open('index.html','w').write(h);print('ok',len(h))
