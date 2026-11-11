@@ -718,5 +718,305 @@
 "yr": 2013,
 "pool": 1,
 "rating": 90.17
+},
+"14-0": {
+"name": "Middlesex Islanders East (Elite)",
+"yr": 2014,
+"pool": 0,
+"rating": 99.99
+},
+"14-1": {
+"name": "Little Caesars",
+"yr": 2014,
+"pool": 0,
+"rating": 99.24
+},
+"14-2": {
+"name": "Boston Advantage (Elite)",
+"yr": 2014,
+"pool": 0,
+"rating": 98.7
+},
+"14-3": {
+"name": "Florida Alliance",
+"yr": 2014,
+"pool": 0,
+"rating": 98.34
+},
+"14-4": {
+"name": "Boston Jr Eagles (Elite)",
+"yr": 2014,
+"pool": 0,
+"rating": 97.66
+},
+"14-5": {
+"name": "Buffalo Jr Sabres",
+"yr": 2014,
+"pool": 0,
+"rating": 97.15
+},
+"14-6": {
+"name": "Top Gun (Elite)",
+"yr": 2014,
+"pool": 0,
+"rating": 97.29
+},
+"14-7": {
+"name": "Chicago Fury",
+"yr": 2014,
+"pool": 0,
+"rating": 97.35
+},
+"14-8": {
+"name": "Mid-Fairfield Hockey Club (Elite)",
+"yr": 2014,
+"pool": 0,
+"rating": 96.16
+},
+"14-9": {
+"name": "Pittsburgh Penguins Elite (Mueller)",
+"yr": 2014,
+"pool": 0,
+"rating": 96.08
+},
+"14-10": {
+"name": "St Louis Blues",
+"yr": 2014,
+"pool": 0,
+"rating": 95.82
+},
+"14-11": {
+"name": "North Jersey Avalanche",
+"yr": 2014,
+"pool": 0,
+"rating": 95.76
+},
+"14-12": {
+"name": "South Shore Kings (Elite)",
+"yr": 2014,
+"pool": 0,
+"rating": 95.72
+},
+"14-13": {
+"name": "Florida Surf",
+"yr": 2014,
+"pool": 0,
+"rating": 95.67
+},
+"14-14": {
+"name": "Victory Honda",
+"yr": 2014,
+"pool": 0,
+"rating": 95.32
+},
+"14-15": {
+"name": "Boston Jr Terriers (Elite)",
+"yr": 2014,
+"pool": 0,
+"rating": 95.06
+},
+"14-16": {
+"name": "Anaheim Jr Ducks",
+"yr": 2014,
+"pool": 0,
+"rating": 95.13
+},
+"14-17": {
+"name": "Chicago Reapers",
+"yr": 2014,
+"pool": 0,
+"rating": 95.2
+},
+"14-18": {
+"name": "Vegas Jr Golden Knights",
+"yr": 2014,
+"pool": 0,
+"rating": 95.26
+},
+"14-19": {
+"name": "Dallas Stars Elite",
+"yr": 2014,
+"pool": 0,
+"rating": 94.74
+},
+"14-20": {
+"name": "HB Detroit",
+"yr": 2014,
+"pool": 0,
+"rating": 94.17
+},
+"14-21": {
+"name": "Woodbridge Wolfpack",
+"yr": 2014,
+"pool": 0,
+"rating": 94.07
+},
+"14-22": {
+"name": "Ohio Blue Jackets",
+"yr": 2014,
+"pool": 0,
+"rating": 94.02
+},
+"14-23": {
+"name": "Buffalo Bisons 12U AA",
+"yr": 2014,
+"pool": 0,
+"rating": 93.64
+},
+"14-24": {
+"name": "Cleveland Barons",
+"yr": 2014,
+"pool": 0,
+"rating": 93.76
+},
+"15-0": {
+"name": "Little Caesars",
+"yr": 2015,
+"pool": 0,
+"rating": 94.67
+},
+"15-1": {
+"name": "Pittsburgh Penguins Elite (Mueller)",
+"yr": 2015,
+"pool": 0,
+"rating": 93.71
+},
+"15-2": {
+"name": "Worcester Shamrocks",
+"yr": 2015,
+"pool": 0,
+"rating": 93.65
+},
+"15-3": {
+"name": "Mid-Fairfield Hockey Club (Elite)",
+"yr": 2015,
+"pool": 0,
+"rating": 93.29
+},
+"15-4": {
+"name": "Boston Jr Eagles (Elite)",
+"yr": 2015,
+"pool": 0,
+"rating": 93.01
+},
+"15-5": {
+"name": "Lovell Winter Club (Elite)",
+"yr": 2015,
+"pool": 0,
+"rating": 93.19
+},
+"15-6": {
+"name": "Dallas Stars Elite",
+"yr": 2015,
+"pool": 0,
+"rating": 92.45
+},
+"15-7": {
+"name": "South Shore Kings (Elite)",
+"yr": 2015,
+"pool": 0,
+"rating": 92.36
+},
+"15-8": {
+"name": "Chicago Mission",
+"yr": 2015,
+"pool": 0,
+"rating": 92.3
+},
+"15-9": {
+"name": "Top Gun (Elite)",
+"yr": 2015,
+"pool": 0,
+"rating": 92.06
+},
+"15-10": {
+"name": "Providence Capitals (Elite)",
+"yr": 2015,
+"pool": 0,
+"rating": 91.8
+},
+"15-11": {
+"name": "St Louis Blues",
+"yr": 2015,
+"pool": 0,
+"rating": 91.9
+},
+"15-12": {
+"name": "Biggby Coffee",
+"yr": 2015,
+"pool": 0,
+"rating": 91.85
+},
+"15-13": {
+"name": "Florida Surf",
+"yr": 2015,
+"pool": 0,
+"rating": 91.68
+},
+"15-14": {
+"name": "Cleveland Barons",
+"yr": 2015,
+"pool": 0,
+"rating": 91.3
+},
+"15-15": {
+"name": "Bay State Breakers (Elite)",
+"yr": 2015,
+"pool": 0,
+"rating": 91.3
+},
+"15-16": {
+"name": "Chicago Fury",
+"yr": 2015,
+"pool": 0,
+"rating": 91.23
+},
+"15-17": {
+"name": "Florida Alliance",
+"yr": 2015,
+"pool": 0,
+"rating": 90.78
+},
+"15-18": {
+"name": "PAL Jr Islanders (Blue)",
+"yr": 2015,
+"pool": 0,
+"rating": 90.58
+},
+"15-19": {
+"name": "Victory Honda",
+"yr": 2015,
+"pool": 0,
+"rating": 90.45
+},
+"15-20": {
+"name": "Chicago Reapers",
+"yr": 2015,
+"pool": 0,
+"rating": 90.29
+},
+"15-21": {
+"name": "Philadelphia Hockey Club",
+"yr": 2015,
+"pool": 0,
+"rating": 90.04
+},
+"15-22": {
+"name": "Philadelphia Little Flyers",
+"yr": 2015,
+"pool": 0,
+"rating": 90.06
+},
+"15-23": {
+"name": "Oakland Jr Grizzlies",
+"yr": 2015,
+"pool": 0,
+"rating": 90.03
+},
+"15-24": {
+"name": "North Jersey Avalanche",
+"yr": 2015,
+"pool": 0,
+"rating": 90.01
 }
 }

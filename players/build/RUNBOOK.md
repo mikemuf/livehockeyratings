@@ -5,7 +5,7 @@ A second copy is kept as a Claude artifact (https://claude.ai/artifact/GD1DB4Csb
 
 ## Rules
 
-- Team list is frozen (`data/teams.json`, 50 USA + 10 Ontario per birth year). Do not add or remove teams unless Mike asks.
+- Team list is frozen (`data/teams.json`): Bantam = 50 USA + 10 Ontario for each of 2012 and 2013; Peewee = 25 USA for each of 2014 and 2015 (added Nov 11, 2026 from the Nov 10 ranking). Do not add or remove teams unless Mike asks.
 - Read InStat through rendered pages only (hidden same-origin iframes). Do not intercept or call InStat's internal API.
 - Never enter a password. If InStat shows a sign-in page, stop and tell Mike he needs to sign in to Hudl in the Claude desktop app's browser.
 - Hand corrections live in the page itself and must survive: `POSFIX` (positions), `BORN` and `GBORN` (2013-born players on 2012 teams), `mult` (16% per rating point, 95 = 1.00), `MINGP`. `inject.py` does not touch them.
@@ -46,4 +46,5 @@ Each new game is read twice: the Overview page (box score) and the Skaters page 
 
 - New players get InStat's own position label, which is unreliable. `pos.json` holds the positions inferred on Nov 10, 2026 from line combinations and faceoffs; re-running that inference needs a separate pull of each team's Lines and Faceoffs pages and is not part of the weekly run.
 - The team overview page lists a team's last 25 games. That covers a weekly run; after a gap of several weeks, check the team's Games tab as well.
+- Peewee positions come from `positions_lines.py` (line units + faceoffs) run on `data/lines_peewee.json`, pulled Nov 11, 2026. Peewee teams with no InStat games: 2014 Top Gun; 2015 Boston Jr Eagles, Lovell Winter Club (not found in InStat), South Shore Kings, Bay State Breakers. Several eastern Peewee teams have only 1 to 5 games.
 - InStat team ids per database team are in `wanted.json`. Teams with no InStat data: 2012 MN Lakers, MN Grey Ducks, MN Moose; 2013 Team North Dakota, MN Blue Ox.
