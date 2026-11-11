@@ -1,0 +1,722 @@
+{
+"12-0": {
+"name": "Mid-Fairfield",
+"yr": 2012,
+"pool": 0,
+"rating": 99.99
+},
+"12-1": {
+"name": "Shattuck St Mary's",
+"yr": 2012,
+"pool": 0,
+"rating": 99.63
+},
+"12-2": {
+"name": "Little Caesars",
+"yr": 2012,
+"pool": 0,
+"rating": 97.49
+},
+"12-3": {
+"name": "Team Illinois",
+"yr": 2012,
+"pool": 0,
+"rating": 97.01
+},
+"12-4": {
+"name": "Chicago Mission",
+"yr": 2012,
+"pool": 0,
+"rating": 96.98
+},
+"12-5": {
+"name": "Woodbridge Wolfpack",
+"yr": 2012,
+"pool": 0,
+"rating": 96.79
+},
+"12-6": {
+"name": "Nashville Jr. Predators",
+"yr": 2012,
+"pool": 0,
+"rating": 96.55
+},
+"12-7": {
+"name": "Mount St Charles",
+"yr": 2012,
+"pool": 0,
+"rating": 96.5
+},
+"12-8": {
+"name": "MN Green Giants",
+"yr": 2012,
+"pool": 0,
+"rating": 96.34
+},
+"12-9": {
+"name": "Top Gun (Elite)",
+"yr": 2012,
+"pool": 0,
+"rating": 96.31
+},
+"12-10": {
+"name": "Pittsburgh Penguins Elite",
+"yr": 2012,
+"pool": 0,
+"rating": 96.27
+},
+"12-11": {
+"name": "Bishop Kearney Selects",
+"yr": 2012,
+"pool": 0,
+"rating": 96.26
+},
+"12-12": {
+"name": "MN Lakers",
+"yr": 2012,
+"pool": 0,
+"rating": 96.04
+},
+"12-13": {
+"name": "HB Detroit",
+"yr": 2012,
+"pool": 0,
+"rating": 95.96
+},
+"12-14": {
+"name": "NJ Rockets",
+"yr": 2012,
+"pool": 0,
+"rating": 95.92
+},
+"12-15": {
+"name": "Chicago Reapers",
+"yr": 2012,
+"pool": 0,
+"rating": 95.73
+},
+"12-16": {
+"name": "LA Jr Kings",
+"yr": 2012,
+"pool": 0,
+"rating": 95.71
+},
+"12-17": {
+"name": "Biggby Coffee",
+"yr": 2012,
+"pool": 0,
+"rating": 94.96
+},
+"12-18": {
+"name": "Boston Jr Eagles (Elite)",
+"yr": 2012,
+"pool": 0,
+"rating": 94.86
+},
+"12-19": {
+"name": "PAL Jr Islanders",
+"yr": 2012,
+"pool": 0,
+"rating": 94.53
+},
+"12-20": {
+"name": "NJ Colonials",
+"yr": 2012,
+"pool": 0,
+"rating": 94.53
+},
+"12-21": {
+"name": "Seacoast Performance Academy",
+"yr": 2012,
+"pool": 0,
+"rating": 94.24
+},
+"12-22": {
+"name": "Philadelphia Hockey Club",
+"yr": 2012,
+"pool": 0,
+"rating": 94.22
+},
+"12-23": {
+"name": "Neponset Valley River Rats",
+"yr": 2012,
+"pool": 0,
+"rating": 94.17
+},
+"12-24": {
+"name": "Atlantic Coast Academy",
+"yr": 2012,
+"pool": 0,
+"rating": 93.95
+},
+"12-25": {
+"name": "St. Louis Blues",
+"yr": 2012,
+"pool": 0,
+"rating": 93.9
+},
+"12-26": {
+"name": "Masters Academy",
+"yr": 2012,
+"pool": 0,
+"rating": 93.76
+},
+"12-27": {
+"name": "Ohio Blue Jackets",
+"yr": 2012,
+"pool": 0,
+"rating": 93.75
+},
+"12-28": {
+"name": "Dallas Stars Elite",
+"yr": 2012,
+"pool": 0,
+"rating": 93.62
+},
+"12-29": {
+"name": "North Jersey Avalanche",
+"yr": 2012,
+"pool": 0,
+"rating": 93.59
+},
+"12-30": {
+"name": "MN Grey Ducks",
+"yr": 2012,
+"pool": 0,
+"rating": 93.55
+},
+"12-31": {
+"name": "Phoenix Jr Coyotes",
+"yr": 2012,
+"pool": 0,
+"rating": 93.48
+},
+"12-32": {
+"name": "Fox Motors",
+"yr": 2012,
+"pool": 0,
+"rating": 93.46
+},
+"12-33": {
+"name": "Minuteman Flames (Elite)",
+"yr": 2012,
+"pool": 0,
+"rating": 93.44
+},
+"12-34": {
+"name": "Team North Dakota",
+"yr": 2012,
+"pool": 0,
+"rating": 93.44
+},
+"12-35": {
+"name": "Windy City Storm",
+"yr": 2012,
+"pool": 0,
+"rating": 93.32
+},
+"12-36": {
+"name": "Connecticut Jr Rangers (National)",
+"yr": 2012,
+"pool": 0,
+"rating": 93.29
+},
+"12-37": {
+"name": "MN Moose",
+"yr": 2012,
+"pool": 0,
+"rating": 93.22
+},
+"12-38": {
+"name": "Victory Honda",
+"yr": 2012,
+"pool": 0,
+"rating": 93.22
+},
+"12-39": {
+"name": "Washington Little Capitals",
+"yr": 2012,
+"pool": 0,
+"rating": 93.03
+},
+"12-40": {
+"name": "Chicago Fury",
+"yr": 2012,
+"pool": 0,
+"rating": 92.95
+},
+"12-41": {
+"name": "Okanagan",
+"yr": 2012,
+"pool": 0,
+"rating": 92.88
+},
+"12-42": {
+"name": "South Shore Kings Elite",
+"yr": 2012,
+"pool": 0,
+"rating": 92.87
+},
+"12-43": {
+"name": "Buffalo Jr Sabres",
+"yr": 2012,
+"pool": 0,
+"rating": 92.8
+},
+"12-44": {
+"name": "MN Blue Ox",
+"yr": 2012,
+"pool": 0,
+"rating": 92.7
+},
+"12-45": {
+"name": "Pittsburgh Stars",
+"yr": 2012,
+"pool": 0,
+"rating": 92.64
+},
+"12-46": {
+"name": "East Coast Militia (National)",
+"yr": 2012,
+"pool": 0,
+"rating": 92.57
+},
+"12-47": {
+"name": "Milwaukee Jr Admirals",
+"yr": 2012,
+"pool": 0,
+"rating": 92.43
+},
+"12-48": {
+"name": "Jersey Hitmen",
+"yr": 2012,
+"pool": 0,
+"rating": 92.36
+},
+"12-49": {
+"name": "Sylvania North Stars",
+"yr": 2012,
+"pool": 0,
+"rating": 92.18
+},
+"12-C0": {
+"name": "Toronto Marlboros",
+"yr": 2012,
+"pool": 1,
+"rating": 98.66
+},
+"12-C1": {
+"name": "North York Rangers",
+"yr": 2012,
+"pool": 1,
+"rating": 98.29
+},
+"12-C2": {
+"name": "Toronto Jr Canadiens",
+"yr": 2012,
+"pool": 1,
+"rating": 98.0
+},
+"12-C3": {
+"name": "York Simcoe Express",
+"yr": 2012,
+"pool": 1,
+"rating": 96.98
+},
+"12-C4": {
+"name": "Ottawa Valley Titans",
+"yr": 2012,
+"pool": 1,
+"rating": 96.28
+},
+"12-C5": {
+"name": "Chatham-Kent Cyclones",
+"yr": 2012,
+"pool": 1,
+"rating": 96.15
+},
+"12-C6": {
+"name": "Vaughan Kings",
+"yr": 2012,
+"pool": 1,
+"rating": 96.04
+},
+"12-C7": {
+"name": "Toronto Titans",
+"yr": 2012,
+"pool": 1,
+"rating": 96.0
+},
+"12-C8": {
+"name": "Mississauga Rebels",
+"yr": 2012,
+"pool": 1,
+"rating": 95.98
+},
+"12-C9": {
+"name": "Niagara North Stars",
+"yr": 2012,
+"pool": 1,
+"rating": 95.95
+},
+"13-0": {
+"name": "Chicago Reapers",
+"yr": 2013,
+"pool": 0,
+"rating": 94.97
+},
+"13-1": {
+"name": "MN Lakers",
+"yr": 2013,
+"pool": 0,
+"rating": 94.68
+},
+"13-2": {
+"name": "Anaheim Jr Ducks",
+"yr": 2013,
+"pool": 0,
+"rating": 94.36
+},
+"13-3": {
+"name": "Little Caesars",
+"yr": 2013,
+"pool": 0,
+"rating": 93.74
+},
+"13-4": {
+"name": "Mid-Fairfield",
+"yr": 2013,
+"pool": 0,
+"rating": 93.63
+},
+"13-5": {
+"name": "Woodbridge Wolfpack",
+"yr": 2013,
+"pool": 0,
+"rating": 93.13
+},
+"13-6": {
+"name": "Syracuse Nationals",
+"yr": 2013,
+"pool": 0,
+"rating": 93.08
+},
+"13-7": {
+"name": "Cleveland Barons",
+"yr": 2013,
+"pool": 0,
+"rating": 92.42
+},
+"13-8": {
+"name": "Chicago Mission",
+"yr": 2013,
+"pool": 0,
+"rating": 91.33
+},
+"13-9": {
+"name": "Pittsburgh Penguins Elite",
+"yr": 2013,
+"pool": 0,
+"rating": 91.3
+},
+"13-10": {
+"name": "Nor'easters",
+"yr": 2013,
+"pool": 0,
+"rating": 91.24
+},
+"13-11": {
+"name": "Boston Jr Eagles",
+"yr": 2013,
+"pool": 0,
+"rating": 91.23
+},
+"13-12": {
+"name": "Dallas Stars",
+"yr": 2013,
+"pool": 0,
+"rating": 91.12
+},
+"13-13": {
+"name": "MN Moose",
+"yr": 2013,
+"pool": 0,
+"rating": 91.12
+},
+"13-14": {
+"name": "Middlesex Islanders",
+"yr": 2013,
+"pool": 0,
+"rating": 91.1
+},
+"13-15": {
+"name": "MN Grey Ducks",
+"yr": 2013,
+"pool": 0,
+"rating": 90.94
+},
+"13-16": {
+"name": "Colorado Thunderbirds",
+"yr": 2013,
+"pool": 0,
+"rating": 90.68
+},
+"13-17": {
+"name": "Philadelphia Hockey Club",
+"yr": 2013,
+"pool": 0,
+"rating": 90.36
+},
+"13-18": {
+"name": "Milwaukee Jr Admirals",
+"yr": 2013,
+"pool": 0,
+"rating": 90.34
+},
+"13-19": {
+"name": "MN Walleye",
+"yr": 2013,
+"pool": 0,
+"rating": 90.34
+},
+"13-20": {
+"name": "Ohio Jr Bluejackets",
+"yr": 2013,
+"pool": 0,
+"rating": 90.32
+},
+"13-21": {
+"name": "HB Detroit",
+"yr": 2013,
+"pool": 0,
+"rating": 90.15
+},
+"13-22": {
+"name": "Windy City Storm",
+"yr": 2013,
+"pool": 0,
+"rating": 90.0
+},
+"13-23": {
+"name": "MN Loons",
+"yr": 2013,
+"pool": 0,
+"rating": 89.89
+},
+"13-24": {
+"name": "Philadelphia Jr Flyers",
+"yr": 2013,
+"pool": 0,
+"rating": 89.82
+},
+"13-25": {
+"name": "Music City Marauders",
+"yr": 2013,
+"pool": 0,
+"rating": 89.74
+},
+"13-26": {
+"name": "Team North Dakota",
+"yr": 2013,
+"pool": 0,
+"rating": 89.61
+},
+"13-27": {
+"name": "St. Louis Blues",
+"yr": 2013,
+"pool": 0,
+"rating": 89.51
+},
+"13-28": {
+"name": "Buffalo Jr Sabres",
+"yr": 2013,
+"pool": 0,
+"rating": 89.29
+},
+"13-29": {
+"name": "Bay State Breakers",
+"yr": 2013,
+"pool": 0,
+"rating": 89.22
+},
+"13-30": {
+"name": "MN Green Giants",
+"yr": 2013,
+"pool": 0,
+"rating": 89.15
+},
+"13-31": {
+"name": "NJ Rockets",
+"yr": 2013,
+"pool": 0,
+"rating": 89.07
+},
+"13-32": {
+"name": "Compuware",
+"yr": 2013,
+"pool": 0,
+"rating": 88.99
+},
+"13-33": {
+"name": "San Jose Jr Sharks",
+"yr": 2013,
+"pool": 0,
+"rating": 88.76
+},
+"13-34": {
+"name": "Team Maryland",
+"yr": 2013,
+"pool": 0,
+"rating": 88.74
+},
+"13-35": {
+"name": "Fox Motors",
+"yr": 2013,
+"pool": 0,
+"rating": 88.65
+},
+"13-36": {
+"name": "LA Jr Kings",
+"yr": 2013,
+"pool": 0,
+"rating": 88.63
+},
+"13-37": {
+"name": "PAL Islanders",
+"yr": 2013,
+"pool": 0,
+"rating": 88.6
+},
+"13-38": {
+"name": "Phoenix Jr Coyotes",
+"yr": 2013,
+"pool": 0,
+"rating": 88.5
+},
+"13-39": {
+"name": "New Jersey Colonials",
+"yr": 2013,
+"pool": 0,
+"rating": 88.5
+},
+"13-40": {
+"name": "Long Island Royals",
+"yr": 2013,
+"pool": 0,
+"rating": 88.32
+},
+"13-41": {
+"name": "Tampa Bay Jr Lightning",
+"yr": 2013,
+"pool": 0,
+"rating": 88.31
+},
+"13-42": {
+"name": "Rochester Saints",
+"yr": 2013,
+"pool": 0,
+"rating": 88.1
+},
+"13-43": {
+"name": "Vegas Jr Golden Knights",
+"yr": 2013,
+"pool": 0,
+"rating": 88.04
+},
+"13-44": {
+"name": "Team Illinois",
+"yr": 2013,
+"pool": 0,
+"rating": 87.81
+},
+"13-45": {
+"name": "Pittsburgh Predators",
+"yr": 2013,
+"pool": 0,
+"rating": 87.7
+},
+"13-46": {
+"name": "MN Blue Ox",
+"yr": 2013,
+"pool": 0,
+"rating": 87.64
+},
+"13-47": {
+"name": "Springfield Jr Thunderbirds (Elite #1)",
+"yr": 2013,
+"pool": 0,
+"rating": 87.55
+},
+"13-48": {
+"name": "Chicago Fury",
+"yr": 2013,
+"pool": 0,
+"rating": 87.42
+},
+"13-49": {
+"name": "Minuteman Flames",
+"yr": 2013,
+"pool": 0,
+"rating": 87.4
+},
+"13-C0": {
+"name": "Toronto Marlboros",
+"yr": 2013,
+"pool": 1,
+"rating": 94.53
+},
+"13-C1": {
+"name": "Toronto Jr Canadiens",
+"yr": 2013,
+"pool": 1,
+"rating": 92.9
+},
+"13-C2": {
+"name": "Vaughan Kings",
+"yr": 2013,
+"pool": 1,
+"rating": 92.57
+},
+"13-C3": {
+"name": "Toronto Nationals",
+"yr": 2013,
+"pool": 1,
+"rating": 92.4
+},
+"13-C4": {
+"name": "Waterloo Wolves",
+"yr": 2013,
+"pool": 1,
+"rating": 91.63
+},
+"13-C5": {
+"name": "Quinte Red Devils",
+"yr": 2013,
+"pool": 1,
+"rating": 91.06
+},
+"13-C6": {
+"name": "Toronto Red Wings",
+"yr": 2013,
+"pool": 1,
+"rating": 90.9
+},
+"13-C7": {
+"name": "Huron-Perth Lakers",
+"yr": 2013,
+"pool": 1,
+"rating": 90.69
+},
+"13-C8": {
+"name": "Ottawa Myers Automotive",
+"yr": 2013,
+"pool": 1,
+"rating": 90.49
+},
+"13-C9": {
+"name": "Toronto Titans",
+"yr": 2013,
+"pool": 1,
+"rating": 90.17
+}
+}
