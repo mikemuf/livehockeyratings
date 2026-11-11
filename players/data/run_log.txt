@@ -4,3 +4,4 @@
 2026-11-11 Peewee added: 50 teams (2014, 2015), +421 games (1772 stored), 2531 skaters, 354 goalies, 2467 team-games, 160 teams with data
 2026-11-11 Ontario Peewee added: 20 teams, +157 games (1929 stored), 2817 skaters, 395 goalies, 2665 team-games, 180 teams with data; canary ok incl. PP
 2026-11-11 Show-more fix: every team re-checked back to Aug 1; +46 games (1975 stored), 2820 skaters, 396 goalies, 2715 team-games
+2026-11-11 15U (2011) added: 50 teams, +628 games (2603 stored), 3653 skaters, 498 goalies, 3560 team-games, 227 teams with data; cross-links with ratings site

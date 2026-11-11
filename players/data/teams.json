@@ -1138,5 +1138,305 @@
 "yr": 2015,
 "pool": 1,
 "rating": 90.34
+},
+"11-0": {
+"name": "Pittsburgh Penguins Elite",
+"yr": 2011,
+"pool": 0,
+"rating": 96.16
+},
+"11-1": {
+"name": "Bishop Kearney Selects",
+"yr": 2011,
+"pool": 0,
+"rating": 95.55
+},
+"11-2": {
+"name": "Mount St Charles Hockey Academy",
+"yr": 2011,
+"pool": 0,
+"rating": 95
+},
+"11-3": {
+"name": "Shattuck St Mary's",
+"yr": 2011,
+"pool": 0,
+"rating": 94.33
+},
+"11-4": {
+"name": "Chicago Reapers",
+"yr": 2011,
+"pool": 0,
+"rating": 93.53
+},
+"11-5": {
+"name": "Chicago Mission",
+"yr": 2011,
+"pool": 0,
+"rating": 93.46
+},
+"11-6": {
+"name": "Oakland Jr Grizzlies",
+"yr": 2011,
+"pool": 0,
+"rating": 93.46
+},
+"11-7": {
+"name": "Little Caesars",
+"yr": 2011,
+"pool": 0,
+"rating": 93.08
+},
+"11-8": {
+"name": "Woodbridge Wolfpack",
+"yr": 2011,
+"pool": 0,
+"rating": 92.78
+},
+"11-9": {
+"name": "Middlesex Islanders East (Prep)",
+"yr": 2011,
+"pool": 0,
+"rating": 92.5
+},
+"11-10": {
+"name": "Masters Academy",
+"yr": 2011,
+"pool": 0,
+"rating": 92.29
+},
+"11-11": {
+"name": "St Louis Blues",
+"yr": 2011,
+"pool": 0,
+"rating": 92.19
+},
+"11-12": {
+"name": "Boston Jr Eagles",
+"yr": 2011,
+"pool": 0,
+"rating": 91.88
+},
+"11-13": {
+"name": "Seacoast Performance Academy",
+"yr": 2011,
+"pool": 0,
+"rating": 91.78
+},
+"11-14": {
+"name": "Pittsburgh Vengeance",
+"yr": 2011,
+"pool": 0,
+"rating": 91.72
+},
+"11-15": {
+"name": "Palmyra Black Knights",
+"yr": 2011,
+"pool": 0,
+"rating": 91.59
+},
+"11-16": {
+"name": "Philadelphia Jr Flyers",
+"yr": 2011,
+"pool": 0,
+"rating": 91.45
+},
+"11-17": {
+"name": "Team Wisconsin",
+"yr": 2011,
+"pool": 0,
+"rating": 91.34
+},
+"11-18": {
+"name": "Notre Dame Hockey Academy",
+"yr": 2011,
+"pool": 0,
+"rating": 91.12
+},
+"11-19": {
+"name": "Buffalo Jr Sabres",
+"yr": 2011,
+"pool": 0,
+"rating": 91.06
+},
+"11-20": {
+"name": "North Jersey Avalanche",
+"yr": 2011,
+"pool": 0,
+"rating": 90.98
+},
+"11-21": {
+"name": "Victory Honda",
+"yr": 2011,
+"pool": 0,
+"rating": 90.59
+},
+"11-22": {
+"name": "HB Detroit",
+"yr": 2011,
+"pool": 0,
+"rating": 90.56
+},
+"11-23": {
+"name": "Cape Cod Whalers",
+"yr": 2011,
+"pool": 0,
+"rating": 90.47
+},
+"11-24": {
+"name": "New Jersey Rockets (Premier)",
+"yr": 2011,
+"pool": 0,
+"rating": 90.37
+},
+"11-25": {
+"name": "Indiana Elite",
+"yr": 2011,
+"pool": 0,
+"rating": 90.35
+},
+"11-26": {
+"name": "Neponset Valley River Rats",
+"yr": 2011,
+"pool": 0,
+"rating": 90.29
+},
+"11-27": {
+"name": "Mid-Fairfield Hockey Club (National)",
+"yr": 2011,
+"pool": 0,
+"rating": 90.22
+},
+"11-28": {
+"name": "Northeast Generals",
+"yr": 2011,
+"pool": 0,
+"rating": 90.21
+},
+"11-29": {
+"name": "Okanagan Hockey Colorado",
+"yr": 2011,
+"pool": 0,
+"rating": 90.17
+},
+"11-30": {
+"name": "Omaha Mastery",
+"yr": 2011,
+"pool": 0,
+"rating": 89.79
+},
+"11-31": {
+"name": "MN Blue Ox",
+"yr": 2011,
+"pool": 0,
+"rating": 89.79
+},
+"11-32": {
+"name": "Milwaukee Jr Admirals",
+"yr": 2011,
+"pool": 0,
+"rating": 89.64
+},
+"11-33": {
+"name": "Fox Motors",
+"yr": 2011,
+"pool": 0,
+"rating": 89.63
+},
+"11-34": {
+"name": "CarShield",
+"yr": 2011,
+"pool": 0,
+"rating": 89.38
+},
+"11-35": {
+"name": "Sioux Falls Power",
+"yr": 2011,
+"pool": 0,
+"rating": 89.26
+},
+"11-36": {
+"name": "Dallas Stars Elite",
+"yr": 2011,
+"pool": 0,
+"rating": 89.21
+},
+"11-37": {
+"name": "Pittsburgh Predators",
+"yr": 2011,
+"pool": 0,
+"rating": 89.21
+},
+"11-38": {
+"name": "Anaheim Jr Ducks",
+"yr": 2011,
+"pool": 0,
+"rating": 89.09
+},
+"11-39": {
+"name": "San Jose Jr Sharks",
+"yr": 2011,
+"pool": 0,
+"rating": 89.06
+},
+"11-40": {
+"name": "New Jersey Colonials",
+"yr": 2011,
+"pool": 0,
+"rating": 88.9
+},
+"11-41": {
+"name": "Windy City Storm",
+"yr": 2011,
+"pool": 0,
+"rating": 88.89
+},
+"11-42": {
+"name": "Northern CT Nor'Easter",
+"yr": 2011,
+"pool": 0,
+"rating": 88.87
+},
+"11-43": {
+"name": "Long Island Arrows",
+"yr": 2011,
+"pool": 0,
+"rating": 88.82
+},
+"11-44": {
+"name": "Pittsburgh Stars",
+"yr": 2011,
+"pool": 0,
+"rating": 88.79
+},
+"11-45": {
+"name": "Philadelphia Hockey Club",
+"yr": 2011,
+"pool": 0,
+"rating": 88.69
+},
+"11-46": {
+"name": "LA Jr Kings",
+"yr": 2011,
+"pool": 0,
+"rating": 88.69
+},
+"11-47": {
+"name": "Team North Dakota",
+"yr": 2011,
+"pool": 0,
+"rating": 88.65
+},
+"11-48": {
+"name": "PAL Jr Islanders",
+"yr": 2011,
+"pool": 0,
+"rating": 88.38
+},
+"11-49": {
+"name": "MN Lakers",
+"yr": 2011,
+"pool": 0,
+"rating": 88.32
 }
 }

@@ -12,6 +12,9 @@ A second copy is kept as a Claude artifact (https://claude.ai/artifact/GD1DB4Csb
 - Goalies show plain GA/G plus Adj GA/G and Avg opp. Adj GA/G is opponent-only (`gmult` in the page: 94 = 1.00, goals count 16% less per point above 94 and 25% more per point below, capped at 88). `gmult` is a hand setting; `inject.py` does not touch it.
 - Do not publish if the canary fails or the sanity checks fail. Report instead.
 
+- 15U (2011 birth year): top 50 USA from MHR's Nov 11, 2026 15U Tier 1 ranking, added Nov 11, 2026. The ratings site carries 2011 as an anchored division (`data/*_usa15.txt`, MHR `rank.php?y=2026&v=119`). The page shifts 15U opponent ratings by `OFF` (3.83) for the multipliers only. No InStat page was found for Middlesex Islanders 15U or Neponset Valley 15U, and Mid-Fairfield 15U has no games.
+- The ratings site and the database link to each other: ratings team pages link to `players/#team=<key>` (map built from `data/teams.json` in `build/build.py`), and the database links to `#team=<year>|<team name>` on the ratings site.
+
 ## Steps
 
 All commands run from `players/data`.
