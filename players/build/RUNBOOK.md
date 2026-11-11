@@ -1,7 +1,7 @@
 # Player database: weekly update runbook
 
 The page is `players/index.html`, served at https://mikemuf.github.io/livehockeyratings/players/.
-It is the only live copy. Everything needed to rebuild it is in `players/build` (scripts) and `players/data` (stored data).
+A second copy is kept as a Claude artifact (https://claude.ai/artifact/GD1DB4CsbbXf5tAwnc3YZs); update both. Everything needed to rebuild it is in `players/build` (scripts) and `players/data` (stored data).
 
 ## Rules
 
@@ -35,7 +35,8 @@ All commands run from `players/data`.
 9. Inject: `python3 ../build/inject.py ../index.html "Nov 18, 2026"` (today's date).
 10. Test before pushing: extract the page's `<script>` to a file and run `node --check` on it; confirm `S`, `GAMES`, `LOGS` parse and the page still contains `const mult=r=>Math.exp(0.16*(r-95));`.
 11. Append one line to `run_log.txt` (date, games added, total games, skaters, goalies, anything odd). Commit `players/` and push.
-12. Message Mike: games added, which teams had new games and which top teams had none, new players who cracked the top of the Adjusted P/G list, anything that looked wrong, then the link.
+12. Update the Claude artifact copy too (Mike wants both kept current): copy `players/index.html` to a temp file with the back link `href="../"` changed to `href="https://mikemuf.github.io/livehockeyratings/"`, then publish it with the artifact tools to slug `7b26226d-b439-4f30-a1e4-ed16bf451c6e` as `index.html` (get the current version with get_artifact and pass it as base_version). If the artifact tools are unavailable, say so in the report.
+13. Message Mike: games added, which teams had new games and which top teams had none, new players who cracked the top of the Adjusted P/G list, anything that looked wrong, then the link.
 
 ## Known limits
 
