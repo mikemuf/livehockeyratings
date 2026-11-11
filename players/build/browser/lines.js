@@ -1,0 +1,8 @@
+// Reads each team's Lines page (5-man units with ice time) for the ids in window.__lineIds. Rendered pages only.
+(()=>{const IDS=window.__lineIds||[];const W=ms=>new Promise(r=>setTimeout(r,ms));const st=window.__ln={L:{},done:0,total:IDS.length,phase:'run',err:[]};
+document.querySelectorAll('iframe.pdbf').forEach(f=>f.remove());
+const mk=()=>{const f=document.createElement('iframe');f.className='pdbf';f.style.cssText='position:fixed;left:0;top:0;width:1600px;height:900px;opacity:0.01;pointer-events:none';document.body.appendChild(f);return f};
+const one=async(f,id)=>{const u='/instat/hockey/teams/'+id+'/lines';f.src='about:blank';await W(200);f.src=u;let d=null;for(let k=0;k<36;k++){await W(500);try{const x=f.contentDocument;if(x&&x.body&&f.contentWindow.location.pathname===u&&x.querySelector('[class*="RowsList"]')&&/\d{1,3}[A-Za-z]\. /.test(x.body.innerText)){d=x;break}}catch(e){}}
+ const rec={};if(d){await W(800);const grab=()=>{const t=d.body.innerText.split(/[\n\t]/).map(s=>s.trim()).filter(Boolean);const isP=s=>/^\d{1,3}[A-Za-z]\. ?\S/.test(s);for(let i=0;i<t.length-7;i++){if(isP(t[i])&&isP(t[i+1])&&isP(t[i+2])&&isP(t[i+3])&&isP(t[i+4])&&/^\d+:\d\d$/.test(t[i+7])){rec[t.slice(i,i+5).join('~')]=t[i+7];i+=7}}};grab();const el=d.querySelector('[class*="RowsList"]');for(let y=300;y<=Math.min(el.scrollHeight,4200);y+=300){el.scrollTop=y;el.dispatchEvent(new Event('scroll',{bubbles:true}));await W(220);grab()}}
+ st.L[id]=rec;st.done++};
+(async()=>{try{const fs=[mk(),mk(),mk()];const q=IDS.slice();await Promise.all(fs.map(async f=>{while(q.length){const id=q.shift();try{await one(f,id)}catch(e){st.err.push(id+':'+e)}}}));st.phase='done'}catch(e){st.phase='failed';st.err.push(String(e))}})();})()
