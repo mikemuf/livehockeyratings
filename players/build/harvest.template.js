@@ -29,7 +29,11 @@ const ppView=async(f,id,want)=>{const u='/instat/hockey/matches/'+id+'/skaters';
  return {S,rows};};
 const team=async(f,id)=>{const rec={id,m:{},gk:{}};
  let d=await load(f,'/instat/hockey/teams/'+id,d=>d.querySelector('a[href*="/matches/"]'),14);
- if(d){await W(1500);const t=toks(d);rec.name=t[2];rec.sub=t[3];rec.ov=d.body.innerText.includes('OVERVIEW');
+ if(d){await W(1500);
+  // The overview lists 25 games at a time: press "Show more" until the list reaches back past the cutoff date.
+  const oldest=()=>{let o='99999999';d.querySelectorAll('a[href*="/matches/"]').forEach(a=>{const m=a.parentElement.innerText.match(/(\d\d)\.(\d\d)\.(\d{4})/);if(m){const v=m[3]+m[2]+m[1];if(v<o)o=v}});return o};
+  for(let k=0;k<10&&oldest()>=CUT;k++){const b=[...d.querySelectorAll('button,div,span,a')].filter(e=>e.children.length===0&&e.innerText&&e.innerText.trim()==='Show more').pop();if(!b)break;const n0=d.querySelectorAll('a[href*="/matches/"]').length;(b.closest('button')||b).click();rec.more=(rec.more||0)+1;for(let j=0;j<12&&d.querySelectorAll('a[href*="/matches/"]').length===n0;j++)await W(400);await W(300)}
+  const t=toks(d);rec.name=t[2];rec.sub=t[3];rec.ov=d.body.innerText.includes('OVERVIEW');
   d.querySelectorAll('a[href*="/matches/"]').forEach(a=>{const mid=a.getAttribute('href').split('/matches/')[1].split('/')[0];const tx=a.parentElement.innerText;const dm=tx.match(/(\d\d)\.(\d\d)\.(\d{4})/);rec.m[mid]=dm?dm[3]+dm[2]+dm[1]:'';});}
  d=await load(f,'/instat/hockey/teams/'+id+'/goalies',d=>d.body.innerText.includes('SCSV%')&&d.querySelector('a[href*="/players/"]'),10);
  if(d){await W(1000);const grab=()=>{const t=toks(d);const s=t.lastIndexOf('SCSV%');if(s<0)return;for(let i=s+1;i<t.length-7;i++){if(/^\d{1,2}$/.test(t[i])&&/[A-Za-z]/.test(t[i+1])&&/^\d+$/.test(t[i+2])&&/^\d+:\d\d$/.test(t[i+3]))rec.gk[t[i]+'|'+t[i+1]]=[t[i+2],t[i+3],t[i+4],t[i+5],t[i+6],t[i+7]].join(',')}};grab();
