@@ -18,7 +18,7 @@ def rate(opp,yr,oid):
     yr=str(yr)
     if oid in E2K and INFO[E2K[oid]]['yr']==int(yr): return INFO[E2K[oid]]['name']
     if opp in ALIAS: return ALIAS[opp] if ALIAS[opp] in R[yr] else None
-    tag=agetag(opp); us_ok={'2012':14,'2013':13}[yr]; key=norm(opp); cand=RN[yr].get(key)
+    tag=agetag(opp); us_ok={'2012':14,'2013':13,'2014':12,'2015':11}[yr]; key=norm(opp); cand=RN[yr].get(key)
     if not cand:
         best=None
         for k,v in RN[yr].items():
@@ -119,8 +119,9 @@ for it in range(60):
     det=h00*h11-h01*h01; xa+=(h11*g0-h01*g1)/det; xb+=(-h01*g0+h00*g1)/det
 print('xGA model',len(X),round(xa,4),round(xb,4),'GA at even',round(math.exp(xa),2))
 T12=[[INFO[f'12-{i}']['name'],INFO[f'12-{i}']['rating'],INFO[f'12-{i}']['rank']] for i in range(50)]; T13=[[INFO[f'13-{i}']['name'],INFO[f'13-{i}']['rating'],INFO[f'13-{i}']['rank']] for i in range(50)]
+T14=[[INFO[k]['name'],INFO[k]['rating'],INFO[k]['rank']] for k in (f'14-{i}' for i in range(60)) if k in INFO]; T15=[[INFO[k]['name'],INFO[k]['rating'],INFO[k]['rank']] for k in (f'15-{i}' for i in range(60)) if k in INFO]
 C12=[[INFO[f'12-C{i}']['name'],INFO[f'12-C{i}']['rating'],INFO[f'12-C{i}']['rank']] for i in range(10)]; C13=[[INFO[f'13-C{i}']['name'],INFO[f'13-C{i}']['rating'],INFO[f'13-C{i}']['rank']] for i in range(10)]
-json.dump(dict(S=S,G=G,GAMES=GAMES,LOGS=LOGS,GLOG=GLOG,XA=round(xa,4),XB=round(xb,4),T12=T12,T13=T13,C12=C12,C13=C13,BORN={k+'@'+s[0]:v for k,v in BORN.items() for s in S if s[12].startswith(k+'@')}),open('db.json','w'),separators=(',',':'))
+json.dump(dict(S=S,G=G,GAMES=GAMES,LOGS=LOGS,GLOG=GLOG,XA=round(xa,4),XB=round(xb,4),T12=T12,T13=T13,T14=T14,T15=T15,C12=C12,C13=C13,BORN={k+'@'+s[0]:v for k,v in BORN.items() for s in S if s[12].startswith(k+'@')}),open('db.json','w'),separators=(',',':'))
 nodata=[k+' '+INFO[k]['name'] for k in INFO if not GAMES.get(k)]
 low=[(k,INFO[k]['name'],len(GAMES[k])) for k in INFO if 0<len(GAMES[k])<6]
 print('skaters',len(S),'goalies',len(G),'team-games',sum(len(v) for v in GAMES.values()),'teams with data',sum(1 for v in GAMES.values() if v))

@@ -7,7 +7,9 @@ const KNOWN=new Set('__KNOWN__'.split(','));
 const CUT='__CUT__';
 const CANARY='__CANARY__'.split(',').filter(Boolean); // already-stored games re-read to prove the parser still works
 const W=ms=>new Promise(r=>setTimeout(r,ms));
-const st=window.__pdb={T:{},M:{},newIds:{},phase:'teams',tdone:0,mdone:0,mtotal:0,err:[]};
+let saved=null;try{saved=JSON.parse(localStorage.getItem('pdbH')||'null')}catch(e){}
+const st=window.__pdb=(saved&&saved.cut===CUT&&saved.nt===TEAMS.length)?Object.assign(saved,{err:[],resumed:1}):{T:{},M:{},newIds:{},phase:'teams',tdone:0,mdone:0,mtotal:0,err:[],cut:CUT,nt:TEAMS.length};
+const save=()=>{try{localStorage.setItem('pdbH',JSON.stringify(st))}catch(e){st.err.push('save:'+e)}};
 const mk=()=>{const f=document.createElement('iframe');f.className='pdbf';f.style.cssText='position:fixed;left:0;top:0;width:1400px;height:900px;opacity:0.01;pointer-events:none';document.body.appendChild(f);return f};
 const load=async(f,u,ready,max)=>{f.src='about:blank';await W(200);f.src=u;for(let k=0;k<max*2;k++){await W(500);try{const d=f.contentDocument;if(d&&d.body&&f.contentWindow.location.pathname===u&&ready(d))return d}catch(e){}}try{return f.contentDocument}catch(e){return null}};
 const toks=d=>d.body.innerText.split(/[\n\t]/).map(s=>s.trim()).filter(Boolean);
@@ -40,17 +42,17 @@ const match=async(f,id)=>{const cnt=d=>(d.body.innerText.match(/Shirt number/g)|
   rec.tl=[];d.querySelectorAll('a[href*="/teams/"]').forEach(a=>{const i=a.getAttribute('href').split('/teams/')[1].split('/')[0];const n=a.innerText.trim();if(n&&rec.tl.length<2&&!rec.tl.some(x=>x.startsWith(i+'=')))rec.tl.push(i+'='+n)});
   const links=[...d.querySelectorAll('a[href*="/players/"]')].map(a=>[a.innerText.trim(),a.getAttribute('href').split('/players/')[1].split('/')[0],0]);
   let side=-1;for(let i=0;i<t.length-13;i++){if(t[i+1]==='Shirt number'){rec.S.push(t[i]);side=rec.S.length-1;continue}
-   if(side>=0&&/^\d{1,3}$/.test(t[i])&&/^(F|D|GK)$/.test(t[i+2])&&/^\d+:\d\d$/.test(t[i+3])&&!/^\d+$/.test(t[i+1])){const L=links.find(l=>!l[2]&&l[0]===t[i+1]);if(L)L[2]=1;const pen=t[i+13];rec.P.push([side,t[i],t[i+1],t[i+2],sec(t[i+3]),n0(t[i+6]),n0(t[i+7]),n0(t[i+9]),pen&&pen.includes(':')?+pen.split(':')[0]:n0(pen),L?L[1]:''].join('|'));i+=3}}
+   if(side>=0&&/^\d{1,3}$/.test(t[i])&&/^(F|D|GK)$/.test(t[i+2])&&/^\d+:\d\d$/.test(t[i+3])&&!/^\d+$/.test(t[i+1])){const L=links.find(l=>!l[2]&&l[0]===t[i+1]);if(L)L[2]=1;const pen=t[i+13];rec.P.push([side,t[i],t[i+1],t[i+2],sec(t[i+3]),n0(t[i+6]),n0(t[i+7]),n0(t[i+9]),pen&&pen.includes(':')?+pen.split(':')[0]:n0(pen),L?L[1]:''].join('|'));const fo=n0(t[i+14]);if(fo){rec.FO=rec.FO||{};rec.FO[side+'|'+t[i]]=fo}i+=3}}
   rec.ok=rec.S.length===2&&rec.P.length>=10&&!!rec.h&&rec.tl.length===2;}
  // power-play view of the same game: PP time, goals and assists per player
  if(rec.ok){const pp=await ppView(f,id,'PP');if(pp){rec.PP={};const idx=pp.S.map((n,i)=>{const k=rec.S.indexOf(n.toUpperCase());return k>=0?k:i});pp.rows.forEach(r=>{const k=idx[r[0]]+'|'+r[1];if(!(k in rec.PP))rec.PP[k]=[r[2],r[3],r[4]]})}else rec.ok=false}
  st.M[id]=rec;st.mdone++;};
 (async()=>{try{
- const fs=[mk(),mk(),mk()];let q=TEAMS.slice();
- await Promise.all(fs.map(async f=>{while(q.length){const id=q.shift();try{await team(f,id)}catch(e){st.err.push('t'+id+':'+e)}}}));
- st.phase='matches';let mq=Object.keys(st.newIds).concat(CANARY);const mq0=mq[0];st.mtotal=mq.length;
- await Promise.all(fs.map(async f=>{while(mq.length){const id=mq.shift();try{await match(f,id)}catch(e){st.err.push('m'+id+':'+e)}}}));
+ const fs=[mk(),mk(),mk()];let q=TEAMS.filter(i=>!(i in st.T));
+ await Promise.all(fs.map(async f=>{while(q.length){const id=q.shift();try{await team(f,id)}catch(e){st.err.push('t'+id+':'+e)}if(st.tdone%10===0)save()}}));save();
+ st.phase='matches';let mq=Object.keys(st.newIds).concat(CANARY).filter(i=>!(st.M[i]&&st.M[i].ok));const mq0=mq[0];st.mtotal=mq.length;
+ await Promise.all(fs.map(async f=>{while(mq.length){const id=mq.shift();try{await match(f,id)}catch(e){st.err.push('m'+id+':'+e)}if(st.mdone%12===0)save()}}));
  // put InStat's situation selector back to Game total so Mike's own view is unchanged
  if(mq0)try{await ppView(fs[0],mq0,'Game total')}catch(e){}
- st.phase='done';}catch(e){st.err.push('fatal:'+e);st.phase='failed'}})();
+ st.phase='done';save();}catch(e){st.err.push('fatal:'+e);st.phase='failed'}})();
 return 'started '+TEAMS.length+' teams';})()
