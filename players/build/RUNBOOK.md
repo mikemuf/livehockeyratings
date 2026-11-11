@@ -12,7 +12,7 @@ If the file `players/data/LOCK` exists, another session is in the middle of a la
 - Team list is frozen (`data/teams.json`): Bantam = 50 USA + 10 Ontario for each of 2012 and 2013; Peewee = 25 USA (from the Nov 10 ranking) + 10 Ontario (from the Nov 11 ranking; in Ontario 2014 = U13 and 2015 = U12) for each of 2014 and 2015, added Nov 11, 2026. The ratings site's Canada list for Peewee includes Quebec, BC and Alberta teams; only Ontario teams were taken. Do not add or remove teams unless Mike asks.
 - Read InStat through rendered pages only (hidden same-origin iframes). Do not intercept or call InStat's internal API.
 - Never enter a password. If InStat shows a sign-in page, stop and tell Mike he needs to sign in to Hudl in the Claude desktop app's browser.
-- Hand corrections live in the page itself and must survive: `POSFIX` (positions), `BORN` and `GBORN` (2013-born players on 2012 teams), `mult` (16% per rating point, 95 = 1.00), `MINGP`. `inject.py` does not touch them.
+- Hand corrections live in the page itself and must survive: `POSFIX` (positions), `BORN` and `GBORN` (2013-born players on 2012 teams), `RATE`/`mult` (16% per rating point at 15U and Bantam, 12% at Peewee, 95 = 1.00), `gmult` (goalies), `OFF` (15U shift), `MINGP`. `inject.py` does not touch them.
 - Goalies show plain GA/G plus Adj GA/G and Avg opp. Adj GA/G is opponent-only (`gmult` in the page: 94 = 1.00, goals count 16% less per point above 94 and 25% more per point below, capped at 88). `gmult` is a hand setting; `inject.py` does not touch it.
 - Do not publish if the canary fails or the sanity checks fail. Report instead.
 
@@ -40,7 +40,7 @@ All commands run from `players/data`.
    - `TEAMS MISSING FROM RATINGS` should be empty (a renamed team on the ratings site: fix the name in `teams.json`);
    - new `UNMATCHED` opponents with several games may need an entry in `alias.json` (InStat name: ratings-site name).
 9. Inject: `python3 ../build/inject.py ../index.html "Nov 18, 2026"` (today's date).
-10. Test before pushing: extract the page's `<script>` to a file and run `node --check` on it; confirm `S`, `GAMES`, `LOGS` parse and the page still contains `const mult=r=>Math.exp(0.16*(r-95));`.
+10. Test before pushing: extract the page's `<script>` to a file and run `node --check` on it; confirm `S`, `GAMES`, `LOGS` parse and the page still contains `const RATE=y=>y>=2014?0.12:0.16;`.
 11. Append one line to `run_log.txt` (date, games added, total games, skaters, goalies, anything odd). Commit `players/` and push.
 12. Update the Claude artifact copy too (Mike wants both kept current): copy `players/index.html` to a temp file with the back link `href="../"` changed to `href="https://mikemuf.github.io/livehockeyratings/"`, then publish it with the artifact tools to slug `7b26226d-b439-4f30-a1e4-ed16bf451c6e` as `index.html` (get the current version with get_artifact and pass it as base_version). If the artifact tools are unavailable, say so in the report.
 13. Message Mike: games added, which teams had new games and which top teams had none, new players who cracked the top of the Adjusted P/G list, anything that looked wrong, then the link.
