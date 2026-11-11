@@ -1,77 +1,257 @@
 {
- "label": "Weekend of Nov 6–8",
- "status": "Weekend complete",
- "updated": "Sun Nov 8, 9:00 PM CT",
- "from": "2026-11-06",
- "to": "2026-11-09",
- "next": "Next weekend's preview (Nov 13–15) goes up Wednesday, after MHR posts its new ratings.",
+ "label": "Weekend of Nov 13–15",
+ "status": "Preview",
+ "updated": "Wed Nov 11, 3:00 AM CT",
+ "from": "2026-11-12",
+ "to": "2026-11-16",
+ "note": "Ranks are MHR’s Nov 11 ratings; they move live as results come in. Game times are local to the rink.",
+ "next": "",
  "divs": {
   "2012": {
    "summary": [
-    "Woodbridge Wolfpack (#4, 97.16 → now #6, 96.79): the weekend's biggest stumble. Went 2-2, with upset losses to East Coast Militia National (#51, 92.14) 3-2 and Atlantic Coast Academy (#25, 93.97) 4-0. Shutouts of Neponset (#22) and Providence Capitals Elite (#95) weren't enough to hold their spot.",
-    "East Coast Militia National (#51 → #47) were the giant-killers: they beat Woodbridge, Neponset (#22) 5-4 and ACA (#25) 5-3.",
-    "Edina (not in MHR's rankings yet, live 96.06) won the CCM World Invite 2012 Vizion at 6-0 with five shutouts, beating OMGHA (live 94.78) 5-3 in the final. OMGHA knocked out the Chicago Reapers (#17) 5-4 in the quarterfinals and Milwaukee (#47) 4-3 in the semis.",
-    "Team Illinois (#5 → #4) and Chicago Mission (#6 → #5, 96.98) moved up a spot each without playing, because Woodbridge dropped.",
-    "Biggby Coffee (#19 → #18, 94.96) went 3-0, including 8-1 over Fox Motors (#29). NJ Rockets (#15, 95.92) beat CT Jr Rangers National (#35) 8-0.",
-    "Shattuck St Mary's (#2, 99.63) went 3-0 against Upper Canada College by a combined 27-1, as expected."
+    "A big Detroit-area showcase (BELFOR Training Center, Dearborn, Hazel Park) has a large part of the top 25: Little Caesars (#3), Team Illinois (#5), Nashville (#8), Top Gun (#10), Pittsburgh Penguins Elite (#11), Biggby (#18), Boston Jr Eagles (#19), NJ Colonials (#21), Seacoast (#22) and St. Louis Blues (#25), plus top Ontario U15 teams.",
+    "Chicago Mission (#6, 97.10) sits just 0.01 behind Team Illinois (#5, 97.11). Mission has no games listed on MHR this weekend, so Team Illinois can open up the gap in Detroit.",
+    "Mid-Fairfield (#1), Shattuck (#2), Woodbridge (#4) and Mount St Charles (#7) have no games posted on MHR yet."
    ],
    "events": [
     {
-     "name": "CCM World Invite – 2012 Vizion",
-     "where": "Chicagoland",
-     "result": "Champion: Edina (5-3 over OMGHA)"
+     "name": "Detroit-area showcase",
+     "where": "BELFOR Training Center, Dearborn Ice Skating Center, Hazel Park Ice Arena (Fri–Sat)",
+     "result": "Little Caesars, Team Illinois, Nashville, Top Gun, Penguins Elite, Biggby, Boston Jr Eagles, NJ Colonials, Seacoast, St. Louis Blues, Ohio Blue Jackets, Masters, Windy City, Cleveland + Ontario: Chatham-Kent, Huron-Perth, Toronto Jr Canadiens, Upper Canada College, Hill Academy"
     }
    ],
-   "watch": []
+   "watch": [
+    [
+     "Sat Nov 14",
+     "3:00 PM",
+     "Nashville Jr. Predators",
+     "Pittsburgh Penguins Elite",
+     "Hazel Park"
+    ],
+    [
+     "Sat Nov 14",
+     "10:00 AM",
+     "Top Gun (Elite)",
+     "Biggby Coffee",
+     "Hazel Park"
+    ],
+    [
+     "Sat Nov 14",
+     "10:00 AM",
+     "Team Illinois",
+     "NJ Colonials",
+     "Dearborn"
+    ],
+    [
+     "Sat Nov 14",
+     "8:00 AM",
+     "Little Caesars",
+     "Chatham-Kent Cyclones",
+     "Hazel Park"
+    ],
+    [
+     "Fri Nov 13",
+     "10:30 AM",
+     "Top Gun (Elite)",
+     "Toronto Jr Canadiens",
+     "Hazel Park"
+    ],
+    [
+     "Fri Nov 13",
+     "3:00 PM",
+     "Biggby Coffee",
+     "St. Louis Blues",
+     "Dearborn"
+    ],
+    [
+     "Fri Nov 13",
+     "2:00 PM",
+     "Pittsburgh Penguins Elite",
+     "Ohio Blue Jackets",
+     "Dearborn"
+    ],
+    [
+     "Sat Nov 14",
+     "5:30 PM",
+     "Team Illinois",
+     "Upper Canada College",
+     "Dearborn"
+    ],
+    [
+     "Sat Nov 14",
+     "10:30 AM",
+     "HB Detroit",
+     "Victory Honda",
+     "Victory Ice Center (league)"
+    ]
+   ]
   },
   "2013": {
    "summary": [
-    "Team Illinois (#53, 87.24 → now #45, 87.81) won the CCM World Invite 2013 Tacks as a big underdog. They beat Team Maryland (#34), Indiana Elite in the quarterfinal, Music City (#28) 4-2 in the semi and Windy City Storm (#22) 4-2 in the final.",
-    "Chicago Mission (#12, 91.19 → now #9, 91.33) went 4-1 and outscored opponents 26-5. They beat Team Maryland 6-0 in the quarterfinal, then lost the semifinal 2-1 to Windy City (#22).",
-    "Windy City Storm (#22 → #23) upset HB Detroit (#23) and Mission to reach the CCM final, but lost 4-2 to Team Illinois.",
-    "Chicago Reapers (#1, 95.13 → 94.97) went 3-0-2 at the 216 Showcase and stay #1, but ties with Syracuse (#7) and Anaheim (#3) cost them a little rating. Syracuse (#7) moved up to 93.08."
+    "The headline is in Chicago: the Chicago Reapers (#1, 95.09) host Chicago Mission (#10, 91.42) twice, Saturday at Nicholas Sportsplex and Sunday at Elk Grove.",
+    "Cleveland Barons (#8) play Philadelphia Jr Flyers (#24) three times. Pittsburgh Penguins Elite (#9) play Buffalo Jr Sabres (#32) twice on Sunday.",
+    "MN Lakers (#2), Anaheim (#3), Little Caesars (#4), Mid-Fairfield (#5), Woodbridge (#6) and Syracuse (#7) have no games posted on MHR yet."
    ],
    "events": [
     {
-     "name": "CCM World Invite – 2013 Tacks",
-     "where": "Chicagoland",
-     "result": "Champion: Team Illinois (4-2 over Windy City Storm)"
-    },
-    {
-     "name": "216 Showcase – 2013 Elite",
-     "result": "Field: Chicago Reapers, Anaheim, Little Caesars, Mid-Fairfield, Syracuse, Cleveland, Nor'easters, Columbus"
+     "name": "Dallas (Valley Ranch StarCenter)",
+     "where": "Fri–Sat",
+     "result": "Dallas Stars (#15), HB Detroit (#22), St. Louis Blues (#28)"
     }
    ],
-   "watch": []
+   "watch": [
+    [
+     "Sat Nov 14",
+     "9:40 AM",
+     "Chicago Reapers",
+     "Chicago Mission",
+     "Nicholas Sportsplex"
+    ],
+    [
+     "Sun Nov 15",
+     "10:50 AM",
+     "Chicago Reapers",
+     "Chicago Mission",
+     "Elk Grove Ice Arena"
+    ],
+    [
+     "Fri Nov 13",
+     "4:00 PM",
+     "Cleveland Barons",
+     "Philadelphia Jr Flyers",
+     "Barons Bus Arena (also Sat 8:00 AM and 12:40 PM)"
+    ],
+    [
+     "Sun Nov 15",
+     "8:20 AM",
+     "Pittsburgh Penguins Elite",
+     "Buffalo Jr Sabres",
+     "UPMC Lemieux (also 1:40 PM)"
+    ],
+    [
+     "Fri Nov 13",
+     "1:30 PM",
+     "HB Detroit",
+     "St. Louis Blues",
+     "Valley Ranch, Dallas"
+    ],
+    [
+     "Sat Nov 14",
+     "8:00 AM",
+     "Dallas Stars",
+     "St. Louis Blues",
+     "Valley Ranch, Dallas"
+    ]
+   ]
   },
   "2014": {
    "summary": [
-    "Chicago Reapers (#19, 95.22 → now #18, 95.30) went 3-1, but their 6-3 loss to Lehigh Valley Phantoms (#35, 93.03) was the upset of the weekend.",
-    "Florida Alliance (#4, 98.63 → 98.41) tied Pittsburgh Penguins Elite (#10) 3-3, which cost them some rating.",
-    "Indiana Elite (#26 → #28) went 3-2, losing 6-0 to the Reapers and 1-0 to London Jr Knights.",
-    "Ohio Blue Jackets (#24 → #23) split with Belle Tire (#42), losing 6-5 and then winning 6-0. North Jersey Avalanche (#12) beat Washington (#109) 7-0 and 13-2."
-   ],
-   "events": [],
-   "watch": []
-  },
-  "2015": {
-   "summary": [
-    "Worcester Shamrocks (#3, 93.64 → 93.79) won the Chop Detroit Invitational in Brighton, MI at 5-0. They beat Little Caesars (#1) 10-6, Victory Honda twice, St Louis (#10) 4-1 and Mid-Fairfield Elite (#6) 2-1 in Sunday's finale.",
-    "Little Caesars (#1, 95.26 → 94.76) are still #1 but had a rough showcase at 2-2-1. They gave up 10 goals to Worcester, lost 5-1 to Pittsburgh Penguins Elite (#2) and tied Florida Surf (#14) 4-4.",
-    "Florida Surf (#14, 91.64 → 91.84) were the spoiler. They beat Penguins Elite (#2) 2-1 and Mid-Fairfield Elite (#6) 4-2, then tied Little Caesars.",
-    "Mid-Fairfield Elite (#6 → now #4, 93.40) went 3-2, with two wins over Penguins Elite (2-0 and 6-2).",
-    "Chicago Mission (#7, 92.63 → now #9, 92.44) dropped two spots after an upset 6-4 loss to Vegas (#30, 89.58). They bounced back to beat Woodbridge (#45) 8-1 and Queen City (#59) 6-1.",
-    "Biggby Coffee (#13, 91.92) went 5-0. Victory Honda (#23 → #20) beat St Louis (#10, now #12) 6-4 and Florida Surf 4-1."
+    "Buffalo (Harbor Center) hosts Boston Jr Eagles (#5), St Louis Blues (#11) and North Jersey Avalanche (#12) along with Toronto Jr Canadiens and Mississauga Rebels.",
+    "Little Caesars (#2) visit Victory Honda (#15) on Saturday.",
+    "Dallas (Valley Ranch) hosts Anaheim (#18), Dallas Stars (#20) and Cleveland (#25) against Phoenix.",
+    "Middlesex Islanders East (#1), Boston Advantage (#3), Florida Alliance (#4) and Chicago Fury (#6) have no games posted on MHR yet."
    ],
    "events": [
     {
-     "name": "Chop Detroit Invitational",
-     "where": "Ice Cube, Brighton MI",
-     "result": "Worcester Shamrocks 5-0. Then Mid-Fairfield Elite 3-2, Little Caesars 2-2-1, Florida Surf 2-2-1, Victory Honda, Penguins Elite, St Louis, Chicago Fury"
+     "name": "Buffalo (Harbor Center)",
+     "where": "Fri–Sat",
+     "result": "Boston Jr Eagles, St Louis Blues, North Jersey Avalanche, Toronto Jr Canadiens, Mississauga Rebels"
+    },
+    {
+     "name": "Dallas (Valley Ranch StarCenter)",
+     "where": "Fri–Sat",
+     "result": "Anaheim Jr Ducks, Dallas Stars Elite, Cleveland Barons, Phoenix Jr Coyotes"
     }
    ],
-   "watch": []
+   "watch": [
+    [
+     "Fri Nov 13",
+     "3:30 PM",
+     "Boston Jr Eagles (Elite)",
+     "St Louis Blues",
+     "Harbor Center"
+    ],
+    [
+     "Sat Nov 14",
+     "4:30 PM",
+     "St Louis Blues",
+     "North Jersey Avalanche",
+     "Harbor Center"
+    ],
+    [
+     "Sat Nov 14",
+     "3:00 PM",
+     "Little Caesars",
+     "Victory Honda",
+     "Victory Ice Center (league)"
+    ],
+    [
+     "Fri Nov 13",
+     "2:00 PM",
+     "Anaheim Jr Ducks",
+     "Phoenix Jr Coyotes",
+     "Valley Ranch (also Sat 4:00 PM)"
+    ]
+   ]
+  },
+  "2015": {
+   "summary": [
+    "Mid-Fairfield Elite (#4) has a big Connecticut weekend at Chelsea Piers: two games vs Middlesex Islanders East (#41) on Saturday and two vs Boston Jr Eagles (#6) on Sunday.",
+    "St. Louis (Centene Community Ice Center) hosts Dallas Stars Elite (#7), St Louis Blues (#11), Florida Alliance (#18) and Oakland (#24).",
+    "South Shore Kings (#8) play Providence Capitals (#13) Saturday morning.",
+    "Chicago Mission (#9) and the top three (Little Caesars, Penguins Elite, Worcester) have no games posted on MHR yet."
+   ],
+   "events": [
+    {
+     "name": "St. Louis (Centene Community Ice Center)",
+     "where": "Fri–Sat",
+     "result": "Dallas Stars Elite, St Louis Blues, Florida Alliance, Oakland Jr Grizzlies"
+    }
+   ],
+   "watch": [
+    [
+     "Sun Nov 15",
+     "10:00 AM",
+     "Mid-Fairfield Hockey Club (Elite)",
+     "Boston Jr Eagles (Elite)",
+     "Chelsea Piers, CT (also 1:00 PM)"
+    ],
+    [
+     "Fri Nov 13",
+     "2:40 PM",
+     "Dallas Stars Elite",
+     "St Louis Blues",
+     "Centene, St. Louis"
+    ],
+    [
+     "Sat Nov 14",
+     "8:30 AM",
+     "South Shore Kings (Elite)",
+     "Providence Capitals (Elite)",
+     "Schneider Arena"
+    ],
+    [
+     "Fri Nov 13",
+     "9:10 AM",
+     "Dallas Stars Elite",
+     "Florida Alliance",
+     "Centene, St. Louis"
+    ],
+    [
+     "Sat Nov 14",
+     "8:00 AM",
+     "St Louis Blues",
+     "Florida Alliance",
+     "Centene, St. Louis"
+    ],
+    [
+     "Sat Nov 14",
+     "11:30 AM",
+     "Mid-Fairfield Hockey Club (Elite)",
+     "Middlesex Islanders East (Elite)",
+     "Chelsea Piers, CT (also 4:00 PM)"
+    ]
+   ]
   }
- },
- "note": "Ranks in notes: (#MHR rank before the weekend, rating) → live rank now."
+ }
 }

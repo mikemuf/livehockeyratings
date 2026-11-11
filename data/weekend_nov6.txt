@@ -1,3 +1,4 @@
+CURRENT WEEKEND FILE: data/weekend_nov13.txt (Nov 13-15, __DATES=/^Nov (13|14|15|16)$/, track all four: v=114 2012, v=125 2013, v=124 2014, v=123 2015). Read it AFTER this file's OVERRIDES (overrides still apply).
 WEEKEND NOV 6-8 (container was reset Fri night; the live app = artifact v92 + games in pending_games.json NOT yet published)
 216 SHOWCASE 2013 Elite (GameSheet): https://gamesheetstats.com/seasons/15033/games?configuration=296&filter[division]=89124
   names: Nor'Easter -> Nor'easters; Mid-Fairfield Rangers -> Mid-Fairfield; others same. Sat: NOR-MF 8:00, CHI-SYR 9:35, LC-CLE 11:10, ANA-NOR 12:45, COL-MF 2:20, SYR-CLE 3:55, ANA-CHI 5:30, COL-LC 7:05 (ET); Sun playoffs.
