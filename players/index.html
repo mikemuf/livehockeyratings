@@ -70,6 +70,8 @@ tbody tr.row:hover{background:var(--soft)}
 .pill.on{background:var(--good);border-color:var(--good);color:var(--panel);font-weight:600}
 button.team:hover{background:var(--soft)}
 .note{color:var(--muted);font-size:13px;margin:12px 2px 0;max-width:70ch}
+.teambar{margin:0 2px 10px;font-size:14px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline}
+.teambar a,.meta a{color:inherit;font-weight:600;text-decoration:underline;text-underline-offset:2px}
 dialog{border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink);padding:0;width:min(780px,calc(100% - 32px));max-height:calc(100% - 32px)}
 .log{max-height:340px;overflow:auto}
 .prof th:nth-child(3),.prof td:nth-child(3){text-align:right}
@@ -120,6 +122,7 @@ dialog::backdrop{background:rgba(8,16,22,.55)}
     <button class="chip" id="f-q" aria-pressed="false">Hide under 5 GP</button>
     <span class="count" id="count"></span>
   </div>
+  <div id="teambar" class="teambar" hidden></div>
   <div class="sheet"><table><thead id="thead"></thead><tbody id="tbody"></tbody></table></div>
   <p class="note" id="listnote"></p>
 </section>
@@ -175,6 +178,9 @@ const SK_COLS=[["name","Player"],["team","Team"],["pos","Pos"],["gp","GP"],["g",
 const GK_COLS=[["name","Goalie"],["team","Team"],["pos","Pos"],["gs","Starts"],["gaa","GA/G"],["aga","Adj GA/G"],["opp","Avg opp"],["so","SO"],["sa","SA/G"],["svp","SV%"]];
 let mode="skaters",sortKey="adj",sortDir=-1,yr=0,pos="",teamF="",q="",hideUnq=false,reg=-1,lvl="B";
 const $=id=>document.getElementById(id);
+// Links to the live ratings site: each team there has a page with its rating and game history.
+const RSITE="https://mikemuf.github.io/livehockeyratings/";
+const rlink=t=>RSITE+"#team="+encodeURIComponent(t.yr+"|"+t.name);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const pmHtml=v=>`<span class="${v>0?"plus":v<0?"minus":""}">${v>0?"+":""}${v}</span>`;
 
@@ -196,13 +202,14 @@ function render(){
     if(mode==="goalies")return pre+`<tr class="row${x.q?"":" unq"}" data-i="${i}" tabindex="0">${first}<td><span class="pos">G</span></td><td>${x.gs}</td><td>${x.gs?x.gaa.toFixed(2):"-"}</td><td><b>${x.nr?x.aga.toFixed(2):"-"}</b></td><td>${x.nr?x.opp.toFixed(1):"-"}</td><td>${x.so}</td><td>${x.sa||"-"}</td><td>${x.svp?x.svp+"%":"-"}</td></tr>`;
     return pre+`<tr class="row${x.q?"":" unq"}" data-i="${i}" tabindex="0">${first}<td><span class="pos">${x.pos}</span></td><td>${x.gp}</td><td>${x.g}</td><td>${x.a}</td><td><b>${x.p}</b></td><td>${x.ppp}</td><td>${pmHtml(x.pm)}</td><td>${x.pim}</td><td>${mmss(x.toi)}</td><td>${mmss(x.toig)}</td><td>${mmss(x.pptg)}</td><td>${x.ppg.toFixed(2)}</td><td><b>${x.adj?x.adj.toFixed(2):"-"}</b></td><td>${x.p60.toFixed(2)}</td><td><b>${x.adj60?x.adj60.toFixed(2):"-"}</b></td><td>${x.opp?x.opp.toFixed(2):"-"}</td></tr>`;
   }).join("")||`<tr><td colspan="${cols.length+1}" style="text-align:left;color:var(--muted)">No players match. Clear the search or filters.</td></tr>`;
+  const tb=$("teambar"),tt=teamF&&teamById[teamF];tb.hidden=!tt;if(tt)tb.innerHTML=`<span><b>${esc(tt.name)} ${tt.yr}</b> · rated ${tt.rating.toFixed(2)} · ${tt.ca?"Canada ":"USA "}${tt.rank?"#"+tt.rank:"unranked"}${loaded.has(tt.id)?"":" · no games in InStat yet"}</span><a href="${rlink(tt)}">Team rating and game history &rsaquo;</a>`;
   $("count").textContent=list.length+(mode==="goalies"?" goalies":" skaters")+" · "+loaded.size+" of "+TEAMS.length+" teams";
   $("listnote").textContent=mode==="goalies"?"Starts are games where the goalie played essentially the whole game, so the goals against are his. GA/G is his plain goals against per start. Adj GA/G weights each game's goals against by the opponent's rating only, with 94 as the baseline (1.00). Against stronger teams a goal counts 16% less per rating point (0.62 of a goal against a 97 team). Against weaker teams it counts 25% more per point (2.12 goals against a 91 team), capped at 4.48 for opponents rated 88 or lower. It averages rated starts only and does not account for the goalie's own team. Avg opp is the average rating of the opponents in those starts. Goalies with fewer than "+MINGP+" starts sort below the qualified list. SA/G and SV% are InStat season averages and may be blank.":"Totals cover only games loaded in InStat, so GP can be lower than a team's real schedule. TOI is total minutes:seconds. PPP is power-play points (goals plus assists scored on the power play) and PP TOI/G is power-play ice time per game, both from InStat's power-play view of each game. P/60 uses all-situations ice time. Adj P/G converts each game's points to what they would be worth against a 95-rated team, using a ratio measured from this data: scoring changes about 16% for every rating point of opponent strength (96 = 1.17, 93 = 0.73, 90 = 0.45). That is the middle of what the data shows: 13% among the top scorers, 19% among players with games in both the 2012 and 2013 divisions. A top scorer whose production rises against weaker teams by the typical amount gets the same adjusted number whatever his schedule. Adj P/60 applies the same weights per 60 minutes of ice time. The game log shows each game's multiplier. Players with fewer than "+MINGP+" games always sort below the qualified list. Bantam (2012 and 2013) and Peewee (2014 and 2015) are separate rating scales: each has its own 99.99 top team, so adjusted numbers compare within Bantam or within Peewee, not across them. Fewer Peewee teams load games into InStat, so samples are smaller, and the ratings cover only part of Ontario at Peewee, so about a third of Ontario Peewee games are against unrated opponents and do not count toward the adjusted numbers."+" Avg opp is the average current rating of the opponents in the games that player appeared in. Select a player for the game log. Positions are inferred from faceoff counts and line combinations, not from InStat's labels, so a few may be wrong.";
   $("f-F").hidden=$("f-D").hidden=mode==="goalies";
 }
 function profile(x,isG){
   const others=(isG?goalies:skaters).filter(o=>o.team===x.team);
-  let h=`<button class="close" id="x">Close</button><h2>${esc(x.name)}</h2><div class="meta">#${x.num} · ${isG?"Goalie":x.pos==="F"?"Forward":x.pos==="D"?"Defense":"Forward / Defense"} · ${esc(x.team.name)} ${x.team.yr}${` · <span class="born b${x.by%100}">${x.by} born</span>`} · team ranked ${x.team.ca?"Canada ":""}#${x.team.rank} (${x.team.rating.toFixed(2)})</div>`;
+  let h=`<button class="close" id="x">Close</button><h2>${esc(x.name)}</h2><div class="meta">#${x.num} · ${isG?"Goalie":x.pos==="F"?"Forward":x.pos==="D"?"Defense":"Forward / Defense"} · ${esc(x.team.name)} ${x.team.yr}${` · <span class="born b${x.by%100}">${x.by} born</span>`} · team ranked ${x.team.ca?"Canada ":""}#${x.team.rank} (${x.team.rating.toFixed(2)}) · <a href="${rlink(x.team)}">team rating page</a></div>`;
   const st=(l,v)=>`<div class="stat"><b>${v}</b><span>${l}</span></div>`;
   if(isG){h+=`<div class="grid">${st("Full-game starts",x.gs)}${st("GA / game",x.gs?x.gaa.toFixed(2):"-")}${st("Adjusted GA / game",x.nr?x.aga.toFixed(2):"-")}${st("Avg opponent rating",x.nr?x.opp.toFixed(1):"-")}${st("Rated starts",x.nr)}${st("Shutouts",x.so)}${st("SV% (InStat)",x.svp?x.svp+"%":"-")}${st("Shots / game",x.sa||"-")}</div><h3>Game log (full-game starts)</h3><div class="sheet log"><table><thead><tr><th>Date</th><th>Opponent</th><th>Opp rating</th><th>Score</th><th>GA</th><th>Adj GA</th></tr></thead><tbody>`+x.log.slice().reverse().map(l=>{const[a,b]=l.score.split(":").map(Number);const res=a>b?"W":a<b?"L":"T";return `<tr><td>${l.date}</td><td>${l.ha==="h"?"vs":"at"} ${esc(l.opp)} <span class="sub">${l.ork?(l.pool?"CAN ":"")+"#"+l.ork:l.or?"unranked":"not rated"}</span></td><td>${l.or?l.or.toFixed(2):"-"}</td><td><span class="${res==="W"?"plus":res==="L"?"minus":""}">${res}</span> ${a}-${b}</td><td><b>${l.ga}</b></td><td>${l.or?(l.ga*gmult(l.or)).toFixed(2):"-"}</td></tr>`}).join("")+`</tbody></table></div>`}
   else{
@@ -246,7 +253,10 @@ $("tbody").onclick=e=>openRow(e.target.closest("tr.row"));
 $("tbody").onkeydown=e=>{if(e.key==="Enter")openRow(e.target.closest("tr.row"))};
 $("board").onclick=e=>{const b=e.target.closest("button[data-t]");if(!b)return;teamF=b.dataset.t;lvl="";yr=0;chips();$("f-team").value=teamF;setMode("skaters")};
 $("dlg").onclick=e=>{if(e.target===$("dlg"))$("dlg").close()};
-render();
+// A link like #team=12-4 (used by the ratings site) opens straight to that team's roster.
+function fromHash(){const m=location.hash.match(/^#team=([\w-]+)/);if(!m||!teamById[m[1]])return false;teamF=m[1];lvl="";yr=0;pos="";q="";chips();$("f-team").value=teamF;setMode("skaters");return true}
+window.addEventListener("hashchange",fromHash);
+if(!fromHash())render();
 </script>
 </body>
 </html>

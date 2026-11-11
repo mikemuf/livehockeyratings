@@ -122,4 +122,12 @@ rep(' <section class="view" id="v-can"></section>',' <section class="view" id="v
 rep("let cache={};","const WEEKEND="+json.dumps(WK)+";\nconst WEEKEND_GAMES="+json.dumps(WG)+";\n"+open('build/weekend.js').read()+"let cache={};")
 rep("  if(view==='can')","  if(view==='wk')document.getElementById('v-wk').innerHTML=renderWeekend(S);\n  if(view==='can')")
 rep('<style>','<style>ul.wk{margin:8px 0 0;padding-left:18px}ul.wk li{margin:6px 0;line-height:1.4}table.wkg{width:100%;border-collapse:collapse;table-layout:fixed}table.wkg td:first-child{width:84px}table.wkg td{overflow-wrap:anywhere;white-space:normal;text-align:left;background:none}table.wkg{border:0}table.wkg td{padding:6px 4px;border-top:1px solid rgba(128,128,128,.2);vertical-align:top;text-align:left}.wkd{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;opacity:.65;margin:12px 0 2px}.wkr{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:7px 0;border-top:1px solid rgba(128,128,128,.2);text-align:left}.wkr .sc{text-align:right;font-weight:600}')
+# --- links between the ratings site and the player database (players/): each team page links to its roster,
+#     and a link like #team=2012|Chicago Mission (used by the player database) opens that team's page.
+PT=json.load(open('players/data/teams.json'));PDB={}
+for k,t in PT.items(): PDB.setdefault(str(t['yr']),{})[t['name']]=k
+rep("<a class=\"back\" id=\"tog-ca\">${canada.has(x.t)?'Move to USA':'Move to Canada'}</a></p></div>`;",
+    "<a class=\"back\" id=\"tog-ca\">${canada.has(x.t)?'Move to USA':'Move to Canada'}</a></p>${(PDB[div]||{})[x.t]?`<p style=\"margin:12px 0 0\"><a class=\"plink\" style=\"padding:0\" href=\"players/#team=${PDB[div][x.t]}\">Roster and player stats &rsaquo;</a></p>`:''}</div>`;")
+rep("let cache={};","const PDB="+json.dumps(PDB)+";\nlet cache={};")
+rep("\nrender();\n</script>","\nfunction fromHash(){let m=null;try{m=decodeURIComponent(location.hash).match(/^#team=(\\d{4})\\|(.+)$/)}catch(e){}if(!m)return;div=m[1];selTeam=m[2];view='team'}\nwindow.addEventListener('hashchange',()=>{fromHash();render();window.scrollTo(0,0)});\nfromHash();render();\n</script>")
 open('index.html','w').write(h);print('ok',len(h))
