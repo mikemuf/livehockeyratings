@@ -9,7 +9,7 @@ A second copy is kept as a Claude artifact (https://claude.ai/artifact/GD1DB4Csb
 - Read InStat through rendered pages only (hidden same-origin iframes). Do not intercept or call InStat's internal API.
 - Never enter a password. If InStat shows a sign-in page, stop and tell Mike he needs to sign in to Hudl in the Claude desktop app's browser.
 - Hand corrections live in the page itself and must survive: `POSFIX` (positions), `BORN` and `GBORN` (2013-born players on 2012 teams), `mult` (16% per rating point, 95 = 1.00), `MINGP`. `inject.py` does not touch them.
-- Goalies show plain GA/G only. No adjusted goalie numbers.
+- Goalies show plain GA/G plus Adj GA/G and Avg opp. Adj GA/G is opponent-only (`gmult` in the page: 94 = 1.00, goals count 16% less per point above 94 and 25% more per point below, capped at 88). `gmult` is a hand setting; `inject.py` does not touch it.
 - Do not publish if the canary fails or the sanity checks fail. Report instead.
 
 ## Steps
