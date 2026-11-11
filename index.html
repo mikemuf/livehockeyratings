@@ -394,6 +394,7 @@ let cache={};
 function render(){
   cache[div]=cache[div]||solve(div);const S=cache[div];
   document.querySelectorAll('.seg button').forEach(b=>b.classList.toggle('on',b.dataset.div===div));
+  {const pl=document.querySelector('.tabs a.plink');if(pl)pl.href='players/#year='+div}
   document.querySelectorAll('nav.tabs button').forEach(b=>b.classList.toggle('on',b.dataset.view===view));
   document.querySelectorAll('section.view').forEach(s=>s.classList.toggle('on',s.id==='v-'+view));
   if(view==='rank')document.getElementById('v-rank').innerHTML=renderRank(S);
