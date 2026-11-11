@@ -58,6 +58,8 @@ function solveFull(dv,extra){
 // and every newer game is folded in with MHR's formula: AGD and schedule are running averages over all games,
 // rating = AGD + schedule + the team's published adjustment. Iterated so opponents' new ratings feed back in.
 const LITE_DIVS=Object.keys(LITE);
+// the top team of the first anchored division keeps its published rating (99.99 in a full pool; lower for 15U, which MHR rates inside the 16U pool)
+const LITE_TOP=LITE_DIVS.length?Math.max(...Object.values(LITE[LITE_DIVS[0]]).map(a=>a[0])):99.99;
 const _lite={};
 function liteFind(dv,t){if(LITE[dv][t])return dv+'|'+t;for(const o of LITE_DIVS)if(o!==dv&&LITE[o][t])return o+'|'+t;return null}
 function solveLite(dv,extra){
@@ -75,7 +77,7 @@ function solveLite(dv,extra){
     for(const k of keys){const x=T[k];const m=x.opp.length;if(!m){nr[k]=x.r;continue}
       const N=x.n+m;const agd=(x.agd*x.n+x.dsum)/N;const sch=(x.sch*x.n+x.opp.reduce((s,o)=>s+T[o].r,0))/N;nr[k]=agd+sch+x.adj}
     let top=-Infinity;for(const k of keys)if(T[k].dv===LITE_DIVS[0])top=Math.max(top,nr[k]);
-    const sh=used.length?99.99-top:0;for(const k of keys)T[k].r=nr[k]+sh}
+    const sh=used.length?LITE_TOP-top:0;for(const k of keys)T[k].r=nr[k]+sh}
   const rows=[];for(const k of keys){const x=T[k];if(x.dv!==dv)continue;const m=x.opp.length,N=x.n+m;
     const agd=m?(x.agd*x.n+x.dsum)/N:x.agd,sch=m?(x.sch*x.n+x.opp.reduce((s,o)=>s+T[o].r,0))/N:x.sch;
     rows.push({t:x.t,r:x.r,rec:[x.w,x.l,x.ti],agd,sched:sch,gp:N,mhr:true,adj:x.r-(agd+sch)})}
