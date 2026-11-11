@@ -31,11 +31,13 @@ add(["2012","2026-11-01","Shattuck St Mary's",9,"Top Gun (Elite)",1],rep)
 for f,dv in (('build/games_added_nov3.txt','2012'),('build/games13_added_nov4.txt','2013')):
     for l in open(f):
         d,a,ga,b,gb=l.strip().split('|');add([dv,'2026-'+d,a,int(ga),b,int(gb)],rep)
+for g in json.load(open('data/games_wk_nov6.json')): add(g,rep)
+for g in json.load(open('data/games_mhr_fix_nov11.json')): add(g,rep)
 for g in json.load(open('data/pending_games.json')): add(g,rep)
 P2games,P2X,P2M,P2G,P2R,P2CA=pool2.build()
 BASE.extend(P2games);print('pool2 games',len(P2games))
 # cross-age opponents in 2014/2015 pending games: 'Name (12U)' in a 2015 game / 'Name (11U)' in a 2014 game
-for g in json.load(open('data/pending_games.json')):
+for g in json.load(open('data/games_wk_nov6.json'))+json.load(open('data/games_mhr_fix_nov11.json'))+json.load(open('data/pending_games.json')):
     if g[0] not in ('2014','2015'): continue
     for n in (g[2],g[4]):
         for suf,dv in ((' (12U)','2014'),(' (11U)','2015')):
@@ -48,7 +50,7 @@ EXTRA={'2012':{'Tri-Valley Bulls (#1) 14U AA':'Tri-Valley Bulls (14U AA)','West 
  '2013':{'Saginaw Jr Spirit 13U A':'Saginaw Jr Spirit','Toledo Cherokee 13U AA':'Toledo Cherokee','St Clair Shores Saints (Red) 13U A':'St Clair Shores Saints (Red)','Cheektowaga Warriors (Red) 13U AA':'Cheektowaga Warriors (Red)','Detroit Bulldogs (Gold) 13U A':'Detroit Bulldogs (Gold)','Music City Marauders 13U AA':'Music City Marauders','Cleveland Barons (Eldred)':'Cleveland Barons AA'}}
 X={'2012':[("Mauricie Estacades",92.09),("RHA Winnipeg",98.51),("Team Minnesota Red",98.31),("Team Minnesota Blue",97.64),("Minnesota Lakers",94.69),("Kuper Academy",94.07),("Cascades Elite",95.82),("North Shore Winter Club",95.95),("St George's School",94.68),("Long Island Gulls",82.28)],
    '2013':[("Biggby Coffee",82.94),("Red Bank Generals",82.85),("Hartford Jr Wolfpack",82.69),("Palmyra Black Knights",83.99),("Saginaw Jr Spirit (14U AA)",84.93),("Sioux Falls Power",85.48)]}
-files={'2012':['nov04_usa14.txt','nov04_on15.txt'],'2013':['nov04_usa13.txt','nov04_on14.txt']}
+files={'2012':['nov11_usa14.txt','nov11_on15.txt'],'2013':['nov11_usa13.txt','nov11_on14.txt']}
 M={};G={};R={}
 for dv,fs in files.items():
     al={**AL[dv],**EXTRA[dv]};M[dv]={};G[dv]={};R[dv]={};um=[]
@@ -69,7 +71,7 @@ def setline(name,val):
     i=h.index('const '+name+'=');j=h.index('\n',i);h=h[:i]+'const '+name+'='+json.dumps(val)+';'+h[j:]
 M.update(P2M);G.update(P2G);R.update(P2R)
 setline('MHR_REC',R);setline('MHR_GP',G);setline('MHR',M)
-h=re.sub(r"const MHR_THROUGH='[^']*', MHR_PUBLISHED='[^']*';","const MHR_THROUGH='2026-11-03', MHR_PUBLISHED='Nov 4';",h)
+h=re.sub(r"const MHR_THROUGH='[^']*', MHR_PUBLISHED='[^']*';","const MHR_THROUGH='2026-11-10', MHR_PUBLISHED='Nov 11';",h)
 # --- joint-pool solver (13U+14U one MHR pool; ignore games vs 15U/16U/18U; dedupe cross-listed 13U-14U games)
 a=h.index('function solve(dv,extra){');b=h.index('const f2=x=>x.toFixed(2)',a)
 h=h[:a]+open('build/solver.js').read()+h[b:]
@@ -111,7 +113,7 @@ rep('<style>','<style>.bar{flex-wrap:wrap;row-gap:6px}@media (max-width:560px){.
 h=h.replace("div==='2012'?'2012 Bantam Major':'2013 Bantam Minor'","({'2012':'2012 Bantam Major','2013':'2013 Bantam Minor','2014':'2014 Peewee Major (12U)','2015':'2015 Peewee Minor (11U)'})[div]")
 # --- public site: Weekend tab; hide internal tabs (Schedule, Add scores, Handoff)
 WK=json.load(open('data/weekend_public.json'))
-WG=[g[:6] for g in json.load(open('data/pending_games.json')) if WK['from']<=g[1]<=WK['to']]
+WG=[g[:6] for g in json.load(open('data/games_wk_nov6.json'))+json.load(open('data/pending_games.json')) if WK['from']<=g[1]<=WK['to']]
 rep('  <button data-view="sched">Schedule</button>\n','')
 rep('  <button data-view="add">Add scores</button>\n','')
 rep('  <button data-view="export">Handoff</button>\n','')

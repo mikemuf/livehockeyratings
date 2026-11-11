@@ -1,0 +1,381 @@
+Middlesex Islanders East (Elite)|23-4-1|99.99|3.42|96.56
+Little Caesars|13-5-3|99.24|2.04|97.20
+Boston Advantage (Elite)|18-5-5|98.70|1.85|96.84
+Florida Alliance|14-5-2|98.34|2.04|96.29
+Boston Jr Eagles (Elite)|15-6-2|97.66|1.26|96.40
+Chicago Fury|19-8-3|97.35|1.56|95.79
+Top Gun (Elite)|20-3-0|97.29|1.86|95.42
+Buffalo Jr Sabres|11-10-5|97.15|0.03|97.11
+Mid-Fairfield Hockey Club (Elite)|11-14-3|96.16|0.17|95.98
+Pittsburgh Penguins Elite (Mueller)|12-17-1|96.08|0.13|95.95
+St Louis Blues|13-10-2|95.82|1.48|94.34
+North Jersey Avalanche|18-7-4|95.76|1.89|93.86
+South Shore Kings (Elite)|10-11-3|95.72|0.29|95.43
+Florida Surf|13-8-0|95.67|1.04|94.63
+Victory Honda|23-4-3|95.32|1.93|93.39
+Vegas Jr Golden Knights|26-7-2|95.26|2.22|93.03
+Chicago Reapers|20-9-3|95.20|1.37|93.82
+Anaheim Jr Ducks|22-6-1|95.13|2.00|93.13
+Boston Jr Terriers (Elite)|6-10-3|95.06|-0.52|95.58
+Dallas Stars Elite|11-5-3|94.74|0.66|94.08
+HB Detroit|16-9-1|94.17|1.80|92.37
+Woodbridge Wolfpack|18-8-3|94.07|1.20|92.86
+Ohio Blue Jackets|13-10-2|94.02|0.92|93.10
+Long Island Royals|18-5-2|93.85|2.20|91.65
+Cleveland Barons|11-18-1|93.76|-1.10|94.86
+Indiana Elite|18-10-1|93.65|0.96|92.68
+Buffalo Bisons 12U AA|21-6-0|93.64|2.55|91.08
+Philadelphia Hockey Club|11-13-1|93.64|-0.04|93.68
+Chicago Mission|10-10-1|93.63|0.00|93.63
+Bay State Breakers (Elite)|12-14-1|93.52|-0.51|94.04
+PAL Jr Islanders|21-10-0|93.49|1.51|91.97
+Littleton Hawks 12U AA|28-4-0|93.46|3.12|90.33
+Biggby Coffee|12-12-2|93.25|-0.11|93.37
+Lehigh Valley Phantoms|12-12-3|93.14|0.70|92.44
+Providence Capitals (Elite)|8-14-1|93.08|-1.91|95.00
+Fox Motors|18-15-1|92.95|0.14|92.81
+Alaska Oilers 12U AA|13-5-0|92.79|3.07|89.71
+Oakland Jr Grizzlies|6-10-0|92.77|-0.75|93.52
+Chicago Phantoms|26-16-1|92.77|0.81|91.95
+New York City Hockey Club|13-13-1|92.67|1.44|91.23
+Belle Tire|9-10-3|92.65|0.31|92.34
+Minuteman Flames (Elite)|8-18-1|92.55|-1.25|93.81
+NY Dynamo|19-10-1|92.54|1.10|91.44
+Philadelphia Little Flyers|13-11-1|92.46|-0.12|92.58
+Pittsburgh Predators|17-11-2|92.37|1.13|91.23
+Lovell Winter Club (Elite)|10-8-2|92.37|0.30|92.07
+Colorado Extreme (Black) 12U AA|25-2-0|92.23|4.33|87.90
+Mid-Fairfield Hockey Club (T1)|21-11-4|92.22|1.00|91.22
+CarShield|12-15-0|92.16|-1.00|93.16
+Buffalo Regals (Rainey)|23-8-0|92.13|1.06|91.07
+Vermont Jr Catamounts (Elite)|16-5-4|92.08|0.68|91.40
+North Shore Hockey Academy|15-8-2|92.06|1.28|90.78
+New Jersey Colonials|12-13-1|91.96|0.07|91.88
+Tri-Valley Blue Devils (#1) 12U AA|19-7-1|91.91|2.59|89.32
+Compuware|9-20-1|91.89|-1.63|93.52
+Pittsburgh Penguins Elite (Snyder)|11-5-2|91.86|0.50|91.36
+Milwaukee Jr Admirals|8-16-1|91.84|-1.00|92.84
+New Richmond Tigers 12U 1A|7-1-0|91.81|3.37|88.44
+Palmyra Black Knights|19-6-1|91.76|2.92|88.84
+Seacoast Spartans (T1-Platinum)|14-4-2|91.75|2.55|89.20
+Madison Capitols|11-12-1|91.55|0.12|91.42
+LA Jr Kings|2-14-0|91.50|-2.50|94.00
+Springfield Jr Thunderbirds (Elite)|6-9-1|91.49|-0.18|91.67
+California Bears (#1) 12U AA|18-4-0|91.42|3.45|87.97
+Texas Tigers 12U AA|19-10-0|91.41|1.48|89.93
+Team Maryland|8-14-1|91.40|-0.78|92.18
+Boston Jr Falcons|14-4-2|91.29|1.52|89.76
+Syracuse Nationals|7-15-4|91.24|-0.80|92.05
+Philadelphia Jr Flyers|7-9-1|91.17|-0.58|91.76
+Anaheim Jr Ducks (#1) 12U AA|13-5-1|91.02|2.26|88.76
+Great Lakes HC 12U AA|10-8-1|91.02|-0.15|91.18
+Danbury Jr Hat Tricks|17-7-0|90.98|1.16|89.81
+Houston Jr Aeros 12U AA|9-7-0|90.90|1.12|89.77
+Belle Tire 12U AA|22-7-0|90.89|2.25|88.64
+Windy City Storm|13-23-0|90.80|-0.77|91.58
+Middlesex Islanders West (T1-Platinum)|17-4-1|90.79|2.09|88.70
+Rochester Saints|5-16-2|90.74|-1.39|92.13
+Hartland Huskies (Black) 12U AA|19-5-1|90.70|1.83|88.86
+Red Bank Generals|9-15-1|90.67|-0.96|91.63
+USA Eagles 12U AA|16-4-3|90.66|2.60|88.05
+Amherst Knights|7-12-1|90.58|-0.50|91.08
+Tampa Bay Jr Lightning|5-6-0|90.55|-0.45|91.01
+Phoenix Jr Coyotes|12-10-1|90.54|0.21|90.33
+Boulder HC 12U AA|14-6-2|90.43|1.81|88.61
+Assabet Valley Patriots (Elite)|8-16-1|90.37|-1.04|91.41
+Greater Springfield Aces|14-11-2|90.37|0.70|89.67
+South Shore Kings (T1-Platinum)|15-4-2|90.31|2.04|88.26
+Fremont Warbirds 12U A|11-2-0|90.29|2.38|87.90
+Southeast Blades|10-12-2|90.28|-0.16|90.45
+Ogden Jr Mustangs 12U AA|12-3-0|90.20|3.86|86.34
+Mercer Chiefs|14-8-1|90.12|1.47|88.64
+Northern Express (CSDHL) 12U AA|17-5-1|90.00|1.50|88.50
+East Coast Wizards (Elite)|10-6-4|89.97|0.50|89.47
+Philadelphia Revolution|10-9-1|89.96|-0.10|90.06
+Valley Jr Warriors (Elite)|4-10-3|89.95|-0.58|90.54
+Team Illinois|9-26-0|89.87|-2.85|92.73
+Palm Beach Hawks 12U AA|23-4-2|89.75|2.93|86.82
+Casco Bay Mariners|7-6-4|89.74|0.29|89.44
+Utica Jr Comets|11-15-1|89.70|-0.48|90.18
+NEW Eau Claire Mustangs 12U 1A|2-3-0|89.61|0.80|88.81
+Chicago Jets (CSDHL) 12U AA|16-6-3|89.61|1.52|88.09
+Wilmette Jr Trevians (CSDHL) 12U AA|9-9-3|89.60|0.19|89.41
+Jacksonville Jr Icemen 12U AA|8-4-0|89.51|2.58|86.93
+Gulf Coast Flames 12U AA|15-5-2|89.51|1.95|87.56
+Pittsburgh Vengeance|7-19-2|89.48|-1.67|91.15
+Boston Jr Terriers (T1-Platinum-Red)|4-7-3|89.46|-0.85|90.31
+Long Island Gulls|10-13-0|89.42|-0.86|90.29
+Loudoun Knights 12U AA|18-4-0|89.29|3.42|85.87
+New Jersey Rockets|4-11-2|89.22|-1.41|90.63
+Crimson HC (White)|11-5-6|89.21|1.31|87.89
+Clearwater Ice Storm 12U AA|14-3-2|89.21|2.42|86.79
+West Haven Blue Devil Rangers 12U AA|19-5-5|89.18|2.24|86.94
+Valley Thunder 12U AA|13-8-0|89.18|1.91|87.26
+Allegheny Badgers (#1) 12U AA|29-3-1|89.18|3.78|85.39
+Detroit Bulldogs 12U AA|13-6-4|89.16|1.34|87.81
+Foothills Flyers 12U AA|14-7-4|89.10|1.44|87.66
+Music City Marauders (French) 12U AA|8-11-0|89.07|-0.21|89.28
+Orland Park Vikings (CSDHL) 12U AA|10-8-1|89.04|0.22|88.82
+Jersey Hitmen|10-16-5|89.02|-0.29|89.31
+Waltham Hawks 12U AA|9-2-0|88.97|3.66|85.30
+Sylvania North Stars|14-12-3|88.87|0.41|88.46
+Geneva Cyclones (CSDHL) 12U AA|13-10-1|88.86|0.58|88.28
+Wellesley Raiders 12U AA|6-1-1|88.79|3.00|85.79
+New England Stars (Conley)|19-4-3|88.78|2.61|86.16
+Washington Little Capitals|5-16-0|88.72|-2.23|90.96
+Arapahoe Warriors (Navy) 12U AA|19-8-3|88.70|1.26|87.43
+Grand Rapids Griffins 12U AA|12-13-1|88.66|0.15|88.51
+Dallas Penguins 12U AA|11-13-0|88.63|-0.69|89.33
+NoCo Jr Eagles 12U AA|10-10-2|88.62|1.50|87.12
+Rochester Jr Americans|7-6-1|88.61|0.00|88.61
+Carolina Junior Canes|9-19-0|88.61|-1.39|90.00
+Lake County Vipers (CSDHL) 12U AA|11-14-0|88.61|0.20|88.41
+Traverse City North Stars 12U AA|20-6-1|88.59|1.50|87.09
+Appleton Avalanche 12U 1A|4-2-0|88.56|1.00|87.56
+Nassau County Lions 12U AA|16-4-1|88.56|3.19|85.37
+Des Moines Jr Bucs (Red) 12U A|7-1-0|88.55|4.25|84.30
+LA Jr Kings (#1) 12U AA|15-11-0|88.53|0.73|87.80
+AY NorthStars (T1-Platinum)|5-8-3|88.51|-0.37|88.89
+Top Gun (T1-Platinum)|7-11-6|88.48|-0.58|89.06
+West Dundee Leafs (CSDHL) 12U AA|11-8-2|88.43|0.19|88.24
+San Diego Jr Gulls 12U AA|16-5-0|88.38|2.42|85.96
+Arizona Bobcats 12U AA|7-11-1|88.36|0.10|88.25
+Fort Wayne Force (Blue) 12U AA|10-4-0|88.36|0.85|87.50
+Oakland Jr Grizzlies 12U AA|9-5-1|88.33|1.26|87.06
+San Jose Jr Sharks (#1) 12U AA|9-6-0|88.33|1.13|87.19
+Fairbanks Hockey Club Freeze 12U AA|13-7-1|88.32|2.16|86.16
+Sno-King Jr Thunderbirds 12U A1|13-4-1|88.29|2.50|85.79
+Bay State Breakers (T1-Platinum)|3-8-5|88.29|-1.06|89.35
+Boston Advantage (Select #1)|11-3-1|88.27|2.13|86.13
+Compuware 12U AA|7-11-1|88.24|-0.42|88.66
+Team Philadelphia 12U AA|25-6-0|88.23|3.12|85.10
+Sioux City Jr Musketeers (Gold) 12U A|4-6-0|88.23|-0.50|88.73
+Minuteman Flames (T1-Platinum)|7-10-0|88.20|-1.00|89.20
+NC Golden Bears 12U AA|12-3-1|88.18|3.37|84.81
+Hudson Raiders 12U 1A|1-5-0|88.12|-2.33|90.46
+Mass Bay Chiefs (Indep)|11-7-3|88.12|0.95|87.17
+St Louis Knights 12U AA|11-13-1|88.07|0.44|87.63
+Nashville Jr Predators|8-19-0|88.07|-2.03|90.10
+Connecticut Jr Rangers (Elite)|10-13-2|88.02|-0.32|88.34
+Aliso Viejo Avalanche 12U AA|8-4-1|87.95|1.46|86.49
+McKinney North Stars 12U AA|9-12-2|87.95|-0.36|88.32
+Queen City Royals|6-13-0|87.94|-1.26|89.20
+Providence Capitals North (Batista)|13-1-0|87.92|3.35|84.56
+Florida Bulldogs 12U AA|8-8-0|87.86|0.43|87.42
+Ashburn Xtreme 12U AA|17-5-1|87.83|1.77|86.06
+St Louis Sting 12U AA|13-14-0|87.82|-0.11|87.93
+Texas Jr Brahmas 12U AA|7-10-0|87.80|0.56|87.24
+Saginaw Jr Spirit 12U AA|10-10-3|87.79|-0.13|87.92
+Marshfield Rams 12U A|8-2-0|87.77|2.10|85.67
+Assabet Valley Patriots (Select)|12-3-0|87.75|2.46|85.29
+West Seneca Wings (TB) 12U AA|14-9-4|87.73|1.29|86.44
+St Louis Eagles 12U AA|12-7-2|87.68|1.42|86.25
+Bay County Blizzard 12U AA|11-9-2|87.68|0.04|87.64
+Florida Jr Everblades 12U AA|7-5-1|87.64|1.00|86.64
+Northern CT Nor'Easter|14-5-2|87.60|1.52|86.07
+Fox Valley Blades 12U 1A|10-2-1|87.56|1.69|85.87
+Troy Albany Titans|18-0-2|87.55|3.50|84.05
+Tri-State Spartans|9-13-2|87.55|-0.70|88.25
+New England Bulldogs|5-7-1|87.54|-0.46|88.00
+Brandon Valley Jr Stampede 12U A|4-1-0|87.50|4.60|82.90
+Boston Junior Rangers|7-5-2|87.45|0.85|86.59
+Darien Youth 12U AA|15-7-4|87.44|0.69|86.75
+Cranford Hockey Club 12U AA|19-5-2|87.44|2.04|85.40
+Philadelphia Genesis Hockey Club (McGinty) 12U AA|26-5-1|87.43|3.43|83.99
+California Jr Reign (#1) 12U AA|6-6-1|87.42|0.53|86.88
+Woburn Tanners 12U A|7-2-0|87.42|3.66|83.75
+Buffalo Regals (Catanzaro) 12U AA|18-1-1|87.39|2.75|84.64
+Raleigh Raptors 12U AA|12-1-2|87.38|1.46|85.92
+California Heat 12U AA|12-5-3|87.38|1.20|86.18
+Naperville Sabres (CSDHL) 12U AA|6-14-1|87.37|-0.23|87.61
+Cleveland Barons 12U AA|10-9-2|87.31|-0.28|87.59
+Vermont Flames (Elite)|9-9-1|87.26|0.21|87.05
+Charleston Jr Stingrays 12U AA|17-1-2|87.20|3.80|83.40
+Las Vegas Storm 12U AA|10-8-1|87.18|0.36|86.81
+Highland Park Falcons (CSDHL) 12U AA|11-8-0|87.16|0.47|86.68
+New York City Cyclones 12U AA|12-7-0|87.15|1.73|85.41
+New York Saints|6-17-1|87.13|-1.50|88.63
+Adirondack Thunder 12U AA|16-6-3|87.11|1.88|85.23
+Tri-Cities Jr Americans 12U AA|26-1-1|87.09|4.00|83.09
+Boston Jr Eagles (T1)|7-2-1|87.08|3.00|84.08
+Austin Capitals 12U AA|6-5-0|87.08|1.11|85.96
+Mountain Select 12U AA|12-9-0|87.05|0.14|86.91
+Tampa Bay Hockey Club 12U AA|10-7-0|87.04|1.23|85.81
+Hollydell Hurricanes 12U AA|21-5-1|87.03|2.48|84.55
+Long Island Rebels (Major) 12U AA|16-3-1|87.01|3.45|83.56
+New Hampshire Avalanche|9-10-2|86.95|0.52|86.43
+Chicago Blues (CSDHL) 12U AA|7-8-1|86.94|-0.25|87.19
+Weymouth Wildcats (Herman) 12U A|4-3-2|86.92|1.33|85.59
+Columbus Blue Jackets 12U AA|12-8-5|86.91|0.44|86.47
+Winnetka Warriors (CSDHL) 12U AA|5-12-2|86.88|-1.52|88.40
+Northwest Chargers 12U AA|12-6-2|86.86|1.55|85.31
+Kensington Valley Rebels 12U AA|6-11-2|86.83|-0.41|87.24
+Vegas Jr Golden Knights 12U AA|9-9-4|86.83|-0.04|86.87
+Pittsburgh (PHA) Icemen 12U AA|20-8-2|86.76|1.51|85.24
+Chicago Hawks (CSDHL) 12U AA|4-13-2|86.75|-1.73|88.48
+Denver U Jr Pioneers 12U AA|4-6-3|86.74|-0.30|87.05
+Boston Americans|12-7-1|86.70|0.35|86.35
+South Shore Dynamos|10-6-2|86.68|1.88|84.79
+Greater Boston Jr Bruins|8-7-1|86.64|-0.37|87.01
+California Wave 12U AA|11-11-2|86.61|-0.12|86.73
+Valley Forge Minutemen|3-18-2|86.58|-3.47|90.06
+Marquette Junior Wildcats (Superior) 12U AA|8-5-0|86.56|1.69|84.87
+Milton Wildcats (Red) 12U A|5-3-0|86.56|0.75|85.81
+Boston Jr Terriers (Nones)|5-4-2|86.53|1.36|85.17
+South Boston Shamrocks 12U AA|4-4-1|86.53|0.50|86.03
+Yale Bulldogs|12-16-3|86.53|-0.35|86.88
+PAL Blue Knights (TB) 12U AA|19-6-1|86.46|2.07|84.39
+Walpole Express (Elite)|6-9-0|86.46|-0.60|87.06
+Columbus Capitals (Blue) 12U AA|6-16-2|86.44|-2.00|88.44
+Clarence Mustangs (TB) 12U AA|9-5-2|86.43|0.75|85.68
+Lansing Spartans 12U AA|9-3-1|86.42|2.92|83.50
+Omaha Jr Mavericks (Black) 12U AA|4-8-0|86.37|-1.58|87.96
+North Jersey Avalanche 12U AA|15-7-2|86.37|1.45|84.91
+South Shore Seahawks 12U A|4-4-1|86.36|0.55|85.81
+Wonderland Wizards 12U AA|14-8-1|86.36|1.47|84.88
+Buffalo Regals (Montalbo)|9-10-0|86.34|0.38|85.95
+Jersey Mustangs 12U AA|5-13-3|86.32|-1.60|87.92
+Rye Rangers (TB) 12U AA|15-4-0|86.30|2.52|83.78
+St Louis Rockets 12U A1|9-1-0|86.29|2.70|83.59
+Oklahoma City Blazers 12U AA|12-5-0|86.27|1.00|85.27
+California Bears (#2) 12U AA|8-10-1|86.27|-1.31|87.58
+Arapahoe Warriors (Maize) 12U AA|12-6-5|86.25|0.95|85.30
+Westchester Vipers 12U AA|14-4-2|86.25|2.25|84.00
+Framingham Jr Flyers 12U AA|3-4-3|86.25|0.33|85.92
+Northern Cyclones Academy (T1-Upper)|10-4-3|86.22|0.82|85.40
+Toledo Cherokee 12U AA|13-4-1|86.18|2.38|83.79
+Montana Wolves 12U AA|10-1-1|86.18|3.91|82.26
+NRI Jr Sentinels 12U AA|22-3-0|86.17|4.20|81.97
+Ann Arbor Bombers (Orange) 12U AA|7-6-1|86.17|0.92|85.24
+Nashville Warriors 12U AA|14-5-4|86.17|2.50|83.67
+Florida Warriors (Orange) 12U A|12-1-0|86.15|4.00|82.15
+CDA Hockey Academy 12U AA|9-4-0|86.15|2.00|84.15
+Copper Country Jr Huskies (Pats) 12U AA|10-6-2|86.13|1.00|85.13
+Navy Rams 12U AA|9-8-3|86.06|0.57|85.48
+Connecticut Riverhawks 12U AA|15-4-2|86.03|2.47|83.55
+Montgomery Ice Devils 12U AA|14-12-1|85.99|0.61|85.37
+Tampa Bay Crunch 12U AA|9-7-2|85.99|0.05|85.93
+New Jersey Jets 12U AA|21-7-1|85.99|1.75|84.23
+Reston Raiders 12U AA|10-6-3|85.96|1.05|84.91
+Cortland Flames (TB) 12U A|10-0-0|85.93|4.20|81.73
+Boston Jr Terriers (Barravecchio)|7-3-2|85.90|0.66|85.24
+Florida Jr Panthers 12U AA|6-12-0|85.86|-0.88|86.75
+Philadelphia Flyers Elite|4-18-0|85.80|-3.54|89.34
+Santa Clarita Flyers 12U AA|8-10-0|85.78|-0.77|86.56
+Jackson Melling Performance (Red) 12U AA|5-11-5|85.72|-0.95|86.68
+South Pittsburgh Rebellion (#1) 12U AA|10-9-4|85.69|0.30|85.39
+Arvada 12U AA|9-12-3|85.66|-0.83|86.49
+Indy Jr Fuel (Gold) 12U AA|6-8-0|85.66|0.71|84.94
+Long Island Arrows|3-22-1|85.66|-3.92|89.58
+Marthas Vineyard Mariners 12U A|11-1-0|85.65|5.41|80.23
+Hartford Jr Wolfpack|7-22-1|85.64|-2.76|88.41
+De Pere Voyageurs 12U 2A|7-1-0|85.64|4.12|81.51
+Hanover Indians 12U A|3-6-1|85.62|-0.40|86.02
+Tampa Bay Crunch 12U A|17-5-0|85.60|2.90|82.69
+Central Florida Bears 12U AA|5-12-2|85.58|-1.89|87.48
+Vermont Jr Catamounts (Select)|10-7-5|85.57|1.04|84.52
+South Bend Irish Rovers 12U AA|12-8-2|85.53|0.36|85.17
+North Pittsburgh Wildcats (#1) 12U AA|14-15-4|85.52|-0.03|85.56
+Lexington-Bedford Revolution 12U A|11-0-0|85.51|3.63|81.87
+Woodbridge Wolfpack 12U AA|15-9-2|85.49|0.92|84.57
+Kansas City Scouts 12U AA|7-10-0|85.48|0.05|85.43
+Cape Cod Canal Sharks 12U A|5-4-0|85.47|-0.44|85.91
+Tacoma Rockets 12U A1|11-7-2|85.41|1.30|84.11
+Calumet Kings 12U AA|6-4-2|85.40|1.08|84.32
+Cheektowaga Warriors 12U AA|8-7-8|85.40|-0.17|85.57
+Middlesex Islanders East (Brooks)|5-17-2|85.33|-1.62|86.96
+Lafayette Locomotive 12U AA|8-19-1|85.32|-1.82|87.14
+Lakeshore Jr Lumberjacks 12U AA|15-6-1|85.31|2.22|83.08
+Soo Jr Lakers 12U AA|15-8-1|85.31|1.91|83.39
+Pittsburgh Arctic Foxes (#1) 12U AA|12-7-3|85.29|1.31|83.97
+Green Bay Bobcats 12U 1A|4-2-0|85.28|2.83|82.45
+Boston Ice Dogs|6-9-1|85.28|-0.62|85.91
+Westchester Express|7-12-1|85.28|-1.75|87.03
+New Hartford Spartans 12U AA|14-3-1|85.28|2.05|83.22
+Lovell Winter Club (Select #1)|9-8-0|85.27|0.47|84.80
+Southern Maryland Sabres 12U AA|19-5-1|85.24|2.95|82.29
+Capitals Academy 12U AA|11-14-0|85.20|0.43|84.77
+Ontario Empire 12U AA|8-6-1|85.18|0.06|85.12
+Nest Hockey Academy 12U AA|2-13-0|85.16|-2.80|87.96
+Hanover Wild (Green) 12U AA|6-1-0|85.13|3.71|81.41
+Kirkwood Stars 12U A1|11-7-1|85.12|0.73|84.38
+Monument Rebels 12U AA|6-7-2|85.12|-0.66|85.79
+95 Giants (Elite)|3-9-0|85.10|-1.50|86.60
+St Clair Shores Saints (Red) 12U AA|10-4-1|85.08|0.66|84.42
+Braintree Wamps 12U A|3-5-1|84.99|-1.22|86.21
+Crawford County Flames (#1) 12U AA|6-5-4|84.97|0.64|84.33
+New York Aviators 12U AA|12-8-2|84.94|1.13|83.81
+Palm Beach Breakers 12U AA|2-12-2|84.94|-2.56|87.50
+Alaska Oilers 12U A|16-12-3|84.91|0.75|84.16
+South Hills Panthers (#1) 12U AA|8-7-4|84.88|-0.57|85.46
+Rhinelander Hodags 12U 3A|8-0-0|84.87|6.00|78.87
+Plattsburgh Jr Cardinals 12U AA|8-6-6|84.87|1.25|83.62
+SMS Devils 12U A|6-3-0|84.87|3.25|81.62
+Middlesex Icemen|8-1-1|84.86|2.30|82.56
+Little Caesars Farmington Hills (Black) 12U AA|8-8-3|84.85|-0.10|84.95
+Florida Jr Panthers (Red) 12U A|6-5-0|84.83|0.45|84.38
+Chicago Stallions 12U AA|10-10-0|84.81|0.05|84.76
+Dorchester Chiefs 12U AA|6-4-0|84.81|0.55|84.25
+Delaware Ducks 12U AA|15-11-1|84.80|0.14|84.65
+Chester County Cougars 12U AA|11-3-1|84.75|2.00|82.75
+Hyland Hills Jaguars 12U AA|5-15-1|84.72|-1.71|86.43
+Pikes Peak Catamounts 12U A|13-1-0|84.72|4.69|80.02
+Maryland Jr Black Bears 12U AA|16-9-4|84.71|1.03|83.67
+Somerset Spartans 12U 2A|7-2-0|84.68|1.33|83.35
+Canton Steel 12U AA|1-9-1|84.67|-3.18|87.85
+Mid-Fairfield Hockey Club (Wehmhoff) 12U AA|7-8-1|84.67|0.12|84.54
+Portland Jr Winterhawks (Black) 12U AA|11-9-1|84.65|1.00|83.65
+Northbrook Bluehawks 12U AA|8-5-1|84.64|0.61|84.03
+Columbus Mavericks (Major) 12U AA|13-6-2|84.63|2.00|82.63
+Cutting Edge King Cobras 12U AA|13-8-0|84.62|0.45|84.17
+Springfield Jr Thunderbirds (Select)|11-5-1|84.61|3.56|81.05
+Macomb Mavericks 12U AA|10-17-1|84.60|-1.03|85.63
+Meramec Sharks 12U A1|7-7-1|84.59|0.06|84.53
+Southtowns Stars (TB) 12U AA|8-11-1|84.59|-0.20|84.79
+Houston Jr Aeros (Wallgren) 12U A|10-5-0|84.58|2.07|82.51
+Garden Wolves 12U AA|9-4-2|84.56|0.93|83.62
+Glenview Stars 12U AA|10-5-0|84.54|1.53|83.01
+Wissahickon Warriors 12U AA|13-11-2|84.52|0.34|84.17
+Birmingham Rangers (Red) 12U AA|3-9-1|84.51|-1.41|85.93
+Gilmour Gladiators (#301) 12U AA|12-10-4|84.50|0.76|83.73
+Hartland Huskies (Silver) 12U AA|11-7-4|84.49|1.19|83.30
+Rochester Coalition (Nau) 12U AA|10-9-3|84.47|0.31|84.15
+Las Vegas Ice Warriors (Select) 12U A|15-2-0|84.47|3.50|80.97
+New Canaan Winter Club 12U AA|7-8-1|84.44|-0.56|85.00
+Winthrop Vikings 12U A|7-2-1|84.42|2.77|81.64
+Kensington Valley Raiders 12U AA|8-5-2|84.40|0.73|83.67
+Maine Moose 12U AA|15-5-1|84.33|2.23|82.10
+Mid-Hudson Polar Bears 12U AA|8-12-4|84.33|-0.58|84.91
+McFarland Spartans 12U 2A|4-1-1|84.32|0.83|83.49
+Brewer Witches 12U AA|3-2-0|84.32|1.20|83.12
+Canton Bulldogs 12U A|1-6-1|84.31|-2.12|86.43
+Bay State Breakers (T1-Upper)|5-4-4|84.31|-0.69|85.00
+Arapahoe Warriors (Navy) 12U A|14-3-0|84.30|2.70|81.60
+Naperville Sabres 12U A1|15-4-0|84.28|2.77|81.50
+Escanaba Hawks 12U AA|7-8-1|84.27|-0.43|84.70
+Tampa Bulls 12U A|11-4-0|84.26|2.06|82.20
+Great Neck Bruins (Gold) 12U A|20-5-1|84.25|2.84|81.41
+Lockport Lock Monsters 12U AA|11-11-1|84.25|-0.26|84.51
+Ohio Prospects|4-10-3|84.21|-1.64|85.86
+New Mexico Ice Wolves 12U A|3-2-1|84.21|-0.50|84.71
+Team Philadelphia (Black) 12U A|19-3-0|84.20|4.40|79.80
+CSB Hawks 12U AA|6-5-3|84.18|1.07|83.11
+Cincinnati Jr Cyclones (Corvi) 12U AA|8-12-6|84.18|-1.15|85.33
+Lincoln Jr Stars 12U B|8-0-0|84.17|4.50|79.67
+Flyers Youth 12U AA|11-10-1|84.17|-0.09|84.27
+Parkway Hawks 12U A|6-4-1|84.12|0.72|83.39
+Peoria Jr Mustangs 12U AA|8-2-0|84.11|0.90|83.21
+Metro Jr Jets 12U AA|7-7-3|84.10|-0.31|84.41
+Atlanta Center Ice 12U AA|15-6-1|84.09|0.81|83.27
+Wilmington Jr Seahawks 12U AA|10-10-1|84.09|0.47|83.61
+New England Knights (Elite)|6-4-3|84.08|1.00|83.08
+Reno Ice 12U AA|4-4-2|84.07|0.90|83.17
+Wilkes-Barre/Scranton Jr Knights 12U AA|12-11-1|84.06|0.37|83.68
+Westchester Express (Elite) 12U AA|16-15-3|84.05|-0.14|84.20
+Fox Motors 12U AA|9-6-2|84.04|1.35|82.69
+Princeton Jr Tigers 12U AA|14-6-4|84.04|0.95|83.08
+Mid-State Mustangs 12U AA|6-22-1|84.03|-0.88|84.92
+Tri-Valley Blue Devils (#2) 12U AA|7-9-2|84.03|-0.77|84.81
+Saugerties Mustangs 12U A|20-5-1|84.01|2.76|81.24
+Old Bridge Jr Knights 12U AA|10-11-1|84.00|0.36|83.64
+Syracuse Valley Eagles 12U AA|11-8-2|84.00|0.42|83.57
