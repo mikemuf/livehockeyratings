@@ -2,7 +2,7 @@
 // Reads rendered pages only, in hidden same-origin iframes. Fire-and-forget: poll window.__pdb for progress.
 (()=>{ if(window.__run) return 'already running';
 window.__run=1;
-const TEAMS='__TEAMS__'.split(',');
+const TEAMS='__TEAMS__'.split(',').filter(Boolean);
 const KNOWN=new Set('__KNOWN__'.split(','));
 const CUT='__CUT__';
 const CANARY='__CANARY__'.split(',').filter(Boolean); // already-stored games re-read to prove the parser still works
@@ -23,13 +23,13 @@ const team=async(f,id)=>{const rec={id,m:{},gk:{}};
  st.T[id]=rec;st.tdone++;
  for(const mid in rec.m){if(rec.m[mid]>=CUT&&!KNOWN.has(mid))st.newIds[mid]=rec.m[mid]}};
 const match=async(f,id)=>{const cnt=d=>(d.body.innerText.match(/Shirt number/g)||[]).length;
- const d=await load(f,'/instat/hockey/matches/'+id,d=>cnt(d)>=2,14);const rec={id,S:[],P:[],ok:false};
+ const d=await load(f,'/instat/hockey/matches/'+id,d=>cnt(d)>=2&&/\d\d\.\d\d\.\d{4}/.test(d.body.innerText.slice(0,400))&&d.querySelectorAll('a[href*="/teams/"]').length>=2,20);const rec={id,S:[],P:[],ok:false};
  if(d){await W(800);const t=toks(d);const di=t.findIndex(x=>/^\d\d\.\d\d\.\d{4}$/.test(x));rec.h=di>=0?[t[di],t[di+1],t[di+2],t[di+3],t[di+4]].join('~'):'';
   rec.tl=[];d.querySelectorAll('a[href*="/teams/"]').forEach(a=>{const i=a.getAttribute('href').split('/teams/')[1].split('/')[0];const n=a.innerText.trim();if(n&&rec.tl.length<2&&!rec.tl.some(x=>x.startsWith(i+'=')))rec.tl.push(i+'='+n)});
   const links=[...d.querySelectorAll('a[href*="/players/"]')].map(a=>[a.innerText.trim(),a.getAttribute('href').split('/players/')[1].split('/')[0],0]);
   let side=-1;for(let i=0;i<t.length-13;i++){if(t[i+1]==='Shirt number'){rec.S.push(t[i]);side=rec.S.length-1;continue}
    if(side>=0&&/^\d{1,3}$/.test(t[i])&&/^(F|D|GK)$/.test(t[i+2])&&/^\d+:\d\d$/.test(t[i+3])&&!/^\d+$/.test(t[i+1])){const L=links.find(l=>!l[2]&&l[0]===t[i+1]);if(L)L[2]=1;const pen=t[i+13];rec.P.push([side,t[i],t[i+1],t[i+2],sec(t[i+3]),n0(t[i+6]),n0(t[i+7]),n0(t[i+9]),pen&&pen.includes(':')?+pen.split(':')[0]:n0(pen),L?L[1]:''].join('|'));i+=3}}
-  rec.ok=rec.S.length===2&&rec.P.length>=10;}
+  rec.ok=rec.S.length===2&&rec.P.length>=10&&!!rec.h&&rec.tl.length===2;}
  st.M[id]=rec;st.mdone++;};
 (async()=>{try{
  const fs=[mk(),mk(),mk()];let q=TEAMS.slice();
