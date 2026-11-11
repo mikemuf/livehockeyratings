@@ -102,8 +102,12 @@ LITE={}
 # 2011 (USA 15U): anchored to MHR's 15U Tier 1 rank page (rank.php?y=2026&v=119). MHR rates 15U inside the 16U pool, so the top 15U team is below 99.99.
 F15='nov11_usa15.txt'
 LITE['2011']=liteload('data/'+F15,'\x00')
+# Ontario U16 AAA (2011 birth year), MHR rank.php?y=2026&v=137: same 16U pool, listed on the Canada side of the 2011 division.
+ON16='nov11_on16.txt'
+LITE_ON16=liteload('data/'+ON16,'\x00');LITE['2011'].update(LITE_ON16)
 h=h.replace("(MHR_REC[div]||{})[x.t]||x.rec.join('-')","(((MHR_REC[div]||{})[x.t]||'0-0-0')!=='0-0-0'?MHR_REC[div][x.t]:x.rec.join('-'))")
 h=h.replace('const XPOOL=','Object.assign(XMAP,'+json.dumps(P2X)+');\nconst XPOOL=',1)
+P2CA=list(P2CA)+[n for n in LITE_ON16 if n not in P2CA]
 h=h.replace('CANADA_BASE = [','CANADA_BASE = ['+','.join(json.dumps(x) for x in P2CA)+(',' if P2CA else ''),1)
 h=h.replace('const BASE = ','const LITE='+json.dumps(LITE)+';\nconst BASE = ',1)
 i=h.index('const MHR=');j=h.index('\n',i);mh=json.loads(h[i+len('const MHR='):j].rstrip(';'))

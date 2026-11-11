@@ -1438,5 +1438,785 @@
 "yr": 2011,
 "pool": 0,
 "rating": 88.32
+},
+"12-C10": {
+"name": "Oakville Rangers",
+"yr": 2012,
+"pool": 1,
+"rating": 95.68
+},
+"12-C11": {
+"name": "Brantford 99ers",
+"yr": 2012,
+"pool": 1,
+"rating": 95.44
+},
+"12-C12": {
+"name": "Hamilton Steel",
+"yr": 2012,
+"pool": 1,
+"rating": 95.42
+},
+"12-C13": {
+"name": "Mississauga Senators",
+"yr": 2012,
+"pool": 1,
+"rating": 95.07
+},
+"12-C14": {
+"name": "Elgin Middlesex Canucks",
+"yr": 2012,
+"pool": 1,
+"rating": 94.87
+},
+"12-C15": {
+"name": "Ottawa Jr 67's",
+"yr": 2012,
+"pool": 1,
+"rating": 94.55
+},
+"12-C16": {
+"name": "Ottawa Myers Automotive",
+"yr": 2012,
+"pool": 1,
+"rating": 94.49
+},
+"12-C17": {
+"name": "Barrie Colts",
+"yr": 2012,
+"pool": 1,
+"rating": 94.37
+},
+"12-C18": {
+"name": "Soo Jr Greyhounds",
+"yr": 2012,
+"pool": 1,
+"rating": 94.3
+},
+"12-C19": {
+"name": "Eastern Ontario Wild",
+"yr": 2012,
+"pool": 1,
+"rating": 94.04
+},
+"12-C20": {
+"name": "Halton Hurricanes",
+"yr": 2012,
+"pool": 1,
+"rating": 93.95
+},
+"12-C21": {
+"name": "Kitchener Jr Rangers",
+"yr": 2012,
+"pool": 1,
+"rating": 93.91
+},
+"12-C22": {
+"name": "Toronto Nationals",
+"yr": 2012,
+"pool": 1,
+"rating": 93.8
+},
+"12-C23": {
+"name": "Thunder Bay Kings",
+"yr": 2012,
+"pool": 1,
+"rating": 93.76
+},
+"12-C24": {
+"name": "Peterborough Jr Petes",
+"yr": 2012,
+"pool": 1,
+"rating": 93.7
+},
+"12-C25": {
+"name": "Whitby Wildcats",
+"yr": 2012,
+"pool": 1,
+"rating": 93.64
+},
+"12-C26": {
+"name": "Ajax Pickering Raiders",
+"yr": 2012,
+"pool": 1,
+"rating": 93.43
+},
+"12-C27": {
+"name": "North Shore Whitecaps",
+"yr": 2012,
+"pool": 1,
+"rating": 93.41
+},
+"12-C28": {
+"name": "Upper Canada Cyclones",
+"yr": 2012,
+"pool": 1,
+"rating": 93.32
+},
+"12-C29": {
+"name": "Markham Majors",
+"yr": 2012,
+"pool": 1,
+"rating": 93.3
+},
+"12-C30": {
+"name": "Toronto Red Wings",
+"yr": 2012,
+"pool": 1,
+"rating": 93.29
+},
+"12-C31": {
+"name": "London Jr Knights",
+"yr": 2012,
+"pool": 1,
+"rating": 93.18
+},
+"12-C32": {
+"name": "The Hill Academy",
+"yr": 2012,
+"pool": 1,
+"rating": 93.18
+},
+"12-C33": {
+"name": "North Bay Trappers",
+"yr": 2012,
+"pool": 1,
+"rating": 93.16
+},
+"12-C34": {
+"name": "Upper Canada College",
+"yr": 2012,
+"pool": 1,
+"rating": 93.13
+},
+"12-C35": {
+"name": "Huron Perth Lakers",
+"yr": 2012,
+"pool": 1,
+"rating": 93.04
+},
+"12-C36": {
+"name": "Credit River Capitals",
+"yr": 2012,
+"pool": 1,
+"rating": 92.95
+},
+"12-C37": {
+"name": "Burlington Eagles",
+"yr": 2012,
+"pool": 1,
+"rating": 92.93
+},
+"12-C38": {
+"name": "Guelph Gryphons",
+"yr": 2012,
+"pool": 1,
+"rating": 92.67
+},
+"12-C39": {
+"name": "Don Mills Flyers",
+"yr": 2012,
+"pool": 1,
+"rating": 92.44
+},
+"12-C40": {
+"name": "Sarnia-Lambton Jr Sting",
+"yr": 2012,
+"pool": 1,
+"rating": 92.34
+},
+"12-C41": {
+"name": "CDA Hockey Academy",
+"yr": 2012,
+"pool": 1,
+"rating": 92.14
+},
+"12-C42": {
+"name": "Markham Waxers",
+"yr": 2012,
+"pool": 1,
+"rating": 91.94
+},
+"12-C43": {
+"name": "Kingston Jr Gaels",
+"yr": 2012,
+"pool": 1,
+"rating": 91.92
+},
+"12-C44": {
+"name": "Quinte Red Devils",
+"yr": 2012,
+"pool": 1,
+"rating": 91.63
+},
+"12-C45": {
+"name": "Grey Bruce Highlanders",
+"yr": 2012,
+"pool": 1,
+"rating": 91.45
+},
+"12-C46": {
+"name": "North Central Predators",
+"yr": 2012,
+"pool": 1,
+"rating": 91.36
+},
+"12-C47": {
+"name": "Sun County Panthers",
+"yr": 2012,
+"pool": 1,
+"rating": 90.77
+},
+"12-C48": {
+"name": "Toronto Reps",
+"yr": 2012,
+"pool": 1,
+"rating": 90.65
+},
+"12-C49": {
+"name": "Waterloo Wolves",
+"yr": 2012,
+"pool": 1,
+"rating": 90.21
+},
+"13-C10": {
+"name": "Elgin Middlesex Canucks",
+"yr": 2013,
+"pool": 1,
+"rating": 90.02
+},
+"13-C11": {
+"name": "Niagara North Stars",
+"yr": 2013,
+"pool": 1,
+"rating": 89.94
+},
+"13-C12": {
+"name": "Toronto Reps",
+"yr": 2013,
+"pool": 1,
+"rating": 89.8
+},
+"13-C13": {
+"name": "Ottawa Valley Titans",
+"yr": 2013,
+"pool": 1,
+"rating": 89.69
+},
+"13-C14": {
+"name": "York Simcoe Express",
+"yr": 2013,
+"pool": 1,
+"rating": 89.69
+},
+"13-C15": {
+"name": "Eastern Ontario Wild",
+"yr": 2013,
+"pool": 1,
+"rating": 89.53
+},
+"13-C16": {
+"name": "Upper Canada Cyclones",
+"yr": 2013,
+"pool": 1,
+"rating": 89.47
+},
+"13-C17": {
+"name": "Sarnia-Lambton Jr Sting",
+"yr": 2013,
+"pool": 1,
+"rating": 89.19
+},
+"13-C18": {
+"name": "Windsor Jr Spitfires",
+"yr": 2013,
+"pool": 1,
+"rating": 89.17
+},
+"13-C19": {
+"name": "North Shore Whitecaps",
+"yr": 2013,
+"pool": 1,
+"rating": 89.05
+},
+"13-C20": {
+"name": "Markham Majors",
+"yr": 2013,
+"pool": 1,
+"rating": 88.96
+},
+"13-C21": {
+"name": "Sun County Panthers",
+"yr": 2013,
+"pool": 1,
+"rating": 88.84
+},
+"13-C22": {
+"name": "Credit River Capitals",
+"yr": 2013,
+"pool": 1,
+"rating": 88.69
+},
+"13-C23": {
+"name": "Halton Hurricanes",
+"yr": 2013,
+"pool": 1,
+"rating": 88.5
+},
+"13-C24": {
+"name": "Ottawa Jr 67's",
+"yr": 2013,
+"pool": 1,
+"rating": 88.39
+},
+"13-C25": {
+"name": "Peterborough Jr Petes",
+"yr": 2013,
+"pool": 1,
+"rating": 88.21
+},
+"13-C26": {
+"name": "Burlington Eagles",
+"yr": 2013,
+"pool": 1,
+"rating": 88.19
+},
+"13-C27": {
+"name": "Oakville Rangers",
+"yr": 2013,
+"pool": 1,
+"rating": 88.19
+},
+"13-C28": {
+"name": "Barrie Colts",
+"yr": 2013,
+"pool": 1,
+"rating": 87.85
+},
+"13-C29": {
+"name": "Thunder Bay Kings",
+"yr": 2013,
+"pool": 1,
+"rating": 87.82
+},
+"13-C30": {
+"name": "Don Mills Flyers",
+"yr": 2013,
+"pool": 1,
+"rating": 87.81
+},
+"13-C31": {
+"name": "London Jr Knights",
+"yr": 2013,
+"pool": 1,
+"rating": 87.81
+},
+"13-C32": {
+"name": "Grey Bruce Highlanders",
+"yr": 2013,
+"pool": 1,
+"rating": 87.69
+},
+"13-C33": {
+"name": "Hamilton Steel",
+"yr": 2013,
+"pool": 1,
+"rating": 87.53
+},
+"13-C34": {
+"name": "Sudbury Wolves",
+"yr": 2013,
+"pool": 1,
+"rating": 87.27
+},
+"13-C35": {
+"name": "North Bay Trappers",
+"yr": 2013,
+"pool": 1,
+"rating": 87.14
+},
+"13-C36": {
+"name": "Soo Jr Greyhounds",
+"yr": 2013,
+"pool": 1,
+"rating": 86.99
+},
+"13-C37": {
+"name": "Guelph Gryphons",
+"yr": 2013,
+"pool": 1,
+"rating": 86.93
+},
+"13-C38": {
+"name": "Kingston Jr Gaels",
+"yr": 2013,
+"pool": 1,
+"rating": 86.91
+},
+"13-C39": {
+"name": "North Central Predators",
+"yr": 2013,
+"pool": 1,
+"rating": 86.32
+},
+"13-C40": {
+"name": "Brantford 99ers",
+"yr": 2013,
+"pool": 1,
+"rating": 86.17
+},
+"13-C41": {
+"name": "Ajax Pickering Raiders",
+"yr": 2013,
+"pool": 1,
+"rating": 86.15
+},
+"13-C42": {
+"name": "Markham Waxers",
+"yr": 2013,
+"pool": 1,
+"rating": 85.88
+},
+"13-C43": {
+"name": "North York Rangers",
+"yr": 2013,
+"pool": 1,
+"rating": 85.71
+},
+"13-C44": {
+"name": "Mississauga Senators",
+"yr": 2013,
+"pool": 1,
+"rating": 85.66
+},
+"13-C45": {
+"name": "Mississauga Rebels",
+"yr": 2013,
+"pool": 1,
+"rating": 85.48
+},
+"13-C46": {
+"name": "Kitchener Jr Rangers",
+"yr": 2013,
+"pool": 1,
+"rating": 85.33
+},
+"13-C47": {
+"name": "Central Ontario Wolves",
+"yr": 2013,
+"pool": 1,
+"rating": 84.89
+},
+"13-C48": {
+"name": "Chatham-Kent Cyclones",
+"yr": 2013,
+"pool": 1,
+"rating": 84.6
+},
+"13-C49": {
+"name": "Cambridge Hawks",
+"yr": 2013,
+"pool": 1,
+"rating": 84.52
+},
+"11-C0": {
+"name": "Vaughan Kings",
+"yr": 2011,
+"pool": 1,
+"rating": 95.44
+},
+"11-C1": {
+"name": "Toronto Jr Canadiens",
+"yr": 2011,
+"pool": 1,
+"rating": 94.51
+},
+"11-C2": {
+"name": "Toronto Marlboros",
+"yr": 2011,
+"pool": 1,
+"rating": 93.75
+},
+"11-C3": {
+"name": "Hamilton Steel",
+"yr": 2011,
+"pool": 1,
+"rating": 93.64
+},
+"11-C4": {
+"name": "Halton Hurricanes",
+"yr": 2011,
+"pool": 1,
+"rating": 93.29
+},
+"11-C5": {
+"name": "Mississauga Rebels",
+"yr": 2011,
+"pool": 1,
+"rating": 92.49
+},
+"11-C6": {
+"name": "North Shore Whitecaps",
+"yr": 2011,
+"pool": 1,
+"rating": 92.49
+},
+"11-C7": {
+"name": "York Simcoe Express",
+"yr": 2011,
+"pool": 1,
+"rating": 92.43
+},
+"11-C8": {
+"name": "Toronto Nationals",
+"yr": 2011,
+"pool": 1,
+"rating": 92.39
+},
+"11-C9": {
+"name": "Waterloo Wolves",
+"yr": 2011,
+"pool": 1,
+"rating": 92.38
+},
+"11-C10": {
+"name": "Central Ontario Wolves",
+"yr": 2011,
+"pool": 1,
+"rating": 92.04
+},
+"11-C11": {
+"name": "Peterborough Jr Petes",
+"yr": 2011,
+"pool": 1,
+"rating": 91.9
+},
+"11-C12": {
+"name": "Ottawa Myers Automotive",
+"yr": 2011,
+"pool": 1,
+"rating": 91.66
+},
+"11-C13": {
+"name": "Mississauga Senators",
+"yr": 2011,
+"pool": 1,
+"rating": 91.66
+},
+"11-C14": {
+"name": "Kingston Jr Gaels",
+"yr": 2011,
+"pool": 1,
+"rating": 91.62
+},
+"11-C15": {
+"name": "Ottawa Jr 67's",
+"yr": 2011,
+"pool": 1,
+"rating": 91.48
+},
+"11-C16": {
+"name": "Elgin Middlesex Canucks",
+"yr": 2011,
+"pool": 1,
+"rating": 91.42
+},
+"11-C17": {
+"name": "North York Rangers",
+"yr": 2011,
+"pool": 1,
+"rating": 91.13
+},
+"11-C18": {
+"name": "London Jr Knights",
+"yr": 2011,
+"pool": 1,
+"rating": 91.13
+},
+"11-C19": {
+"name": "Ottawa Valley Titans",
+"yr": 2011,
+"pool": 1,
+"rating": 90.65
+},
+"11-C20": {
+"name": "Southern Tier Admirals",
+"yr": 2011,
+"pool": 1,
+"rating": 90.52
+},
+"11-C21": {
+"name": "Soo Jr Greyhounds",
+"yr": 2011,
+"pool": 1,
+"rating": 89.8
+},
+"11-C22": {
+"name": "Eastern Ontario Wild",
+"yr": 2011,
+"pool": 1,
+"rating": 89.66
+},
+"11-C23": {
+"name": "Upper Canada Cyclones",
+"yr": 2011,
+"pool": 1,
+"rating": 89.65
+},
+"11-C24": {
+"name": "Don Mills Flyers",
+"yr": 2011,
+"pool": 1,
+"rating": 89.61
+},
+"11-C25": {
+"name": "Chatham-Kent Cyclones",
+"yr": 2011,
+"pool": 1,
+"rating": 89.59
+},
+"11-C26": {
+"name": "Burlington Eagles",
+"yr": 2011,
+"pool": 1,
+"rating": 89.54
+},
+"11-C27": {
+"name": "Oakville Rangers",
+"yr": 2011,
+"pool": 1,
+"rating": 89.41
+},
+"11-C28": {
+"name": "Windsor Jr Spitfires",
+"yr": 2011,
+"pool": 1,
+"rating": 89.41
+},
+"11-C29": {
+"name": "Markham Waxers",
+"yr": 2011,
+"pool": 1,
+"rating": 89.38
+},
+"11-C30": {
+"name": "Markham Majors",
+"yr": 2011,
+"pool": 1,
+"rating": 89.22
+},
+"11-C31": {
+"name": "Huron-Perth Lakers",
+"yr": 2011,
+"pool": 1,
+"rating": 88.85
+},
+"11-C32": {
+"name": "Niagara North Stars",
+"yr": 2011,
+"pool": 1,
+"rating": 88.85
+},
+"11-C33": {
+"name": "Thunder Bay Kings",
+"yr": 2011,
+"pool": 1,
+"rating": 88.66
+},
+"11-C34": {
+"name": "Guelph Gryphons",
+"yr": 2011,
+"pool": 1,
+"rating": 88.39
+},
+"11-C35": {
+"name": "Toronto Red Wings",
+"yr": 2011,
+"pool": 1,
+"rating": 88.32
+},
+"11-C36": {
+"name": "Toronto Reps",
+"yr": 2011,
+"pool": 1,
+"rating": 88.3
+},
+"11-C37": {
+"name": "Whitby Wildcats",
+"yr": 2011,
+"pool": 1,
+"rating": 88.22
+},
+"11-C38": {
+"name": "Toronto Titans",
+"yr": 2011,
+"pool": 1,
+"rating": 88.11
+},
+"11-C39": {
+"name": "Brantford 99ers",
+"yr": 2011,
+"pool": 1,
+"rating": 88.1
+},
+"11-C40": {
+"name": "North Central Predators",
+"yr": 2011,
+"pool": 1,
+"rating": 87.87
+},
+"11-C41": {
+"name": "North Bay Trappers",
+"yr": 2011,
+"pool": 1,
+"rating": 87.64
+},
+"11-C42": {
+"name": "Credit River Capitals",
+"yr": 2011,
+"pool": 1,
+"rating": 87.54
+},
+"11-C43": {
+"name": "Kitchener Jr Rangers",
+"yr": 2011,
+"pool": 1,
+"rating": 87.39
+},
+"11-C44": {
+"name": "Ajax Pickering Raiders",
+"yr": 2011,
+"pool": 1,
+"rating": 87.39
+},
+"11-C45": {
+"name": "Sudbury Wolves",
+"yr": 2011,
+"pool": 1,
+"rating": 87.18
+},
+"11-C46": {
+"name": "Sarnia-Lambton Jr Sting",
+"yr": 2011,
+"pool": 1,
+"rating": 86.01
+},
+"11-C47": {
+"name": "Barrie Colts",
+"yr": 2011,
+"pool": 1,
+"rating": 85.92
+},
+"11-C48": {
+"name": "Cambridge Hawks",
+"yr": 2011,
+"pool": 1,
+"rating": 85.7
+},
+"11-C49": {
+"name": "Grey Bruce Highlanders",
+"yr": 2011,
+"pool": 1,
+"rating": 84.46
 }
 }

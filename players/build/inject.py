@@ -1,7 +1,7 @@
 # python3 inject.py <page.html> ["Mon D, YYYY"]  -> writes db.json's data blocks into the page
 import json,re,sys
 p=sys.argv[1]; h=open(p,encoding='utf8').read(); d=json.load(open('db.json'))
-for k in ('T11','T12','T13','T14','T15','C12','C13','C14','C15','S','G','GAMES','LOGS','GLOG'):
+for k in ('T11','T12','T13','T14','T15','C11','C12','C13','C14','C15','S','G','GAMES','LOGS','GLOG'):
     pat=re.compile(r'^const '+k+r'=.*?;[ \t]*(//[^\n]*)?$',re.M)
     assert len(pat.findall(h))==1,k
     h=pat.sub(lambda m:'const '+k+'='+json.dumps(d[k],separators=(',',':'),ensure_ascii=False)+';',h,count=1)

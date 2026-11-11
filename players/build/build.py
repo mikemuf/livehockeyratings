@@ -120,9 +120,10 @@ for it in range(60):
 print('xGA model',len(X),round(xa,4),round(xb,4),'GA at even',round(math.exp(xa),2))
 T12=[[INFO[f'12-{i}']['name'],INFO[f'12-{i}']['rating'],INFO[f'12-{i}']['rank']] for i in range(50)]; T13=[[INFO[f'13-{i}']['name'],INFO[f'13-{i}']['rating'],INFO[f'13-{i}']['rank']] for i in range(50)]
 T11=[[INFO[k]['name'],INFO[k]['rating'],INFO[k]['rank']] for k in (f'11-{i}' for i in range(60)) if k in INFO]; T14=[[INFO[k]['name'],INFO[k]['rating'],INFO[k]['rank']] for k in (f'14-{i}' for i in range(60)) if k in INFO]; T15=[[INFO[k]['name'],INFO[k]['rating'],INFO[k]['rank']] for k in (f'15-{i}' for i in range(60)) if k in INFO]
-C12=[[INFO[f'12-C{i}']['name'],INFO[f'12-C{i}']['rating'],INFO[f'12-C{i}']['rank']] for i in range(10)]; C13=[[INFO[f'13-C{i}']['name'],INFO[f'13-C{i}']['rating'],INFO[f'13-C{i}']['rank']] for i in range(10)]
+CL=lambda p:[[INFO[k]['name'],INFO[k]['rating'],INFO[k]['rank']] for k in (f'{p}-C{i}' for i in range(60)) if k in INFO]
+C11=CL('11'); C12=CL('12'); C13=CL('13')
 C14=[[INFO[k]['name'],INFO[k]['rating'],INFO[k]['rank']] for k in (f'14-C{i}' for i in range(10)) if k in INFO]; C15=[[INFO[k]['name'],INFO[k]['rating'],INFO[k]['rank']] for k in (f'15-C{i}' for i in range(10)) if k in INFO]
-json.dump(dict(S=S,G=G,GAMES=GAMES,LOGS=LOGS,GLOG=GLOG,XA=round(xa,4),XB=round(xb,4),T11=T11,T12=T12,T13=T13,T14=T14,T15=T15,C12=C12,C13=C13,C14=C14,C15=C15,BORN={k+'@'+s[0]:v for k,v in BORN.items() for s in S if s[12].startswith(k+'@')}),open('db.json','w'),separators=(',',':'))
+json.dump(dict(S=S,G=G,GAMES=GAMES,LOGS=LOGS,GLOG=GLOG,XA=round(xa,4),XB=round(xb,4),T11=T11,T12=T12,T13=T13,T14=T14,T15=T15,C11=C11,C12=C12,C13=C13,C14=C14,C15=C15,BORN={k+'@'+s[0]:v for k,v in BORN.items() for s in S if s[12].startswith(k+'@')}),open('db.json','w'),separators=(',',':'))
 nodata=[k+' '+INFO[k]['name'] for k in INFO if not GAMES.get(k)]
 low=[(k,INFO[k]['name'],len(GAMES[k])) for k in INFO if 0<len(GAMES[k])<6]
 print('skaters',len(S),'goalies',len(G),'team-games',sum(len(v) for v in GAMES.values()),'teams with data',sum(1 for v in GAMES.values() if v))
