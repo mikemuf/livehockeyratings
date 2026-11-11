@@ -7,7 +7,7 @@ const [src,boxf,out]=process.argv.slice(2);
 const html=fs.readFileSync(src,'utf8');
 const js=html.match(/<script>([\s\S]*?)<\/script>/)[1];
 const el=()=>({innerHTML:'',textContent:'',value:'',hidden:false,setAttribute(){},showModal(){},close(){},dataset:{}});
-const els={};const document={getElementById:id=>els[id]||(els[id]=el())};
+const els={};const document={getElementById:id=>els[id]||(els[id]=el()),addEventListener(){}};
 const D=new Function('document','location','window',js+';return {skaters,goalies,TEAMS,loaded,MINGP,mult,mmss}')(document,{hash:''},{addEventListener(){}});
 const games=JSON.parse(fs.readFileSync(boxf,'utf8')).M.length;
 const pulled=(html.match(/pulled ([A-Z][a-z]{2} \d{1,2}, \d{4})/)||[])[1]||'';
@@ -23,11 +23,19 @@ const seen=new Set();const IDX=[];
 for(const s of D.skaters){const k=s.name+'|'+s.team.name+'|'+s.team.yr;if(seen.has(k))continue;seen.add(k);IDX.push([s.name,s.team.name,s.team.yr,s.by,0])}
 for(const g of D.goalies){const k=g.name+'|'+g.team.name+'|'+g.team.yr+'|G';if(seen.has(k))continue;seen.add(k);IDX.push([g.name,g.team.name,g.team.yr,g.by,1])}
 IDX.sort((a,b)=>a[0].localeCompare(b[0]));
+// Hub sections: live team ratings (top ten USA teams per birth year) and the weekend preview/recap from the ratings site.
+const path=require('path');const root=path.resolve(path.dirname(src),'..');
+const RT=JSON.parse(fs.readFileSync(path.join(root,'players/data/ratings.json'),'utf8'));
+const WKD=JSON.parse(fs.readFileSync(path.join(root,'data/weekend_public.json'),'utf8'));
+const TOP={};for(const y of YEARS){TOP[y]=Object.entries(RT[y]||{}).filter(([n,v])=>v.pool==='USA'&&v.rank>0).sort((a,b)=>a[1].rank-b[1].rank).slice(0,10).map(([n,v])=>[v.rank,n,v.rec||'',v.rating])}
+const rkOf=(y,n)=>{const v=(RT[y]||{})[n];return v&&v.rank?(v.pool==='USA'?'#':'ON #')+v.rank:''};
+const WK={label:WKD.label,status:WKD.status,updated:WKD.updated,divs:{}};
+for(const y of YEARS){const d=(WKD.divs||{})[y];if(!d)continue;WK.divs[y]={s:(d.summary||[]).slice(0,4),w:(d.watch||[]).slice(0,6).map(g=>[g[0],g[1],g[2],rkOf(y,g[2]),g[3],rkOf(y,g[3]),g[4]||''])}}
 const STATS={sk:D.skaters.length,gk:D.goalies.length,teams:D.loaded.size,games,pulled,min:D.MINGP};
 const esc=s=>String(s).replace(/</g,'\\u003c');
 const page=`<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Player Database Premium: preview</title>
+<title>Live ratings, weekend reports and the player database: preview</title>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 /* Layout: demo ribbon, dark hero, stat strip, preview leaderboard (5 open rows + locked rows), player finder, pricing, footer. Dialogs for profile and the membership flow. */
@@ -122,17 +130,30 @@ label{display:block;font-size:13px;font-weight:600;margin:10px 0 4px}
 </style></head><body>
 <div class="demo">Preview build for demonstration. Accounts and payments are not active, and nothing you type on this page is saved or sent.</div>
 <div class="top"><div class="in"><div class="brand">Player Database <span>Premium</span></div>
-<nav><a class="hide" href="#preview">Preview</a><a class="hide" href="#find">Find a player</a><a class="hide" href="#pricing">Pricing</a><button class="btn alt" data-act="signin">Sign in</button><button class="btn" data-act="join">Become a member</button></nav></div></div>
+<nav><a class="hide" href="#ratings">Live ratings</a><a class="hide" href="#weekend">This weekend</a><a class="hide" href="#preview">Players</a><a class="hide" href="#find">Find a player</a><a class="hide" href="#pricing">Pricing</a><button class="btn alt" data-act="signin">Sign in</button><button class="btn" data-act="join">Become a member</button></nav></div></div>
 <div class="hero"><div class="in">
-<h1>Every top player. <em>Every game.</em> One ranking that accounts for who they played.</h1>
-<p>Game-by-game stats for AAA players born 2011 through 2015 across the top USA and Ontario teams, with scoring adjusted for the strength of every opponent. Updated every week of the season.</p>
-<div class="cta"><button class="btn big" data-act="join">Become a member</button><a class="btn big alt" href="#preview" style="text-decoration:none">See the preview</a></div>
+<h1>Live ratings. <em>Every top player.</em> Every weekend, in one place.</h1>
+<p>Team ratings that move as scores come in, a preview and recap of every weekend, and game-by-game stats for AAA players born 2011 through 2015. See where your player stands today, and measure his development all season.</p>
+<div class="cta"><button class="btn big" data-act="join">Become a member</button><a class="btn big alt" href="#ratings" style="text-decoration:none">See the preview</a></div>
 </div>
-<div class="strip"><div><b id="s-sk"></b><span>Skaters</span></div><div><b id="s-gk"></b><span>Goalies</span></div><div><b id="s-tm"></b><span>Teams</span></div><div><b id="s-gm"></b><span>Games logged</span></div><div><b>5</b><span>Birth years</span></div><div><b>Weekly</b><span>Updates</span></div></div></div>
+<div class="strip"><div><b id="s-sk"></b><span>Skaters</span></div><div><b id="s-gk"></b><span>Goalies</span></div><div><b id="s-tm"></b><span>Teams</span></div><div><b id="s-gm"></b><span>Games logged</span></div><div><b>5</b><span>Birth years</span></div><div><b>Daily</b><span>Updates</span></div></div></div>
 
-<section id="preview"><h2>Top five, by birth year</h2>
+<section id="ratings"><h2>Live team ratings</h2>
+<p class="lede">No waiting for a weekly release. Ratings move as each score is entered, so you know where a team stands before the weekend is over. Top ten USA teams shown here.</p>
+<div class="tabs ytabs"></div>
+<div class="sheet"><table><thead><tr><th>#</th><th>Team</th><th>Record</th><th>Rating</th></tr></thead><tbody id="rt"></tbody></table>
+<div class="gate"><p style="margin:0 0 10px">Every team, USA and Canada, with schedule strength, game-by-game results and each roster's player stats.</p><a class="btn" id="rt-link" style="text-decoration:none;display:inline-block" href="../">Open the live ratings</a></div></div>
+</section>
+
+<section id="weekend"><h2>This weekend</h2>
+<p class="lede"><span id="wk-label"></span>. A preview of the games that matter before the weekend, then a recap of what happened: upsets, big moves in the rankings and tournament results.</p>
+<div class="tabs ytabs"></div>
+<div id="wk"></div>
+</section>
+
+<section id="preview"><h2>Top five players, by birth year</h2>
 <p class="lede">These five profiles are open in full: tap a name to see every stat and the complete game log. Ranked by Adjusted Points per Game, which weights each game's points by the opponent's rating. Minimum <span id="s-min"></span> games.</p>
-<div class="tabs" id="tabs"></div>
+<div class="tabs ytabs"></div>
 <div class="sheet"><table><thead><tr><th>#</th><th>Player</th><th>Team</th><th>Pos</th><th>GP</th><th>G</th><th>A</th><th>P</th><th>PPP</th><th>INV%</th><th>P/G</th><th>Adj P/G</th><th>Avg opp</th></tr></thead><tbody id="tb"></tbody></table>
 <div class="gate"><b id="gate-n"></b><p>Full rankings, every profile and every game log are for members.</p><button class="btn" data-act="join">Become a member</button></div></div>
 </section>
@@ -150,13 +171,13 @@ label{display:block;font-size:13px;font-weight:600;margin:10px 0 4px}
 <section id="find"><h2>Is your player in the database?</h2><p class="lede">Search by name. Members can open the full profile.</p>
 <div class="find"><input id="q" type="text" placeholder="Type a player's name" autocomplete="off" aria-label="Player name"></div><div class="hits" id="hits"></div></section>
 
-<section id="pricing"><h2>Membership</h2><p class="lede">Full access to every birth year, every profile and every weekly update.</p>
+<section id="pricing"><h2>Membership</h2><p class="lede">Live ratings, weekend reports and full access to every birth year and every player profile, updated daily as games come in.</p>
 <div class="plans">
-<div class="plan best"><span class="tag">Best value</span><h3>Season pass</h3><div class="price">$99 <small>one payment</small></div><ul><li>The full 2026-27 season</li><li>Every birth year, 2011 to 2015</li><li>Skaters, goalies and team ratings</li><li>Weekly updates</li></ul><button class="btn" data-act="join" data-plan="season">Get the season pass</button></div>
+<div class="plan best"><span class="tag">Best value</span><h3>Season pass</h3><div class="price">$99 <small>one payment</small></div><ul><li>The full 2026-27 season</li><li>Every birth year, 2011 to 2015</li><li>Skaters, goalies and team ratings</li><li>Live ratings and weekend reports</li><li>Player stats updated daily as games come in</li></ul><button class="btn" data-act="join" data-plan="season">Get the season pass</button></div>
 <div class="plan"><h3>Monthly</h3><div class="price">$29 <small>per month</small></div><ul><li>Everything in the season pass</li><li>Billed monthly</li><li>Cancel any time</li></ul><button class="btn alt" style="color:var(--ink)" data-act="join" data-plan="monthly">Start monthly</button></div>
 </div></section>
 
-<footer>Stats run through <span id="s-date"></span>. Player Database Premium is a preview; membership is not yet open.</footer>
+<footer>Stats run through <span id="s-date"></span>. Team ratings are live; player stats are refreshed as games are posted. This page is a preview; membership is not yet open.</footer>
 
 <dialog id="prof"><div class="dl" id="prof-in"></div></dialog>
 <dialog id="flow"><div class="dl" id="flow-in"></div></dialog>
@@ -165,13 +186,19 @@ const P=${esc(JSON.stringify(P))};
 const LOCK=${JSON.stringify(LOCK)};
 const IDX=${esc(JSON.stringify(IDX))};
 const STATS=${JSON.stringify(STATS)};
+const TOP=${esc(JSON.stringify(TOP))};
+const WK=${esc(JSON.stringify(WK))};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const mmss=s=>Math.floor(s/60)+":"+String(Math.round(s%60)).padStart(2,"0");
 const fmt=n=>n.toLocaleString("en-US");
 $("s-sk").textContent=fmt(STATS.sk);$("s-gk").textContent=fmt(STATS.gk);$("s-tm").textContent=fmt(STATS.teams);$("s-gm").textContent=fmt(STATS.games);$("s-min").textContent=STATS.min;$("s-date").textContent=STATS.pulled;
 let year=2012;
-function tabs(){$("tabs").innerHTML=Object.keys(P).map(y=>'<button class="tab" aria-pressed="'+(+y===year)+'" data-y="'+y+'">'+y+' born</button>').join("")}
+function tabs(){const h=Object.keys(P).map(y=>'<button class="tab" aria-pressed="'+(+y===year)+'" data-y="'+y+'">'+y+' born</button>').join("");document.querySelectorAll(".ytabs").forEach(e=>e.innerHTML=h);hub()}
+function hub(){$("rt").innerHTML=(TOP[year]||[]).map(r=>'<tr><td>'+r[0]+'</td><td style="text-align:left"><span class="name">'+esc(r[1])+'</span></td><td>'+r[2]+'</td><td><b>'+r[3].toFixed(2)+'</b></td></tr>').join("");
+  $("rt-link").href="../#div="+year;$("wk-label").textContent=WK.label+(WK.status?" ("+WK.status.toLowerCase()+")":"");
+  const d=WK.divs[year];
+  $("wk").innerHTML=d?'<div class="card"><h3>The story</h3>'+d.s.map(t=>'<p style="margin:0 0 10px">'+esc(t)+'</p>').join("")+'</div>'+(d.w.length?'<div class="sheet" style="margin-top:12px"><table><thead><tr><th>Day</th><th>Time</th><th>Games to watch</th><th>Rink</th></tr></thead><tbody>'+d.w.map(g=>'<tr><td>'+esc(g[0])+'</td><td>'+esc(g[1])+'</td><td style="text-align:left"><b>'+esc(g[2])+'</b>'+(g[3]?' <span class="sub">('+g[3]+')</span>':'')+' vs <b>'+esc(g[4])+'</b>'+(g[5]?' <span class="sub">('+g[5]+')</span>':'')+'</td><td style="text-align:left">'+esc(g[6])+'</td></tr>').join("")+'</tbody></table></div>':''):'<div class="card"><p style="margin:0">The weekend report for this birth year is being added.</p></div>'}
 function table(){const rows=P[year];const w=[30,120,110,18,18,14,14,18,16,26,30,34,30];
   $("tb").innerHTML=rows.map((x,i)=>'<tr class="open" tabindex="0" data-i="'+i+'"><td>'+(i+1)+'</td><td><span class="name">'+esc(x.n)+'</span> <span class="sub">#'+x.num+'</span><span class="born b'+(x.by%100)+'">'+x.by+' born</span></td><td>'+esc(x.t)+' <span class="sub">'+x.ty+(x.ca?" ON":"")+'</span></td><td>'+x.pos+'</td><td>'+x.gp+'</td><td>'+x.g+'</td><td>'+x.a+'</td><td><b>'+x.p+'</b></td><td>'+x.ppp+'</td><td>'+x.inv+'%</td><td>'+x.ppg.toFixed(2)+'</td><td><b>'+x.adj.toFixed(2)+'</b></td><td>'+x.opp.toFixed(1)+'</td></tr>').join("")
    +Array.from({length:7},(_,k)=>'<tr class="lock" aria-hidden="true"><td>'+(k+6)+'</td>'+w.slice(1).map((v,j)=>'<td><span class="bar" style="width:'+Math.round(v*(0.7+((k*7+j*3)%5)/10))+'px"></span></td>').join("")+'</tr>').join("");
@@ -191,7 +218,7 @@ function flow(){const st=n=>'<span class="'+(F.step===n?"on":"")+'">'+n+'. '+["P
   if(F.step===1)h+='<div class="choice" role="button" tabindex="0" aria-pressed="'+(F.plan==="season")+'" data-plan="season"><div style="flex:1"><b>Season pass</b><div class="sub">Full 2026-27 season, one payment</div></div><b>$99</b></div><div class="choice" role="button" tabindex="0" aria-pressed="'+(F.plan==="monthly")+'" data-plan="monthly"><div style="flex:1"><b>Monthly</b><div class="sub">Billed monthly, cancel any time</div></div><b>$29</b></div><div class="acts"><button class="btn" data-next>Continue</button></div>';
   if(F.step===2)h+='<label for="f-name">Your name</label><input id="f-name" type="text" autocomplete="off"><label for="f-email">Email</label><input id="f-email" type="email" autocomplete="off" placeholder="you@example.com"><label for="f-player">Your player (optional)</label><input id="f-player" type="text" autocomplete="off" placeholder="We will pin his profile to your home page" value="'+esc(F.player)+'"><div class="note">Demonstration: no account is created and nothing typed here is saved or sent.</div><div class="acts"><button class="btn alt" data-back>Back</button><button class="btn" data-next>Continue</button></div>';
   if(F.step===3)h+='<p class="lede" style="margin-bottom:8px">'+(F.plan==="season"?"Season pass: $99, one payment":"Monthly: $29 per month")+'</p><label>Card number</label><input type="text" disabled value="Card entry appears here"><div class="row2"><div><label>Expiry</label><input type="text" disabled value="MM / YY"></div><div><label>Security code</label><input type="text" disabled value="CVC"></div></div><div class="note">Payments are not active in this preview. In the live site this step is handled by a payment processor; card details never touch our pages.</div><div class="acts"><button class="btn alt" data-back>Back</button><button class="btn" data-next>Finish demo</button></div>';
-  if(F.step===4)h+='<h3 style="color:var(--good)">This is where a new member lands</h3><p>'+(F.plan==="season"?"Season pass":"Monthly membership")+' active. The full database opens: every birth year, every profile, every game log.</p>'+(F.player?'<div class="card" style="margin:12px 0"><h3>My player</h3><p><b style="color:var(--ink)">'+esc(F.player)+'</b><br>Pinned to the member home page, with his full profile, game log and weekly changes.</p></div>':'')+'<div class="acts"><button class="btn alt" data-sample>Open a sample full profile</button><button class="btn" data-close>Back to the preview</button></div>';
+  if(F.step===4)h+='<h3 style="color:var(--good)">This is where a new member lands</h3><p>'+(F.plan==="season"?"Season pass":"Monthly membership")+' active. The full database opens: every birth year, every profile, every game log.</p>'+(F.player?'<div class="card" style="margin:12px 0"><h3>My player</h3><p><b style="color:var(--ink)">'+esc(F.player)+'</b><br>Pinned to the member home page, with his full profile, game log and what changed since his last game.</p></div>':'')+'<div class="acts"><button class="btn alt" data-sample>Open a sample full profile</button><button class="btn" data-close>Back to the preview</button></div>';
   $("flow-in").innerHTML=h}
 function signin(){$("flow-in").innerHTML='<button class="x" data-close>Close</button><h2>Sign in</h2><label for="si">Email</label><input id="si" type="email" autocomplete="off" placeholder="you@example.com"><div class="note">Demonstration: sign-in is not active. Members would get a one-time sign-in link by email, so there is no password to remember.</div><div class="acts"><button class="btn" data-close>Close</button></div>';$("flow").showModal()}
 function hits(){const q=$("q").value.trim().toLowerCase();if(q.length<3){$("hits").innerHTML="";return}

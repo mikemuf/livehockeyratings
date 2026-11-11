@@ -96,7 +96,7 @@ dialog::backdrop{background:rgba(8,16,22,.55)}
 <body>
 <div class="wrap">
 <header>
-  <a href="../" style="font-size:13px;text-decoration:none;color:inherit;opacity:.75">&lsaquo; Live Ratings</a>
+  <a id="rback" href="../" style="font-size:13px;text-decoration:none;color:inherit;opacity:.75">&lsaquo; Live Ratings</a>
   <h1>Player Database</h1>
   <p>15U: top 50 USA and top 50 Ontario (U16) teams, 2011 birth year. Bantam: top 50 USA and top 50 Ontario teams, 2012 and 2013 birth years. Peewee: top 25 USA and top 10 Ontario teams, 2014 and 2015 birth years. Stats from InStat game box scores, 2026-27 season, pulled Nov 11, 2026. Each skater has a game log with the opponent's rating.</p>
 </header>
@@ -289,8 +289,10 @@ skaters.forEach((x,i)=>x._i=i);
 {const by={};parts.forEach(x=>(by[x.team.id]=by[x.team.id]||[]).push(x));for(const k in by){const a=by[k],mx=Math.max(...a.map(x=>x.gp));const reg=a.filter(x=>x.gp>=Math.max(3,0.4*mx)).sort((x,y)=>y.ppg-x.ppg);a.forEach(x=>{const i=reg.indexOf(x);x.trank=i<0?0:i+1;x.tn=reg.length;x.t2=reg[1]?reg[1].ppg:0;x.t5=reg[4]?reg[4].ppg:0;x.t1=reg[0]?reg[0].ppg:0})}skaters.forEach(x=>{const m=x.parts[0];if(m!==x)for(const k of ["trank","tn","t1","t2","t5"])x[k]=m[k]})}goalies.forEach((x,i)=>x._i=i);
 $("more").onclick=e=>{const b=e.target.closest("button[data-more]");if(!b)return;limit=b.dataset.more==="all"?1e9:limit+200;render(true)};
 // A link like #team=12-4 (used by the ratings site) opens straight to that team's roster.
-function fromHash(){const m=location.hash.match(/^#team=([\w-]+)/);if(!m||!teamById[m[1]])return false;teamF=m[1];lvl="";yr=0;pos="";q="";chips();$("f-team").value=teamF;setMode("skaters");return true}
+function fromHash(){const y=location.hash.match(/^#year=(201[1-5])$/);if(y){yr=+y[1];lvl="";teamF="";pos="";q="";chips();$("f-team").value="";setMode("skaters");return true}const m=location.hash.match(/^#team=([\w-]+)/);if(!m||!teamById[m[1]])return false;teamF=m[1];lvl="";yr=0;pos="";q="";chips();$("f-team").value=teamF;setMode("skaters");return true}
 window.addEventListener("hashchange",fromHash);
+// The link back to the ratings site opens the division for the birth year (or team) being viewed.
+document.addEventListener("pointerdown",e=>{const a=e.target.closest&&e.target.closest("#rback");if(!a)return;const y=yr||(teamF&&teamById[teamF]?teamById[teamF].yr:0)||(lvl==="M"?2011:lvl==="P"?2014:2012);a.href=a.href.split("#")[0]+"#div="+y},true);
 if(!fromHash())render();
 </script>
 </body>

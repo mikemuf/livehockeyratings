@@ -434,7 +434,10 @@ document.addEventListener('click',e=>{
 document.addEventListener('change',e=>{if(e.target.id==='s-me'){const v=e.target.value.trim();if(cache[div]&&cache[div].byName[v]){myTeam[div]=v;lsSet('ratings.myTeam',myTeam);sPreview=null;render()}}});
 document.addEventListener('input',e=>{if(e.target.dataset&&e.target.dataset.sk){const k=e.target.dataset.sk;sScores[k]=sScores[k]||{};sScores[k][e.target.dataset.side]=e.target.value;return}if(e.target.id==='log-q'){const v=e.target.value;document.getElementById('v-log').innerHTML=renderLog(cache[div]);const i=document.getElementById('log-q');i.value=v;i.focus();i.setSelectionRange(v.length,v.length)}});
 document.getElementById('a-date').value=new Date().toISOString().slice(0,10);
-function fromHash(){let m=null;try{m=decodeURIComponent(location.hash).match(/^#team=(\d{4})\|(.+)$/)}catch(e){}if(!m)return;div=m[1];selTeam=m[2];view='team'}
+function fromHash(){const d=location.hash.match(/^#div=(\d{4})$/);if(d&&LITE_OK(d[1])){div=d[1];view='rank';selTeam=null;return}let m=null;try{m=decodeURIComponent(location.hash).match(/^#team=(\d{4})\|(.+)$/)}catch(e){}if(!m)return;div=m[1];selTeam=m[2];view='team'}
+function LITE_OK(y){return !!document.querySelector('button[data-div="'+y+'"]')}
+// The Player Database link opens the birth year being viewed here.
+document.addEventListener('pointerdown',e=>{const a=e.target.closest&&e.target.closest('.tabs a.plink');if(a)a.href='players/#year='+div},true);
 window.addEventListener('hashchange',()=>{fromHash();render();window.scrollTo(0,0)});
 fromHash();render();
 </script>
