@@ -3,6 +3,10 @@
 The page is `players/index.html`, served at https://mikemuf.github.io/livehockeyratings/players/.
 A second copy is kept as a Claude artifact (https://claude.ai/artifact/GD1DB4CsbbXf5tAwnc3YZs); update both. Everything needed to rebuild it is in `players/build` (scripts) and `players/data` (stored data).
 
+## Before anything else
+
+If the file `players/data/LOCK` exists, another session is in the middle of a large update (new teams or a re-pull). Do not harvest, build or push. Tell Mike in one line that the weekly update was skipped because a manual update was in progress, and stop.
+
 ## Rules
 
 - Team list is frozen (`data/teams.json`): Bantam = 50 USA + 10 Ontario for each of 2012 and 2013; Peewee = 25 USA (from the Nov 10 ranking) + 10 Ontario (from the Nov 11 ranking; in Ontario 2014 = U13 and 2015 = U12) for each of 2014 and 2015, added Nov 11, 2026. The ratings site's Canada list for Peewee includes Quebec, BC and Alberta teams; only Ontario teams were taken. Do not add or remove teams unless Mike asks.
