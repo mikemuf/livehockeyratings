@@ -1018,5 +1018,125 @@
 "yr": 2015,
 "pool": 0,
 "rating": 90.01
+},
+"14-C0": {
+"name": "Huron-Perth Lakers",
+"yr": 2014,
+"pool": 1,
+"rating": 98.23
+},
+"14-C1": {
+"name": "Toronto Jr Canadiens",
+"yr": 2014,
+"pool": 1,
+"rating": 97.77
+},
+"14-C2": {
+"name": "Don Mills Flyers",
+"yr": 2014,
+"pool": 1,
+"rating": 96.73
+},
+"14-C3": {
+"name": "Ottawa Jr 67's",
+"yr": 2014,
+"pool": 1,
+"rating": 96.06
+},
+"14-C4": {
+"name": "Eastern Ontario Wild",
+"yr": 2014,
+"pool": 1,
+"rating": 95.56
+},
+"14-C5": {
+"name": "Sun County Panthers",
+"yr": 2014,
+"pool": 1,
+"rating": 95.1
+},
+"14-C6": {
+"name": "York Simcoe Express",
+"yr": 2014,
+"pool": 1,
+"rating": 94.77
+},
+"14-C7": {
+"name": "Whitby Wildcats",
+"yr": 2014,
+"pool": 1,
+"rating": 93.75
+},
+"14-C8": {
+"name": "Barrie Colts",
+"yr": 2014,
+"pool": 1,
+"rating": 93.59
+},
+"14-C9": {
+"name": "Sarnia-Lambton Jr Sting",
+"yr": 2014,
+"pool": 1,
+"rating": 93.38
+},
+"15-C0": {
+"name": "Toronto Jr Canadiens",
+"yr": 2015,
+"pool": 1,
+"rating": 94.81
+},
+"15-C1": {
+"name": "Don Mills Flyers",
+"yr": 2015,
+"pool": 1,
+"rating": 93.56
+},
+"15-C2": {
+"name": "Toronto Marlboros",
+"yr": 2015,
+"pool": 1,
+"rating": 92.79
+},
+"15-C3": {
+"name": "Whitby Wildcats",
+"yr": 2015,
+"pool": 1,
+"rating": 91.96
+},
+"15-C4": {
+"name": "Kitchener Jr Rangers",
+"yr": 2015,
+"pool": 1,
+"rating": 91.64
+},
+"15-C5": {
+"name": "Vaughan Kings",
+"yr": 2015,
+"pool": 1,
+"rating": 91.43
+},
+"15-C6": {
+"name": "Elgin Middlesex Canucks",
+"yr": 2015,
+"pool": 1,
+"rating": 91.41
+},
+"15-C7": {
+"name": "Toronto Titans",
+"yr": 2015,
+"pool": 1,
+"rating": 90.67
+},
+"15-C8": {
+"name": "Guelph Gryphons",
+"yr": 2015,
+"pool": 1,
+"rating": 90.56
+},
+"15-C9": {
+"name": "Toronto Nationals",
+"yr": 2015,
+"pool": 1,
+"rating": 90.34
 }
 }
