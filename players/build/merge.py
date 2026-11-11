@@ -6,7 +6,8 @@ have={m['id'] for m in D['M']}; added=[]; bad=[]
 OLD={m['id']:m for m in D['M']}; can=[m for m in H['M'].values() if m['id'] in OLD]
 for m in can:
     o=OLD[m['id']]
-    if sorted(m.get('P',[]))!=sorted(o['P']) or m.get('h')!=o['h'] or m.get('tl')!=o['tl'] or ('PP' in o and m.get('PP')!=o['PP']):
+    nz=lambda P:sorted(p.rsplit('|',1)[0] if 'noname' in p.lower() else p for p in P)  # ids of unnamed players are not stable
+    if nz(m.get('P',[]))!=nz(o['P']) or m.get('h')!=o['h'] or m.get('tl')!=o['tl'] or ('PP' in o and m.get('PP')!=o['PP']):
         print('CANARY FAILED for game',m['id'],'- InStat page layout may have changed. Nothing merged.'); print(' stored:',o['h'],len(o['P']),o['P'][:2]); print(' read now:',m.get('h'),len(m.get('P',[])),m.get('P',[])[:2]); sys.exit(2)
 print('canary ok:',len(can),'stored game(s) re-read identically' if can else 'NO CANARY GAME IN HARVEST - do not publish without checking a known game')
 for m in H['M'].values():
