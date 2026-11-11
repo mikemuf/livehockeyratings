@@ -3,17 +3,22 @@
 # so the script finds the D/F split that best fits the units' ice time. Faceoffs help: a player who takes 3+ a game
 # is a forward, one who takes none over many games leans defense; an InStat "F" label also counts as evidence.
 import json,re,sys,collections
-L=json.load(open(sys.argv[1])); pref=tuple(sys.argv[2:]) or ('14-','15-')
+L=json.load(open(sys.argv[1]))
+# team keys to (re)compute: plain prefixes, or one argument 're:<regex>' matched against the whole key
+class _Sel(str):
+    def startswith(self,p): return bool(_RX.fullmatch(self)) if _RX else str.startswith(self,p)
+_RX=re.compile(sys.argv[2][3:]) if len(sys.argv)>2 and sys.argv[2].startswith('re:') else None
+pref=tuple(sys.argv[2:]) or ('14-','15-')
 W=json.load(open('wanted.json')); D=json.load(open('box.json')); d=json.load(open('db.json')); POS=json.load(open('pos.json'))
 sec=lambda s:int(s.split(':')[0])*60+int(s.split(':')[1]) if ':' in s else 1
 clean=lambda x:re.sub(r'[^a-z]','',x.lower())
 E2K={i:k for k,v in W.items() for i in v}
 FO=collections.defaultdict(lambda:[0,0])   # pid@key -> [games, faceoffs]
 for m in D['M']:
-    if 'FO' not in m and not any(E2K.get(x.split('=',1)[0],'').startswith(pref) for x in m['tl']): continue
+    if 'FO' not in m and not any(_Sel(E2K.get(x.split('=',1)[0],'')).startswith(pref) for x in m['tl']): continue
     for side,x in enumerate(m['tl']):
         tid,tn=x.split('=',1); key=E2K.get(tid)
-        if not key or not key.startswith(pref): continue
+        if not key or not _Sel(key).startswith(pref): continue
         si=m['S'].index(tn.upper()) if tn.upper() in m['S'] else side
         for p in m['P']:
             r=p.split('|')
@@ -21,7 +26,7 @@ for m in D['M']:
             f=FO[r[9]+'@'+key]; f[0]+=1; f[1]+=(m.get('FO') or {}).get(r[0]+'|'+r[1],0)
 src=collections.Counter(); rep=[]
 for key,ids in W.items():
-    if not key.startswith(pref): continue
+    if not _Sel(key).startswith(pref): continue
     roster=[s for s in d['S'] if s[0]==key]
     if not roster: continue
     units=collections.Counter()
