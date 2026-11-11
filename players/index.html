@@ -71,6 +71,7 @@ tbody tr.row:hover{background:var(--soft)}
 .pill.on{background:var(--good);border-color:var(--good);color:var(--panel);font-weight:600}
 button.team:hover{background:var(--soft)}
 .note{color:var(--muted);font-size:13px;margin:12px 2px 0;max-width:70ch}
+.more{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin:12px 2px 0;font-size:14px;color:var(--muted)}
 .teambar{margin:0 2px 10px;font-size:14px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline}
 .teambar a,.meta a{color:inherit;font-weight:600;text-decoration:underline;text-underline-offset:2px}
 dialog{border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink);padding:0;width:min(780px,calc(100% - 32px));max-height:calc(100% - 32px)}
@@ -127,6 +128,7 @@ dialog::backdrop{background:rgba(8,16,22,.55)}
   </div>
   <div id="teambar" class="teambar" hidden></div>
   <div class="sheet"><table><thead id="thead"></thead><tbody id="tbody"></tbody></table></div>
+  <div id="more" class="more" hidden></div>
   <p class="note" id="listnote"></p>
 </section>
 
@@ -197,18 +199,22 @@ function rows(){
   const k=sortKey;
   return list.slice().sort((a,b)=>{const va=k==="team"?a.team.name:a[k],vb=k==="team"?b.team.name:b[k];const z=x=>mode==="goalies"&&(k==="aga"||k==="opp")&&!x.nr?1:0;return (b.q-a.q)||(z(a)-z(b))||(typeof va==="string"?va.localeCompare(vb):va-vb)*sortDir||b.gp-a.gp});
 }
-function render(){
+// Only the first `limit` rows are drawn, so the page stays fast as the database grows. Any new sort, filter or search starts again at 200.
+let limit=200;
+function render(keep){
+  if(!keep)limit=200;
   const cols=mode==="goalies"?GK_COLS:SK_COLS;
   $("thead").innerHTML="<tr><th>#</th>"+cols.map(([k,l])=>`<th ${k===sortKey?`aria-sort="${sortDir<0?"descending":"ascending"}"`:""}><button data-k="${k}">${l}${k===sortKey?(sortDir<0?" ▾":" ▴"):""}</button></th>`).join("")+"</tr>";
   const list=rows();
   let div=false,rk=0;const nq=list.filter(x=>!x.q).length;
-  $("tbody").innerHTML=list.map(x=>{
+  $("tbody").innerHTML=list.slice(0,limit).map(x=>{
     let pre="";if(!x.q&&!div){div=true;pre=`<tr class="divider"><td colspan="${cols.length+1}">Not qualified: fewer than ${MINGP} games (${nq})</td></tr>`}
-    const i=(mode==="goalies"?goalies:skaters).indexOf(x);
+    const i=x._i;
     const first=`<td class="rk">${x.q?++rk:"-"}</td><td><span class="name">${esc(x.name)}</span> <span class="sub">#${x.num}</span> <span class="born b${x.by%100}">${x.by} born</span></td><td>${esc(x.team.name)} <span class="sub">${x.team.yr}${x.team.ca?" ON":""}</span></td>`;
     if(mode==="goalies")return pre+`<tr class="row${x.q?"":" unq"}" data-i="${i}" tabindex="0">${first}<td><span class="pos">G</span></td><td>${x.gs}</td><td>${x.gs?x.gaa.toFixed(2):"-"}</td><td><b>${x.nr?x.aga.toFixed(2):"-"}</b></td><td>${x.nr?x.opp.toFixed(1):"-"}</td><td>${x.so}</td><td>${x.sa||"-"}</td><td>${x.svp?x.svp+"%":"-"}</td></tr>`;
     return pre+`<tr class="row${x.q?"":" unq"}" data-i="${i}" tabindex="0">${first}<td><span class="pos">${x.pos}</span></td><td>${x.gp}</td><td>${x.g}</td><td>${x.a}</td><td><b>${x.p}</b></td><td>${x.ppp}</td><td>${pmHtml(x.pm)}</td><td>${x.pim}</td><td>${mmss(x.toi)}</td><td>${mmss(x.toig)}</td><td>${mmss(x.pptg)}</td><td>${x.ppg.toFixed(2)}</td><td><b>${x.adj?x.adj.toFixed(2):"-"}</b></td><td>${x.p60.toFixed(2)}</td><td><b>${x.adj60?x.adj60.toFixed(2):"-"}</b></td><td>${x.opp?x.opp.toFixed(2):"-"}</td></tr>`;
   }).join("")||`<tr><td colspan="${cols.length+1}" style="text-align:left;color:var(--muted)">No players match. Clear the search or filters.</td></tr>`;
+  const mo=$("more");mo.hidden=list.length<=limit;if(!mo.hidden)mo.innerHTML=`<span>Showing the first ${limit} of ${list.length}</span><button class="chip" data-more="200">Show 200 more</button><button class="chip" data-more="all">Show all</button>`;
   const tb=$("teambar"),tt=teamF&&teamById[teamF];tb.hidden=!tt;if(tt)tb.innerHTML=`<span><b>${esc(tt.name)} ${tt.yr}</b> · rated ${tt.rating.toFixed(2)} · ${tt.ca?"Canada ":"USA "}${tt.rank?"#"+tt.rank:"unranked"}${loaded.has(tt.id)?"":" · no games in InStat yet"}</span><a href="${rlink(tt)}">Team rating and game history &rsaquo;</a>`;
   $("count").textContent=list.length+(mode==="goalies"?" goalies":" skaters")+" · "+loaded.size+" of "+TEAMS.length+" teams";
   $("listnote").textContent=mode==="goalies"?"Starts are games where the goalie played essentially the whole game, so the goals against are his. GA/G is his plain goals against per start. Adj GA/G weights each game's goals against by the opponent's rating only, with 94 as the baseline (1.00). Against stronger teams a goal counts 16% less per rating point (0.62 of a goal against a 97 team). Against weaker teams it counts 25% more per point (2.12 goals against a 91 team), capped at 4.48 for opponents rated 88 or lower. It averages rated starts only and does not account for the goalie's own team. Avg opp is the average rating of the opponents in those starts. Goalies with fewer than "+MINGP+" starts sort below the qualified list. SA/G and SV% are InStat season averages and may be blank.":"Totals cover only games loaded in InStat, so GP can be lower than a team's real schedule. TOI is total minutes:seconds. PPP is power-play points (goals plus assists scored on the power play) and PP TOI/G is power-play ice time per game, both from InStat's power-play view of each game. P/60 uses all-situations ice time. Adj P/G converts each game's points to what they would be worth against a 95-rated team, using a ratio measured from this data: scoring changes about 16% for every rating point of opponent strength (96 = 1.17, 93 = 0.73, 90 = 0.45). That is the middle of what the data shows: 13% among the top scorers, 19% among players with games in both the 2012 and 2013 divisions. A top scorer whose production rises against weaker teams by the typical amount gets the same adjusted number whatever his schedule. Adj P/60 applies the same weights per 60 minutes of ice time. The game log shows each game's multiplier. Players with fewer than "+MINGP+" games always sort below the qualified list. 15U (2011), Bantam (2012 and 2013) and Peewee (2014 and 2015) are separate rating scales, so adjusted numbers compare within a level, not across levels. MHR rates 15U inside its 16U pool, where the top 15U team is about 96, so for the multipliers every 15U opponent rating is shifted up 3.83 points (the top 15U team counts as 99.99, and the skater baseline of 95 corresponds to a 15U team rated 91.2). Ratings shown in the tables and logs are the published ones. Fewer Peewee teams load games into InStat, so samples are smaller, and the ratings cover only part of Ontario at Peewee, so about a third of Ontario Peewee games are against unrated opponents and do not count toward the adjusted numbers."+" Avg opp is the average current rating of the opponents in the games that player appeared in. Select a player for the game log. Positions are inferred from faceoff counts and line combinations, not from InStat's labels, so a few may be wrong.";
@@ -259,6 +265,8 @@ $("tbody").onclick=e=>openRow(e.target.closest("tr.row"));
 $("tbody").onkeydown=e=>{if(e.key==="Enter")openRow(e.target.closest("tr.row"))};
 $("board").onclick=e=>{const b=e.target.closest("button[data-t]");if(!b)return;teamF=b.dataset.t;lvl="";yr=0;chips();$("f-team").value=teamF;setMode("skaters")};
 $("dlg").onclick=e=>{if(e.target===$("dlg"))$("dlg").close()};
+skaters.forEach((x,i)=>x._i=i);goalies.forEach((x,i)=>x._i=i);
+$("more").onclick=e=>{const b=e.target.closest("button[data-more]");if(!b)return;limit=b.dataset.more==="all"?1e9:limit+200;render(true)};
 // A link like #team=12-4 (used by the ratings site) opens straight to that team's roster.
 function fromHash(){const m=location.hash.match(/^#team=([\w-]+)/);if(!m||!teamById[m[1]])return false;teamF=m[1];lvl="";yr=0;pos="";q="";chips();$("f-team").value=teamF;setMode("skaters");return true}
 window.addEventListener("hashchange",fromHash);
