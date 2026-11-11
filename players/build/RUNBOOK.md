@@ -17,7 +17,8 @@ If the file `players/data/LOCK` exists, another session is in the middle of a la
 - Do not publish if the canary fails or the sanity checks fail. Report instead.
 
 - Ontario: top 50 per birth year for 2011 (U16 AAA), 2012 (U15 AAA) and 2013 (U14 AAA), expanded from 10 on Nov 11, 2026 (2011 from MHR's Ontario U16 AAA ranking, `rank.php?y=2026&v=137`, kept in `data/*_on16.txt`). Positions for these teams: `python3 ../build/positions_lines.py lines_peewee.json 're:(11-C\d+|1[23]-C[1-4]\d)'`; the original ten per year keep their Nov 10 positions. No InStat games: CDA Hockey Academy (2012), Cambridge Hawks U16.
-- Qualifying minimum is 10 games (`MINGP`).
+- Qualifying minimum is 5 games (`MINGP`).
+- Players with games for more than one team (same InStat id and name, teams at most one birth year apart) are combined into one row under their own birth year. `PUB` (3 rating points) is the playing-up bonus for games in a higher rating pool.
 - 15U (2011 birth year): top 50 USA from MHR's Nov 11, 2026 15U Tier 1 ranking, added Nov 11, 2026. The ratings site carries 2011 as an anchored division (`data/*_usa15.txt`, MHR `rank.php?y=2026&v=119`). The page shifts 15U opponent ratings by `OFF` (3.83) for the multipliers only. No InStat page was found for Middlesex Islanders 15U or Neponset Valley 15U, and Mid-Fairfield 15U has no games.
 - The ratings site and the database link to each other: ratings team pages link to `players/#team=<key>` (map built from `data/teams.json` in `build/build.py`), and the database links to `#team=<year>|<team name>` on the ratings site.
 

@@ -16,7 +16,7 @@ const r2=x=>Math.round(x*100)/100;
 const pack=s=>({n:s.name,num:s.num,t:s.team.name,ty:s.team.yr,ca:s.team.ca?1:0,tr:s.team.rank,trt:s.team.rating,pos:s.pos,by:s.by,gp:s.gp,g:s.g,a:s.a,p:s.p,
   ppp:s.ppp,ppgl:s.ppgl,ppa:s.ppa,inv:Math.round(s.inv),tgf:s.tgf,pm:s.pm,pim:s.pim,toig:Math.round(s.toig),pptg:Math.round(s.pptg),ppg:r2(s.ppg),adj:r2(s.adj),p60:r2(s.p60),adj60:r2(s.adj60),opp:r2(s.opp),
   rk:s.trank,tn:s.tn,t1:r2(s.t1),t2:r2(s.t2),t5:r2(s.t5),
-  log:s.log.map(l=>[l.date,l.ha,l.opp,l.or?r2(l.or):0,l.score,l.toi,l.g,l.a,l.ppp,l.pm,l.or?r2(D.mult(l.er,s.team.yr)):0])});
+  log:s.log.map(l=>[l.date,l.ha,l.opp,l.or?r2(l.or):0,l.score,l.toi,l.g,l.a,l.ppp,l.pm,l.or?r2(l.m):0])});
 const P={},LOCK={};
 for(const y of YEARS){const q=D.skaters.filter(s=>s.by===y&&s.q).sort((a,b)=>b.adj-a.adj);P[y]=q.slice(0,5).map(pack);LOCK[y]=D.skaters.filter(s=>s.by===y).length-5}
 const seen=new Set();const IDX=[];
