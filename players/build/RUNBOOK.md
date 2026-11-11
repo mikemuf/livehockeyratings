@@ -56,6 +56,9 @@ Each new game is read twice: the Overview page (box score) and the Skaters page 
 
 `preview/index.html` (https://mikemuf.github.io/livehockeyratings/preview/) is the public preview of a paid version: top five skaters per birth year with full profiles, everything else locked, and a demonstration-only membership flow ($99 season pass, $29 monthly; no real accounts or payments). After each update rebuild it: `node ../build/make_preview.js ../index.html box.json ../../preview/index.html` and commit it with `players/`.
 
+## InStat coverage column (trial)
+`inject.py` writes `TREC` (team games played, from the record in `players/data/ratings.json`) for 2013 USA teams only; the page shows team games in InStat / team games played. To extend, add more (year, key) pairs in `inject.py`.
+
 ## Known limits
 
 - New players get InStat's own position label, which is unreliable. `pos.json` holds the positions inferred on Nov 10, 2026 from line combinations and faceoffs; re-running that inference needs a separate pull of each team's Lines and Faceoffs pages and is not part of the weekly run.
