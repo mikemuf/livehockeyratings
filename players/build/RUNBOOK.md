@@ -51,6 +51,10 @@ All commands run from `players/data`.
 
 Each new game is read twice: the Overview page (box score) and the Skaters page in InStat's PP view (power-play time, goals, assists). The PP choice is remembered by InStat, so the script switches the selector back to Game total at the end. `browser/pp_backfill.js` re-reads PP data for every stored game if it is ever needed again.
 
+## Preview site
+
+`preview/index.html` (https://mikemuf.github.io/livehockeyratings/preview/) is the public preview of a paid version: top five skaters per birth year with full profiles, everything else locked, and a demonstration-only membership flow ($99 season pass, $29 monthly; no real accounts or payments). After each update rebuild it: `node ../build/make_preview.js ../index.html box.json ../../preview/index.html` and commit it with `players/`.
+
 ## Known limits
 
 - New players get InStat's own position label, which is unreliable. `pos.json` holds the positions inferred on Nov 10, 2026 from line combinations and faceoffs; re-running that inference needs a separate pull of each team's Lines and Faceoffs pages and is not part of the weekly run.
