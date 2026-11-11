@@ -6,12 +6,12 @@ have={m['id'] for m in D['M']}; added=[]; bad=[]
 OLD={m['id']:m for m in D['M']}; can=[m for m in H['M'].values() if m['id'] in OLD]
 for m in can:
     o=OLD[m['id']]
-    if sorted(m.get('P',[]))!=sorted(o['P']) or m.get('h')!=o['h'] or m.get('tl')!=o['tl']:
+    if sorted(m.get('P',[]))!=sorted(o['P']) or m.get('h')!=o['h'] or m.get('tl')!=o['tl'] or ('PP' in o and m.get('PP')!=o['PP']):
         print('CANARY FAILED for game',m['id'],'- InStat page layout may have changed. Nothing merged.'); print(' stored:',o['h'],len(o['P']),o['P'][:2]); print(' read now:',m.get('h'),len(m.get('P',[])),m.get('P',[])[:2]); sys.exit(2)
 print('canary ok:',len(can),'stored game(s) re-read identically' if can else 'NO CANARY GAME IN HARVEST - do not publish without checking a known game')
 for m in H['M'].values():
     if m['id'] in have: continue
-    if m.get('ok') and m.get('h') and len(m.get('tl',[]))==2: D['M'].append(m); added.append(m)
+    if m.get('ok') and m.get('h') and len(m.get('tl',[]))==2 and 'PP' in m: D['M'].append(m); added.append(m)
     else: bad.append(m['id'])
 TG={t['id']:t for t in D['T']}; gk=0
 for t in H['T'].values():

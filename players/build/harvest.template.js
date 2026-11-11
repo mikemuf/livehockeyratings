@@ -13,6 +13,18 @@ const load=async(f,u,ready,max)=>{f.src='about:blank';await W(200);f.src=u;for(l
 const toks=d=>d.body.innerText.split(/[\n\t]/).map(s=>s.trim()).filter(Boolean);
 const sec=s=>{const p=s.split(':');return p.length==2?+p[0]*60+ +p[1]:0};
 const n0=s=>(s==='-'||s==='—'||s===undefined)?0:(parseInt(s)||0);
+const label=d=>{const t=toks(d);const i=t.indexOf('EPISODES SEARCH');return i>=0?t[i+1]:''};
+const leaf=(d,l)=>[...d.querySelectorAll('*')].filter(e=>e.children.length===0&&e.innerText&&e.innerText.trim()===l);
+// Opens a game's Skaters page and switches the situation selector (Game total / EV / PP / PK) to `want`. The choice is remembered by InStat.
+const ppView=async(f,id,want)=>{const u='/instat/hockey/matches/'+id+'/skaters';f.src='about:blank';await W(200);f.src=u;let d=null;
+ for(let k=0;k<40;k++){await W(500);try{const x=f.contentDocument;if(x&&x.body&&f.contentWindow.location.pathname===u&&(x.body.innerText.match(/\nPosition\n/g)||[]).length>=2&&label(x)){d=x;break}}catch(e){}}
+ if(!d)return null;
+ if(label(d)!==want){const e=leaf(d,label(d)).filter(x=>!/^(TH|TD)$/.test(x.tagName))[0];if(e){(e.closest('button,[role=button]')||e).click();await W(900);const o=leaf(d,want).pop();if(o)o.click();for(let k=0;k<12&&label(d)!==want;k++)await W(500);await W(2500)}}else await W(700);
+ if(label(d)!==want)return null;
+ const t=toks(d);const S=[];const rows=[];let side=-1;
+ for(let i=0;i<t.length-9;i++){if(t[i+1]==='Position'&&t[i+2]==='POS'){S.push(t[i]);side=S.length-1;continue}
+  if(side>=0&&/^\d{1,3}$/.test(t[i])&&/^(F|D)$/.test(t[i+2])&&/^(\d+:\d\d|-)$/.test(t[i+3])&&!/^\d+$/.test(t[i+1])){const ppt=sec(t[i+3]),g=n0(t[i+5]),a=n0(t[i+8]);if(ppt||g||a)rows.push([side,t[i],ppt,g,a]);i+=3}}
+ return {S,rows};};
 const team=async(f,id)=>{const rec={id,m:{},gk:{}};
  let d=await load(f,'/instat/hockey/teams/'+id,d=>d.querySelector('a[href*="/matches/"]'),14);
  if(d){await W(1500);const t=toks(d);rec.name=t[2];rec.sub=t[3];rec.ov=d.body.innerText.includes('OVERVIEW');
@@ -30,11 +42,15 @@ const match=async(f,id)=>{const cnt=d=>(d.body.innerText.match(/Shirt number/g)|
   let side=-1;for(let i=0;i<t.length-13;i++){if(t[i+1]==='Shirt number'){rec.S.push(t[i]);side=rec.S.length-1;continue}
    if(side>=0&&/^\d{1,3}$/.test(t[i])&&/^(F|D|GK)$/.test(t[i+2])&&/^\d+:\d\d$/.test(t[i+3])&&!/^\d+$/.test(t[i+1])){const L=links.find(l=>!l[2]&&l[0]===t[i+1]);if(L)L[2]=1;const pen=t[i+13];rec.P.push([side,t[i],t[i+1],t[i+2],sec(t[i+3]),n0(t[i+6]),n0(t[i+7]),n0(t[i+9]),pen&&pen.includes(':')?+pen.split(':')[0]:n0(pen),L?L[1]:''].join('|'));i+=3}}
   rec.ok=rec.S.length===2&&rec.P.length>=10&&!!rec.h&&rec.tl.length===2;}
+ // power-play view of the same game: PP time, goals and assists per player
+ if(rec.ok){const pp=await ppView(f,id,'PP');if(pp){rec.PP={};const idx=pp.S.map((n,i)=>{const k=rec.S.indexOf(n.toUpperCase());return k>=0?k:i});pp.rows.forEach(r=>{const k=idx[r[0]]+'|'+r[1];if(!(k in rec.PP))rec.PP[k]=[r[2],r[3],r[4]]})}else rec.ok=false}
  st.M[id]=rec;st.mdone++;};
 (async()=>{try{
  const fs=[mk(),mk(),mk()];let q=TEAMS.slice();
  await Promise.all(fs.map(async f=>{while(q.length){const id=q.shift();try{await team(f,id)}catch(e){st.err.push('t'+id+':'+e)}}}));
- st.phase='matches';let mq=Object.keys(st.newIds).concat(CANARY);st.mtotal=mq.length;
+ st.phase='matches';let mq=Object.keys(st.newIds).concat(CANARY);const mq0=mq[0];st.mtotal=mq.length;
  await Promise.all(fs.map(async f=>{while(mq.length){const id=mq.shift();try{await match(f,id)}catch(e){st.err.push('m'+id+':'+e)}}}));
+ // put InStat's situation selector back to Game total so Mike's own view is unchanged
+ if(mq0)try{await ppView(fs[0],mq0,'Game total')}catch(e){}
  st.phase='done';}catch(e){st.err.push('fatal:'+e);st.phase='failed'}})();
 return 'started '+TEAMS.length+' teams';})()

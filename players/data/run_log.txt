@@ -1,2 +1,3 @@
 2026-11-10 baseline: 1322 games stored, 1904 skaters, 249 goalies, 1861 team-games, 115 teams with data
 2026-11-10 trial update: +29 games (1351 stored), 1905 skaters, 251 goalies, 1911 team-games, 115 teams with data; 9 games needed a re-read (header not rendered) - reader now waits for the header
+2026-11-11 power-play backfill: PP time/goals/assists stored for all 1351 games; page gains PPP and PP TOI/G

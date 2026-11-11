@@ -38,6 +38,10 @@ All commands run from `players/data`.
 12. Update the Claude artifact copy too (Mike wants both kept current): copy `players/index.html` to a temp file with the back link `href="../"` changed to `href="https://mikemuf.github.io/livehockeyratings/"`, then publish it with the artifact tools to slug `7b26226d-b439-4f30-a1e4-ed16bf451c6e` as `index.html` (get the current version with get_artifact and pass it as base_version). If the artifact tools are unavailable, say so in the report.
 13. Message Mike: games added, which teams had new games and which top teams had none, new players who cracked the top of the Adjusted P/G list, anything that looked wrong, then the link.
 
+## Power play
+
+Each new game is read twice: the Overview page (box score) and the Skaters page in InStat's PP view (power-play time, goals, assists). The PP choice is remembered by InStat, so the script switches the selector back to Game total at the end. `browser/pp_backfill.js` re-reads PP data for every stored game if it is ever needed again.
+
 ## Known limits
 
 - New players get InStat's own position label, which is unreliable. `pos.json` holds the positions inferred on Nov 10, 2026 from line combinations and faceoffs; re-running that inference needs a separate pull of each team's Lines and Faceoffs pages and is not part of the weekly run.
