@@ -45,7 +45,7 @@ for key,info in INFO.items():
             oid,oname=tl[1-side]
             rows=[p.split('|') for p in m['P'] if int(p.split('|')[0])==si and not re.search('noname',p,re.I)]
             gk=(date[3:5]+'-'+date[:2],norm(oname),mysc)
-            g=dict(date=date[3:5]+'-'+date[:2],ha='h' if side==0 else 'a',oid=oid,oname=oname,score=mysc[0]+':'+mysc[1],rows=rows,mo=int(date[3:5]))
+            g=dict(pp=m.get('PP') or {},date=date[3:5]+'-'+date[:2],ha='h' if side==0 else 'a',oid=oid,oname=oname,score=mysc[0]+':'+mysc[1],rows=rows,mo=int(date[3:5]))
             if gk not in games or len(rows)>len(games[gk]['rows']): games[gk]=g
     if not games: GAMES[key]=[]; continue
     # regulars filter
@@ -64,7 +64,7 @@ for key,info in INFO.items():
         for r in g['rows']:
             if r[3]=='GK': continue
             p=pl.setdefault(r[9],dict(pid=r[9],num=collections.Counter(),name=r[2],pos=collections.Counter(),log=[]))
-            p['num'][r[1]]+=1; p['pos'][r[3]]+=1; p['log'].append([gi,int(r[4]),int(r[5]),int(r[6]),int(r[7]),int(r[8])])
+            pp=g['pp'].get(r[0]+'|'+r[1],[0,0,0]); p['num'][r[1]]+=1; p['pos'][r[3]]+=1; p['log'].append([gi,int(r[4]),int(r[5]),int(r[6]),int(r[7]),int(r[8]),pp[0],pp[1],pp[2]])
     roster=[dict(pid=p['pid'],num=int(p['num'].most_common(1)[0][0]),name=p['name'],pos=p['pos'].most_common(1)[0][0],log=p['log']) for p in pl.values()]
     used=set(); out=[]
     ln=lambda x:{w for w in re.sub(r'[^a-z ]','',x.lower()).split() if w not in('jr','sr','ii','iii')}
