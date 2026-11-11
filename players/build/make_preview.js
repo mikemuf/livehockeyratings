@@ -28,6 +28,7 @@ const path=require('path');const root=path.resolve(path.dirname(src),'..');
 const RT=JSON.parse(fs.readFileSync(path.join(root,'players/data/ratings.json'),'utf8'));
 const WKD=JSON.parse(fs.readFileSync(path.join(root,'data/weekend_public.json'),'utf8'));
 const TOP={};for(const y of YEARS){TOP[y]=Object.entries(RT[y]||{}).filter(([n,v])=>v.pool==='USA'&&v.rank>0).sort((a,b)=>a[1].rank-b[1].rank).slice(0,10).map(([n,v])=>[v.rank,n,v.rec||'',v.rating])}
+const NT={};for(const y of YEARS)NT[y]=Math.max(0,Object.keys(RT[y]||{}).length-10);
 const rkOf=(y,n)=>{const v=(RT[y]||{})[n];return v&&v.rank?(v.pool==='USA'?'#':'ON #')+v.rank:''};
 const WK={label:WKD.label,status:WKD.status,updated:WKD.updated,divs:{}};
 for(const y of YEARS){const d=(WKD.divs||{})[y];if(!d)continue;WK.divs[y]={s:(d.summary||[]).slice(0,4),w:(d.watch||[]).slice(0,6).map(g=>[g[0],g[1],g[2],rkOf(y,g[2]),g[3],rkOf(y,g[3]),g[4]||''])}}
@@ -142,7 +143,7 @@ label{display:block;font-size:13px;font-weight:600;margin:10px 0 4px}
 <p class="lede">No waiting for a weekly release. Ratings move as each score is entered, so you know where a team stands before the weekend is over. Top ten USA teams shown here.</p>
 <div class="tabs ytabs"></div>
 <div class="sheet"><table><thead><tr><th>#</th><th>Team</th><th>Record</th><th>Rating</th></tr></thead><tbody id="rt"></tbody></table>
-<div class="gate"><p style="margin:0 0 10px">Every team, USA and Canada, with schedule strength, game-by-game results and each roster's player stats.</p><a class="btn" id="rt-link" style="text-decoration:none;display:inline-block" href="../">Open the live ratings</a></div></div>
+<div class="gate"><b id="rt-n"></b><p>The full live ratings are for members: every team, USA and Canada, with schedule strength, game-by-game results and each roster's player stats.</p><button class="btn" data-act="join">Become a member</button></div></div>
 </section>
 
 <section id="weekend"><h2>This weekend</h2>
@@ -187,6 +188,7 @@ const LOCK=${JSON.stringify(LOCK)};
 const IDX=${esc(JSON.stringify(IDX))};
 const STATS=${JSON.stringify(STATS)};
 const TOP=${esc(JSON.stringify(TOP))};
+const NT=${JSON.stringify(NT)};
 const WK=${esc(JSON.stringify(WK))};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -195,8 +197,8 @@ const fmt=n=>n.toLocaleString("en-US");
 $("s-sk").textContent=fmt(STATS.sk);$("s-gk").textContent=fmt(STATS.gk);$("s-tm").textContent=fmt(STATS.teams);$("s-gm").textContent=fmt(STATS.games);$("s-min").textContent=STATS.min;$("s-date").textContent=STATS.pulled;
 let year=2012;
 function tabs(){const h=Object.keys(P).map(y=>'<button class="tab" aria-pressed="'+(+y===year)+'" data-y="'+y+'">'+y+' born</button>').join("");document.querySelectorAll(".ytabs").forEach(e=>e.innerHTML=h);hub()}
-function hub(){$("rt").innerHTML=(TOP[year]||[]).map(r=>'<tr><td>'+r[0]+'</td><td style="text-align:left"><span class="name">'+esc(r[1])+'</span></td><td>'+r[2]+'</td><td><b>'+r[3].toFixed(2)+'</b></td></tr>').join("");
-  $("rt-link").href="../#div="+year;$("wk-label").textContent=WK.label+(WK.status?" ("+WK.status.toLowerCase()+")":"");
+function hub(){$("rt").innerHTML=(TOP[year]||[]).map(r=>'<tr><td>'+r[0]+'</td><td style="text-align:left"><span class="name">'+esc(r[1])+'</span></td><td>'+r[2]+'</td><td><b>'+r[3].toFixed(2)+'</b></td></tr>').join("")+Array.from({length:5},(_,k)=>'<tr class="lock" aria-hidden="true"><td>'+(k+11)+'</td>'+[150,50,44].map((v,j)=>'<td><span class="bar" style="width:'+Math.round(v*(0.7+((k*7+j*3)%5)/10))+'px"></span></td>').join("")+'</tr>').join("");
+  $("rt-n").textContent=fmt(NT[year])+" more "+year+" teams";$("wk-label").textContent=WK.label+(WK.status?" ("+WK.status.toLowerCase()+")":"");
   const d=WK.divs[year];
   $("wk").innerHTML=d?'<div class="card"><h3>The story</h3>'+d.s.map(t=>'<p style="margin:0 0 10px">'+esc(t)+'</p>').join("")+'</div>'+(d.w.length?'<div class="sheet" style="margin-top:12px"><table><thead><tr><th>Day</th><th>Time</th><th>Games to watch</th><th>Rink</th></tr></thead><tbody>'+d.w.map(g=>'<tr><td>'+esc(g[0])+'</td><td>'+esc(g[1])+'</td><td style="text-align:left"><b>'+esc(g[2])+'</b>'+(g[3]?' <span class="sub">('+g[3]+')</span>':'')+' vs <b>'+esc(g[4])+'</b>'+(g[5]?' <span class="sub">('+g[5]+')</span>':'')+'</td><td style="text-align:left">'+esc(g[6])+'</td></tr>').join("")+'</tbody></table></div>':''):'<div class="card"><p style="margin:0">The weekend report for this birth year is being added.</p></div>'}
 function table(){const rows=P[year];const w=[30,120,110,18,18,14,14,18,16,26,30,34,30];
