@@ -1,4 +1,4 @@
-// node make_preview.js <players/index.html> <players/data/box.json> <out preview/index.html>
+// node make_preview.js <players/_page.html> <players/data/box.json> <out preview/index.html>
 // Builds the public preview site: top five skaters per birth year with full profiles, everything else locked,
 // plus a demonstration of the membership flow. Only the previewed players' stats are written into the page;
 // the search index carries names, teams and birth years only.

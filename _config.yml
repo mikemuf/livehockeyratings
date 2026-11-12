@@ -1,0 +1,7 @@
+# Keep the full player database and its raw data off the public site. Only the ratings app, the preview and the stub at players/ are served.
+exclude:
+  - players/data
+  - players/build
+  - players/_page.html
+  - build
+  - tools

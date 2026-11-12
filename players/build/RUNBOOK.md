@@ -1,6 +1,6 @@
 # Player database: weekly update runbook
 
-The page is `players/index.html`, served at https://mikemuf.github.io/livehockeyratings/players/.
+The page source is `players/_page.html`. It is NOT published on the public site (Mike took the full database down on Nov 12, 2026): the leading underscore keeps GitHub Pages from serving it, and `players/index.html` is only a small stub that sends visitors to the preview. Never copy the full page back to `players/index.html` or anywhere else that Pages serves. The full database is delivered only as the Claude artifact.
 A second copy is kept as a Claude artifact (https://claude.ai/artifact/GD1DB4CsbbXf5tAwnc3YZs); update both. Everything needed to rebuild it is in `players/build` (scripts) and `players/data` (stored data).
 
 ## Before anything else
@@ -42,10 +42,10 @@ All commands run from `players/data`.
    - skater and team-game counts should not drop compared with last week (the last run's numbers are in `run_log.txt`);
    - `TEAMS MISSING FROM RATINGS` should be empty (a renamed team on the ratings site: fix the name in `teams.json`);
    - new `UNMATCHED` opponents with several games may need an entry in `alias.json` (InStat name: ratings-site name).
-9. Inject: `python3 ../build/inject.py ../index.html "Nov 18, 2026"` (today's date).
+9. Inject: `python3 ../build/inject.py ../_page.html "Nov 18, 2026"` (today's date).
 10. Test before pushing: extract the page's `<script>` to a file and run `node --check` on it; confirm `S`, `GAMES`, `LOGS` parse and the page still contains `const RATE=y=>y>=2014?0.12:0.16;`.
 11. Append one line to `run_log.txt` (date, games added, total games, skaters, goalies, anything odd). Commit `players/` and push.
-12. Update the Claude artifact copy too (Mike wants both kept current): copy `players/index.html` to a temp file with the back link `href="../"` changed to `href="https://mikemuf.github.io/livehockeyratings/"`, then publish it with the artifact tools to slug `7b26226d-b439-4f30-a1e4-ed16bf451c6e` as `index.html` (get the current version with get_artifact and pass it as base_version). If the artifact tools are unavailable, say so in the report.
+12. Update the Claude artifact copy too (this is now the only full copy): copy `players/_page.html` to a temp file with the back link `href="../"` changed to `href="https://mikemuf.github.io/livehockeyratings/"`, then publish it with the artifact tools to slug `7b26226d-b439-4f30-a1e4-ed16bf451c6e` as `index.html` (get the current version with get_artifact and pass it as base_version). If the artifact tools are unavailable, say so in the report.
 13. Message Mike: games added, which teams had new games and which top teams had none, new players who cracked the top of the Adjusted P/G list, anything that looked wrong, then the link.
 
 ## Power play
