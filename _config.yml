@@ -1,5 +1,6 @@
-# Only the ratings app, the preview and the stub at players/ are served. The full player database lives in a private repository.
+# Only the ratings app, the preview and the stub at players/ are served.
 exclude:
   - players/data
+  - players/build
   - build
   - tools
