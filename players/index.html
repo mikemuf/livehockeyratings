@@ -51,6 +51,7 @@ tbody tr.unq td{color:var(--muted)}
 tbody tr.divider td{text-align:left;font-family:var(--display);font-size:15px;letter-spacing:.05em;text-transform:uppercase;background:var(--soft);color:var(--red);border-top:2px solid var(--red)}
 tbody tr.row:hover{background:var(--soft)}
 .name{font-weight:600}
+.tlink{background:none;border:0;padding:0;font:inherit;color:var(--accent);cursor:pointer;text-align:left;text-decoration:underline;text-decoration-color:transparent}.tlink:hover{text-decoration-color:currentColor}
 .sub{color:var(--muted);font-size:12px}
 .pos{display:inline-block;min-width:22px;text-align:center;border:1px solid var(--line);border-radius:4px;font-size:12px;padding:0 4px}
 .plus{color:var(--good)} .minus{color:var(--bad)}
@@ -233,7 +234,7 @@ function render(keep){
   $("tbody").innerHTML=list.slice(0,limit).map(x=>{
     let pre="";if(!x.q&&!div){div=true;pre=`<tr class="divider"><td colspan="${cols.length+1}">Not qualified: fewer than ${MINGP} games (${nq})</td></tr>`}
     const i=x._i;
-    const first=`<td class="rk">${x.q?++rk:"-"}</td><td><span class="name">${esc(x.name)}</span> <span class="sub">#${x.num}</span> <span class="born b${x.by%100}">${x.by} born</span></td><td>${esc(x.team.name)} <span class="sub">${x.team.yr}${x.team.ca?" ON":""}</span></td>`;
+    const first=`<td class="rk">${x.q?++rk:"-"}</td><td><span class="name">${esc(x.name)}</span> <span class="sub">#${x.num}</span> <span class="born b${x.by%100}">${x.by} born</span></td><td><button class="tlink" data-t="${x.team.id}" title="Show this team's roster">${esc(x.team.name)}</button> <span class="sub">${x.team.yr}${x.team.ca?" ON":""}</span></td>`;
     if(mode==="goalies")return pre+`<tr class="row${x.q?"":" unq"}" data-i="${i}" tabindex="0">${first}<td><span class="pos">G</span></td><td>${x.gs}</td><td>${x.gs?x.gaa.toFixed(2):"-"}</td><td><b>${x.nr?x.aga.toFixed(2):"-"}</b></td><td>${x.nr?x.opp.toFixed(1):"-"}</td><td>${x.so}</td><td>${x.sa||"-"}</td><td>${x.svp?x.svp+"%":"-"}</td></tr>`;
     return pre+`<tr class="row${x.q?"":" unq"}" data-i="${i}" tabindex="0">${first}<td><span class="pos">${x.pos}</span></td><td>${x.gp}</td><td title="${x.team.tg?x.team.ig+" of "+x.team.tg+" team games are in InStat":""}">${covTxt(x.team)}</td><td>${x.g}</td><td>${x.a}</td><td><b>${x.p}</b></td><td>${x.ppp}</td><td>${x.tgf?Math.round(x.inv)+"%":"-"}</td><td>${pmHtml(x.pm)}</td><td>${x.pim}</td><td>${mmss(x.toi)}</td><td>${mmss(x.toig)}</td><td>${mmss(x.pptg)}</td><td>${x.ppg.toFixed(2)}</td><td><b>${x.adj?x.adj.toFixed(2):"-"}</b></td><td>${x.p60.toFixed(2)}</td><td><b>${x.adj60?x.adj60.toFixed(2):"-"}</b></td><td>${x.opp?x.opp.toFixed(2):"-"}</td></tr>`;
   }).join("")||`<tr><td colspan="${cols.length+1}" style="text-align:left;color:var(--muted)">No players match. Clear the search or filters.</td></tr>`;
@@ -245,7 +246,7 @@ function render(keep){
 }
 function profile(x,isG){
   const others=(isG?goalies:skaters).filter(o=>o.team===x.team);
-  let h=`<button class="close" id="x">Close</button><h2>${esc(x.name)}</h2><div class="meta">#${x.num} · ${isG?"Goalie":x.pos==="F"?"Forward":x.pos==="D"?"Defense":"Forward / Defense"} · ${esc(x.team.name)} ${x.team.yr}${` · <span class="born b${x.by%100}">${x.by} born</span>`} · team ranked ${x.team.ca?"Canada ":""}#${x.team.rank} (${x.team.rating.toFixed(2)}) · <a href="${rlink(x.team)}">team rating page</a></div>`;
+  let h=`<button class="close" id="x">Close</button><h2>${esc(x.name)}</h2><div class="meta">#${x.num} · ${isG?"Goalie":x.pos==="F"?"Forward":x.pos==="D"?"Defense":"Forward / Defense"} · <button class="tlink" data-t="${x.team.id}">${esc(x.team.name)} ${x.team.yr} roster</button>${` · <span class="born b${x.by%100}">${x.by} born</span>`} · team ranked ${x.team.ca?"Canada ":""}#${x.team.rank} (${x.team.rating.toFixed(2)}) · <a href="${rlink(x.team)}">team rating page</a></div>`;
   if(x.team.tg)h+=`<div class="meta">InStat has ${x.team.ig} of his team's ${x.team.tg} games (${Math.round(x.team.cov*100)}%)${isG?"":`; he appears in ${x.gp}`}. Stats here cover only the games in InStat.</div>`;
   const st=(l,v)=>`<div class="stat"><b>${v}</b><span>${l}</span></div>`;
   if(isG){h+=`<div class="grid">${st("Full-game starts",x.gs)}${st("GA / game",x.gs?x.gaa.toFixed(2):"-")}${st("Adjusted GA / game",x.nr?x.aga.toFixed(2):"-")}${st("Avg opponent rating",x.nr?x.opp.toFixed(1):"-")}${st("Rated starts",x.nr)}${st("Shutouts",x.so)}${st("SV% (InStat)",x.svp?x.svp+"%":"-")}${st("Shots / game",x.sa||"-")}</div><h3>Game log (full-game starts)</h3><div class="sheet log"><table><thead><tr><th>Date</th><th>Opponent</th><th>Opp rating</th><th>Score</th><th>GA</th><th>Adj GA</th></tr></thead><tbody>`+x.log.slice().reverse().map(l=>{const[a,b]=l.score.split(":").map(Number);const res=a>b?"W":a<b?"L":"T";return `<tr><td>${l.date}</td><td>${l.ha==="h"?"vs":"at"} ${esc(l.opp)} <span class="sub">${l.ork?(l.pool?"CAN ":"")+"#"+l.ork:l.or?"unranked":"not rated"}</span></td><td>${l.or?l.or.toFixed(2):"-"}</td><td><span class="${res==="W"?"plus":res==="L"?"minus":""}">${res}</span> ${a}-${b}</td><td><b>${l.ga}</b></td><td>${l.or?(l.ga*gmult(l.er)).toFixed(2):"-"}</td></tr>`}).join("")+`</tbody></table></div>`}
@@ -287,7 +288,10 @@ $("f-q").onclick=()=>{hideUnq=!hideUnq;$("f-q").setAttribute("aria-pressed",hide
 $("f-D").onclick=()=>{pos=pos==="D"?"":"D";chips();render()};
 $("thead").onclick=e=>{const b=e.target.closest("button[data-k]");if(!b)return;const k=b.dataset.k;if(k==="pos")return;if(k===sortKey)sortDir=-sortDir;else{sortKey=k;sortDir=(k==="name"||k==="team")?1:-1}render()};
 function openRow(tr){if(!tr)return;const i=+tr.dataset.i;profile(mode==="goalies"?goalies[i]:skaters[i],mode==="goalies")}
-$("tbody").onclick=e=>openRow(e.target.closest("tr.row"));
+// Selecting a team name anywhere opens that team's full roster (every player who has games with it, whatever his birth year).
+function showTeam(id){if(!teamById[id])return;teamF=id;lvl="";yr=0;pos="";q="";reg=-1;const qi=$("q");if(qi)qi.value="";chips();$("f-team").value=teamF;if($("dlg").open)$("dlg").close();$("f-us").setAttribute("aria-pressed",false);$("f-on").setAttribute("aria-pressed",false);setMode(mode);window.scrollTo(0,0)}
+$("tbody").onclick=e=>{const t=e.target.closest(".tlink");if(t){showTeam(t.dataset.t);return}openRow(e.target.closest("tr.row"))};
+$("prof").addEventListener("click",e=>{const t=e.target.closest(".tlink");if(t)showTeam(t.dataset.t)});
 $("tbody").onkeydown=e=>{if(e.key==="Enter")openRow(e.target.closest("tr.row"))};
 $("board").onclick=e=>{const b=e.target.closest("button[data-t]");if(!b)return;teamF=b.dataset.t;lvl="";yr=0;chips();$("f-team").value=teamF;setMode("skaters")};
 $("dlg").onclick=e=>{if(e.target===$("dlg"))$("dlg").close()};
