@@ -6,7 +6,7 @@ const fs=require('fs');
 const [src,boxf,out]=process.argv.slice(2);
 const html=fs.readFileSync(src,'utf8');
 const js=html.match(/<script>([\s\S]*?)<\/script>/)[1];
-const el=()=>({innerHTML:'',textContent:'',value:'',hidden:false,setAttribute(){},showModal(){},close(){},dataset:{}});
+const el=()=>({innerHTML:'',textContent:'',value:'',hidden:false,setAttribute(){},showModal(){},close(){},addEventListener(){},dataset:{}});
 const els={};const document={getElementById:id=>els[id]||(els[id]=el()),addEventListener(){}};
 const D=new Function('document','location','window',js+';return {skaters,goalies,TEAMS,loaded,MINGP,mult,mmss}')(document,{hash:''},{addEventListener(){}});
 const games=JSON.parse(fs.readFileSync(boxf,'utf8')).M.length;
