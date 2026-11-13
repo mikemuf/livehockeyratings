@@ -14,7 +14,7 @@ for g in BASE:
     if g[0]=='2013' and g[1]=='2026-10-05' and 'Woodbridge Wolfpack' in (g[2],g[4]): g[1]='2026-10-04'
 teams={dv:{x for g in BASE if g[0]==dv for x in (g[2],g[4])} for dv in ('2012','2013')}
 # new teams first seen this weekend (Mike: all games count, MHR records them)
-for dv,ns in {'2012':['Edina','OMGHA','Rochester Mustangs'],'2013':['HKMK Bled']}.items(): teams[dv].update(ns)
+for dv,ns in {'2012':['Edina','OMGHA','Rochester Mustangs','Hill Academy'],'2013':['HKMK Bled']}.items(): teams[dv].update(ns)
 have={(g[0],g[1],frozenset((g[2],g[4]))) for g in BASE}
 def add(g,report):
     if g[0] in ('2014','2015'):
