@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 13–15",
  "status": "In progress — Friday",
- "updated": "Fri Nov 13, 5:50 PM CT",
+ "updated": "Fri Nov 13, 9:45 PM CT",
  "from": "2026-11-12",
  "to": "2026-11-16",
  "note": "Ranks are MHR’s Nov 11 ratings; they move live as results come in. Game times are local to the rink.",
@@ -11,8 +11,8 @@
    "summary": [
     "Ontario teams are the story of Day 1 at the Little Caesars Challenger Cup. Toronto Jr Canadiens are 2-0 (3-0 over Top Gun #11, 6-0 over Windy City), Chatham-Kent is 2-0 (4-1 Seacoast, 6-1 Chicago Fury), Huron-Perth beat NJ Colonials (#21) 4-1, and Upper Canada College beat Cleveland 4-1.",
     "Fox Motors (now #29, 93.75) is 2-0, beating Boston Jr Eagles (#20) 4-1 and Seacoast (#24) 2-0. Windy City beat Biggby 3-1 before losing 6-0 to Toronto.",
-    "Little Caesars (#3, 97.59) went 2-0 (4-0 Fury, 4-2 Boston Jr Eagles). Penguins Elite (#10) went 2-0 but gave up five to Ohio in a 7-5 win. Team Illinois went 2-0, but its 4-1 win over Cleveland (#72) was smaller than expected, and it slipped from #4 to #6 (96.99).",
-    "That moves Chicago Mission back up to #5 (97.06) without playing. Woodbridge is #4 (97.08). Biggby bounced back 3-1 over St. Louis, and Masters tied Hill Academy 1-1."
+    "Little Caesars (#3, 97.63) went 2-0. Penguins Elite went 2-0, including a 7-5 win over Ohio, and Nashville went 2-0, edging Masters 3-2 and Ohio 4-3. Team Illinois went 2-0, but a smaller-than-expected 4-1 win over Cleveland (#72) dropped it to #6 (97.02).",
+    "Top Gun (#13 now) had a rough day: 0-2, losing 3-0 to Toronto Jr Canadiens and 5-3 to St. Louis Blues. NJ Colonials split, losing 4-1 to Huron-Perth and beating Upper Canada College 3-2. Chicago Mission (97.08) climbs to #4 without playing."
    ],
    "events": [
     {
@@ -133,10 +133,10 @@
   },
   "2014": {
    "summary": [
-    "Buffalo (Harbor Center) hosts Boston Jr Eagles (#5), St Louis Blues (#11) and North Jersey Avalanche (#12) along with Toronto Jr Canadiens and Mississauga Rebels.",
-    "Little Caesars (#2) visit Victory Honda (#15) on Saturday.",
-    "Dallas (Valley Ranch) hosts Anaheim (#18), Dallas Stars (#20) and Cleveland (#25) against Phoenix.",
-    "Middlesex Islanders East (#1), Boston Advantage (#3), Florida Alliance (#4) and Chicago Fury (#6) have no games posted on MHR yet."
+    "Friday upsets: North Jersey Avalanche (#12) beat Mid-Fairfield Elite (#9) 5-4, and St Louis Blues (#11) beat Boston Jr Eagles (#5) 8-5 in Buffalo. Boston Jr Eagles drop to 97.49.",
+    "Cleveland Barons (#25, now #24, 94.04) went 2-0 in Dallas, beating Anaheim (#18) 6-4 and Dallas Stars (#20) 6-4.",
+    "Toronto Jr Canadiens beat St Louis 6-4. Huron-Perth beat HB Detroit 4-2. Buffalo Jr Sabres tied Mississauga Rebels 2-2 and Florida Surf tied Hamilton Steel 1-1; those two games aren't counted because the Ontario U13 teams aren't in our data yet.",
+    "Little Caesars (#2) visit Victory Honda (#15) on Saturday at 3:00."
    ],
    "events": [
     {
@@ -183,6 +183,7 @@
   },
   "2015": {
    "summary": [
+    "Dallas Stars Elite (#7, now 92.70) opened 2-0 in St. Louis, beating Florida Alliance 9-3 and St Louis Blues (#11) 3-2.",
     "Mid-Fairfield Elite (#4) has a big Connecticut weekend at Chelsea Piers: two games vs Middlesex Islanders East (#41) on Saturday and two vs Boston Jr Eagles (#6) on Sunday.",
     "St. Louis (Centene Community Ice Center) hosts Dallas Stars Elite (#7), St Louis Blues (#11), Florida Alliance (#18) and Oakland (#24).",
     "South Shore Kings (#8) play Providence Capitals (#13) Saturday morning.",
