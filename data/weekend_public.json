@@ -20,6 +20,11 @@
      "name": "Little Caesars 2012 Bantam Major Challenger Cup",
      "where": "BELFOR Training Center, Dearborn Ice Skating Center, Hazel Park Ice Arena (Fri–Sat)",
      "result": "Live scores and stats: GameSheet (gamesheetstats.com/seasons/16410). Most games stream on LiveBarn (Dearborn) or Black Bear TV (Hazel Park)."
+    },
+    {
+     "name": "Reaper/Mission Showcase",
+     "where": "Elk Grove Ice Arena, Elk Grove Village, IL (Sat–Sun)",
+     "result": "Chicago Reapers vs Chicago Mission in every birth year · GameSheet season 15656 · LiveBarn"
     }
    ],
    "watch": [
@@ -58,6 +63,15 @@
      "rink": "Victory Ice Center",
      "city": "",
      "note": "League game"
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "12:30 PM",
+     "a": "Chicago Reapers",
+     "b": "Chicago Mission",
+     "rink": "Elk Grove Ice Arena (West Rink)",
+     "city": "Elk Grove Village, IL",
+     "note": "Reaper/Mission Showcase · LiveBarn"
     },
     {
      "day": "Sat Nov 14",
@@ -193,6 +207,11 @@
      "name": "Dallas (Valley Ranch StarCenter)",
      "where": "Fri–Sat",
      "result": "Dallas Stars (#15), HB Detroit (#22), St. Louis Blues (#28)"
+    },
+    {
+     "name": "Reaper/Mission Showcase",
+     "where": "Elk Grove Ice Arena, Elk Grove Village, IL (Sat–Sun)",
+     "result": "Chicago Reapers vs Chicago Mission in every birth year · GameSheet season 15656 · LiveBarn"
     }
    ],
    "watch": [
@@ -237,9 +256,9 @@
      "time": "10:50 AM",
      "a": "Chicago Reapers",
      "b": "Chicago Mission",
-     "rink": "Elk Grove Ice Arena",
+     "rink": "Elk Grove Ice Arena (West Rink)",
      "city": "Elk Grove Village, IL",
-     "note": "Rematch"
+     "note": "Reaper/Mission Showcase · LiveBarn"
     }
    ]
   },
@@ -260,6 +279,11 @@
      "name": "Dallas (Valley Ranch StarCenter)",
      "where": "Fri–Sat",
      "result": "Anaheim Jr Ducks, Dallas Stars Elite, Cleveland Barons, Phoenix Jr Coyotes"
+    },
+    {
+     "name": "Reaper/Mission Showcase",
+     "where": "Elk Grove Ice Arena, Elk Grove Village, IL (Sat–Sun)",
+     "result": "Chicago Reapers vs Chicago Mission in every birth year · GameSheet season 15656 · LiveBarn"
     }
    ],
    "watch": [
@@ -289,6 +313,15 @@
      "rink": "Harbor Center",
      "city": "Buffalo, NY",
      "note": ""
+    },
+    {
+     "day": "Sun Nov 15",
+     "time": "3:50 PM",
+     "a": "Chicago Reapers",
+     "b": "Chicago Mission",
+     "rink": "Elk Grove Ice Arena (West Rink)",
+     "city": "Elk Grove Village, IL",
+     "note": "Reaper/Mission Showcase · LiveBarn"
     }
    ]
   },
@@ -305,6 +338,11 @@
      "name": "St. Louis (Centene Community Ice Center)",
      "where": "Fri–Sat",
      "result": "Dallas Stars Elite, St Louis Blues, Florida Alliance, Oakland Jr Grizzlies"
+    },
+    {
+     "name": "Reaper/Mission Showcase",
+     "where": "Elk Grove Ice Arena, Elk Grove Village, IL (Sat–Sun)",
+     "result": "Chicago Reapers vs Chicago Mission in every birth year · GameSheet season 15656 · LiveBarn"
     }
    ],
    "watch": [
@@ -343,6 +381,15 @@
      "rink": "Chelsea Piers Connecticut",
      "city": "Stamford, CT",
      "note": "Also 1:00 PM"
+    },
+    {
+     "day": "Sun Nov 15",
+     "time": "2:10 PM",
+     "a": "Chicago Reapers",
+     "b": "Chicago Mission",
+     "rink": "Elk Grove Ice Arena (West Rink)",
+     "city": "Elk Grove Village, IL",
+     "note": "Reaper/Mission Showcase · LiveBarn"
     }
    ]
   }
