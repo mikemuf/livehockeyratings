@@ -1,0 +1,6136 @@
+{
+"2012|16410|3156987": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "7:30 AM",
+"rink": "Belfor Training Center",
+"v": "Windy City Storm",
+"h": "Biggby Coffee",
+"vs": 3,
+"hs": 1,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"72",
+"Brody Dore",
+"W"
+],
+[
+1,
+"35",
+"Benjamin Kramer",
+"L"
+]
+],
+"goals": [
+[
+"1ST",
+"11:13",
+0,
+[
+[
+"34",
+"Jack Taylor",
+1
+],
+[
+"77",
+"Ryder Ascione",
+1
+],
+[
+"17",
+"Stanislav Laburenco",
+1
+]
+],
+[]
+],
+[
+"1ST",
+"03:26",
+0,
+[
+[
+"27",
+"Kenneth Yun",
+1
+],
+[
+"87",
+"Harrison Smith",
+1
+],
+[
+"77",
+"Ryder Ascione",
+2
+]
+],
+[
+"GWG"
+]
+],
+[
+"1ST",
+"00:38",
+0,
+[
+[
+"34",
+"Jack Taylor",
+2
+],
+[
+"93",
+"Max Bicknell",
+1
+],
+[
+"14",
+"Tatsuki Tenjiku",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"09:46",
+1,
+[
+[
+"18",
+"Brooks Pietila",
+1
+],
+[
+"93",
+"Evan Schlack",
+1
+],
+[
+"21",
+"Bryce Heeringa",
+1
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"04:46",
+0,
+[
+"32",
+"Damian Creciun",
+null
+],
+"High sticking - minor, 2 min"
+],
+[
+"1ST",
+"04:25",
+1,
+[
+"48",
+"Brandon Demmer",
+null
+],
+"Slashing - minor, 2 min"
+],
+[
+"3RD",
+"08:25",
+0,
+[
+"32",
+"Damian Creciun",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"08:25",
+1,
+[
+"88",
+"Evan Bronson",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"02:15",
+1,
+[
+"24",
+"Zachary Jacobson",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"01:57",
+1,
+[
+"48",
+"Brandon Demmer",
+null
+],
+"Cross-checking - minor, 2 min"
+]
+]
+},
+"2012|16410|3157008": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "9:00 AM",
+"rink": "Belfor Training Center",
+"v": "Huron Perth Lakers",
+"h": "Team Illinois",
+"vs": 0,
+"hs": 4,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"31",
+"Noah Novikow",
+"L"
+],
+[
+1,
+"36",
+"Grady Macejko",
+"W"
+]
+],
+"goals": [
+[
+"1ST",
+"14:16",
+1,
+[
+[
+"12",
+"Caleb Bauer",
+1
+],
+[
+"92",
+"Harry Marshall Iii",
+1
+],
+[
+"8",
+"Dylan Mounce",
+1
+]
+],
+[
+"GWG"
+]
+],
+[
+"1ST",
+"03:58",
+1,
+[
+[
+"49",
+"Noah Mahery Moreau",
+1
+],
+[
+"36",
+"Grady Macejko",
+null
+]
+],
+[]
+],
+[
+"1ST",
+"02:53",
+1,
+[
+[
+"8",
+"Dylan Mounce",
+1
+],
+[
+"92",
+"Harry Marshall Iii",
+2
+]
+],
+[]
+],
+[
+"2ND",
+"02:44",
+1,
+[
+[
+"16",
+"Kaden Sadler",
+1
+],
+[
+"25",
+"Miles Madden",
+1
+],
+[
+"12",
+"Caleb Bauer",
+1
+]
+],
+[]
+]
+],
+"pens": [
+[
+"2ND",
+"13:47",
+0,
+[
+"11",
+"Ronin Macintosh",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"2ND",
+"06:21",
+0,
+[
+"2",
+"Jack Lepelaars",
+null
+],
+"High sticking - minor, 2 min"
+],
+[
+"2ND",
+"05:16",
+1,
+[
+"93",
+"Declan Petersen",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"3RD",
+"00:08",
+1,
+[
+"8",
+"Dylan Mounce",
+null
+],
+"Roughing - minor, 2 min"
+]
+]
+},
+"2012|16410|3157013": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "2:00 PM",
+"rink": "Belfor Training Center",
+"v": "NJ Colonials",
+"h": "Huron Perth Lakers",
+"vs": 1,
+"hs": 4,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"32",
+"Liam Tierney",
+"L"
+],
+[
+1,
+"1",
+"Gabriel Goossen",
+"W"
+]
+],
+"goals": [
+[
+"1ST",
+"12:07",
+1,
+[
+[
+"18",
+"Ben Van Bakel",
+1
+],
+[
+"91",
+"Emmitt Mcquillin",
+1
+]
+],
+[]
+],
+[
+"1ST",
+"00:21",
+1,
+[
+[
+"91",
+"Emmitt Mcquillin",
+1
+],
+[
+"17",
+"Thomas Trebicky",
+1
+]
+],
+[
+"GWG"
+]
+],
+[
+"2ND",
+"14:49",
+1,
+[
+[
+"96",
+"Drew Rosser",
+1
+],
+[
+"37",
+"Logan Shantz",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"12:55",
+1,
+[
+[
+"89",
+"Joel Fleet",
+1
+],
+[
+"71",
+"Coleton Schmidt",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"06:25",
+0,
+[
+[
+"19",
+"Kody Shapiro",
+1
+],
+[
+"20",
+"Luca Giordano",
+1
+]
+],
+[]
+]
+],
+"pens": [
+[
+"2ND",
+"14:19",
+0,
+[
+"9",
+"Lucas Chung",
+null
+],
+"Slashing - minor, 2 min"
+],
+[
+"2ND",
+"06:58",
+1,
+[
+"19",
+"Denny Macdonald",
+null
+],
+"Cross-checking - minor, 2 min"
+]
+]
+},
+"2012|16410|3157029": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "3:15 PM",
+"rink": "Belfor Training Center",
+"v": "Masters Academy",
+"h": "Hill Academy",
+"vs": 1,
+"hs": 1,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"31",
+"Samuel Toscano",
+""
+],
+[
+1,
+"31",
+"Caleb Landry",
+""
+]
+],
+"goals": [
+[
+"1ST",
+"09:31",
+1,
+[
+[
+"19",
+"Easton Moore",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"04:48",
+0,
+[
+[
+"97",
+"William Fisher",
+1
+],
+[
+"27",
+"Che Ruiz",
+1
+]
+],
+[]
+]
+],
+"pens": [
+[
+"2ND",
+"11:05",
+1,
+[
+"9",
+"Charles Paquin",
+null
+],
+"Slashing - minor, 2 min"
+],
+[
+"3RD",
+"03:50",
+0,
+[
+"77",
+"Justin Fraser",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"03:50",
+1,
+[
+"88",
+"Gavyn Tait",
+null
+],
+"Roughing - minor, 2 min"
+]
+]
+},
+"2012|16410|3157017": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "8:02 PM",
+"rink": "Belfor Training Center",
+"v": "Upper Canada College",
+"h": "NJ Colonials",
+"vs": 2,
+"hs": 3,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"31",
+"Chase Nielsen",
+"L"
+],
+[
+1,
+"29",
+"Frederick Rennie",
+"W"
+]
+],
+"goals": [
+[
+"1ST",
+"14:30",
+1,
+[
+[
+"63",
+"Logan Strumolo",
+1
+],
+[
+"86",
+"Christian Leary",
+1
+],
+[
+"12",
+"Finn Hanrahan",
+1
+]
+],
+[]
+],
+[
+"1ST",
+"05:13",
+0,
+[
+[
+"17",
+"Jaxon Hoffman",
+1
+],
+[
+"71",
+"Andrew Reed",
+2
+]
+],
+[]
+],
+[
+"1ST",
+"01:47",
+0,
+[
+[
+"71",
+"Andrew Reed",
+3
+],
+[
+"17",
+"Jaxon Hoffman",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"13:45",
+1,
+[
+[
+"86",
+"Christian Leary",
+1
+],
+[
+"8",
+"Bryce Wenzel",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"03:26",
+1,
+[
+[
+"82",
+"Jack Piccolo",
+1
+],
+[
+"26",
+"Benjamin Colliton",
+1
+]
+],
+[
+"GWG"
+]
+]
+],
+"pens": [
+[
+"2ND",
+"12:25",
+0,
+[
+"26",
+"Adam Foucault",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"03:55",
+1,
+[
+"88",
+"Kellen Mcdaniell",
+null
+],
+"Hooking - minor, 2 min"
+]
+]
+},
+"2012|16410|3156966": {
+"div": "2012",
+"date": "2026-11-14",
+"time": "7:30 AM",
+"rink": "Belfor Training Center",
+"v": "Seacoast Performance Academy",
+"h": "Chicago Fury",
+"vs": 6,
+"hs": 2,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"31",
+"Christopher Robinson",
+"W"
+],
+[
+1,
+"00",
+"Lucas Simmons",
+"L"
+]
+],
+"goals": [
+[
+"1ST",
+"12:17",
+0,
+[
+[
+"94",
+"Zachary Xanders",
+2
+],
+[
+"77",
+"Nikita Kochetov",
+2
+],
+[
+"57",
+"Sangjun Lee",
+1
+]
+],
+[
+"PP"
+]
+],
+[
+"1ST",
+"08:36",
+0,
+[
+[
+"9",
+"Camden Shadish",
+1
+],
+[
+"77",
+"Nikita Kochetov",
+3
+],
+[
+"26",
+"Erik Krisztian",
+2
+]
+],
+[]
+],
+[
+"1ST",
+"03:20",
+1,
+[
+[
+"97",
+"Sebastian Contreras",
+1
+],
+[
+"43",
+"Quinn Camer",
+1
+],
+[
+"79",
+"James Cotter",
+1
+]
+],
+[
+"PP"
+]
+],
+[
+"1ST",
+"00:28",
+0,
+[
+[
+"7",
+"Hudson Postal",
+1
+],
+[
+"22",
+"Lane Pozza",
+1
+],
+[
+"57",
+"Sangjun Lee",
+2
+]
+],
+[
+"GWG"
+]
+],
+[
+"2ND",
+"12:06",
+0,
+[
+[
+"94",
+"Zachary Xanders",
+3
+],
+[
+"92",
+"Samuel Hodel",
+1
+],
+[
+"57",
+"Sangjun Lee",
+3
+]
+],
+[]
+],
+[
+"2ND",
+"04:03",
+1,
+[
+[
+"96",
+"Liam Osborn",
+2
+],
+[
+"24",
+"Oliver Bosse",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"02:28",
+0,
+[
+[
+"77",
+"Nikita Kochetov",
+1
+],
+[
+"9",
+"Camden Shadish",
+1
+],
+[
+"92",
+"Samuel Hodel",
+2
+]
+],
+[]
+],
+[
+"2ND",
+"01:45",
+0,
+[
+[
+"77",
+"Nikita Kochetov",
+2
+],
+[
+"26",
+"Erik Krisztian",
+3
+],
+[
+"91",
+"Logan Howrylchak",
+1
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"13:02",
+1,
+[
+"96",
+"Liam Osborn",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"1ST",
+"04:09",
+0,
+[
+"91",
+"Logan Howrylchak",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"2ND",
+"13:57",
+0,
+[
+"91",
+"Logan Howrylchak",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"2ND",
+"06:51",
+0,
+[
+"94",
+"Zachary Xanders",
+null
+],
+"High sticking - minor, 2 min"
+],
+[
+"2ND",
+"05:28",
+1,
+[
+"43",
+"Quinn Camer",
+null
+],
+"Slashing - minor, 2 min"
+],
+[
+"2ND",
+"05:28",
+0,
+[
+"91",
+"Logan Howrylchak",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"3RD",
+"13:34",
+0,
+[
+"13",
+"Ryder White",
+null
+],
+"Interference - minor, 2 min"
+],
+[
+"3RD",
+"10:52",
+0,
+[
+"57",
+"Sangjun Lee",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"07:03",
+1,
+[
+"43",
+"Quinn Camer",
+null
+],
+"Cross-checking - minor, 2 min"
+]
+]
+},
+"2012|16410|3157014": {
+"div": "2012",
+"date": "2026-11-14",
+"time": "9:07 AM",
+"rink": "Belfor Training Center",
+"v": "Cleveland Barons",
+"h": "Huron Perth Lakers",
+"vs": 1,
+"hs": 6,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"32",
+"Joshua Jaynes",
+"L"
+],
+[
+1,
+"31",
+"Noah Novikow",
+"W"
+]
+],
+"goals": [
+[
+"1ST",
+"09:23",
+1,
+[
+[
+"98",
+"Kayson Pineda",
+1
+],
+[
+"18",
+"Ben Van Bakel",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"13:13",
+1,
+[
+[
+"71",
+"Coleton Schmidt",
+1
+]
+],
+[
+"SH",
+"GWG"
+]
+],
+[
+"2ND",
+"11:18",
+1,
+[
+[
+"19",
+"Denny Macdonald",
+1
+],
+[
+"71",
+"Coleton Schmidt",
+2
+],
+[
+"11",
+"Ronin Macintosh",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"07:46",
+1,
+[
+[
+"89",
+"Joel Fleet",
+2
+],
+[
+"24",
+"Graham Burns",
+1
+],
+[
+"43",
+"Fraser Welsh",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"06:05",
+0,
+[
+[
+"23",
+"Peyton Warren",
+1
+],
+[
+"37",
+"Damian Moraru",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"14:21",
+1,
+[
+[
+"37",
+"Logan Shantz",
+1
+],
+[
+"98",
+"Kayson Pineda",
+1
+],
+[
+"26",
+"Kolten Barch",
+1
+]
+],
+[
+"PP"
+]
+],
+[
+"3RD",
+"02:36",
+1,
+[
+[
+"19",
+"Denny Macdonald",
+2
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"09:23",
+0,
+[
+"37",
+"Damian Moraru",
+null
+],
+"Hooking - minor, 2 min"
+],
+[
+"1ST",
+"07:22",
+0,
+[
+"41",
+"Matsvei Khomka",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"1ST",
+"07:22",
+1,
+[
+"89",
+"Joel Fleet",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"1ST",
+"07:09",
+0,
+[
+"28",
+"Channing Koelliker",
+null
+],
+"Interference - minor, 2 min"
+],
+[
+"1ST",
+"06:48",
+1,
+[
+"24",
+"Graham Burns",
+null
+],
+"Interference - minor, 2 min"
+],
+[
+"1ST",
+"05:03",
+1,
+[
+"24",
+"Graham Burns",
+null
+],
+"Slashing - minor, 2 min"
+],
+[
+"1ST",
+"00:49",
+0,
+[
+"23",
+"Peyton Warren",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"2ND",
+"13:27",
+1,
+[
+"11",
+"Ronin Macintosh",
+null
+],
+"Interference - minor, 2 min"
+],
+[
+"2ND",
+"04:11",
+1,
+[
+"43",
+"Fraser Welsh",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"2ND",
+"00:46",
+0,
+[
+"23",
+"Peyton Warren",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"3RD",
+"08:07",
+1,
+[
+"11",
+"Ronin Macintosh",
+null
+],
+"Head contact - minor, 2 min"
+],
+[
+"3RD",
+"08:07",
+1,
+[
+"11",
+"Ronin Macintosh",
+null
+],
+"Head contact - misconduct, 10 min"
+],
+[
+"3RD",
+"04:22",
+1,
+[
+"43",
+"Fraser Welsh",
+null
+],
+"Interference - minor, 2 min"
+]
+]
+},
+"2012|16410|3156943": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "9:00 AM",
+"rink": "Hazel Park Ice Arena - PRO",
+"v": "Chicago Fury",
+"h": "Little Caesars",
+"vs": 0,
+"hs": 4,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"00",
+"Lucas Simmons",
+"L"
+],
+[
+1,
+"88",
+"Dylan Gauthier",
+"W"
+]
+],
+"goals": [
+[
+"2ND",
+"14:11",
+1,
+[
+[
+"14",
+"Cole Schmidt",
+1
+],
+[
+"17",
+"Weston Thibodeau",
+1
+],
+[
+"11",
+"Knox Jackson",
+1
+]
+],
+[
+"GWG"
+]
+],
+[
+"2ND",
+"08:40",
+1,
+[
+[
+"28",
+"Andrew Deskins",
+1
+],
+[
+"93",
+"Brennan Martin",
+1
+],
+[
+"21",
+"Isaac Lee",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"01:42",
+1,
+[
+[
+"17",
+"Weston Thibodeau",
+1
+]
+],
+[
+"PP"
+]
+],
+[
+"3RD",
+"00:49",
+1,
+[
+[
+"28",
+"Andrew Deskins",
+2
+],
+[
+"93",
+"Brennan Martin",
+2
+]
+],
+[]
+]
+],
+"pens": [
+[
+"2ND",
+"12:05",
+1,
+[
+"11",
+"Knox Jackson",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"2ND",
+"03:11",
+1,
+[
+"9",
+"Maddox Koehler",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"3RD",
+"08:22",
+1,
+[
+"28",
+"Andrew Deskins",
+null
+],
+"Slashing - minor, 2 min"
+],
+[
+"3RD",
+"03:38",
+0,
+[
+"44",
+"A Kujuwa",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+]
+]
+},
+"2012|16410|3156976": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "10:32 AM",
+"rink": "Hazel Park Ice Arena - PRO",
+"v": "Top Gun (Elite)",
+"h": "Toronto Jr Canadiens",
+"vs": 0,
+"hs": 3,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"40",
+"Graham Macdonald",
+"L"
+],
+[
+1,
+"31",
+"Christian Arianna",
+"W"
+]
+],
+"goals": [
+[
+"1ST",
+"13:45",
+1,
+[
+[
+"87",
+"Tristan Reynolds",
+1
+],
+[
+"10",
+"Hayden Mcgrann",
+1
+]
+],
+[
+"GWG"
+]
+],
+[
+"1ST",
+"06:20",
+1,
+[
+[
+"61",
+"Maddox Miller",
+1
+],
+[
+"39",
+"Artem Ryabov",
+1
+],
+[
+"14",
+"Christopher Davis",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"08:06",
+1,
+[
+[
+"93",
+"Jaxson Pollard",
+1
+],
+[
+"87",
+"Tristan Reynolds",
+1
+],
+[
+"86",
+"Michael Alati",
+1
+]
+],
+[
+"PP"
+]
+]
+],
+"pens": [
+[
+"1ST",
+"13:34",
+1,
+[
+"10",
+"Hayden Mcgrann",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"2ND",
+"13:15",
+1,
+[
+"39",
+"Artem Ryabov",
+null
+],
+"Holding - minor, 2 min"
+],
+[
+"2ND",
+"09:28",
+0,
+[
+"17",
+"Jayden Rouleau",
+null
+],
+"Hooking - minor, 2 min"
+],
+[
+"2ND",
+"02:06",
+0,
+[
+"71",
+"Kingston Bourque",
+null
+],
+"Holding - minor, 2 min"
+],
+[
+"3RD",
+"09:36",
+1,
+[
+"93",
+"Jaxson Pollard",
+null
+],
+"Interference - minor, 2 min"
+],
+[
+"3RD",
+"04:22",
+0,
+[
+"13",
+"Cameron Mead",
+null
+],
+"Unsportsmanlike conduct - misconduct, 10 min"
+],
+[
+"3RD",
+"04:22",
+1,
+[
+"16",
+"Colton Dimmell",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"04:22",
+1,
+[
+"19",
+"Henry Whalen",
+null
+],
+"Unsportsmanlike conduct - misconduct, 10 min"
+],
+[
+"3RD",
+"00:00",
+0,
+[
+"11",
+"Ethan Welch",
+null
+],
+"Elbowing - minor, 2 min"
+]
+]
+},
+"2012|16410|3156960": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "3:02 PM",
+"rink": "Hazel Park Ice Arena - PRO",
+"v": "Chicago Fury",
+"h": "Chatham-Kent Cyclones",
+"vs": 1,
+"hs": 6,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"90",
+"Dylan Fracassi",
+"L"
+],
+[
+1,
+"29",
+"Owen Procter",
+"W"
+]
+],
+"goals": [
+[
+"1ST",
+"08:33",
+1,
+[
+[
+"71",
+"Blake Kennedy",
+2
+],
+[
+"25",
+"Gabriel Circelli",
+2
+],
+[
+"26",
+"Nicolas Candido",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"13:06",
+1,
+[
+[
+"8",
+"Jaxon Kenny",
+1
+],
+[
+"71",
+"Blake Kennedy",
+2
+]
+],
+[
+"PP",
+"GWG"
+]
+],
+[
+"2ND",
+"10:40",
+0,
+[
+[
+"96",
+"Liam Osborn",
+1
+]
+],
+[
+"SH"
+]
+],
+[
+"2ND",
+"01:16",
+1,
+[
+[
+"92",
+"Zachary Sharma",
+1
+],
+[
+"15",
+"Joshua Dethomasis",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"14:04",
+1,
+[
+[
+"22",
+"Sutter Schaafsma",
+2
+]
+],
+[]
+],
+[
+"3RD",
+"12:03",
+1,
+[
+[
+"91",
+"Jaxson Marshall",
+2
+],
+[
+"26",
+"Nicolas Candido",
+2
+]
+],
+[]
+],
+[
+"3RD",
+"08:07",
+1,
+[
+[
+"14",
+"Brody Church",
+1
+],
+[
+"73",
+"Ryan Trahan",
+1
+]
+],
+[]
+]
+],
+"pens": [
+[
+"2ND",
+"13:54",
+0,
+[
+"9",
+"Kyle Merten",
+null
+],
+"Hooking - minor, 2 min"
+],
+[
+"2ND",
+"12:25",
+0,
+[
+"96",
+"Liam Osborn",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"2ND",
+"08:49",
+1,
+[
+"15",
+"Joshua Dethomasis",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"2ND",
+"08:49",
+0,
+[
+"97",
+"Sebastian Contreras",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"2ND",
+"04:24",
+1,
+[
+"15",
+"Joshua Dethomasis",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"05:53",
+1,
+[
+"9",
+"Andrew Beattie",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"05:53",
+0,
+[
+"97",
+"Sebastian Contreras",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"05:13",
+0,
+[
+"9",
+"Kyle Merten",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"3RD",
+"02:50",
+1,
+[
+"96",
+"Paolo Defranceschi",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"3RD",
+"01:38",
+1,
+[
+"14",
+"Brody Church",
+null
+],
+"Roughing - minor, 2 min"
+]
+]
+},
+"2012|16410|3156944": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "4:30 PM",
+"rink": "Hazel Park Ice Arena - PRO",
+"v": "Boston Jr Eagles (Elite)",
+"h": "Little Caesars",
+"vs": 2,
+"hs": 4,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"30",
+"John Niemszyk",
+"L"
+],
+[
+1,
+"30",
+"Asher Schwartz",
+"W"
+]
+],
+"goals": [
+[
+"1ST",
+"06:48",
+0,
+[
+[
+"95",
+"Tahj Williams",
+1
+],
+[
+"7",
+"Ryan Harney",
+2
+]
+],
+[
+"PP"
+]
+],
+[
+"1ST",
+"02:49",
+1,
+[
+[
+"20",
+"Gabriel Eger",
+1
+],
+[
+"2",
+"Mason Wills",
+1
+]
+],
+[
+"PP"
+]
+],
+[
+"2ND",
+"14:41",
+0,
+[
+[
+"18",
+"Owen Farren",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"05:37",
+1,
+[
+[
+"20",
+"Gabriel Eger",
+2
+]
+],
+[
+"PP"
+]
+],
+[
+"2ND",
+"03:42",
+1,
+[
+[
+"97",
+"Adrian Russo",
+1
+]
+],
+[
+"GWG"
+]
+],
+[
+"2ND",
+"03:06",
+1,
+[
+[
+"16",
+"Monte Poe",
+1
+],
+[
+"20",
+"Gabriel Eger",
+1
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"07:49",
+1,
+[
+"20",
+"Gabriel Eger",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"1ST",
+"04:36",
+0,
+[
+"95",
+"Tahj Williams",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"2ND",
+"06:04",
+0,
+[
+"4",
+"Hunter Howarth",
+null
+],
+"Slashing - minor, 2 min"
+],
+[
+"2ND",
+"06:04",
+0,
+[
+"4",
+"Hunter Howarth",
+null
+],
+"Unsportsmanlike conduct - misconduct, 10 min"
+],
+[
+"2ND",
+"00:00",
+1,
+[
+"16",
+"Monte Poe",
+null
+],
+"Boarding - minor, 2 min"
+],
+[
+"2ND",
+"00:00",
+1,
+[
+"16",
+"Monte Poe",
+null
+],
+"Boarding - misconduct, 10 min"
+],
+[
+"2ND",
+"00:00",
+0,
+[
+"",
+"",
+null
+],
+"Unsportsmanlike conduct - minor, 2 min (assessed to every player on both benches)"
+]
+]
+},
+"2012|16410|3156945": {
+"div": "2012",
+"date": "2026-11-14",
+"time": "8:00 AM",
+"rink": "Hazel Park Ice Arena - PRO",
+"v": "Chatham-Kent Cyclones",
+"h": "Little Caesars",
+"vs": 1,
+"hs": 4,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"36",
+"Alex Brown",
+"L"
+],
+[
+1,
+"30",
+"Asher Schwartz",
+"W"
+]
+],
+"goals": [
+[
+"2ND",
+"12:50",
+0,
+[
+[
+"9",
+"Andrew Beattie",
+1
+],
+[
+"72",
+"Jacob Giroux",
+1
+],
+[
+"91",
+"Jaxson Marshall",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"09:08",
+1,
+[
+[
+"93",
+"Brennan Martin",
+1
+],
+[
+"28",
+"Andrew Deskins",
+1
+]
+],
+[
+"PP"
+]
+],
+[
+"3RD",
+"13:13",
+1,
+[
+[
+"9",
+"Maddox Koehler",
+1
+],
+[
+"14",
+"Cole Schmidt",
+1
+],
+[
+"10",
+"Owen Matzka",
+1
+]
+],
+[
+"GWG"
+]
+],
+[
+"3RD",
+"11:14",
+1,
+[
+[
+"10",
+"Owen Matzka",
+1
+],
+[
+"14",
+"Cole Schmidt",
+2
+]
+],
+[
+"PP"
+]
+],
+[
+"3RD",
+"02:56",
+1,
+[
+[
+"10",
+"Owen Matzka",
+2
+],
+[
+"14",
+"Cole Schmidt",
+3
+],
+[
+"17",
+"Weston Thibodeau",
+2
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"14:12",
+0,
+[
+"15",
+"Joshua Dethomasis",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"2ND",
+"10:10",
+0,
+[
+"22",
+"Sutter Schaafsma",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"2ND",
+"06:17",
+1,
+[
+"17",
+"Weston Thibodeau",
+null
+],
+"Interference - minor, 2 min"
+],
+[
+"2ND",
+"02:20",
+1,
+[
+"2",
+"Mason Wills",
+null
+],
+"Hooking - minor, 2 min"
+],
+[
+"3RD",
+"13:13",
+0,
+[
+"9",
+"Andrew Beattie",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"3RD",
+"08:26",
+1,
+[
+"12",
+"Jarrett Thorn",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"3RD",
+"06:03",
+1,
+[
+"10",
+"Owen Matzka",
+null
+],
+"Cross-checking - minor, 2 min"
+]
+]
+},
+"2012|16410|3156982": {
+"div": "2012",
+"date": "2026-11-14",
+"time": "8:20 AM",
+"rink": "Hazel Park Ice Arena - OLY",
+"v": "St. Louis Blues",
+"h": "Toronto Jr Canadiens",
+"vs": 0,
+"hs": 6,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"4",
+"Liam Brooks",
+"L"
+],
+[
+1,
+"31",
+"Christian Arianna",
+"W"
+]
+],
+"goals": [
+[
+"1ST",
+"14:13",
+1,
+[
+[
+"11",
+"Colton Lantz",
+1
+],
+[
+"10",
+"Hayden Mcgrann",
+2
+],
+[
+"93",
+"Jaxson Pollard",
+3
+]
+],
+[
+"GWG"
+]
+],
+[
+"1ST",
+"06:57",
+1,
+[
+[
+"87",
+"Tristan Reynolds",
+5
+]
+],
+[
+"PP"
+]
+],
+[
+"1ST",
+"02:42",
+1,
+[
+[
+"87",
+"Tristan Reynolds",
+6
+]
+],
+[]
+],
+[
+"2ND",
+"08:01",
+1,
+[
+[
+"17",
+"Cruz Chamberlain",
+1
+]
+],
+[
+"SH"
+]
+],
+[
+"2ND",
+"06:36",
+1,
+[
+[
+"11",
+"Colton Lantz",
+2
+],
+[
+"16",
+"Colton Dimmell",
+2
+],
+[
+"19",
+"Henry Whalen",
+2
+]
+],
+[]
+],
+[
+"2ND",
+"00:21",
+1,
+[
+[
+"87",
+"Tristan Reynolds",
+7
+],
+[
+"39",
+"Artem Ryabov",
+3
+],
+[
+"17",
+"Cruz Chamberlain",
+2
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"07:41",
+0,
+[
+"90",
+"Landon Clark",
+null
+],
+"Slashing - major, 5 min"
+],
+[
+"1ST",
+"07:41",
+0,
+[
+"90",
+"Landon Clark",
+null
+],
+"Slashing - game misconduct, 10 min"
+],
+[
+"1ST",
+"04:37",
+1,
+[
+"87",
+"Tristan Reynolds",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"2ND",
+"12:13",
+1,
+[
+"88",
+"Grayson Moore",
+null
+],
+"Hooking - minor, 2 min"
+],
+[
+"2ND",
+"09:23",
+1,
+[
+"93",
+"Jaxson Pollard",
+null
+],
+"Bench minor, 2 min"
+],
+[
+"3RD",
+"09:23",
+1,
+[
+"39",
+"Artem Ryabov",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"05:29",
+1,
+[
+"10",
+"Hayden Mcgrann",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"3RD",
+"05:29",
+1,
+[
+"42",
+"Tanner Walsh",
+null
+],
+"Unsportsmanlike conduct - misconduct, 10 min"
+],
+[
+"3RD",
+"03:05",
+1,
+[
+"87",
+"Tristan Reynolds",
+null
+],
+"Elbowing - minor, 2 min"
+],
+[
+"3RD",
+"01:32",
+0,
+[
+"19",
+"Benjamin Sehnert",
+null
+],
+"Unsportsmanlike conduct - misconduct, 10 min"
+],
+[
+"3RD",
+"01:32",
+1,
+[
+"86",
+"Michael Alati",
+null
+],
+"Unsportsmanlike conduct - misconduct, 10 min"
+]
+]
+},
+"2012|16410|3157137": {
+"div": "2012",
+"date": "2026-11-14",
+"time": "9:37 AM",
+"rink": "Hazel Park Ice Arena - PRO",
+"v": "Ohio Blue Jackets",
+"h": "Masters Academy",
+"vs": 2,
+"hs": 5,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"51",
+"Aaron Hoffman",
+"L"
+],
+[
+1,
+"31",
+"Samuel Toscano",
+"W"
+]
+],
+"goals": [
+[
+"1ST",
+"11:28",
+1,
+[
+[
+"91",
+"Chase Otoole",
+2
+],
+[
+"10",
+"Vincent Robichaud",
+1
+]
+],
+[]
+],
+[
+"1ST",
+"09:00",
+0,
+[
+[
+"95",
+"Camden Haverstock",
+2
+],
+[
+"86",
+"Jason Ricart",
+2
+]
+],
+[]
+],
+[
+"2ND",
+"14:21",
+1,
+[
+[
+"22",
+"Taigan St Germain",
+1
+],
+[
+"13",
+"Nolan Cooper",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"04:20",
+1,
+[
+[
+"71",
+"Flavio Diplacido",
+2
+],
+[
+"97",
+"William Fisher",
+1
+]
+],
+[
+"GWG"
+]
+],
+[
+"3RD",
+"12:48",
+1,
+[
+[
+"16",
+"Charles Connelly",
+1
+],
+[
+"97",
+"William Fisher",
+2
+]
+],
+[
+"SH"
+]
+],
+[
+"3RD",
+"07:00",
+0,
+[
+[
+"11",
+"Colton Matracia",
+1
+],
+[
+"52",
+"Maxwell Lammers",
+1
+]
+],
+[
+"PP"
+]
+],
+[
+"3RD",
+"01:27",
+1,
+[
+[
+"88",
+"Dominic Manolakis",
+1
+],
+[
+"10",
+"Vincent Robichaud",
+2
+]
+],
+[]
+]
+],
+"pens": [
+[
+"2ND",
+"07:16",
+0,
+[
+"86",
+"Jason Ricart",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"2ND",
+"01:16",
+0,
+[
+"34",
+"Grant Mahler",
+null
+],
+"Hooking - minor, 2 min"
+],
+[
+"3RD",
+"14:10",
+1,
+[
+"91",
+"Chase Otoole",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"3RD",
+"09:09",
+1,
+[
+"86",
+"Liam Melnikov",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"08:16",
+1,
+[
+"88",
+"Dominic Manolakis",
+null
+],
+"Hooking - minor, 2 min"
+],
+[
+"3RD",
+"06:35",
+0,
+[
+"48",
+"Peyton Miller",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+]
+]
+},
+"2012|16410|3156998": {
+"div": "2012",
+"date": "2026-11-14",
+"time": "9:42 AM",
+"rink": "Hazel Park Ice Arena - OLY",
+"v": "Biggby Coffee",
+"h": "Top Gun (Elite)",
+"vs": 2,
+"hs": 5,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"35",
+"Benjamin Kramer",
+"L"
+],
+[
+1,
+"40",
+"Graham Macdonald",
+"W"
+]
+],
+"goals": [
+[
+"1ST",
+"13:55",
+0,
+[
+[
+"18",
+"Brooks Pietila",
+2
+],
+[
+"93",
+"Evan Schlack",
+3
+],
+[
+"3",
+"Daniel Koester",
+1
+]
+],
+[]
+],
+[
+"1ST",
+"05:32",
+1,
+[
+[
+"11",
+"Ethan Welch",
+1
+],
+[
+"44",
+"Flynn Kelley",
+1
+]
+],
+[
+"PP"
+]
+],
+[
+"2ND",
+"00:16",
+1,
+[
+[
+"71",
+"Kingston Bourque",
+1
+],
+[
+"10",
+"Brayden Aucoin",
+1
+],
+[
+"11",
+"Ethan Welch",
+2
+]
+],
+[
+"PP"
+]
+],
+[
+"3RD",
+"12:28",
+1,
+[
+[
+"13",
+"Cameron Mead",
+1
+],
+[
+"7",
+"Bennett Waddell",
+3
+],
+[
+"10",
+"Brayden Aucoin",
+2
+]
+],
+[
+"GWG"
+]
+],
+[
+"3RD",
+"08:31",
+0,
+[
+[
+"88",
+"Evan Bronson",
+2
+],
+[
+"9",
+"Tyler Rapier",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"08:20",
+1,
+[
+[
+"7",
+"Bennett Waddell",
+1
+],
+[
+"44",
+"Flynn Kelley",
+2
+]
+],
+[]
+],
+[
+"3RD",
+"06:45",
+1,
+[
+[
+"87",
+"Warren Holtslag",
+2
+],
+[
+"11",
+"Ethan Welch",
+3
+],
+[
+"6",
+"Owen Flynn",
+1
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"05:37",
+0,
+[
+"88",
+"Evan Bronson",
+null
+],
+"High sticking - minor, 2 min"
+],
+[
+"2ND",
+"02:52",
+1,
+[
+"87",
+"Warren Holtslag",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"2ND",
+"01:04",
+0,
+[
+"48",
+"Brandon Demmer",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+]
+]
+},
+"2012|16410|3157016": {
+"div": "2012",
+"date": "2026-11-14",
+"time": "11:30 AM",
+"rink": "Dearborn Ice Skating Center Adray Arena",
+"v": "Upper Canada College",
+"h": "Fox Motors",
+"vs": 1,
+"hs": 2,
+"st": "IN PROGRESS",
+"goalies": [
+[
+0,
+"29",
+"Ryan Nurmohamed",
+""
+],
+[
+1,
+"6",
+"Draven Belanger",
+""
+]
+],
+"goals": [
+[
+"1ST",
+"9:57",
+1,
+[
+[
+"23",
+"Jaxon Zuiderveen",
+1
+],
+[
+"86",
+"Tristan Antonini",
+1
+]
+],
+[]
+],
+[
+"1ST",
+"6:58",
+0,
+[
+[
+"86",
+"Benjamin Diarra",
+1
+],
+[
+"72",
+"Tyson Romano",
+1
+]
+],
+[]
+],
+[
+"1ST",
+"5:56",
+1,
+[
+[
+"21",
+"Harrison Kosecki",
+2
+],
+[
+"49",
+"Louis Martin",
+2
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"9:09",
+0,
+[
+"34",
+"Justin Xu",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+]
+]
+},
+"2012|16410|3157026": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "8:30 AM",
+"rink": "Dearborn Ice Skating Center Adray Arena",
+"v": "Hill Academy",
+"h": "Pittsburgh Penguins Elite",
+"vs": 2,
+"hs": 4,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"33",
+"Drew Ottens",
+"L"
+],
+[
+1,
+"88",
+"Donovan Chavez",
+"W"
+]
+],
+"goals": [
+[
+"2ND",
+"09:21",
+1,
+[
+[
+"96",
+"Theo Lessard",
+1
+],
+[
+"13",
+"Tristan Leduc",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"04:34",
+0,
+[
+[
+"24",
+"Cody Diener",
+1
+],
+[
+"14",
+"Parker Shoemaker",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"03:10",
+1,
+[
+[
+"96",
+"Theo Lessard",
+2
+],
+[
+"13",
+"Tristan Leduc",
+2
+],
+[
+"23",
+"Kelly Sullivan",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"02:56",
+1,
+[
+[
+"78",
+"Otto Kiehlmeier",
+1
+],
+[
+"10",
+"Gunner Rieling",
+1
+]
+],
+[
+"GWG"
+]
+],
+[
+"2ND",
+"01:41",
+0,
+[
+[
+"9",
+"Charles Paquin",
+1
+],
+[
+"46",
+"Nino Balestrieri",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"03:21",
+1,
+[
+[
+"96",
+"Theo Lessard",
+3
+],
+[
+"13",
+"Tristan Leduc",
+3
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"14:03",
+0,
+[
+"91",
+"Nelson Shoemaker",
+null
+],
+"Elbowing - minor, 2 min"
+],
+[
+"2ND",
+"11:40",
+0,
+[
+"12",
+"Marshall Hayes",
+null
+],
+"Cross-checking - minor, 2 min"
+]
+]
+},
+"2012|16410|3157019": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "10:00 AM",
+"rink": "Dearborn Ice Skating Center Adray Arena",
+"v": "Upper Canada College",
+"h": "Cleveland Barons",
+"vs": 4,
+"hs": 1,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"29",
+"Ryan Nurmohamed",
+"W"
+],
+[
+1,
+"32",
+"Joshua Jaynes",
+"L"
+]
+],
+"goals": [
+[
+"1ST",
+"12:46",
+0,
+[
+[
+"7",
+"Ben Izen",
+1
+],
+[
+"71",
+"Andrew Reed",
+1
+],
+[
+"16",
+"Lucas Sieradzki",
+1
+]
+],
+[
+"PP"
+]
+],
+[
+"1ST",
+"11:15",
+0,
+[
+[
+"91",
+"Owen Grad",
+1
+],
+[
+"86",
+"Benjamin Diarra",
+1
+],
+[
+"34",
+"Justin Xu",
+1
+]
+],
+[
+"PP",
+"GWG"
+]
+],
+[
+"2ND",
+"14:54",
+0,
+[
+[
+"71",
+"Andrew Reed",
+1
+]
+],
+[
+"SH"
+]
+],
+[
+"2ND",
+"12:03",
+1,
+[
+[
+"19",
+"Michael Pochatek",
+1
+],
+[
+"41",
+"Matsvei Khomka",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"01:50",
+0,
+[
+[
+"71",
+"Andrew Reed",
+2
+],
+[
+"86",
+"Benjamin Diarra",
+2
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"13:32",
+1,
+[
+"98",
+"Michael Sullivan",
+null
+],
+"Body checking - minor, 2 min"
+],
+[
+"1ST",
+"12:57",
+1,
+[
+"5",
+"Thomas Hutchison",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"1ST",
+"10:47",
+0,
+[
+"7",
+"Ben Izen",
+null
+],
+"High sticking - minor, 2 min"
+],
+[
+"1ST",
+"03:54",
+1,
+[
+"23",
+"Peyton Warren",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"1ST",
+"03:30",
+0,
+[
+"7",
+"Ben Izen",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"1ST",
+"00:42",
+0,
+[
+"34",
+"Justin Xu",
+null
+],
+"Holding - minor, 2 min"
+],
+[
+"2ND",
+"14:20",
+1,
+[
+"23",
+"Peyton Warren",
+null
+],
+"Boarding - minor, 2 min"
+],
+[
+"2ND",
+"07:44",
+0,
+[
+"71",
+"Andrew Reed",
+null
+],
+"Fighting - instigator/drop gloves/other - minor, 2 min"
+],
+[
+"2ND",
+"03:42",
+0,
+[
+"7",
+"Ben Izen",
+null
+],
+"High sticking - minor, 2 min"
+],
+[
+"3RD",
+"03:44",
+1,
+[
+"23",
+"Peyton Warren",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"03:42",
+0,
+[
+"7",
+"Ben Izen",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"01:05",
+1,
+[
+"18",
+"Avner Powell",
+null
+],
+"Interference - minor, 2 min"
+]
+]
+},
+"2012|16410|3157027": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "2:00 PM",
+"rink": "Dearborn Ice Skating Center Adray Arena",
+"v": "Pittsburgh Penguins Elite",
+"h": "Ohio Blue Jackets",
+"vs": 7,
+"hs": 5,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"17",
+"Nathaniel Kinney",
+"W"
+],
+[
+1,
+"51",
+"Aaron Hoffman",
+"L"
+]
+],
+"goals": [
+[
+"1ST",
+"14:27",
+1,
+[
+[
+"9",
+"Drake Marino",
+1
+],
+[
+"95",
+"Camden Haverstock",
+1
+]
+],
+[]
+],
+[
+"1ST",
+"09:25",
+1,
+[
+[
+"9",
+"Drake Marino",
+2
+]
+],
+[]
+],
+[
+"1ST",
+"03:57",
+0,
+[
+[
+"10",
+"Gunner Rieling",
+1
+],
+[
+"78",
+"Otto Kiehlmeier",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"08:19",
+0,
+[
+[
+"6",
+"Gunner Morgan",
+1
+],
+[
+"8",
+"Landon Michael",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"06:21",
+1,
+[
+[
+"86",
+"Jason Ricart",
+1
+],
+[
+"87",
+"Jude Willison",
+1
+]
+],
+[
+"SH"
+]
+],
+[
+"2ND",
+"05:29",
+0,
+[
+[
+"78",
+"Otto Kiehlmeier",
+2
+],
+[
+"18",
+"Tanner Julius",
+1
+]
+],
+[
+"PP"
+]
+],
+[
+"2ND",
+"03:23",
+0,
+[
+[
+"96",
+"Theo Lessard",
+4
+],
+[
+"13",
+"Tristan Leduc",
+4
+],
+[
+"16",
+"Brogan Stahl",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"00:55",
+1,
+[
+[
+"52",
+"Maxwell Lammers",
+1
+],
+[
+"78",
+"Mason Fotheringham",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"06:06",
+0,
+[
+[
+"6",
+"Gunner Morgan",
+2
+],
+[
+"13",
+"Tristan Leduc",
+5
+]
+],
+[]
+],
+[
+"3RD",
+"05:32",
+1,
+[
+[
+"87",
+"Jude Willison",
+1
+],
+[
+"86",
+"Jason Ricart",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"04:57",
+0,
+[
+[
+"96",
+"Theo Lessard",
+5
+],
+[
+"23",
+"Kelly Sullivan",
+2
+],
+[
+"13",
+"Tristan Leduc",
+6
+]
+],
+[
+"GWG"
+]
+],
+[
+"3RD",
+"00:38",
+0,
+[
+[
+"96",
+"Theo Lessard",
+6
+],
+[
+"13",
+"Tristan Leduc",
+7
+]
+],
+[
+"SH"
+]
+]
+],
+"pens": [
+[
+"2ND",
+"07:29",
+1,
+[
+"84",
+"Aaron Sleeper",
+null
+],
+"Holding - minor, 2 min"
+],
+[
+"3RD",
+"09:40",
+0,
+[
+"16",
+"Brogan Stahl",
+null
+],
+"Holding - minor, 2 min"
+],
+[
+"3RD",
+"09:25",
+1,
+[
+"95",
+"Camden Haverstock",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"3RD",
+"02:15",
+0,
+[
+"11",
+"Nicholas Mowrey",
+null
+],
+"Roughing - minor, 2 min"
+]
+]
+},
+"2012|16410|3157010": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "3:30 PM",
+"rink": "Dearborn Ice Skating Center Adray Arena",
+"v": "Team Illinois",
+"h": "Cleveland Barons",
+"vs": 4,
+"hs": 1,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"50",
+"Benjamin Denzel",
+"W"
+],
+[
+1,
+"52",
+"Walter Buczak",
+"L"
+]
+],
+"goals": [
+[
+"2ND",
+"02:00",
+1,
+[
+[
+"18",
+"Avner Powell",
+1
+],
+[
+"41",
+"Matsvei Khomka",
+2
+]
+],
+[
+"PP"
+]
+],
+[
+"3RD",
+"12:06",
+0,
+[
+[
+"12",
+"Caleb Bauer",
+2
+],
+[
+"21",
+"Taylor Farquhar",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"10:21",
+0,
+[
+[
+"16",
+"Kaden Sadler",
+2
+],
+[
+"93",
+"Declan Petersen",
+1
+]
+],
+[
+"GWG"
+]
+],
+[
+"3RD",
+"09:26",
+0,
+[
+[
+"6",
+"Carson Esser",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"01:40",
+0,
+[
+[
+"6",
+"Carson Esser",
+2
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"03:37",
+0,
+[
+"28",
+"Joseph Murphy",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"1ST",
+"02:00",
+1,
+[
+"18",
+"Avner Powell",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"2ND",
+"11:25",
+1,
+[
+"5",
+"Thomas Hutchison",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"2ND",
+"07:34",
+0,
+[
+"25",
+"Miles Madden",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"2ND",
+"05:35",
+1,
+[
+"18",
+"Avner Powell",
+null
+],
+"Delay of game - minor, 2 min"
+],
+[
+"2ND",
+"03:31",
+0,
+[
+"92",
+"Harry Marshall Iii",
+null
+],
+"Boarding - minor, 2 min"
+],
+[
+"2ND",
+"03:31",
+0,
+[
+"92",
+"Harry Marshall Iii",
+null
+],
+"Boarding - misconduct, 10 min"
+],
+[
+"2ND",
+"02:53",
+0,
+[
+"27",
+"Michael Anderson",
+null
+],
+"Elbowing - minor, 2 min"
+],
+[
+"3RD",
+"09:10",
+0,
+[
+"16",
+"Kaden Sadler",
+null
+],
+"Elbowing - minor, 2 min"
+],
+[
+"3RD",
+"05:32",
+0,
+[
+"12",
+"Caleb Bauer",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+]
+]
+},
+"2012|16410|3156970": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "5:15 PM",
+"rink": "Dearborn Ice Skating Center Adray Arena",
+"v": "Fox Motors",
+"h": "Seacoast Performance Academy",
+"vs": 2,
+"hs": 0,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"1",
+"Phineas Rood",
+"W"
+],
+[
+1,
+"33",
+"Blake Pierce",
+"L"
+]
+],
+"goals": [
+[
+"3RD",
+"05:42",
+0,
+[
+[
+"77",
+"Mason Insana",
+2
+],
+[
+"17",
+"Cooper Constantino",
+1
+],
+[
+"49",
+"Louis Martin",
+1
+]
+],
+[
+"PP",
+"GWG"
+]
+],
+[
+"3RD",
+"00:24",
+0,
+[
+[
+"21",
+"Harrison Kosecki",
+1
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"02:30",
+1,
+[
+"91",
+"Logan Howrylchak",
+null
+],
+"Hooking - minor, 2 min"
+],
+[
+"2ND",
+"12:34",
+0,
+[
+"16",
+"Sullivan Mccurdy",
+null
+],
+"Too many players on the ice - minor, 2 min"
+],
+[
+"3RD",
+"14:05",
+0,
+[
+"11",
+"Keeton Nightingale",
+null
+],
+"Holding - minor, 2 min"
+],
+[
+"3RD",
+"08:43",
+1,
+[
+"77",
+"Nikita Kochetov",
+null
+],
+"Hooking - minor, 2 min"
+],
+[
+"3RD",
+"07:10",
+1,
+[
+"15",
+"Tucker Green",
+null
+],
+"Slashing - minor, 2 min"
+],
+[
+"3RD",
+"00:08",
+1,
+[
+"15",
+"Tucker Green",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"00:08",
+0,
+[
+"86",
+"Tristan Antonini",
+null
+],
+"Roughing - minor, 2 min"
+]
+]
+},
+"2012|16410|3157023": {
+"div": "2012",
+"date": "2026-11-14",
+"time": "8:30 AM",
+"rink": "Dearborn Ice Skating Center Adray Arena",
+"v": "Hill Academy",
+"h": "Nashville Jr. Predators",
+"vs": 0,
+"hs": 5,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"33",
+"Drew Ottens",
+"L"
+],
+[
+1,
+"31",
+"Lucas Katona",
+"W"
+]
+],
+"goals": [
+[
+"1ST",
+"04:52",
+1,
+[
+[
+"10",
+"Sebastien Erat",
+3
+],
+[
+"2",
+"Lincoln Brown",
+1
+]
+],
+[
+"GWG"
+]
+],
+[
+"1ST",
+"03:34",
+1,
+[
+[
+"71",
+"Alexander Katona",
+3
+],
+[
+"8",
+"Vincent Pugliese",
+1
+],
+[
+"27",
+"Noah Samuel",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"04:31",
+1,
+[
+[
+"14",
+"Vincent Mcatee",
+2
+],
+[
+"16",
+"Roderick Mcdaniel",
+2
+]
+],
+[]
+],
+[
+"2ND",
+"00:01",
+1,
+[
+[
+"2",
+"Lincoln Brown",
+3
+],
+[
+"11",
+"Patrick Peterson",
+2
+]
+],
+[
+"PP"
+]
+],
+[
+"3RD",
+"10:53",
+1,
+[
+[
+"10",
+"Sebastien Erat",
+4
+],
+[
+"2",
+"Lincoln Brown",
+2
+],
+[
+"88",
+"William Mathews",
+2
+]
+],
+[]
+]
+],
+"pens": [
+[
+"2ND",
+"10:07",
+1,
+[
+"86",
+"Rowan Johnson",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"2ND",
+"01:28",
+0,
+[
+"9",
+"Charles Paquin",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"15:00",
+0,
+[
+"20",
+"Tyler Pedersen",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"3RD",
+"09:47",
+1,
+[
+"8",
+"Vincent Pugliese",
+null
+],
+"Slashing - minor, 2 min"
+],
+[
+"3RD",
+"03:23",
+1,
+[
+"88",
+"William Mathews",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+]
+]
+},
+"2012|16410|3157011": {
+"div": "2012",
+"date": "2026-11-14",
+"time": "10:00 AM",
+"rink": "Dearborn Ice Skating Center Adray Arena",
+"v": "NJ Colonials",
+"h": "Team Illinois",
+"vs": 0,
+"hs": 4,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"29",
+"Frederick Rennie",
+"L"
+],
+[
+1,
+"36",
+"Grady Macejko",
+"W"
+]
+],
+"goals": [
+[
+"1ST",
+"01:13",
+1,
+[
+[
+"92",
+"Harry Marshall Iii",
+1
+],
+[
+"21",
+"Taylor Farquhar",
+2
+]
+],
+[
+"GWG"
+]
+],
+[
+"2ND",
+"03:13",
+1,
+[
+[
+"49",
+"Noah Mahery Moreau",
+2
+],
+[
+"2",
+"Logan Naydenoff",
+1
+],
+[
+"4",
+"Caleb Berg",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"06:38",
+1,
+[
+[
+"16",
+"Kaden Sadler",
+3
+],
+[
+"93",
+"Declan Petersen",
+2
+]
+],
+[]
+],
+[
+"3RD",
+"02:12",
+1,
+[
+[
+"4",
+"Caleb Berg",
+1
+],
+[
+"6",
+"Carson Esser",
+1
+],
+[
+"92",
+"Harry Marshall Iii",
+3
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"04:00",
+1,
+[
+"25",
+"Miles Madden",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"2ND",
+"12:14",
+1,
+[
+"27",
+"Michael Anderson",
+null
+],
+"Interference - minor, 2 min"
+],
+[
+"3RD",
+"14:36",
+0,
+[
+"8",
+"Bryce Wenzel",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"3RD",
+"08:48",
+1,
+[
+"8",
+"Dylan Mounce",
+null
+],
+"Checking from behind - minor, 2 min"
+],
+[
+"3RD",
+"08:48",
+1,
+[
+"8",
+"Dylan Mounce",
+null
+],
+"Checking from behind - misconduct, 10 min"
+]
+]
+},
+"2012|16410|3156958": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "8:04 AM",
+"rink": "Dearborn Ice Skating Center Kilpatrick Arena",
+"v": "Chatham-Kent Cyclones",
+"h": "Seacoast Performance Academy",
+"vs": 4,
+"hs": 1,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"36",
+"Alex Brown",
+"W"
+],
+[
+1,
+"31",
+"Christopher Robinson",
+"L"
+]
+],
+"goals": [
+[
+"2ND",
+"12:26",
+0,
+[
+[
+"71",
+"Blake Kennedy",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"12:14",
+0,
+[
+[
+"22",
+"Sutter Schaafsma",
+1
+],
+[
+"71",
+"Blake Kennedy",
+1
+]
+],
+[
+"GWG"
+]
+],
+[
+"2ND",
+"06:04",
+0,
+[
+[
+"96",
+"Paolo Defranceschi",
+1
+],
+[
+"9",
+"Andrew Beattie",
+1
+],
+[
+"22",
+"Sutter Schaafsma",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"09:07",
+0,
+[
+[
+"91",
+"Jaxson Marshall",
+1
+],
+[
+"29",
+"Owen Procter",
+null
+],
+[
+"25",
+"Gabriel Circelli",
+1
+]
+],
+[
+"SH"
+]
+],
+[
+"3RD",
+"02:01",
+1,
+[
+[
+"94",
+"Zachary Xanders",
+1
+],
+[
+"77",
+"Nikita Kochetov",
+1
+],
+[
+"26",
+"Erik Krisztian",
+1
+]
+],
+[
+"PP"
+]
+]
+],
+"pens": [
+[
+"1ST",
+"06:55",
+1,
+[
+"26",
+"Erik Krisztian",
+null
+],
+"Hooking - minor, 2 min"
+],
+[
+"1ST",
+"05:30",
+1,
+[
+"77",
+"Nikita Kochetov",
+null
+],
+"High sticking - minor, 2 min"
+],
+[
+"2ND",
+"11:24",
+0,
+[
+"14",
+"Brody Church",
+null
+],
+"Hooking - minor, 2 min"
+],
+[
+"2ND",
+"08:21",
+1,
+[
+"71",
+"Andrew Beck",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"2ND",
+"08:21",
+0,
+[
+"91",
+"Jaxson Marshall",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"2ND",
+"02:51",
+1,
+[
+"91",
+"Logan Howrylchak",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"2ND",
+"02:16",
+0,
+[
+"92",
+"Zachary Sharma",
+null
+],
+"Hooking - minor, 2 min"
+],
+[
+"3RD",
+"10:05",
+0,
+[
+"40",
+"Brandon Jonkhans",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"3RD",
+"03:19",
+0,
+[
+"72",
+"Jacob Giroux",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+]
+]
+},
+"2012|16410|3157021": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "9:30 AM",
+"rink": "Dearborn Ice Skating Center Kilpatrick Arena",
+"v": "Masters Academy",
+"h": "Nashville Jr. Predators",
+"vs": 2,
+"hs": 3,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"20",
+"Turner Benefit",
+"L"
+],
+[
+1,
+"33",
+"John Nolan Blankush",
+"W"
+]
+],
+"goals": [
+[
+"1ST",
+"07:41",
+0,
+[
+[
+"91",
+"Chase Otoole",
+1
+]
+],
+[]
+],
+[
+"1ST",
+"03:03",
+1,
+[
+[
+"2",
+"Lincoln Brown",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"08:07",
+1,
+[
+[
+"14",
+"Vincent Mcatee",
+1
+],
+[
+"16",
+"Roderick Mcdaniel",
+1
+],
+[
+"10",
+"Sebastien Erat",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"05:36",
+0,
+[
+[
+"71",
+"Flavio Diplacido",
+1
+],
+[
+"91",
+"Chase Otoole",
+1
+]
+],
+[
+"SH"
+]
+],
+[
+"3RD",
+"01:43",
+1,
+[
+[
+"10",
+"Sebastien Erat",
+1
+],
+[
+"88",
+"William Mathews",
+1
+],
+[
+"11",
+"Patrick Peterson",
+1
+]
+],
+[
+"SH",
+"GWG"
+]
+]
+],
+"pens": [
+[
+"1ST",
+"14:27",
+0,
+[
+"91",
+"Chase Otoole",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"2ND",
+"12:38",
+0,
+[
+"22",
+"Taigan St Germain",
+null
+],
+"Elbowing - minor, 2 min"
+],
+[
+"2ND",
+"12:06",
+1,
+[
+"11",
+"Patrick Peterson",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"2ND",
+"12:06",
+0,
+[
+"91",
+"Chase Otoole",
+null
+],
+"Slashing - minor, 2 min"
+],
+[
+"2ND",
+"07:15",
+0,
+[
+"7",
+"Connor King",
+null
+],
+"Hooking - minor, 2 min"
+],
+[
+"2ND",
+"01:15",
+1,
+[
+"3",
+"Coy Bacon",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"3RD",
+"13:59",
+0,
+[
+"91",
+"Chase Otoole",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"03:26",
+1,
+[
+"11",
+"Patrick Peterson",
+null
+],
+"Interference - minor, 2 min"
+]
+]
+},
+"2012|16410|3156947": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "11:12 AM",
+"rink": "Dearborn Ice Skating Center Kilpatrick Arena",
+"v": "Fox Motors",
+"h": "Boston Jr Eagles (Elite)",
+"vs": 4,
+"hs": 1,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"6",
+"Draven Belanger",
+"W"
+],
+[
+1,
+"92",
+"Jackson Pedersen",
+"L"
+]
+],
+"goals": [
+[
+"1ST",
+"01:25",
+0,
+[
+[
+"49",
+"Louis Martin",
+1
+],
+[
+"21",
+"Harrison Kosecki",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"08:52",
+0,
+[
+[
+"86",
+"Tristan Antonini",
+1
+],
+[
+"9",
+"Gabe Underwood",
+1
+],
+[
+"93",
+"Jayse Halladay",
+1
+]
+],
+[
+"GWG"
+]
+],
+[
+"3RD",
+"14:10",
+1,
+[
+[
+"12",
+"Drew Farley",
+1
+],
+[
+"11",
+"Keegan Chamberlain",
+1
+],
+[
+"7",
+"Ryan Harney",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"12:35",
+0,
+[
+[
+"49",
+"Louis Martin",
+2
+],
+[
+"21",
+"Harrison Kosecki",
+2
+],
+[
+"34",
+"Blake Dutton",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"07:21",
+0,
+[
+[
+"77",
+"Mason Insana",
+1
+],
+[
+"21",
+"Harrison Kosecki",
+3
+],
+[
+"23",
+"Jaxon Zuiderveen",
+1
+]
+],
+[
+"PP"
+]
+]
+],
+"pens": [
+[
+"2ND",
+"02:02",
+0,
+[
+"9",
+"Gabe Underwood",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"2ND",
+"02:02",
+1,
+[
+"11",
+"Keegan Chamberlain",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"11:11",
+0,
+[
+"77",
+"Mason Insana",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"3RD",
+"08:10",
+1,
+[
+"18",
+"Owen Farren",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"3RD",
+"02:58",
+0,
+[
+"48",
+"Mason Micketti",
+null
+],
+"Holding - minor, 2 min"
+],
+[
+"3RD",
+"02:23",
+1,
+[
+"18",
+"Owen Farren",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+]
+]
+},
+"2012|16410|3156988": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "3:00 PM",
+"rink": "Dearborn Ice Skating Center Kilpatrick Arena",
+"v": "Biggby Coffee",
+"h": "St. Louis Blues",
+"vs": 3,
+"hs": 1,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"29",
+"Cooper Phelps",
+"W"
+],
+[
+1,
+"4",
+"Liam Brooks",
+"L"
+]
+],
+"goals": [
+[
+"2ND",
+"12:41",
+0,
+[
+[
+"48",
+"Brandon Demmer",
+1
+],
+[
+"21",
+"Bryce Heeringa",
+2
+],
+[
+"10",
+"Ian Thompson",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"13:39",
+0,
+[
+[
+"21",
+"Bryce Heeringa",
+1
+],
+[
+"93",
+"Evan Schlack",
+2
+],
+[
+"13",
+"Alexander Kopp",
+1
+]
+],
+[
+"GWG"
+]
+],
+[
+"3RD",
+"00:40",
+1,
+[
+[
+"12",
+"Crew Mayers",
+1
+],
+[
+"8",
+"Killian Cruth",
+1
+],
+[
+"32",
+"Abram Burgess",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"00:14",
+0,
+[
+[
+"88",
+"Evan Bronson",
+1
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"05:30",
+1,
+[
+"6",
+"William Schoeck",
+null
+],
+"Slashing - minor, 2 min"
+],
+[
+"2ND",
+"12:15",
+0,
+[
+"3",
+"Daniel Koester",
+null
+],
+"Slashing - minor, 2 min"
+],
+[
+"2ND",
+"11:55",
+1,
+[
+"19",
+"Benjamin Sehnert",
+null
+],
+"Holding - minor, 2 min"
+],
+[
+"3RD",
+"04:42",
+0,
+[
+"24",
+"Zachary Jacobson",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"04:42",
+1,
+[
+"74",
+"Daison Scales",
+null
+],
+"Roughing - minor, 2 min"
+]
+]
+},
+"2012|16410|3156979": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "4:39 PM",
+"rink": "Dearborn Ice Skating Center Kilpatrick Arena",
+"v": "Toronto Jr Canadiens",
+"h": "Windy City Storm",
+"vs": 6,
+"hs": 0,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"29",
+"Matteo Cerrelli",
+"W"
+],
+[
+1,
+"72",
+"Brody Dore",
+"L"
+]
+],
+"goals": [
+[
+"1ST",
+"10:07",
+0,
+[
+[
+"87",
+"Tristan Reynolds",
+2
+],
+[
+"86",
+"Michael Alati",
+2
+],
+[
+"39",
+"Artem Ryabov",
+2
+]
+],
+[
+"GWG"
+]
+],
+[
+"1ST",
+"07:04",
+0,
+[
+[
+"87",
+"Tristan Reynolds",
+3
+],
+[
+"86",
+"Michael Alati",
+3
+],
+[
+"16",
+"Colton Dimmell",
+1
+]
+],
+[]
+],
+[
+"1ST",
+"06:07",
+0,
+[
+[
+"42",
+"Tanner Walsh",
+1
+],
+[
+"85",
+"Kai Baptiste",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"04:45",
+0,
+[
+[
+"19",
+"Henry Whalen",
+1
+],
+[
+"87",
+"Tristan Reynolds",
+2
+],
+[
+"93",
+"Jaxson Pollard",
+1
+]
+],
+[
+"SH"
+]
+],
+[
+"3RD",
+"09:13",
+0,
+[
+[
+"87",
+"Tristan Reynolds",
+4
+],
+[
+"93",
+"Jaxson Pollard",
+2
+],
+[
+"19",
+"Henry Whalen",
+1
+]
+],
+[
+"PP"
+]
+],
+[
+"3RD",
+"09:05",
+0,
+[
+[
+"22",
+"Max Moro",
+1
+],
+[
+"86",
+"Michael Alati",
+4
+],
+[
+"17",
+"Cruz Chamberlain",
+1
+]
+],
+[]
+]
+],
+"pens": [
+[
+"2ND",
+"06:32",
+0,
+[
+"88",
+"Grayson Moore",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"2ND",
+"02:59",
+0,
+[
+"10",
+"Hayden Mcgrann",
+null
+],
+"Too many players on the ice - minor, 2 min"
+],
+[
+"3RD",
+"13:49",
+0,
+[
+"10",
+"Hayden Mcgrann",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"13:49",
+1,
+[
+"17",
+"Stanislav Laburenco",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"11:19",
+0,
+[
+"88",
+"Grayson Moore",
+null
+],
+"Holding - minor, 2 min"
+],
+[
+"3RD",
+"09:50",
+1,
+[
+"34",
+"Jack Taylor",
+null
+],
+"Head contact - minor, 2 min"
+],
+[
+"3RD",
+"09:50",
+1,
+[
+"34",
+"Jack Taylor",
+null
+],
+"Head contact - misconduct, 10 min"
+],
+[
+"3RD",
+"02:08",
+1,
+[
+"66",
+"William Moore",
+null
+],
+"Cross-checking - minor, 2 min"
+]
+]
+},
+"2012|16410|3157022": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "6:27 PM",
+"rink": "Dearborn Ice Skating Center Kilpatrick Arena",
+"v": "Nashville Jr. Predators",
+"h": "Ohio Blue Jackets",
+"vs": 4,
+"hs": 3,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"31",
+"Lucas Katona",
+"W"
+],
+[
+1,
+"32",
+"William Poling",
+"L"
+]
+],
+"goals": [
+[
+"1ST",
+"11:14",
+0,
+[
+[
+"71",
+"Alexander Katona",
+1
+],
+[
+"3",
+"Coy Bacon",
+1
+]
+],
+[]
+],
+[
+"1ST",
+"10:39",
+0,
+[
+[
+"2",
+"Lincoln Brown",
+2
+],
+[
+"10",
+"Sebastien Erat",
+2
+]
+],
+[]
+],
+[
+"2ND",
+"10:59",
+1,
+[
+[
+"86",
+"Jason Ricart",
+2
+],
+[
+"78",
+"Mason Fotheringham",
+2
+],
+[
+"95",
+"Camden Haverstock",
+2
+]
+],
+[
+"PP"
+]
+],
+[
+"2ND",
+"07:35",
+0,
+[
+[
+"71",
+"Alexander Katona",
+2
+],
+[
+"77",
+"Zachary Grivna",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"06:50",
+1,
+[
+[
+"95",
+"Camden Haverstock",
+1
+],
+[
+"43",
+"Liam Brown",
+1
+],
+[
+"48",
+"Peyton Miller",
+1
+]
+],
+[]
+],
+[
+"2ND",
+"01:12",
+0,
+[
+[
+"10",
+"Sebastien Erat",
+2
+]
+],
+[
+"GWG"
+]
+],
+[
+"3RD",
+"08:38",
+1,
+[
+[
+"86",
+"Jason Ricart",
+3
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"04:00",
+0,
+[
+"77",
+"Zachary Grivna",
+null
+],
+"Interference - minor, 2 min"
+],
+[
+"2ND",
+"11:41",
+0,
+[
+"16",
+"Roderick Mcdaniel",
+null
+],
+"Holding - minor, 2 min"
+]
+]
+},
+"2012|16410|3157001": {
+"div": "2012",
+"date": "2026-11-13",
+"time": "7:56 PM",
+"rink": "Dearborn Ice Skating Center Kilpatrick Arena",
+"v": "St. Louis Blues",
+"h": "Top Gun (Elite)",
+"vs": 5,
+"hs": 3,
+"st": "FINAL",
+"goalies": [
+[
+0,
+"30",
+"Landon Norris",
+"W"
+],
+[
+1,
+"1",
+"Mason Morrison",
+"L"
+]
+],
+"goals": [
+[
+"1ST",
+"05:07",
+1,
+[
+[
+"87",
+"Warren Holtslag",
+1
+],
+[
+"7",
+"Bennett Waddell",
+1
+],
+[
+"13",
+"Cameron Mead",
+1
+]
+],
+[]
+],
+[
+"1ST",
+"00:47",
+0,
+[
+[
+"12",
+"Crew Mayers",
+2
+],
+[
+"2",
+"Braden Almonroeder",
+1
+],
+[
+"32",
+"Abram Burgess",
+2
+]
+],
+[]
+],
+[
+"2ND",
+"12:37",
+0,
+[
+[
+"12",
+"Crew Mayers",
+3
+],
+[
+"18",
+"Ezekiel Hoppe",
+1
+],
+[
+"17",
+"Noah Meeks",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"08:50",
+0,
+[
+[
+"18",
+"Ezekiel Hoppe",
+1
+],
+[
+"12",
+"Crew Mayers",
+1
+],
+[
+"32",
+"Abram Burgess",
+3
+]
+],
+[]
+],
+[
+"3RD",
+"08:35",
+0,
+[
+[
+"32",
+"Abram Burgess",
+1
+],
+[
+"12",
+"Crew Mayers",
+2
+]
+],
+[
+"GWG"
+]
+],
+[
+"3RD",
+"02:24",
+1,
+[
+[
+"6",
+"Owen Flynn",
+1
+],
+[
+"68",
+"Zachary Pocsik",
+1
+],
+[
+"11",
+"Ethan Welch",
+1
+]
+],
+[
+"PP"
+]
+],
+[
+"3RD",
+"00:21",
+1,
+[
+[
+"10",
+"Brayden Aucoin",
+1
+],
+[
+"7",
+"Bennett Waddell",
+2
+]
+],
+[]
+],
+[
+"3RD",
+"00:15",
+0,
+[
+[
+"2",
+"Braden Almonroeder",
+1
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"07:58",
+1,
+[
+"17",
+"Jayden Rouleau",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"2ND",
+"02:21",
+1,
+[
+"44",
+"Flynn Kelley",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"3RD",
+"02:44",
+0,
+[
+"77",
+"Gavin Schultz",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+]
+]
+}
+}

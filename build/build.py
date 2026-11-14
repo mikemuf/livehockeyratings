@@ -1,3 +1,4 @@
+import os
 # Rebuild the Live Ratings app: Nov 2 base + Nov 4 MHR anchors + joint 13U/14U pool + games logged since + pending weekend games.
 import json,sys
 sys.path.insert(0,'build');import pool2,re
@@ -122,13 +123,14 @@ rep('<style>','<style>.bar{flex-wrap:wrap;row-gap:6px}@media (max-width:560px){.
 h=h.replace("div==='2012'?'2012 Bantam Major':'2013 Bantam Minor'","({'2011':'2011 Midget Minor (15U)','2012':'2012 Bantam Major','2013':'2013 Bantam Minor','2014':'2014 Peewee Major (12U)','2015':'2015 Peewee Minor (11U)'})[div]")
 # --- public site: Weekend tab; hide internal tabs (Schedule, Add scores, Handoff)
 WK=json.load(open('data/weekend_public.json'))
+WBOX=sorted([v for k,v in (json.load(open('data/gs_box.json')) if os.path.exists('data/gs_box.json') else {}).items() if WK['from']<=v['date']<=WK['to']],key=lambda v:(v['date'],v['time']))
 WG=[g[:6] for g in json.load(open('data/games_wk_nov6.json'))+json.load(open('data/pending_games.json')) if WK['from']<=g[1]<=WK['to']]
 rep('  <button data-view="sched">Schedule</button>\n','')
 rep('  <button data-view="add">Add scores</button>\n','')
 rep('  <button data-view="export">Handoff</button>\n','')
 rep('<button data-view="rank" class="on">USA</button>','<button data-view="rank" class="on">USA</button>\n  <button data-view="wk">Weekend</button>')
 rep(' <section class="view" id="v-can"></section>',' <section class="view" id="v-wk"></section>\n <section class="view" id="v-can"></section>')
-rep("let cache={};","const WEEKEND="+json.dumps(WK)+";\nconst WEEKEND_GAMES="+json.dumps(WG)+";\n"+open('build/weekend.js').read()+"let cache={};")
+rep("let cache={};","const WEEKEND="+json.dumps(WK)+";\nconst WEEKEND_GAMES="+json.dumps(WG)+";\nconst WEEKEND_BOX="+json.dumps(WBOX,ensure_ascii=False)+";\n"+open('build/weekend.js').read()+"let cache={};")
 rep("  if(view==='can')","  if(view==='wk')document.getElementById('v-wk').innerHTML=renderWeekend(S);\n  if(view==='can')")
 rep('<style>','<style>.wkclick{cursor:pointer}.wkr.wkclick:hover,.wkclick:hover{background:rgba(200,16,46,.06)}ul.wk{margin:8px 0 0;padding-left:18px}ul.wk li{margin:6px 0;line-height:1.4}table.wkg{width:100%;border-collapse:collapse;table-layout:fixed}table.wkg td:first-child{width:84px}table.wkg td{overflow-wrap:anywhere;white-space:normal;text-align:left;background:none}table.wkg{border:0}table.wkg td{padding:6px 4px;border-top:1px solid rgba(128,128,128,.2);vertical-align:top;text-align:left}.wkd{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;opacity:.65;margin:12px 0 2px}.rep{table-layout:auto!important}.rep td:first-child{width:auto!important}.rep td:not(:first-child),.rep th:not(:first-child){white-space:nowrap;text-align:right}.rep th{font-size:11px;text-align:left;padding:4px;background:none;white-space:normal}.rep td{font-size:13px}.wkloc{font-size:12.5px;margin-top:4px;opacity:.85}.wkloc a{color:inherit}.wkr{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:7px 0;border-top:1px solid rgba(128,128,128,.2);text-align:left}.wkr .sc{text-align:right;font-weight:600}')
 # --- links between the ratings site and the player database (players/): each team page links to its roster,
