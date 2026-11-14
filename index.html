@@ -291,8 +291,8 @@ function renderTeam(S){
   for(const g of games){const home=g[2]===x.t;const opp=home?g[4]:g[2];const gf=home?g[3]:g[5],ga=home?g[5]:g[3];
     const dd=Math.max(-CAP,Math.min(CAP,gf-ga));const o=S.byName[opp];const pts=o.r+dd;const pm=pts-x.r;
     const res=gf>ga?'W':gf<ga?'L':'T';
-    h+=`<tr class="click" data-t="${esc(opp)}"><td class="t">${g[1].slice(5)}${g[6]==='GS'?'<span class="chip" title="GameSheet score, provisional until MHR posts it">GS</span>':''}</td><td class="t">${esc(opp)}</td><td><b class="${res==='W'?'pos':res==='L'?'neg':''}">${res}</b> ${gf}-${ga}</td><td>${f2(o.r)}</td><td>${dd>0?'+':''}${dd}${Math.abs(gf-ga)>CAP?'*':''}</td><td>${f2(pts)}</td><td class="${pm>=0?'pos':'neg'}">${fs(pm)}</td></tr>`}
-  h+='</tbody></table></div><p class="legend">Points = opponent rating + goal differential (capped at ±7, * = capped). GS = GameSheet score, provisional until MHR posts the game. Rating is the average of points plus any MHR adjustment. +/- is that game against the current rating.</p>';
+    h+=`<tr class="click" data-t="${esc(opp)}"><td class="t">${g[1].slice(5)}${g[6]==='GS'?'<span class="chip" title="Weekend score, provisional until MHR posts it">GS</span>':''}</td><td class="t">${esc(opp)}</td><td><b class="${res==='W'?'pos':res==='L'?'neg':''}">${res}</b> ${gf}-${ga}</td><td>${f2(o.r)}</td><td>${dd>0?'+':''}${dd}${Math.abs(gf-ga)>CAP?'*':''}</td><td>${f2(pts)}</td><td class="${pm>=0?'pos':'neg'}">${fs(pm)}</td></tr>`}
+  h+='</tbody></table></div><p class="legend">Points = opponent rating + goal differential (capped at ±7, * = capped). GS = Weekend score, provisional until MHR posts the game. Rating is the average of points plus any MHR adjustment. +/- is that game against the current rating.</p>';
   return h;
 }
 function renderLog(S){
@@ -301,7 +301,7 @@ function renderLog(S){
   let h=`<input id="log-q" placeholder="Filter by team" value="${esc(q)}" style="width:100%;margin-bottom:10px"><p class="meta">${gs.length} games</p>`;
   h+='<div class="wrap"><table><thead><tr><th class="t">Date</th><th class="t">Team</th><th></th><th class="t">Team</th><th></th></tr></thead><tbody>';
   for(const g of gs){const aw=g[3]>g[5],bw=g[5]>g[3];const isAdded=added.includes(g);
-    h+=`<tr><td class="t">${g[1].slice(5)}${isAdded?'<span class="chip">added</span>':''}${g[6]==='GS'?'<span class="chip" title="GameSheet score, provisional until MHR posts it">GS</span>':''}</td><td class="t click" data-t="${esc(g[2])}" style="${aw?'font-weight:600':''}">${esc(g[2])}</td><td class="num" style="text-align:center">${g[3]}</td><td class="t click" data-t="${esc(g[4])}" style="${bw?'font-weight:600':''}">${esc(g[4])}</td><td class="num" style="text-align:center">${g[5]}</td></tr>`}
+    h+=`<tr><td class="t">${g[1].slice(5)}${isAdded?'<span class="chip">added</span>':''}${g[6]==='GS'?'<span class="chip" title="Weekend score, provisional until MHR posts it">GS</span>':''}</td><td class="t click" data-t="${esc(g[2])}" style="${aw?'font-weight:600':''}">${esc(g[2])}</td><td class="num" style="text-align:center">${g[3]}</td><td class="t click" data-t="${esc(g[4])}" style="${bw?'font-weight:600':''}">${esc(g[4])}</td><td class="num" style="text-align:center">${g[5]}</td></tr>`}
   return h+'</tbody></table></div>';
 }
 function renderAdded(){
