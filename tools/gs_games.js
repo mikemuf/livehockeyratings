@@ -4,7 +4,7 @@
 // Writes one JSON object per line into <main><pre>; poll window.__gsdone, then get_page_text.
 window.__gsdone=false;window.__gsp=0;(async()=>{
 const S=location.pathname.match(/seasons\/(\d+)/)[1],DT=window.__GS_DATES||/Nov 1[3-5]/,Q=window.__GS_Q||[''];
-const ids=new Map();
+const ids=new Map();if(window.__GS_IDS){window.__GS_IDS.forEach(x=>ids.set(String(x),1))}else
 for(const q of Q){const f=document.createElement('iframe');f.style.cssText='position:absolute;left:-6000px;width:1200px;height:900px';document.body.appendChild(f);f.src='/seasons/'+S+'/games?filter%5Bstatus%5D=all'+(q?'&filter%5Bquery%5D='+encodeURIComponent(q):'');await new Promise(r=>{f.onload=r;setTimeout(r,12000)});await new Promise(r=>setTimeout(r,3500));
  for(const a of f.contentDocument.querySelectorAll('a[href*="/games/"]')){const m=a.getAttribute('href').match(/\/games\/(\d+)/);if(!m)continue;let row=a;for(let k=0;k<10&&row&&!(/2026/.test(row.innerText)&&/(\d+-\d+|\d:\d\d [AP]M)/.test(row.innerText));k++)row=row.parentElement;const tx=row?row.innerText:'';if(DT.test(tx)&&/(^|\s)\d+-\d+(\s|$)/.test(tx))ids.set(m[1],1)}f.remove()}
 const out=[];window.__gsn=ids.size;
