@@ -6474,21 +6474,21 @@ null
 "rink": "Hazel Park Ice Arena - PRO",
 "v": "Nashville Jr. Predators",
 "h": "Pittsburgh Penguins Elite",
-"vs": 1,
-"hs": 3,
-"st": "IN PROGRESS",
+"vs": 4,
+"hs": 4,
+"st": "FINAL",
 "goalies": [
 [
 0,
 "33",
 "John Nolan Blankush",
-""
+"T"
 ],
 [
 1,
 "88",
 "Donovan Chavez",
-""
+"T"
 ]
 ],
 "goals": [
@@ -6527,6 +6527,126 @@ null
 ]
 ],
 []
+],
+[
+"3RD",
+"13:50",
+1,
+[
+[
+"96",
+"Theo Lessard",
+7
+],
+[
+"13",
+"Tristan Leduc",
+9
+]
+],
+[]
+],
+[
+"3RD",
+"07:22",
+0,
+[
+[
+"88",
+"William Mathews",
+1
+],
+[
+"29",
+"Lev Tikhonov",
+1
+],
+[
+"26",
+"Aedan Bouchard",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"05:05",
+0,
+[
+[
+"71",
+"Alexander Katona",
+4
+],
+[
+"11",
+"Patrick Peterson",
+3
+]
+],
+[
+"PP"
+]
+],
+[
+"3RD",
+"04:46",
+0,
+[
+[
+"2",
+"Lincoln Brown",
+4
+],
+[
+"26",
+"Aedan Bouchard",
+2
+],
+[
+"16",
+"Roderick Mcdaniel",
+3
+]
+],
+[]
+],
+[
+"3RD",
+"04:16",
+0,
+[
+[
+"10",
+"Sebastien Erat",
+5
+],
+[
+"2",
+"Lincoln Brown",
+3
+]
+],
+[]
+],
+[
+"3RD",
+"00:44",
+1,
+[
+[
+"13",
+"Tristan Leduc",
+1
+],
+[
+"72",
+"Gavin O'Toole",
+1
+]
+],
+[]
 ]
 ],
 "pens": [
@@ -6562,6 +6682,17 @@ null
 null
 ],
 "Roughing - minor, 2 min"
+],
+[
+"3RD",
+"6:02",
+1,
+[
+"10",
+"Gunner Rieling",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
 ]
 ]
 },
@@ -6575,8 +6706,8 @@ null
 "goalies": [],
 "goals": [],
 "pens": [],
-"vs": 1,
-"hs": 0,
+"vs": 2,
+"hs": 3,
 "st": "IN PROGRESS"
 },
 "2012|16410|3157018": {
@@ -6590,7 +6721,7 @@ null
 "goals": [],
 "pens": [],
 "vs": 0,
-"hs": 2,
+"hs": 5,
 "st": "IN PROGRESS"
 }
 }
