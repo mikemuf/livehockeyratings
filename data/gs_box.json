@@ -6389,19 +6389,19 @@ null
 "h": "St. Louis Blues",
 "vs": 1,
 "hs": 0,
-"st": "IN PROGRESS",
+"st": "FINAL",
 "goalies": [
 [
 0,
 "33",
 "Dimitri Petrushchak",
-""
+"W"
 ],
 [
 1,
 "30",
 "Landon Norris",
-""
+"L"
 ]
 ],
 "goals": [
@@ -6426,7 +6426,9 @@ null
 2
 ]
 ],
-[]
+[
+"GWG"
+]
 ]
 ],
 "pens": [
@@ -6473,7 +6475,7 @@ null
 "v": "Nashville Jr. Predators",
 "h": "Pittsburgh Penguins Elite",
 "vs": 0,
-"hs": 0,
+"hs": 2,
 "st": "IN PROGRESS",
 "goalies": [],
 "goals": [],
