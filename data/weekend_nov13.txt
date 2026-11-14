@@ -16,3 +16,4 @@ Fri 9:30pm CT: Chrome back. MHR scan all 4 divisions (Nov 13): added 3 more 2012
 GAMESHEET (Mike taught Sat 7:44am): find any event at https://www.gamesheetinc.com/stats → search box ("Search leagues and tournaments…") e.g. "Little Caesars" → pick the event by name/dates → URL gives seasonId. Then use https://gamesheetstats.com/seasons/<id>/games (scores; shows LIVE + COMPLETED; score is VISITOR-HOME; has Watch on LiveBarn / Black Bear TV per game) and /players (scorers). In Chrome: set the search input value with the native setter + dispatch 'input', then click the result; read with get_page_text.
  2012 Challenger Cup = seasonId 16410 (MAHA Invitational Events). Also seen: "Little Caesars - 2011 Weekend Series - Nov 12-15, 2026".
  Hazel Park streams on Black Bear TV, Dearborn (Adray / Kilpatrick arenas) on LiveBarn, Belfor no stream listed.
+Sat 8:15 CT: GS 16410 Nov14 #22 Seacoast 6-2 Fury added. Live: LC 3-1 C-K, TOR 6-0 STL, NSH 2-0 Hill, CLE 0-0 H-P.
