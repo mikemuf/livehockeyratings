@@ -6841,7 +6841,7 @@ null
 "h": "Chicago Mission",
 "vs": 4,
 "hs": 1,
-"st": "IN PROGRESS",
+"st": "FINAL",
 "goalies": [],
 "goals": [],
 "pens": []
@@ -6855,10 +6855,169 @@ null
 "h": "Little Caesars",
 "vs": 2,
 "hs": 2,
-"st": "IN PROGRESS",
-"goalies": [],
-"goals": [],
-"pens": []
+"st": "FINAL",
+"goalies": [
+[
+0,
+"33",
+"Blake Pierce",
+"T"
+],
+[
+1,
+"88",
+"Dylan Gauthier",
+"T"
+]
+],
+"goals": [
+[
+"2ND",
+"04:00",
+1,
+[
+[
+"10",
+"Owen Matzka",
+3
+]
+],
+[]
+],
+[
+"2ND",
+"02:40",
+1,
+[
+[
+"28",
+"Andrew Deskins",
+3
+],
+[
+"93",
+"Brennan Martin",
+3
+],
+[
+"2",
+"Mason Wills",
+2
+]
+],
+[]
+],
+[
+"3RD",
+"13:10",
+0,
+[
+[
+"13",
+"Ryder White",
+1
+]
+],
+[]
+],
+[
+"3RD",
+"02:58",
+0,
+[
+[
+"25",
+"Cole Roderick",
+1
+],
+[
+"94",
+"Zachary Xanders",
+1
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"13:49",
+0,
+[
+"77",
+"Nikita Kochetov",
+null
+],
+"Interference - minor, 2 min"
+],
+[
+"1ST",
+"03:36",
+1,
+[
+"9",
+"Maddox Koehler",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"1ST",
+"01:16",
+1,
+[
+"20",
+"Gabriel Eger",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"2ND",
+"10:12",
+0,
+[
+"22",
+"Lane Pozza",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"2ND",
+"02:24",
+0,
+[
+"77",
+"Nikita Kochetov",
+null
+],
+"Elbowing - minor, 2 min"
+],
+[
+"3RD",
+"15:00",
+1,
+[
+"20",
+"Gabriel Eger",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"3RD",
+"13:35",
+0,
+[
+"27",
+"Colin Heady",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+]
+]
 },
 "2012|16410|3157012": {
 "div": "2012",
@@ -6867,7 +7026,21 @@ null
 "rink": "Dearborn Ice Skating Center Adray Arena",
 "v": "Team Illinois",
 "h": "Upper Canada College",
-"vs": 2,
+"vs": 5,
+"hs": 0,
+"st": "IN PROGRESS",
+"goalies": [],
+"goals": [],
+"pens": []
+},
+"2012|16410|3157015": {
+"div": "2012",
+"date": "2026-11-14",
+"time": "6:00 PM",
+"rink": "Hazel Park Ice Arena - PRO",
+"v": "Huron Perth Lakers",
+"h": "Fox Motors",
+"vs": 0,
 "hs": 0,
 "st": "IN PROGRESS",
 "goalies": [],
