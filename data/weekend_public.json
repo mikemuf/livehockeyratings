@@ -4,7 +4,7 @@
  "updated": "Fri Nov 13, 9:45 PM CT",
  "from": "2026-11-12",
  "to": "2026-11-16",
- "note": "Ranks are MHR’s Nov 11 ratings; they move live as results come in. Game times are local to the rink.",
+ "note": "Ranks are MHR’s Nov 11 ratings and move live as results come in. Game times are local to the rink. Many rinks stream on LiveBarn.",
  "next": "",
  "divs": {
   "2012": {
@@ -22,55 +22,60 @@
     }
    ],
    "watch": [
-    [
-     "Sat Nov 14",
-     "3:00 PM",
-     "Nashville Jr. Predators",
-     "Pittsburgh Penguins Elite",
-     "Hazel Park"
-    ],
-    [
-     "Sat Nov 14",
-     "10:00 AM",
-     "Top Gun (Elite)",
-     "Biggby Coffee",
-     "Hazel Park"
-    ],
-    [
-     "Fri Nov 13",
-     "6:30 PM",
-     "Nashville Jr. Predators",
-     "Ohio Blue Jackets",
-     "Dearborn"
-    ],
-    [
-     "Sat Nov 14",
-     "10:00 AM",
-     "Team Illinois",
-     "NJ Colonials",
-     "Dearborn"
-    ],
-    [
-     "Sat Nov 14",
-     "8:00 AM",
-     "Little Caesars",
-     "Chatham-Kent Cyclones",
-     "Hazel Park"
-    ],
-    [
-     "Sat Nov 14",
-     "5:30 PM",
-     "Team Illinois",
-     "Upper Canada College",
-     "Dearborn"
-    ],
-    [
-     "Sat Nov 14",
-     "10:30 AM",
-     "HB Detroit",
-     "Victory Honda",
-     "Victory Ice Center (league)"
-    ]
+    {
+     "day": "Sat Nov 14",
+     "time": "8:00 AM",
+     "a": "Little Caesars",
+     "b": "Chatham-Kent Cyclones",
+     "rink": "Hazel Park Ice Arena",
+     "city": "Hazel Park, MI",
+     "note": "Challenger Cup"
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "10:00 AM",
+     "a": "Top Gun (Elite)",
+     "b": "Biggby Coffee",
+     "rink": "Hazel Park Ice Arena",
+     "city": "Hazel Park, MI",
+     "note": "Challenger Cup"
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "10:00 AM",
+     "a": "Team Illinois",
+     "b": "NJ Colonials",
+     "rink": "Dearborn Ice Skating Center",
+     "city": "Dearborn, MI",
+     "note": "Challenger Cup"
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "10:30 AM",
+     "a": "HB Detroit",
+     "b": "Victory Honda",
+     "rink": "Victory Ice Center",
+     "city": "",
+     "note": "League game"
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "3:00 PM",
+     "a": "Nashville Jr. Predators",
+     "b": "Pittsburgh Penguins Elite",
+     "rink": "Hazel Park Ice Arena",
+     "city": "Hazel Park, MI",
+     "note": "Challenger Cup"
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "5:30 PM",
+     "a": "Team Illinois",
+     "b": "Upper Canada College",
+     "rink": "Dearborn Ice Skating Center",
+     "city": "Dearborn, MI",
+     "note": "Challenger Cup"
+    }
    ]
   },
   "2013": {
@@ -87,48 +92,51 @@
     }
    ],
    "watch": [
-    [
-     "Sat Nov 14",
-     "9:40 AM",
-     "Chicago Reapers",
-     "Chicago Mission",
-     "Nicholas Sportsplex"
-    ],
-    [
-     "Sun Nov 15",
-     "10:50 AM",
-     "Chicago Reapers",
-     "Chicago Mission",
-     "Elk Grove Ice Arena"
-    ],
-    [
-     "Fri Nov 13",
-     "4:00 PM",
-     "Cleveland Barons",
-     "Philadelphia Jr Flyers",
-     "Barons Bus Arena (also Sat 8:00 AM and 12:40 PM)"
-    ],
-    [
-     "Sun Nov 15",
-     "8:20 AM",
-     "Pittsburgh Penguins Elite",
-     "Buffalo Jr Sabres",
-     "UPMC Lemieux (also 1:40 PM)"
-    ],
-    [
-     "Fri Nov 13",
-     "1:30 PM",
-     "HB Detroit",
-     "St. Louis Blues",
-     "Valley Ranch, Dallas"
-    ],
-    [
-     "Sat Nov 14",
-     "8:00 AM",
-     "Dallas Stars",
-     "St. Louis Blues",
-     "Valley Ranch, Dallas"
-    ]
+    {
+     "day": "Sat Nov 14",
+     "time": "8:00 AM",
+     "a": "Cleveland Barons",
+     "b": "Philadelphia Jr Flyers",
+     "rink": "Gilmour Academy",
+     "city": "Gates Mills, OH",
+     "note": "Also 12:40 PM"
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "8:00 AM",
+     "a": "Dallas Stars",
+     "b": "St. Louis Blues",
+     "rink": "Children's Health StarCenter – Valley Ranch",
+     "city": "Irving, TX",
+     "note": ""
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "9:40 AM",
+     "a": "Chicago Reapers",
+     "b": "Chicago Mission",
+     "rink": "Nicholas Sportsplex",
+     "city": "",
+     "note": ""
+    },
+    {
+     "day": "Sun Nov 15",
+     "time": "8:20 AM",
+     "a": "Pittsburgh Penguins Elite",
+     "b": "Buffalo Jr Sabres",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "Also 1:40 PM"
+    },
+    {
+     "day": "Sun Nov 15",
+     "time": "10:50 AM",
+     "a": "Chicago Reapers",
+     "b": "Chicago Mission",
+     "rink": "Elk Grove Ice Arena",
+     "city": "Elk Grove Village, IL",
+     "note": "Rematch"
+    }
    ]
   },
   "2014": {
@@ -151,34 +159,33 @@
     }
    ],
    "watch": [
-    [
-     "Fri Nov 13",
-     "3:30 PM",
-     "Boston Jr Eagles (Elite)",
-     "St Louis Blues",
-     "Harbor Center"
-    ],
-    [
-     "Sat Nov 14",
-     "4:30 PM",
-     "St Louis Blues",
-     "North Jersey Avalanche",
-     "Harbor Center"
-    ],
-    [
-     "Sat Nov 14",
-     "3:00 PM",
-     "Little Caesars",
-     "Victory Honda",
-     "Victory Ice Center (league)"
-    ],
-    [
-     "Fri Nov 13",
-     "2:00 PM",
-     "Anaheim Jr Ducks",
-     "Phoenix Jr Coyotes",
-     "Valley Ranch (also Sat 4:00 PM)"
-    ]
+    {
+     "day": "Sat Nov 14",
+     "time": "3:00 PM",
+     "a": "Little Caesars",
+     "b": "Victory Honda",
+     "rink": "Victory Ice Center",
+     "city": "",
+     "note": "League game"
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "4:00 PM",
+     "a": "Anaheim Jr Ducks",
+     "b": "Phoenix Jr Coyotes",
+     "rink": "Children's Health StarCenter – Valley Ranch",
+     "city": "Irving, TX",
+     "note": ""
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "4:30 PM",
+     "a": "St Louis Blues",
+     "b": "North Jersey Avalanche",
+     "rink": "Harbor Center",
+     "city": "Buffalo, NY",
+     "note": ""
+    }
    ]
   },
   "2015": {
@@ -197,48 +204,42 @@
     }
    ],
    "watch": [
-    [
-     "Sun Nov 15",
-     "10:00 AM",
-     "Mid-Fairfield Hockey Club (Elite)",
-     "Boston Jr Eagles (Elite)",
-     "Chelsea Piers, CT (also 1:00 PM)"
-    ],
-    [
-     "Fri Nov 13",
-     "2:40 PM",
-     "Dallas Stars Elite",
-     "St Louis Blues",
-     "Centene, St. Louis"
-    ],
-    [
-     "Sat Nov 14",
-     "8:30 AM",
-     "South Shore Kings (Elite)",
-     "Providence Capitals (Elite)",
-     "Schneider Arena"
-    ],
-    [
-     "Fri Nov 13",
-     "9:10 AM",
-     "Dallas Stars Elite",
-     "Florida Alliance",
-     "Centene, St. Louis"
-    ],
-    [
-     "Sat Nov 14",
-     "8:00 AM",
-     "St Louis Blues",
-     "Florida Alliance",
-     "Centene, St. Louis"
-    ],
-    [
-     "Sat Nov 14",
-     "11:30 AM",
-     "Mid-Fairfield Hockey Club (Elite)",
-     "Middlesex Islanders East (Elite)",
-     "Chelsea Piers, CT (also 4:00 PM)"
-    ]
+    {
+     "day": "Sat Nov 14",
+     "time": "8:00 AM",
+     "a": "St Louis Blues",
+     "b": "Florida Alliance",
+     "rink": "Centene Community Ice Center",
+     "city": "Maryland Heights, MO",
+     "note": ""
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "8:30 AM",
+     "a": "South Shore Kings (Elite)",
+     "b": "Providence Capitals (Elite)",
+     "rink": "Schneider Arena",
+     "city": "Providence, RI",
+     "note": ""
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "11:30 AM",
+     "a": "Mid-Fairfield Hockey Club (Elite)",
+     "b": "Middlesex Islanders East (Elite)",
+     "rink": "Chelsea Piers Connecticut",
+     "city": "Stamford, CT",
+     "note": "Also 4:00 PM"
+    },
+    {
+     "day": "Sun Nov 15",
+     "time": "10:00 AM",
+     "a": "Mid-Fairfield Hockey Club (Elite)",
+     "b": "Boston Jr Eagles (Elite)",
+     "rink": "Chelsea Piers Connecticut",
+     "city": "Stamford, CT",
+     "note": "Also 1:00 PM"
+    }
    ]
   }
  }

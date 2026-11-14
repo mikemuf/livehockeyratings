@@ -8,7 +8,8 @@ function renderWeekend(S){
   h+='</div>';
   if((D.events||[]).length)h+='<div class="card"><h3 style="margin-top:0">Tournaments</h3>'+D.events.map(e=>`<p style="margin:6px 0"><b>${esc(e.name)}</b>${e.where?` <span class="small">· ${esc(e.where)}</span>`:''}<br><span class="small">${esc(e.result||'')}</span></p>`).join('')+'</div>';
   h+='<div class="card"><h3 style="margin-top:0">Games to watch</h3>';
-  if((D.watch||[]).length)h+='<table class="wkg">'+D.watch.map(g=>`<tr><td class="small" style="white-space:nowrap">${esc(g[0])}<br>${esc(g[1]||'')}</td><td>${esc(g[2])}${tag(g[2])}<br>vs ${esc(g[3])}${tag(g[3])}${g[4]?`<br><span class="small">${esc(g[4])}</span>`:''}</td></tr>`).join('')+'</table>';
+  const W2=(D.watch||[]).map(g=>Array.isArray(g)?{day:g[0],time:g[1],a:g[2],b:g[3],rink:g[4]||'',city:'',note:''}:g);
+  if(W2.length)h+='<table class="wkg">'+W2.map(g=>{const q=encodeURIComponent((g.rink+' '+(g.city||'')).trim());const loc=g.rink?`<div class="wkloc">📍 <b>${esc(g.rink)}</b>${g.city?', '+esc(g.city):''}<br><a href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener">Map</a> · <a href="https://livebarn.com/en/venue" target="_blank" rel="noopener">LiveBarn</a>${g.note?' · '+esc(g.note):''}</div>`:'';return `<tr><td class="small" style="white-space:nowrap">${esc(g.day)}<br>${esc(g.time||'')}</td><td>${esc(g.a)}${tag(g.a)}<br>vs ${esc(g.b)}${tag(g.b)}${loc}</td></tr>`}).join('')+'</table><p class="legend">Times are local to the rink. LiveBarn opens its rink list; search the rink name to watch.</p>';
   else h+=`<p class="small">${esc(W.next||'Check back later in the week.')}</p>`;
   h+='</div>';
   const G=WEEKEND_GAMES.filter(g=>g[0]===div).slice().sort((a,b)=>a[1]<b[1]?1:a[1]>b[1]?-1:0);
