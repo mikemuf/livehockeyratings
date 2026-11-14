@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 13–15",
  "status": "In progress — Saturday",
- "updated": "Sat Nov 14, 9:15 AM CT",
+ "updated": "Sat Nov 14, 9:45 AM CT",
  "from": "2026-11-12",
  "to": "2026-11-16",
  "note": "Ranks are MHR’s Nov 11 ratings and move live as results come in. Game times are local to the rink. Many rinks stream on LiveBarn.",
@@ -9,6 +9,8 @@
  "divs": {
   "2012": {
    "summary": [
+    "Saturday morning: Toronto Jr Canadiens (CAN) are 3-0 with three shutouts after beating St. Louis Blues (#25, 93.99) 6-0. Little Caesars (#3, 97.66) handed Chatham-Kent (CAN) its first loss, 4-1. Nashville (#7, 96.54) blanked Hill Academy 5-0, and Seacoast (#23, 94.21) beat Chicago Fury 6-2.",
+    "In progress: Huron-Perth (CAN) leads Cleveland 5-1. Masters Academy (#27, 93.79) leads Ohio Blue Jackets (#26, 93.96) 2-1. Biggby (#18, 94.96) and Top Gun (#13, 96.17) are tied 1-1, and NJ Colonials (#21, 94.38) and Team Illinois (#6, 96.99) are scoreless.",
     "Ontario teams are the story of Day 1 at the Little Caesars Challenger Cup. Toronto Jr Canadiens are 2-0 (3-0 over Top Gun #11, 6-0 over Windy City), Chatham-Kent is 2-0 (4-1 Seacoast, 6-1 Chicago Fury), Huron-Perth beat NJ Colonials (#21) 4-1, and Upper Canada College beat Cleveland 4-1.",
     "Fox Motors (now #29, 93.75) is 2-0, beating Boston Jr Eagles (#20) 4-1 and Seacoast (#24) 2-0. Windy City beat Biggby 3-1 before losing 6-0 to Toronto.",
     "Little Caesars (#3, 97.63) went 2-0. Penguins Elite went 2-0, including a 7-5 win over Ohio, and Nashville went 2-0, edging Masters 3-2 and Ohio 4-3. Team Illinois went 2-0, but a smaller-than-expected 4-1 win over Cleveland (#72) dropped it to #6 (97.02).",
@@ -28,15 +30,6 @@
     }
    ],
    "watch": [
-    {
-     "day": "Sat Nov 14",
-     "time": "8:00 AM",
-     "a": "Little Caesars",
-     "b": "Chatham-Kent Cyclones",
-     "rink": "Hazel Park Ice Arena",
-     "city": "Hazel Park, MI",
-     "note": "Challenger Cup"
-    },
     {
      "day": "Sat Nov 14",
      "time": "10:00 AM",
@@ -300,6 +293,7 @@
   },
   "2013": {
    "summary": [
+    "Cleveland Barons (#8, 92.63) beat Philadelphia Jr Flyers (#25, 90.08) twice: 3-1 on Friday and 6-1 on Saturday morning. Reapers (#1, 95.12) vs Mission (#10, 91.45) is under way at Mount Prospect.",
     "The headline is in Chicago: the Chicago Reapers (#1, 95.09) host Chicago Mission (#10, 91.42) twice, Saturday at Nicholas Sportsplex and Sunday at Elk Grove.",
     "Cleveland Barons (#8) play Philadelphia Jr Flyers (#24) three times. Pittsburgh Penguins Elite (#9) play Buffalo Jr Sabres (#32) twice on Sunday.",
     "MN Lakers (#2), Anaheim (#3), Little Caesars (#4), Mid-Fairfield (#5), Woodbridge (#6) and Syracuse (#7) have no games listed this weekend."
@@ -317,24 +311,6 @@
     }
    ],
    "watch": [
-    {
-     "day": "Sat Nov 14",
-     "time": "8:00 AM",
-     "a": "Cleveland Barons",
-     "b": "Philadelphia Jr Flyers",
-     "rink": "Gilmour Academy",
-     "city": "Gates Mills, OH",
-     "note": "Also 12:40 PM"
-    },
-    {
-     "day": "Sat Nov 14",
-     "time": "8:00 AM",
-     "a": "Dallas Stars",
-     "b": "St. Louis Blues",
-     "rink": "Children's Health StarCenter – Valley Ranch",
-     "city": "Irving, TX",
-     "note": ""
-    },
     {
      "day": "Sat Nov 14",
      "time": "9:40 AM",
@@ -439,6 +415,7 @@
   "2015": {
    "summary": [
     "Dallas Stars Elite (#7, now 92.70) opened 2-0 in St. Louis, beating Florida Alliance 9-3 and St Louis Blues (#11) 3-2.",
+    "South Shore Kings (#8, 92.36) beat PAL Jr Islanders (Blue) (#19, 90.58) 4-2 on Friday night.",
     "Mid-Fairfield Elite (#4) has a big Connecticut weekend at Chelsea Piers: two games vs Middlesex Islanders East (#41) on Saturday and two vs Boston Jr Eagles (#6) on Sunday.",
     "St. Louis (Centene Community Ice Center) hosts Dallas Stars Elite (#7), St Louis Blues (#11), Florida Alliance (#18) and Oakland (#24).",
     "South Shore Kings (#8) play Providence Capitals (#13) Saturday morning.",
@@ -457,24 +434,6 @@
     }
    ],
    "watch": [
-    {
-     "day": "Sat Nov 14",
-     "time": "8:00 AM",
-     "a": "St Louis Blues",
-     "b": "Florida Alliance",
-     "rink": "Centene Community Ice Center",
-     "city": "Maryland Heights, MO",
-     "note": ""
-    },
-    {
-     "day": "Sat Nov 14",
-     "time": "8:30 AM",
-     "a": "South Shore Kings (Elite)",
-     "b": "Providence Capitals (Elite)",
-     "rink": "Schneider Arena",
-     "city": "Providence, RI",
-     "note": ""
-    },
     {
      "day": "Sat Nov 14",
      "time": "4:10 PM",
