@@ -57,3 +57,4 @@ Sun 8:55pm: Mike shared the event's own Google Sheet (Chop Detroit Invitational,
 Sun 9:16pm: checked Woodbridge 12U vs NJ Rockets (7:25pm) — still not posted on MHR. Nothing new.
 *** SCHEDULE (Mike Sun Nov 8 10:29pm): weekend task now runs only Fri/Sat/Sun, hourly 8:15 AM–11:15 PM Central (CRON_TZ=America/Chicago 15 8-23 * * 0,5,6). No Mon–Thu checks. Wednesday report unchanged. Friday morning runs with no games yet: stay silent.
  - WATCH LIST FORMAT (Mike Fri 9:48pm, for LiveBarn viewers): each watch entry is {day,time,a,b,rink,city,note}; ALWAYS fill rink (full name from MHR/GameSheet) and city when known. Page adds Map + LiveBarn links. Times are local to rink.
+ - REPORT CARD (Mike Fri 9:51pm): weekend_public.json divs.X.report = {title,from,to,teams[],note} renders a tournament 'report card' (record, GF-GA, played-like rating, vs-rating per game) computed live in the page. Add one for each big event; keep team names = app names.

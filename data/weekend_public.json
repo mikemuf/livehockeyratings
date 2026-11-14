@@ -76,7 +76,36 @@
      "city": "Dearborn, MI",
      "note": "Challenger Cup"
     }
-   ]
+   ],
+   "report": {
+    "title": "Challenger Cup report card (through Friday)",
+    "from": "2026-11-13",
+    "to": "2026-11-15",
+    "teams": [
+     "Little Caesars",
+     "Team Illinois",
+     "Nashville Jr. Predators",
+     "Top Gun (Elite)",
+     "Pittsburgh Penguins Elite",
+     "Biggby Coffee",
+     "Boston Jr Eagles (Elite)",
+     "NJ Colonials",
+     "Seacoast Performance Academy",
+     "St. Louis Blues",
+     "Ohio Blue Jackets",
+     "Masters Academy",
+     "Fox Motors",
+     "Windy City Storm",
+     "Chicago Fury",
+     "Cleveland Barons",
+     "Chatham-Kent Cyclones",
+     "Huron Perth Lakers",
+     "Toronto Jr Canadiens",
+     "Upper Canada College",
+     "Hill Academy"
+    ],
+    "note": "Updates automatically as results are added."
+   }
   },
   "2013": {
    "summary": [
