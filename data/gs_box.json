@@ -6387,11 +6387,82 @@ null
 "rink": "Belfor Training Center",
 "v": "Windy City Storm",
 "h": "St. Louis Blues",
-"vs": 0,
+"vs": 1,
 "hs": 0,
 "st": "IN PROGRESS",
-"goalies": [],
-"goals": [],
-"pens": []
+"goalies": [
+[
+0,
+"33",
+"Dimitri Petrushchak",
+""
+],
+[
+1,
+"30",
+"Landon Norris",
+""
+]
+],
+"goals": [
+[
+"2ND",
+"12:13",
+0,
+[
+[
+"21",
+"Isaac Nagase",
+1
+],
+[
+"66",
+"William Moore",
+1
+],
+[
+"14",
+"Tatsuki Tenjiku",
+2
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"7:43",
+0,
+[
+"93",
+"Max Bicknell",
+null
+],
+"Interference - minor, 2 min"
+],
+[
+"1ST",
+"1:18",
+1,
+[
+"19",
+"Benjamin Sehnert",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"2ND",
+"12:13",
+0,
+[
+"19",
+"Tate Laniosz",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+]
+]
 }
 }
