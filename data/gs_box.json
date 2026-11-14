@@ -3102,7 +3102,7 @@ null
 "v": "Upper Canada College",
 "h": "Fox Motors",
 "vs": 1,
-"hs": 4,
+"hs": 5,
 "st": "IN PROGRESS",
 "goalies": [
 [
@@ -3208,6 +3208,29 @@ null
 ]
 ],
 []
+],
+[
+"3RD",
+"2:58",
+1,
+[
+[
+"21",
+"Harrison Kosecki",
+3
+],
+[
+"93",
+"Jayse Halladay",
+3
+],
+[
+"17",
+"Cooper Constantino",
+2
+]
+],
+[]
 ]
 ],
 "pens": [
@@ -3221,6 +3244,50 @@ null
 null
 ],
 "Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"2ND",
+"5:01",
+0,
+[
+"21",
+"Thomas Axell",
+null
+],
+"Slashing - minor, 2 min"
+],
+[
+"3RD",
+"1:50",
+1,
+[
+"34",
+"Blake Dutton",
+null
+],
+"Fighting - instigator/drop gloves/other - minor, 2 min"
+],
+[
+"3RD",
+"1:50",
+0,
+[
+"71",
+"Andrew Reed",
+null
+],
+"Fighting - instigator/drop gloves/other - minor, 2 min"
+],
+[
+"3RD",
+"0:29",
+0,
+[
+"86",
+"Benjamin Diarra",
+null
+],
+"Elbowing - minor, 2 min"
 ]
 ]
 },
