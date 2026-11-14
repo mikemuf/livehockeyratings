@@ -36,3 +36,4 @@ Sat 2:15 hourly: MHR 2013 scan — nothing new (Reapers-Mission 13U AM still not
 Sat 3:15 hourly: MHR 2012 top-16 scan — no non-event results (Reapers-Mission 2012 still unposted).
 Sat 4:00 CT: FOUND the Reapers/Mission scores — Elk Grove (Mission home) games are on Mission's account 15464 'Chicago Mission Exhibition Games' (search filter 'Reapers'); Mount Prospect games on 15356 (finals appear after the game, not live). 2012 Reapers 3-4 SO Mission → counted 3-3 tie; 2013 Reapers 3-2 Mission. 2011 15O live on 15464 (2968680). No player names on these sheets.
 Mike Sat 4:00 PM: MHR counts a SHOOTOUT as a one-goal win for the shootout winner (e.g. 4-3), NOT a tie. Always record SO games that way.
+Sat 4:15 hourly: added 2012 CK 3-2 BJE, NJ 6-0 Cleveland; 2014 Cleveland 4-1 Phoenix (MHR scan). 2011 Reapers-Mission still LIVE 3-0 on 15464.
