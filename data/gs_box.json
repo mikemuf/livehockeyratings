@@ -6477,8 +6477,92 @@ null
 "vs": 0,
 "hs": 2,
 "st": "IN PROGRESS",
-"goalies": [],
-"goals": [],
-"pens": []
+"goalies": [
+[
+0,
+"33",
+"John Nolan Blankush",
+""
+],
+[
+1,
+"88",
+"Donovan Chavez",
+""
+]
+],
+"goals": [
+[
+"1ST",
+"10:29",
+1,
+[
+[
+"6",
+"Gunner Morgan",
+3
+],
+[
+"59",
+"Jacob Gostic",
+1
+]
+],
+[]
+],
+[
+"1ST",
+"5:56",
+1,
+[
+[
+"11",
+"Nicholas Mowrey",
+1
+],
+[
+"13",
+"Tristan Leduc",
+8
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"6:52",
+0,
+[
+"88",
+"William Mathews",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"2ND",
+"13:11",
+0,
+[
+"",
+"Bench",
+null
+],
+"Too many players on the ice - bench minor, 2 min"
+],
+[
+"2ND",
+"9:21",
+1,
+[
+"59",
+"Jacob Gostic",
+null
+],
+"Roughing - minor, 2 min"
+]
+]
 }
 }
