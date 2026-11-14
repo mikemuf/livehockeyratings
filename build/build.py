@@ -43,7 +43,7 @@ for g in json.load(open('data/games_wk_nov6.json'))+json.load(open('data/games_m
         for suf,dv in ((' (12U)','2014'),(' (11U)','2015')):
             if n.endswith(suf) and dv!=g[0]: P2X.setdefault(g[0],{})[n]=dv+'|'+n[:-len(suf)]
 for r in rep: print(*r)
-h=h[:i]+'const BASE = '+json.dumps(BASE)+';'+h[j:]
+h=h[:i]+'const BASE = '+json.dumps([g[:6]+(['wk'] if len(g)>6 else []) for g in BASE])+';'+h[j:]
 # --- anchors from Nov 4 rank files
 AL=json.load(open('build/aliases.json'))
 EXTRA={'2012':{'Tri-Valley Bulls (#1) 14U AA':'Tri-Valley Bulls (14U AA)','West Seneca Wings 14U AA':'West Seneca Wings (14U AA)','Canton Steel 14U AA':'St Lawrence Steel (14U AA)','California Jr Reign (#1) 14U AA':'California Jr Reign (14U AA)','California Bears 14U AA':'California Bears','Great Lakes HC 14U AA':'Great Lakes HC','St Louis Knights 14U AA':'St Louis Knights (14U AA)','Plymouth Flyers (Black) 14U AA':'Plymouth Flyers Black (14U AA)','Hartland Huskies (Black) 14U AA':'Hartland Huskies (Black) (14U AA)','Fairmont Prep (Green) 14U':'Fairmont Prep (Green)','CDA Hockey Academy U15 Prep':'CDA Hockey Academy','Connecticut Jr Rangers (Elite)':'Connecticut Jr Rangers (National)'},
