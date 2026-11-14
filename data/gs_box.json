@@ -6732,8 +6732,8 @@ null
 "v": "Chicago Reapers",
 "h": "Chicago Mission",
 "vs": 3,
-"hs": 3,
-"st": "FINAL (Mission won the shootout)",
+"hs": 4,
+"st": "FINAL (shootout)",
 "goalies": [],
 "goals": [
 [
@@ -6813,6 +6813,21 @@ null
 ]
 ],
 []
+],
+[
+"SO",
+"",
+1,
+[
+[
+"",
+"Shootout winner (not entered)",
+null
+]
+],
+[
+"SO"
+]
 ]
 ],
 "pens": []
