@@ -17,7 +17,7 @@ teams={dv:{x for g in BASE if g[0]==dv for x in (g[2],g[4])} for dv in ('2012','
 for dv,ns in {'2012':['Edina','OMGHA','Rochester Mustangs','Hill Academy'],'2013':['HKMK Bled']}.items(): teams[dv].update(ns)
 have={(g[0],g[1],frozenset((g[2],g[4]))) for g in BASE}
 def add(g,report):
-    if g[0] in ('2014','2015'):
+    if g[0] in ('2011','2014','2015'):
         if g not in BASE: BASE.append(g)
         return
     k=(g[0],g[1],frozenset((g[2],g[4])))
@@ -113,13 +113,13 @@ h=h.replace('const BASE = ','const LITE='+json.dumps(LITE)+';\nconst BASE = ',1)
 i=h.index('const MHR=');j=h.index('\n',i);mh=json.loads(h[i+len('const MHR='):j].rstrip(';'))
 for dv in LITE: mh[dv]={t:a[0] for t,a in LITE[dv].items()}
 h=h[:i]+'const MHR='+json.dumps(mh)+';'+h[j:]
-rep('<div class="seg"><button data-div="2012"','<div class="seg"><button data-div="2011">2011 15U</button><button data-div="2012"')
+rep('<div class="seg"><button data-div="2012"','<div class="seg"><button data-div="2011">2011 Midget Minor</button><button data-div="2012"')
 rep('<button data-div="2013">2013 Minor</button>','<button data-div="2013">2013 Minor</button><button data-div="2014">2014 Major</button><button data-div="2015">2015 Minor</button>')
-rep('<option value="2012">','<option value="2011">2011 Midget 15U</option><option value="2012">')
+rep('<option value="2012">','<option value="2011">2011 Midget Minor (15U)</option><option value="2012">')
 rep('<option value="2013">2013 Bantam Minor</option>','<option value="2013">2013 Bantam Minor</option><option value="2014">2014 Peewee Major (12U)</option><option value="2015">2015 Peewee Minor (11U)</option>')
 rep('<small>2026-27 Bantam</small>','<small>2026-27 15U, Bantam &amp; Peewee</small>')
 rep('<style>','<style>.bar{flex-wrap:wrap;row-gap:6px}@media (max-width:560px){.seg{margin-left:0;width:100%}.seg button{flex:1;padding:6px 4px}}')
-h=h.replace("div==='2012'?'2012 Bantam Major':'2013 Bantam Minor'","({'2011':'2011 Midget 15U','2012':'2012 Bantam Major','2013':'2013 Bantam Minor','2014':'2014 Peewee Major (12U)','2015':'2015 Peewee Minor (11U)'})[div]")
+h=h.replace("div==='2012'?'2012 Bantam Major':'2013 Bantam Minor'","({'2011':'2011 Midget Minor (15U)','2012':'2012 Bantam Major','2013':'2013 Bantam Minor','2014':'2014 Peewee Major (12U)','2015':'2015 Peewee Minor (11U)'})[div]")
 # --- public site: Weekend tab; hide internal tabs (Schedule, Add scores, Handoff)
 WK=json.load(open('data/weekend_public.json'))
 WG=[g[:6] for g in json.load(open('data/games_wk_nov6.json'))+json.load(open('data/pending_games.json')) if WK['from']<=g[1]<=WK['to']]

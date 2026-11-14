@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 13–15",
- "status": "In progress — Friday",
- "updated": "Fri Nov 13, 9:45 PM CT",
+ "status": "In progress — Saturday",
+ "updated": "Sat Nov 14, 9:15 AM CT",
  "from": "2026-11-12",
  "to": "2026-11-16",
  "note": "Ranks are MHR’s Nov 11 ratings and move live as results come in. Game times are local to the rink. Many rinks stream on LiveBarn.",
@@ -416,6 +416,87 @@
      "rink": "Elk Grove Ice Arena (West Rink)",
      "city": "Elk Grove Village, IL",
      "note": "LiveBarn"
+    }
+   ]
+  },
+  "2011": {
+   "summary": [
+    "Little Caesars (#8, 93.08) are hosting a three-team round robin in Detroit with Bishop Kearney Selects (#2, 95.55) and Shattuck St Mary's (#4, 94.33). Each pair plays twice.",
+    "So far: Bishop Kearney won 3-1 at LC on Thursday. On Friday Shattuck beat Bishop Kearney 6-2 (an upset over the #2 team), and LC answered with a 5-1 win over Shattuck.",
+    "Chicago Reapers (#5, 93.53) and Chicago Mission (#6, 93.46) play twice: Saturday 2:40 PM at Elk Grove and Sunday 1:30 PM at Mount Prospect.",
+    "Also this weekend: St. Louis Blues (#12, 92.19), Philadelphia Jr Flyers (#17, 91.45), North Jersey Avalanche (#21, 90.98) and Victory Honda (#22, 90.59) are at a showcase at Arctic Ice Arena. Mount St Charles (#3, 95.00) plays PAL Jr Islanders three times in league play, and Woodbridge (#9, 92.78) plays South Kent School twice. Penguins Elite (#1, 96.16) have no games listed."
+   ],
+   "events": [
+    {
+     "name": "Little Caesars 2011 Weekend Series",
+     "where": "BELFOR Training Center, Metro Detroit, Thu–Sun",
+     "result": "Round robin, each pair twice: Bishop Kearney 3-1 LC (Thu), Shattuck 6-2 Bishop Kearney (Fri), LC 5-1 Shattuck (Fri)."
+    },
+    {
+     "name": "Reaper/Mission Showcase",
+     "where": "Elk Grove Ice Arena (Sat) and Mount Prospect Ice Arena (Sun)",
+     "result": "Reapers vs Mission twice. Both games stream on LiveBarn."
+    },
+    {
+     "name": "Arctic Ice Arena showcase",
+     "where": "Sat–Mon",
+     "result": "St. Louis Blues, Philadelphia Jr Flyers, North Jersey Avalanche, Victory Honda, Fox Motors, Milwaukee Jr Admirals, Ohio Blue Jackets"
+    }
+   ],
+   "watch": [
+    {
+     "day": "Sat Nov 14",
+     "time": "12:00 PM",
+     "a": "Bishop Kearney Selects",
+     "b": "Little Caesars",
+     "rink": "BELFOR Training Center",
+     "city": "Metro Detroit, MI",
+     "note": "Rematch of Thursday's 3-1 Bishop Kearney win"
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "2:40 PM",
+     "a": "Chicago Reapers",
+     "b": "Chicago Mission",
+     "rink": "Elk Grove Ice Arena (West)",
+     "city": "Elk Grove Village, IL",
+     "note": "Reapers vs Mission home-and-home"
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "6:00 PM",
+     "a": "Shattuck St Mary's",
+     "b": "Little Caesars",
+     "rink": "BELFOR Training Center",
+     "city": "Metro Detroit, MI",
+     "note": "LC won Friday's meeting 5-1"
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "6:00 PM",
+     "a": "St Louis Blues",
+     "b": "Victory Honda",
+     "rink": "Arctic Ice Arena",
+     "city": "Orland Park, IL",
+     "note": ""
+    },
+    {
+     "day": "Sun Nov 15",
+     "time": "12:00 PM",
+     "a": "Bishop Kearney Selects",
+     "b": "Shattuck St Mary's",
+     "rink": "BELFOR Training Center",
+     "city": "Metro Detroit, MI",
+     "note": "Shattuck won Friday 6-2"
+    },
+    {
+     "day": "Sun Nov 15",
+     "time": "1:30 PM",
+     "a": "Chicago Mission",
+     "b": "Chicago Reapers",
+     "rink": "Mount Prospect Ice Arena (South)",
+     "city": "Mount Prospect, IL",
+     "note": "Reapers vs Mission home-and-home"
     }
    ]
   }
