@@ -6235,5 +6235,69 @@ null
 "Tripping/clipping/leg checking - minor, 2 min"
 ]
 ]
+},
+"2011|16677|3172417": {
+"div": "2011",
+"date": "2026-11-14",
+"time": "12:00 PM",
+"rink": "BELFOR Training Center",
+"v": "Bishop Kearney Selects",
+"h": "Little Caesars",
+"vs": 2,
+"hs": 0,
+"st": "IN PROGRESS",
+"goalies": [],
+"goals": [
+[
+"1ST",
+"11:16",
+0,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[]
+],
+[
+"2ND",
+"4:45",
+0,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"9:46",
+0,
+[
+"",
+"Not Available",
+null
+],
+"Tripping - minor, 2 min"
+],
+[
+"2ND",
+"3:54",
+0,
+[
+"",
+"Not Available",
+null
+],
+"Slashing - minor, 2 min"
+]
+]
 }
 }
