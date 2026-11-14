@@ -6245,7 +6245,7 @@ null
 "h": "Little Caesars",
 "vs": 2,
 "hs": 5,
-"st": "IN PROGRESS",
+"st": "FINAL",
 "goalies": [],
 "goals": [
 [
@@ -6311,7 +6311,9 @@ null
 null
 ]
 ],
-[]
+[
+"GWG"
+]
 ],
 [
 "3RD",
@@ -6337,7 +6339,9 @@ null
 null
 ]
 ],
-[]
+[
+"EN"
+]
 ]
 ],
 "pens": [
