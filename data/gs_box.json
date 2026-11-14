@@ -6721,7 +6721,7 @@ null
 "goals": [],
 "pens": [],
 "vs": 0,
-"hs": 5,
+"hs": 6,
 "st": "IN PROGRESS"
 },
 "2012|15464|2968642": {
@@ -6840,6 +6840,20 @@ null
 "v": "Chicago Reapers",
 "h": "Chicago Mission",
 "vs": 3,
+"hs": 0,
+"st": "IN PROGRESS",
+"goalies": [],
+"goals": [],
+"pens": []
+},
+"2012|16410|3156946": {
+"div": "2012",
+"date": "2026-11-14",
+"time": "4:30 PM",
+"rink": "Hazel Park Ice Arena - PRO",
+"v": "Seacoast Performance Academy",
+"h": "Little Caesars",
+"vs": 0,
 "hs": 0,
 "st": "IN PROGRESS",
 "goalies": [],
