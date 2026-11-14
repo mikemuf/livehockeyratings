@@ -17,3 +17,4 @@ GAMESHEET (Mike taught Sat 7:44am): find any event at https://www.gamesheetinc.c
  2012 Challenger Cup = seasonId 16410 (MAHA Invitational Events). Also seen: "Little Caesars - 2011 Weekend Series - Nov 12-15, 2026".
  Hazel Park streams on Black Bear TV, Dearborn (Adray / Kilpatrick arenas) on LiveBarn, Belfor no stream listed.
 Sat 8:15 CT: GS 16410 Nov14 #22 Seacoast 6-2 Fury added. Live: LC 3-1 C-K, TOR 6-0 STL, NSH 2-0 Hill, CLE 0-0 H-P.
+Sat 9:15am CT: 2011 (Midget Minor / 15U, MHR v=119) added to weekend runs. GameSheet 16677 = LC 2011 Weekend Series (LC, Bishop Kearney, Shattuck; BELFOR). Reapers/Mission 15O: 15656 Sat 2:40 Elk Grove West, 15356 Sun 1:30 Mount Prospect South. Arctic Ice Arena showcase (STL, Philly, NJ Avalanche, Victory Honda, Fox Motors, Milwaukee, Ohio BJ) Sat-Mon from MHR. 2011 pending games use exact names from data/nov11_usa15.txt.
