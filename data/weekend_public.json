@@ -23,8 +23,8 @@
     },
     {
      "name": "Reaper/Mission Showcase",
-     "where": "Elk Grove Ice Arena, Elk Grove Village, IL (Sat–Sun)",
-     "result": "Chicago Reapers vs Chicago Mission in every birth year · GameSheet season 15656 · LiveBarn"
+     "where": "Mount Prospect Ice Arena (Reapers home) and Elk Grove Ice Arena (Mission home), Sat–Sun",
+     "result": "Home-and-home: Reapers vs Mission twice in each birth year · GameSheet seasons 15356 (Reapers) and 15656/15464 (Mission) · LiveBarn"
     }
    ],
    "watch": [
@@ -90,6 +90,15 @@
      "rink": "Dearborn Ice Skating Center",
      "city": "Dearborn, MI",
      "note": "Challenger Cup"
+    },
+    {
+     "day": "Sun Nov 15",
+     "time": "9:10 AM",
+     "a": "Chicago Reapers",
+     "b": "Chicago Mission",
+     "rink": "Mount Prospect Ice Arena (South)",
+     "city": "Mount Prospect, IL",
+     "note": "Reapers home game · LiveBarn"
     }
    ],
    "report": {
@@ -210,8 +219,8 @@
     },
     {
      "name": "Reaper/Mission Showcase",
-     "where": "Elk Grove Ice Arena, Elk Grove Village, IL (Sat–Sun)",
-     "result": "Chicago Reapers vs Chicago Mission in every birth year · GameSheet season 15656 · LiveBarn"
+     "where": "Mount Prospect Ice Arena (Reapers home) and Elk Grove Ice Arena (Mission home), Sat–Sun",
+     "result": "Home-and-home: Reapers vs Mission twice in each birth year · GameSheet seasons 15356 (Reapers) and 15656/15464 (Mission) · LiveBarn"
     }
    ],
    "watch": [
@@ -238,9 +247,9 @@
      "time": "9:40 AM",
      "a": "Chicago Reapers",
      "b": "Chicago Mission",
-     "rink": "Nicholas Sportsplex",
-     "city": "",
-     "note": ""
+     "rink": "Mount Prospect Ice Arena (South)",
+     "city": "Mount Prospect, IL",
+     "note": "Reapers home game · LiveBarn"
     },
     {
      "day": "Sun Nov 15",
@@ -282,8 +291,8 @@
     },
     {
      "name": "Reaper/Mission Showcase",
-     "where": "Elk Grove Ice Arena, Elk Grove Village, IL (Sat–Sun)",
-     "result": "Chicago Reapers vs Chicago Mission in every birth year · GameSheet season 15656 · LiveBarn"
+     "where": "Mount Prospect Ice Arena (Reapers home) and Elk Grove Ice Arena (Mission home), Sat–Sun",
+     "result": "Home-and-home: Reapers vs Mission twice in each birth year · GameSheet seasons 15356 (Reapers) and 15656/15464 (Mission) · LiveBarn"
     }
    ],
    "watch": [
@@ -295,6 +304,15 @@
      "rink": "Victory Ice Center",
      "city": "",
      "note": "League game"
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "5:50 PM",
+     "a": "Chicago Reapers",
+     "b": "Chicago Mission",
+     "rink": "Mount Prospect Ice Arena (South)",
+     "city": "Mount Prospect, IL",
+     "note": "Reapers home game · LiveBarn"
     },
     {
      "day": "Sat Nov 14",
@@ -341,8 +359,8 @@
     },
     {
      "name": "Reaper/Mission Showcase",
-     "where": "Elk Grove Ice Arena, Elk Grove Village, IL (Sat–Sun)",
-     "result": "Chicago Reapers vs Chicago Mission in every birth year · GameSheet season 15656 · LiveBarn"
+     "where": "Mount Prospect Ice Arena (Reapers home) and Elk Grove Ice Arena (Mission home), Sat–Sun",
+     "result": "Home-and-home: Reapers vs Mission twice in each birth year · GameSheet seasons 15356 (Reapers) and 15656/15464 (Mission) · LiveBarn"
     }
    ],
    "watch": [
@@ -363,6 +381,15 @@
      "rink": "Schneider Arena",
      "city": "Providence, RI",
      "note": ""
+    },
+    {
+     "day": "Sat Nov 14",
+     "time": "4:10 PM",
+     "a": "Chicago Reapers",
+     "b": "Chicago Mission",
+     "rink": "Mount Prospect Ice Arena (South)",
+     "city": "Mount Prospect, IL",
+     "note": "Reapers home game · LiveBarn"
     },
     {
      "day": "Sat Nov 14",
