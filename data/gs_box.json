@@ -6474,8 +6474,8 @@ null
 "rink": "Hazel Park Ice Arena - PRO",
 "v": "Nashville Jr. Predators",
 "h": "Pittsburgh Penguins Elite",
-"vs": 0,
-"hs": 2,
+"vs": 1,
+"hs": 3,
 "st": "IN PROGRESS",
 "goalies": [
 [
@@ -6564,5 +6564,33 @@ null
 "Roughing - minor, 2 min"
 ]
 ]
+},
+"2012|16410|3156953": {
+"div": "2012",
+"date": "2026-11-14",
+"time": "3:30 PM",
+"rink": "Belfor Training Center",
+"v": "Boston Jr Eagles (Elite)",
+"h": "Chatham-Kent Cyclones",
+"goalies": [],
+"goals": [],
+"pens": [],
+"vs": 1,
+"hs": 0,
+"st": "IN PROGRESS"
+},
+"2012|16410|3157018": {
+"div": "2012",
+"date": "2026-11-14",
+"time": "4:00 PM",
+"rink": "Dearborn Ice Skating Center Adray Arena",
+"v": "Cleveland Barons",
+"h": "NJ Colonials",
+"goalies": [],
+"goals": [],
+"pens": [],
+"vs": 0,
+"hs": 2,
+"st": "IN PROGRESS"
 }
 }
