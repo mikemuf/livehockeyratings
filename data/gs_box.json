@@ -6244,7 +6244,7 @@ null
 "v": "Bishop Kearney Selects",
 "h": "Little Caesars",
 "vs": 2,
-"hs": 0,
+"hs": 2,
 "st": "IN PROGRESS",
 "goalies": [],
 "goals": [
@@ -6252,6 +6252,32 @@ null
 "1ST",
 "11:16",
 0,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[]
+],
+[
+"2ND",
+"14:27",
+1,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[]
+],
+[
+"2ND",
+"10:59",
+1,
 [
 [
 "",
@@ -6286,6 +6312,17 @@ null
 null
 ],
 "Tripping - minor, 2 min"
+],
+[
+"2ND",
+"13:54",
+1,
+[
+"",
+"Not Available",
+null
+],
+"Holding - minor, 2 min"
 ],
 [
 "2ND",
