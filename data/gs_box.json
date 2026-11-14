@@ -6723,5 +6723,112 @@ null
 "vs": 0,
 "hs": 5,
 "st": "IN PROGRESS"
+},
+"2012|15464|2968642": {
+"div": "2012",
+"date": "2026-11-14",
+"time": "12:30 PM",
+"rink": "Elk Grove Ice Arena (West)",
+"v": "Chicago Reapers",
+"h": "Chicago Mission",
+"vs": 3,
+"hs": 3,
+"st": "FINAL (Mission won the shootout)",
+"goalies": [],
+"goals": [
+[
+"1ST",
+"13:59",
+0,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[]
+],
+[
+"1ST",
+"10:17",
+0,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[]
+],
+[
+"2ND",
+"13:25",
+1,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[]
+],
+[
+"2ND",
+"05:27",
+1,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[]
+],
+[
+"2ND",
+"03:56",
+1,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[]
+],
+[
+"3RD",
+"03:46",
+0,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[]
+]
+],
+"pens": []
+},
+"2011|15464|2968680": {
+"div": "2011",
+"date": "2026-11-14",
+"time": "2:40 PM",
+"rink": "Elk Grove Ice Arena (West)",
+"v": "Chicago Reapers",
+"h": "Chicago Mission",
+"vs": 3,
+"hs": 0,
+"st": "IN PROGRESS",
+"goalies": [],
+"goals": [],
+"pens": []
 }
 }
