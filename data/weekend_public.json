@@ -153,6 +153,13 @@
      "a": 2
     },
     {
+     "name": "Nikita Kochetov",
+     "team": "Seacoast Performance Academy",
+     "gp": 3,
+     "g": 2,
+     "a": 3
+    },
+    {
      "name": "Crew Mayers",
      "team": "St. Louis Blues",
      "gp": 2,
@@ -190,19 +197,126 @@
     {
      "name": "Blake Kennedy",
      "team": "Chatham-Kent Cyclones",
-     "gp": 2,
+     "gp": 3,
      "g": 2,
      "a": 2
-    },
-    {
-     "name": "Jason Ricart",
-     "team": "Ohio Blue Jackets",
-     "gp": 2,
-     "g": 3,
-     "a": 1
     }
    ],
-   "scorers_title": "Challenger Cup top scorers (through Friday)"
+   "scorers_title": "Challenger Cup top scorers (through Saturday morning)",
+   "goalies": [
+    {
+     "name": "Christian Arianna",
+     "team": "Toronto Jr Canadiens",
+     "gp": 1,
+     "sa": 0,
+     "ga": 0,
+     "w": 1,
+     "l": 0,
+     "t": 0,
+     "so": 1
+    },
+    {
+     "name": "Matteo Cerrelli",
+     "team": "Toronto Jr Canadiens",
+     "gp": 1,
+     "sa": 0,
+     "ga": 0,
+     "w": 1,
+     "l": 0,
+     "t": 0,
+     "so": 1
+    },
+    {
+     "name": "Dylan Gauthier",
+     "team": "Little Caesars",
+     "gp": 1,
+     "sa": 0,
+     "ga": 0,
+     "w": 1,
+     "l": 0,
+     "t": 0,
+     "so": 1
+    },
+    {
+     "name": "Grady Macejko",
+     "team": "Team Illinois",
+     "gp": 1,
+     "sa": 13,
+     "ga": 0,
+     "w": 1,
+     "l": 0,
+     "t": 0,
+     "so": 1
+    },
+    {
+     "name": "Asher Schwartz",
+     "team": "Little Caesars",
+     "gp": 2,
+     "sa": 0,
+     "ga": 3,
+     "w": 2,
+     "l": 0,
+     "t": 0,
+     "so": 0
+    },
+    {
+     "name": "Gabriel Goossen",
+     "team": "Huron Perth Lakers",
+     "gp": 1,
+     "sa": 41,
+     "ga": 1,
+     "w": 1,
+     "l": 0,
+     "t": 0,
+     "so": 0
+    },
+    {
+     "name": "Samuel Toscano",
+     "team": "Masters Academy",
+     "gp": 1,
+     "sa": 32,
+     "ga": 1,
+     "w": 0,
+     "l": 0,
+     "t": 1,
+     "so": 0
+    },
+    {
+     "name": "Caleb Landry",
+     "team": "Hill Academy",
+     "gp": 1,
+     "sa": 18,
+     "ga": 1,
+     "w": 0,
+     "l": 0,
+     "t": 1,
+     "so": 0
+    },
+    {
+     "name": "Benjamin Denzel",
+     "team": "Team Illinois",
+     "gp": 1,
+     "sa": 0,
+     "ga": 1,
+     "w": 1,
+     "l": 0,
+     "t": 0,
+     "so": 0
+    },
+    {
+     "name": "Cooper Phelps",
+     "team": "Biggby Coffee",
+     "gp": 1,
+     "sa": 0,
+     "ga": 1,
+     "w": 1,
+     "l": 0,
+     "t": 0,
+     "so": 0
+    }
+   ],
+   "goalies_title": "Challenger Cup top goalies (through Saturday morning)",
+   "goalies_blurb": "Four shutouts so far: Toronto Jr Canadiens got one from each of their two goalies, plus Little Caesars' Dylan Gauthier and Team Illinois' Grady Macejko. LC's Asher Schwartz is the only goalie at 2-0, with 3 goals against in two games. Huron Perth Lakers' Gabriel Goossen stopped 40 of 41 in a win, and Masters Academy's Samuel Toscano made 31 saves in a tie."
   },
   "2013": {
    "summary": [
