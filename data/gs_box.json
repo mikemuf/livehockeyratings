@@ -9653,7 +9653,7 @@ null
 "h": "Chicago Reapers",
 "vs": 1,
 "hs": 0,
-"st": "IN PROGRESS",
+"st": "FINAL",
 "goalies": [],
 "goals": [
 [
@@ -9684,7 +9684,7 @@ null
 "rink": "Belfor Training Center",
 "v": "Team Illinois",
 "h": "Toronto Jr Canadiens",
-"vs": 0,
+"vs": 1,
 "hs": 3,
 "st": "IN PROGRESS",
 "goalies": [
@@ -9765,6 +9765,24 @@ null
 ]
 ],
 []
+],
+[
+"2ND",
+"2:48",
+0,
+[
+[
+"12",
+"Caleb Bauer",
+5
+],
+[
+"49",
+"Noah Mahery Moreau",
+2
+]
+],
+[]
 ]
 ],
 "pens": [
@@ -9800,6 +9818,17 @@ null
 null
 ],
 "Slashing - minor, 2 min"
+],
+[
+"2ND",
+"5:22",
+1,
+[
+"87",
+"Tristan Reynolds",
+null
+],
+"Slashing - minor, 2 min"
 ]
 ]
 },
@@ -9811,8 +9840,8 @@ null
 "v": "Chicago Reapers",
 "h": "Chicago Mission",
 "vs": 2,
-"hs": 3,
-"st": "IN PROGRESS",
+"hs": 4,
+"st": "FINAL",
 "goalies": [],
 "goals": [
 [
@@ -9826,7 +9855,9 @@ null
 null
 ]
 ],
-[]
+[
+"PP"
+]
 ],
 [
 "1ST",
@@ -9839,7 +9870,9 @@ null
 null
 ]
 ],
-[]
+[
+"SH"
+]
 ],
 [
 "2ND",
@@ -9878,7 +9911,24 @@ null
 null
 ]
 ],
-[]
+[
+"GWG"
+]
+],
+[
+"3RD",
+"0:22",
+1,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[
+"EN"
+]
 ]
 ],
 "pens": []
