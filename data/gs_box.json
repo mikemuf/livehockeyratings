@@ -9686,19 +9686,19 @@ null
 "h": "Toronto Jr Canadiens",
 "vs": 1,
 "hs": 3,
-"st": "IN PROGRESS",
+"st": "FINAL",
 "goalies": [
 [
 0,
 "50",
 "Benjamin Denzel",
-""
+"L"
 ],
 [
 1,
 "31",
 "Christian Arianna",
-""
+"W"
 ]
 ],
 "goals": [
@@ -9741,7 +9741,9 @@ null
 2
 ]
 ],
-[]
+[
+"GWG"
+]
 ],
 [
 "2ND",
@@ -9795,7 +9797,7 @@ null
 "Miles Madden",
 null
 ],
-"Tripping/clipping/leg checking - minor, 2 min"
+"Tripping - minor, 2 min"
 ],
 [
 "2ND",
@@ -9829,6 +9831,83 @@ null
 null
 ],
 "Slashing - minor, 2 min"
+],
+[
+"3RD",
+"11:02",
+0,
+[
+"29",
+"Levi Freeman",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"3RD",
+"11:02",
+1,
+[
+"42",
+"Tanner Walsh",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"4:41",
+0,
+[
+"2",
+"Logan Naydenoff",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"4:41",
+1,
+[
+"39",
+"Artem Ryabov",
+null
+],
+"Roughing - minor, 2 min"
+],
+[
+"3RD",
+"4:04",
+1,
+[
+"11",
+"Colton Lantz",
+null
+],
+"Cross-checking - minor, 2 min"
+],
+[
+"3RD",
+"0:00",
+0,
+[
+"16",
+"Kaden Sadler",
+null
+],
+"Unsportsmanlike conduct - minor, 2 min"
+],
+[
+"3RD",
+"0:00",
+1,
+[
+"87",
+"Tristan Reynolds",
+null
+],
+"Unsportsmanlike conduct - minor, 2 min"
 ]
 ]
 },
