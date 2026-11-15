@@ -8967,7 +8967,7 @@ null
 "v": "Little Caesars",
 "h": "Team Illinois",
 "vs": 2,
-"hs": 1,
+"hs": 2,
 "st": "IN PROGRESS",
 "goalies": [
 [
@@ -9037,6 +9037,24 @@ null
 ]
 ],
 []
+],
+[
+"2ND",
+"11:56",
+1,
+[
+[
+"29",
+"Levi Freeman",
+1
+],
+[
+"93",
+"Declan Petersen",
+5
+]
+],
+[]
 ]
 ],
 "pens": [
@@ -9050,6 +9068,17 @@ null
 null
 ],
 "Hooking - minor, 2 min"
+],
+[
+"2ND",
+"12:32",
+0,
+[
+"97",
+"Adrian Russo",
+null
+],
+"Slashing - minor, 2 min"
 ]
 ]
 },
