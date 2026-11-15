@@ -8958,5 +8958,32 @@ null
 "Holding - minor, 2 min"
 ]
 ]
+},
+"2012|16410|3157311": {
+"div": "2012",
+"date": "2026-11-15",
+"time": "9:30 AM",
+"rink": "Hazel Park Ice Arena - PRO",
+"v": "Little Caesars",
+"h": "Team Illinois",
+"vs": 0,
+"hs": 0,
+"st": "IN PROGRESS",
+"goalies": [
+[
+0,
+"30",
+"Asher Schwartz",
+""
+],
+[
+1,
+"36",
+"Grady Macejko",
+""
+]
+],
+"goals": [],
+"pens": []
 }
 }
