@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 13–15",
- "status": "In progress — Saturday night",
- "updated": "Sat Nov 14, 8:35 PM CT",
+ "status": "Saturday done — Sunday games start 7:30 AM (Detroit time)",
+ "updated": "Sat Nov 14, 9:30 PM CT",
  "from": "2026-11-12",
  "to": "2026-11-16",
  "note": "Ranks are MHR’s Nov 11 ratings and move live as results come in. Game times are local to the rink. Many rinks stream on LiveBarn.",
@@ -30,31 +30,58 @@
    ],
    "watch": [
     {
-     "day": "Sat Nov 14",
-     "time": "3:00 PM",
+     "day": "Sun Nov 15",
+     "time": "8:30 AM",
      "a": "Nashville Jr. Predators",
-     "b": "Pittsburgh Penguins Elite",
-     "rink": "Hazel Park Ice Arena",
-     "city": "Hazel Park, MI",
-     "note": "Challenger Cup"
+     "b": "Toronto Jr Canadiens",
+     "rink": "Dearborn Ice Skating Center (Kilpatrick)",
+     "city": "Dearborn, MI",
+     "note": "Challenger Cup playoff (9:30 local)"
     },
     {
-     "day": "Sat Nov 14",
-     "time": "5:30 PM",
-     "a": "Team Illinois",
-     "b": "Upper Canada College",
-     "rink": "Dearborn Ice Skating Center",
-     "city": "Dearborn, MI",
-     "note": "Challenger Cup"
+     "day": "Sun Nov 15",
+     "time": "8:30 AM",
+     "a": "Little Caesars",
+     "b": "Team Illinois",
+     "rink": "Hazel Park Ice Arena (PRO)",
+     "city": "Hazel Park, MI",
+     "note": "Challenger Cup playoff (9:30 local)"
     },
     {
      "day": "Sun Nov 15",
      "time": "9:10 AM",
-     "a": "Chicago Reapers",
-     "b": "Chicago Mission",
+     "a": "Chicago Mission",
+     "b": "Chicago Reapers",
      "rink": "Mount Prospect Ice Arena (South)",
      "city": "Mount Prospect, IL",
-     "note": "LiveBarn"
+     "note": "Reapers vs Mission rematch"
+    },
+    {
+     "day": "Sun Nov 15",
+     "time": "10:00 AM",
+     "a": "Top Gun (Elite)",
+     "b": "Chatham-Kent Cyclones",
+     "rink": "Hazel Park Ice Arena",
+     "city": "Hazel Park, MI",
+     "note": "Challenger Cup playoff (11:00 local)"
+    },
+    {
+     "day": "Sun Nov 15",
+     "time": "1:00 PM",
+     "a": "Pittsburgh Penguins Elite",
+     "b": "Chicago Fury",
+     "rink": "BELFOR Training Center",
+     "city": "Metro Detroit, MI",
+     "note": "Challenger Cup playoff (2:00 local)"
+    },
+    {
+     "day": "Sun Nov 15",
+     "time": "2:30 PM",
+     "a": "TBD",
+     "b": "TBD",
+     "rink": "BELFOR Training Center",
+     "city": "Metro Detroit, MI",
+     "note": "Challenger Cup FINAL (3:30 local)"
     }
    ],
    "report": {
@@ -276,21 +303,21 @@
    "watch": [
     {
      "day": "Sun Nov 15",
-     "time": "8:20 AM",
+     "time": "7:20 AM",
      "a": "Pittsburgh Penguins Elite",
      "b": "Buffalo Jr Sabres",
-     "rink": "UPMC Lemieux Sports Complex",
-     "city": "Cranberry Township, PA",
-     "note": "Also 1:40 PM"
+     "rink": "",
+     "city": "",
+     "note": "Also 12:40 PM"
     },
     {
      "day": "Sun Nov 15",
      "time": "10:50 AM",
      "a": "Chicago Reapers",
      "b": "Chicago Mission",
-     "rink": "Elk Grove Ice Arena (West Rink)",
+     "rink": "Elk Grove Ice Arena (West)",
      "city": "Elk Grove Village, IL",
-     "note": "LiveBarn"
+     "note": "Reapers vs Mission rematch"
     }
    ]
   },
@@ -327,9 +354,9 @@
      "time": "3:50 PM",
      "a": "Chicago Reapers",
      "b": "Chicago Mission",
-     "rink": "Elk Grove Ice Arena (West Rink)",
+     "rink": "Elk Grove Ice Arena (West)",
      "city": "Elk Grove Village, IL",
-     "note": "LiveBarn"
+     "note": "Reapers vs Mission rematch"
     }
    ]
   },
@@ -337,6 +364,7 @@
    "summary": [
     "Saturday: Providence Capitals (#12, 92.06) beat South Shore Kings (#9, 92.42) 4-2. Boston Jr Eagles (#6, 93.13) swept PAL Jr Islanders Blue (#18) 5-2 and 2-1. St Louis Blues (#10, 92.23) routed Florida Alliance 9-1.",
     "Chicago Mission (#8, 92.61) beat Chicago Reapers (#21, 90.38) 9-4 at Mount Prospect. Rematch Sunday 2:10 PM at Elk Grove.",
+    "In St. Louis, Oakland beat Dallas Stars Elite 7-6, then Dallas (#7, 92.82) won the rematch 4-0.",
     "Dallas Stars Elite (#7, now 92.70) opened 2-0 in St. Louis, beating Florida Alliance 9-3 and St Louis Blues (#11) 3-2.",
     "South Shore Kings (#8, 92.44) beat PAL Jr Islanders (Blue) (#18, 90.66) 4-2 on Friday night.",
     "Mid-Fairfield Elite (#4) has a big Connecticut weekend at Chelsea Piers: two games vs Middlesex Islanders East (#41) on Saturday and two vs Boston Jr Eagles (#6) on Sunday.",
@@ -358,31 +386,22 @@
    ],
    "watch": [
     {
-     "day": "Sat Nov 14",
-     "time": "11:30 AM",
-     "a": "Mid-Fairfield Hockey Club (Elite)",
-     "b": "Middlesex Islanders East (Elite)",
-     "rink": "Chelsea Piers Connecticut",
-     "city": "Stamford, CT",
-     "note": "Also 4:00 PM"
-    },
-    {
      "day": "Sun Nov 15",
-     "time": "10:00 AM",
+     "time": "9:00 AM",
      "a": "Mid-Fairfield Hockey Club (Elite)",
      "b": "Boston Jr Eagles (Elite)",
-     "rink": "Chelsea Piers Connecticut",
+     "rink": "Chelsea Piers Athletic Club",
      "city": "Stamford, CT",
-     "note": "Also 1:00 PM"
+     "note": "Also 12:00 PM"
     },
     {
      "day": "Sun Nov 15",
      "time": "2:10 PM",
      "a": "Chicago Reapers",
      "b": "Chicago Mission",
-     "rink": "Elk Grove Ice Arena (West Rink)",
+     "rink": "Elk Grove Ice Arena (West)",
      "city": "Elk Grove Village, IL",
-     "note": "LiveBarn"
+     "note": "Reapers vs Mission rematch"
     }
    ]
   },
@@ -414,22 +433,13 @@
    ],
    "watch": [
     {
-     "day": "Sat Nov 14",
-     "time": "6:00 PM",
-     "a": "St Louis Blues",
-     "b": "Victory Honda",
-     "rink": "Arctic Ice Arena",
-     "city": "Orland Park, IL",
-     "note": ""
-    },
-    {
      "day": "Sun Nov 15",
-     "time": "12:00 PM",
+     "time": "11:00 AM",
      "a": "Bishop Kearney Selects",
      "b": "Shattuck St Mary's",
      "rink": "BELFOR Training Center",
      "city": "Metro Detroit, MI",
-     "note": "Shattuck won Friday 6-2"
+     "note": "Decides the LC Weekend Series (noon local)"
     },
     {
      "day": "Sun Nov 15",
@@ -438,7 +448,7 @@
      "b": "Chicago Reapers",
      "rink": "Mount Prospect Ice Arena (South)",
      "city": "Mount Prospect, IL",
-     "note": "Reapers vs Mission home-and-home"
+     "note": "Reapers vs Mission rematch"
     }
    ]
   }
