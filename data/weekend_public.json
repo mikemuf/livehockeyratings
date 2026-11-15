@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 13–15",
  "status": "In progress — Saturday",
- "updated": "Sat Nov 14, 6:35 PM CT",
+ "updated": "Sat Nov 14, 6:50 PM CT",
  "from": "2026-11-12",
  "to": "2026-11-16",
  "note": "Ranks are MHR’s Nov 11 ratings and move live as results come in. Game times are local to the rink. Many rinks stream on LiveBarn.",
@@ -10,7 +10,7 @@
   "2012": {
    "summary": [
     "Challenger Cup after Saturday morning: Toronto Jr Canadiens (CAN) are 3-0 with three shutouts (3-0 Top Gun, 6-0 Windy City, 6-0 St. Louis). Little Caesars (#3, 97.66) are 3-0 and Nashville (#8, 96.52) is 3-0. Team Illinois (#6, 97.02) is 3-0 with two shutouts.",
-    "Afternoon thriller: Penguins Elite (#11, 96.26) led Nashville (#8, 96.52) 3-0 into the 3rd, Nashville scored four in 3:06 to lead 4-3, and Tristan Leduc tied it 4-4 with 44 seconds left. Windy City (#36) shut out St. Louis (#25) 1-0. Chatham-Kent (CAN) beat Boston Jr Eagles (#20, 94.74) 3-2, and NJ Colonials (#21, 94.43) blanked Cleveland 6-0. Seacoast (#22, 94.36) came back from 2-0 down in the 3rd to tie Little Caesars (#3, 97.50) 2-2. Team Illinois (#5, 97.07) beat Upper Canada College 6-0 to go 4-0 and moves past Chicago Mission (#6, 97.03). Live: Fox Motors leads Huron-Perth 2-1, Toronto leads Biggby 2-0, Ohio vs Hill is 0-0.",
+    "Afternoon thriller: Penguins Elite (#11, 96.26) led Nashville (#8, 96.52) 3-0 into the 3rd, Nashville scored four in 3:06 to lead 4-3, and Tristan Leduc tied it 4-4 with 44 seconds left. Windy City (#36) shut out St. Louis (#25) 1-0. Chatham-Kent (CAN) beat Boston Jr Eagles (#20, 94.74) 3-2, and NJ Colonials (#21, 94.43) blanked Cleveland 6-0. Seacoast (#22, 94.36) came back from 2-0 down in the 3rd to tie Little Caesars (#3, 97.50) 2-2. Team Illinois (#5, 97.07) beat Upper Canada College 6-0 to go 4-0 and moves past Chicago Mission (#6, 97.03). Fox Motors (#27, 93.87) beat Huron-Perth 3-1 to go 4-0. Live: Toronto leads Biggby 3-0, Hill Academy leads Ohio 1-0.",
     "Reapers vs Mission at Elk Grove: Chicago Mission (#5, 97.05) beat Chicago Reapers (#16, 95.82) 4-3 in a shootout (3-3 after overtime).",
     "Fox Motors (#27, 93.84) is 3-0 after beating Upper Canada College (CAN) 5-1. Huron-Perth (CAN) bounced back from a loss to Team Illinois with wins over NJ Colonials and Cleveland. Chatham-Kent (CAN) is 2-1 after LC beat them 4-1.",
     "Top Gun (#12, 96.22) lost its first two (0-3 Toronto, 3-5 St. Louis) before beating Biggby 5-2. Masters Academy (#26) is 1-1-1. Chicago Mission (#5, 97.06) hasn't played; it hosts the Reapers today at 12:30.",
@@ -297,7 +297,7 @@
   "2014": {
    "summary": [
     "Saturday: Top Gun (#6, 97.52) tied #1 Middlesex Islanders East (99.99) 3-3. In Dallas, Dallas Stars Elite (#20, 94.90) beat Anaheim (#19, 95.14) 4-2.",
-    "Live at Mount Prospect: Chicago Reapers (#17) lead Chicago Mission (#28) 3-2.",
+    "Live at Mount Prospect: Chicago Reapers (#17) lead Chicago Mission (#28) 4-2.",
     "Cleveland Barons (#24, 94.12) are 3-0 in Dallas after a 4-1 win over Phoenix.",
     "Friday upsets: North Jersey Avalanche (#12) beat Mid-Fairfield Elite (#9) 5-4, and St Louis Blues (#11) beat Boston Jr Eagles (#5) 8-5 in Buffalo. Boston Jr Eagles drop to 97.49.",
     "Cleveland Barons (#25, now #24, 94.04) went 2-0 in Dallas, beating Anaheim (#18) 6-4 and Dallas Stars (#20) 6-4.",
@@ -426,7 +426,7 @@
    "summary": [
     "Little Caesars (#8, 93.08) are hosting a three-team round robin in Detroit with Bishop Kearney Selects (#2, 95.55) and Shattuck St Mary's (#4, 94.33). Each pair plays twice.",
     "So far: Bishop Kearney won 3-1 at LC on Thursday. On Friday Shattuck beat Bishop Kearney 6-2 (an upset over the #2 team), and LC answered with a 5-1 win over Shattuck.",
-    "Mount St Charles (#3, 95.02) beat PAL Jr Islanders 9-1. Then the big one: Little Caesars (#8, 93.43) came back from 2-0 down to beat Bishop Kearney (#2, 95.05) 5-2, scoring three times in the 3rd. LC and Bishop Kearney have now split, and LC is 2-1 at its own event. Tonight Shattuck leads Little Caesars 2-0.",
+    "Mount St Charles (#3, 95.02) beat PAL Jr Islanders 9-1. Then the big one: Little Caesars (#8, 93.43) came back from 2-0 down to beat Bishop Kearney (#2, 95.05) 5-2, scoring three times in the 3rd. LC and Bishop Kearney have now split, and LC is 2-1 at its own event. Tonight Shattuck (#4, 94.39) shut out Little Caesars (#8, 93.37) 3-0. Every team is 2-1 entering Sunday's Bishop Kearney vs Shattuck finale.",
     "Chicago Reapers (#5, 93.64) beat Chicago Mission (#8, 93.37) 4-1 at Elk Grove. Rematch Sunday 1:30 PM at Mount Prospect.",
     "Chicago Reapers (#5, 93.53) and Chicago Mission (#6, 93.46) play twice: Saturday 2:40 PM at Elk Grove and Sunday 1:30 PM at Mount Prospect.",
     "Also this weekend: St. Louis Blues (#12, 92.19), Philadelphia Jr Flyers (#17, 91.45), North Jersey Avalanche (#21, 90.98) and Victory Honda (#22, 90.59) are at a showcase at Arctic Ice Arena. Mount St Charles (#3, 95.00) plays PAL Jr Islanders three times in league play, and Woodbridge (#9, 92.78) plays South Kent School twice. Penguins Elite (#1, 96.16) have no games listed."
@@ -449,15 +449,6 @@
     }
    ],
    "watch": [
-    {
-     "day": "Sat Nov 14",
-     "time": "6:00 PM",
-     "a": "Shattuck St Mary's",
-     "b": "Little Caesars",
-     "rink": "BELFOR Training Center",
-     "city": "Metro Detroit, MI",
-     "note": "LC won Friday's meeting 5-1"
-    },
     {
      "day": "Sat Nov 14",
      "time": "6:00 PM",
