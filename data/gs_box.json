@@ -8968,19 +8968,19 @@ null
 "h": "Team Illinois",
 "vs": 2,
 "hs": 4,
-"st": "IN PROGRESS",
+"st": "FINAL",
 "goalies": [
 [
 0,
 "30",
 "Asher Schwartz",
-""
+"L"
 ],
 [
 1,
 "36",
 "Grady Macejko",
-""
+"W"
 ]
 ],
 "goals": [
@@ -9072,7 +9072,9 @@ null
 3
 ]
 ],
-[]
+[
+"GWG"
+]
 ],
 [
 "3RD",
@@ -9095,7 +9097,9 @@ null
 4
 ]
 ],
-[]
+[
+"EN"
+]
 ]
 ],
 "pens": [
@@ -9153,20 +9157,20 @@ null
 "v": "Nashville Jr. Predators",
 "h": "Toronto Jr Canadiens",
 "vs": 1,
-"hs": 4,
-"st": "IN PROGRESS",
+"hs": 5,
+"st": "FINAL",
 "goalies": [
 [
 0,
 "33",
 "John Nolan Blankush",
-""
+"L"
 ],
 [
 1,
 "31",
 "Christian Arianna",
-""
+"W"
 ]
 ],
 "goals": [
@@ -9204,7 +9208,9 @@ null
 3
 ]
 ],
-[]
+[
+"GWG"
+]
 ],
 [
 "1ST",
@@ -9261,6 +9267,24 @@ null
 "29",
 "Lev Tikhonov",
 2
+]
+],
+[]
+],
+[
+"3RD",
+"0:46",
+1,
+[
+[
+"87",
+"Tristan Reynolds",
+10
+],
+[
+"93",
+"Jaxson Pollard",
+4
 ]
 ],
 []
