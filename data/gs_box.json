@@ -8966,7 +8966,7 @@ null
 "rink": "Hazel Park Ice Arena - PRO",
 "v": "Little Caesars",
 "h": "Team Illinois",
-"vs": 0,
+"vs": 1,
 "hs": 1,
 "st": "IN PROGRESS",
 "goalies": [
@@ -9001,9 +9001,39 @@ null
 ]
 ],
 []
+],
+[
+"1ST",
+"3:51",
+0,
+[
+[
+"93",
+"Brennan Martin",
+2
+],
+[
+"86",
+"Ryan Burkhiser",
+1
 ]
 ],
-"pens": []
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"2:01",
+1,
+[
+"16",
+"Kaden Sadler",
+null
+],
+"Hooking - minor, 2 min"
+]
+]
 },
 "2012|16410|3157308": {
 "div": "2012",
@@ -9013,7 +9043,7 @@ null
 "v": "Nashville Jr. Predators",
 "h": "Toronto Jr Canadiens",
 "vs": 0,
-"hs": 1,
+"hs": 3,
 "st": "IN PROGRESS",
 "goalies": [
 [
@@ -9039,6 +9069,42 @@ null
 "86",
 "Michael Alati",
 1
+]
+],
+[]
+],
+[
+"1ST",
+"10:20",
+1,
+[
+[
+"87",
+"Tristan Reynolds",
+9
+],
+[
+"11",
+"Colton Lantz",
+3
+],
+[
+"16",
+"Colton Dimmell",
+3
+]
+],
+[]
+],
+[
+"1ST",
+"9:25",
+1,
+[
+[
+"10",
+"Hayden Mcgrann",
+3
 ]
 ],
 []
