@@ -107,6 +107,15 @@ LITE['2011']=liteload('data/'+F15,'\x00')
 ON16='nov11_on16.txt'
 LITE_ON16=liteload('data/'+ON16,'\x00');LITE['2011'].update(LITE_ON16)
 h=h.replace("(MHR_REC[div]||{})[x.t]||x.rec.join('-')","(((MHR_REC[div]||{})[x.t]||'0-0-0')!=='0-0-0'?MHR_REC[div][x.t]:x.rec.join('-'))")
+# Live record/GP: MHR's published record + games played since MHR_THROUGH (weekend games), so Rec/GP move live with the rating.
+h=h.replace("(((MHR_REC[div]||{})[x.t]||'0-0-0')!=='0-0-0'?MHR_REC[div][x.t]:x.rec.join('-'))","recL(x.t,x)")
+h=h.replace("<td>${x.gp}</td></tr>","<td>${gpL(x.t,x)}</td></tr>").replace("<b>${x.gp}</b><span>Games","<b>${gpL(x.t,x)}</b><span>Games")
+h=h.replace("function allGames(){","""function newG(t){const k=div+'|'+t,c=(newG.c=newG.c||{});const key=allGames().length+'|'+k;if(c[k]&&c[k].key===key)return c[k].v;const seen=new Set(),v=[0,0,0];
+  for(const g of allGames()){if(g[0]!==div||g[1]<=MHR_THROUGH||(g[2]!==t&&g[4]!==t))continue;const f=fp(g);if(seen.has(f))continue;seen.add(f);const [me,op]=g[2]===t?[g[3],g[5]]:[g[5],g[3]];v[me>op?0:me<op?1:2]++}
+  c[k]={key,v};return v}
+function recL(t,x){const m=(MHR_REC[div]||{})[t];if(!m||m==='0-0-0')return x.rec.join('-');const a=m.split('-').map(Number),n=newG(t);return (a[0]+n[0])+'-'+(a[1]+n[1])+'-'+((a[2]||0)+n[2])}
+function gpL(t,x){const m=(MHR_GP[div]||{})[t];if(!m)return x.gp;const n=newG(t);return Math.max(x.gp,m+n[0]+n[1]+n[2])}
+function allGames(){""",1)
 h=h.replace('const XPOOL=','Object.assign(XMAP,'+json.dumps(P2X)+');\nconst XPOOL=',1)
 P2CA=list(P2CA)+[n for n in LITE_ON16 if n not in P2CA]
 h=h.replace('CANADA_BASE = [','CANADA_BASE = ['+','.join(json.dumps(x) for x in P2CA)+(',' if P2CA else ''),1)

@@ -136,6 +136,11 @@ function lsSet(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
 let added=ls('ratings.added',[]);
 let caOv=ls('ratings.caOverrides',{add:[],rm:[]});
 let canada=new Set(CANADA_BASE.concat(caOv.add).filter(t=>!caOv.rm.includes(t)));
+function newG(t){const k=div+'|'+t,c=(newG.c=newG.c||{});const key=allGames().length+'|'+k;if(c[k]&&c[k].key===key)return c[k].v;const seen=new Set(),v=[0,0,0];
+  for(const g of allGames()){if(g[0]!==div||g[1]<=MHR_THROUGH||(g[2]!==t&&g[4]!==t))continue;const f=fp(g);if(seen.has(f))continue;seen.add(f);const [me,op]=g[2]===t?[g[3],g[5]]:[g[5],g[3]];v[me>op?0:me<op?1:2]++}
+  c[k]={key,v};return v}
+function recL(t,x){const m=(MHR_REC[div]||{})[t];if(!m||m==='0-0-0')return x.rec.join('-');const a=m.split('-').map(Number),n=newG(t);return (a[0]+n[0])+'-'+(a[1]+n[1])+'-'+((a[2]||0)+n[2])}
+function gpL(t,x){const m=(MHR_GP[div]||{})[t];if(!m)return x.gp;const n=newG(t);return Math.max(x.gp,m+n[0]+n[1]+n[2])}
 function allGames(){return BASE.concat(added)}
 function fp(g){const [d,dt,a,ga,b,gb]=g;return a<b?`${d}|${dt}|${a}|${ga}|${b}|${gb}`:`${d}|${dt}|${b}|${gb}|${a}|${ga}`}
 
@@ -252,7 +257,7 @@ function prevRanks(list){const m=MHR[div]||{};const o=list.filter(x=>m[x.t]!==un
 function mv(prev,now){if(!prev)return '';const d=prev-now;if(!d)return '';return d>0?`<span class="mv up" title="Up ${d} from #${prev} in MHR ${MHR_PUBLISHED}">▲${d}</span>`:`<span class="mv dn" title="Down ${-d} from #${prev} in MHR ${MHR_PUBLISHED}">▼${-d}</span>`}
 function table(rows,numbered){const pv=numbered?prevRanks(rows):{};
   let h='<div class="wrap"><table><thead><tr>'+(numbered?'<th></th>':'')+'<th class="t">Team</th><th>Rating</th><th>Rec</th><th>AGD</th><th>Sched</th><th>GP</th></tr></thead><tbody>';
-  rows.forEach((x,k)=>{h+=`<tr class="click" data-t="${esc(x.t)}">${numbered?`<td class="rk num">${k+1}</td>`:''}<td class="t">${esc(x.t)}${numbered?mv(pv[x.t],k+1):''}</td><td class="rating"><span class="num">${f2(x.r)}</span></td><td>${(((MHR_REC[div]||{})[x.t]||'0-0-0')!=='0-0-0'?MHR_REC[div][x.t]:x.rec.join('-'))}</td><td class="${x.agd>=0?'pos':'neg'}">${fs(x.agd)}</td><td>${f2(x.sched)}</td><td>${x.gp}</td></tr>`});
+  rows.forEach((x,k)=>{h+=`<tr class="click" data-t="${esc(x.t)}">${numbered?`<td class="rk num">${k+1}</td>`:''}<td class="t">${esc(x.t)}${numbered?mv(pv[x.t],k+1):''}</td><td class="rating"><span class="num">${f2(x.r)}</span></td><td>${recL(x.t,x)}</td><td class="${x.agd>=0?'pos':'neg'}">${fs(x.agd)}</td><td>${f2(x.sched)}</td><td>${gpL(x.t,x)}</td></tr>`});
   return h+'</tbody></table></div>';
 }
 const UNRATED=[];
@@ -281,9 +286,9 @@ function renderTeam(S){
   const x=S.byName[selTeam];
   const games=S.G.filter(g=>g[2]===x.t||g[4]===x.t).sort((a,b)=>a[1]<b[1]?-1:1);
   let h=`<a class="back" data-view="rank">&larr; Rankings</a><div class="card" style="margin-top:8px"><div class="team-hd"><h2>${esc(x.t)}</h2>
-  <div class="stat"><b>${f2(x.r)}</b><span>Rating</span></div><div class="stat"><b>${(((MHR_REC[div]||{})[x.t]||'0-0-0')!=='0-0-0'?MHR_REC[div][x.t]:x.rec.join('-'))}</b><span>Record</span></div>
+  <div class="stat"><b>${f2(x.r)}</b><span>Rating</span></div><div class="stat"><b>${recL(x.t,x)}</b><span>Record</span></div>
   <div class="stat"><b>${fs(x.agd)}</b><span>AGD</span></div><div class="stat"><b>${f2(x.sched)}</b><span>Schedule</span></div>
-  <div class="stat"><b>${x.gp}</b><span>Games</span></div></div>
+  <div class="stat"><b>${gpL(x.t,x)}</b><span>Games</span></div></div>
   ${((MHR_GP[div]||{})[x.t]||0)>x.gp?`<p class="small" style="margin:10px 0 0">This list has ${x.gp} of the ${(MHR_GP[div]||{})[x.t]} games MHR counts. The rating already matches MHR; only the game list is incomplete.</p>`:''}
   ${Math.abs(x.adj)>=0.005?`<p class="small" style="margin:10px 0 0">MHR adjustment ${fs(x.adj)}: MHR's ${x.mhr?'published rating':'scale'} includes games or opponent ratings not in this log.</p>`:''}
   <p class="small" style="margin:10px 0 0">${canada.has(x.t)?'Listed in the Canada division.':'Listed in the USA division.'} <a class="back" id="tog-ca">${canada.has(x.t)?'Move to USA':'Move to Canada'}</a></p>${(PDB[div]||{})[x.t]?`<p style="margin:12px 0 0"><a class="plink" style="padding:0" href="players/#team=${PDB[div][x.t]}">Roster and player stats &rsaquo;</a></p>`:''}</div>`;
@@ -359,7 +364,7 @@ function renderSched(S){
   for(const ev of evs){const eg=up.filter(s=>s[6]===ev);const teams=[...new Set(eg.flatMap(s=>[s[2],s[3]]))].filter(t=>S.byName[t]).sort((a,b)=>S.byName[b].r-S.byName[a].r);
     const days=[...new Set(eg.map(s=>s[1]))];
     h+=`<h2>${esc(ev)}<span class="n">${dfmt(days[0])}${days.length>1?' to '+dfmt(days[days.length-1]):''}, ${eg.length} games left</span></h2>`;
-    h+=`<div class="wrap"><table><thead><tr><th class="t">Team</th><th>Rating</th><th>USA</th><th>Rec</th><th>Avg opp here</th></tr></thead><tbody>${teams.map(t=>{const x=S.byName[t];const os=eg.filter(s=>s[2]===t||s[3]===t).map(s=>s[2]===t?s[3]:s[2]).filter(o=>S.byName[o]);const ao=os.length?os.reduce((a,o)=>a+S.byName[o].r,0)/os.length:NaN;const r=usaRank(S,t);return `<tr class="click" data-t="${esc(t)}"><td class="t">${t===me?'<b>'+esc(t)+'</b>':esc(t)}</td><td><b>${f2(x.r)}</b></td><td>${r?'#'+r:''}</td><td>${(((MHR_REC[div]||{})[x.t]||'0-0-0')!=='0-0-0'?MHR_REC[div][x.t]:x.rec.join('-'))}</td><td>${isNaN(ao)?'':f2(ao)}</td></tr>`}).join('')}</tbody></table></div>`;
+    h+=`<div class="wrap"><table><thead><tr><th class="t">Team</th><th>Rating</th><th>USA</th><th>Rec</th><th>Avg opp here</th></tr></thead><tbody>${teams.map(t=>{const x=S.byName[t];const os=eg.filter(s=>s[2]===t||s[3]===t).map(s=>s[2]===t?s[3]:s[2]).filter(o=>S.byName[o]);const ao=os.length?os.reduce((a,o)=>a+S.byName[o].r,0)/os.length:NaN;const r=usaRank(S,t);return `<tr class="click" data-t="${esc(t)}"><td class="t">${t===me?'<b>'+esc(t)+'</b>':esc(t)}</td><td><b>${f2(x.r)}</b></td><td>${r?'#'+r:''}</td><td>${recL(x.t,x)}</td><td>${isNaN(ao)?'':f2(ao)}</td></tr>`}).join('')}</tbody></table></div>`;
     h+=`<div class="wrap" style="margin-top:10px"><table><thead><tr><th class="t">Game</th><th class="t">Visitor</th><th class="t">Home</th><th class="t">Favorite</th><th class="t">Score</th></tr></thead><tbody>`;
     for(const s of eg){const V=S.byName[s[2]],H=S.byName[s[3]];const e=V&&H?V.r-H.r:null;const isMine=s[2]===me||s[3]===me;
       h+=`<tr${isMine?' style="background:var(--blue-soft)"':''}><td class="t">${dfmt(s[1]).replace(/,.*/,'')} ${esc(s[4])}<br><span class="small">${esc(s[5])}${s[7]?' #'+s[7]:''}</span></td><td class="t">${esc(s[2])}${V?`<br><span class="small">${f2(V.r)}</span>`:''}</td><td class="t">${esc(s[3])}${H?`<br><span class="small">${f2(H.r)}</span>`:''}</td><td class="t">${e===null?'':`${esc(e>=0?s[2]:s[3])} by ${Math.abs(e).toFixed(2)}`}</td><td class="t" style="white-space:nowrap">${isMine?'<span class="small">Enter above</span>':scIn(s,'v','V')+' - '+scIn(s,'h','H')}</td></tr>`}
