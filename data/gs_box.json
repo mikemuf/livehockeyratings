@@ -8966,7 +8966,7 @@ null
 "rink": "Hazel Park Ice Arena - PRO",
 "v": "Little Caesars",
 "h": "Team Illinois",
-"vs": 1,
+"vs": 2,
 "hs": 1,
 "st": "IN PROGRESS",
 "goalies": [
@@ -9015,6 +9015,24 @@ null
 [
 "86",
 "Ryan Burkhiser",
+1
+]
+],
+[]
+],
+[
+"1ST",
+"0:40",
+0,
+[
+[
+"17",
+"Weston Thibodeau",
+2
+],
+[
+"97",
+"Adrian Russo",
 1
 ]
 ],
