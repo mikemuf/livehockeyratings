@@ -38,3 +38,4 @@ Sat 4:00 CT: FOUND the Reapers/Mission scores — Elk Grove (Mission home) games
 Mike Sat 4:00 PM: MHR counts a SHOOTOUT as a one-goal win for the shootout winner (e.g. 4-3), NOT a tie. Always record SO games that way.
 Sat 4:15 hourly: added 2012 CK 3-2 BJE, NJ 6-0 Cleveland; 2014 Cleveland 4-1 Phoenix (MHR scan). 2011 Reapers-Mission still LIVE 3-0 on 15464.
 Sat 5:15 hourly: LC 2-2 Seacoast final (box imported); 2011 Reapers 4-1 Mission final (15464); TI leads UCC 5-0; HP-Fox live. No MHR scan this hour (GameSheet covered key games; MHR scan next hour for 2013/2014/2015).
+Sat 6:15 hourly: Reapers account 15356 DOES show Mount Prospect games live (2015 Mission 9-4 Reapers stuck LIVE; 2014 Mission 2-1 live) — box keys '2015|15356|pwmin','2014|15356|pwmaj'. 2012: TJC 1-0 Biggby, Fox 2-0 HP, Ohio-Hill 0-0 all live. 2011 SSM 2-0 LC live.
