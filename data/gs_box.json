@@ -8967,7 +8967,7 @@ null
 "v": "Little Caesars",
 "h": "Team Illinois",
 "vs": 0,
-"hs": 0,
+"hs": 1,
 "st": "IN PROGRESS",
 "goalies": [
 [
@@ -8980,6 +8980,52 @@ null
 1,
 "36",
 "Grady Macejko",
+""
+]
+],
+"goals": [
+[
+"1ST",
+"11:31",
+1,
+[
+[
+"2",
+"Logan Naydenoff",
+1
+],
+[
+"92",
+"Harry Marshall Iii",
+4
+]
+],
+[]
+]
+],
+"pens": []
+},
+"2012|16410|3157308": {
+"div": "2012",
+"date": "2026-11-15",
+"time": "9:30 AM",
+"rink": "Dearborn Ice Skating Center Kilpatrick Arena",
+"v": "Nashville Jr. Predators",
+"h": "Toronto Jr Canadiens",
+"vs": 0,
+"hs": 0,
+"st": "IN PROGRESS",
+"goalies": [
+[
+0,
+"33",
+"John Nolan Blankush",
+""
+],
+[
+1,
+"31",
+"Christian Arianna",
 ""
 ]
 ],
