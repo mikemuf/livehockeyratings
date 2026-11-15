@@ -9685,7 +9685,7 @@ null
 "v": "Team Illinois",
 "h": "Toronto Jr Canadiens",
 "vs": 0,
-"hs": 1,
+"hs": 2,
 "st": "IN PROGRESS",
 "goalies": [
 [
@@ -9719,6 +9719,29 @@ null
 ]
 ],
 []
+],
+[
+"2ND",
+"11:08",
+1,
+[
+[
+"87",
+"Tristan Reynolds",
+12
+],
+[
+"61",
+"Maddox Miller",
+1
+],
+[
+"14",
+"Christopher Davis",
+2
+]
+],
+[]
 ]
 ],
 "pens": [
@@ -9732,6 +9755,28 @@ null
 null
 ],
 "Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"2ND",
+"13:19",
+1,
+[
+"22",
+"Max Moro",
+null
+],
+"Interference - minor, 2 min"
+],
+[
+"2ND",
+"9:37",
+0,
+[
+"16",
+"Kaden Sadler",
+null
+],
+"Slashing - minor, 2 min"
 ]
 ]
 },
@@ -9743,7 +9788,7 @@ null
 "v": "Chicago Reapers",
 "h": "Chicago Mission",
 "vs": 2,
-"hs": 2,
+"hs": 3,
 "st": "IN PROGRESS",
 "goalies": [],
 "goals": [
@@ -9789,6 +9834,19 @@ null
 [
 "2ND",
 "3:22",
+1,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[]
+],
+[
+"3RD",
+"11:00",
 1,
 [
 [
