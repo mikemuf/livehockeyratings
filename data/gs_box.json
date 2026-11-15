@@ -9721,7 +9721,19 @@ null
 []
 ]
 ],
-"pens": []
+"pens": [
+[
+"1ST",
+"6:13",
+0,
+[
+"25",
+"Miles Madden",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+]
+]
 },
 "2015|15464|2968658": {
 "div": "2015",
@@ -9731,7 +9743,7 @@ null
 "v": "Chicago Reapers",
 "h": "Chicago Mission",
 "vs": 2,
-"hs": 0,
+"hs": 2,
 "st": "IN PROGRESS",
 "goalies": [],
 "goals": [
@@ -9752,6 +9764,32 @@ null
 "1ST",
 "3:59",
 0,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[]
+],
+[
+"2ND",
+"3:32",
+1,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[]
+],
+[
+"2ND",
+"3:22",
+1,
 [
 [
 "",
