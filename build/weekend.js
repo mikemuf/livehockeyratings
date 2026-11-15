@@ -85,5 +85,5 @@ function renderGame(S,key){
     return `<p style="margin:8px 0 2px"><b>${esc(t)}</b> <span class="small">${w}-${l}-${ti} this weekend</span></p>`+(L.length?L.map(g=>{const me=g[2]===t,mf=me?g[3]:g[5],of=me?g[5]:g[3],op=me?g[4]:g[2];return `<div class="small">${mf>of?'W':mf<of?'L':'T'} ${mf}-${of} vs ${esc(op)} <span>(${lr(op)})</span></div>`}).join(''):'<div class="small">No other games yet.</div>')}).join('')+'</div>';
   return h;
 }
-document.addEventListener('click',e=>{const g=e.target.closest&&e.target.closest('[data-gm]');if(g){location.hash='#game='+div+'|'+g.dataset.gm;return}
+document.addEventListener('click',e=>{const g=e.target.closest&&e.target.closest('[data-gm]');if(g){location.hash='#game='+div+'-'+g.dataset.gm;return}
   if(e.target.closest&&e.target.closest('.seg button,nav.tabs button'))WK_SEL=null},true);
