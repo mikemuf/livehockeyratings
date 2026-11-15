@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 13–15",
  "status": "In progress — Saturday",
- "updated": "Sat Nov 14, 6:20 PM CT",
+ "updated": "Sat Nov 14, 6:35 PM CT",
  "from": "2026-11-12",
  "to": "2026-11-16",
  "note": "Ranks are MHR’s Nov 11 ratings and move live as results come in. Game times are local to the rink. Many rinks stream on LiveBarn.",
@@ -10,7 +10,7 @@
   "2012": {
    "summary": [
     "Challenger Cup after Saturday morning: Toronto Jr Canadiens (CAN) are 3-0 with three shutouts (3-0 Top Gun, 6-0 Windy City, 6-0 St. Louis). Little Caesars (#3, 97.66) are 3-0 and Nashville (#8, 96.52) is 3-0. Team Illinois (#6, 97.02) is 3-0 with two shutouts.",
-    "Afternoon thriller: Penguins Elite (#11, 96.26) led Nashville (#8, 96.52) 3-0 into the 3rd, Nashville scored four in 3:06 to lead 4-3, and Tristan Leduc tied it 4-4 with 44 seconds left. Windy City (#36) shut out St. Louis (#25) 1-0. Chatham-Kent (CAN) beat Boston Jr Eagles (#20, 94.74) 3-2, and NJ Colonials (#21, 94.43) blanked Cleveland 6-0. Seacoast (#22, 94.36) came back from 2-0 down in the 3rd to tie Little Caesars (#3, 97.50) 2-2. Team Illinois (#5, 97.07) beat Upper Canada College 6-0 to go 4-0 and moves past Chicago Mission (#6, 97.03). Live: Fox Motors leads Huron-Perth 2-0; Ohio vs Hill Academy has started.",
+    "Afternoon thriller: Penguins Elite (#11, 96.26) led Nashville (#8, 96.52) 3-0 into the 3rd, Nashville scored four in 3:06 to lead 4-3, and Tristan Leduc tied it 4-4 with 44 seconds left. Windy City (#36) shut out St. Louis (#25) 1-0. Chatham-Kent (CAN) beat Boston Jr Eagles (#20, 94.74) 3-2, and NJ Colonials (#21, 94.43) blanked Cleveland 6-0. Seacoast (#22, 94.36) came back from 2-0 down in the 3rd to tie Little Caesars (#3, 97.50) 2-2. Team Illinois (#5, 97.07) beat Upper Canada College 6-0 to go 4-0 and moves past Chicago Mission (#6, 97.03). Live: Fox Motors leads Huron-Perth 2-1, Toronto leads Biggby 2-0, Ohio vs Hill is 0-0.",
     "Reapers vs Mission at Elk Grove: Chicago Mission (#5, 97.05) beat Chicago Reapers (#16, 95.82) 4-3 in a shootout (3-3 after overtime).",
     "Fox Motors (#27, 93.84) is 3-0 after beating Upper Canada College (CAN) 5-1. Huron-Perth (CAN) bounced back from a loss to Team Illinois with wins over NJ Colonials and Cleveland. Chatham-Kent (CAN) is 2-1 after LC beat them 4-1.",
     "Top Gun (#12, 96.22) lost its first two (0-3 Toronto, 3-5 St. Louis) before beating Biggby 5-2. Masters Academy (#26) is 1-1-1. Chicago Mission (#5, 97.06) hasn't played; it hosts the Reapers today at 12:30.",
@@ -297,7 +297,7 @@
   "2014": {
    "summary": [
     "Saturday: Top Gun (#6, 97.52) tied #1 Middlesex Islanders East (99.99) 3-3. In Dallas, Dallas Stars Elite (#20, 94.90) beat Anaheim (#19, 95.14) 4-2.",
-    "Live at Mount Prospect: Chicago Mission (#28) leads Chicago Reapers (#17) 2-1.",
+    "Live at Mount Prospect: Chicago Reapers (#17) lead Chicago Mission (#28) 3-2.",
     "Cleveland Barons (#24, 94.12) are 3-0 in Dallas after a 4-1 win over Phoenix.",
     "Friday upsets: North Jersey Avalanche (#12) beat Mid-Fairfield Elite (#9) 5-4, and St Louis Blues (#11) beat Boston Jr Eagles (#5) 8-5 in Buffalo. Boston Jr Eagles drop to 97.49.",
     "Cleveland Barons (#25, now #24, 94.04) went 2-0 in Dallas, beating Anaheim (#18) 6-4 and Dallas Stars (#20) 6-4.",
@@ -372,7 +372,7 @@
   "2015": {
    "summary": [
     "Saturday: Providence Capitals (#12, 92.06) beat South Shore Kings (#9, 92.42) 4-2. Boston Jr Eagles (#6, 93.13) swept PAL Jr Islanders Blue (#18) 5-2 and 2-1. St Louis Blues (#10, 92.23) routed Florida Alliance 9-1.",
-    "Chicago Mission (#8, 92.48) leads Chicago Reapers (#20) 9-4 at Mount Prospect; GameSheet hasn't closed it yet.",
+    "Chicago Mission (#8, 92.61) beat Chicago Reapers (#21, 90.38) 9-4 at Mount Prospect. Rematch Sunday 2:10 PM at Elk Grove.",
     "Dallas Stars Elite (#7, now 92.70) opened 2-0 in St. Louis, beating Florida Alliance 9-3 and St Louis Blues (#11) 3-2.",
     "South Shore Kings (#8, 92.44) beat PAL Jr Islanders (Blue) (#18, 90.66) 4-2 on Friday night.",
     "Mid-Fairfield Elite (#4) has a big Connecticut weekend at Chelsea Piers: two games vs Middlesex Islanders East (#41) on Saturday and two vs Boston Jr Eagles (#6) on Sunday.",
@@ -393,15 +393,6 @@
     }
    ],
    "watch": [
-    {
-     "day": "Sat Nov 14",
-     "time": "4:10 PM",
-     "a": "Chicago Reapers",
-     "b": "Chicago Mission",
-     "rink": "Mount Prospect Ice Arena (South)",
-     "city": "Mount Prospect, IL",
-     "note": "LiveBarn"
-    },
     {
      "day": "Sat Nov 14",
      "time": "11:30 AM",
