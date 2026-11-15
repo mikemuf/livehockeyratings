@@ -8967,7 +8967,7 @@ null
 "v": "Little Caesars",
 "h": "Team Illinois",
 "vs": 2,
-"hs": 2,
+"hs": 3,
 "st": "IN PROGRESS",
 "goalies": [
 [
@@ -9055,6 +9055,24 @@ null
 ]
 ],
 []
+],
+[
+"3RD",
+"5:21",
+1,
+[
+[
+"49",
+"Noah Mahery Moreau",
+4
+],
+[
+"6",
+"Carson Esser",
+3
+]
+],
+[]
 ]
 ],
 "pens": [
@@ -9111,7 +9129,7 @@ null
 "rink": "Dearborn Ice Skating Center Kilpatrick Arena",
 "v": "Nashville Jr. Predators",
 "h": "Toronto Jr Canadiens",
-"vs": 0,
+"vs": 1,
 "hs": 4,
 "st": "IN PROGRESS",
 "goalies": [
@@ -9200,6 +9218,29 @@ null
 ]
 ],
 []
+],
+[
+"3RD",
+"8:26",
+0,
+[
+[
+"10",
+"Sebastien Erat",
+6
+],
+[
+"2",
+"Lincoln Brown",
+4
+],
+[
+"29",
+"Lev Tikhonov",
+2
+]
+],
+[]
 ]
 ],
 "pens": [
@@ -9213,6 +9254,17 @@ null
 null
 ],
 "Roughing - minor, 2 min"
+],
+[
+"2ND",
+"5:27",
+1,
+[
+"93",
+"Jaxson Pollard",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
 ]
 ]
 }
