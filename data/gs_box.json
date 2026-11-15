@@ -9013,7 +9013,7 @@ null
 "v": "Nashville Jr. Predators",
 "h": "Toronto Jr Canadiens",
 "vs": 0,
-"hs": 0,
+"hs": 1,
 "st": "IN PROGRESS",
 "goalies": [
 [
@@ -9029,7 +9029,33 @@ null
 ""
 ]
 ],
-"goals": [],
-"pens": []
+"goals": [
+[
+"1ST",
+"12:57",
+1,
+[
+[
+"86",
+"Michael Alati",
+1
+]
+],
+[]
+]
+],
+"pens": [
+[
+"1ST",
+"14:09",
+1,
+[
+"10",
+"Hayden Mcgrann",
+null
+],
+"Roughing - minor, 2 min"
+]
+]
 }
 }
