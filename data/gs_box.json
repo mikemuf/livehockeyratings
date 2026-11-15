@@ -9079,6 +9079,28 @@ null
 null
 ],
 "Slashing - minor, 2 min"
+],
+[
+"2ND",
+"8:25",
+1,
+[
+"2",
+"Logan Naydenoff",
+null
+],
+"Tripping/clipping/leg checking - minor, 2 min"
+],
+[
+"2ND",
+"5:50",
+1,
+[
+"49",
+"Noah Mahery Moreau",
+null
+],
+"Slashing - minor, 2 min"
 ]
 ]
 },
@@ -9090,7 +9112,7 @@ null
 "v": "Nashville Jr. Predators",
 "h": "Toronto Jr Canadiens",
 "vs": 0,
-"hs": 3,
+"hs": 4,
 "st": "IN PROGRESS",
 "goalies": [
 [
@@ -9152,6 +9174,29 @@ null
 "10",
 "Hayden Mcgrann",
 3
+]
+],
+[]
+],
+[
+"2ND",
+"12:00",
+1,
+[
+[
+"86",
+"Michael Alati",
+2
+],
+[
+"11",
+"Colton Lantz",
+4
+],
+[
+"22",
+"Max Moro",
+1
 ]
 ],
 []
