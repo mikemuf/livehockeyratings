@@ -9685,7 +9685,7 @@ null
 "v": "Team Illinois",
 "h": "Toronto Jr Canadiens",
 "vs": 0,
-"hs": 0,
+"hs": 1,
 "st": "IN PROGRESS",
 "goalies": [
 [
@@ -9701,7 +9701,67 @@ null
 ""
 ]
 ],
-"goals": [],
+"goals": [
+[
+"1ST",
+"12:34",
+1,
+[
+[
+"87",
+"Tristan Reynolds",
+11
+],
+[
+"16",
+"Colton Dimmell",
+4
+]
+],
+[]
+]
+],
+"pens": []
+},
+"2015|15464|2968658": {
+"div": "2015",
+"date": "2026-11-15",
+"time": "2:10 PM",
+"rink": "Elk Grove Ice Arena (West)",
+"v": "Chicago Reapers",
+"h": "Chicago Mission",
+"vs": 2,
+"hs": 0,
+"st": "IN PROGRESS",
+"goalies": [],
+"goals": [
+[
+"1ST",
+"9:40",
+0,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[]
+],
+[
+"1ST",
+"3:59",
+0,
+[
+[
+"",
+"Not Available",
+null
+]
+],
+[]
+]
+],
 "pens": []
 }
 }
