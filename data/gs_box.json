@@ -9685,7 +9685,7 @@ null
 "v": "Team Illinois",
 "h": "Toronto Jr Canadiens",
 "vs": 0,
-"hs": 2,
+"hs": 3,
 "st": "IN PROGRESS",
 "goalies": [
 [
@@ -9738,6 +9738,29 @@ null
 [
 "14",
 "Christopher Davis",
+2
+]
+],
+[]
+],
+[
+"2ND",
+"7:03",
+1,
+[
+[
+"11",
+"Colton Lantz",
+3
+],
+[
+"16",
+"Colton Dimmell",
+5
+],
+[
+"85",
+"Kai Baptiste",
 2
 ]
 ],
