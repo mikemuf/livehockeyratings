@@ -52,3 +52,4 @@ Sun ~10:00: SEMIS FINAL — TI 4-2 LC (3157311), TJC 5-1 NSH (3157308); added to
 Sun 10:16 hourly: 2012 Mission @ Reapers (Mount Prospect 9:10) = Reapers acct 15356 game 2966024, Mission 2-0 in 3rd; box key '2012|15356|2966024' (manual). Check final next run.
 Sun 10:25: CHAMPIONSHIP game id = 3157305 (16410; TI visitor, TJC home, 3:30 PM Detroit, BELFOR). Added NJ 5-1 STL, Biggby 3-2 Ohio (Sun consolation). Mission@Reapers 2012 (2966024) still 'IN PROGRESS' 2-0 at 10:21.
 Sun 10:37: Elk Grove Reapers–Mission ids on 15464: 2013=2968647 (10:50), 2015=2968658 (2:10), 2014=2968654 (3:50). Load box via iframe /seasons/15464/games/<id>?tab=box-score.
+Sun 11:10: 2011 BK vs SSM = 16677 game 3172419 (BK visitor). 2013 Reapers-Mission 0-0 (Reapers outshooting 11-4).
