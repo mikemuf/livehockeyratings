@@ -61,3 +61,4 @@ Sun 3:55: CHALLENGER CUP FINAL — TJC 3-1 TI (3157305). Write-up lead rewritten
 Sun 4:55: 2014 Reapers 1-0 OT Mission (2968654) — last game of weekend. Chain stopped.
 Sun 6:16 MHR 2012 scan (Nov 15): added Top Gun 4-1 Chatham-Kent, BJE 2-2 Windy City.
 Mike Sun 6:41 PM: Games to watch must drop a game once it's over — now automatic (weekend.js filters watch items that have a result/final box or are past).
+Mike Sun 10:31 PM: scheduling now follows the games — see data/SCHEDULING.md. Weekend task = planner (Sat/Sun 7:12 AM CT, cron) that schedules live-check chains around actual game times; no idle hourly runs.
