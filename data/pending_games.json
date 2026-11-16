@@ -921,10 +921,10 @@
 "2011",
 "2026-11-15",
 "Chicago Reapers",
-0,
+4,
 "Chicago Mission",
-1,
-"GameSheet 15356 (sheet left LIVE; 1-0 after 1h50)"
+3,
+"MHR (GameSheet sheet was left LIVE at 1-0 Mission)"
 ],
 [
 "2012",
@@ -961,5 +961,572 @@
 "Windy City Storm",
 2,
 "MHR"
+],
+[
+"2014",
+"2026-11-15",
+"Middlesex Islanders East (Elite)",
+4,
+"Bay State Breakers (Elite)",
+2,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-14",
+"Boston Advantage (Elite)",
+9,
+"Philadelphia Little Flyers",
+3,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-13",
+"Boston Jr Eagles (Elite)",
+8,
+"Woodbridge Wolfpack",
+1,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-14",
+"Boston Jr Eagles (Elite)",
+4,
+"HB Detroit",
+4,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-15",
+"Chicago Fury",
+6,
+"Windy City Storm",
+0,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-13",
+"Buffalo Jr Sabres",
+6,
+"HB Detroit",
+2,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-14",
+"Buffalo Jr Sabres",
+7,
+"North Jersey Avalanche",
+1,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-14",
+"Buffalo Jr Sabres",
+7,
+"Florida Surf",
+5,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-15",
+"Buffalo Jr Sabres",
+1,
+"Toronto Jr Canadiens",
+6,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-13",
+"Mid-Fairfield Hockey Club (Elite)",
+1,
+"Huron-Perth Lakers",
+4,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-14",
+"Mid-Fairfield Hockey Club (Elite)",
+1,
+"Toronto Jr Canadiens",
+5,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-14",
+"St Louis Blues",
+6,
+"North Jersey Avalanche",
+4,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-15",
+"St Louis Blues",
+2,
+"Huron-Perth Lakers",
+6,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-15",
+"North Jersey Avalanche",
+3,
+"HB Detroit",
+5,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-14",
+"South Shore Kings (Elite)",
+4,
+"Minuteman Flames (Elite)",
+1,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-13",
+"Florida Surf",
+1,
+"Toronto Jr Canadiens",
+6,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-14",
+"Florida Surf",
+2,
+"Huron-Perth Lakers",
+6,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-15",
+"Florida Surf",
+3,
+"Woodbridge Wolfpack",
+1,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-15",
+"Anaheim Jr Ducks",
+4,
+"Phoenix Jr Coyotes",
+3,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-13",
+"Boston Jr Terriers (Elite)",
+9,
+"Philadelphia Little Flyers",
+3,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-15",
+"Dallas Stars Elite",
+3,
+"Cleveland Barons",
+2,
+"MHR sweep Mon"
+],
+[
+"2014",
+"2026-11-14",
+"Boston Advantage (Elite)",
+7,
+"Philadelphia Little Flyers",
+2,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-14",
+"Mid-Fairfield Hockey Club (Elite)",
+7,
+"Middlesex Islanders East (Elite)",
+3,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-14",
+"Mid-Fairfield Hockey Club (Elite)",
+10,
+"Middlesex Islanders East (Elite)",
+4,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-15",
+"Mid-Fairfield Hockey Club (Elite)",
+3,
+"Boston Jr Eagles (Elite)",
+3,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-15",
+"Mid-Fairfield Hockey Club (Elite)",
+2,
+"Boston Jr Eagles (Elite)",
+2,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-15",
+"Dallas Stars Elite",
+3,
+"St Louis Blues",
+4,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-15",
+"South Shore Kings (Elite)",
+5,
+"Middlesex Islanders East (Elite)",
+3,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-13",
+"St Louis Blues",
+4,
+"Oakland Jr Grizzlies",
+3,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-15",
+"Providence Capitals (Elite)",
+9,
+"Minuteman Flames (Elite)",
+4,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-14",
+"Florida Surf",
+1,
+"Philadelphia Little Flyers",
+2,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-15",
+"Florida Surf",
+3,
+"Philadelphia Little Flyers",
+8,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-15",
+"Cleveland Barons",
+6,
+"Buffalo Jr Sabres",
+3,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-15",
+"Cleveland Barons",
+4,
+"Buffalo Jr Sabres",
+3,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-13",
+"Bay State Breakers (Elite)",
+5,
+"Philadelphia Little Flyers",
+4,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-15",
+"Chicago Fury",
+7,
+"Windy City Storm",
+0,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-13",
+"Florida Alliance",
+5,
+"Oakland Jr Grizzlies",
+3,
+"MHR sweep Mon"
+],
+[
+"2015",
+"2026-11-15",
+"Florida Alliance",
+3,
+"Oakland Jr Grizzlies",
+5,
+"MHR sweep Mon"
+],
+[
+"2013",
+"2026-11-15",
+"Mid-Fairfield",
+8,
+"Top Gun (Elite)",
+1,
+"MHR sweep Mon"
+],
+[
+"2013",
+"2026-11-15",
+"Mid-Fairfield",
+6,
+"Top Gun (Elite)",
+1,
+"MHR sweep Mon"
+],
+[
+"2013",
+"2026-11-14",
+"Syracuse Nationals",
+3,
+"Oakville Rangers",
+1,
+"MHR sweep Mon"
+],
+[
+"2013",
+"2026-11-15",
+"Syracuse Nationals",
+5,
+"Oakville Rangers",
+2,
+"MHR sweep Mon"
+],
+[
+"2013",
+"2026-11-15",
+"Pittsburgh Penguins Elite",
+4,
+"Buffalo Jr Sabres",
+1,
+"MHR sweep Mon"
+],
+[
+"2013",
+"2026-11-15",
+"Buffalo Jr Sabres",
+3,
+"Pittsburgh Penguins Elite",
+0,
+"MHR sweep Mon"
+],
+[
+"2013",
+"2026-11-15",
+"Nor'easters",
+4,
+"Middlesex Islanders",
+3,
+"MHR sweep Mon"
+],
+[
+"2013",
+"2026-11-13",
+"Colorado Thunderbirds",
+9,
+"Nashville Jr. Predators",
+1,
+"MHR sweep Mon"
+],
+[
+"2012",
+"2026-11-15",
+"Woodbridge Wolfpack",
+4,
+"Jersey Hitmen",
+3,
+"MHR sweep Mon"
+],
+[
+"2012",
+"2026-11-14",
+"HB Detroit",
+2,
+"Victory Honda",
+2,
+"MHR sweep Mon"
+],
+[
+"2011",
+"2026-11-13",
+"Mount St Charles Hockey Academy",
+9,
+"PAL Jr Islanders",
+2,
+"MHR sweep Mon"
+],
+[
+"2011",
+"2026-11-15",
+"Mount St Charles Hockey Academy",
+7,
+"PAL Jr Islanders",
+2,
+"MHR sweep Mon"
+],
+[
+"2011",
+"2026-11-14",
+"Middlesex Islanders East (Prep)",
+3,
+"Cape Cod Whalers",
+4,
+"MHR sweep Mon"
+],
+[
+"2011",
+"2026-11-15",
+"Masters Academy",
+5,
+"Cape Cod Whalers",
+3,
+"MHR sweep Mon"
+],
+[
+"2011",
+"2026-11-14",
+"St Louis Blues",
+4,
+"Fox Motors",
+1,
+"MHR sweep Mon"
+],
+[
+"2011",
+"2026-11-14",
+"St Louis Blues",
+3,
+"Victory Honda",
+1,
+"MHR sweep Mon"
+],
+[
+"2011",
+"2026-11-15",
+"St Louis Blues",
+5,
+"Milwaukee Jr Admirals",
+4,
+"MHR sweep Mon"
+],
+[
+"2011",
+"2026-11-14",
+"Seacoast Performance Academy",
+1,
+"Palmyra Black Knights",
+3,
+"MHR sweep Mon"
+],
+[
+"2011",
+"2026-11-15",
+"Seacoast Performance Academy",
+4,
+"Palmyra Black Knights",
+2,
+"MHR sweep Mon"
+],
+[
+"2011",
+"2026-11-14",
+"Philadelphia Jr Flyers",
+4,
+"Indiana Elite",
+1,
+"MHR sweep Mon"
+],
+[
+"2011",
+"2026-11-14",
+"Philadelphia Jr Flyers",
+7,
+"Fox Motors",
+3,
+"MHR sweep Mon"
+],
+[
+"2011",
+"2026-11-15",
+"Philadelphia Jr Flyers",
+6,
+"Victory Honda",
+2,
+"MHR sweep Mon"
+],
+[
+"2011",
+"2026-11-14",
+"Notre Dame Hockey Academy",
+7,
+"Jersey Hitmen",
+0,
+"MHR sweep Mon"
+],
+[
+"2011",
+"2026-11-14",
+"Buffalo Jr Sabres",
+3,
+"Milwaukee Jr Admirals",
+4,
+"MHR sweep Mon"
+],
+[
+"2011",
+"2026-11-15",
+"Buffalo Jr Sabres",
+5,
+"Indiana Elite",
+2,
+"MHR sweep Mon"
 ]
 ]
