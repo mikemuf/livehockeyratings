@@ -18,6 +18,7 @@ input[type=email]{width:100%;padding:11px 12px;border:1px solid var(--line);bord
 .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
 .err{color:var(--red);font-size:14px;margin-top:10px}
 .plans{display:grid;gap:12px;margin:16px 0}.plan{border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;align-items:center;gap:12px}
+button.plan{background:var(--panel);font:inherit;color:inherit;text-align:left;width:100%;cursor:pointer}button.plan:hover{border-color:var(--accent)}button.plan[disabled]{opacity:.6;cursor:default}
 .plan b{font-size:20px;margin-left:auto}.plan small{display:block;color:var(--muted)}
 [hidden]{display:none!important}
 .tabs{display:flex;gap:6px}.tabs button{background:none;border:0;border-bottom:3px solid transparent;border-radius:0;color:#b9c7d2;padding:8px 10px;font-size:15px;font-weight:600}
@@ -31,7 +32,7 @@ body.app main{display:none}
 <body>
 <div class="top"><div class="in"><div class="brand">My Player <span>Data</span></div>
 <div class="tabs" id="tabs" hidden><button data-tab="ratings" aria-selected="true">Team ratings</button><button data-tab="players" aria-selected="false">Players</button></div>
-<div class="who" id="who" hidden><span id="who-email"></span><button id="signout">Sign out</button></div></div></div>
+<div class="who" id="who" hidden><span id="who-email"></span><button id="b-account" hidden>Billing</button><button id="signout">Sign out</button></div></div></div>
 <main>
 <div class="card" id="v-load"><p class="muted" style="margin:0">Loading…</p></div>
 
@@ -61,10 +62,11 @@ body.app main{display:none}
 <h1>Choose your membership</h1>
 <p class="muted">Live ratings, weekend reports and the full player database for every birth year.</p>
 <div class="plans">
-<div class="plan"><div>Season pass<small>2026-27 season, one payment</small></div><b>$349</b></div>
-<div class="plan"><div>Monthly<small>Billed monthly, cancel any time</small></div><b>$79</b></div>
+<button class="plan" data-plan="season"><div>Season pass<small>2026-27 season, one payment</small></div><b>$349</b></button>
+<button class="plan" data-plan="monthly"><div>Monthly<small>Billed monthly, cancel any time</small></div><b>$79</b></button>
 </div>
-<p class="muted" id="join-note">Checkout is being set up. You're signed in and this account is ready; payment opens shortly.</p>
+<p class="muted" id="join-note">Choose a plan to continue to secure checkout. Payments are handled by Stripe.</p>
+<div class="err" id="e-join" hidden></div>
 </div>
 
 <div class="card" id="v-member" hidden><p class="muted" style="margin:0">Opening the member site…</p></div>
@@ -81,7 +83,7 @@ function show(v){for(const k of VIEWS)$("v-"+k).hidden=k!==v}
 const TK="mpd-device-token";
 const getTok=()=>{try{return localStorage.getItem(TK)}catch(e){return null}};
 const setTok=t=>{try{t?localStorage.setItem(TK,t):localStorage.removeItem(TK)}catch(e){}};
-let access=null,timer=null;
+let access=null,timer=null,paidTries=0;const PAID=new URLSearchParams(location.search).get("paid")==="1";
 // ---- member app: the ratings site and the full player database, each in its own frame ----
 const RSITE="https://mikemuf.github.io/livehockeyratings/";
 let appOpen=false,playersUrl=null,playersLoading=null,tab="ratings",pending={};
@@ -140,7 +142,9 @@ async function check(){
   access=data;
   if(!data.signed_in){closeApp();show("signin");return}
   if(!data.session_ok){closeApp();show("other");return}
-  if(!data.member){closeApp();show("join");return}
+  if(!data.member){closeApp();$("b-account").hidden=true;show("join");
+    if(PAID&&paidTries<20){paidTries++;$("join-note").textContent="Payment received. Activating your membership…";setTimeout(check,2500)}return}
+  $("b-account").hidden=!(data.plan==="monthly"||data.plan==="season");
   show("member");openApp(session.user.email||"");
 }
 $("f-signin").addEventListener("submit",async e=>{e.preventDefault();const email=$("email").value.trim();if(!email)return;
@@ -150,6 +154,14 @@ $("f-signin").addEventListener("submit",async e=>{e.preventDefault();const email
   if(error){$("e-signin").hidden=false;$("e-signin").textContent=/rate|limit/i.test(error.message)?"Too many sign-in emails just now. Wait a few minutes and try again.":"Could not send the email: "+error.message;return}
   $("sent-to").textContent=email;show("sent")});
 $("b-again").onclick=()=>show("signin");
+async function billing(body){const {data:{session}}=await sb.auth.getSession();if(!session)throw new Error("Not signed in");
+  const r=await fetch(SB_URL+"/functions/v1/billing",{method:"POST",headers:{Authorization:"Bearer "+session.access_token,apikey:SB_KEY,"Content-Type":"application/json"},body:JSON.stringify(body)});
+  const j=await r.json().catch(()=>({}));if(!r.ok||!j.url)throw new Error(j.error||"Something went wrong");return j.url}
+document.querySelector(".plans").addEventListener("click",async e=>{const b=e.target.closest("button.plan");if(!b)return;
+  document.querySelectorAll("button.plan").forEach(x=>x.disabled=true);$("e-join").hidden=true;
+  try{location.href=await billing({action:"checkout",plan:b.dataset.plan})}catch(err){$("e-join").hidden=false;$("e-join").textContent="Could not open checkout: "+err.message;document.querySelectorAll("button.plan").forEach(x=>x.disabled=false)}});
+$("b-account").onclick=async()=>{$("b-account").disabled=true;try{location.href=await billing({action:"portal"})}catch(err){alertMsg("Billing is not available for this account yet.")}$("b-account").disabled=false};
+function alertMsg(t){const m=$("app-msg");if(m&&appOpen){m.hidden=false;m.style.zIndex=9;m.style.background="rgba(243,246,248,.92)";m.textContent=t;setTimeout(()=>{m.hidden=true;m.style.zIndex="";m.style.background=""},3500)}}
 document.getElementById("tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(b)go(b.dataset.tab)});
 $("b-claim").onclick=async()=>{$("b-claim").disabled=true;try{await claim()}catch(e){}$("b-claim").disabled=false;check()};
 $("signout").onclick=async()=>{setTok(null);await sb.auth.signOut();check()};
