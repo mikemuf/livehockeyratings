@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Player Data: members</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#f3f6f8;--panel:#fff;--ink:#14212b;--muted:#5b6b78;--line:#d5dde3;--accent:#0d5c8f;--accent-ink:#fff;--red:#b3262d;--soft:#e6eef3;--night:#0c1a24}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+.top{background:var(--night);color:#fff}.top .in{max-width:1100px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.brand{font-weight:700;font-size:18px;letter-spacing:.2px}.brand span{color:#7cc4ee}.top .who{margin-left:auto;font-size:13px;color:#b9c7d2;display:flex;gap:12px;align-items:center}
+.top button{background:none;border:1px solid #47596a;color:#fff;border-radius:6px;padding:5px 10px;font:inherit;font-size:13px;cursor:pointer}
+main{max-width:520px;margin:40px auto;padding:0 16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:24px}
+h1{font-size:22px;margin:0 0 6px}p{margin:0 0 14px}.muted{color:var(--muted);font-size:14px}
+label{display:block;font-size:13px;font-weight:600;margin:0 0 6px}
+input[type=email]{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:16px}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);border:0;border-radius:8px;padding:11px 18px;font:inherit;font-weight:600;cursor:pointer;text-decoration:none}
+.btn.alt{background:var(--soft);color:var(--ink)}.btn[disabled]{opacity:.6;cursor:default}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.err{color:var(--red);font-size:14px;margin-top:10px}
+.plans{display:grid;gap:12px;margin:16px 0}.plan{border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;align-items:center;gap:12px}
+.plan b{font-size:20px;margin-left:auto}.plan small{display:block;color:var(--muted)}
+[hidden]{display:none!important}
+</style></head>
+<body>
+<div class="top"><div class="in"><div class="brand">My Player <span>Data</span></div>
+<div class="who" id="who" hidden><span id="who-email"></span><button id="signout">Sign out</button></div></div></div>
+<main>
+<div class="card" id="v-load"><p class="muted" style="margin:0">Loading…</p></div>
+
+<div class="card" id="v-signin" hidden>
+<h1>Member sign-in</h1>
+<p class="muted">Enter your email and we'll send you a sign-in link. No password needed. New here? The same form creates your account.</p>
+<form id="f-signin"><label for="email">Email</label><input id="email" type="email" autocomplete="email" required placeholder="you@example.com">
+<div class="row"><button class="btn" id="b-send">Email me a sign-in link</button><a class="btn alt" href="../preview/">Back to preview</a></div>
+<div class="err" id="e-signin" hidden></div></form>
+</div>
+
+<div class="card" id="v-sent" hidden>
+<h1>Check your email</h1>
+<p>We sent a sign-in link to <b id="sent-to"></b>. Open it on this device to finish signing in.</p>
+<p class="muted">It can take a minute to arrive. Check spam if you don't see it. The link works once.</p>
+<div class="row"><button class="btn alt" id="b-again">Use a different email</button></div>
+</div>
+
+<div class="card" id="v-other" hidden>
+<h1>Signed in on another device</h1>
+<p>Your membership works on one device at a time, and this account is currently active somewhere else.</p>
+<p class="muted">Continuing here signs the other device out.</p>
+<div class="row"><button class="btn" id="b-claim">Use this device</button></div>
+</div>
+
+<div class="card" id="v-join" hidden>
+<h1>Choose your membership</h1>
+<p class="muted">Live ratings, weekend reports and the full player database for every birth year.</p>
+<div class="plans">
+<div class="plan"><div>Season pass<small>2026-27 season, one payment</small></div><b>$349</b></div>
+<div class="plan"><div>Monthly<small>Billed monthly, cancel any time</small></div><b>$79</b></div>
+</div>
+<p class="muted" id="join-note">Checkout is being set up. You're signed in and this account is ready; payment opens shortly.</p>
+</div>
+
+<div class="card" id="v-member" hidden>
+<h1>You're in</h1>
+<p>Membership active<span id="m-plan"></span>.</p>
+<p class="muted">The member site (ratings, weekend reports, player database) loads here. It is being connected now.</p>
+</div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+const SB_URL="https://nhojjvbgmyafckejcnbj.supabase.co",SB_KEY="sb_publishable_1mANzeeTvpb5YYMJ-_W5yA_N3i3cIi0";
+const HERE=location.origin+location.pathname;
+const sb=supabase.createClient(SB_URL,SB_KEY);
+const $=id=>document.getElementById(id);
+const VIEWS=["load","signin","sent","other","join","member"];
+function show(v){for(const k of VIEWS)$("v-"+k).hidden=k!==v}
+const TK="mpd-device-token";
+const getTok=()=>{try{return localStorage.getItem(TK)}catch(e){return null}};
+const setTok=t=>{try{t?localStorage.setItem(TK,t):localStorage.removeItem(TK)}catch(e){}};
+let access=null,timer=null;
+
+async function claim(){const {data,error}=await sb.rpc("claim_session",{p_user_agent:navigator.userAgent});if(error)throw error;setTok(data);return data}
+async function check(){
+  const {data:{session}}=await sb.auth.getSession();
+  if(!session){$("who").hidden=true;access=null;show("signin");return}
+  $("who").hidden=false;$("who-email").textContent=session.user.email||"";
+  let tok=getTok();
+  if(!tok){try{tok=await claim()}catch(e){show("signin");$("e-signin").hidden=false;$("e-signin").textContent="Could not start your session. Try again.";return}}
+  const {data,error}=await sb.rpc("member_access",{p_token:tok});
+  if(error){return}
+  access=data;
+  if(!data.signed_in){show("signin");return}
+  if(!data.session_ok){show("other");return}
+  if(!data.member){show("join");return}
+  $("m-plan").textContent=data.plan?" ("+(data.plan==="season"?"season pass":data.plan)+")":"";
+  show("member");
+}
+$("f-signin").addEventListener("submit",async e=>{e.preventDefault();const email=$("email").value.trim();if(!email)return;
+  $("b-send").disabled=true;$("e-signin").hidden=true;
+  const {error}=await sb.auth.signInWithOtp({email,options:{emailRedirectTo:HERE,shouldCreateUser:true}});
+  $("b-send").disabled=false;
+  if(error){$("e-signin").hidden=false;$("e-signin").textContent=/rate|limit/i.test(error.message)?"Too many sign-in emails just now. Wait a few minutes and try again.":"Could not send the email: "+error.message;return}
+  $("sent-to").textContent=email;show("sent")});
+$("b-again").onclick=()=>show("signin");
+$("b-claim").onclick=async()=>{$("b-claim").disabled=true;try{await claim()}catch(e){}$("b-claim").disabled=false;check()};
+$("signout").onclick=async()=>{setTok(null);await sb.auth.signOut();check()};
+sb.auth.onAuthStateChange((ev)=>{if(ev==="SIGNED_IN"&&location.hash.includes("access_token")){setTok(null)}if(ev==="SIGNED_IN"||ev==="SIGNED_OUT")setTimeout(check,0)});
+check();
+timer=setInterval(()=>{if(access&&access.signed_in&&document.visibilityState==="visible")check()},60000);
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible"&&access&&access.signed_in)check()});
+</script>
+</body></html>
