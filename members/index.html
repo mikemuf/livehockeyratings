@@ -20,9 +20,17 @@ input[type=email]{width:100%;padding:11px 12px;border:1px solid var(--line);bord
 .plans{display:grid;gap:12px;margin:16px 0}.plan{border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;align-items:center;gap:12px}
 .plan b{font-size:20px;margin-left:auto}.plan small{display:block;color:var(--muted)}
 [hidden]{display:none!important}
+.tabs{display:flex;gap:6px}.tabs button{background:none;border:0;border-bottom:3px solid transparent;border-radius:0;color:#b9c7d2;padding:8px 10px;font-size:15px;font-weight:600}
+.tabs button[aria-selected=true]{color:#fff;border-bottom-color:#7cc4ee}
+body.app main{display:none}
+#app{position:fixed;left:0;right:0;bottom:0;top:var(--top,52px);background:var(--bg)}
+#app iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#fff}
+#wm{position:absolute;inset:0;pointer-events:none;z-index:5;opacity:.07;background-repeat:repeat}
+#app .msg{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--muted);z-index:1}
 </style></head>
 <body>
 <div class="top"><div class="in"><div class="brand">My Player <span>Data</span></div>
+<div class="tabs" id="tabs" hidden><button data-tab="ratings" aria-selected="true">Team ratings</button><button data-tab="players" aria-selected="false">Players</button></div>
 <div class="who" id="who" hidden><span id="who-email"></span><button id="signout">Sign out</button></div></div></div>
 <main>
 <div class="card" id="v-load"><p class="muted" style="margin:0">Loading…</p></div>
@@ -59,12 +67,9 @@ input[type=email]{width:100%;padding:11px 12px;border:1px solid var(--line);bord
 <p class="muted" id="join-note">Checkout is being set up. You're signed in and this account is ready; payment opens shortly.</p>
 </div>
 
-<div class="card" id="v-member" hidden>
-<h1>You're in</h1>
-<p>Membership active<span id="m-plan"></span>.</p>
-<p class="muted">The member site (ratings, weekend reports, player database) loads here. It is being connected now.</p>
-</div>
+<div class="card" id="v-member" hidden><p class="muted" style="margin:0">Opening the member site…</p></div>
 </main>
+<div id="app" hidden><div class="msg" id="app-msg">Loading…</div><iframe id="fr-ratings" title="Team ratings" hidden></iframe><iframe id="fr-players" title="Players" hidden></iframe><div id="wm"></div></div>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 const SB_URL="https://nhojjvbgmyafckejcnbj.supabase.co",SB_KEY="sb_publishable_1mANzeeTvpb5YYMJ-_W5yA_N3i3cIi0";
@@ -77,22 +82,66 @@ const TK="mpd-device-token";
 const getTok=()=>{try{return localStorage.getItem(TK)}catch(e){return null}};
 const setTok=t=>{try{t?localStorage.setItem(TK,t):localStorage.removeItem(TK)}catch(e){}};
 let access=null,timer=null;
+// ---- member app: the ratings site and the full player database, each in its own frame ----
+const RSITE="https://mikemuf.github.io/livehockeyratings/";
+let appOpen=false,playersUrl=null,playersLoading=null,tab="ratings",pending={};
+const b64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+async function decryptPage(file,keyB64){
+  const buf=new Uint8Array(await (await fetch(file+"?v="+Date.now(),{cache:"no-store"})).arrayBuffer());
+  const key=await crypto.subtle.importKey("raw",b64(keyB64),"AES-GCM",false,["decrypt"]);
+  const plain=await crypto.subtle.decrypt({name:"AES-GCM",iv:buf.slice(0,12)},key,buf.slice(12));
+  const html=await new Response(new Blob([plain]).stream().pipeThrough(new DecompressionStream("gzip"))).blob();
+  return URL.createObjectURL(new Blob([html],{type:"text/html"}));
+}
+function setHash(fr,h){try{const w=fr.contentWindow;if(h&&w.location.hash!==h){w.location.hash=h}}catch(e){}}
+function hook(fr,kind){ // keep links between the two apps inside the member site
+  let d;try{d=fr.contentDocument}catch(e){return}
+  if(!d||d.__mpd)return;d.__mpd=true;
+  d.addEventListener("click",e=>{const a=e.target.closest&&e.target.closest("a");if(!a)return;const h=a.getAttribute("href")||"";
+    if(kind==="ratings"&&/^players\//.test(h)){e.preventDefault();e.stopPropagation();go("players",h.includes("#")?h.slice(h.indexOf("#")):"")}
+    else if(kind==="players"&&(a.id==="rback"||h.startsWith(RSITE))){e.preventDefault();e.stopPropagation();const full=a.href||h;go("ratings",full.includes("#")?full.slice(full.indexOf("#")):"")}
+  },true);
+}
+async function go(t,hash){
+  tab=t;document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
+  const fr=$("fr-ratings"),fp=$("fr-players");
+  if(t==="ratings"){fp.hidden=true;$("app-msg").hidden=true;
+    if(!fr.src){fr.onload=()=>{hook(fr,"ratings")};fr.src="../"+(hash||"")}else setHash(fr,hash);
+    fr.hidden=false;return}
+  fr.hidden=true;
+  if(!playersUrl){$("app-msg").hidden=false;$("app-msg").textContent="Loading the player database…";
+    if(!playersLoading)playersLoading=decryptPage("data/players.bin",access.keys.main).then(u=>{playersUrl=u}).catch(e=>{playersLoading=null;throw e});
+    try{await playersLoading}catch(e){$("app-msg").textContent="Could not load the player database. Refresh the page to try again.";return}
+    if(!appOpen||tab!=="players")return;
+    fp.onload=()=>{hook(fp,"players")};fp.src=playersUrl+(hash||"")}
+  else setHash(fp,hash);
+  $("app-msg").hidden=true;fp.hidden=false;
+}
+function watermark(email){const t=(email||"member").replace(/[<>&"]/g,"");
+  const svg='<svg xmlns="http://www.w3.org/2000/svg" width="360" height="200"><text x="10" y="110" transform="rotate(-24 180 100)" font-family="sans-serif" font-size="15" fill="#000">'+t+'</text></svg>';
+  $("wm").style.backgroundImage='url("data:image/svg+xml,'+encodeURIComponent(svg)+'")'}
+function openApp(email){if(appOpen)return;appOpen=true;document.body.classList.add("app");
+  document.documentElement.style.setProperty("--top",document.querySelector(".top").offsetHeight+"px");
+  $("tabs").hidden=false;$("app").hidden=false;watermark(email);go(tab)}
+function closeApp(){if(!appOpen)return;appOpen=false;document.body.classList.remove("app");$("tabs").hidden=true;$("app").hidden=true;
+  for(const id of ["fr-ratings","fr-players"]){const f=$(id);f.removeAttribute("src");f.hidden=true;try{f.contentWindow.location.replace("about:blank")}catch(e){}}
+  if(playersUrl){URL.revokeObjectURL(playersUrl);playersUrl=null}playersLoading=null}
+window.addEventListener("resize",()=>document.documentElement.style.setProperty("--top",document.querySelector(".top").offsetHeight+"px"));
 
 async function claim(){const {data,error}=await sb.rpc("claim_session",{p_user_agent:navigator.userAgent});if(error)throw error;setTok(data);return data}
 async function check(){
   const {data:{session}}=await sb.auth.getSession();
-  if(!session){$("who").hidden=true;access=null;show("signin");return}
+  if(!session){$("who").hidden=true;access=null;closeApp();show("signin");return}
   $("who").hidden=false;$("who-email").textContent=session.user.email||"";
   let tok=getTok();
   if(!tok){try{tok=await claim()}catch(e){show("signin");$("e-signin").hidden=false;$("e-signin").textContent="Could not start your session. Try again.";return}}
   const {data,error}=await sb.rpc("member_access",{p_token:tok});
   if(error){return}
   access=data;
-  if(!data.signed_in){show("signin");return}
-  if(!data.session_ok){show("other");return}
-  if(!data.member){show("join");return}
-  $("m-plan").textContent=data.plan?" ("+(data.plan==="season"?"season pass":data.plan)+")":"";
-  show("member");
+  if(!data.signed_in){closeApp();show("signin");return}
+  if(!data.session_ok){closeApp();show("other");return}
+  if(!data.member){closeApp();show("join");return}
+  show("member");openApp(session.user.email||"");
 }
 $("f-signin").addEventListener("submit",async e=>{e.preventDefault();const email=$("email").value.trim();if(!email)return;
   $("b-send").disabled=true;$("e-signin").hidden=true;
@@ -101,6 +150,7 @@ $("f-signin").addEventListener("submit",async e=>{e.preventDefault();const email
   if(error){$("e-signin").hidden=false;$("e-signin").textContent=/rate|limit/i.test(error.message)?"Too many sign-in emails just now. Wait a few minutes and try again.":"Could not send the email: "+error.message;return}
   $("sent-to").textContent=email;show("sent")});
 $("b-again").onclick=()=>show("signin");
+document.getElementById("tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(b)go(b.dataset.tab)});
 $("b-claim").onclick=async()=>{$("b-claim").disabled=true;try{await claim()}catch(e){}$("b-claim").disabled=false;check()};
 $("signout").onclick=async()=>{setTok(null);await sb.auth.signOut();check()};
 sb.auth.onAuthStateChange((ev)=>{if(ev==="SIGNED_IN"&&location.hash.includes("access_token")){setTok(null)}if(ev==="SIGNED_IN"||ev==="SIGNED_OUT")setTimeout(check,0)});
