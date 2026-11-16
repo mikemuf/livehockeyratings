@@ -93,7 +93,7 @@ label{display:block;font-size:13px;font-weight:600;margin:10px 0 4px}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (max-width:640px){.hero .in{padding:36px 16px 30px}.top nav a.hide{display:none}}
 </style></head><body>
-<div class="demo">Preview build for demonstration. Accounts and payments are not active, and nothing you type on this page is saved or sent.</div>
+<div class="demo">Beta. Sign-up is open for testing: checkout runs in test mode and no real payment is taken.</div>
 <div class="top"><div class="in"><div class="brand">My Player <span>Data</span></div>
 <nav><a class="hide" href="#ratings">Live ratings</a><a class="hide" href="#weekend">This weekend</a><a class="hide" href="#preview">Players</a><a class="hide" href="#find">Find a player</a><a class="hide" href="#pricing">Pricing</a><button class="btn alt" data-act="signin">Sign in</button><button class="btn" data-act="join">Become a member</button></nav></div></div>
 <div class="hero"><div class="in">
@@ -142,7 +142,7 @@ label{display:block;font-size:13px;font-weight:600;margin:10px 0 4px}
 <div class="plan"><h3>Monthly</h3><div class="price">$79 <small>per month</small></div><ul><li>Everything in the season pass</li><li>Billed monthly</li><li>Cancel any time</li></ul><button class="btn alt" style="color:var(--ink)" data-act="join" data-plan="monthly">Start monthly</button></div>
 </div></section>
 
-<footer>Stats run through <span id="s-date"></span>. Team ratings are live; player stats are refreshed as games are posted. This page is a preview; membership is not yet open.</footer>
+<footer>Stats run through <span id="s-date"></span>. Team ratings are live; player stats are refreshed as games are posted. Membership is in beta testing.</footer>
 
 <dialog id="prof"><div class="dl" id="prof-in"></div></dialog>
 <dialog id="flow"><div class="dl" id="flow-in"></div></dialog>
@@ -195,7 +195,7 @@ document.addEventListener("click",e=>{const t=e.target;
   const row=t.closest("tr.open");if(row){profile(P[year][+row.dataset.i]);return}
   const op=t.closest("[data-open]");if(op){const[a,b]=op.dataset.open.split("|");profile(P[a][+b]);return}
   if(t.closest("[data-close]")){t.closest("dialog").close();return}
-  const act=t.closest("[data-act]");if(act){if(act.dataset.act==="signin"){signin();return}F.step=1;F.plan=act.dataset.plan||F.plan;F.player=act.dataset.player||F.player;flow();$("flow").showModal();return}
+  const act=t.closest("[data-act]");if(act){location.href="../members/";return;/* real sign-up lives on the member page; the demonstration flow below is no longer reached */if(act.dataset.act==="signin"){signin();return}F.step=1;F.plan=act.dataset.plan||F.plan;F.player=act.dataset.player||F.player;flow();$("flow").showModal();return}
   const pl=t.closest(".choice");if(pl){F.plan=pl.dataset.plan;flow();return}
   if(t.closest("[data-next]")){if(F.step===2){const v=$("f-player");if(v)F.player=v.value.trim()}F.step=Math.min(4,F.step+1);flow();return}
   if(t.closest("[data-back]")){F.step=Math.max(1,F.step-1);flow();return}
