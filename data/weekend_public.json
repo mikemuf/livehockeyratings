@@ -5,7 +5,7 @@
  "from": "2026-11-12",
  "to": "2026-11-16",
  "note": "Ranks are MHR’s Nov 11 ratings and move live as results come in. Game times are local to the rink. Many rinks stream on LiveBarn.",
- "next": "",
+ "next": "All weekend games are final. Next weekend's games will be listed here.",
  "divs": {
   "2012": {
    "summary": [
@@ -243,26 +243,7 @@
      "result": "Home-and-home: Reapers vs Mission twice in each birth year. All games stream on LiveBarn."
     }
    ],
-   "watch": [
-    {
-     "day": "Sun Nov 15",
-     "time": "7:20 AM",
-     "a": "Pittsburgh Penguins Elite",
-     "b": "Buffalo Jr Sabres",
-     "rink": "",
-     "city": "",
-     "note": "Also 12:40 PM"
-    },
-    {
-     "day": "Sun Nov 15",
-     "time": "10:50 AM",
-     "a": "Chicago Reapers",
-     "b": "Chicago Mission",
-     "rink": "Elk Grove Ice Arena (West)",
-     "city": "Elk Grove Village, IL",
-     "note": "Reapers vs Mission rematch"
-    }
-   ]
+   "watch": []
   },
   "2014": {
    "summary": [
@@ -290,17 +271,7 @@
      "result": "Home-and-home: Reapers vs Mission twice in each birth year. All games stream on LiveBarn."
     }
    ],
-   "watch": [
-    {
-     "day": "Sun Nov 15",
-     "time": "3:50 PM",
-     "a": "Chicago Reapers",
-     "b": "Chicago Mission",
-     "rink": "Elk Grove Ice Arena (West)",
-     "city": "Elk Grove Village, IL",
-     "note": "Reapers vs Mission rematch"
-    }
-   ]
+   "watch": []
   },
   "2015": {
    "summary": [
@@ -326,26 +297,7 @@
      "result": "Home-and-home: Reapers vs Mission twice in each birth year. All games stream on LiveBarn."
     }
    ],
-   "watch": [
-    {
-     "day": "Sun Nov 15",
-     "time": "9:00 AM",
-     "a": "Mid-Fairfield Hockey Club (Elite)",
-     "b": "Boston Jr Eagles (Elite)",
-     "rink": "Chelsea Piers Athletic Club",
-     "city": "Stamford, CT",
-     "note": "Also 12:00 PM"
-    },
-    {
-     "day": "Sun Nov 15",
-     "time": "2:10 PM",
-     "a": "Chicago Reapers",
-     "b": "Chicago Mission",
-     "rink": "Elk Grove Ice Arena (West)",
-     "city": "Elk Grove Village, IL",
-     "note": "Reapers vs Mission rematch"
-    }
-   ]
+   "watch": []
   },
   "2011": {
    "summary": [
@@ -371,26 +323,7 @@
      "result": "St. Louis Blues, Philadelphia Jr Flyers, North Jersey Avalanche, Victory Honda, Fox Motors, Milwaukee Jr Admirals, Ohio Blue Jackets"
     }
    ],
-   "watch": [
-    {
-     "day": "Sun Nov 15",
-     "time": "11:00 AM",
-     "a": "Bishop Kearney Selects",
-     "b": "Shattuck St Mary's",
-     "rink": "BELFOR Training Center",
-     "city": "Metro Detroit, MI",
-     "note": "Decides the LC Weekend Series (noon local)"
-    },
-    {
-     "day": "Sun Nov 15",
-     "time": "1:30 PM",
-     "a": "Chicago Mission",
-     "b": "Chicago Reapers",
-     "rink": "Mount Prospect Ice Arena (South)",
-     "city": "Mount Prospect, IL",
-     "note": "Reapers vs Mission rematch"
-    }
-   ]
+   "watch": []
   }
  }
 }
