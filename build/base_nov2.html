@@ -221,7 +221,7 @@ function renderTeam(S){
   <div class="stat"><b>${x.gp}</b><span>Games</span></div></div>
   ${((MHR_GP[div]||{})[x.t]||0)>x.gp?`<p class="small" style="margin:10px 0 0">This list has ${x.gp} of the ${(MHR_GP[div]||{})[x.t]} games MHR counts. The rating already matches MHR; only the game list is incomplete.</p>`:''}
   ${Math.abs(x.adj)>=0.005?`<p class="small" style="margin:10px 0 0">MHR adjustment ${fs(x.adj)}: MHR's ${x.mhr?'published rating':'scale'} includes games or opponent ratings not in this log.</p>`:''}
-  <p class="small" style="margin:10px 0 0">${canada.has(x.t)?'Listed in the Canada division.':'Listed in the USA division.'} <a class="back" id="tog-ca">${canada.has(x.t)?'Move to USA':'Move to Canada'}</a></p></div>`;
+  </div>`;
   h+='<div class="wrap"><table><thead><tr><th class="t">Date</th><th class="t">Opponent</th><th>Score</th><th>Opp rating</th><th>GD</th><th>Points</th><th>+/-</th></tr></thead><tbody>';
   for(const g of games){const home=g[2]===x.t;const opp=home?g[4]:g[2];const gf=home?g[3]:g[5],ga=home?g[5]:g[3];
     const dd=Math.max(-CAP,Math.min(CAP,gf-ga));const o=S.byName[opp];const pts=o.r+dd;const pm=pts-x.r;
