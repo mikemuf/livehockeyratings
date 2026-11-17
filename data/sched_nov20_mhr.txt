@@ -1,0 +1,205 @@
+#V119
+1 Pittsburgh Penguins Elite|-
+2 Bishop Kearney Selects|-
+3 Mount St Charles Hockey Academy|20|9:15am|Chicago Mission|*|UPMC Lemieux Sports Complex
+3 Mount St Charles Hockey Academy|21|11:40am|New Jersey Rockets (Premier)|*|UPMC Lemieux Sports Complex
+3 Mount St Charles Hockey Academy|22|8:30am|Woodbridge Wolfpack|*|RMU Island Sports Center
+4 Shattuck St Mary's|-
+5 Chicago Reapers|-
+6 Chicago Mission|20|9:15am|Mount St Charles Hockey Academy|*|UPMC Lemieux Sports Complex
+7 Oakland Jr Grizzlies|21|2:00pm|Fox Motors|*|Buffalo Wild Wings Arena
+7 Oakland Jr Grizzlies|22|12:30pm|Fox Motors|*|Southside Ice Arena
+8 Little Caesars|-
+9 Woodbridge Wolfpack|22|8:30am|Mount St Charles Hockey Academy|*|RMU Island Sports Center
+10 Middlesex Islanders East (Prep)|-
+11 Masters Academy|-
+12 St Louis Blues|-
+13 Boston Jr Eagles|-
+14 Seacoast Performance Academy|20|3:30pm|South Kent School|*|Admiral James and Sybil Stockdale Arena
+15 Pittsburgh Vengeance|20|7:00pm|Palmyra Black Knights||Alpha Ice Complex
+15 Pittsburgh Vengeance|21|7:00pm|Palmyra Black Knights||Alpha Ice Complex
+15 Pittsburgh Vengeance|22|10:00am|Palmyra Black Knights||Alpha Ice Complex
+16 Palmyra Black Knights|20|7:00pm|Pittsburgh Vengeance||Alpha Ice Complex
+16 Palmyra Black Knights|21|7:00pm|Pittsburgh Vengeance||Alpha Ice Complex
+16 Palmyra Black Knights|22|10:00am|Pittsburgh Vengeance||Alpha Ice Complex
+17 Philadelphia Jr Flyers|-
+18 Team Wisconsin|-
+19 Notre Dame Hockey Academy|21|3:00pm|Atlantic Coast Academy|*|Boys & Girls Club of the Berkshires
+19 Notre Dame Hockey Academy|22|8:00am|Atlantic Coast Academy|*|Boys & Girls Club of the Berkshires
+20 Buffalo Jr Sabres|-
+21 North Jersey Avalanche|-
+22 Victory Honda|21|11:30am|Indiana Elite||SportONE Parkview Icehouse
+22 Victory Honda|21|5:40pm|Indiana Elite||SportONE Parkview Icehouse
+23 HB Detroit|21|11:00am|BioSteel Sports Academy||Central Park Athletics
+24 Cape Cod Whalers|-
+25 New Jersey Rockets (Premier)|21|11:40am|Mount St Charles Hockey Academy|*|UPMC Lemieux Sports Complex
+#V114
+1 Mid-Fairfield Hockey Club (Elite)|20|1:30pm|Pittsburgh Penguins Elite|*|RMU Island Sports Center
+2 Shattuck St Mary's|-
+3 Little Caesars|-
+4 Woodbridge Wolfpack|22|8:00am|Pittsburgh Penguins Elite|*|UPMC Lemieux Sports Complex
+5 Team Illinois|20|12:50pm|Madison Capitols|**|Canlan Ice Sports - West Dundee
+5 Team Illinois|21|8:00am|Midwest Warriors|**|Carol Stream Ice Rink
+5 Team Illinois|21|1:10pm|Milwaukee Jr Admirals|**|Canlan Ice Sports - West Dundee
+5 Team Illinois|22|8:00am|CarShield|**|Canlan Ice Sports - West Dundee
+6 Chicago Mission|21|8:00am|Pittsburgh Penguins Elite|*|UPMC Lemieux Sports Complex
+7 Mount St Charles Hockey Academy|-
+8 Nashville Jr Predators|-
+9 MN Green Giants|-
+10 Top Gun (Elite)|21|10:50am|Boston Jr Eagles (Elite)|*|ICENTER
+11 Pittsburgh Penguins Elite|20|1:30pm|Mid-Fairfield Hockey Club (Elite)|*|RMU Island Sports Center
+11 Pittsburgh Penguins Elite|21|8:00am|Chicago Mission|*|UPMC Lemieux Sports Complex
+11 Pittsburgh Penguins Elite|22|8:00am|Woodbridge Wolfpack|*|UPMC Lemieux Sports Complex
+12 Bishop Kearney Selects|-
+13 MN Lakers|-
+14 HB Detroit|21|1:45pm|Victory Honda|*|Suburban Ice - Farmington Hills
+15 New Jersey Rockets (Premier)|-
+16 Chicago Reapers|-
+17 LA Jr Kings|-
+18 Biggby Coffee|20|7:00am|Jersey Hitmen||cfsbank Event Center
+18 Biggby Coffee|21|8:40am|Pittsburgh Stars||Printscape Arena
+18 Biggby Coffee|21|3:00pm|Palmyra Black Knights|*|Printscape Arena
+18 Biggby Coffee|22|10:40am|Team Maryland|*|cfsbank Event Center
+19 Boston Jr Eagles (Elite)|21|10:50am|Top Gun (Elite)|*|ICENTER
+20 PAL Jr Islanders|21|5:00pm|Atlantic Coast Academy||Northwell Health Ice Center
+20 PAL Jr Islanders|21|8:30pm|Atlantic Coast Academy||Northwell Health Ice Center
+20 PAL Jr Islanders|22|1:20pm|Atlantic Coast Academy||The Rinx at Hauppauge
+21 New Jersey Colonials|-
+22 Seacoast Performance Academy|-
+23 Philadelphia Hockey Club|-
+24 Neponset Valley River Rats|-
+25 St Louis Blues|-
+#V125
+1 Chicago Reapers|-
+2 MN Lakers|-
+3 Anaheim Jr Ducks|-
+4 Little Caesars|22|11:40am|Compuware|*|USA Hockey Arena
+5 Mid-Fairfield Hockey Club (Elite)|-
+6 Woodbridge Wolfpack|-
+7 Syracuse Nationals|-
+8 Cleveland Barons (Ryan)|-
+9 Pittsburgh Penguins Elite|-
+10 Chicago Mission|-
+11 MN Moose|-
+12 Northern CT Nor'Easter (National)|-
+13 Middlesex Islanders East (Elite)|-
+14 Boston Jr Eagles (Elite)|-
+15 Dallas Stars Elite|-
+16 MN Grey Ducks|-
+17 Colorado Thunderbirds|-
+18 MN Walleye|-
+19 Milwaukee Jr Admirals|-
+20 Philadelphia Hockey Club|-
+21 Ohio Blue Jackets|20|6:50pm|Philadelphia Jr Flyers||Chiller Ice Works
+21 Ohio Blue Jackets|21|4:00pm|Philadelphia Jr Flyers||Chiller Ice Works
+21 Ohio Blue Jackets|22|11:10am|Philadelphia Jr Flyers||OhioHealth Ice Haus
+22 HB Detroit|22|10:00am|Belle Tire|*|Lincoln Park Civic Arena
+23 Windy City Storm|22|12:00pm|Indiana Elite||Orbit Ice Arena
+24 Philadelphia Jr Flyers|20|6:50pm|Ohio Blue Jackets||Chiller Ice Works
+24 Philadelphia Jr Flyers|21|4:00pm|Ohio Blue Jackets||Chiller Ice Works
+24 Philadelphia Jr Flyers|22|11:10am|Ohio Blue Jackets||OhioHealth Ice Haus
+25 MN Loons|-
+26 Team North Dakota|-
+27 Music City Marauders 13U AA|-
+28 St Louis Blues|21|6:00pm|Madison Capitols||Centene Community Ice Center
+28 St Louis Blues|22|12:40pm|Madison Capitols||Centene Community Ice Center
+29 MN Green Giants|-
+30 Bay State Breakers (Elite)|-
+#V124
+1 Middlesex Islanders East (Elite)|-
+2 Little Caesars|-
+3 Boston Advantage (Elite)|-
+4 Florida Alliance|21|8:20am|Vegas Jr Golden Knights|**|Centene Community Ice Center
+5 Boston Jr Eagles (Elite)|-
+6 Chicago Fury|-
+7 Top Gun (Elite)|-
+8 Buffalo Jr Sabres|-
+9 Mid-Fairfield Hockey Club (Elite)|-
+10 Pittsburgh Penguins Elite (Mueller)|-
+11 St Louis Blues|20|9:10am|Chicago Mission|**|Centene Community Ice Center
+11 St Louis Blues|20|4:20pm|Dallas Stars Elite|**|Centene Community Ice Center
+11 St Louis Blues|21|7:40am|Victory Honda|**|Centene Community Ice Center
+12 North Jersey Avalanche|-
+13 South Shore Kings (Elite)|-
+14 Florida Surf|-
+15 Victory Honda|20|10:20am|Dallas Stars Elite|**|Centene Community Ice Center
+15 Victory Honda|20|3:50pm|Chicago Mission|**|Centene Community Ice Center
+15 Victory Honda|21|7:40am|St Louis Blues|**|Centene Community Ice Center
+16 Vegas Jr Golden Knights|20|9:00am|Chicago Reapers|**|Centene Community Ice Center
+16 Vegas Jr Golden Knights|20|3:30pm|Philadelphia Hockey Club|**|Centene Community Ice Center
+16 Vegas Jr Golden Knights|21|8:20am|Florida Alliance|**|Centene Community Ice Center
+17 Chicago Reapers|20|9:00am|Vegas Jr Golden Knights|**|Centene Community Ice Center
+18 Anaheim Jr Ducks|-
+19 Boston Jr Terriers (Elite)|-
+20 Dallas Stars Elite|20|10:20am|Victory Honda|**|Centene Community Ice Center
+20 Dallas Stars Elite|20|4:20pm|St Louis Blues|**|Centene Community Ice Center
+21 HB Detroit|-
+22 Woodbridge Wolfpack|21|11:45am|Red Bank Generals|*|The Club at Woodbridge
+23 Ohio Blue Jackets|-
+24 Long Island Royals|21|12:40pm|New York City Hockey Club|*|City Ice Pavilion
+24 Long Island Royals|22|3:00pm|New Jersey Colonials|*|Mennen Sports Arena
+25 Cleveland Barons|22|9:00am|LA Jr Kings|**|Ice Cube - Brighton
+#V123
+1 Little Caesars|-
+2 Pittsburgh Penguins Elite (Mueller)|-
+3 Worcester Shamrocks|-
+4 Mid-Fairfield Hockey Club (Elite)|21|9:00am|Providence Capitals (Elite)|*|Rhode Island Sports Center
+4 Mid-Fairfield Hockey Club (Elite)|21|1:15pm|Providence Capitals (Elite)|*|Rhode Island Sports Center
+4 Mid-Fairfield Hockey Club (Elite)|22|10:30am|Bay State Breakers (Elite)|*|Bog Ice Arena
+4 Mid-Fairfield Hockey Club (Elite)|22|2:30pm|Bay State Breakers (Elite)|*|Bog Ice Arena
+5 Lovell Winter Club (Elite)|-
+6 Boston Jr Eagles (Elite)|-
+7 Dallas Stars Elite|21|4:20pm|Houston Jr Aeros 12U AA|*|Bellerive Ice Center
+7 Dallas Stars Elite|22|9:50am|Houston Jr Aeros 12U AA|*|Deep South Ice Sports Complex
+8 South Shore Kings (Elite)|22|9:25am|Top Gun (Elite)|*|ICENTER
+9 Chicago Mission|21|2:40pm|Windy City Storm||Orbit Ice Arena
+10 Top Gun (Elite)|22|9:25am|South Shore Kings (Elite)|*|ICENTER
+11 St Louis Blues|-
+12 Biggby Coffee|-
+13 Providence Capitals (Elite)|21|9:00am|Mid-Fairfield Hockey Club (Elite)|*|Rhode Island Sports Center
+13 Providence Capitals (Elite)|21|1:15pm|Mid-Fairfield Hockey Club (Elite)|*|Rhode Island Sports Center
+13 Providence Capitals (Elite)|22|1:20pm|Boston Jr Terriers (Elite)|*|Canton Sportsplex
+14 Florida Surf|-
+15 Cleveland Barons|-
+16 Bay State Breakers (Elite)|22|10:30am|Mid-Fairfield Hockey Club (Elite)|*|Bog Ice Arena
+16 Bay State Breakers (Elite)|22|2:30pm|Mid-Fairfield Hockey Club (Elite)|*|Bog Ice Arena
+17 Chicago Fury|22|11:20am|Windy City Storm||Arctic Ice Arena
+18 Florida Alliance|-
+19 PAL Jr Islanders (Blue)|22|10:00am|Mid-Fairfield Hockey Club (T1)|*|Chelsea Piers Athletic Club
+20 Victory Honda|-
+21 Chicago Reapers|-
+22 Philadelphia Little Flyers|21|9:45am|North Jersey Avalanche|*|Ice House
+22 Philadelphia Little Flyers|21|4:30pm|North Jersey Avalanche||Ice House
+23 Philadelphia Hockey Club|-
+24 Oakland Jr Grizzlies|22|11:30am|HB Detroit|*|Buffalo Wild Wings Arena
+25 Buffalo Jr Sabres|-
+#V122
+1 Little Caesars|-
+2 Mid-Fairfield Hockey Club (Elite)|-
+3 Buffalo Jr Sabres|-
+4 Team Illinois|-
+5 Top Gun (Elite)|-
+6 St Louis Blues|20|7:40pm|Chicago Mission||Elk Grove Ice Arena
+7 Middlesex Islanders East (Elite)|22|9:20am|Boston Jr Terriers (Elite)|*|Canton Sportsplex
+8 Florida Surf|-
+9 Pittsburgh Penguins Elite (MacKinnon)|-
+10 Bay State Breakers (Elite)|-
+11 Chicago Fury|-
+12 HB Detroit|-
+13 Boston Jr Eagles (Elite)|-
+14 Minuteman Flames (Elite)|-
+15 Chicago Reapers|-
+16 LA Jr Kings (Voulelikas) 10U A|22|6:00pm|SDIA Oilers 12U A|*|San Diego Ice Arena
+17 North Jersey Avalanche|-
+18 Biggby Coffee|-
+19 Chicago Mission|20|7:40pm|St Louis Blues||Elk Grove Ice Arena
+20 Philadelphia Little Flyers|-
+21 Long Island Gulls|22|3:40pm|Long Island Royals||Superior Ice Rink
+22 Woodbridge Wolfpack|-
+23 Tampa Bay Jr Lightning|-
+24 New Jersey Rockets|21|9:50am|Long Island Royals||Bridgewater Sports & Ice Arena
+24 New Jersey Rockets|22|10:30am|Palmyra Black Knights|*|Rock Ice Center
+24 New Jersey Rockets|22|1:25pm|Palmyra Black Knights|*|Rock Ice Center
+25 Washington Little Capitals|21|12:30pm|New Jersey Colonials|*|ION International Training Center
+25 Washington Little Capitals|21|5:00pm|New Jersey Colonials|*|ION International Training Center
+25 Washington Little Capitals|22|8:40am|New Jersey Colonials|*|ION International Training Center
