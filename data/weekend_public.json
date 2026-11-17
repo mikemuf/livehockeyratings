@@ -1,328 +1,585 @@
 {
- "label": "Weekend of Nov 13–15",
- "status": "Weekend complete — Toronto Jr Canadiens win the Challenger Cup (3-1 over Team Illinois). All games final.",
- "updated": "Sun Nov 15, 4:57 PM CT",
- "from": "2026-11-12",
- "to": "2026-11-16",
- "note": "Ranks are MHR’s Nov 11 ratings and move live as results come in. Game times are local to the rink. Many rinks stream on LiveBarn.",
- "next": "All weekend games are final. Next weekend's games will be listed here.",
+ "label": "Weekend of Nov 20–22",
+ "status": "Preview — Northeast Pack in Pittsburgh",
+ "updated": "Tue Nov 17, 3:30 PM CT",
+ "from": "2026-11-19",
+ "to": "2026-11-23",
+ "note": "Ranks are MHR’s Nov 11 ratings and move live as results come in. Game times are local to the rink. NE Pack league games have been streamed on LiveBarn.",
+ "next": "This weekend's games will be listed here on Wednesday.",
  "divs": {
   "2012": {
    "summary": [
-    "CHAMPIONS: Toronto Jr Canadiens (CAN, 98.22) won the Little Caesars Challenger Cup, beating Team Illinois (#4, 97.11) 3-1 in the final at BELFOR. Toronto went 6-0 and outscored its opponents 28-3 over the weekend.",
-    "The final: Tristan Reynolds scored the opener in the 1st and the game-winner in the 2nd, finishing with 12 goals in six games. Colton Lantz made it 3-0, and Colton Dimmell had two assists. Caleb Bauer got Illinois on the board late in the 2nd, but Christian Arianna shut the door from there. Illinois couldn't score on its 3rd-period power plays, and the game ended with a pair of matching penalties at the buzzer.",
-    "Road to the final: Illinois beat Little Caesars 4-2 in the semifinals (Noah Mahery Moreau's winner with 5:21 left, after LC led 2-1 after one period). Toronto beat Nashville 5-1, scoring three goals in about 3½ minutes of the 1st.",
-    "Division winners: Toronto won Division A (4-0, three shutouts), Little Caesars won Division B (3-0-1), Team Illinois won Division C (4-0, two shutouts), and Nashville won Division D (3-0-1). Nashville got in only because Masters (#25) held Pittsburgh to a 2-2 tie Saturday night; the Penguins needed to win by four goals to take the division.",
-    "Other stories: Seacoast (#22, 94.37) came back from 2-0 down in the 3rd to tie Little Caesars 2-2, the only blemish on LC's record. Top Gun (#11, 96.25) started 0-2 but won its last two, including 5-2 over Windy City.",
-    "Note: Fox Motors (#27) played four games on the Challenger Cup schedule, against Boston Jr Eagles, Seacoast, Upper Canada College and Huron-Perth, and won all four. They're listed as a 14U/U15 entry, not in any of the four divisions, so they aren't in the standings, the bracket or the report card. Their games still count in the ratings.",
-    "Also: Chicago Mission (#6) swept its home-and-home with the Reapers. After Saturday's 4-3 shootout win, Mission won 3-0 at Mount Prospect on Sunday. Cash Cieslak scored the winner, and Michael Mufarreh had a power-play goal and an assist."
+    "NE PACK IN PITTSBURGH: all eight 14U teams in the Northeast Pack are ranked in the top 16 in the country, and they play 12 league games Friday through Sunday at three rinks north and west of Pittsburgh. Every team plays three times.",
+    "The chase: Mid-Fairfield (#1, 99.99) is 7-0 in the league with 21 points, has outscored opponents 46-13, and has not lost a game all season (29-0-3). Woodbridge Wolfpack (#6, 96.97) is second with 13 points, then Bishop Kearney Selects (#11, 96.24) and Mount St Charles (#7, 96.52) with 11 each, Chicago Mission (#5, 97.06) with 10, Pittsburgh Penguins Elite (#13, 96.15) with 8, NJ Rockets (#14, 95.97) with 6 and Chicago Reapers (#16, 95.74) with 4. A regulation win is worth 3 points, so second through sixth can reshuffle completely in one weekend.",
+    "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 4:00 PM. The Wolfpack came closest to Mid-Fairfield in league play, scoring five in a 7-5 loss on Oct 18. No one else in the league has put more than three past them.",
+    "Mid-Fairfield's other two: at Pittsburgh Penguins Elite on Friday (Mid-Fairfield won the first meeting 5-0) and home to Chicago Reapers on Sunday (5-1 the first time).",
+    "Mission's weekend: Chicago Mission visits Bishop Kearney on Friday (Mission won 7-4 on Oct 4), hosts Pittsburgh Penguins Elite on Saturday morning (Pens Elite won 4-3 in overtime on Oct 17) and finishes at NJ Rockets on Sunday (Mission won 5-1). Three regulation wins would put Mission at 19 points.",
+    "Swing games for the middle of the table: Wolfpack at Mount St Charles on Friday (Wolfpack won 4-3 on Oct 4), Bishop Kearney at Mount St Charles on Sunday (Bishop Kearney won 4-1), and Bishop Kearney at NJ Rockets on Saturday (the Rockets won 6-2). Wolfpack at Pens Elite on Sunday is a rematch of a game Pens Elite won.",
+    "Reapers need points: Chicago Reapers is 1-5 with an overtime loss and has dropped four straight in the league, including a 5-4 overtime loss to Mission. It opens against NJ Rockets on Friday at 8:00 AM, the team it beat 5-3 for its only league win.",
+    "Players to watch: Jack Brayman (Mid-Fairfield) leads the league with 8 goals and 17 points in 7 games. Michael Mufarreh (Chicago Mission) is the top-scoring defenseman with 4 goals and 12 points, tied for second overall with Jayden Widen (Mount St Charles, 6 goals). Mid-Fairfield has six of the league's top 15 scorers. In goal, Luke Thompson (Mid-Fairfield) is 5-0 and has allowed 8 goals in 5 games; Logan Morgida (Wolfpack) is 4-0."
    ],
    "events": [
     {
-     "name": "Little Caesars 2012 Bantam Major Challenger Cup",
-     "where": "Semifinals Sunday 9:30 AM, final 3:30 PM at BELFOR (Detroit time)",
-     "result": "Division winners: Toronto Jr Canadiens (A), Little Caesars (B), Team Illinois (C), Nashville (D). Dearborn games stream on LiveBarn; Hazel Park games on Black Bear TV."
-    },
-    {
-     "name": "Reaper/Mission Showcase",
-     "where": "Mount Prospect Ice Arena (Reapers home) and Elk Grove Ice Arena (Mission home), Sat–Sun",
-     "result": "Home-and-home: Reapers vs Mission twice in each birth year. All games stream on LiveBarn."
+     "name": "Northeast Pack Pittsburgh Showcase, 14U",
+     "where": "Fri–Sun, Nov 20–22 · UPMC Lemieux Sports Complex (Cranberry Twp), RMU Island Sports Center (Neville Island), Baierl Ice Complex (Warrendale)",
+     "result": "12 league games, hosted by Pittsburgh Penguins Elite. League scores, standings and stats are on GameSheet (Northeast Pack Hockey League 2026/27). Times are Eastern."
     }
    ],
-   "watch": [],
-   "report": {
-    "title": "Challenger Cup report card (live)",
-    "from": "2026-11-13",
-    "to": "2026-11-15",
-    "teams": [
-     "Little Caesars",
-     "Team Illinois",
-     "Nashville Jr. Predators",
-     "Top Gun (Elite)",
-     "Pittsburgh Penguins Elite",
-     "Biggby Coffee",
-     "Boston Jr Eagles (Elite)",
-     "NJ Colonials",
-     "Seacoast Performance Academy",
-     "St. Louis Blues",
-     "Ohio Blue Jackets",
-     "Masters Academy",
-     "Windy City Storm",
-     "Chicago Fury",
-     "Cleveland Barons",
-     "Chatham-Kent Cyclones",
-     "Huron Perth Lakers",
-     "Toronto Jr Canadiens",
-     "Upper Canada College",
-     "Hill Academy"
-    ],
-    "note": "Updates automatically as results are added."
-   },
-   "scorers": [
+   "watch": [
     {
-     "name": "Tristan Reynolds",
-     "team": "Toronto Jr Canadiens",
-     "gp": 3,
-     "g": 7,
-     "a": 2
+     "day": "Fri",
+     "time": "8:00 AM",
+     "a": "NJ Rockets",
+     "b": "Chicago Reapers",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "FedEx Rink 1"
     },
     {
-     "name": "Tristan Leduc",
+     "day": "Fri",
+     "time": "11:30 AM",
+     "a": "Woodbridge Wolfpack",
+     "b": "Mount St Charles",
+     "rink": "RMU Island Sports Center",
+     "city": "Pittsburgh, PA",
+     "note": "Olympic Rink"
+    },
+    {
+     "day": "Fri",
+     "time": "1:30 PM",
+     "a": "Mid-Fairfield",
+     "b": "Pittsburgh Penguins Elite",
+     "rink": "RMU Island Sports Center",
+     "city": "Pittsburgh, PA",
+     "note": "Olympic Rink"
+    },
+    {
+     "day": "Fri",
+     "time": "5:30 PM",
+     "a": "Chicago Mission",
+     "b": "Bishop Kearney Selects",
+     "rink": "RMU Island Sports Center",
+     "city": "Pittsburgh, PA",
+     "note": "Olympic Rink"
+    },
+    {
+     "day": "Sat",
+     "time": "8:00 AM",
+     "a": "Pittsburgh Penguins Elite",
+     "b": "Chicago Mission",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "FedEx Rink 1"
+    },
+    {
+     "day": "Sat",
+     "time": "9:00 AM",
+     "a": "Mount St Charles",
+     "b": "Chicago Reapers",
+     "rink": "RMU Island Sports Center",
+     "city": "Pittsburgh, PA",
+     "note": "Clearview Rink"
+    },
+    {
+     "day": "Sat",
+     "time": "4:00 PM",
+     "a": "Mid-Fairfield",
+     "b": "Woodbridge Wolfpack",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "Covestro Rink · Game of the weekend"
+    },
+    {
+     "day": "Sat",
+     "time": "5:45 PM",
+     "a": "Bishop Kearney Selects",
+     "b": "NJ Rockets",
+     "rink": "RMU Island Sports Center",
+     "city": "Pittsburgh, PA",
+     "note": "Olympic Rink"
+    },
+    {
+     "day": "Sun",
+     "time": "8:00 AM",
+     "a": "Woodbridge Wolfpack",
+     "b": "Pittsburgh Penguins Elite",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "FedEx Rink 1"
+    },
+    {
+     "day": "Sun",
+     "time": "8:00 AM",
+     "a": "Bishop Kearney Selects",
+     "b": "Mount St Charles",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "Covestro Rink"
+    },
+    {
+     "day": "Sun",
+     "time": "9:35 AM",
+     "a": "Chicago Mission",
+     "b": "NJ Rockets",
+     "rink": "Baierl Ice Complex",
+     "city": "Warrendale, PA",
+     "note": "Galaxy Rink"
+    },
+    {
+     "day": "Sun",
+     "time": "10:15 AM",
+     "a": "Chicago Reapers",
+     "b": "Mid-Fairfield",
+     "rink": "RMU Island Sports Center",
+     "city": "Pittsburgh, PA",
+     "note": "Clearview Rink"
+    }
+   ],
+   "scorers_title": "NE Pack 14U scoring leaders (season to date)",
+   "scorers": [
+    {
+     "name": "Jack Brayman",
+     "team": "Mid-Fairfield",
+     "gp": 7,
+     "g": 8,
+     "a": 9
+    },
+    {
+     "name": "Michael Mufarreh",
+     "team": "Chicago Mission",
+     "gp": 7,
+     "g": 4,
+     "a": 8
+    },
+    {
+     "name": "Jayden Widen",
+     "team": "Mount St Charles",
+     "gp": 7,
+     "g": 6,
+     "a": 6
+    },
+    {
+     "name": "Charlie Donovan",
+     "team": "Woodbridge Wolfpack",
+     "gp": 7,
+     "g": 3,
+     "a": 8
+    },
+    {
+     "name": "Egor Karpovtsev",
+     "team": "Mid-Fairfield",
+     "gp": 7,
+     "g": 5,
+     "a": 6
+    },
+    {
+     "name": "Luke Whalen",
+     "team": "Mid-Fairfield",
+     "gp": 7,
+     "g": 5,
+     "a": 6
+    },
+    {
+     "name": "Edmund Martin",
+     "team": "Mid-Fairfield",
+     "gp": 7,
+     "g": 6,
+     "a": 4
+    },
+    {
+     "name": "Cash Cieslak",
+     "team": "Chicago Mission",
+     "gp": 7,
+     "g": 4,
+     "a": 6
+    },
+    {
+     "name": "Charlie Gunning",
+     "team": "Mid-Fairfield",
+     "gp": 7,
+     "g": 4,
+     "a": 6
+    },
+    {
+     "name": "Kenneth Kim",
+     "team": "Bishop Kearney Selects",
+     "gp": 7,
+     "g": 4,
+     "a": 6
+    }
+   ],
+   "goalies_title": "NE Pack 14U goalies (season to date)",
+   "goalies": [
+    {
+     "name": "Luke Thompson",
+     "team": "Mid-Fairfield",
+     "gp": 5,
+     "ga": 8,
+     "w": 5,
+     "l": 0,
+     "t": 0
+    },
+    {
+     "name": "Landon Sherwood",
+     "team": "Mid-Fairfield",
+     "gp": 3,
+     "ga": 5,
+     "w": 2,
+     "l": 0,
+     "t": 0
+    },
+    {
+     "name": "Justin Charbonneau",
+     "team": "Mount St Charles",
+     "gp": 4,
+     "ga": 9,
+     "w": 3,
+     "l": 1,
+     "t": 0
+    },
+    {
+     "name": "Logan Morgida",
+     "team": "Woodbridge Wolfpack",
+     "gp": 4,
+     "ga": 9,
+     "w": 4,
+     "l": 0,
+     "t": 0
+    },
+    {
+     "name": "Clay Kramer",
+     "team": "Bishop Kearney Selects",
+     "gp": 3,
+     "ga": 9,
+     "w": 2,
+     "l": 1,
+     "t": 0
+    },
+    {
+     "name": "Henry Losh",
+     "team": "Mount St Charles",
+     "gp": 3,
+     "ga": 9,
+     "w": 1,
+     "l": 2,
+     "t": 0
+    },
+    {
+     "name": "Donovan Chavez",
      "team": "Pittsburgh Penguins Elite",
-     "gp": 2,
-     "g": 0,
+     "gp": 3,
+     "ga": 9,
+     "w": 1,
+     "l": 2,
+     "t": 0
+    },
+    {
+     "name": "Hudson DePiero",
+     "team": "NJ Rockets",
+     "gp": 6,
+     "ga": 17,
+     "w": 2,
+     "l": 4,
+     "t": 0
+    }
+   ]
+  },
+  "2011": {
+   "summary": [
+    "NE PACK IN PITTSBURGH: the top three 15U teams in the country are in the same building this weekend. Pittsburgh Penguins Elite (#1, 96.16), Bishop Kearney Selects (#2, 94.98) and Mount St Charles (#3, 94.97) are also first, second and third in some order in the Northeast Pack, and six of the league's eight teams are ranked in the top nine.",
+    "The standings: Bishop Kearney leads with 16 points (5-0 plus a shootout loss), Mount St Charles has 14 (5-1, five straight wins, a league-best 13 goals against), Pens Elite 13 and Chicago Reapers (#5, 93.66) 11. Woodbridge Wolfpack (#9, 92.78) has 8 and Chicago Mission (#8, 93.34) has 7.",
+    "Game of the weekend: Bishop Kearney at Pittsburgh Penguins Elite, Saturday 3:40 PM. #2 at #1, and Bishop Kearney won the first meeting 5-3 on Oct 3. Pens Elite's only two league losses are that game and a 4-3 shootout loss to Mount St Charles.",
+    "Bishop Kearney's test: the league leader opens against Wolfpack on Friday (a 3-2 win the first time), plays Pens Elite on Saturday, then visits Chicago Reapers on Sunday at 8:00 AM. The Reapers handed Bishop Kearney its only league loss, 7-6 in a shootout on Oct 17.",
+    "Mount St Charles can take over first: it plays Chicago Mission on Friday (won 5-2 on Oct 17), New Jersey Rockets on Saturday (won 8-1) and Wolfpack on Sunday (won 3-1). Its only loss was 5-2 to Bishop Kearney on opening weekend.",
+    "Reapers and Mission: Chicago Reapers has gone to a shootout three times, winning two, and sits fourth. Chicago Mission has dropped two straight, 5-2 to Mount St Charles and 2-1 in a shootout to the Reapers, and gets Mount St Charles and Pens Elite this weekend. Pens Elite won their first meeting.",
+    "Bottom of the table: Mid-Fairfield is 0-6 and has been outscored 40-10; New Jersey Rockets' only win was 5-4 over Mid-Fairfield. They meet again Sunday at 1:40 PM in the last 15U game of the weekend.",
+    "Players to watch: Arjun Mangadu (Mount St Charles) leads the league with 8 goals and 14 points in 6 games. Cameron Cline (Pens Elite) has 12 points, and Pens Elite defenseman Cameron Pelle has 9. In goal, Evan Ladd (Mount St Charles) is 4-0 with 6 goals against, and Nicholas Ryan (Pens Elite) is 3-0 with 7 against in 4 games."
+   ],
+   "events": [
+    {
+     "name": "Northeast Pack Pittsburgh Showcase, 15U",
+     "where": "Fri–Sun, Nov 20–22 · UPMC Lemieux Sports Complex (Cranberry Twp), RMU Island Sports Center (Neville Island), Baierl Ice Complex (Warrendale)",
+     "result": "12 league games, hosted by Pittsburgh Penguins Elite. League scores, standings and stats are on GameSheet (Northeast Pack Hockey League 2026/27). Times are Eastern."
+    }
+   ],
+   "watch": [
+    {
+     "day": "Fri",
+     "time": "9:15 AM",
+     "a": "Mount St Charles Hockey Academy",
+     "b": "Chicago Mission",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "Covestro Rink"
+    },
+    {
+     "day": "Fri",
+     "time": "3:10 PM",
+     "a": "Mid-Fairfield Hockey Club (National)",
+     "b": "Chicago Reapers",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "Covestro Rink"
+    },
+    {
+     "day": "Fri",
+     "time": "3:30 PM",
+     "a": "Pittsburgh Penguins Elite",
+     "b": "New Jersey Rockets (Premier)",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "FedEx Rink 1"
+    },
+    {
+     "day": "Fri",
+     "time": "5:30 PM",
+     "a": "Woodbridge Wolfpack",
+     "b": "Bishop Kearney Selects",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "FedEx Rink 1"
+    },
+    {
+     "day": "Sat",
+     "time": "11:40 AM",
+     "a": "New Jersey Rockets (Premier)",
+     "b": "Mount St Charles Hockey Academy",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "FedEx Rink 1"
+    },
+    {
+     "day": "Sat",
+     "time": "1:40 PM",
+     "a": "Chicago Mission",
+     "b": "Mid-Fairfield Hockey Club (National)",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "FedEx Rink 1"
+    },
+    {
+     "day": "Sat",
+     "time": "3:40 PM",
+     "a": "Bishop Kearney Selects",
+     "b": "Pittsburgh Penguins Elite",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "FedEx Rink 1 · Game of the weekend: #2 at #1"
+    },
+    {
+     "day": "Sat",
+     "time": "5:40 PM",
+     "a": "Chicago Reapers",
+     "b": "Woodbridge Wolfpack",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "FedEx Rink 1"
+    },
+    {
+     "day": "Sun",
+     "time": "8:00 AM",
+     "a": "Bishop Kearney Selects",
+     "b": "Chicago Reapers",
+     "rink": "Baierl Ice Complex",
+     "city": "Warrendale, PA",
+     "note": "World Rink"
+    },
+    {
+     "day": "Sun",
+     "time": "8:30 AM",
+     "a": "Woodbridge Wolfpack",
+     "b": "Mount St Charles Hockey Academy",
+     "rink": "RMU Island Sports Center",
+     "city": "Pittsburgh, PA",
+     "note": "Olympic Rink"
+    },
+    {
+     "day": "Sun",
+     "time": "10:00 AM",
+     "a": "Chicago Mission",
+     "b": "Pittsburgh Penguins Elite",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "Covestro Rink"
+    },
+    {
+     "day": "Sun",
+     "time": "1:40 PM",
+     "a": "Mid-Fairfield Hockey Club (National)",
+     "b": "New Jersey Rockets (Premier)",
+     "rink": "UPMC Lemieux Sports Complex",
+     "city": "Cranberry Township, PA",
+     "note": "FedEx Rink 1"
+    }
+   ],
+   "scorers_title": "NE Pack 15U scoring leaders (season to date)",
+   "scorers": [
+    {
+     "name": "Arjun Mangadu",
+     "team": "Mount St Charles Hockey Academy",
+     "gp": 6,
+     "g": 8,
+     "a": 6
+    },
+    {
+     "name": "Cameron Cline",
+     "team": "Pittsburgh Penguins Elite",
+     "gp": 6,
+     "g": 5,
      "a": 7
     },
     {
-     "name": "Sebastien Erat",
-     "team": "Nashville Jr. Predators",
-     "gp": 3,
-     "g": 4,
-     "a": 2
-    },
-    {
-     "name": "Theo Lessard",
-     "team": "Pittsburgh Penguins Elite",
-     "gp": 2,
-     "g": 6,
-     "a": 0
-    },
-    {
-     "name": "Lincoln Brown",
-     "team": "Nashville Jr. Predators",
-     "gp": 3,
+     "name": "Jack Cross",
+     "team": "Mount St Charles Hockey Academy",
+     "gp": 6,
      "g": 3,
-     "a": 2
+     "a": 7
     },
     {
-     "name": "Nikita Kochetov",
-     "team": "Seacoast Performance Academy",
-     "gp": 3,
+     "name": "Lucas Jones",
+     "team": "Pittsburgh Penguins Elite",
+     "gp": 6,
+     "g": 3,
+     "a": 6
+    },
+    {
+     "name": "Cameron Pelle",
+     "team": "Pittsburgh Penguins Elite",
+     "gp": 6,
      "g": 2,
+     "a": 7
+    },
+    {
+     "name": "Smith Vantine",
+     "team": "Bishop Kearney Selects",
+     "gp": 6,
+     "g": 2,
+     "a": 7
+    },
+    {
+     "name": "Cristophe Chabot",
+     "team": "Bishop Kearney Selects",
+     "gp": 6,
+     "g": 3,
+     "a": 5
+    },
+    {
+     "name": "D'Angelo Flume",
+     "team": "Pittsburgh Penguins Elite",
+     "gp": 6,
+     "g": 4,
      "a": 3
     },
     {
-     "name": "Crew Mayers",
-     "team": "St. Louis Blues",
-     "gp": 3,
+     "name": "Zachary Martin",
+     "team": "Woodbridge Wolfpack",
+     "gp": 6,
      "g": 3,
-     "a": 2
+     "a": 4
     },
     {
-     "name": "Andrew Reed",
-     "team": "Upper Canada College",
-     "gp": 2,
+     "name": "Gavin Thomas",
+     "team": "Mount St Charles Hockey Academy",
+     "gp": 6,
      "g": 3,
-     "a": 2
-    },
-    {
-     "name": "Jason Ricart",
-     "team": "Ohio Blue Jackets",
-     "gp": 3,
-     "g": 3,
-     "a": 2
-    },
-    {
-     "name": "Michael Alati",
-     "team": "Toronto Jr Canadiens",
-     "gp": 3,
-     "g": 0,
      "a": 4
     }
    ],
-   "scorers_title": "Challenger Cup top scorers",
+   "goalies_title": "NE Pack 15U goalies (season to date)",
    "goalies": [
     {
-     "name": "Christian Arianna",
-     "team": "Toronto Jr Canadiens",
+     "name": "Evan Ladd",
+     "team": "Mount St Charles Hockey Academy",
+     "gp": 4,
+     "ga": 6,
+     "w": 4,
+     "l": 0,
+     "t": 0
+    },
+    {
+     "name": "Nicholas Ryan",
+     "team": "Pittsburgh Penguins Elite",
+     "gp": 4,
+     "ga": 7,
+     "w": 3,
+     "l": 0,
+     "t": 0
+    },
+    {
+     "name": "Nolan O'Brien",
+     "team": "Chicago Mission",
      "gp": 2,
-     "ga": 0,
+     "ga": 4,
+     "w": 1,
+     "l": 1,
+     "t": 0
+    },
+    {
+     "name": "Nolan Schmidt",
+     "team": "Chicago Reapers",
+     "gp": 3,
+     "ga": 5,
+     "w": 1,
+     "l": 0,
+     "t": 0
+    },
+    {
+     "name": "King Levine",
+     "team": "Woodbridge Wolfpack",
+     "gp": 3,
+     "ga": 7,
      "w": 2,
+     "l": 1,
+     "t": 0
+    },
+    {
+     "name": "James Hickey",
+     "team": "Bishop Kearney Selects",
+     "gp": 3,
+     "ga": 7,
+     "w": 3,
      "l": 0,
      "t": 0
     },
     {
-     "name": "Grady Macejko",
-     "team": "Team Illinois",
-     "gp": 2,
-     "ga": 0,
-     "w": 2,
-     "l": 0,
-     "t": 0
-    },
-    {
-     "name": "Matteo Cerrelli",
-     "team": "Toronto Jr Canadiens",
-     "gp": 1,
-     "ga": 0,
+     "name": "Mason Ecenrode",
+     "team": "Mount St Charles Hockey Academy",
+     "gp": 3,
+     "ga": 7,
      "w": 1,
-     "l": 0,
+     "l": 1,
      "t": 0
     },
     {
-     "name": "Dylan Gauthier",
-     "team": "Little Caesars",
-     "gp": 1,
-     "ga": 0,
-     "w": 1,
-     "l": 0,
+     "name": "Joshua Vander Velde",
+     "team": "Chicago Reapers",
+     "gp": 4,
+     "ga": 12,
+     "w": 3,
+     "l": 1,
      "t": 0
-    },
-    {
-     "name": "Benjamin Denzel",
-     "team": "Team Illinois",
-     "gp": 1,
-     "ga": 1,
-     "w": 1,
-     "l": 0,
-     "t": 0
-    },
-    {
-     "name": "Gabriel Goossen",
-     "team": "Huron Perth Lakers",
-     "gp": 1,
-     "ga": 1,
-     "w": 1,
-     "l": 0,
-     "t": 0
-    },
-    {
-     "name": "Ryan Nurmohamed",
-     "team": "Upper Canada College",
-     "gp": 1,
-     "ga": 1,
-     "w": 1,
-     "l": 0,
-     "t": 0
-    },
-    {
-     "name": "Cooper Phelps",
-     "team": "Biggby Coffee",
-     "gp": 1,
-     "ga": 1,
-     "w": 1,
-     "l": 0,
-     "t": 0
-    },
-    {
-     "name": "Owen Procter",
-     "team": "Chatham-Kent Cyclones",
-     "gp": 1,
-     "ga": 1,
-     "w": 1,
-     "l": 0,
-     "t": 0
-    },
-    {
-     "name": "Caleb Landry",
-     "team": "Hill Academy",
-     "gp": 1,
-     "ga": 1,
-     "w": 0,
-     "l": 0,
-     "t": 1
     }
-   ],
-   "goalies_title": "Challenger Cup top goalies"
+   ]
   },
   "2013": {
    "summary": [
-    "Chicago Mission (#9, 91.58) gave the top-ranked Chicago Reapers (#1, 94.97) two one-goal games. The Reapers won 3-2 Saturday and 3-2 in overtime Sunday at Elk Grove. On Sunday, Mission scored a power-play goal with 3:11 left to force overtime, and the Reapers won it at 4:40 of OT after outshooting Mission 39-18. Losing twice by one goal to the #1 team actually raised Mission's rating, by about 0.16.",
-    "Elsewhere: Mid-Fairfield (#4, 93.86) beat Middlesex twice, 7-3 and 10-4, and Northern CT Nor'easters (#11, 91.42) beat NJ Rockets 5-3 and 10-2 before tying Middlesex 3-3 Sunday. Cleveland Barons (#8) swept Philadelphia Jr Flyers 3-1, 6-1 and 4-3. In Dallas, St. Louis beat the Dallas Stars 4-2, and Tampa Bay beat HB Detroit 5-3.",
-    "MN Lakers (#2), Anaheim (#3), Little Caesars (#4), Mid-Fairfield (#5), Woodbridge (#6) and Syracuse (#7) have no games listed this weekend."
+    "This weekend's preview for this birth year is being put together and will be posted on Wednesday."
    ],
-   "events": [
-    {
-     "name": "Dallas (Valley Ranch StarCenter)",
-     "where": "Fri–Sat",
-     "result": "Dallas Stars (#15), HB Detroit (#22), St. Louis Blues (#28)"
-    },
-    {
-     "name": "Reaper/Mission Showcase",
-     "where": "Mount Prospect Ice Arena (Reapers home) and Elk Grove Ice Arena (Mission home), Sat–Sun",
-     "result": "Home-and-home: Reapers vs Mission twice in each birth year. All games stream on LiveBarn."
-    }
-   ],
+   "events": [],
    "watch": []
   },
   "2014": {
    "summary": [
-    "Saturday: Top Gun (#6, 97.52) tied #1 Middlesex Islanders East (99.99) 3-3. In Dallas, Dallas Stars Elite (#20, 94.90) beat Anaheim (#19, 95.14) 4-2.",
-    "Chicago Reapers (#17, 95.41) swept the weekend from Chicago Mission: 4-2 Saturday at Mount Prospect and 1-0 in overtime Sunday at Elk Grove, where the goal came 3:33 into OT.",
-    "Little Caesars (#2, 99.27) won 4-1 at Victory Honda (#15). Cleveland Barons (#24, 94.20) are 4-0 in Dallas after beating Dallas Stars Elite 5-3; Anaheim shut out Phoenix 3-0.",
-    "Friday upsets: North Jersey Avalanche (#12) beat Mid-Fairfield Elite (#9) 5-4, and St Louis Blues (#11) beat Boston Jr Eagles (#5) 8-5 in Buffalo. Boston Jr Eagles drop to 97.49.",
-    "Cleveland Barons (#25, now #24, 94.04) went 2-0 in Dallas, beating Anaheim (#18) 6-4 and Dallas Stars (#20) 6-4.",
-    "Toronto Jr Canadiens beat St Louis 6-4. Huron-Perth beat HB Detroit 4-2. Buffalo Jr Sabres tied Mississauga Rebels 2-2 and Florida Surf tied Hamilton Steel 1-1; those two games aren't counted because the Ontario U13 teams aren't in our data yet."
+    "This weekend's preview for this birth year is being put together and will be posted on Wednesday."
    ],
-   "events": [
-    {
-     "name": "Buffalo (Harbor Center)",
-     "where": "Fri–Sat",
-     "result": "Boston Jr Eagles, St Louis Blues, North Jersey Avalanche, Toronto Jr Canadiens, Mississauga Rebels"
-    },
-    {
-     "name": "Dallas (Valley Ranch StarCenter)",
-     "where": "Fri–Sat",
-     "result": "Anaheim Jr Ducks, Dallas Stars Elite, Cleveland Barons, Phoenix Jr Coyotes"
-    },
-    {
-     "name": "Reaper/Mission Showcase",
-     "where": "Mount Prospect Ice Arena (Reapers home) and Elk Grove Ice Arena (Mission home), Sat–Sun",
-     "result": "Home-and-home: Reapers vs Mission twice in each birth year. All games stream on LiveBarn."
-    }
-   ],
+   "events": [],
    "watch": []
   },
   "2015": {
    "summary": [
-    "Saturday: Providence Capitals (#12, 92.06) beat South Shore Kings (#9, 92.42) 4-2. Boston Jr Eagles (#6, 93.13) swept PAL Jr Islanders Blue (#18) 5-2 and 2-1. St Louis Blues (#10, 92.23) routed Florida Alliance 9-1.",
-    "Chicago Mission (#8, 92.61) beat Chicago Reapers (#21, 90.38) 9-4 at Mount Prospect. Rematch Sunday 2:10 PM at Elk Grove.",
-    "In St. Louis, Oakland beat Dallas Stars Elite 7-6, then Dallas (#7, 92.82) won the rematch 4-0.",
-    "Dallas Stars Elite (#7, now 92.70) opened 2-0 in St. Louis, beating Florida Alliance 9-3 and St Louis Blues (#11) 3-2.",
-    "South Shore Kings (#8, 92.44) beat PAL Jr Islanders (Blue) (#18, 90.66) 4-2 on Friday night.",
-    "Mid-Fairfield Elite (#4) has a big Connecticut weekend at Chelsea Piers: two games vs Middlesex Islanders East (#41) on Saturday and two vs Boston Jr Eagles (#6) on Sunday.",
-    "St. Louis (Centene Community Ice Center) hosts Dallas Stars Elite (#7), St Louis Blues (#11), Florida Alliance (#18) and Oakland (#24).",
-    "South Shore Kings (#8) play Providence Capitals (#13) Saturday morning.",
-    "Chicago Mission (#9) and the top three (Little Caesars, Penguins Elite, Worcester) have no games listed this weekend."
+    "This weekend's preview for this birth year is being put together and will be posted on Wednesday."
    ],
-   "events": [
-    {
-     "name": "St. Louis (Centene Community Ice Center)",
-     "where": "Fri–Sat",
-     "result": "Dallas Stars Elite, St Louis Blues, Florida Alliance, Oakland Jr Grizzlies"
-    },
-    {
-     "name": "Reaper/Mission Showcase",
-     "where": "Mount Prospect Ice Arena (Reapers home) and Elk Grove Ice Arena (Mission home), Sat–Sun",
-     "result": "Home-and-home: Reapers vs Mission twice in each birth year. All games stream on LiveBarn."
-    }
-   ],
-   "watch": []
-  },
-  "2011": {
-   "summary": [
-    "Shattuck St Mary's (#4, 94.44) won the Detroit round robin at 3-1. They clinched it Sunday by beating Bishop Kearney 4-3: Bishop Kearney (#3, 94.98) came back from 3-1 down to tie it 3-3 midway through the 3rd, and Shattuck scored the winner 26 seconds later.",
-    "Final standings: Shattuck 3-1 (beat Bishop Kearney 6-2 and 4-3, split with LC 1-5 and 3-0). Little Caesars (#8, 93.36) 2-2, including a 5-2 comeback win over Bishop Kearney. Bishop Kearney 1-3, with the #2-rated team in the country losing three of four, and its rating dropped from 95.55 to 94.98.",
-    "Mount St Charles (#2, 95.02) beat PAL Jr Islanders 9-1.",
-    "Chicago Reapers (#5) swept Chicago Mission: 4-1 Saturday at Elk Grove and 4-3 Sunday at Mount Prospect."
-   ],
-   "events": [
-    {
-     "name": "Little Caesars 2011 Weekend Series",
-     "where": "BELFOR Training Center, Metro Detroit, Thu–Sun",
-     "result": "Round robin, each pair twice: Bishop Kearney 3-1 LC (Thu), Shattuck 6-2 Bishop Kearney (Fri), LC 5-1 Shattuck (Fri)."
-    },
-    {
-     "name": "Reaper/Mission Showcase",
-     "where": "Elk Grove Ice Arena (Sat) and Mount Prospect Ice Arena (Sun)",
-     "result": "Reapers vs Mission twice. Both games stream on LiveBarn."
-    },
-    {
-     "name": "Arctic Ice Arena showcase",
-     "where": "Sat–Mon",
-     "result": "St. Louis Blues, Philadelphia Jr Flyers, North Jersey Avalanche, Victory Honda, Fox Motors, Milwaukee Jr Admirals, Ohio Blue Jackets"
-    }
-   ],
+   "events": [],
    "watch": []
   }
  }
