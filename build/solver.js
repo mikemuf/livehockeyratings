@@ -59,9 +59,10 @@ function solveFull(dv,extra){
 // rating = AGD + schedule + the team's published adjustment. Iterated so opponents' new ratings feed back in.
 const LITE_DIVS=Object.keys(LITE);
 // the top team of the first anchored division keeps its published rating (99.99 in a full pool; lower for 15U, which MHR rates inside the 16U pool)
-const LITE_TOP=LITE_DIVS.length?Math.max(...Object.values(LITE[LITE_DIVS[0]]).map(a=>a[0])):99.99;
+// each anchored division is its own MHR pool (2011 inside 16U, 2016 = 10U): its top team keeps its published rating
+const LITE_TOPS=Object.fromEntries(LITE_DIVS.map(d=>[d,Math.max(...Object.values(LITE[d]).map(a=>a[0]))]));
 const _lite={};
-function liteFind(dv,t){if(LITE[dv][t])return dv+'|'+t;for(const o of LITE_DIVS)if(o!==dv&&LITE[o][t])return o+'|'+t;return null}
+function liteFind(dv,t){return LITE[dv][t]?dv+'|'+t:null}
 function solveLite(dv,extra){
   const key=dv+JSON.stringify(extra||[])+allGames().length;if(_lite.k===key)return _lite.v;
   const T={};for(const d of LITE_DIVS)for(const [t,a] of Object.entries(LITE[d])){const [R,w,l,ti,agd,sch]=a;const n=w+l+ti;T[d+'|'+t]={dv:d,t,R,n,agd,sch,adj:R-(agd+sch),w,l,ti,dsum:0,opp:[],r:R}}
@@ -76,8 +77,8 @@ function solveLite(dv,extra){
   for(let it=0;it<60;it++){const nr={};
     for(const k of keys){const x=T[k];const m=x.opp.length;if(!m){nr[k]=x.r;continue}
       const N=x.n+m;const agd=(x.agd*x.n+x.dsum)/N;const sch=(x.sch*x.n+x.opp.reduce((s,o)=>s+T[o].r,0))/N;nr[k]=agd+sch+x.adj}
-    let top=-Infinity;for(const k of keys)if(T[k].dv===LITE_DIVS[0])top=Math.max(top,nr[k]);
-    const sh=used.length?LITE_TOP-top:0;for(const k of keys)T[k].r=nr[k]+sh}
+    const sh={};for(const d of LITE_DIVS){let top=-Infinity;for(const k of keys)if(T[k].dv===d)top=Math.max(top,nr[k]);sh[d]=used.some(g=>g[0]===d)?LITE_TOPS[d]-top:0}
+    for(const k of keys)T[k].r=nr[k]+sh[T[k].dv]}
   const rows=[];for(const k of keys){const x=T[k];if(x.dv!==dv)continue;const m=x.opp.length,N=x.n+m;
     const agd=m?(x.agd*x.n+x.dsum)/N:x.agd,sch=m?(x.sch*x.n+x.opp.reduce((s,o)=>s+T[o].r,0))/N:x.sch;
     rows.push({t:x.t,r:x.r,rec:[x.w,x.l,x.ti],agd,sched:sch,gp:N,mhr:true,adj:x.r-(agd+sch)})}

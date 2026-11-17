@@ -1,0 +1,150 @@
+Little Caesars|26-1-0|99.9|4.5|95.3|1011
+Mid-Fairfield Hockey Club (Elite)|24-6-2|97.7|2.7|94.9|1406
+Buffalo Jr Sabres|14-7-1|97.6|1.6|95.9|4624
+Team Illinois|22-1-0|97.4|3.6|93.8|1051
+Top Gun (Elite)|18-6-1|97.3|2.3|94.9|1286
+St Louis Blues|24-2-1|96.8|2.8|94.0|1081
+Middlesex Islanders East (Elite)|9-6-3|96.6|1.8|94.8|1271
+Florida Surf|19-7-1|96.5|1.4|95.0|37380
+Pittsburgh Penguins Elite (MacKinnon)|14-11-1|96.0|1.4|94.6|1101
+Bay State Breakers (Elite)|12-8-3|96.0|0.4|95.5|1261
+Chicago Fury|19-9-0|96.0|1.7|94.2|1046
+HB Detroit|15-7-2|95.9|1.6|94.2|1006
+Boston Jr Eagles (Elite)|13-10-1|95.2|0.3|94.8|1266
+Minuteman Flames (Elite)|7-7-2|95.0|0.4|94.6|30300
+Chicago Reapers|18-18-0|95.0|0.2|94.8|2103
+LA Jr Kings (Voulelikas) 10U A|14-4-0|95.0|0.2|94.8|40127
+North Jersey Avalanche|19-10-0|95.0|1.4|93.6|1211
+Biggby Coffee|16-7-1|94.8|1.4|93.4|1036
+Chicago Mission|16-15-0|94.6|0.3|94.2|1041
+Philadelphia Little Flyers|11-11-3|94.4|0.7|93.6|27458
+Long Island Gulls|18-6-0|94.3|2.3|92.0|1186
+Woodbridge Wolfpack|16-11-4|94.2|0.6|93.6|6332
+Tampa Bay Jr Lightning|5-3-0|94.0|0.5|93.5|39769
+New Jersey Rockets|16-10-1|94.0|0.8|93.2|30388
+Washington Little Capitals|17-15-2|93.8|1.0|92.7|34535
+Ohio Blue Jackets|11-9-3|93.7|0.2|93.5|1086
+Boston Advantage (Elite)|13-8-1|93.7|1.7|92.0|2808
+Carshield|18-9-1|93.7|1.4|92.2|2036
+Cleveland Barons|11-11-2|93.5|0.5|92.9|1031
+Boston Jr Terriers (Elite)|5-15-1|93.3|-1.3|94.7|1426
+Florida Alliance|11-7-2|93.2|0.4|92.8|39772
+Providence Capitals (Elite)|10-13-1|93.2|0.0|93.2|1251
+Littleton Hawks (Black) 10U AA|22-3-0|93.1|3.8|89.2|2503
+Philadelphia Hockey Club|13-15-0|93.0|-0.8|93.9|24280
+Oakland Jr Grizzlies|10-16-0|92.4|-0.7|93.1|1026
+Tampa Bay Crunch 10U AA|11-0-1|92.3|4.5|87.8|15947
+St Louis Knights 10U AA|26-6-0|92.3|2.5|89.7|2002
+Long Island Royals|15-7-1|92.2|1.0|91.1|1196
+Phoenix Jr Coyotes|16-2-0|92.1|3.6|88.5|4576
+Vegas Jr Golden Knights|23-10-0|92.0|3.1|88.9|3392
+Nashville Warriors 10U AA|9-15-1|91.9|-0.5|92.4|34068
+Madison Capitols|14-7-1|91.9|1.0|90.8|1066
+Victory Honda|10-16-2|91.7|-0.9|92.7|1016
+Pittsburgh Penguins Elite (Laschon)|8-10-2|91.7|0.0|91.7|3510
+Amherst Knights|12-10-2|91.7|-0.4|92.1|1811
+Casco Bay Mariners|8-6-1|91.6|0.6|90.9|27759
+Northern CT Nor'Easter|12-6-1|91.4|1.6|89.8|37356
+Great Lakes HC 10U AA|8-8-2|91.4|0.1|91.2|37828
+Lake County Vipers (CSDHL) 10U AA|14-8-0|91.4|1.2|90.1|15167
+Compuware|9-11-0|91.4|-0.0|91.4|1001
+Crystal Lake Yellowjackets (CSDHL) 10U AA|19-4-0|91.3|2.5|88.8|15176
+Boston Americans|14-8-5|91.3|1.5|89.8|24209
+Hartland Huskies (Black) 10U AA|13-2-0|91.3|2.6|88.6|34039
+Rochester Saints|11-14-1|91.2|-0.3|91.6|37318
+Chicago Jets (CSDHL) 10U AA|18-7-0|91.1|2.0|89.1|2745
+New Hampshire Avalanche (Elite #1)|9-5-2|91.0|0.8|90.2|1336
+New Jersey Colonials|13-11-3|90.9|1.0|89.9|1201
+Dallas Stars Elite|5-18-1|90.9|-2.7|93.6|1436
+Belle Tire|9-15-2|90.9|-0.7|91.6|7363
+Assabet Valley Patriots (Elite)|14-3-1|90.7|3.3|87.3|1301
+Jersey Hitmen|14-9-2|90.6|0.5|90.0|27460
+Chicago Hawks (CSDHL) 10U AA|16-4-0|90.6|2.1|88.4|3390
+Oakland Jr Grizzlies 10U AA|17-3-0|90.5|2.1|88.4|37792
+San Jose Jr Sharks (#1) 10U A|13-3-0|90.5|4.1|86.3|4837
+PAL Jr Islanders|14-8-1|90.3|0.9|89.3|1106
+Arizona Bobcats 10U AA|10-10-0|90.3|1.1|89.1|18500
+St Clair Shores Saints (Red) 10U AA|16-5-0|90.2|2.6|87.5|6322
+West Dundee Leafs (CSDHL) 10U AA|15-9-1|90.1|1.9|88.2|9616
+Saginaw Jr Spirit 10U AA|18-7-1|90.0|1.9|88.0|2501
+San Diego Jr Gulls 10U A|19-0-0|89.9|4.5|85.3|17879
+Connecticut Jr Rangers|16-6-1|89.9|2.4|87.4|27936
+Boston Jr Eagles (T1)|16-2-1|89.9|3.0|86.8|16398
+Milwaukee Jr Admirals|8-20-0|89.8|-2.4|92.3|1061
+Indiana Elite|10-19-2|89.8|-1.0|90.9|16802
+NoCo Jr Eagles 10U AA|14-1-1|89.7|4.4|85.3|2504
+Kansas City Scouts 10U AA|13-1-1|89.7|2.9|86.8|2800
+South Shore Kings (Elite)|9-13-1|89.7|-1.7|91.4|1281
+Northwest Chargers (CSDHL) 10U AA|9-10-0|89.7|-0.0|89.7|2732
+Philadelphia Jr Flyers|3-18-0|89.5|-2.6|92.1|1421
+Allegheny Badgers (#1) 10U AA|21-2-0|89.4|4.3|85.1|14056
+New England Bulldogs|12-4-0|89.3|2.0|87.3|7372
+Palm Beach Hawks 10U AA|10-6-1|89.3|1.4|87.9|3030
+Livonia Knights (Blue) 10U AA|11-7-3|89.1|1.7|87.3|28520
+Fox Motors|6-13-2|89.1|-1.7|90.8|9533
+Syracuse Nationals|6-10-1|89.1|-1.1|90.2|14993
+Midland Northstars 10U AA|12-5-5|89.1|0.9|88.1|26275
+Anaheim Jr Ducks (#1) 10U A|13-6-0|88.9|2.2|86.7|3237
+Worcester Jr Railers (Elite)|14-8-0|88.8|1.0|87.7|1321
+Peconic Wildcats (Major) 10U A|23-2-0|88.7|4.3|84.4|15291
+South Shore Kings (T1-Platinum)|12-6-0|88.7|2.0|86.7|4366
+Arizona Jr Sun Devils 10U AA|8-14-0|88.6|-0.9|89.5|3360
+Vernon Hills Ice Dogs (CSDHL) 10U AA|8-9-1|88.6|0.2|88.3|15268
+Sylvania North Stars (Red) 10U AA|9-11-3|88.5|-0.3|88.8|34100
+Utica Jr Comets|10-8-2|88.4|1.2|87.2|2949
+Tampa Bay Hockey Club 10U AA|11-4-2|88.4|1.8|86.5|14482
+Omaha Jr Mavericks (Black) 10U AA|7-5-2|88.4|0.1|88.3|3383
+Hingham Harbormen (Herman) 10U A|8-1-1|88.4|4.4|84.0|16404
+HB Detroit 10U AA|14-10-0|88.4|0.8|87.5|2809
+Rochester Jr Americans|7-9-1|88.3|-1.0|89.4|3635
+Carolina Junior Canes (Black) 10U AA|9-9-0|88.3|0.3|87.9|19758
+Florida Jr Panthers 10U AA|5-11-0|88.3|-0.8|89.1|15182
+St James HC 10U AA|17-4-1|88.3|4.0|84.2|2777
+Buffalo Regals (Lines)|10-10-3|88.2|0.3|87.9|1136
+Team Maryland|13-11-0|88.2|0.8|87.3|28474
+Lehigh Valley Phantoms|8-13-0|88.2|-1.5|89.7|27568
+Florida Jr Everblades 10U AA|8-9-0|88.1|0.4|87.7|2826
+Boston Jr Terriers (T1-Platinum-Red)|4-5-0|88.1|0.0|88.1|6206
+Windy City Storm|5-21-0|88.1|-3.7|91.8|1056
+Joliet Jaguars (CSDHL) 10U AA|9-13-2|88.1|-0.9|89.0|15180
+Canton Steel 10U AA|0-5-2|88.0|-4.1|92.2|2005
+New Jersey Jr Titans (Red) 10U AA|22-3-2|88.0|3.5|84.5|34302
+Toledo Cherokee 10U AA|11-10-2|88.0|0.4|87.6|26575
+St Louis Sting 10U AA|10-9-0|88.0|0.1|87.9|3388
+Boston Jr Falcons|5-8-0|88.0|-1.0|89.1|32699
+California Jr Reign 10U A|7-2-2|87.9|2.6|85.3|26247
+Wonderland Wizards 10U AA|18-7-0|87.9|2.7|85.1|14949
+Pittsburgh (PHA) Icemen 10U AA|15-9-0|87.8|2.4|85.4|34076
+Wissahickon Warriors 10U AA|21-5-0|87.7|2.6|85.1|24302
+Columbus Cannons (Olsgard) 10U AA|8-11-3|87.7|-0.0|87.7|9648
+Lovell Winter Club (Elite)|9-4-0|87.6|2.2|85.4|32702
+Canton Bulldogs 10U A|9-1-0|87.6|4.1|83.5|26581
+Fond du Lac Thunder 10U 1A|3-1-1|87.6|2.8|84.8|3530
+Palmyra Black Knights|14-8-0|87.5|-0.3|87.9|14735
+Raleigh Raptors 10U AA|8-1-0|87.4|4.8|82.5|28550
+California Goldrush 10U A|8-3-1|87.3|2.1|85.1|29291
+Hartland Huskies (Silver) 10U AA|18-10-2|87.2|0.6|86.6|35056
+Winnetka Warriors (CSDHL) 10U AA|1-16-0|87.2|-2.5|89.7|17936
+Sno-King Jr Thunderbirds 10U A1|6-2-0|87.2|2.8|84.3|29746
+Naperville Sabres (CSDHL) 10U AA|7-16-1|87.1|-1.3|88.4|2008
+Marquette Junior Wildcats 10U AA|16-3-2|87.1|2.9|84.1|2613
+Ashburn Xtreme 10U AA|19-8-1|87.1|2.0|85.1|2658
+Hamburg Hawks (Militello) 10U AA|9-4-5|87.0|1.1|85.9|9896
+Chicago Phantoms|5-18-1|87.0|-2.8|89.9|34426
+Ann Arbor Bombers (Orange) 10U AA|19-6-1|87.0|1.7|85.2|2051
+Nassau County Lions 10U AA|19-5-2|87.0|3.0|83.9|2715
+Central Florida Bears 10U AA|8-10-2|86.9|-0.2|87.2|14481
+Greater Boston Vipers|7-5-1|86.9|0.3|86.5|2593
+Orange County HC (#2) 10U A|7-4-2|86.9|0.6|86.2|13730
+Middlesex Islanders East (T1-Upper)|7-1-1|86.9|4.3|82.5|12066
+Orchard Lake 10U AA|9-11-1|86.8|-0.5|87.4|30219
+Highland Park Falcons (CSDHL) 10U AA|8-11-0|86.8|-0.7|87.6|2007
+Long Beach Lightning 10U AA|15-3-3|86.8|3.7|83.0|2714
+Rochester Rattlers (Purple) 10U AA|11-10-2|86.7|1.1|85.6|33254
+Colorado Extreme 10U AA|14-7-0|86.7|1.8|84.9|31102
+De Pere Voyageurs 10U 2A|6-0-1|86.7|3.8|82.9|3540
+MassConn United (T1-Platinum)|3-10-0|86.7|-0.9|87.6|28526
+Greater Springfield Aces|10-13-0|86.7|-1.0|87.8|16393
+Monument Rebels 10U AA|9-6-2|86.7|1.0|85.6|2500
+Denver U Jr Pioneers 10U AA|8-3-1|86.7|2.5|84.1|15536
+Texas Tigers 10U AA|10-11-0|86.7|-0.0|86.7|4980

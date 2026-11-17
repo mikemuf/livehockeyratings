@@ -18,7 +18,7 @@ teams={dv:{x for g in BASE if g[0]==dv for x in (g[2],g[4])} for dv in ('2012','
 for dv,ns in {'2012':['Edina','OMGHA','Rochester Mustangs','Hill Academy'],'2013':['HKMK Bled']}.items(): teams[dv].update(ns)
 have={(g[0],g[1],frozenset((g[2],g[4]))) for g in BASE}
 def add(g,report):
-    if g[0] in ('2011','2014','2015'):
+    if g[0] in ('2011','2014','2015','2016'):
         if g not in BASE: BASE.append(g)
         return
     k=(g[0],g[1],frozenset((g[2],g[4])))
@@ -106,6 +106,10 @@ LITE['2011']=liteload('data/'+F15,'\x00')
 # Ontario U16 AAA (2011 birth year), MHR rank.php?y=2026&v=137: same 16U pool, listed on the Canada side of the 2011 division.
 ON16='nov11_on16.txt'
 LITE_ON16=liteload('data/'+ON16,'\x00');LITE['2011'].update(LITE_ON16)
+# 2016 (Squirt), added Nov 17, 2026: USA 10U - All (MHR rank.php?y=2026&v=122, top 150) and Ontario U11 AAA (v=132), its own MHR pool (top 10U = 99.9).
+# Anchored like 2011: published rating, record, AGD and schedule from the rank pages; newer games fold in. Refresh both files with the weekly MHR update.
+F10='nov11_usa10.txt';ON11='nov11_on11.txt'
+LITE['2016']=liteload('data/'+F10,'\x00');LITE_ON11=liteload('data/'+ON11,'\x00');LITE['2016'].update(LITE_ON11)
 h=h.replace("(MHR_REC[div]||{})[x.t]||x.rec.join('-')","(((MHR_REC[div]||{})[x.t]||'0-0-0')!=='0-0-0'?MHR_REC[div][x.t]:x.rec.join('-'))")
 # Live record/GP: MHR's published record + games played since MHR_THROUGH (weekend games), so Rec/GP move live with the rating.
 h=h.replace("(((MHR_REC[div]||{})[x.t]||'0-0-0')!=='0-0-0'?MHR_REC[div][x.t]:x.rec.join('-'))","recL(x.t,x)")
@@ -117,7 +121,7 @@ function recL(t,x){const m=(MHR_REC[div]||{})[t];if(!m||m==='0-0-0')return x.rec
 function gpL(t,x){const m=(MHR_GP[div]||{})[t];if(!m)return x.gp;const n=newG(t);return Math.max(x.gp,m+n[0]+n[1]+n[2])}
 function allGames(){""",1)
 h=h.replace('const XPOOL=','Object.assign(XMAP,'+json.dumps(P2X)+');\nconst XPOOL=',1)
-P2CA=list(P2CA)+[n for n in LITE_ON16 if n not in P2CA]
+P2CA=list(P2CA)+[n for n in LITE_ON16 if n not in P2CA];P2CA+=[n for n in LITE_ON11 if n not in P2CA]
 h=h.replace('CANADA_BASE = [','CANADA_BASE = ['+','.join(json.dumps(x) for x in P2CA)+(',' if P2CA else ''),1)
 h=h.replace('const BASE = ','const LITE='+json.dumps(LITE)+';\nconst BASE = ',1)
 i=h.index('const MHR=');j=h.index('\n',i);mh=json.loads(h[i+len('const MHR='):j].rstrip(';'))
@@ -127,9 +131,11 @@ rep('<div class="seg"><button data-div="2012"','<div class="seg"><button data-di
 rep('<button data-div="2013">2013 Minor</button>','<button data-div="2013">2013 Minor</button><button data-div="2014">2014 Major</button><button data-div="2015">2015 Minor</button>')
 rep('<option value="2012">','<option value="2011">2011 Midget Minor (15U)</option><option value="2012">')
 rep('<option value="2013">2013 Bantam Minor</option>','<option value="2013">2013 Bantam Minor</option><option value="2014">2014 Peewee Major (12U)</option><option value="2015">2015 Peewee Minor (11U)</option>')
-rep('<small>2026-27 Bantam</small>','<small>2026-27 15U, Bantam &amp; Peewee</small>')
+rep('<button data-div="2015">2015 Minor</button>','<button data-div="2015">2015 Minor</button><button data-div="2016">2016 Squirt</button>')
+rep('<option value="2015">2015 Peewee Minor (11U)</option>','<option value="2015">2015 Peewee Minor (11U)</option><option value="2016">2016 Squirt Major (10U)</option>')
+rep('<small>2026-27 Bantam</small>','<small>2026-27 15U, Bantam, Peewee &amp; Squirt</small>')
 rep('<style>','<style>.bar{flex-wrap:wrap;row-gap:6px}@media (max-width:560px){.seg{margin-left:0;width:100%}.seg button{flex:1;padding:6px 4px}}')
-h=h.replace("div==='2012'?'2012 Bantam Major':'2013 Bantam Minor'","({'2011':'2011 Midget Minor (15U)','2012':'2012 Bantam Major','2013':'2013 Bantam Minor','2014':'2014 Peewee Major (12U)','2015':'2015 Peewee Minor (11U)'})[div]")
+h=h.replace("div==='2012'?'2012 Bantam Major':'2013 Bantam Minor'","({'2011':'2011 Midget Minor (15U)','2012':'2012 Bantam Major','2013':'2013 Bantam Minor','2014':'2014 Peewee Major (12U)','2015':'2015 Peewee Minor (11U)','2016':'2016 Squirt Major (10U)'})[div]")
 # --- public site: Weekend tab; hide internal tabs (Schedule, Add scores, Handoff)
 WK=json.load(open('data/weekend_public.json'))
 WBOX=sorted([v for k,v in (json.load(open('data/gs_box.json')) if os.path.exists('data/gs_box.json') else {}).items() if WK['from']<=v['date']<=WK['to']],key=lambda v:(v['date'],v['time']))
