@@ -1,0 +1,53 @@
+Whitby Wildcats|20-3-0|98.4|4.0|94.4|1826
+Toronto Jr Canadiens|20-4-3|97.9|2.5|95.4|1561
+Toronto Marlboros|22-3-2|97.8|2.7|95.0|1566
+Vaughan Kings|11-1-3|97.6|2.8|94.7|1581
+Elgin Middlesex Canucks|18-3-4|96.5|2.9|93.6|1606
+Ottawa Valley Silver Seven AA|21-3-1|96.0|3.7|92.3|1786
+Toronto Nationals|11-4-5|95.8|1.4|94.3|1576
+Kitchener Jr Rangers|22-4-2|95.6|2.4|93.2|1621
+London Jr Knights|11-4-3|95.5|2.0|93.5|1631
+Don Mills Flyers|9-9-3|95.3|0.2|95.0|1531
+Niagara North Stars|16-5-2|95.1|1.7|93.4|1741
+Windsor Jr Spitfires|22-7-2|95.1|1.4|93.6|1646
+Oakville Rangers|13-7-2|95.0|0.8|94.2|1736
+Toronto Titans|16-10-0|94.8|1.3|93.5|1586
+Burlington Eagles|19-5-2|94.7|1.7|93.0|1706
+Huron-Perth Lakers|13-9-2|94.6|1.0|93.6|1616
+York Simcoe Express|19-7-0|94.5|1.9|92.6|1831
+Toronto Red Wings|6-8-0|94.4|-0.5|94.9|1571
+Ajax Pickering Raiders|13-7-3|93.9|0.7|93.1|1651
+Quinte Red Devils|14-8-0|93.9|1.1|92.8|1691
+Waterloo Wolves|11-11-4|93.6|0.3|93.3|1641
+Barrie Colts|9-13-0|93.5|-0.8|94.4|1656
+Toronto Reps|6-15-3|93.4|-0.6|94.0|1541
+Mississauga Rebels|9-9-1|93.3|-1.2|94.6|1546
+Sarnia-Lambton Jr Sting|11-11-3|93.2|-0.1|93.3|1626
+Central Ontario Wolves|8-11-3|93.1|-0.1|93.3|1661
+Chatham-Kent Cyclones|16-10-1|93.1|1.2|91.9|4907
+Hamilton Steel|12-9-1|93.1|0.7|92.3|1726
+Halton Hurricanes|11-11-1|92.9|0.0|92.8|1721
+North York Rangers|3-14-2|92.8|-2.0|94.8|1556
+Peterborough Jr Petes|8-9-1|92.7|0.6|92.1|1686
+Kingston Jr Gaels|12-8-2|92.7|0.5|92.2|1771
+Gloucester Rangers AA|11-8-1|92.7|1.4|91.3|1761
+Mississauga Senators|7-13-2|92.6|-1.4|94.1|1551
+Rideau St Lawrence Kings AA|17-1-2|92.5|3.7|88.8|1791
+Markham Majors|6-11-3|92.3|-1.3|93.6|1536
+Cambridge Hawks|8-11-1|91.7|-1.3|93.1|1596
+Southern Tier Admirals|8-14-2|91.7|-2.0|93.7|1746
+Nepean Raiders AA|8-7-2|91.3|0.0|91.2|1776
+Brantford 99ers|4-17-1|91.2|-2.5|93.7|1591
+Credit River Capitals|4-14-2|91.0|-1.6|92.7|1701
+Upper Ottawa Valley Aces AA|11-7-1|90.8|0.5|90.2|11604
+North Shore Whitecaps|6-15-1|90.7|-1.5|92.2|1666
+Kanata Blazers AA|9-7-1|90.6|0.5|90.1|1766
+Sun County Panthers|3-17-1|90.6|-1.5|92.2|40171
+Ottawa Sting AA|8-10-1|90.6|-1.0|91.6|1781
+Guelph Gryphons|3-19-1|90.5|-2.5|93.0|1716
+Eastern Ontario Cobras AA|8-7-1|90.4|0.1|90.3|1756
+Grey Bruce Highlanders|2-18-2|90.3|-3.0|93.3|32584
+Cumberland Jr Grads AA|4-10-2|89.1|-2.0|91.1|1751
+North Central Predators|1-21-0|89.0|-3.7|92.7|1676
+Markham Waxers|1-18-1|88.3|-5.0|93.3|1671
+Seaway Valley Rapids AA|3-9-2|86.6|-2.7|89.3|1796

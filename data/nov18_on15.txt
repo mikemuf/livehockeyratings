@@ -1,0 +1,55 @@
+Toronto Marlboros|19-2-4|98.32
+Toronto Jr Canadiens|19-6-1|98.23
+North York Rangers|18-5-1|98.21
+York Simcoe Express|19-4-1|96.56
+Ottawa Valley Titans|23-3-2|96.33
+Toronto Titans|15-7-2|96.19
+Vaughan Kings|13-7-2|95.99
+Chatham-Kent Cyclones|23-6-1|95.91
+Mississauga Rebels|7-9-2|95.91
+Oakville Rangers|19-6-1|95.90
+Niagara North Stars|15-5-1|95.84
+Brantford 99ers|17-3-2|95.30
+Hamilton Steel|18-7-0|95.18
+Mississauga Senators|13-9-2|95.14
+Elgin Middlesex Canucks|15-5-1|94.68
+Ottawa Jr 67's|12-6-4|94.45
+Soo Jr Greyhounds|26-6-1|94.33
+Barrie Colts|11-9-1|94.19
+Eastern Ontario Wild|11-12-2|94.18
+Ottawa Myers Automotive|12-12-2|94.17
+Halton Hurricanes|11-8-3|94.11
+Thunder Bay Kings|13-4-0|93.93
+Peterborough Jr Petes|9-12-3|93.74
+Kitchener Jr Rangers|14-7-3|93.70
+Whitby Wildcats|11-8-2|93.63
+Toronto Nationals|12-13-2|93.57
+North Shore Whitecaps|9-5-1|93.52
+Toronto Red Wings|9-11-1|93.39
+Upper Canada Cyclones|11-15-2|93.35
+Markham Majors|11-10-6|93.33
+Huron-Perth Lakers|13-12-2|93.31
+Ajax Pickering Raiders|11-9-1|93.29
+London Jr Knights|14-12-1|93.29
+Burlington Eagles|10-11-1|93.27
+Credit River Capitals|11-11-4|93.12
+Hill Academy|11-13-4|93.06
+Upper Canada College|6-17-2|92.99
+North Bay Trappers|13-8-1|92.96
+Guelph Gryphons|10-11-6|92.65
+Don Mills Flyers|6-11-3|92.31
+Sarnia-Lambton Jr Sting|10-13-4|92.26
+Markham Waxers|10-11-1|92.25
+Kingston Jr Gaels|11-16-3|91.89
+Grey Bruce Highlanders|8-16-2|91.34
+Quinte Red Devils|5-12-3|91.18
+North Central Predators|4-13-0|91.01
+Southern Tier Admirals|4-20-3|90.83
+Sun County Panthers|3-13-5|90.81
+Toronto Reps|4-17-5|90.70
+Waterloo Wolves|4-18-1|90.30
+Windsor Jr Spitfires|1-22-1|89.65
+Central Ontario Wolves|1-17-0|89.22
+Cambridge Hawks|2-17-2|89.16
+Timmins Jr Rock|1-22-2|89.00
+Sudbury Wolves|1-11-3|88.02

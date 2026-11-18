@@ -1,0 +1,115 @@
+Pittsburgh Penguins Elite|18-3-0|96.84|4.23|92.60|16866
+Bishop Kearney Selects|18-5-0|95.65|3.30|92.34|27445
+Mount St Charles Hockey Academy|24-1-1|95.56|4.11|91.45|25878
+Shattuck St Mary's|25-4-1|95.10|3.96|91.13|5488
+Chicago Reapers|22-5-0|94.24|2.59|91.65|3805
+Oakland Jr Grizzlies|20-5-0|94.04|2.20|91.84|4320
+Little Caesars|22-8-0|93.97|1.73|92.24|9950
+Chicago Mission|21-10-0|93.95|2.09|91.85|21827
+Woodbridge Wolfpack|23-10-0|93.30|1.51|91.78|37594
+Masters Academy|20-7-1|93.10|2.21|90.89|25015
+Middlesex Islanders East (Prep)|19-4-3|92.98|2.03|90.94|26067
+St Louis Blues|19-7-0|92.73|1.30|91.42|21817
+Pittsburgh Vengeance|13-6-0|92.38|1.94|90.43|4740
+Seacoast Performance Academy|15-8-1|92.38|1.25|91.13|25917
+Boston Jr Eagles|19-10-1|92.28|0.80|91.48|24478
+Philadelphia Jr Flyers|18-12-2|92.24|0.46|91.78|4007
+Palmyra Black Knights|15-11-0|92.19|0.07|92.12|25923
+Team Wisconsin|19-9-1|91.93|1.89|90.03|13417
+Notre Dame Hockey Academy|20-9-3|91.78|1.84|89.94|37322
+Buffalo Jr Sabres|14-11-2|91.57|0.48|91.09|19959
+North Jersey Avalanche|16-9-1|91.44|1.30|90.13|16788
+Cape Cod Whalers|14-13-2|91.23|-0.06|91.30|4269
+HB Detroit|17-20-1|91.12|-0.50|91.62|3946
+Victory Honda|19-12-0|91.11|0.67|90.44|19716
+Northeast Generals|12-14-6|90.97|-0.21|91.19|32618
+Neponset Valley River Rats|8-14-4|90.94|-0.46|91.40|4479
+Indiana Elite|12-16-0|90.91|-0.10|91.01|37424
+New Jersey Rockets (Premier)|10-17-2|90.86|-0.55|91.42|4529
+Mid-Fairfield Hockey Club (National)|16-16-1|90.84|-0.24|91.08|4369
+Omaha Mastery|18-9-0|90.60|1.40|89.19|37567
+Okanagan Hockey Colorado|10-13-0|90.55|-0.47|91.03|21798
+MN Blue Ox|19-4-2|90.43|2.40|88.03|11229
+Milwaukee Jr Admirals|18-13-0|90.40|0.93|89.46|17178
+Fox Motors|16-16-0|90.31|0.28|90.03|17458
+Sioux Falls Power|12-9-0|90.01|0.23|89.77|24195
+CarShield|23-7-0|89.94|1.63|88.31|3931
+Dallas Stars Elite|10-16-1|89.74|0.14|89.59|4466
+Anaheim Jr Ducks|6-9-1|89.71|-1.12|90.84|4279
+Northern CT Nor'Easter|8-14-3|89.66|-0.32|89.98|34035
+San Jose Jr Sharks|15-5-0|89.64|2.75|86.89|3774
+New Jersey Colonials|16-6-3|89.52|0.68|88.84|30100
+Windy City Storm|18-12-0|89.52|0.26|89.25|21826
+Pittsburgh Predators|12-14-1|89.49|0.37|89.12|4009
+Long Island Arrows|10-10-1|89.37|0.57|88.80|4642
+Pittsburgh Stars|20-6-0|89.36|2.69|86.67|30063
+LA Jr Kings|6-12-0|89.33|-0.50|89.83|4004
+Team North Dakota|13-12-1|89.31|0.53|88.77|19986
+Philadelphia Hockey Club|11-13-1|89.20|0.04|89.16|24284
+Ohio Blue Jackets|14-12-0|89.19|-0.69|89.88|15096
+Colorado Thunderbirds|8-15-2|89.13|-0.04|89.17|3928
+PAL Jr Islanders|11-18-1|89.07|-1.06|90.13|32506
+MN Lakers|16-8-2|88.97|0.80|88.16|15648
+Tampa Bay Jr Lightning|12-14-2|88.94|-0.25|89.19|39766
+MN Moose|14-9-2|88.86|0.00|88.86|12920
+East Coast Militia (National)|10-11-1|88.83|-0.59|89.42|14421
+Boston Americans|16-4-2|88.76|2.68|86.08|37496
+Team Illinois|12-18-1|88.72|-1.29|90.01|21825
+MN Walleye|12-10-3|88.59|0.20|88.39|16206
+Rochester Coalition|15-9-7|88.48|0.67|87.80|30365
+New Jersey Devils|8-13-3|88.41|-0.37|88.78|24186
+Queen City Royals|15-8-1|88.33|1.20|87.12|34776
+Rocky Mountain RoughRiders|16-11-0|88.27|0.14|88.13|4281
+Belle Tire|11-21-1|87.90|-1.15|89.05|16865
+Phoenix Jr Coyotes|8-10-0|87.84|-1.76|89.60|4246
+MN Polars|7-11-5|87.81|-0.52|88.33|16205
+Nashville Jr Predators|8-12-2|87.74|-0.50|88.24|4302
+Red Bank Generals|16-7-2|87.73|1.36|86.37|32678
+Compuware|13-16-0|87.68|0.17|87.51|19715
+Madison Capitols|12-26-1|87.65|-1.69|89.34|27599
+Yale Junior Bulldogs (National)|9-15-2|87.43|-0.57|88.01|4037
+Long Island Gulls|19-10-1|87.39|1.10|86.29|28484
+NY Dynamo|13-12-3|87.35|-0.53|87.88|34267
+Washington Little Capitals|8-16-2|87.34|-1.69|89.03|3752
+East Coast Wizards|18-9-1|87.19|0.96|86.23|21875
+Providence Capitals|11-15-2|87.10|-1.17|88.28|24479
+Black Bear Academy|13-10-2|86.93|0.36|86.57|32682
+MN Loons|6-16-2|86.86|-1.33|88.19|15550
+Greater Boston Jr Bruins|18-4-1|86.84|3.39|83.45|26397
+MN Green Giants|6-15-1|86.78|-1.50|88.28|12723
+American Hockey Academy|19-6-1|86.64|1.38|85.26|30291
+Philadelphia Revolution|16-5-0|86.58|1.33|85.25|27444
+Bay State Breakers|16-2-2|86.56|2.45|84.11|28678
+Westchester Express|16-15-3|86.53|0.38|86.14|21803
+Chicago Fury|7-20-0|86.43|-1.44|87.87|21823
+New York Saints|15-9-4|86.34|0.07|86.27|25888
+Top Gun (National)|10-10-1|86.23|0.66|85.56|38323
+Jersey Hitmen|18-13-0|86.20|-0.06|86.27|3825
+MN Voyageurs|3-17-2|86.16|-2.13|88.29|34251
+Cleveland Barons|7-13-0|86.13|-1.75|87.88|19847
+Colorado Rampage|10-19-0|86.03|-1.06|87.10|3982
+Mercer Chiefs|9-13-0|85.80|-0.40|86.21|4015
+Boston Jr Terriers|7-12-2|85.73|0.19|85.54|5106
+Philadelphia Little Flyers|13-13-2|85.66|0.14|85.52|25928
+Biggby Coffee|3-19-1|85.59|-3.39|88.98|18522
+Midwest Warriors|13-24-0|85.43|-1.48|86.91|32864
+Chicago Phantoms|6-24-0|85.38|-2.33|87.71|37390
+Florida Surf|7-16-1|85.34|-2.37|87.71|39718
+Syracuse Nationals|9-19-0|85.23|-2.07|87.30|37360
+South Shore Kings|9-10-2|85.09|0.42|84.66|3861
+Assabet Valley Patriots|7-14-3|85.00|-0.37|85.38|5756
+Tri-State Spartans|10-10-2|84.89|-0.09|84.98|26028
+Vermont Jr Catamounts|8-14-0|84.82|0.09|84.73|32276
+Boston Hockey Academy|17-13-1|84.75|0.09|84.66|27436
+New York City Hockey Club|8-15-0|84.56|-0.69|85.25|13097
+Carolina Junior Canes|4-17-1|84.44|-2.00|86.44|3960
+New Hampshire Avalanche (Gold)|11-6-0|84.42|1.88|82.53|34987
+New England Bulldogs|12-8-2|84.25|0.50|83.75|16861
+Vegas Jr Golden Knights|8-15-0|84.19|-1.13|85.32|28934
+Florida Alliance|1-13-0|83.74|-2.78|86.53|19825
+Team Maryland|2-19-1|83.48|-3.77|87.25|25889
+New Jersey Jr Titans|4-23-0|83.46|-2.74|86.20|24189
+North Suburban Wings (National)|4-11-0|83.34|-1.93|85.27|20004
+Mass Vikings (Militia)|6-8-1|82.51|0.00|82.51|5710
+Northern Cyclones Academy (National)|5-14-0|81.62|-3.42|85.05|4231
+Ohio Prospects|1-19-1|81.39|-3.42|84.82|32519

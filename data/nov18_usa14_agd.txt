@@ -1,0 +1,289 @@
+Mid-Fairfield Hockey Club (Elite)|4.56|95.42
+Shattuck St Mary's|4.04|95.65
+Little Caesars|2.93|94.42
+Team Illinois|2.68|94.44
+Chicago Mission|0.95|96.10
+Woodbridge Wolfpack|2.23|94.65
+MN Green Giants|2.91|93.57
+Mount St Charles Hockey Academy|1.61|94.85
+Nashville Jr Predators|1.52|94.85
+Top Gun (Elite)|1.60|94.63
+MN Lakers|2.72|93.46
+Bishop Kearney Selects|2.46|93.71
+Pittsburgh Penguins Elite|1.14|94.96
+LA Jr Kings|1.86|94.16
+HB Detroit|2.21|93.70
+New Jersey Rockets (Premier)|0.18|95.72
+Chicago Reapers|0.87|94.83
+Biggby Coffee|1.04|93.67
+PAL Jr Islanders|1.53|93.13
+Boston Jr Eagles (Elite)|0.73|93.91
+New Jersey Colonials|0.36|94.16
+Philadelphia Hockey Club|1.00|93.28
+Seacoast Performance Academy|0.06|94.13
+Neponset Valley River Rats|-0.46|94.52
+Dallas Stars Elite|2.28|91.73
+Masters Academy|0.45|93.39
+St Louis Blues|-1.12|94.93
+Fox Motors|1.02|92.75
+MN Grey Ducks|0.22|93.47
+Ohio Blue Jackets|0.41|93.27
+Atlantic Coast Academy|-0.28|93.93
+North Jersey Avalanche|-0.09|93.72
+Team North Dakota|0.68|92.92
+Windy City Storm|0.56|92.95
+Minuteman Flames (Elite)|0.31|93.17
+MN Moose|-0.31|93.68
+Washington Little Capitals|0.20|93.07
+Victory Honda|0.20|93.02
+Okanagan Hockey Colorado|-0.43|93.61
+Connecticut Jr Rangers (Elite)|1.12|91.95
+South Shore Kings (Elite)|0.48|92.42
+Chicago Fury|-0.83|93.71
+MN Blue Ox|-0.16|92.99
+Pittsburgh Stars|0.89|91.72
+Phoenix Jr Coyotes|2.00|90.53
+CDA Hockey Academy U15 Prep|-0.84|93.27
+Jersey Hitmen|-0.14|92.57
+Milwaukee Jr Admirals|1.16|91.23
+Buffalo Jr Sabres|-0.20|92.50
+MN Polars|-1.05|93.14
+MN Voyageurs|-1.15|93.21
+Florida Alliance|2.11|89.94
+Team Wisconsin|-0.03|92.04
+East Coast Militia (National)|-0.29|92.29
+Sylvania North Stars|0.37|91.57
+MN Loons|-2.00|93.80
+Team Maryland|-1.17|92.96
+Middlesex Islanders East (Elite)|-0.48|92.17
+Peoria Jr Mustangs (CSDHL) 14U AA|3.63|88.01
+Florida Surf|-0.35|91.96
+Indiana Elite|0.50|91.09
+Tampa Bay Jr Lightning|0.09|91.39
+Syracuse Nationals|0.27|91.19
+Colorado Thunderbirds|1.86|89.55
+MN Walleye|-2.35|93.76
+Tri-Valley Bulls (#1) 14U AA|2.42|88.93
+Belle Tire|-1.54|92.86
+Oakland Jr Grizzlies|-1.46|92.68
+Boston Advantage (Elite #1)|1.20|89.91
+Compuware|-1.56|92.60
+Yale Junior Bulldogs|0.46|90.54
+Team Alaska|0.73|90.21
+CarShield|-1.15|92.08
+Team Dallas|1.25|89.66
+Fairmont Prep (Green) 14U|-0.75|91.54
+Cleveland Barons|-3.20|93.93
+Pittsburgh Predators|-1.65|92.27
+Rochester Coalition|-0.73|91.27
+Valley Jr Warriors (Elite)|0.92|89.50
+Cape Cod Whalers|-1.28|91.69
+Buffalo Regals|-0.13|90.54
+Midwest Warriors|-0.75|91.16
+Palmyra Black Knights|-0.09|90.41
+Red Bank Generals|-0.30|90.59
+New York City Hockey Club|1.80|88.41
+Madison Capitols|-0.92|91.00
+West Seneca Wings 14U AA|2.85|87.12
+Chelsea Chiefs 14U AA|1.75|88.10
+St Louis Eagles 14U AA|2.19|87.66
+Raleigh Raptors (Selects) 14U AA|2.56|87.22
+Hartland Huskies (Black) 14U AA|0.60|89.12
+Springfield Jr Thunderbirds (Elite #1)|0.81|88.80
+MN Lakers 14U AA|3.34|86.25
+Navy Rams 14U AA|2.60|86.78
+Northern Express (CSDHL) 14U AA|1.83|87.51
+Southeast Blades|1.00|88.33
+Providence Capitals (Elite)|-1.29|90.59
+Vegas Jr Golden Knights|1.63|87.65
+Seattle Jr Kraken|2.44|86.81
+Troy Albany Titans|0.64|88.59
+Sioux Falls Power|-0.89|90.12
+Chicago Hawks (CSDHL) 14U AA|1.76|87.46
+Anaheim Jr Ducks|0.00|89.19
+Mercer Chiefs|1.13|87.98
+Rocky Mountain RoughRiders|-0.26|89.36
+MN Green Giants 14U AA|3.13|85.91
+West Dundee Leafs (CSDHL) 14U AA|2.45|86.59
+Mid-State Mustangs 14U AA|2.95|86.05
+Vermont Jr Catamounts|0.81|88.13
+MN Moose 14U AA|2.52|86.31
+Ashburn Xtreme 14U AA|2.65|86.08
+St Louis Knights 14U AA|1.30|87.42
+Team Ohio 14U AA|1.60|87.12
+San Jose Jr Sharks|-0.89|89.61
+Philadelphia Genesis Hockey Club 14U AA|2.36|86.32
+Boston Jr Terriers (Elite)|-1.11|89.78
+Middlesex Islanders East (Half)|0.05|88.61
+Long Beach Lightning 14U AA|3.41|85.24
+Plymouth Flyers (Black) 14U AA|0.31|88.34
+Marquette American Legion 14U AA|2.02|86.59
+Montana Wolves 14U AA|5.35|83.25
+Canton Steel 14U AA|-0.40|89.01
+Valley Forge Minutemen|0.83|87.75
+Long Island Royals|-0.48|89.06
+Nassau County Lions 14U AA|3.44|85.12
+Hampton Roads Whalers 14U AA|3.62|84.92
+Texas Tigers 14U AA|2.82|85.70
+Team Philadelphia (Black) 14U AA|1.82|86.66
+Casco Bay Mariners|3.94|84.53
+Alabama Thunder 14U AA|2.71|85.75
+Great Lakes HC 14U AA|-0.07|88.51
+Arizona Jr Sun Devils 14U AA|1.44|86.98
+St Louis Sting 14U AA|0.95|87.46
+California Bears 14U AA|1.50|86.88
+Boston Americans|-0.26|88.61
+NY Dynamo|-1.84|90.19
+New Hampshire Mountain Kings Academy|0.89|87.44
+Rhode Island Saints (Elite)|-0.71|89.00
+New York Saints|-0.72|88.95
+Ohio Prospects|-0.57|88.76
+Worcester Jr Railers (Elite)|-0.50|88.68
+NoCo Jr Eagles 14U AA|2.82|85.32
+Rochester Rattlers (Black) 14U AA|1.38|86.74
+Long Island Rebels 14U AA|2.53|85.60
+Reston Raiders 14U AA|1.55|86.51
+Orchard Lake 14U AA|0.33|87.71
+Chicago Phantoms|-3.03|90.99
+Trenton Blades (Black) 14U AA|1.30|86.65
+Boston Jr Terriers (T1-Platinum-Red)|1.27|86.67
+WEHL Arctic Anglers 14U AA|2.85|85.06
+North Pittsburgh Wildcats (#1) 14U AA|1.86|86.02
+Rochester Coalition (Peeso) 14U AA|2.23|85.63
+Manchester Flames|2.38|85.43
+Hartford Jr Wolfpack|0.21|87.55
+Greater Boston Jr Bruins|1.77|85.95
+Boston Jr Eagles (T1-Platinum)|3.00|84.71
+Middlesex Islanders East (T1-Platinum)|2.00|85.70
+Ontario Empire 14U AA|2.88|84.80
+Jersey Colts 14U AA|0.96|86.66
+Northern Cyclones Academy (National)|0.57|87.03
+Carolina Junior Canes|-1.26|88.85
+Amherst Knights|-1.86|89.45
+Mid-Fairfield Hockey Club (T1)|-0.44|88.01
+Arapahoe Warriors 14U AA|1.65|85.88
+East Coast Wizards (Elite)|-1.65|89.11
+Columbus Blue Jackets 14U AA|1.00|86.43
+Philadelphia Blazers 14U AA|0.67|86.75
+Mt Lebanon Hornets (#1) 14U AA|1.36|86.05
+Colorado Rampage|-0.50|87.88
+Rochester Rattlers (Purple) 14U AA|0.77|86.60
+Fox Motors 14U AA|1.56|85.80
+Southtowns Stars (TB) 14U AA|0.70|86.63
+Lafayette Locomotive 14U AA|1.39|85.91
+Montgomery Ice Devils 14U AA|1.92|85.38
+STAR Hockey Academy U15 Varsity|-1.00|88.29
+Arizona Bobcats 14U AA|1.41|85.87
+Top Gun (T1-Platinum)|1.81|85.46
+Traverse City North Stars 14U AA|-0.81|88.00
+California Jr Reign (#1) 14U AA|0.14|87.05
+PAL Blue Knights 14U AA|2.25|84.93
+Wissahickon Warriors 14U AA|2.33|84.78
+Elmbrook Eagles 14U 1A|4.87|82.21
+Westchester Express (South)|-0.61|87.64
+Seacoast Spartans (T1-Platinum)|2.15|84.86
+Connecticut Riverhawks (Major) 14U AA|2.53|84.45
+Superior Spartans 14U 1A|3.83|83.11
+Ramapo Saints 14U AA|1.10|85.83
+New Jersey Bandits 14U AA|0.47|86.42
+Florida Jr Panthers 14U AA|2.34|84.51
+Nashville Jr Predators (Murray) 14U AA|0.79|86.06
+Skaneateles Lakers (TB) 14U AA|1.06|85.77
+95 Giants (Elite)|0.40|86.40
+Phoenix Jr Coyotes 14U AA|-0.06|86.87
+Jacksonville Jr Icemen 14U AA|1.50|85.30
+Appleton Avalanche 14U 1A|2.62|84.12
+WEHL Wild 14U AA|1.28|85.45
+Rochester Jr Americans|-0.52|87.22
+Boston Hockey Academy|-0.36|87.04
+Cleveland Barons 14U AA|1.08|85.56
+South Shore Kings (T1-Platinum)|0.52|86.03
+St Clair Shores Saints (Red) 14U AA|-0.19|86.71
+South Pittsburgh Rebellion (#1) 14U AA|1.56|84.94
+Wisconsin Hockey Club 14U AA|0.14|86.34
+Connecticut Chiefs|0.04|86.42
+Ozaukee Ice Dogs 14U 1A|4.36|82.02
+Colorado Springs Tigers 14U AA|1.20|85.18
+Lake County Vipers (CSDHL) 14U AA|-1.00|87.33
+Santa Clarita Flyers 14U AA|1.83|84.50
+Pittsburgh (PHA) Icemen 14U AA|-0.30|86.60
+Valley Thunder 14U AA|1.47|84.81
+Mile High Alliance 14U AA|0.58|85.69
+Affton Americans 14U A1|3.05|83.21
+Utica Jr Comets|-0.17|86.44
+East Coast Militia (Heap)|-0.60|86.83
+St James HC 14U AA|0.75|85.47
+Clearwater Ice Storm 14U AA|1.19|85.01
+New Jersey Devils|-1.06|87.25
+Valley Forge Colonials 14U AA|2.00|84.17
+Minuteman Flames (T1-Platinum)|0.27|85.87
+Chicago Jets (CSDHL) 14U AA|-1.31|87.45
+Flint Ice Raiders 14U AA|0.69|85.40
+Tampa Bulls 14U AA|1.00|85.09
+Verona Wildcats 14U 1A|2.80|83.28
+Assabet Valley Patriots (Elite)|1.00|85.05
+MN Loons 14U AA|-0.68|86.73
+Philadelphia Jr Flyers|-1.45|87.48
+Central Florida Bears 14U AA|0.58|85.44
+Compuware 14U AA|2.13|83.85
+Columbus Capitals (Blue) 14U AA|-0.26|86.25
+Calumet Kings 14U AA|1.00|84.98
+Haverford Hawks 14U AA|0.95|85.02
+HB Detroit 14U AA|0.20|85.75
+Littleton Hawks (Black) 14U AA|-0.03|85.98
+MN Walleye 14U AA|-0.43|86.35
+Houston Jr Aeros 14U AA|0.40|85.49
+Jersey Shore Wildcats 14U AA|1.28|84.61
+Bay State Breakers (T1-Platinum)|0.37|85.48
+Wheatfield Blades (Gold) 14U AA|0.50|85.31
+Lehigh Valley Phantoms 14U AA|1.27|84.53
+Tampa Bay Crunch 14U AA|0.45|85.33
+Team North Dakota 14U AA|-0.47|86.26
+Cheektowaga Warriors (TB) 14U AA|0.61|85.16
+California Wave 14U AA|1.20|84.56
+Wonderland Wizards 14U AA|0.92|84.80
+Cazenovia Chiefs 14U AA|-0.90|86.63
+Boston Jr Huskies (T1-Platinum)|-0.85|86.53
+Ogden Jr Mustangs 14U AA|0.06|85.61
+Boston Jr Falcons|1.42|84.24
+Vermont Flames 14U AA|2.10|83.51
+Darien Youth 14U AA|1.06|84.52
+Fairbanks Hockey Club Freeze 14U AA|1.00|84.58
+Capitals Academy 14U AA|0.73|84.85
+Hartland Huskies (Silver) 14U AA|1.00|84.48
+Allegheny Badgers (#1) 14U AA|0.06|85.42
+WEHL Mariners (Red) 14U AA|0.00|85.48
+LA Jr Kings 14U AA|1.27|84.19
+CDA Hockey Academy 14U AA|2.63|82.83
+Philadelphia Flyers Elite|-0.20|85.66
+Rockford Roadrunners 14U AA|1.82|83.63
+Madison Patriots 14U 1A|3.63|81.82
+Tonawanda Whalers 14U AA|-0.75|86.18
+Pittsburgh Vengeance (#1) 14U AA|1.51|83.90
+Dallas Penguins 14U AA|0.61|84.79
+Orange County HC (#2) 14U AA|1.09|84.31
+Greater Springfield Aces|-0.30|85.71
+Naperville Sabres (CSDHL) 14U AA|-2.20|87.56
+Queen City Royals|-3.65|89.00
+Anchorage North Stars 14U AA|0.12|85.22
+Palmyra Black Knights 14U AA|1.02|84.30
+Tampa Bay Hockey Club 14U AA|0.39|84.92
+WEHL Gulls (Purple) 14U AA|-0.08|85.36
+Las Vegas Storm 14U AA|-0.37|85.64
+Boch Blazers (T1-Platinum)|-1.08|86.34
+Big Boy Hockey 14U AA|1.37|83.88
+Indy Jr Fuel (Gold) 14U AA|0.64|84.59
+Skyland Kings 14U AA|0.12|85.11
+New England Bulldogs|-0.41|85.61
+WEHL Mariners (Yellow) 14U AA|-0.78|85.94
+Wilmette Jr Trevians (CSDHL) 14U AA|-0.81|85.97
+Orland Park Vikings (CSDHL) 14U AA|-1.05|86.19
+Delaware Ducks 14U AA|0.46|84.66
+Copper Country Jr Huskies (G&J) 14U AA|0.10|85.00
+Parma Flyers 14U AA|2.19|82.91
+SDIA Oilers 14U AA|1.00|84.08
+Maine Gladiators 14U AA|1.10|83.96
+Pittsburgh Predators (#1) 14U AA|0.10|84.96
+Ridgefield Lions 14U AA|-0.08|85.12
+Team South Dakota 14U AA|-0.89|85.93
+Pittsburgh Aviators (#1) 14U AA|0.39|84.61

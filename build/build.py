@@ -15,7 +15,7 @@ for g in BASE:
     if g[0]=='2013' and g[1]=='2026-10-05' and 'Woodbridge Wolfpack' in (g[2],g[4]): g[1]='2026-10-04'
 teams={dv:{x for g in BASE if g[0]==dv for x in (g[2],g[4])} for dv in ('2012','2013')}
 # new teams first seen this weekend (Mike: all games count, MHR records them)
-for dv,ns in {'2012':['Edina','OMGHA','Rochester Mustangs','Hill Academy'],'2013':['HKMK Bled']}.items(): teams[dv].update(ns)
+for dv,ns in {'2012':['Edina','OMGHA','Rochester Mustangs','Hill Academy','Prairie Storm U15 AA','Calgary CNHA Northstars','St Albert Sabres'],'2013':['HKMK Bled','Lafayette Locomotive (14U AA)']}.items(): teams[dv].update(ns)
 have={(g[0],g[1],frozenset((g[2],g[4]))) for g in BASE}
 def add(g,report):
     if g[0] in ('2011','2014','2015','2016'):
@@ -34,11 +34,12 @@ for f,dv in (('build/games_added_nov3.txt','2012'),('build/games13_added_nov4.tx
         d,a,ga,b,gb=l.strip().split('|');add([dv,'2026-'+d,a,int(ga),b,int(gb)],rep)
 for g in json.load(open('data/games_wk_nov6.json')): add(g,rep)
 for g in json.load(open('data/games_mhr_fix_nov11.json')): add(g,rep)
+for g in json.load(open('data/games_wk_nov13.json')): add(g,rep)
 for g in json.load(open('data/pending_games.json')): add(g,rep)
 P2games,P2X,P2M,P2G,P2R,P2CA=pool2.build()
 BASE.extend(P2games);print('pool2 games',len(P2games))
 # cross-age opponents in 2014/2015 pending games: 'Name (12U)' in a 2015 game / 'Name (11U)' in a 2014 game
-for g in json.load(open('data/games_wk_nov6.json'))+json.load(open('data/games_mhr_fix_nov11.json'))+json.load(open('data/pending_games.json')):
+for g in json.load(open('data/games_wk_nov6.json'))+json.load(open('data/games_mhr_fix_nov11.json'))+json.load(open('data/games_wk_nov13.json'))+json.load(open('data/pending_games.json')):
     if g[0] not in ('2014','2015'): continue
     for n in (g[2],g[4]):
         for suf,dv in ((' (12U)','2014'),(' (11U)','2015')):
@@ -49,9 +50,9 @@ h=h[:i]+'const BASE = '+json.dumps([g[:6]+(['wk'] if len(g)>6 else []) for g in 
 AL=json.load(open('build/aliases.json'))
 EXTRA={'2012':{'Tri-Valley Bulls (#1) 14U AA':'Tri-Valley Bulls (14U AA)','West Seneca Wings 14U AA':'West Seneca Wings (14U AA)','Canton Steel 14U AA':'St Lawrence Steel (14U AA)','California Jr Reign (#1) 14U AA':'California Jr Reign (14U AA)','California Bears 14U AA':'California Bears','Great Lakes HC 14U AA':'Great Lakes HC','St Louis Knights 14U AA':'St Louis Knights (14U AA)','Plymouth Flyers (Black) 14U AA':'Plymouth Flyers Black (14U AA)','Hartland Huskies (Black) 14U AA':'Hartland Huskies (Black) (14U AA)','Fairmont Prep (Green) 14U':'Fairmont Prep (Green)','CDA Hockey Academy U15 Prep':'CDA Hockey Academy','Connecticut Jr Rangers (Elite)':'Connecticut Jr Rangers (National)'},
  '2013':{'Saginaw Jr Spirit 13U A':'Saginaw Jr Spirit','Toledo Cherokee 13U AA':'Toledo Cherokee','St Clair Shores Saints (Red) 13U A':'St Clair Shores Saints (Red)','Cheektowaga Warriors (Red) 13U AA':'Cheektowaga Warriors (Red)','Detroit Bulldogs (Gold) 13U A':'Detroit Bulldogs (Gold)','Music City Marauders 13U AA':'Music City Marauders','Cleveland Barons (Eldred)':'Cleveland Barons AA'}}
-X={'2012':[("Mauricie Estacades",92.09),("RHA Winnipeg",98.51),("Team Minnesota Red",98.31),("Team Minnesota Blue",97.64),("Minnesota Lakers",94.69),("Kuper Academy",94.07),("Cascades Elite",95.82),("North Shore Winter Club",95.95),("St George's School",94.68),("Long Island Gulls",82.28)],
-   '2013':[("Biggby Coffee",82.94),("Red Bank Generals",82.85),("Hartford Jr Wolfpack",82.69),("Palmyra Black Knights",83.99),("Saginaw Jr Spirit (14U AA)",84.93),("Sioux Falls Power",85.48)]}
-files={'2012':['nov11_usa14.txt','nov11_on15.txt'],'2013':['nov11_usa13.txt','nov11_on14.txt']}
+X={'2012':[("Mauricie Estacades",92.09),("RHA Winnipeg",98.51),("Team Minnesota Red",98.31),("Team Minnesota Blue",97.64),("Minnesota Lakers",94.69),("Kuper Academy",94.07),("Cascades Elite",95.82),("North Shore Winter Club",95.95),("St George's School",94.68),("Long Island Gulls",82.28),("Prairie Storm U15 AA",94.40),("Calgary CNHA Northstars",94.79),("St Albert Sabres",94.58),("Calgary Edge School",96.11),("OHA Edmonton",97.83)],
+   '2013':[("Biggby Coffee",82.94),("Red Bank Generals",82.85),("Hartford Jr Wolfpack",82.69),("Palmyra Black Knights",83.99),("Saginaw Jr Spirit (14U AA)",84.93),("Sioux Falls Power",85.48),("Lafayette Locomotive (14U AA)",87.31)]}
+files={'2012':['nov18_usa14.txt','nov18_on15.txt'],'2013':['nov18_usa13.txt','nov18_on14.txt']}
 M={};G={};R={}
 for dv,fs in files.items():
     al={**AL[dv],**EXTRA[dv]};M[dv]={};G[dv]={};R[dv]={};um=[]
@@ -72,7 +73,7 @@ def setline(name,val):
     i=h.index('const '+name+'=');j=h.index('\n',i);h=h[:i]+'const '+name+'='+json.dumps(val)+';'+h[j:]
 M.update(P2M);G.update(P2G);R.update(P2R)
 setline('MHR_REC',R);setline('MHR_GP',G);setline('MHR',M)
-h=re.sub(r"const MHR_THROUGH='[^']*', MHR_PUBLISHED='[^']*';","const MHR_THROUGH='2026-11-10', MHR_PUBLISHED='Nov 11';",h)
+h=re.sub(r"const MHR_THROUGH='[^']*', MHR_PUBLISHED='[^']*';","const MHR_THROUGH='2026-11-17', MHR_PUBLISHED='Nov 18';",h)
 # --- joint-pool solver (13U+14U one MHR pool; ignore games vs 15U/16U/18U; dedupe cross-listed 13U-14U games)
 a=h.index('function solve(dv,extra){');b=h.index('const f2=x=>x.toFixed(2)',a)
 h=h[:a]+open('build/solver.js').read()+h[b:]
@@ -101,14 +102,14 @@ def liteload(fn,skip):
     return out
 LITE={}
 # 2011 (USA 15U): anchored to MHR's 15U Tier 1 rank page (rank.php?y=2026&v=119). MHR rates 15U inside the 16U pool, so the top 15U team is below 99.99.
-F15='nov11_usa15.txt'
+F15='nov18_usa15.txt'
 LITE['2011']=liteload('data/'+F15,'\x00')
 # Ontario U16 AAA (2011 birth year), MHR rank.php?y=2026&v=137: same 16U pool, listed on the Canada side of the 2011 division.
-ON16='nov11_on16.txt'
+ON16='nov18_on16.txt'
 LITE_ON16=liteload('data/'+ON16,'\x00');LITE['2011'].update(LITE_ON16)
 # 2016 (Squirt), added Nov 17, 2026: USA 10U - All (MHR rank.php?y=2026&v=122, top 150) and Ontario U11 AAA (v=132), its own MHR pool (top 10U = 99.9).
 # Anchored like 2011: published rating, record, AGD and schedule from the rank pages; newer games fold in. Refresh both files with the weekly MHR update.
-F10='nov11_usa10.txt';ON11='nov11_on11.txt'
+F10='nov18_usa10.txt';ON11='nov18_on11.txt'
 LITE['2016']=liteload('data/'+F10,'\x00');LITE_ON11=liteload('data/'+ON11,'\x00');LITE['2016'].update(LITE_ON11)
 h=h.replace("(MHR_REC[div]||{})[x.t]||x.rec.join('-')","(((MHR_REC[div]||{})[x.t]||'0-0-0')!=='0-0-0'?MHR_REC[div][x.t]:x.rec.join('-'))")
 # Live record/GP: MHR's published record + games played since MHR_THROUGH (weekend games), so Rec/GP move live with the rating.
