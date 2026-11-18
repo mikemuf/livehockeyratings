@@ -1,6 +1,6 @@
-# When to run live checks (Mike, Sun Nov 15 10:31 PM)
+# When to run live checks (the owner, Sun Nov 15 10:31 PM)
 
-Mike wants the check frequency to follow the games, not the clock. No runs when nothing is happening.
+the owner wants the check frequency to follow the games, not the clock. No runs when nothing is happening.
 
 ## The weekend planner (scheduled task "Weekend live-ratings check", Sat & Sun 7:12 AM CT)
 Each planner run:
@@ -28,9 +28,9 @@ Each planner run:
 The Wednesday MHR update builds the weekend schedule. If tracked teams play Friday, it sets a send_later for Friday at the first start + 15 min.
 
 ## Messages
-- The final reply of every run reaches Mike. It is a short score or news update only.
+- The final reply of every run reaches the owner. It is a short score or news update only.
 - If a check finds nothing new, keep it to one line.
 - Avoid scheduling a check that is likely to find nothing new.
 
 ## Nov 18, 2026: everything runs in one conversation now
-Mike moved all live-ratings work into the player-database conversation. The Wednesday MHR update, the Saturday/Sunday 7:12 AM planner and the Friday live checks are now send_later chains in that conversation; each run schedules its own next run first. The old scheduled tasks of the same names are switched off. Reports link https://myplayerdata.com only, never the mikemuf.github.io address.
+the owner moved all live-ratings work into the player-database conversation. The Wednesday MHR update, the Saturday/Sunday 7:12 AM planner and the Friday live checks are now send_later chains in that conversation; each run schedules its own next run first. The old scheduled tasks of the same names are switched off. Reports link https://myplayerdata.com only, never the mikemuf.github.io address.

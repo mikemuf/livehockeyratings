@@ -1,6 +1,6 @@
 # Where weekend schedules come from (keep this current; add every source that proves reliable)
 
-Goal (Mike, Nov 17 2026): the Weekend tab is the one place a parent looks: who plays whom, which tournaments, matchups to watch, rink, map, LiveBarn, standings and the story so far. All six birth years, 2011 to 2016.
+Goal (the owner, Nov 17 2026): the Weekend tab is the one place a parent looks: who plays whom, which tournaments, matchups to watch, rink, map, LiveBarn, standings and the story so far. All six birth years, 2011 to 2016.
 
 ## 1. League and tournament GameSheet pages (best: schedule, results, standings, scorers, goalies in one place)
 - Northeast Pack: gamesheetstats.com/seasons/15483 (2026/27). Division filter ids: 14U (2012) 83550, 15O (2011) 83551. Pages: /standings, /schedule, /scores, /players, /goalies (add ?filter[division]=ID). The games list is virtualized: scroll in steps and collect rows. League site: nepackhockey.com/schedules (links the GameSheet season and a PDF per showcase).
@@ -12,10 +12,10 @@ Goal (Mike, Nov 17 2026): the Weekend tab is the one place a parent looks: who p
 - "**" marks a tournament game and shows the rink, which identifies the event (e.g. eight 2014 teams at Centene Community Ice Center, St. Louis, Nov 20-21).
 
 ## 3. Still to try (not yet proven)
-- Team and club websites with their own schedules (Mike's suggestion: chicagofury.com, Mid-Fairfield, etc.) for top teams that post nothing on MHR.
-- Tournament and league sites: Tier 1 Hockey Federation (tier1hockeyfederation.com showcases), T1EHL, HPHL, EHF, AYHL, International Silver Stick (Whitby, US Thanksgiving weekend: 2011, 2013 and 2015 fields per Mike).
-- Instagram weekend-preview accounts (Mike's suggestion). Not attempted.
+- Team and club websites with their own schedules (the owner's suggestion: chicagofury.com, Mid-Fairfield, etc.) for top teams that post nothing on MHR.
+- Tournament and league sites: Tier 1 Hockey Federation (tier1hockeyfederation.com showcases), T1EHL, HPHL, EHF, AYHL, International Silver Stick (Whitby, US Thanksgiving weekend: 2011, 2013 and 2015 fields per the owner).
+- Instagram weekend-preview accounts (the owner's suggestion). Not attempted.
 - MHR's own weekend preview article (usually published late in the week).
 
 ## Writing rules
-See the preferences in data/weekend_nov6.txt and weekend_nov20.txt: lead with the main event, rank and rating in parentheses, head-to-head from earlier this season, goalies by goals against only, never mention Mike.
+See the preferences in data/weekend_nov6.txt and weekend_nov20.txt: lead with the main event, rank and rating in parentheses, head-to-head from earlier this season, goalies by goals against only, never mention the owner.

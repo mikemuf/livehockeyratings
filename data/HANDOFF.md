@@ -2,16 +2,16 @@
 
 All live-ratings work moved to the player-database thread on Nov 18. This file holds what was known here and is not already in README.md, SCHEDULING.md, WEEKEND_SOURCES.md or the weekend_*.txt runbooks.
 
-## Mike's standing rules (consolidated)
+## the owner's standing rules (consolidated)
 - Reports: summary only, never the top-25 list. 2012 always first. Each team gets (rank, rating) in parentheses. Include upcoming games with both teams' rankings. Lead with the real story (upsets, tournament results, standings/tiebreak scenarios, head-to-head history).
 - Goalies: goals against / GAA only (no saves, shots or SV%).
-- Never write "Coach MUF". Never reference Mike himself, his opinions or his predictions on the public site. His son Michael may be named like any other player on a game sheet.
-- The final reply of every scheduled run is delivered to Mike as a message. It must be the actual score/news update: no meta talk, no "I checked and found nothing, so no message", no self-corrections.
+- Never write "Coach MUF". Never reference the owner himself, his opinions or his predictions on the public site. His son Michael may be named like any other player on a game sheet.
+- The final reply of every scheduled run is delivered to the owner as a message. It must be the actual score/news update: no meta talk, no "I checked and found nothing, so no message", no self-corrections.
 - Check frequency follows the games (SCHEDULING.md): every 15 min during games, every ~5 min in semifinals and finals, no repeated no-news runs.
 - Games to watch must drop a game once it is final (weekend.js `played()` filter does this automatically when the game is in a games file or pending_games.json).
 - MHR team pages are the source of truth for scores. All games count. Shootout = one-goal win (3-4 SO counts as 3-4, not a tie).
 - Never click or solve CAPTCHAs.
-- Only change scheduled tasks when Mike explicitly asks.
+- Only change scheduled tasks when the owner explicitly asks.
 
 ## Nov 18 MHR update: details
 - Files: data/nov18_*. MHR_THROUGH='2026-11-17', MHR_PUBLISHED='Nov 18'. Last weekend's games are in data/games_wk_nov13.json; pending_games.json was cleared.
@@ -35,5 +35,5 @@ All live-ratings work moved to the player-database thread on Nov 18. This file h
 - data/weekend_public.json 2012 watch list includes Team Illinois' four games and Top Gun vs Boston Jr Eagles (Sat 10:50, ICENTER). See data/weekend_nov20.txt.
 
 ## Scheduled tasks
-- The player-database thread (session_01VFEdd2WZ5V98gBRHcarm83) owns the Wednesday MHR update, the Sat/Sun 7:12 planner and the Friday live-check start.
+- The player-database thread (see the private notes) owns the Wednesday MHR update, the Sat/Sun 7:12 planner and the Friday live-check start.
 - All tasks bound to the old live-ratings thread are disabled. delete_trigger is blocked, so disable with update_trigger enabled=false.
