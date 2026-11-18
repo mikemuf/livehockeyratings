@@ -229,6 +229,42 @@
      "rink": "cfsbank Event Center",
      "city": "",
      "note": "THF showcase"
+    },
+    {
+     "day": "Fri",
+     "time": "12:50 PM",
+     "a": "Madison Capitols",
+     "b": "Team Illinois",
+     "rink": "Canlan Ice Sports (West Dundee)",
+     "city": "West Dundee, IL",
+     "note": "From MHR schedule (Nov 18)"
+    },
+    {
+     "day": "Sat",
+     "time": "8:00 AM",
+     "a": "Midwest Warriors",
+     "b": "Team Illinois",
+     "rink": "Carol Stream Ice Rink",
+     "city": "Carol Stream, IL",
+     "note": "From MHR schedule (Nov 18)"
+    },
+    {
+     "day": "Sat",
+     "time": "1:10 PM",
+     "a": "Milwaukee Jr Admirals",
+     "b": "Team Illinois",
+     "rink": "Canlan Ice Sports (West Dundee)",
+     "city": "West Dundee, IL",
+     "note": "From MHR schedule (Nov 18)"
+    },
+    {
+     "day": "Sun",
+     "time": "8:00 AM",
+     "a": "CarShield",
+     "b": "Team Illinois",
+     "rink": "Canlan Ice Sports (West Dundee)",
+     "city": "West Dundee, IL",
+     "note": "From MHR schedule (Nov 18)"
     }
    ],
    "scorers_title": "NE Pack 14U scoring leaders (season to date)",
