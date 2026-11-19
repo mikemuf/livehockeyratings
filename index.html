@@ -381,7 +381,7 @@ const WEEKEND_BOX=[];
 let WK_SEL=null;
 function renderWeekend(S){
   if(WK_SEL)return renderGame(S,WK_SEL);
-  const W=WEEKEND;let D=(W.divs||{})[div]||{};const rk={},rt={};S.rows.filter(x=>!canada.has(x.t)&&x.mhr).forEach((x,i)=>rk[x.t]=i+1);S.rows.forEach(x=>rt[x.t]=x.r);const rkc={};S.rows.filter(x=>canada.has(x.t)&&x.mhr).forEach((x,i)=>rkc[x.t]=i+1);const rkpre=t=>rt[t]===undefined?'':`<span class="small"><b>${rk[t]?'#'+rk[t]:rkc[t]?'Ontario #'+rkc[t]:'NR'}</b> </span>`; // owner, Nov 19 2026: rank in front of every team, rating in parentheses after
+  const W=WEEKEND;let D=(W.divs||{})[div]||{};const rk={},rt={};S.rows.filter(x=>!canada.has(x.t)&&x.mhr).forEach((x,i)=>rk[x.t]=i+1);S.rows.forEach(x=>rt[x.t]=x.r);const rkc={};S.rows.filter(x=>canada.has(x.t)&&x.mhr).forEach((x,i)=>rkc[x.t]=i+1);const rkpre=t=>rt[t]===undefined?'':`<span class="small"><b>${rk[t]?'#'+rk[t]:rkc[t]?'#'+rkc[t]:'NR'}</b> </span>`; // owner, Nov 19 2026: rank in front of every team, rating in parentheses after
   
   const rk0=t=>{if(canada.has(t))return 'CAN';const M0=MHR[div]||{};if(M0[t]===undefined)return 'NR';return '#'+(S.rows.filter(x=>x.mhr&&!canada.has(x.t)&&M0[x.t]!==undefined).map(x=>x.t).sort((a,b)=>M0[b]-M0[a]).indexOf(t)+1)};
   const tag=t=>{const r=rt[t];if(r===undefined)return '';return `<span class="small"> (${f2(r)})</span>`};
@@ -394,7 +394,7 @@ function renderWeekend(S){
   if(!SEC.length){if((D.summary||[]).length)h+='<ul class="wk">'+D.summary.map(s=>`<li>${esc(s)}</li>`).join('')+'</ul>';else h+='<p class="small">No summary yet for this division.</p>'}
   h+='</div>';
   if((D.events||[]).length)h+='<div class="card"><h3 style="margin-top:0">Events this weekend</h3>'+D.events.map(e=>`<p style="margin:6px 0"><b>${esc(e.name)}</b>${e.where?` <span class="small">· ${esc(e.where)}</span>`:''}<br><span class="small">${esc(e.result||'')}</span></p>`).join('')+'</div>';
-  {const top=S.rows.filter(x=>!canada.has(x.t)&&x.mhr).slice(0,10).concat(S.rows.filter(x=>canada.has(x.t)&&x.mhr).slice(0,5));const lab=x=>canada.has(x.t)?'Ontario #'+rkc[x.t]:'#'+rk[x.t]; // owner, Nov 19 2026: one Weekend tab per birth year, USA and Ontario together
+  {const top=S.rows.filter(x=>!canada.has(x.t)&&x.mhr).slice(0,10).concat(S.rows.filter(x=>canada.has(x.t)&&x.mhr).slice(0,5));const lab=x=>'#'+(canada.has(x.t)?rkc[x.t]:rk[x.t]); // owner, Nov 19 2026: one Weekend tab per birth year, USA and Ontario together
    const WG0=(D.watch||[]).filter(g=>!Array.isArray(g));
    const line=x=>{const gs=WG0.filter(g=>g.a===x.t||g.b===x.t);if(!gs.length)return null;const where=[...new Set(gs.map(g=>g.city||g.rink).filter(Boolean))].join(' and ');return `<li><b>${lab(x)} ${esc(x.t)}</b> <span class="small">(${f2(x.r)})</span>: ${gs.length} game${gs.length>1?'s':''}${where?', '+esc(where):''}</li>`};
    const ls=top.map(line);const on=ls.filter(Boolean);const off=top.filter((x,i)=>!ls[i]).map(x=>lab(x)+' '+x.t);
@@ -431,7 +431,7 @@ function renderWeekend(S){
   const G=WEEKEND_GAMES.map((g,i)=>Object.assign(g.slice(),{gi:i})).filter(g=>g[0]===div).sort((a,b)=>a[1]<b[1]?1:a[1]>b[1]?-1:0);
   if(G.length){h+=`<div class="card"><h3 style="margin-top:0">Results this weekend <span class="small">(${G.length})</span></h3>`;
     let last='';G.forEach(g=>{const aw=g[3]>g[5],bw=g[5]>g[3];if(g[1]!==last){h+=`<div class="wkd">${nice(g[1])}</div>`;last=g[1]}h+=`<div class="wkr wkclick" data-gm="r${g.gi}"><div>${rkpre(g[2])}${aw?'<b>':''}${esc(g[2])}${aw?'</b>':''}${tag(g[2])}</div><div class="sc num">${g[3]}</div><div>${rkpre(g[4])}${bw?'<b>':''}${esc(g[4])}${bw?'</b>':''}${tag(g[4])}</div><div class="sc num">${g[5]}</div></div>`});
-    h+='<p class="legend">Tap a game for the matchup page. Rank is in front of each team and the rating follows in parentheses. Ontario teams show their Ontario rank. NR = not ranked.</p></div>'}
+    h+='<p class="legend">Tap a game for the matchup page. Rank is in front of each team and the rating follows in parentheses. An Ontario team's rank is its rank in Ontario. NR = not ranked.</p></div>'}
   return h;
 }
 
@@ -451,7 +451,7 @@ function renderBox(B){const tn=[B.v,B.h],pn=p=>/^Not Available$/i.test(p[1])?'Pl
 
 function renderGame(S,key){
   const W=WEEKEND,D=(W.divs||{})[div]||{},M0=MHR[div]||{},cl=x=>Math.max(-7,Math.min(7,x));
-  const rk={},rt={};S.rows.filter(x=>!canada.has(x.t)&&x.mhr).forEach((x,i)=>rk[x.t]=i+1);S.rows.forEach(x=>rt[x.t]=x.r);const rkc={};S.rows.filter(x=>canada.has(x.t)&&x.mhr).forEach((x,i)=>rkc[x.t]=i+1);const rkpre=t=>rt[t]===undefined?'':`<span class="small"><b>${rk[t]?'#'+rk[t]:rkc[t]?'Ontario #'+rkc[t]:'NR'}</b> </span>`; // owner, Nov 19 2026: rank in front of every team, rating in parentheses after
+  const rk={},rt={};S.rows.filter(x=>!canada.has(x.t)&&x.mhr).forEach((x,i)=>rk[x.t]=i+1);S.rows.forEach(x=>rt[x.t]=x.r);const rkc={};S.rows.filter(x=>canada.has(x.t)&&x.mhr).forEach((x,i)=>rkc[x.t]=i+1);const rkpre=t=>rt[t]===undefined?'':`<span class="small"><b>${rk[t]?'#'+rk[t]:rkc[t]?'#'+rkc[t]:'NR'}</b> </span>`; // owner, Nov 19 2026: rank in front of every team, rating in parentheses after
   
   const rk0=t=>{if(canada.has(t))return 'CAN';if(M0[t]===undefined)return 'NR';return '#'+(S.rows.filter(x=>x.mhr&&!canada.has(x.t)&&M0[x.t]!==undefined).map(x=>x.t).sort((a,b)=>M0[b]-M0[a]).indexOf(t)+1)};
   const lr=t=>rk[t]?'#'+rk[t]:canada.has(t)?'CAN':'NR';
