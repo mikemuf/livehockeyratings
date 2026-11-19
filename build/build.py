@@ -159,4 +159,10 @@ rep("not in this log.</p>`:''}\n  </div>`;",
 rep("let cache={};","const PDB="+json.dumps(PDB)+";\nlet cache={};")
 rep("\nrender();\n</script>","\nfunction fromHash(){let hh=location.hash;try{hh=decodeURIComponent(hh)}catch(e){}const gm=hh.match(/^#game=(\\d{4})[|-]([rwb]\\d+)$/);if(gm&&LITE_OK(gm[1])){div=gm[1];view='wk';WK_SEL=gm[2];return}WK_SEL=null;const wk=location.hash.match(/^#wk=(\\d{4})$/);if(wk&&LITE_OK(wk[1])){div=wk[1];view='wk';return}const d=location.hash.match(/^#div=(\\d{4})$/);if(d&&LITE_OK(d[1])){div=d[1];view='rank';selTeam=null;return}let m=null;try{m=decodeURIComponent(location.hash).match(/^#team=(\\d{4})\\|(.+)$/)}catch(e){}if(!m)return;div=m[1];selTeam=m[2];view='team'}\nfunction LITE_OK(y){return !!document.querySelector('button[data-div=\"'+y+'\"]')}\n// The Player Database link opens the birth year being viewed here.\ndocument.addEventListener('pointerdown',e=>{const a=e.target.closest&&e.target.closest('.tabs a.plink');if(a)a.href='players/#year='+div},true);\nwindow.addEventListener('hashchange',()=>{fromHash();render();window.scrollTo(0,0)});\nfromHash();render();\n</script>")
 h=h.replace('GameSheet score, provisional','Weekend score, provisional').replace('GS = GameSheet score','GS = weekend score')
+# Nov 19, 2026 (owner): members should not see the fine print about how ratings are calculated or where numbers come from.
+# The lines stay in the page (hidden) so the code that fills them keeps working; remove the style line to show them again.
+h=h.replace('<style>','<style>p.meta,p.legend,.fineprint{display:none!important}',1)
+for _a in ('<p class="small" style="margin:10px 0 0">This list has','<p class="small" style="margin:10px 0 0">MHR adjustment','<p class="small" style="margin:4px 0 0">${esc(W.note)}','<p class="small" style="margin:0 0 6px">Each team\'s goal differential','<p class="small" style="margin:0 0 6px">${esc(D.scorers_note)}','<p class="small" style="margin:0 0 6px">${esc(D.goalies_blurb)}'):
+    if _a not in h: print('fine print line not found:',_a[:60])
+    h=h.replace(_a,_a.replace('class="small"','class="small fineprint"'))
 open('index.html','w').write(h);print('ok',len(h))
