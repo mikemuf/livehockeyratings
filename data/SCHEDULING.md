@@ -38,3 +38,5 @@ the owner moved all live-ratings work into the player-database conversation. The
 
 ## Nov 18, 2026: this repository no longer serves a website
 At the owner's request GitHub Pages is turned off here (Settings > Pages > branch None), so https://mikemuf.github.io/livehockeyratings/ no longer exists. The ratings app is still built here (`python3 build/build.py`), and after every build it must be copied onto the member site with `build/ratings_to_site.sh` from the private player repository, which publishes it at myplayerdata.com/members/ratings/. All reports link https://myplayerdata.com only.
+
+Same evening: Pages now serves the branch `gone` (a single notice, "This page no longer exists."). Leave it on that branch; `main` is not served.
