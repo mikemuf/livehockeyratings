@@ -50,3 +50,6 @@ Same evening: Pages now serves the branch `gone` (a single notice, "This page no
 
 ## Ranks and ratings in the Weekend text go stale on Wednesdays (found Nov 19, 2026)
 The Nov 20-22 previews were written Nov 17, before the Wednesday Nov 18 rating update, and still carried the old ranks and ratings on Thursday (43 mentions wrong, e.g. "all eight ranked in the top 16" when two teams had moved to #16 and #17). After EVERY ratings update, and again before any Instagram weekend post, re-check every "(#rank, rating)" and every "top N" claim in data/weekend_public.json against the current solver output (player repo: build/ratings_from_site.js -> data/ratings.json).
+
+## One Weekend tab per birth year, USA and Ontario together (owner, Nov 19, 2026 4:44 PM)
+Do not make an "Ontario" section. Everything for a birth year is in one place, organized by event and game, not by country: a big Ontario game gets its own section like any other event (the game, head-to-head, players to watch, goalies, what is next), smaller Ontario games go in "Elsewhere" beside the American ones, and "Where the top teams are" lists the USA top 10 and the Ontario top 5 in one card. Players-to-watch numbers come from the player database at that moment.

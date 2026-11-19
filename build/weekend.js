@@ -13,10 +13,11 @@ function renderWeekend(S){
   if(!SEC.length){if((D.summary||[]).length)h+='<ul class="wk">'+D.summary.map(s=>`<li>${esc(s)}</li>`).join('')+'</ul>';else h+='<p class="small">No summary yet for this division.</p>'}
   h+='</div>';
   if((D.events||[]).length)h+='<div class="card"><h3 style="margin-top:0">Events this weekend</h3>'+D.events.map(e=>`<p style="margin:6px 0"><b>${esc(e.name)}</b>${e.where?` <span class="small">· ${esc(e.where)}</span>`:''}<br><span class="small">${esc(e.result||'')}</span></p>`).join('')+'</div>';
-  {const top=S.rows.filter(x=>!canada.has(x.t)&&x.mhr).slice(0,10);const WG0=(D.watch||[]).filter(g=>!Array.isArray(g));
-   const line=x=>{const gs=WG0.filter(g=>g.a===x.t||g.b===x.t);if(!gs.length)return null;const where=[...new Set(gs.map(g=>g.city||g.rink).filter(Boolean))].join(' and ');return `<li><b>#${rk[x.t]} ${esc(x.t)}</b> <span class="small">(${f2(x.r)})</span>: ${gs.length} game${gs.length>1?'s':''}${where?', '+esc(where):''}</li>`};
-   const ls=top.map(line);const on=ls.filter(Boolean);const off=top.filter((x,i)=>!ls[i]).map(x=>'#'+rk[x.t]+' '+x.t);
-   if(on.length>=3)h+='<div class="card"><h3 style="margin-top:0">Where the top 10 are</h3><ul class="wk">'+on.join('')+(off.length?`<li class="small">No games listed: ${esc(off.join(', '))}</li>`:'')+'</ul></div>'}
+  {const top=S.rows.filter(x=>!canada.has(x.t)&&x.mhr).slice(0,10).concat(S.rows.filter(x=>canada.has(x.t)&&x.mhr).slice(0,5));const lab=x=>(canada.has(x.t)?'Ontario #':'#')+rk[x.t]; // owner, Nov 19 2026: one Weekend tab per birth year, USA and Ontario together
+   const WG0=(D.watch||[]).filter(g=>!Array.isArray(g));
+   const line=x=>{const gs=WG0.filter(g=>g.a===x.t||g.b===x.t);if(!gs.length)return null;const where=[...new Set(gs.map(g=>g.city||g.rink).filter(Boolean))].join(' and ');return `<li><b>${lab(x)} ${esc(x.t)}</b> <span class="small">(${f2(x.r)})</span>: ${gs.length} game${gs.length>1?'s':''}${where?', '+esc(where):''}</li>`};
+   const ls=top.map(line);const on=ls.filter(Boolean);const off=top.filter((x,i)=>!ls[i]).map(x=>lab(x)+' '+x.t);
+   if(on.length>=3)h+='<div class="card"><h3 style="margin-top:0">Where the top teams are</h3><ul class="wk">'+on.join('')+(off.length?`<li class="small">No games listed: ${esc(off.join(', '))}</li>`:'')+'</ul></div>'}
   SEC.forEach(sc=>{h+=`<div class="card"><h3 style="margin-top:0">${esc(sc.t)}</h3><ul class="wk">`+(sc.b||[]).map(x=>{const m=String(x).match(/^([^:]{2,40}): ([\s\S]+)$/);return m?`<li><b>${esc(m[1])}:</b> ${esc(m[2])}</li>`:`<li>${esc(x)}</li>`}).join('')+'</ul></div>'});
   if(D.report){const RP=D.report,M0=MHR[div]||{},R={};S.rows.forEach(x=>R[x.t]=x.r);for(const t in M0)R[t]=M0[t];
     const pr={};Object.keys(M0).filter(t=>!canada.has(t)).sort((a,b)=>M0[b]-M0[a]);
