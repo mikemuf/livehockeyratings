@@ -13,3 +13,6 @@ Live MyHockeyRankings-style ratings for 2012 (USA 14U + Ontario U15) and 2013 (U
 - Weekly MHR update: re-read both pages, save new files and point `F10` / `ON11` in `build/build.py` at them, the same way `F15` / `ON16` are refreshed for 2011.
 - 2016 is its own MHR pool (top 10U = 99.9). `build/solver.js` now pins each anchored division to its own top rating and no longer matches a team name across anchored divisions.
 - `players/data/teams.json` was refreshed from the player database's team list (705 teams, including 2016) so team pages link to rosters.
+
+
+Nov 18, 2026: GitHub Pages is off for this repository. The app is served to members from myplayerdata.com; see data/SCHEDULING.md.

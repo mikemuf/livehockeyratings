@@ -34,3 +34,7 @@ The Wednesday MHR update builds the weekend schedule. If tracked teams play Frid
 
 ## Nov 18, 2026: everything runs in one conversation now
 the owner moved all live-ratings work into the player-database conversation. The Wednesday MHR update, the Saturday/Sunday 7:12 AM planner and the Friday live checks are now send_later chains in that conversation; each run schedules its own next run first. The old scheduled tasks of the same names are switched off. Reports link https://myplayerdata.com only, never the mikemuf.github.io address.
+
+
+## Nov 18, 2026: this repository no longer serves a website
+At the owner's request GitHub Pages is turned off here (Settings > Pages > branch None), so https://mikemuf.github.io/livehockeyratings/ no longer exists. The ratings app is still built here (`python3 build/build.py`), and after every build it must be copied onto the member site with `build/ratings_to_site.sh` from the private player repository, which publishes it at myplayerdata.com/members/ratings/. All reports link https://myplayerdata.com only.
