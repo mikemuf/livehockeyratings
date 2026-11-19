@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Preview — all six birth years",
- "updated": "Thu Nov 19, 3:00 PM CT",
+ "updated": "Thu Nov 19, 4:50 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -611,6 +611,17 @@
     },
     {
      "day": "Sat",
+     "time": "12:55 PM",
+     "a": "Vaughan Kings",
+     "b": "Toronto Jr Canadiens",
+     "rink": "Westwood Arenas",
+     "city": "Toronto, ON",
+     "note": "Ontario #1 vs #2",
+     "local": "1:55 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
      "time": "1:00 PM",
      "a": "Oakland Jr Grizzlies",
      "b": "Fox Motors",
@@ -899,6 +910,15 @@
       "Cameron Cline (Pens Elite): 12 points.",
       "Cameron Pelle (Pens Elite): top-scoring defenseman, 9 points.",
       "Goalies: Evan Ladd (Mount St Charles) is 4-0 with 6 goals against. Nicholas Ryan (Pens Elite) is 3-0 with 7 against in 4 games."
+     ]
+    },
+    {
+     "t": "Ontario",
+     "b": [
+      "Game of the weekend: Vaughan Kings (#1, 95.96) vs Toronto Jr Canadiens (#2, 95.17), Saturday 12:55 PM, Westwood Arenas in Toronto. Vaughan is 25-0-1.",
+      "Toronto Jr Canadiens (#2, 95.17) then play Toronto Marlboros (#3, 94.48) on Sunday.",
+      "Toronto Marlboros (#3, 94.48) play Mississauga Senators (#14, 92.22) on Friday.",
+      "Mississauga Rebels (#7, 93.18) play North York Rangers (#18, 91.72) on Saturday."
      ]
     },
     {

@@ -19,3 +19,7 @@ Goal (the owner, Nov 17 2026): the Weekend tab is the one place a parent looks: 
 
 ## Writing rules
 See the preferences in data/weekend_nov6.txt and weekend_nov20.txt: lead with the main event, rank and rating in parentheses, head-to-head from earlier this season, goalies by goals against only, never mention the owner.
+
+## Ontario (owner, Nov 19, 2026: cover Canada too, a carousel per birth year)
+- MHR Ontario rank pages for tools/mhr_sched.js: U16 (2011) v=137, U15 (2012) v=136, U14 (2013) v=135; U13 (2014) and U12 (2015) are probably v=134 and v=133 (check the page title), U11 (2016) v=132. Times on MHR are local (Eastern); subtract one hour for Central.
+- Limit found Nov 19: the GTHL clubs (Marlboros, Jr Canadiens, Vaughan Kings, North York, Titans, Rebels) post almost nothing ahead of time below U16. On Nov 19 the U15 and U14 top three had nothing posted. STILL NEEDED: the GTHL's own schedule (gthlcanada.com game centre), OMHA ETA, ALLIANCE and HEO schedule pages. Find them, record the exact pages here, and build the Ontario sections for 2012-2015 from them.
