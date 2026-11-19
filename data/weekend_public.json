@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Preview — all six birth years",
- "updated": "Thu Nov 19, 8:00 AM CT",
+ "updated": "Thu Nov 19, 3:00 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -9,8 +9,8 @@
  "divs": {
   "2012": {
    "summary": [
-    "Northeast Pack in Pittsburgh: The field: all eight 14U teams are ranked in the top 16. Twelve league games Friday to Sunday, three per team.",
-    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#6, 96.97) 13. Bishop Kearney (#11, 96.24) and Mount St Charles (#7, 96.52) 11 each. Chicago Mission (#5, 97.06) 10. Pittsburgh Penguins Elite (#13, 96.15) 8. NJ Rockets (#14, 95.97) 6. Chicago Reapers (#16, 95.74) 4.",
+    "Northeast Pack in Pittsburgh: The field: all eight 14U teams are ranked in the top 17. Twelve league games Friday to Sunday, three per team.",
+    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#6, 96.88) 13. Bishop Kearney (#11, 96.18) and Mount St Charles (#8, 96.47) 11 each. Chicago Mission (#5, 97.05) 10. Pittsburgh Penguins Elite (#13, 96.11) 8. NJ Rockets (#16, 95.9) 6. Chicago Reapers (#17, 95.7) 4.",
     "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
     "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1)."
    ],
@@ -456,8 +456,8 @@
     {
      "t": "Northeast Pack in Pittsburgh",
      "b": [
-      "The field: all eight 14U teams are ranked in the top 16. Twelve league games Friday to Sunday, three per team.",
-      "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#6, 96.97) 13. Bishop Kearney (#11, 96.24) and Mount St Charles (#7, 96.52) 11 each. Chicago Mission (#5, 97.06) 10. Pittsburgh Penguins Elite (#13, 96.15) 8. NJ Rockets (#14, 95.97) 6. Chicago Reapers (#16, 95.74) 4.",
+      "The field: all eight 14U teams are ranked in the top 17. Twelve league games Friday to Sunday, three per team.",
+      "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#6, 96.88) 13. Bishop Kearney (#11, 96.18) and Mount St Charles (#8, 96.47) 11 each. Chicago Mission (#5, 97.05) 10. Pittsburgh Penguins Elite (#13, 96.11) 8. NJ Rockets (#16, 95.9) 6. Chicago Reapers (#17, 95.7) 4.",
       "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
       "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1).",
       "Chicago Mission: at Bishop Kearney on Friday (won 7-4 on Oct 4), home to Pens Elite on Saturday (lost 4-3 in overtime on Oct 17), at NJ Rockets on Sunday (won 5-1). Three regulation wins would make 19 points.",
@@ -498,7 +498,7 @@
   "2011": {
    "summary": [
     "Northeast Pack in Pittsburgh: The field: the top three 15U teams in the country are in the same building, and six of the league's eight teams are ranked in the top nine.",
-    "Standings: Bishop Kearney (#2, 94.98) 16 points. Mount St Charles (#3, 94.97) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.16) 13. Chicago Reapers (#5, 93.66) 11. Woodbridge Wolfpack (#9, 92.78) 8. Chicago Mission (#8, 93.34) 7.",
+    "Standings: Bishop Kearney (#2, 95.65) 16 points. Mount St Charles (#3, 95.56) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#5, 94.24) 11. Woodbridge Wolfpack (#9, 93.3) 8. Chicago Mission (#8, 93.95) 7.",
     "Game of the weekend: Bishop Kearney at Pens Elite, Saturday 2:40 PM. #2 at #1; Bishop Kearney won 5-3 on Oct 3.",
     "Bishop Kearney: Wolfpack on Friday (won 3-2 the first time), Pens Elite on Saturday, at Chicago Reapers on Sunday at 7:00 AM. The Reapers gave Bishop Kearney its only league loss, 7-6 in a shootout."
    ],
@@ -884,7 +884,7 @@
      "t": "Northeast Pack in Pittsburgh",
      "b": [
       "The field: the top three 15U teams in the country are in the same building, and six of the league's eight teams are ranked in the top nine.",
-      "Standings: Bishop Kearney (#2, 94.98) 16 points. Mount St Charles (#3, 94.97) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.16) 13. Chicago Reapers (#5, 93.66) 11. Woodbridge Wolfpack (#9, 92.78) 8. Chicago Mission (#8, 93.34) 7.",
+      "Standings: Bishop Kearney (#2, 95.65) 16 points. Mount St Charles (#3, 95.56) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#5, 94.24) 11. Woodbridge Wolfpack (#9, 93.3) 8. Chicago Mission (#8, 93.95) 7.",
       "Game of the weekend: Bishop Kearney at Pens Elite, Saturday 2:40 PM. #2 at #1; Bishop Kearney won 5-3 on Oct 3.",
       "Bishop Kearney: Wolfpack on Friday (won 3-2 the first time), Pens Elite on Saturday, at Chicago Reapers on Sunday at 7:00 AM. The Reapers gave Bishop Kearney its only league loss, 7-6 in a shootout.",
       "Mount St Charles can take first: Chicago Mission on Friday (won 5-2 on Oct 17), NJ Rockets on Saturday (won 8-1), Wolfpack on Sunday (won 3-1).",
@@ -914,7 +914,7 @@
   },
   "2013": {
    "summary": [
-    "A quiet weekend at the top: None of the top 20 teams at 13U has a game this weekend.",
+    "A quiet weekend at the top: Most of the top 20 at 13U are off this weekend.",
     "Next weekend is Thanksgiving weekend, when the International Silver Stick in Whitby and other big tournaments begin."
    ],
    "events": [],
@@ -1009,14 +1009,14 @@
     {
      "t": "A quiet weekend at the top",
      "b": [
-      "None of the top 20 teams at 13U has a game this weekend.",
+      "Most of the top 20 at 13U are off this weekend.",
       "Next weekend is Thanksgiving weekend, when the International Silver Stick in Whitby and other big tournaments begin."
      ]
     },
     {
      "t": "Best series: Ohio Blue Jackets vs Philadelphia Jr Flyers",
      "b": [
-      "Three games in Columbus between teams ranked in the low 20s, about a quarter of a rating point apart.",
+      "Three games in Columbus between Ohio (#20) and Philadelphia (#24).",
       "Times: Friday 5:50 PM and Saturday 3:00 PM at Chiller Ice Works, Sunday 10:10 AM at the OhioHealth Ice Haus.",
       "Records: Jr Flyers 18-5-1, Blue Jackets 13-12-2."
      ]
@@ -1024,7 +1024,7 @@
     {
      "t": "Elsewhere",
      "b": [
-      "Little Caesars (#4, 93.76) hosts Compuware on Sunday at 10:40 AM at USA Hockey Arena.",
+      "Little Caesars (#5, 93.48) hosts Compuware on Sunday at 10:40 AM at USA Hockey Arena.",
       "HB Detroit plays Belle Tire on Sunday at 9:00 AM in Lincoln Park.",
       "Windy City Storm hosts Indiana Elite on Sunday at 12:00 PM at Orbit Ice Arena.",
       "St Louis Blues plays Madison Capitols twice at Centene Community Ice Center."
@@ -1034,7 +1034,7 @@
   },
   "2014": {
    "summary": [
-    "St. Louis tournament: The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#4), St Louis Blues (#10), Victory Honda (#15), Chicago Reapers (#16), Vegas Jr Golden Knights (#17) and Dallas Stars Elite (#20), plus Chicago Mission and Philadelphia Hockey Club.",
+    "St. Louis tournament: The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#4), St Louis Blues (#11), Victory Honda (#13), Chicago Reapers (#16), Vegas Jr Golden Knights (#17) and Dallas Stars Elite (#20), plus Chicago Mission and Philadelphia Hockey Club.",
     "Group one: St Louis Blues, Chicago Mission, Dallas Stars Elite, Victory Honda.",
     "Group two: Vegas, Chicago Reapers, Philadelphia Hockey Club, Florida Alliance.",
     "Games to circle: Chicago Reapers vs Vegas on Friday at 9:00 AM (#16 against #17). St Louis Blues vs Dallas Stars Elite on Friday at 4:20 PM. Florida Alliance vs Vegas on Saturday at 8:20 AM."
@@ -1176,7 +1176,7 @@
     {
      "t": "St. Louis tournament",
      "b": [
-      "The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#4), St Louis Blues (#10), Victory Honda (#15), Chicago Reapers (#16), Vegas Jr Golden Knights (#17) and Dallas Stars Elite (#20), plus Chicago Mission and Philadelphia Hockey Club.",
+      "The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#4), St Louis Blues (#11), Victory Honda (#13), Chicago Reapers (#16), Vegas Jr Golden Knights (#17) and Dallas Stars Elite (#20), plus Chicago Mission and Philadelphia Hockey Club.",
       "Group one: St Louis Blues, Chicago Mission, Dallas Stars Elite, Victory Honda.",
       "Group two: Vegas, Chicago Reapers, Philadelphia Hockey Club, Florida Alliance.",
       "Games to circle: Chicago Reapers vs Vegas on Friday at 9:00 AM (#16 against #17). St Louis Blues vs Dallas Stars Elite on Friday at 4:20 PM. Florida Alliance vs Vegas on Saturday at 8:20 AM.",
@@ -1198,8 +1198,8 @@
   "2015": {
    "summary": [
     "Mid-Fairfield's New England road trip: Mid-Fairfield (#4) has the busiest weekend of any top team: four league games in two days.",
-    "Saturday: at Providence Capitals (#13) twice, 8:00 AM and 12:15 PM, Rhode Island Sports Center.",
-    "Sunday: at Bay State Breakers (#16) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
+    "Saturday: at Providence Capitals (#12) twice, 8:00 AM and 12:15 PM, Rhode Island Sports Center.",
+    "Sunday: at Bay State Breakers (#15) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
    ],
    "events": [],
    "watch": [
@@ -1328,15 +1328,15 @@
      "t": "Mid-Fairfield's New England road trip",
      "b": [
       "Mid-Fairfield (#4) has the busiest weekend of any top team: four league games in two days.",
-      "Saturday: at Providence Capitals (#13) twice, 8:00 AM and 12:15 PM, Rhode Island Sports Center.",
-      "Sunday: at Bay State Breakers (#16) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
+      "Saturday: at Providence Capitals (#12) twice, 8:00 AM and 12:15 PM, Rhode Island Sports Center.",
+      "Sunday: at Bay State Breakers (#15) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
      ]
     },
     {
      "t": "Chicago",
      "b": [
       "Chicago Mission (#8) at Windy City Storm, Saturday 2:40 PM, Orbit Ice Arena.",
-      "Chicago Fury (#15) vs Windy City Storm, Sunday 11:20 AM, Arctic Ice Arena."
+      "Chicago Fury (#16) vs Windy City Storm, Sunday 11:20 AM, Arctic Ice Arena."
      ]
     },
     {
@@ -1352,7 +1352,7 @@
   },
   "2016": {
    "summary": [
-    "Friday night in Elk Grove: St Louis Blues (#6, 96.8) at Chicago Mission (#19, 94.6), Friday 7:40 PM, Elk Grove Ice Arena.",
+    "Friday night in Elk Grove: St Louis Blues (#7, 96.6) at Chicago Mission (#19, 94.6), Friday 7:40 PM, Elk Grove Ice Arena.",
     "It is the only game of the weekend between two top-25 Squirt teams."
    ],
    "events": [],
@@ -1364,7 +1364,7 @@
      "b": "Chicago Mission",
      "rink": "Elk Grove Ice Arena",
      "city": "Elk Grove Village, IL",
-     "note": "#6 at #19",
+     "note": "#7 at #19",
      "tz": "CT"
     },
     {
@@ -1460,17 +1460,17 @@
     {
      "t": "Friday night in Elk Grove",
      "b": [
-      "St Louis Blues (#6, 96.8) at Chicago Mission (#19, 94.6), Friday 7:40 PM, Elk Grove Ice Arena.",
+      "St Louis Blues (#7, 96.6) at Chicago Mission (#19, 94.6), Friday 7:40 PM, Elk Grove Ice Arena.",
       "It is the only game of the weekend between two top-25 Squirt teams."
      ]
     },
     {
      "t": "Elsewhere",
      "b": [
-      "Middlesex Islanders East (#7) plays Boston Jr Terriers on Sunday at 8:20 AM in Canton, MA.",
-      "New Jersey Rockets (#24): Long Island Royals on Saturday morning, then Palmyra Black Knights twice on Sunday.",
-      "Washington Little Capitals (#25) hosts New Jersey Colonials three times. Long Island Gulls (#21) plays Long Island Royals on Sunday.",
-      "Off this weekend: Little Caesars (#1), Mid-Fairfield (#2), Buffalo Jr Sabres (#3), Team Illinois (#4) and Top Gun (#5)."
+      "Middlesex Islanders East (#6) plays Boston Jr Terriers on Sunday at 8:20 AM in Canton, MA.",
+      "New Jersey Rockets (#23): Long Island Royals on Saturday morning, then Palmyra Black Knights twice on Sunday.",
+      "Washington Little Capitals (#27) hosts New Jersey Colonials three times. Long Island Gulls (#21) plays Long Island Royals on Sunday.",
+      "Off this weekend: Little Caesars (#1), Buffalo Jr Sabres (#2), Mid-Fairfield (#3), Team Illinois (#4) and Top Gun (#5)."
      ]
     }
    ]

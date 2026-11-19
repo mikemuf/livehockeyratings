@@ -47,3 +47,6 @@ Same evening: Pages now serves the branch `gone` (a single notice, "This page no
 - Times: EVERY time is Central, in the bullets and in `watch`. A watch entry carries `time` (Central), `tz: "CT"` and, when the rink is in another zone, `local` (for example "4:00 PM ET"), shown as "at the rink". No duplicate games (the same game listed from both teams' schedules).
 - Never say where schedules or stats come from, and never write as if talking to the owner.
 - Events calendar: the private player repository has `EVENTS.md` (/home/claude/player/EVENTS.md) with every tournament seen so far, its dates and usual timing. Read it before writing a preview and add every new event to it. International Silver Stick (Whitby) starts US Thanksgiving Thursday.
+
+## Ranks and ratings in the Weekend text go stale on Wednesdays (found Nov 19, 2026)
+The Nov 20-22 previews were written Nov 17, before the Wednesday Nov 18 rating update, and still carried the old ranks and ratings on Thursday (43 mentions wrong, e.g. "all eight ranked in the top 16" when two teams had moved to #16 and #17). After EVERY ratings update, and again before any Instagram weekend post, re-check every "(#rank, rating)" and every "top N" claim in data/weekend_public.json against the current solver output (player repo: build/ratings_from_site.js -> data/ratings.json).
