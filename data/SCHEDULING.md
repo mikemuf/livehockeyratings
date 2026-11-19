@@ -40,3 +40,10 @@ the owner moved all live-ratings work into the player-database conversation. The
 At the owner's request GitHub Pages is turned off here (Settings > Pages > branch None), so https://mikemuf.github.io/livehockeyratings/ no longer exists. The ratings app is still built here (`python3 build/build.py`), and after every build it must be copied onto the member site with `build/ratings_to_site.sh` from the private player repository, which publishes it at myplayerdata.com/members/ratings/. All reports link https://myplayerdata.com only.
 
 Same evening: Pages now serves the branch `gone` (a single notice, "This page no longer exists."). Leave it on that branch; `main` is not served.
+
+
+## Weekend tab format and events calendar (Nov 19, 2026, the owner's instructions)
+- Layout: each division in `data/weekend_public.json` has `events` (shown first as "Events this weekend"), `sections` = [{"t": title, "b": [short bullets]}] (one card each: one section per event, a players-to-watch section, "Elsewhere"), and `watch`. The page adds "Where the top 10 are" by itself from `watch`. Keep `summary` to the first few bullets (the landing page shows them). Bullets are short; a bullet that starts "Label: text" shows the label in bold. No long paragraphs.
+- Times: EVERY time is Central, in the bullets and in `watch`. A watch entry carries `time` (Central), `tz: "CT"` and, when the rink is in another zone, `local` (for example "4:00 PM ET"), shown as "at the rink". No duplicate games (the same game listed from both teams' schedules).
+- Never say where schedules or stats come from, and never write as if talking to the owner.
+- Events calendar: the private player repository has `EVENTS.md` (/home/claude/player/EVENTS.md) with every tournament seen so far, its dates and usual timing. Read it before writing a preview and add every new event to it. International Silver Stick (Whitby) starts US Thanksgiving Thursday.
