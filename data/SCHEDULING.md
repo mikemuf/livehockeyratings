@@ -53,3 +53,7 @@ The Nov 20-22 previews were written Nov 17, before the Wednesday Nov 18 rating u
 
 ## One Weekend tab per birth year, USA and Ontario together (owner, Nov 19, 2026 4:44 PM)
 Do not make an "Ontario" section. Everything for a birth year is in one place, organized by event and game, not by country: a big Ontario game gets its own section like any other event (the game, head-to-head, players to watch, goalies, what is next), smaller Ontario games go in "Elsewhere" beside the American ones, and "Where the top teams are" lists the USA top 10 and the Ontario top 5 in one card. Players-to-watch numbers come from the player database at that moment.
+
+## Rank in front of every team (owner, Nov 19, 2026 5:08 PM)
+Everywhere a game or team is listed on the Weekend tab: rank first, name, rating in parentheses, e.g. "#24 Philadelphia Jr Flyers (89.91)", "Ontario #3 Vaughan Kings (92.66)", "NR Belle Tire (83.57)". Ontario teams show their Ontario rank. For this to work, team names in data/weekend_public.json watch lists must be spelled exactly as in the ratings (e.g. "Ohio Jr Bluejackets", "St. Louis Blues"); a name that does not match shows no rank. Check for unmatched names after every edit.
+Mistake fixed the same day: "Where the top teams are" printed "Ontario #undefined" because the rank table only held American teams; Ontario ranks are now computed too. Look at the live page after any change to build/weekend.js.

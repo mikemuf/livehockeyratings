@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Preview — all six birth years",
- "updated": "Thu Nov 19, 4:55 PM CT",
+ "updated": "Thu Nov 19, 5:15 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -991,7 +991,7 @@
     {
      "day": "Fri",
      "time": "5:50 PM",
-     "a": "Ohio Blue Jackets",
+     "a": "Ohio Jr Bluejackets",
      "b": "Philadelphia Jr Flyers",
      "rink": "Chiller Ice Works",
      "city": "Worthington, OH",
@@ -1013,7 +1013,7 @@
     {
      "day": "Sat",
      "time": "3:00 PM",
-     "a": "Ohio Blue Jackets",
+     "a": "Ohio Jr Bluejackets",
      "b": "Philadelphia Jr Flyers",
      "rink": "Chiller Ice Works",
      "city": "Worthington, OH",
@@ -1024,7 +1024,7 @@
     {
      "day": "Sat",
      "time": "6:00 PM",
-     "a": "St Louis Blues",
+     "a": "St. Louis Blues",
      "b": "Madison Capitols",
      "rink": "Centene Community Ice Center",
      "city": "Maryland Heights, MO",
@@ -1045,7 +1045,7 @@
     {
      "day": "Sun",
      "time": "10:10 AM",
-     "a": "Ohio Blue Jackets",
+     "a": "Ohio Jr Bluejackets",
      "b": "Philadelphia Jr Flyers",
      "rink": "OhioHealth Ice Haus",
      "city": "Columbus, OH",
@@ -1077,7 +1077,7 @@
     {
      "day": "Sun",
      "time": "12:40 PM",
-     "a": "St Louis Blues",
+     "a": "St. Louis Blues",
      "b": "Madison Capitols",
      "rink": "Centene Community Ice Center",
      "city": "Maryland Heights, MO",
