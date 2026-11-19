@@ -110,16 +110,6 @@
     },
     {
      "day": "Fri",
-     "time": "12:50 PM",
-     "a": "Madison Capitols",
-     "b": "Team Illinois",
-     "rink": "Canlan Ice Sports (West Dundee)",
-     "city": "West Dundee, IL",
-     "note": "",
-     "tz": "CT"
-    },
-    {
-     "day": "Fri",
      "time": "4:30 PM",
      "a": "Chicago Mission",
      "b": "Bishop Kearney Selects",
@@ -175,16 +165,6 @@
     {
      "day": "Sat",
      "time": "8:00 AM",
-     "a": "Midwest Warriors",
-     "b": "Team Illinois",
-     "rink": "Carol Stream Ice Rink",
-     "city": "Carol Stream, IL",
-     "note": "",
-     "tz": "CT"
-    },
-    {
-     "day": "Sat",
-     "time": "8:00 AM",
      "a": "Mount St Charles",
      "b": "Chicago Reapers",
      "rink": "RMU Island Sports Center",
@@ -223,16 +203,6 @@
      "rink": "Canlan Ice Sports",
      "city": "West Dundee, IL",
      "note": "Tournament",
-     "tz": "CT"
-    },
-    {
-     "day": "Sat",
-     "time": "1:10 PM",
-     "a": "Milwaukee Jr Admirals",
-     "b": "Team Illinois",
-     "rink": "Canlan Ice Sports (West Dundee)",
-     "city": "West Dundee, IL",
-     "note": "",
      "tz": "CT"
     },
     {
@@ -298,16 +268,6 @@
      "rink": "Canlan Ice Sports",
      "city": "West Dundee, IL",
      "note": "Tournament",
-     "tz": "CT"
-    },
-    {
-     "day": "Sun",
-     "time": "8:00 AM",
-     "a": "CarShield",
-     "b": "Team Illinois",
-     "rink": "Canlan Ice Sports (West Dundee)",
-     "city": "West Dundee, IL",
-     "note": "",
      "tz": "CT"
     },
     {
