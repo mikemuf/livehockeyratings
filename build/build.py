@@ -201,11 +201,11 @@ h=h.replace('<style>','<style>p.meta,p.legend,.fineprint{display:none!important}
 for _a in ('<p class="small" style="margin:10px 0 0">This list has','<p class="small" style="margin:10px 0 0">MHR adjustment','<p class="small" style="margin:4px 0 0">${esc(W.note)}','<p class="small" style="margin:0 0 6px">Each team\'s goal differential','<p class="small" style="margin:0 0 6px">${esc(D.scorers_note)}','<p class="small" style="margin:0 0 6px">${esc(D.goalies_blurb)}'):
     if _a not in h: print('fine print line not found:',_a[:60])
     h=h.replace(_a,_a.replace('class="small"','class="small fineprint"'))
-# Tab order (owner, Nov 19, 2026): North America first, then USA, then Canada; Weekend stays; Team math and Game log are not shown.
+# Tab order (owner, Nov 19, 2026, 5:31 PM): North America, Weekend, USA, Canada; Team math and Game log are not shown.
 import re as _re
 _nav=_re.search(r'<button data-view="rank" class="on">USA</button>.*?<button data-view="log">Game log</button>',h,_re.S)
 assert _nav
-h=h.replace(_nav.group(0),'<button data-view="na" class="on">North America</button>\n  <button data-view="rank">USA</button>\n  <button data-view="can">Canada</button>\n  <button data-view="wk">Weekend</button>\n  <button data-view="team">Team math</button>\n  <button data-view="log">Game log</button>',1)
+h=h.replace(_nav.group(0),'<button data-view="na" class="on">North America</button>\n  <button data-view="wk">Weekend</button>\n  <button data-view="rank">USA</button>\n  <button data-view="can">Canada</button>\n  <button data-view="team">Team math</button>\n  <button data-view="log">Game log</button>',1)
 h=h.replace('nav.tabs button[data-view="team"]{display:none!important}','nav.tabs button[data-view="team"],nav.tabs button[data-view="log"]{display:none!important}',1)
 assert h.count("let div='2012', view='rank', selTeam=null;")==1 and h.count("view='rank';selTeam=null;return}")==1
 h=h.replace("let div='2012', view='rank', selTeam=null;","let div='2012', view='na', selTeam=null;",1).replace("view='rank';selTeam=null;return}","view='na';selTeam=null;return}",1)
