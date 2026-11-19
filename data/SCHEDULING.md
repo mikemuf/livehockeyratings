@@ -57,3 +57,9 @@ Do not make an "Ontario" section. Everything for a birth year is in one place, o
 ## Rank in front of every team (owner, Nov 19, 2026 5:08 PM)
 Everywhere a game or team is listed on the Weekend tab: rank first, name, rating in parentheses, e.g. "#24 Philadelphia Jr Flyers (89.91)", "Ontario #3 Vaughan Kings (92.66)", "NR Belle Tire (83.57)". Ontario teams show their Ontario rank. For this to work, team names in data/weekend_public.json watch lists must be spelled exactly as in the ratings (e.g. "Ohio Jr Bluejackets", "St. Louis Blues"); a name that does not match shows no rank. Check for unmatched names after every edit.
 Mistake fixed the same day: "Where the top teams are" printed "Ontario #undefined" because the rank table only held American teams; Ontario ranks are now computed too. Look at the live page after any change to build/weekend.js.
+
+## North American rank (owner, Nov 19, 2026)
+- One rank per birth year across USA and Canada together, ordered by rating. It is the number in front of every team on the Weekend tab and the `#N` in every text mention. The country rank and rating follow in parentheses: `#8 Chicago Mission (USA #5, 97.05)`.
+- Ratings app has a North America tab (`renderNA`). `data/ratings.json` in the player repo carries `na` beside `rank` (country rank). `weekend_check.py` checks text mentions against `na`.
+- Ontario U13 (2014) and U12 (2015) rank pages are MHR `rank.php?y=2026&v=134` and `v=133` -> `data/nov18_on13.txt`, `data/nov18_on12.txt` (name|record|rating|agd|sched). Refresh them with the weekly MHR update, along with on14/on15/on16/on11. Ontario teams with no game in our log are listed with MHR's published numbers unchanged (`ANCH` in build.py).
+- Western Canada is not in the list yet; the owner is unsure those ratings compare.

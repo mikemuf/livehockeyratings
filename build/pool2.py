@@ -47,6 +47,13 @@ def build():
     M={'2014':{},'2015':{}};G={'2014':{},'2015':{}};R={'2014':{},'2015':{}}
     for dv,rk in (('2014',r12),('2015',r11)):
         for n,(r,gp,rec) in rk.items(): M[dv][n]=r;G[dv][n]=gp;R[dv][n]=rec
+    # Ontario U13 AAA (2014) and U12 AAA (2015) rank pages, MHR rank.php?y=2026&v=134 and v=133 (added Nov 19, 2026: the owner wants every
+    # Ontario team ranked, not only those that happened to play American teams). Refresh with the weekly MHR update.
+    import os
+    for dv,fn in (('2014','data/nov18_on13.txt'),('2015','data/nov18_on12.txt')):
+        if not os.path.exists(fn): continue
+        for n,(r,gp,rec) in load_rank(fn,'\x00').items():
+            M[dv][n]=r;G[dv][n]=gp;R[dv][n]=rec;canada.add(n)
     for (dv,n),r in ratings.items():
         if n not in M[dv]:
             M[dv][n]=r

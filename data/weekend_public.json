@@ -9,8 +9,8 @@
  "divs": {
   "2012": {
    "summary": [
-    "Northeast Pack in Pittsburgh: The field: all eight 14U teams are ranked in the top 17. Twelve league games Friday to Sunday, three per team.",
-    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#6, 96.88) 13. Bishop Kearney (#11, 96.18) and Mount St Charles (#8, 96.47) 11 each. Chicago Mission (#5, 97.05) 10. Pittsburgh Penguins Elite (#13, 96.11) 8. NJ Rockets (#16, 95.9) 6. Chicago Reapers (#17, 95.7) 4.",
+    "Northeast Pack in Pittsburgh: The field: all eight 14U teams are ranked in the top 28 in North America (top 17 in the USA). Twelve league games Friday to Sunday, three per team.",
+    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#9, 96.88) 13. Bishop Kearney (#17, 96.18) and Mount St Charles (#12, 96.47) 11 each. Chicago Mission (#8, 97.05) 10. Pittsburgh Penguins Elite (#19, 96.11) 8. NJ Rockets (#25, 95.90) 6. Chicago Reapers (#28, 95.70) 4.",
     "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
     "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1)."
    ],
@@ -478,8 +478,8 @@
     {
      "t": "Northeast Pack in Pittsburgh",
      "b": [
-      "The field: all eight 14U teams are ranked in the top 17. Twelve league games Friday to Sunday, three per team.",
-      "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#6, 96.88) 13. Bishop Kearney (#11, 96.18) and Mount St Charles (#8, 96.47) 11 each. Chicago Mission (#5, 97.05) 10. Pittsburgh Penguins Elite (#13, 96.11) 8. NJ Rockets (#16, 95.9) 6. Chicago Reapers (#17, 95.7) 4.",
+      "The field: all eight 14U teams are ranked in the top 28 in North America (top 17 in the USA). Twelve league games Friday to Sunday, three per team.",
+      "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#9, 96.88) 13. Bishop Kearney (#17, 96.18) and Mount St Charles (#12, 96.47) 11 each. Chicago Mission (#8, 97.05) 10. Pittsburgh Penguins Elite (#19, 96.11) 8. NJ Rockets (#25, 95.90) 6. Chicago Reapers (#28, 95.70) 4.",
       "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
       "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1).",
       "Chicago Mission: at Bishop Kearney on Friday (won 7-4 on Oct 4), home to Pens Elite on Saturday (lost 4-3 in overtime on Oct 17), at NJ Rockets on Sunday (won 5-1). Three regulation wins would make 19 points.",
@@ -500,7 +500,7 @@
     {
      "t": "Nashville in British Columbia",
      "b": [
-      "The event: six-team U15 prep tournament in Delta and Burnaby, Thursday to Sunday. Nashville Jr. Predators (#9, 96.38) is the only American team.",
+      "The event: six-team U15 prep tournament in Delta and Burnaby, Thursday to Sunday. Nashville Jr. Predators (#13, 96.38) is the only American team.",
       "Nashville's games: Delta Hockey Academy on Thursday at 2:30 PM, Burnaby Winter Club Academy on Friday at 12:00 PM, St George's School on Friday at 10:00 PM.",
       "Also in the field: Yale Hockey Academy and Pacific Coast Academy.",
       "Finish: placement games Saturday (first against fourth, second against third), final Sunday at 3:00 PM."
@@ -509,18 +509,18 @@
     {
      "t": "Toronto Jr Canadiens at Toronto Marlboros",
      "b": [
-      "The game: Toronto Jr Canadiens (#2, 98.23) at Toronto Marlboros (#1, 98.32), Friday 6:40 PM, CWENCH Centre in Etobicoke. First against second in Ontario, 0.09 rating points apart.",
+      "The game: Toronto Jr Canadiens (#4, 98.23) at Toronto Marlboros (#3, 98.32), Friday 6:40 PM, CWENCH Centre in Etobicoke. First against second in Ontario, 0.09 rating points apart.",
       "Head to head: the Marlboros won both meetings, 3-2 on Oct 11 and 2-0 on Oct 25.",
       "Marlboros to watch: Cal Reilly, 21 goals and 39 points in 25 games. In goal, Austin Kay-Schilke has allowed 1.50 goals a game in 12 games.",
-      "The Jr Canadiens arrive off three wins in Chicago last weekend, the last one 3-1 over Team Illinois (#4, 97.12).",
-      "Right behind them: North York Rangers (#3, 98.21) hosts Vaughan Kings (#7, 95.99) on Saturday at 2:30 PM. The top three in Ontario are within 0.11 of each other.",
+      "The Jr Canadiens arrive off three wins in Chicago last weekend, the last one 3-1 over Team Illinois (#7, 97.12).",
+      "Right behind them: North York Rangers (#5, 98.21) hosts Vaughan Kings (#21, 95.99) on Saturday at 2:30 PM. The top three in Ontario are within 0.11 of each other.",
       "Sunday: Jr Canadiens host Markham Majors at 2:15 PM. Marlboros at Don Mills Flyers at 8:00 PM."
      ]
     },
     {
      "t": "Elsewhere",
      "b": [
-      "Team Illinois (#4, 97.12): four games in the Chicago suburbs against Madison Capitols, Midwest Warriors, Milwaukee Jr Admirals and CarShield.",
+      "Team Illinois (#7, 97.12): four games in the Chicago suburbs against Madison Capitols, Midwest Warriors, Milwaukee Jr Admirals and CarShield.",
       "Biggby Coffee: four games at the Tier 1 Hockey Federation showcase near Pittsburgh.",
       "Top Gun (Elite) plays Boston Jr Eagles (Elite) on Saturday morning in Salem, NH.",
       "HB Detroit plays Victory Honda in a league game on Saturday."
@@ -531,8 +531,8 @@
   "2011": {
    "summary": [
     "Northeast Pack in Pittsburgh: The field: the top three 15U teams in the country are in the same building, and six of the league's eight teams are ranked in the top nine.",
-    "Standings: Bishop Kearney (#2, 95.65) 16 points. Mount St Charles (#3, 95.56) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#5, 94.24) 11. Woodbridge Wolfpack (#9, 93.3) 8. Chicago Mission (#8, 93.95) 7.",
-    "Game of the weekend: Bishop Kearney at Pens Elite, Saturday 2:40 PM. #2 at #1; Bishop Kearney won 5-3 on Oct 3.",
+    "Standings: Bishop Kearney (#3, 95.65) 16 points. Mount St Charles (#4, 95.56) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#8, 94.24) 11. Woodbridge Wolfpack (#14, 93.30) 8. Chicago Mission (#13, 93.95) 7.",
+    "Game of the weekend: Bishop Kearney at Pens Elite, Saturday 2:40 PM. #3 at #1, and the top two American teams; Bishop Kearney won 5-3 on Oct 3.",
     "Bishop Kearney: Wolfpack on Friday (won 3-2 the first time), Pens Elite on Saturday, at Chicago Reapers on Sunday at 7:00 AM. The Reapers gave Bishop Kearney its only league loss, 7-6 in a shootout."
    ],
    "events": [
@@ -939,8 +939,8 @@
      "t": "Northeast Pack in Pittsburgh",
      "b": [
       "The field: the top three 15U teams in the country are in the same building, and six of the league's eight teams are ranked in the top nine.",
-      "Standings: Bishop Kearney (#2, 95.65) 16 points. Mount St Charles (#3, 95.56) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#5, 94.24) 11. Woodbridge Wolfpack (#9, 93.3) 8. Chicago Mission (#8, 93.95) 7.",
-      "Game of the weekend: Bishop Kearney at Pens Elite, Saturday 2:40 PM. #2 at #1; Bishop Kearney won 5-3 on Oct 3.",
+      "Standings: Bishop Kearney (#3, 95.65) 16 points. Mount St Charles (#4, 95.56) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#8, 94.24) 11. Woodbridge Wolfpack (#14, 93.30) 8. Chicago Mission (#13, 93.95) 7.",
+      "Game of the weekend: Bishop Kearney at Pens Elite, Saturday 2:40 PM. #3 at #1, and the top two American teams; Bishop Kearney won 5-3 on Oct 3.",
       "Bishop Kearney: Wolfpack on Friday (won 3-2 the first time), Pens Elite on Saturday, at Chicago Reapers on Sunday at 7:00 AM. The Reapers gave Bishop Kearney its only league loss, 7-6 in a shootout.",
       "Mount St Charles can take first: Chicago Mission on Friday (won 5-2 on Oct 17), NJ Rockets on Saturday (won 8-1), Wolfpack on Sunday (won 3-1).",
       "Chicago teams: the Reapers are fourth and have gone to a shootout three times, winning two. Mission has lost two straight and gets Mount St Charles and Pens Elite.",
@@ -959,21 +959,21 @@
     {
      "t": "Toronto Jr Canadiens at Vaughan Kings",
      "b": [
-      "The game: Toronto Jr Canadiens (#2, 95.17) at Vaughan Kings (#1, 95.96), Saturday 12:55 PM, Westwood Arenas in Toronto. First against second in Ontario.",
+      "The game: Toronto Jr Canadiens (#5, 95.17) at Vaughan Kings (#2, 95.96), Saturday 12:55 PM, Westwood Arenas in Toronto. First against second in Ontario.",
       "Vaughan is 25-0-1. Its only game without a win was a 3-3 tie with Toronto Marlboros on Nov 10.",
       "Head to head: Vaughan won both meetings, 6-4 on Oct 4 and 3-1 on Oct 11.",
       "Vaughan to watch: Preston Hebert, 18 goals and 43 points in 25 games. Jasper Wang, a defenseman with 37 points and plus 59. Niko Fegaras, 20 goals.",
       "Jr Canadiens to watch: Shihan Wang, 19 goals and 43 points in 22 games. Kade O'Rourke, a defenseman with 19 goals who plays 21 minutes a game.",
       "Goalies: David Stefaniak (Vaughan) has allowed 0.92 goals a game in 13 games. Christian Camputaro (Jr Canadiens) 1.43 in 8.",
-      "Next for the Jr Canadiens: home to Toronto Marlboros (#3, 94.48) on Sunday at 3:45 PM."
+      "Next for the Jr Canadiens: home to Toronto Marlboros (#7, 94.48) on Sunday at 3:45 PM."
      ]
     },
     {
      "t": "Elsewhere",
      "b": [
-      "Toronto Marlboros (#3, 94.48) hosts Mississauga Senators (#14, 92.22) on Friday at 8:10 PM.",
-      "Mississauga Rebels (#7, 93.18) at North York Rangers (#18, 91.72) on Saturday at 1:00 PM.",
-      "Oakland Jr Grizzlies (#6) plays Fox Motors twice in league play.",
+      "Toronto Marlboros (#7, 94.48) hosts Mississauga Senators (#30, 92.22) on Friday at 8:10 PM.",
+      "Mississauga Rebels (#16, 93.18) at North York Rangers (#37, 91.72) on Saturday at 1:00 PM.",
+      "Oakland Jr Grizzlies (#11) plays Fox Motors twice in league play.",
       "Pittsburgh Vengeance and Palmyra Black Knights meet three times at Alpha Ice Complex.",
       "Victory Honda plays Indiana Elite twice on Saturday in Fort Wayne.",
       "HB Detroit plays BioSteel Sports Academy on Saturday."
@@ -1090,14 +1090,14 @@
      "t": "Quiet in the USA, busy in Toronto",
      "b": [
       "Most of the top 20 American teams are off this weekend.",
-      "In Toronto, the unbeaten Toronto Marlboros (#1, 94.29) host Vaughan Kings (#3, 92.66) on Friday.",
+      "In Toronto, the unbeaten Toronto Marlboros (#3, 94.29) host Vaughan Kings (#10, 92.66) on Friday.",
       "Next weekend is Thanksgiving weekend, when the International Silver Stick in Whitby and other big tournaments begin."
      ]
     },
     {
      "t": "Best series: Ohio Blue Jackets vs Philadelphia Jr Flyers",
      "b": [
-      "Three games in Columbus between Ohio (#20) and Philadelphia (#24).",
+      "Three games in Columbus between Ohio (#29) and Philadelphia (#35).",
       "Times: Friday 5:50 PM and Saturday 3:00 PM at Chiller Ice Works, Sunday 10:10 AM at the OhioHealth Ice Haus.",
       "Records: Jr Flyers 18-8-1, Blue Jackets 15-12-2."
      ]
@@ -1105,17 +1105,17 @@
     {
      "t": "Vaughan Kings at Toronto Marlboros",
      "b": [
-      "The game: Vaughan Kings (#3, 92.66) at Toronto Marlboros (#1, 94.29), Friday 7:40 PM, CWENCH Centre in Etobicoke.",
-      "The Marlboros are 19-0-1. The only game they have not won was a 1-1 tie with Toronto Jr Canadiens (#2, 92.99) on Nov 6.",
+      "The game: Vaughan Kings (#10, 92.66) at Toronto Marlboros (#3, 94.29), Friday 7:40 PM, CWENCH Centre in Etobicoke.",
+      "The Marlboros are 19-0-1. The only game they have not won was a 1-1 tie with Toronto Jr Canadiens (#8, 92.99) on Nov 6.",
       "Marlboros to watch: Jackson Ross, a defenseman with 45 points and plus 50 in 26 games. Jonathan Beauclair, 39 points in 23.",
       "Vaughan to watch: Nathan O'Sullivan, 25 goals and 40 points in 23 games. Vaughan has won its last five, including 4-1 over the Jr Canadiens.",
-      "Rest of the weekend: Vaughan hosts Toronto Red Wings (#8, 90.58) Saturday at 11:40 AM. Jr Canadiens host Mississauga Rebels Sunday at 12:55 PM. Marlboros at Don Mills Flyers Sunday at 6:45 PM."
+      "Rest of the weekend: Vaughan hosts Toronto Red Wings (#25, 90.58) Saturday at 11:40 AM. Jr Canadiens host Mississauga Rebels Sunday at 12:55 PM. Marlboros at Don Mills Flyers Sunday at 6:45 PM."
      ]
     },
     {
      "t": "Elsewhere",
      "b": [
-      "Little Caesars (#5, 93.48) hosts Compuware on Sunday at 10:40 AM at USA Hockey Arena.",
+      "Little Caesars (#6, 93.48) hosts Compuware on Sunday at 10:40 AM at USA Hockey Arena.",
       "HB Detroit plays Belle Tire on Sunday at 9:00 AM in Lincoln Park.",
       "Windy City Storm hosts Indiana Elite on Sunday at 12:00 PM at Orbit Ice Arena.",
       "St Louis Blues plays Madison Capitols twice at Centene Community Ice Center."
@@ -1125,7 +1125,7 @@
   },
   "2014": {
    "summary": [
-    "St. Louis tournament: The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#4), St Louis Blues (#11), Victory Honda (#13), Chicago Reapers (#16), Vegas Jr Golden Knights (#17) and Dallas Stars Elite (#20), plus Chicago Mission and Philadelphia Hockey Club.",
+    "St. Louis tournament: The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#6), St Louis Blues (#16), Victory Honda (#22), Chicago Reapers (#28), Vegas Jr Golden Knights (#29) and Dallas Stars Elite (#34), plus Chicago Mission and Philadelphia Hockey Club.",
     "Group one: St Louis Blues, Chicago Mission, Dallas Stars Elite, Victory Honda.",
     "Group two: Vegas, Chicago Reapers, Philadelphia Hockey Club, Florida Alliance.",
     "Games to circle: Chicago Reapers vs Vegas on Friday at 9:00 AM (#16 against #17). St Louis Blues vs Dallas Stars Elite on Friday at 4:20 PM. Florida Alliance vs Vegas on Saturday at 8:20 AM."
@@ -1267,7 +1267,7 @@
     {
      "t": "St. Louis tournament",
      "b": [
-      "The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#4), St Louis Blues (#11), Victory Honda (#13), Chicago Reapers (#16), Vegas Jr Golden Knights (#17) and Dallas Stars Elite (#20), plus Chicago Mission and Philadelphia Hockey Club.",
+      "The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#6), St Louis Blues (#16), Victory Honda (#22), Chicago Reapers (#28), Vegas Jr Golden Knights (#29) and Dallas Stars Elite (#34), plus Chicago Mission and Philadelphia Hockey Club.",
       "Group one: St Louis Blues, Chicago Mission, Dallas Stars Elite, Victory Honda.",
       "Group two: Vegas, Chicago Reapers, Philadelphia Hockey Club, Florida Alliance.",
       "Games to circle: Chicago Reapers vs Vegas on Friday at 9:00 AM (#16 against #17). St Louis Blues vs Dallas Stars Elite on Friday at 4:20 PM. Florida Alliance vs Vegas on Saturday at 8:20 AM.",
@@ -1278,8 +1278,8 @@
     {
      "t": "Elsewhere",
      "b": [
-      "Toronto Jr Canadiens (#2, 97.77) at North York Rangers on Saturday at 10:30 AM.",
-      "Don Mills Flyers (#3, 96.73) at Toronto Marlboros on Friday at 6:25 PM.",
+      "Toronto Jr Canadiens (#7, 98.42) at North York Rangers on Saturday at 10:30 AM.",
+      "Don Mills Flyers (#12, 97.11) at Toronto Marlboros on Friday at 6:25 PM.",
       "Woodbridge Wolfpack hosts Red Bank Generals on Saturday.",
       "Long Island Royals plays New York City Hockey Club and New Jersey Colonials.",
       "Cleveland Barons plays LA Jr Kings on Sunday in Michigan.",
@@ -1290,9 +1290,9 @@
   },
   "2015": {
    "summary": [
-    "Mid-Fairfield's New England road trip: Mid-Fairfield (#4) has the busiest weekend of any top team: four league games in two days.",
-    "Saturday: at Providence Capitals (#12) twice, 8:00 AM and 12:15 PM, Rhode Island Sports Center.",
-    "Sunday: at Bay State Breakers (#15) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
+    "Mid-Fairfield's New England road trip: Mid-Fairfield (#6) has the busiest weekend of any top team: four league games in two days.",
+    "Saturday: at Providence Capitals (#15) twice, 8:00 AM and 12:15 PM, Rhode Island Sports Center.",
+    "Sunday: at Bay State Breakers (#20) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
    ],
    "events": [],
    "watch": [
@@ -1431,42 +1431,42 @@
     {
      "t": "Mid-Fairfield's New England road trip",
      "b": [
-      "Mid-Fairfield (#4) has the busiest weekend of any top team: four league games in two days.",
-      "Saturday: at Providence Capitals (#12) twice, 8:00 AM and 12:15 PM, Rhode Island Sports Center.",
-      "Sunday: at Bay State Breakers (#15) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
+      "Mid-Fairfield (#6) has the busiest weekend of any top team: four league games in two days.",
+      "Saturday: at Providence Capitals (#15) twice, 8:00 AM and 12:15 PM, Rhode Island Sports Center.",
+      "Sunday: at Bay State Breakers (#20) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
      ]
     },
     {
      "t": "Chicago",
      "b": [
-      "Chicago Mission (#8) at Windy City Storm, Saturday 2:40 PM, Orbit Ice Arena.",
-      "Chicago Fury (#16) vs Windy City Storm, Sunday 11:20 AM, Arctic Ice Arena."
+      "Chicago Mission (#11) at Windy City Storm, Saturday 2:40 PM, Orbit Ice Arena.",
+      "Chicago Fury (#21) vs Windy City Storm, Sunday 11:20 AM, Arctic Ice Arena."
      ]
     },
     {
      "t": "Toronto Jr Canadiens at Toronto Marlboros",
      "b": [
-      "The game: Toronto Jr Canadiens (#1, 94.81) at Toronto Marlboros (#3, 92.79), Saturday 11:15 AM, CWENCH Centre in Etobicoke.",
+      "The game: Toronto Jr Canadiens (#2, 94.86) at Toronto Marlboros (#7, 93.47), Saturday 11:15 AM, CWENCH Centre in Etobicoke.",
       "Head to head: the Jr Canadiens won both meetings, 6-0 on Sep 27 and 5-2 on Oct 18.",
       "Jr Canadiens to watch: Patrick Middlebrook, 31 goals and 47 points in 20 games. Devin Price, a defenseman with 28 assists and plus 50.",
       "Marlboros to watch: George Zhang, 21 goals and 44 points in 19 games. The Marlboros have won five straight.",
-      "Also in Toronto: Vaughan Kings (#6, 91.43) hosts Toronto Reps on Saturday at 1:15 PM. Jr Canadiens host Toronto Red Wings on Sunday at 12:40 PM."
+      "Also in Toronto: Vaughan Kings (#28, 90.79) hosts Toronto Reps on Saturday at 1:15 PM. Jr Canadiens host Toronto Red Wings on Sunday at 12:40 PM."
      ]
     },
     {
      "t": "Elsewhere",
      "b": [
-      "South Shore Kings (#9) plays Top Gun (#11) on Sunday at 8:25 AM in Salem, NH.",
+      "South Shore Kings (#12) plays Top Gun (#14) on Sunday at 8:25 AM in Salem, NH.",
       "Providence Capitals finishes against Boston Jr Terriers on Sunday.",
-      "Oakland Jr Grizzlies hosts HB Detroit. Philadelphia Little Flyers plays North Jersey Avalanche twice on Saturday. Dallas Stars Elite (#7) plays Houston twice.",
-      "Off this weekend: Little Caesars (#1), Pittsburgh Penguins Elite (#2) and Worcester Shamrocks (#3)."
+      "Oakland Jr Grizzlies hosts HB Detroit. Philadelphia Little Flyers plays North Jersey Avalanche twice on Saturday. Dallas Stars Elite (#10) plays Houston twice.",
+      "Off this weekend: Little Caesars (#1), Pittsburgh Penguins Elite (#4) and Worcester Shamrocks (#5)."
      ]
     }
    ]
   },
   "2016": {
    "summary": [
-    "Friday night in Elk Grove: St Louis Blues (#7, 96.6) at Chicago Mission (#19, 94.6), Friday 7:40 PM, Elk Grove Ice Arena.",
+    "Friday night in Elk Grove: St Louis Blues (#11, 96.60) at Chicago Mission (#34, 94.60), Friday 7:40 PM, Elk Grove Ice Arena.",
     "It is the only game of the weekend between two top-25 Squirt teams."
    ],
    "events": [],
@@ -1574,17 +1574,17 @@
     {
      "t": "Friday night in Elk Grove",
      "b": [
-      "St Louis Blues (#7, 96.6) at Chicago Mission (#19, 94.6), Friday 7:40 PM, Elk Grove Ice Arena.",
+      "St Louis Blues (#11, 96.60) at Chicago Mission (#34, 94.60), Friday 7:40 PM, Elk Grove Ice Arena.",
       "It is the only game of the weekend between two top-25 Squirt teams."
      ]
     },
     {
      "t": "Elsewhere",
      "b": [
-      "Middlesex Islanders East (#6) plays Boston Jr Terriers on Sunday at 8:20 AM in Canton, MA.",
-      "New Jersey Rockets (#23): Long Island Royals on Saturday morning, then Palmyra Black Knights twice on Sunday.",
-      "Washington Little Capitals (#27) hosts New Jersey Colonials three times. Long Island Gulls (#21) plays Long Island Royals on Sunday.",
-      "Off this weekend: Little Caesars (#1), Buffalo Jr Sabres (#2), Mid-Fairfield (#3), Team Illinois (#4) and Top Gun (#5)."
+      "Middlesex Islanders East (#10) plays Boston Jr Terriers on Sunday at 8:20 AM in Canton, MA.",
+      "New Jersey Rockets (#41): Long Island Royals on Saturday morning, then Palmyra Black Knights twice on Sunday.",
+      "Washington Little Capitals (#47) hosts New Jersey Colonials three times. Long Island Gulls (#39) plays Long Island Royals on Sunday.",
+      "Off this weekend: Little Caesars (#1), Buffalo Jr Sabres (#4), Mid-Fairfield (#6), Team Illinois (#8) and Top Gun (#9)."
      ]
     }
    ]

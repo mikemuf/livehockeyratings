@@ -122,6 +122,42 @@ function recL(t,x){const m=(MHR_REC[div]||{})[t];if(!m||m==='0-0-0')return x.rec
 function gpL(t,x){const m=(MHR_GP[div]||{})[t];if(!m)return x.gp;const n=newG(t);return Math.max(x.gp,m+n[0]+n[1]+n[2])}
 function allGames(){""",1)
 h=h.replace('const XPOOL=','Object.assign(XMAP,'+json.dumps(P2X)+');\nconst XPOOL=',1)
+# --- Nov 19, 2026 (owner): every Ontario team MHR ranks is listed, and there is one North American rank. ---
+# Ontario U13/U12 teams that have no game in our log still appear, carrying MHR's published rating, record, AGD and schedule unchanged.
+ANCH={}
+for _dv,_fn in (('2014','data/nov18_on13.txt'),('2015','data/nov18_on12.txt')):
+    ANCH[_dv]={}
+    try:
+        for _l in open(_fn):
+            _p=_l.strip().split('|')
+            if len(_p)>=5: ANCH[_dv][_p[0]]=[float(_p[3]),float(_p[4])]
+    except FileNotFoundError: pass
+_a="  rows.sort((a,b)=>b.r-a.r);\n  const byName=Object.fromEntries(rows.map(x=>[x.t,x]));\n  for(const [k,nd] of Object.entries(XMAP[dv]||{}))"
+assert h.count(_a)==1
+h=h.replace(_a,"  {const have=new Set(rows.map(x=>x.t));for(const [t,a] of Object.entries(ANCH[dv]||{})){if(have.has(t)||MHR[dv][t]===undefined)continue;const rc=((MHR_REC[dv]||{})[t]||'0-0-0').split('-').map(Number);rows.push({t,r:MHR[dv][t],rec:rc,agd:a[0],sched:a[1],gp:rc[0]+rc[1]+rc[2],mhr:true,adj:MHR[dv][t]-(a[0]+a[1]),anch:true})}}\n"+_a,1)
+h=h.replace('const XPOOL=','const ANCH='+json.dumps(ANCH)+';\nconst XPOOL=',1)
+# North America tab: USA and Canada ranked teams in one list by rating, country rank in parentheses beside the name.
+_b='  <button data-view="can">Canada</button>'
+assert h.count(_b)==1
+h=h.replace(_b,'  <button data-view="na">North America</button>\n'+_b,1)
+_c=' <section class="view" id="v-can"></section>'
+assert h.count(_c)==1
+h=h.replace(_c,' <section class="view" id="v-na"></section>\n'+_c,1)
+_d="  if(view==='can')document.getElementById('v-can').innerHTML=renderCan(S);"
+assert h.count(_d)==1
+h=h.replace(_d,"  if(view==='na')document.getElementById('v-na').innerHTML=renderNA(S);\n"+_d,1)
+_e="function renderCan(S){"
+assert h.count(_e)==1
+h=h.replace(_e,"""function naRanks(S){const na={},us={},ca={};let u=0,c=0;S.rows.filter(x=>x.mhr).forEach((x,i)=>{na[x.t]=i+1;if(canada.has(x.t))ca[x.t]=++c;else us[x.t]=++u});return {na,us,ca}}
+function renderNA(S){
+  const K=naRanks(S),rows=S.rows.filter(x=>x.mhr);
+  let h=`<p class="meta">North America: ${rows.length} ranked teams, USA and Canada together, ordered by rating. Each team's rank in its own country is in parentheses.</p>`;
+  h+='<div class="wrap"><table><thead><tr><th></th><th class="t">Team</th><th>Rating</th><th>Rec</th><th>AGD</th><th>Sched</th><th>GP</th></tr></thead><tbody>';
+  rows.forEach((x,k)=>{h+=`<tr class="click" data-t="${esc(x.t)}"><td class="rk num">${k+1}</td><td class="t">${esc(x.t)} <span class="small">(${K.ca[x.t]?'CAN #'+K.ca[x.t]:'USA #'+K.us[x.t]})</span></td><td class="rating"><span class="num">${f2(x.r)}</span></td><td>${recL(x.t,x)}</td><td class="${x.agd>=0?'pos':'neg'}">${fs(x.agd)}</td><td>${f2(x.sched)}</td><td>${gpL(x.t,x)}</td></tr>`});
+  return h+'</tbody></table></div>';
+}
+"""+_e,1)
+
 P2CA=list(P2CA)+[n for n in LITE_ON16 if n not in P2CA];P2CA+=[n for n in LITE_ON11 if n not in P2CA]
 h=h.replace('CANADA_BASE = [','CANADA_BASE = ['+','.join(json.dumps(x) for x in P2CA)+(',' if P2CA else ''),1)
 h=h.replace('const BASE = ','const LITE='+json.dumps(LITE)+';\nconst BASE = ',1)
