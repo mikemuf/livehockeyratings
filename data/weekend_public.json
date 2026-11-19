@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Preview — all six birth years",
- "updated": "Thu Nov 19, 5:00 PM CT",
+ "updated": "Thu Nov 19, 5:10 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -121,6 +121,17 @@
     },
     {
      "day": "Fri",
+     "time": "6:40 PM",
+     "a": "Toronto Jr Canadiens",
+     "b": "Toronto Marlboros",
+     "rink": "CWENCH Centre",
+     "city": "Etobicoke, ON",
+     "note": "Ontario #2 at #1",
+     "local": "7:40 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Fri",
      "time": "10:00 PM",
      "a": "St George's School",
      "b": "Nashville Jr. Predators",
@@ -214,6 +225,17 @@
      "city": "Canonsburg, PA",
      "note": "THF showcase",
      "local": "3:00 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "2:30 PM",
+     "a": "Vaughan Kings",
+     "b": "North York Rangers",
+     "rink": "Herbert Carnegie Centennial Centre",
+     "city": "Toronto, ON",
+     "note": "Ontario #7 at #3",
+     "local": "3:30 PM ET",
      "tz": "CT"
     },
     {
@@ -485,6 +507,17 @@
      ]
     },
     {
+     "t": "Toronto Jr Canadiens at Toronto Marlboros",
+     "b": [
+      "The game: Toronto Jr Canadiens (#2, 98.23) at Toronto Marlboros (#1, 98.32), Friday 6:40 PM, CWENCH Centre in Etobicoke. First against second in Ontario, 0.09 rating points apart.",
+      "Head to head: the Marlboros won both meetings, 3-2 on Oct 11 and 2-0 on Oct 25.",
+      "Marlboros to watch: Cal Reilly, 21 goals and 39 points in 25 games. In goal, Austin Kay-Schilke has allowed 1.50 goals a game in 12 games.",
+      "The Jr Canadiens arrive off three wins in Chicago last weekend, the last one 3-1 over Team Illinois (#4, 97.12).",
+      "Right behind them: North York Rangers (#3, 98.21) hosts Vaughan Kings (#7, 95.99) on Saturday at 2:30 PM. The top three in Ontario are within 0.11 of each other.",
+      "Sunday: Jr Canadiens host Markham Majors at 2:15 PM. Marlboros at Don Mills Flyers at 8:00 PM."
+     ]
+    },
+    {
      "t": "Elsewhere",
      "b": [
       "Team Illinois (#4, 97.12): four games in the Chicago suburbs against Madison Capitols, Midwest Warriors, Milwaukee Jr Admirals and CarShield.",
@@ -612,11 +645,11 @@
     {
      "day": "Sat",
      "time": "12:55 PM",
-     "a": "Vaughan Kings",
-     "b": "Toronto Jr Canadiens",
+     "a": "Toronto Jr Canadiens",
+     "b": "Vaughan Kings",
      "rink": "Westwood Arenas",
      "city": "Toronto, ON",
-     "note": "Ontario #1 vs #2",
+     "note": "Ontario #2 at #1",
      "local": "1:55 PM ET",
      "tz": "CT"
     },
@@ -739,6 +772,17 @@
      "city": "Cranberry Township, PA",
      "note": "FedEx Rink 1",
      "local": "1:40 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "3:45 PM",
+     "a": "Toronto Marlboros",
+     "b": "Toronto Jr Canadiens",
+     "rink": "Scotiabank Pond",
+     "city": "Toronto, ON",
+     "note": "Ontario #3 at #2",
+     "local": "4:45 PM ET",
      "tz": "CT"
     }
    ],
@@ -913,22 +957,22 @@
      ]
     },
     {
-     "t": "Vaughan Kings vs Toronto Jr Canadiens",
+     "t": "Toronto Jr Canadiens at Vaughan Kings",
      "b": [
-      "The game: Vaughan Kings (#1, 95.96) vs Toronto Jr Canadiens (#2, 95.17), Saturday 12:55 PM, Westwood Arenas in Toronto. First against second in Ontario.",
+      "The game: Toronto Jr Canadiens (#2, 95.17) at Vaughan Kings (#1, 95.96), Saturday 12:55 PM, Westwood Arenas in Toronto. First against second in Ontario.",
       "Vaughan is 25-0-1. Its only game without a win was a 3-3 tie with Toronto Marlboros on Nov 10.",
       "Head to head: Vaughan won both meetings, 6-4 on Oct 4 and 3-1 on Oct 11.",
       "Vaughan to watch: Preston Hebert, 18 goals and 43 points in 25 games. Jasper Wang, a defenseman with 37 points and plus 59. Niko Fegaras, 20 goals.",
       "Jr Canadiens to watch: Shihan Wang, 19 goals and 43 points in 22 games. Kade O'Rourke, a defenseman with 19 goals who plays 21 minutes a game.",
       "Goalies: David Stefaniak (Vaughan) has allowed 0.92 goals a game in 13 games. Christian Camputaro (Jr Canadiens) 1.43 in 8.",
-      "Next for the Jr Canadiens: Toronto Marlboros (#3, 94.48) on Sunday."
+      "Next for the Jr Canadiens: home to Toronto Marlboros (#3, 94.48) on Sunday at 3:45 PM."
      ]
     },
     {
      "t": "Elsewhere",
      "b": [
-      "Toronto Marlboros (#3, 94.48) plays Mississauga Senators (#14, 92.22) on Friday.",
-      "Mississauga Rebels (#7, 93.18) plays North York Rangers (#18, 91.72) on Saturday.",
+      "Toronto Marlboros (#3, 94.48) hosts Mississauga Senators (#14, 92.22) on Friday at 8:10 PM.",
+      "Mississauga Rebels (#7, 93.18) at North York Rangers (#18, 91.72) on Saturday at 1:00 PM.",
       "Oakland Jr Grizzlies (#6) plays Fox Motors twice in league play.",
       "Pittsburgh Vengeance and Palmyra Black Knights meet three times at Alpha Ice Complex.",
       "Victory Honda plays Indiana Elite twice on Saturday in Fort Wayne.",
@@ -953,6 +997,17 @@
      "city": "Worthington, OH",
      "note": "Game 1 of 3",
      "local": "6:50 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Fri",
+     "time": "7:40 PM",
+     "a": "Vaughan Kings",
+     "b": "Toronto Marlboros",
+     "rink": "CWENCH Centre",
+     "city": "Etobicoke, ON",
+     "note": "Ontario #3 at #1",
+     "local": "8:40 PM ET",
      "tz": "CT"
     },
     {
@@ -1032,9 +1087,10 @@
    ],
    "sections": [
     {
-     "t": "A quiet weekend at the top",
+     "t": "Quiet in the USA, busy in Toronto",
      "b": [
-      "Most of the top 20 at 13U are off this weekend.",
+      "Most of the top 20 American teams are off this weekend.",
+      "In Toronto, the unbeaten Toronto Marlboros (#1, 94.29) host Vaughan Kings (#3, 92.66) on Friday.",
       "Next weekend is Thanksgiving weekend, when the International Silver Stick in Whitby and other big tournaments begin."
      ]
     },
@@ -1044,6 +1100,16 @@
       "Three games in Columbus between Ohio (#20) and Philadelphia (#24).",
       "Times: Friday 5:50 PM and Saturday 3:00 PM at Chiller Ice Works, Sunday 10:10 AM at the OhioHealth Ice Haus.",
       "Records: Jr Flyers 18-8-1, Blue Jackets 15-12-2."
+     ]
+    },
+    {
+     "t": "Vaughan Kings at Toronto Marlboros",
+     "b": [
+      "The game: Vaughan Kings (#3, 92.66) at Toronto Marlboros (#1, 94.29), Friday 7:40 PM, CWENCH Centre in Etobicoke.",
+      "The Marlboros are 19-0-1. The only game they have not won was a 1-1 tie with Toronto Jr Canadiens (#2, 92.99) on Nov 6.",
+      "Marlboros to watch: Jackson Ross, a defenseman with 45 points and plus 50 in 26 games. Jonathan Beauclair, 39 points in 23.",
+      "Vaughan to watch: Nathan O'Sullivan, 25 goals and 40 points in 23 games. Vaughan has won its last five, including 4-1 over the Jr Canadiens.",
+      "Rest of the weekend: Vaughan hosts Toronto Red Wings (#8, 90.58) Saturday at 11:40 AM. Jr Canadiens host Mississauga Rebels Sunday at 12:55 PM. Marlboros at Don Mills Flyers Sunday at 6:45 PM."
      ]
     },
     {
@@ -1212,6 +1278,8 @@
     {
      "t": "Elsewhere",
      "b": [
+      "Toronto Jr Canadiens (#2, 97.77) at North York Rangers on Saturday at 10:30 AM.",
+      "Don Mills Flyers (#3, 96.73) at Toronto Marlboros on Friday at 6:25 PM.",
       "Woodbridge Wolfpack hosts Red Bank Generals on Saturday.",
       "Long Island Royals plays New York City Hockey Club and New Jersey Colonials.",
       "Cleveland Barons plays LA Jr Kings on Sunday in Michigan.",
@@ -1248,6 +1316,17 @@
      "city": "Hackensack, NJ",
      "note": "",
      "local": "9:45 AM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "11:15 AM",
+     "a": "Toronto Jr Canadiens",
+     "b": "Toronto Marlboros",
+     "rink": "CWENCH Centre",
+     "city": "Etobicoke, ON",
+     "note": "Ontario #1 at #3",
+     "local": "12:15 PM ET",
      "tz": "CT"
     },
     {
@@ -1362,6 +1441,16 @@
      "b": [
       "Chicago Mission (#8) at Windy City Storm, Saturday 2:40 PM, Orbit Ice Arena.",
       "Chicago Fury (#16) vs Windy City Storm, Sunday 11:20 AM, Arctic Ice Arena."
+     ]
+    },
+    {
+     "t": "Toronto Jr Canadiens at Toronto Marlboros",
+     "b": [
+      "The game: Toronto Jr Canadiens (#1, 94.81) at Toronto Marlboros (#3, 92.79), Saturday 11:15 AM, CWENCH Centre in Etobicoke.",
+      "Head to head: the Jr Canadiens won both meetings, 6-0 on Sep 27 and 5-2 on Oct 18.",
+      "Jr Canadiens to watch: Patrick Middlebrook, 31 goals and 47 points in 20 games. Devin Price, a defenseman with 28 assists and plus 50.",
+      "Marlboros to watch: George Zhang, 21 goals and 44 points in 19 games. The Marlboros have won five straight.",
+      "Also in Toronto: Vaughan Kings (#6, 91.43) hosts Toronto Reps on Saturday at 1:15 PM. Jr Canadiens host Toronto Red Wings on Sunday at 12:40 PM."
      ]
     },
     {

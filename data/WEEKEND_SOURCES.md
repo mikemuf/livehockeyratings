@@ -23,3 +23,14 @@ See the preferences in data/weekend_nov6.txt and weekend_nov20.txt: lead with th
 ## Ontario (owner, Nov 19, 2026: cover Canada too, a carousel per birth year)
 - MHR Ontario rank pages for tools/mhr_sched.js: U16 (2011) v=137, U15 (2012) v=136, U14 (2013) v=135; U13 (2014) and U12 (2015) are probably v=134 and v=133 (check the page title), U11 (2016) v=132. Times on MHR are local (Eastern); subtract one hour for Central.
 - Limit found Nov 19: the GTHL clubs (Marlboros, Jr Canadiens, Vaughan Kings, North York, Titans, Rebels) post almost nothing ahead of time below U16. On Nov 19 the U15 and U14 top three had nothing posted. STILL NEEDED: the GTHL's own schedule (gthlcanada.com game centre), OMHA ETA, ALLIANCE and HEO schedule pages. Find them, record the exact pages here, and build the Ontario sections for 2012-2015 from them.
+
+## GTHL schedule and scores (found Nov 19, 2026): the source for the Toronto clubs at every age
+- Page: gthlcanada.com/schedule/ shows a framed schedule from agilex.ca (SSP/schedules.aspx?event=187). Opening the agilex address directly says "The requested URL is invalid"; it only loads when reached FROM the GTHL page. In Chrome: open gthlcanada.com/schedule/, then run `const s=document.querySelector('iframe[src*=agilex]').src;const a=document.createElement('a');a.href=s;document.body.appendChild(a);a.click()` so the schedule opens as the top page with the right referrer.
+- Then by script: set `ddlDiv` (U10..U18; U16=2011, U15=2012, U14=2013, U13=2014, U12=2015, U11=2016), `ddlCat`='A3' (AAA), `dpFrom`/`dpTo` like '20-Nov-2026', click `sche_btnSearch`, wait 5 s, read the table rows. Columns: date, time (Eastern), Away : Home (score appears between them once played), arena, type (LG = league). About 30 seconds for all five ages.
+- The same page shows final scores, so it is also the results source for GTHL games on game day.
+- Names differ from ours: "Jr. Canadiens" = Toronto Jr Canadiens, "Toronto Young Nationals" = Toronto Nationals, "Reps Hockey Club" = Toronto Reps.
+- Dump for Nov 20-22: data/sched_nov20_gthl.txt.
+- Still to find: OMHA ETA (York Simcoe, Whitby, Quinte, Barrie...), ALLIANCE (Huron-Perth, Waterloo, Chatham-Kent, Elgin Middlesex...), HEO (Ottawa), NOHA schedule pages.
+
+## Owner's method for finding events (Nov 19, 2026)
+If two teams from different cities are playing each other in a third city (a Toronto team against a Pittsburgh team in Detroit), there is an event in that city: look for it. Then search GameSheet for it. GameSheet has schedules, scores, standings and scorers, but tournament names are typed by people and change from year to year, so search by city, rink, date and team names as well as by the event name. Record every event found in EVENTS.md with its GameSheet season id.
