@@ -11,6 +11,7 @@
    "summary": [
     "Northeast Pack in Pittsburgh: The field: all eight 14U teams are ranked in the top 28 in North America (top 17 in the USA). Twelve league games Friday to Sunday, three per team.",
     "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#9, 96.88) 13. Bishop Kearney (#17, 96.18) and Mount St Charles (#12, 96.47) 11 each. Chicago Mission (#8, 97.05) 10. Pittsburgh Penguins Elite (#19, 96.11) 8. NJ Rockets (#25, 95.90) 6. Chicago Reapers (#28, 95.70) 4.",
+    "Also big: Shattuck St Mary's (#2, 99.69) plays three at Little Caesars (#6, 97.36) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
     "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
     "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1)."
    ],
@@ -117,6 +118,17 @@
      "city": "Pittsburgh, PA",
      "note": "Olympic Rink",
      "local": "5:30 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Fri",
+     "time": "5:00 PM",
+     "a": "Shattuck St Mary's",
+     "b": "Little Caesars",
+     "rink": "Belfor Training Center",
+     "city": "Detroit, MI",
+     "note": "USA #2 at USA #3",
+     "local": "6:00 PM ET",
      "tz": "CT"
     },
     {
@@ -251,6 +263,17 @@
     },
     {
      "day": "Sat",
+     "time": "4:00 PM",
+     "a": "Shattuck St Mary's",
+     "b": "Little Caesars",
+     "rink": "Belfor Training Center",
+     "city": "Detroit, MI",
+     "note": "USA #2 at USA #3",
+     "local": "5:00 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
      "time": "4:45 PM",
      "a": "Bishop Kearney Selects",
      "b": "NJ Rockets",
@@ -323,6 +346,17 @@
      "city": "",
      "note": "THF showcase",
      "local": "10:40 AM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "11:00 AM",
+     "a": "Shattuck St Mary's",
+     "b": "Little Caesars",
+     "rink": "Belfor Training Center",
+     "city": "Detroit, MI",
+     "note": "USA #2 at USA #3",
+     "local": "12:00 PM ET",
      "tz": "CT"
     }
    ],
@@ -495,6 +529,14 @@
       "Jayden Widen (Mount St Charles): 6 goals and 12 points.",
       "Mid-Fairfield has six of the league's top 15 scorers.",
       "Goalies: Luke Thompson (Mid-Fairfield) is 5-0 with 8 goals against in 5 games. Logan Morgida (Wolfpack) is 4-0."
+     ]
+    },
+    {
+     "t": "Shattuck St Mary's at Little Caesars, three games",
+     "b": [
+      "The series: Shattuck St Mary's (#2, 99.69) at Little Caesars (#6, 97.36), three games at Belfor Training Center in Detroit.",
+      "Game times: Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
+      "Why it matters: second against third in the USA. Mid-Fairfield is the only American team ranked above both."
      ]
     },
     {
