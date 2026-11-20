@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Preview — all six birth years",
- "updated": "Fri Nov 20, 8:15 AM CT",
+ "updated": "Fri Nov 20, 8:26 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -2293,5 +2293,7 @@
    "Ratings: no change. Delta is outside the rated pool, so the result does not move Nashville's rating.",
    "Next for Nashville: Burnaby Winter Club Academy on Friday at 12:00 PM, then St George's School at 10:00 PM."
   ]
- }
+ },
+ "live_start": "2026-11-20T06:00:00-06:00",
+ "live_end": "2026-11-22T22:30:00-06:00"
 }

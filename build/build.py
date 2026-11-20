@@ -207,7 +207,7 @@ for _a in ('<p class="small" style="margin:10px 0 0">This list has','<p class="s
 import re as _re
 _nav=_re.search(r'<button data-view="rank" class="on">USA</button>.*?<button data-view="log">Game log</button>',h,_re.S)
 assert _nav
-h=h.replace(_nav.group(0),'<button data-view="wk" class="on">Live scores</button>\n  <button data-view="na">North America</button>\n  <button data-view="rank">USA</button>\n  <button data-view="can">Canada</button>\n  <button data-view="team">Team math</button>\n  <button data-view="log">Game log</button>',1)
+h=h.replace(_nav.group(0),'<button data-view="wk" class="on">Live Scores</button>\n  <button data-view="na">North America</button>\n  <button data-view="rank">USA</button>\n  <button data-view="can">Canada</button>\n  <button data-view="team">Team math</button>\n  <button data-view="log">Game log</button>',1)
 h=h.replace('nav.tabs button[data-view="team"]{display:none!important}','nav.tabs button[data-view="team"],nav.tabs button[data-view="log"]{display:none!important}',1)
 assert h.count("let div='2012', view='rank', selTeam=null;")==1 and h.count("view='rank';selTeam=null;return}")==1
 h=h.replace("let div='2012', view='rank', selTeam=null;","let div='2012', view='wk', selTeam=null;",1).replace("view='rank';selTeam=null;return}","view='na';selTeam=null;return}",1)

@@ -40,16 +40,16 @@ function renderWeekend(S){
   const __p2=h.length; /* owner, Nov 20 2026: live scores first, then finals, then upcoming games, then the write-up */
   {const LV=liveBoxes(div);if(LV.length)h+=`<div class="card" style="border-left:4px solid #c8102e"><h3 style="margin-top:0;color:#c8102e">Live now</h3>`+LV.map(x=>`<div class="wkr wkclick" data-gm="b${x.bi}"><div>${rkpre(x.v)}${esc(x.v)}${tag(x.v)}${x.st?` <span class="small" style="color:#c8102e">${esc(x.st)}</span>`:''}</div><div class="sc num">${x.vs}</div><div>${rkpre(x.h)}${esc(x.h)}${tag(x.h)}</div><div class="sc num">${x.hs}</div></div>`).join('')+'<p class="legend">Tap a game for goals, assists and penalties as they happen.</p></div>'}
   const __p3=h.length;
-  h+='<div class="card"><h3 style="margin-top:0">Games to watch <span class="small">· all times Central</span></h3>';
+  h+='<div class="card"><h3 style="margin-top:0">Games to watch <span class="small">· top-30 matchups · all times Central</span></h3>';
   const MON={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
   const wdate=d=>{const DN=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(String(d||'').slice(0,3));if(DN>=0&&!/\d/.test(String(d))&&W.from&&W.to){for(let t=new Date(W.from+'T12:00:00Z');t<=new Date(W.to+'T12:00:00Z');t=new Date(t.getTime()+864e5)){if(t.getUTCDay()===DN)return t.toISOString().slice(0,10)}} /* owner, Nov 19 2026: a plain day name maps to its date in the weekend window, so game 1 of a series going final does not hide games 2 and 3 */ const m=String(d||'').match(/([A-Z][a-z]{2}) (\d{1,2})/);if(!m||MON[m[1]]===undefined)return '';const y=(W.from||'2026').slice(0,4);return y+'-'+String(MON[m[1]]+1).padStart(2,'0')+'-'+m[2].padStart(2,'0')};
   const played=g=>{const dt=wdate(g.day);const pr=[g.a,g.b].sort().join('|');
     if(WEEKEND_GAMES.some(x=>x[0]===div&&(!dt||x[1]===dt)&&[x[2],x[4]].sort().join('|')===pr))return true;
     const BXW=(typeof WEEKEND_BOX!=='undefined'?WEEKEND_BOX:[]);if(BXW.some(x=>x.div===div&&(!dt||x.date===dt)&&[x.v,x.h].sort().join('|')===pr&&/^FINAL/i.test(x.st||'')))return true;
     if(dt&&dt<new Date(Date.now()-6*3600e3).toISOString().slice(0,10))return true;return false};
-  const W2=(D.watch||[]).map((g,j)=>Object.assign(Array.isArray(g)?{day:g[0],time:g[1],a:g[2],b:g[3],rink:g[4]||'',city:'',note:''}:Object.assign({},g),{_j:j})).filter(g=>!played(g));
+  const W2=(D.watch||[]).map((g,j)=>Object.assign(Array.isArray(g)?{day:g[0],time:g[1],a:g[2],b:g[3],rink:g[4]||'',city:'',note:''}:Object.assign({},g),{_j:j})).filter(g=>!played(g)&&rkn[g.a]&&rkn[g.b]&&rkn[g.a]<=30&&rkn[g.b]<=30); /* owner, Nov 20 2026: only matchups between two top-30 North American teams are listed; every tracked game still shows under Live now and Final scores */
   if(W2.length)h+='<table class="wkg">'+W2.map((g,j)=>{const q=encodeURIComponent((g.rink+' '+(g.city||'')).trim());const loc=g.rink?`<div class="wkloc">📍 <b>${esc(g.rink)}</b>${g.city?', '+esc(g.city):''}<br><a href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener">Map</a> · <a href="https://livebarn.com/en/venue" target="_blank" rel="noopener">LiveBarn</a>${g.note?' · '+esc(g.note):''}${g.local?' · '+esc(g.local)+' at the rink':''}</div>`:'';return `<tr><td class="small" style="white-space:nowrap">${esc(g.day)}<br>${esc(g.time||'')}${g.tz?' CT':''}</td><td><span class="wkclick" data-gm="w${g._j}">${rkpre(g.a)}${esc(g.a)}${tag(g.a)}<br>vs ${rkpre(g.b)}${esc(g.b)}${tag(g.b)} <span class="small" style="color:var(--red,#c8102e)">›</span></span>${loc}</td></tr>`}).join('')+'</table><p class="small" style="margin:8px 0 0">All times are Central.</p>';
-  else h+=`<p class="small">${esc(W.next||'Check back later in the week.')}</p>`;
+  else h+=`<p class="small">${(D.watch||[]).length?'No top-30 matchups left on the schedule. Every tracked game still shows under Live now and Final scores.':esc(W.next||'Check back later in the week.')}</p>`;
   h+='</div>';
   const __p4=h.length;
   const G=WEEKEND_GAMES.map((g,i)=>Object.assign(g.slice(),{gi:i})).filter(g=>g[0]===div).sort((a,b)=>a[1]<b[1]?1:a[1]>b[1]?-1:0);
@@ -109,3 +109,8 @@ function renderGame(S,key){
 }
 document.addEventListener('click',e=>{const g=e.target.closest&&e.target.closest('[data-gm]');if(g){location.hash='#game='+div+'-'+g.dataset.gm;return}
   if(e.target.closest&&e.target.closest('.seg button,nav.tabs button'))WK_SEL=null},true);
+
+/* owner, Nov 20 2026: from the weekend's first puck to the end of its last game the tab reads with a goal light on each side */
+function wkLiveOn(){const W=WEEKEND,n=Date.now();return !!(W.live_start&&W.live_end&&n>=Date.parse(W.live_start)&&n<=Date.parse(W.live_end))}
+function wkTabLabel(){const b=document.querySelector('button[data-view="wk"]');if(b)b.textContent=wkLiveOn()?'\u{1F6A8} Live Scores \u{1F6A8}':'Live Scores'}
+if(typeof window!=='undefined'&&typeof document!=='undefined'&&window.document===document){setTimeout(wkTabLabel,0);setInterval(wkTabLabel,60000)}
