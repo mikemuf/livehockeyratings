@@ -1,0 +1,5 @@
+// GameSheet season search, scripted. Run in a Chrome tab on https://www.gamesheetinc.com/stats
+// await window.__gss('Team Illinois')  -> list of season titles. Works with club names, event names, cities AND DATE STRINGS
+// ('Nov 20-22, 2026', 'Nov 21-22, 2026', 'Nov 19-22, 2026'): a date string lists every event on GameSheet that weekend.
+// To get a season id: click the result (find + left_click), then read document.querySelector('iframe').src (/seasons/<ID>/scores).
+window.__gss=async q=>{const i=[...document.querySelectorAll('input')].find(x=>/Search leagues/.test(x.placeholder));i.focus();const set=Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set;set.call(i,'');i.dispatchEvent(new Event('input',{bubbles:true}));set.call(i,q);i.dispatchEvent(new Event('input',{bubbles:true}));await new Promise(r=>setTimeout(r,3500));const lb=document.querySelector('[role=listbox]');return [...new Set([...(lb?lb.querySelectorAll('a'):[])].map(o=>o.innerText.replace(/\s+/g,' ').replace(/ · Hockey.*/,'').trim()))]};
