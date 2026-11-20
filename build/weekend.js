@@ -39,7 +39,7 @@ function renderWeekend(S){
   {const LV=liveBoxes(div);if(LV.length)h+=`<div class="card" style="border-left:4px solid #c8102e"><h3 style="margin-top:0;color:#c8102e">Live now</h3>`+LV.map(x=>`<div class="wkr wkclick" data-gm="b${x.bi}"><div>${rkpre(x.v)}${esc(x.v)}${tag(x.v)}</div><div class="sc num">${x.vs}</div><div>${rkpre(x.h)}${esc(x.h)}${tag(x.h)}</div><div class="sc num">${x.hs}</div></div>`).join('')+'<p class="legend">Tap a game for goals, assists and penalties as they happen.</p></div>'}
   h+='<div class="card"><h3 style="margin-top:0">Games to watch <span class="small">· all times Central</span></h3>';
   const MON={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
-  const wdate=d=>{const m=String(d||'').match(/([A-Z][a-z]{2}) (\d{1,2})/);if(!m||MON[m[1]]===undefined)return '';const y=(W.from||'2026').slice(0,4);return y+'-'+String(MON[m[1]]+1).padStart(2,'0')+'-'+m[2].padStart(2,'0')};
+  const wdate=d=>{const DN=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(String(d||'').slice(0,3));if(DN>=0&&!/\d/.test(String(d))&&W.from&&W.to){for(let t=new Date(W.from+'T12:00:00Z');t<=new Date(W.to+'T12:00:00Z');t=new Date(t.getTime()+864e5)){if(t.getUTCDay()===DN)return t.toISOString().slice(0,10)}} /* owner, Nov 19 2026: a plain day name maps to its date in the weekend window, so game 1 of a series going final does not hide games 2 and 3 */ const m=String(d||'').match(/([A-Z][a-z]{2}) (\d{1,2})/);if(!m||MON[m[1]]===undefined)return '';const y=(W.from||'2026').slice(0,4);return y+'-'+String(MON[m[1]]+1).padStart(2,'0')+'-'+m[2].padStart(2,'0')};
   const played=g=>{const dt=wdate(g.day);const pr=[g.a,g.b].sort().join('|');
     if(WEEKEND_GAMES.some(x=>x[0]===div&&(!dt||x[1]===dt)&&[x[2],x[4]].sort().join('|')===pr))return true;
     const BXW=(typeof WEEKEND_BOX!=='undefined'?WEEKEND_BOX:[]);if(BXW.some(x=>x.div===div&&(!dt||x.date===dt)&&[x.v,x.h].sort().join('|')===pr&&/^FINAL/i.test(x.st||'')))return true;
@@ -49,7 +49,7 @@ function renderWeekend(S){
   else h+=`<p class="small">${esc(W.next||'Check back later in the week.')}</p>`;
   h+='</div>';
   const G=WEEKEND_GAMES.map((g,i)=>Object.assign(g.slice(),{gi:i})).filter(g=>g[0]===div).sort((a,b)=>a[1]<b[1]?1:a[1]>b[1]?-1:0);
-  if(G.length){h+=`<div class="card"><h3 style="margin-top:0">Results this weekend <span class="small">(${G.length})</span></h3>`;
+  if(G.length){h+=`<div class="card"><h3 style="margin-top:0">Final scores <span class="small">(${G.length})</span></h3>`;
     let last='';G.forEach(g=>{const aw=g[3]>g[5],bw=g[5]>g[3];if(g[1]!==last){h+=`<div class="wkd">${nice(g[1])}</div>`;last=g[1]}h+=`<div class="wkr wkclick" data-gm="r${g.gi}"><div>${rkpre(g[2])}${aw?'<b>':''}${esc(g[2])}${aw?'</b>':''}${tag(g[2])}</div><div class="sc num">${g[3]}</div><div>${rkpre(g[4])}${bw?'<b>':''}${esc(g[4])}${bw?'</b>':''}${tag(g[4])}</div><div class="sc num">${g[5]}</div></div>`});
     h+='<p class="legend">Tap a game for the matchup page. The number in front of each team is its North American rank (USA and Canada together). Its rank in its own country and its rating follow in parentheses. NR = not ranked.</p></div>'}
   return h;

@@ -177,6 +177,8 @@ h=h.replace("div==='2012'?'2012 Bantam Major':'2013 Bantam Minor'","({'2011':'20
 WK=json.load(open('data/weekend_public.json'))
 WBOX=sorted([v for k,v in (json.load(open('data/gs_box.json')) if os.path.exists('data/gs_box.json') else {}).items() if WK['from']<=v['date']<=WK['to']],key=lambda v:(v['date'],v['time']))
 WG=[g[:6] for g in json.load(open('data/games_wk_nov6.json'))+json.load(open('data/pending_games.json')) if WK['from']<=g[1]<=WK['to']]
+# Games against teams outside the ratings (data/unrated_games.json) also show under Final scores; they never touch the ratings (owner, Nov 19, 2026).
+WG+=[g[:6] for g in json.load(open('data/unrated_games.json')) if WK['from']<=g[1]<=WK['to']]
 rep('  <button data-view="sched">Schedule</button>\n','')
 rep('  <button data-view="add">Add scores</button>\n','')
 rep('  <button data-view="export">Handoff</button>\n','')
