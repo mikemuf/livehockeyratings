@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Preview — all six birth years",
- "updated": "Fri Nov 20, 9:54 AM CT",
+ "updated": "Fri Nov 20, 10:10 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -64,7 +64,8 @@
      "city": "Cranberry Township, PA",
      "note": "FedEx Rink 1",
      "local": "8:00 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175099"
     },
     {
      "day": "Fri",
@@ -75,7 +76,8 @@
      "city": "Pittsburgh, PA",
      "note": "Olympic Rink",
      "local": "11:30 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175111"
     },
     {
      "day": "Fri",
@@ -97,7 +99,8 @@
      "city": "Pittsburgh, PA",
      "note": "Olympic Rink",
      "local": "1:30 PM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175112"
     },
     {
      "day": "Fri",
@@ -118,7 +121,8 @@
      "city": "Pittsburgh, PA",
      "note": "Olympic Rink",
      "local": "5:30 PM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175114"
     },
     {
      "day": "Fri",
@@ -817,7 +821,8 @@
      "city": "Cranberry Township, PA",
      "note": "Covestro Rink",
      "local": "9:15 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175104"
     },
     {
      "day": "Fri",
