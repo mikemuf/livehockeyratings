@@ -1,0 +1,23 @@
+#V2011
+12 Peterborough Jr Petes|21|4:30pm|Upper Canada College||Healthy Planet Arena
+#V2012
+4 York Simcoe Express|21|6:30pm|North Central Predators|*|La Brier Family Arena
+4 York Simcoe Express|22|5:45pm|Peterborough Jr Petes|*|Healthy Planet Arena
+8 Chatham-Kent Cyclones|21|6:15pm|Waterloo Wolves|*|RIM Park
+8 Chatham-Kent Cyclones|22|1:30pm|Cambridge Hawks|*|Blenheim Community and Recreation Centre
+10 Oakville Rangers|21|6:25pm|Grey Bruce Highlanders|*|Joshua's Creek Arenas
+10 Oakville Rangers|22|5:05pm|Halton Hurricanes|*|Trafalgar Park
+11 Niagara North Stars|21|3:00pm|Credit River Capitals|*|Seymour-Hannah Sports & Entertainment Center
+12 Brantford 99ers|22|1:30pm|Huron-Perth Lakers|*|Stratford Rotary Complex
+15 Elgin Middlesex Canucks|20|8:15pm|London Jr Knights|*|Middlesex Wellness Centre
+15 Elgin Middlesex Canucks|21|12:15pm|Huron-Perth Lakers|*|Middlesex Wellness Centre
+18 Barrie Colts|21|5:30pm|Kingston Jr Gaels|*|Cataraqui Community Centre
+18 Barrie Colts|22|5:45pm|Kingston Jr Gaels|*|INVISTA Centre
+#V2013
+17 Sun County Panthers|20|8:00pm|Soo Jr Greyhounds||Essex Centre Sports Complex
+17 Sun County Panthers|22|12:00pm|Chatham-Kent Cyclones||Blenheim Community and Recreation Centre
+#V2014
+7 Sun County Panthers|21|7:30pm|Cleveland Barons||Ice Cube - Brighton
+#V2016
+8 Kitchener Jr Rangers|22|9:00am|Windsor Jr Spitfires|*|Windsor Family Credit Union Centre
+9 London Jr Knights|21|2:50pm|Windsor Jr Spitfires|*|Nichols Arena

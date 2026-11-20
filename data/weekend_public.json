@@ -155,6 +155,17 @@
     },
     {
      "day": "Fri",
+     "time": "7:15 PM",
+     "a": "Elgin Middlesex Canucks",
+     "b": "London Jr Knights",
+     "rink": "Middlesex Wellness Centre",
+     "city": "",
+     "note": "League",
+     "local": "8:15 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Fri",
      "time": "7:55 PM",
      "a": "Vaughan Kings",
      "b": "Toronto Red Wings",
@@ -231,6 +242,17 @@
     },
     {
      "day": "Sat",
+     "time": "11:15 AM",
+     "a": "Elgin Middlesex Canucks",
+     "b": "Huron Perth Lakers",
+     "rink": "Middlesex Wellness Centre",
+     "city": "",
+     "note": "League",
+     "local": "12:15 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
      "time": "12:45 PM",
      "a": "HB Detroit",
      "b": "Victory Honda",
@@ -274,6 +296,17 @@
     },
     {
      "day": "Sat",
+     "time": "2:00 PM",
+     "a": "Niagara North Stars",
+     "b": "Credit River Capitals",
+     "rink": "Seymour-Hannah Sports & Entertainment Center",
+     "city": "",
+     "note": "League",
+     "local": "3:00 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
      "time": "2:30 PM",
      "a": "Vaughan Kings",
      "b": "North York Rangers",
@@ -307,6 +340,28 @@
     },
     {
      "day": "Sat",
+     "time": "4:00 PM",
+     "a": "PAL Jr Islanders",
+     "b": "Atlantic Coast Academy",
+     "rink": "Northwell Health Ice Center",
+     "city": "",
+     "note": "",
+     "local": "5:00 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "4:30 PM",
+     "a": "Barrie Colts",
+     "b": "Kingston Jr Gaels",
+     "rink": "Cataraqui Community Centre",
+     "city": "",
+     "note": "League",
+     "local": "5:30 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
      "time": "4:45 PM",
      "a": "Bishop Kearney Selects",
      "b": "NJ Rockets",
@@ -314,6 +369,50 @@
      "city": "Pittsburgh, PA",
      "note": "Olympic Rink",
      "local": "5:45 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "5:15 PM",
+     "a": "Chatham-Kent Cyclones",
+     "b": "Waterloo Wolves",
+     "rink": "RIM Park",
+     "city": "",
+     "note": "League",
+     "local": "6:15 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "5:25 PM",
+     "a": "Oakville Rangers",
+     "b": "Grey Bruce Highlanders",
+     "rink": "Joshua's Creek Arenas",
+     "city": "",
+     "note": "League",
+     "local": "6:25 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "5:30 PM",
+     "a": "York Simcoe Express",
+     "b": "North Central Predators",
+     "rink": "La Brier Family Arena",
+     "city": "",
+     "note": "League",
+     "local": "6:30 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "7:30 PM",
+     "a": "PAL Jr Islanders",
+     "b": "Atlantic Coast Academy",
+     "rink": "Northwell Health Ice Center",
+     "city": "",
+     "note": "",
+     "local": "8:30 PM ET",
      "tz": "CT"
     },
     {
@@ -394,6 +493,39 @@
     },
     {
      "day": "Sun",
+     "time": "12:20 PM",
+     "a": "PAL Jr Islanders",
+     "b": "Atlantic Coast Academy",
+     "rink": "The Rinx at Hauppauge",
+     "city": "",
+     "note": "",
+     "local": "1:20 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "12:30 PM",
+     "a": "Chatham-Kent Cyclones",
+     "b": "Cambridge Hawks",
+     "rink": "Blenheim Community and Recreation Centre",
+     "city": "",
+     "note": "League",
+     "local": "1:30 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "12:30 PM",
+     "a": "Brantford 99ers",
+     "b": "Huron Perth Lakers",
+     "rink": "Stratford Rotary Complex",
+     "city": "",
+     "note": "League",
+     "local": "1:30 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
      "time": "2:15 PM",
      "a": "Markham Majors",
      "b": "Toronto Jr Canadiens",
@@ -401,6 +533,39 @@
      "city": "Toronto area, ON",
      "note": "GTHL",
      "local": "3:15 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "4:05 PM",
+     "a": "Oakville Rangers",
+     "b": "Halton Hurricanes",
+     "rink": "Trafalgar Park",
+     "city": "",
+     "note": "League",
+     "local": "5:05 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "4:45 PM",
+     "a": "York Simcoe Express",
+     "b": "Peterborough Jr Petes",
+     "rink": "Healthy Planet Arena",
+     "city": "",
+     "note": "League",
+     "local": "5:45 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "4:45 PM",
+     "a": "Barrie Colts",
+     "b": "Kingston Jr Gaels",
+     "rink": "INVISTA Centre",
+     "city": "",
+     "note": "League",
+     "local": "5:45 PM ET",
      "tz": "CT"
     },
     {
@@ -675,6 +840,17 @@
     },
     {
      "day": "Fri",
+     "time": "2:30 PM",
+     "a": "Seacoast Performance Academy",
+     "b": "South Kent School",
+     "rink": "Admiral James and Sybil Stockdale Arena",
+     "city": "",
+     "note": "League",
+     "local": "3:30 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Fri",
      "time": "4:30 PM",
      "a": "Woodbridge Wolfpack",
      "b": "Bishop Kearney Selects",
@@ -796,6 +972,17 @@
     },
     {
      "day": "Sat",
+     "time": "2:00 PM",
+     "a": "Notre Dame Hockey Academy",
+     "b": "Atlantic Coast Academy",
+     "rink": "Boys & Girls Club of the Berkshires",
+     "city": "",
+     "note": "League",
+     "local": "3:00 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
      "time": "2:40 PM",
      "a": "Bishop Kearney Selects",
      "b": "Pittsburgh Penguins Elite",
@@ -814,6 +1001,17 @@
      "city": "Toronto area, ON",
      "note": "GTHL",
      "local": "3:55 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "3:30 PM",
+     "a": "Peterborough Jr Petes",
+     "b": "Upper Canada College",
+     "rink": "Healthy Planet Arena",
+     "city": "",
+     "note": "",
+     "local": "4:30 PM ET",
      "tz": "CT"
     },
     {
@@ -857,6 +1055,17 @@
      "rink": "Baierl Ice Complex",
      "city": "Warrendale, PA",
      "note": "World Rink",
+     "local": "8:00 AM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "7:00 AM",
+     "a": "Notre Dame Hockey Academy",
+     "b": "Atlantic Coast Academy",
+     "rink": "Boys & Girls Club of the Berkshires",
+     "city": "",
+     "note": "League",
      "local": "8:00 AM ET",
      "tz": "CT"
     },
@@ -1164,6 +1373,17 @@
     },
     {
      "day": "Fri",
+     "time": "7:00 PM",
+     "a": "Sun County Panthers",
+     "b": "Soo Jr Greyhounds",
+     "rink": "Essex Centre Sports Complex",
+     "city": "",
+     "note": "",
+     "local": "8:00 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Fri",
      "time": "7:40 PM",
      "a": "Vaughan Kings",
      "b": "Toronto Marlboros",
@@ -1258,6 +1478,17 @@
      "city": "Plymouth, MI",
      "note": "League game",
      "local": "11:40 AM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "11:00 AM",
+     "a": "Sun County Panthers",
+     "b": "Chatham-Kent Cyclones",
+     "rink": "Blenheim Community and Recreation Centre",
+     "city": "",
+     "note": "",
+     "local": "12:00 PM ET",
      "tz": "CT"
     },
     {
@@ -1536,6 +1767,17 @@
      "tz": "CT"
     },
     {
+     "day": "Sat",
+     "time": "6:30 PM",
+     "a": "Sun County Panthers",
+     "b": "Cleveland Barons",
+     "rink": "Ice Cube - Brighton",
+     "city": "",
+     "note": "",
+     "local": "7:30 PM ET",
+     "tz": "CT"
+    },
+    {
      "day": "Sun",
      "time": "8:00 AM",
      "a": "Cleveland Barons",
@@ -1723,6 +1965,17 @@
      "tz": "CT"
     },
     {
+     "day": "Sat",
+     "time": "4:20 PM",
+     "a": "Dallas Stars Elite",
+     "b": "Houston Jr Aeros 12U AA",
+     "rink": "Bellerive Ice Center",
+     "city": "",
+     "note": "League",
+     "local": "4:20 PM CT",
+     "tz": "CT"
+    },
+    {
      "day": "Sun",
      "time": "8:25 AM",
      "a": "South Shore Kings (Elite)",
@@ -1735,6 +1988,17 @@
     },
     {
      "day": "Sun",
+     "time": "9:00 AM",
+     "a": "PAL Jr Islanders (Blue)",
+     "b": "Mid-Fairfield Hockey Club (T1)",
+     "rink": "Chelsea Piers Athletic Club",
+     "city": "",
+     "note": "League",
+     "local": "10:00 AM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
      "time": "9:30 AM",
      "a": "Mid-Fairfield Hockey Club (Elite)",
      "b": "Bay State Breakers (Elite)",
@@ -1742,6 +2006,17 @@
      "city": "Kingston, MA",
      "note": "League game",
      "local": "10:30 AM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "9:50 AM",
+     "a": "Dallas Stars Elite",
+     "b": "Houston Jr Aeros 12U AA",
+     "rink": "Deep South Ice Sports Complex",
+     "city": "",
+     "note": "League",
+     "local": "9:50 AM CT",
      "tz": "CT"
     },
     {
@@ -1888,6 +2163,17 @@
     },
     {
      "day": "Sat",
+     "time": "1:50 PM",
+     "a": "London Jr Knights",
+     "b": "Windsor Jr Spitfires",
+     "rink": "Nichols Arena",
+     "city": "",
+     "note": "League",
+     "local": "2:50 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
      "time": "4:00 PM",
      "a": "Washington Little Capitals",
      "b": "New Jersey Colonials",
@@ -1906,6 +2192,17 @@
      "city": "Leesburg, VA",
      "note": "League game",
      "local": "8:40 AM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "8:00 AM",
+     "a": "Kitchener Jr Rangers",
+     "b": "Windsor Jr Spitfires",
+     "rink": "Windsor Family Credit Union Centre",
+     "city": "",
+     "note": "League",
+     "local": "9:00 AM ET",
      "tz": "CT"
     },
     {
@@ -1950,6 +2247,17 @@
      "city": "Kings Park, NY",
      "note": "",
      "local": "3:40 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "8:00 PM",
+     "a": "LA Jr Kings (Voulelikas) 10U A",
+     "b": "SDIA Oilers 12U A",
+     "rink": "San Diego Ice Arena",
+     "city": "San Diego, CA",
+     "note": "League",
+     "local": "6:00 PM PT",
      "tz": "CT"
     }
    ],
