@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Preview — all six birth years",
- "updated": "Fri Nov 20, 11:39 AM CT",
+ "updated": "Fri Nov 20, 11:56 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -1669,66 +1669,6 @@
    "watch": [
     {
      "day": "Fri",
-     "time": "9:00 AM",
-     "a": "Vegas Jr Golden Knights",
-     "b": "Chicago Reapers",
-     "rink": "Centene Community Ice Center",
-     "city": "Maryland Heights, MO",
-     "note": "Tournament",
-     "tz": "CT"
-    },
-    {
-     "day": "Fri",
-     "time": "9:10 AM",
-     "a": "St Louis Blues",
-     "b": "Chicago Mission",
-     "rink": "Centene Community Ice Center",
-     "city": "Maryland Heights, MO",
-     "note": "Tournament",
-     "tz": "CT"
-    },
-    {
-     "day": "Fri",
-     "time": "10:20 AM",
-     "a": "Victory Honda",
-     "b": "Dallas Stars Elite",
-     "rink": "Centene Community Ice Center",
-     "city": "Maryland Heights, MO",
-     "note": "Tournament",
-     "tz": "CT"
-    },
-    {
-     "day": "Fri",
-     "time": "3:30 PM",
-     "a": "Vegas Jr Golden Knights",
-     "b": "Philadelphia Hockey Club",
-     "rink": "Centene Community Ice Center",
-     "city": "Maryland Heights, MO",
-     "note": "Tournament",
-     "tz": "CT"
-    },
-    {
-     "day": "Fri",
-     "time": "3:50 PM",
-     "a": "Victory Honda",
-     "b": "Chicago Mission",
-     "rink": "Centene Community Ice Center",
-     "city": "Maryland Heights, MO",
-     "note": "Tournament",
-     "tz": "CT"
-    },
-    {
-     "day": "Fri",
-     "time": "4:20 PM",
-     "a": "St Louis Blues",
-     "b": "Dallas Stars Elite",
-     "rink": "Centene Community Ice Center",
-     "city": "Maryland Heights, MO",
-     "note": "Tournament",
-     "tz": "CT"
-    },
-    {
-     "day": "Fri",
      "time": "6:25 PM",
      "a": "Don Mills Flyers",
      "b": "Toronto Marlboros",
@@ -1747,26 +1687,6 @@
      "city": "Toronto area, ON",
      "note": "GTHL",
      "local": "7:45 PM ET",
-     "tz": "CT"
-    },
-    {
-     "day": "Sat",
-     "time": "7:40 AM",
-     "a": "St Louis Blues",
-     "b": "Victory Honda",
-     "rink": "Centene Community Ice Center",
-     "city": "Maryland Heights, MO",
-     "note": "Tournament",
-     "tz": "CT"
-    },
-    {
-     "day": "Sat",
-     "time": "8:20 AM",
-     "a": "Florida Alliance",
-     "b": "Vegas Jr Golden Knights",
-     "rink": "Centene Community Ice Center",
-     "city": "Maryland Heights, MO",
-     "note": "Tournament",
      "tz": "CT"
     },
     {
@@ -1889,6 +1809,139 @@
      "note": "GTHL",
      "local": "3:55 PM ET",
      "tz": "CT"
+    },
+    {
+     "day": "Fri",
+     "time": "8:40 AM",
+     "a": "Florida Alliance",
+     "b": "Philadelphia Hockey Club",
+     "rink": "Centene Community Ice Center (Plager Rink)",
+     "city": "Maryland Heights, MO",
+     "note": "STL AAA Blues Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159123",
+     "time_note": "start time not shown on the sheet once final"
+    },
+    {
+     "day": "Fri",
+     "time": "9:20 AM",
+     "a": "Vegas Jr Golden Knights",
+     "b": "Chicago Reapers",
+     "rink": "Centene Community Ice Center (The Barn)",
+     "city": "Maryland Heights, MO",
+     "note": "STL AAA Blues Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159124"
+    },
+    {
+     "day": "Fri",
+     "time": "9:10 AM",
+     "a": "St Louis Blues",
+     "b": "Chicago Mission",
+     "rink": "Centene Community Ice Center (USA Arena)",
+     "city": "Maryland Heights, MO",
+     "note": "STL AAA Blues Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159125"
+    },
+    {
+     "day": "Fri",
+     "time": "10:20 AM",
+     "a": "Dallas Stars Elite",
+     "b": "Victory Honda",
+     "rink": "Centene Community Ice Center (Plager Rink)",
+     "city": "Maryland Heights, MO",
+     "note": "STL AAA Blues Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159126"
+    },
+    {
+     "day": "Fri",
+     "time": "2:00 PM",
+     "a": "Chicago Reapers",
+     "b": "Florida Alliance",
+     "rink": "Centene Community Ice Center (Plager Rink)",
+     "city": "Maryland Heights, MO",
+     "note": "STL AAA Blues Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159127"
+    },
+    {
+     "day": "Fri",
+     "time": "3:40 PM",
+     "a": "Philadelphia Hockey Club",
+     "b": "Vegas Jr Golden Knights",
+     "rink": "Centene Community Ice Center (Plager Rink)",
+     "city": "Maryland Heights, MO",
+     "note": "STL AAA Blues Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159128"
+    },
+    {
+     "day": "Fri",
+     "time": "4:20 PM",
+     "a": "Victory Honda",
+     "b": "Chicago Mission",
+     "rink": "Centene Community Ice Center (Stifel Rink)",
+     "city": "Maryland Heights, MO",
+     "note": "STL AAA Blues Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159129"
+    },
+    {
+     "day": "Fri",
+     "time": "4:20 PM",
+     "a": "Dallas Stars Elite",
+     "b": "St Louis Blues",
+     "rink": "Centene Community Ice Center (USA Arena)",
+     "city": "Maryland Heights, MO",
+     "note": "STL AAA Blues Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159130"
+    },
+    {
+     "day": "Sat",
+     "time": "7:20 AM",
+     "a": "Chicago Reapers",
+     "b": "Philadelphia Hockey Club",
+     "rink": "Centene Community Ice Center (Plager Rink)",
+     "city": "Maryland Heights, MO",
+     "note": "STL AAA Blues Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159131"
+    },
+    {
+     "day": "Sat",
+     "time": "7:40 AM",
+     "a": "Victory Honda",
+     "b": "St Louis Blues",
+     "rink": "Centene Community Ice Center (Stifel Rink)",
+     "city": "Maryland Heights, MO",
+     "note": "STL AAA Blues Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159132"
+    },
+    {
+     "day": "Sat",
+     "time": "7:50 AM",
+     "a": "Chicago Mission",
+     "b": "Dallas Stars Elite",
+     "rink": "Centene Community Ice Center (The Barn)",
+     "city": "Maryland Heights, MO",
+     "note": "STL AAA Blues Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159133"
+    },
+    {
+     "day": "Sat",
+     "time": "8:20 AM",
+     "a": "Florida Alliance",
+     "b": "Vegas Jr Golden Knights",
+     "rink": "Centene Community Ice Center (USA Arena)",
+     "city": "Maryland Heights, MO",
+     "note": "STL AAA Blues Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159134"
     }
    ],
    "sections": [
@@ -2363,6 +2416,30 @@
    "Standings: a regulation win, three points for Mount St Charles in Northeast Pack play.",
    "Ratings: little movement. Mount St Charles stays #4 in North America (USA #3), 95.56 to 95.54, because a one-goal win was less than its rating expected. Mission stays #13 (USA #8), 93.95 to 93.97.",
    "Next: Mount St Charles hosts the New Jersey Rockets on Saturday at 10:40 AM and Woodbridge Wolfpack on Sunday at 7:30 AM. Mission visits Mid-Fairfield on Saturday at 12:40 PM and Pittsburgh Penguins Elite on Sunday at 9:00 AM."
+  ],
+  "2014|2026-11-20|Chicago Mission|St Louis Blues": [
+   "Final: St Louis Blues 6, Chicago Mission 5 in overtime, in Pool B of the STL AAA Blues Showcase.",
+   "Scoring: Jacob Prest two goals for St Louis, one on the power play and one shorthanded. Thomas Daake, Kraig Redick and Cruze Wulkopf one each; Harrison Miller two assists. For Mission, William Durband two goals, the second tying it 5-5 with 2:59 left. Lucas Walz, Henry Froelich and Timofey Madalli one each; Declan Pfeffer two assists.",
+   "Goalies: William Salger got the win for St Louis with five against. Cal Roloff took the loss for Mission with six against.",
+   "Standings: St Louis is 1-0 in Pool B. Mission is 0-1. Victory Honda and Dallas Stars Elite are the other two teams in the pool.",
+   "Ratings: St Louis stays #16 in North America (USA #11, 96.28). Mission moves from #47 to #44 (USA #25, 94.08).",
+   "Next: St Louis plays Dallas Stars Elite and Mission plays Victory Honda, both Friday at 4:20 PM."
+  ],
+  "2014|2026-11-20|Chicago Reapers|Vegas Jr Golden Knights": [
+   "Final: Chicago Reapers 3, Vegas Jr Golden Knights 2, in Pool A of the STL AAA Blues Showcase.",
+   "Scoring: Brookbank scored the game winner with 5:19 left in the third. Kujundzic and Tenjiku had the other Reapers goals, both on the power play. Rook Landahl scored both Vegas goals on the power play, with Finn Tikka assisting on each.",
+   "Goalies: Boden Lynch got the win for the Reapers with two against. Reid Inman took the loss for Vegas with three against.",
+   "Standings: Reapers and Florida Alliance are 1-0 in Pool A. Vegas and Philadelphia Hockey Club are 0-1.",
+   "Ratings: Reapers move from #28 to #27 in North America (USA #16, 95.60). Vegas stays #29 (USA #17, 95.45).",
+   "Next: Reapers play Florida Alliance on Friday at 2:00 PM. Vegas plays Philadelphia Hockey Club at 3:40 PM."
+  ],
+  "2014|2026-11-20|Florida Alliance|Philadelphia Hockey Club": [
+   "Final: Florida Alliance 5, Philadelphia Hockey Club 0, in Pool A of the STL AAA Blues Showcase.",
+   "Scoring: Benjamin Bianco had a hat trick. Tyson Steckel and Colton Steckel one goal each. Tommy Huston and Beckett Olin two assists each.",
+   "Goalies: Kayden Mancari and Sebastien Beyrak shared the shutout for Florida Alliance. Wyatt Bouchard allowed five for Philadelphia.",
+   "Standings: Florida Alliance and Chicago Reapers are 1-0 in Pool A. Philadelphia and Vegas Jr Golden Knights are 0-1.",
+   "Ratings: Florida Alliance stays #6 in North America (USA #4, 98.59). Philadelphia Hockey Club goes from #53 to #54 (USA #30, 93.70).",
+   "Next: Florida Alliance plays Chicago Reapers on Friday at 2:00 PM. Philadelphia plays Vegas at 3:40 PM."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",

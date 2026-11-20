@@ -12,4 +12,10 @@ for k,x in b.items():
                 h=int(mm.group(1))%12+(12 if mm.group(3)=='PM' else 0)-1
                 x['time']='%d:%s %s'%((h-1)%12+1,mm.group(2),'AM' if h<12 else 'PM'); x['_ct']=1
         print(k,x['v'],x['vs'],x['h'],x['hs'],x['st'],x['time'])
+# Other GameSheet seasons (times already Central): season -> {sheet name: app name}
+OTHER={'16484':{'St. Louis Aaa Blues':'St Louis Blues','Dallas Stars':'Dallas Stars Elite'},'16444':{'Carshield':'CarShield'}}
+for k,x in b.items():
+    sid=k.split('|')[1]
+    if sid in OTHER:
+        m=OTHER[sid]; x['v']=m.get(x['v'],x['v']); x['h']=m.get(x['h'],x['h']); print(k,x['v'],x['vs'],x['h'],x['hs'],x['st'],x['time'])
 json.dump(b,open('data/gs_box.json','w'))
