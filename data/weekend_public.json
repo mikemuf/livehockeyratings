@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Preview — all six birth years",
- "updated": "Fri Nov 20, 3:19 PM CT",
+ "updated": "Fri Nov 20, 3:21 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -90,7 +90,7 @@
      "note": "Canadian rink",
      "local": "10:00 AM",
      "tz": "CT",
-     "sheet": "https://page.spordle.com/pat-quinn-classic/schedule-stats-standings/0b7dd40b-e3bf-4b03-8a2a-9c7060714a65"
+     "sheet": "https://page.spordle.com/pat-quinn-classic/schedule/1016227"
     },
     {
      "day": "Fri",
@@ -599,6 +599,18 @@
      "note": "Team Illinois Showcase",
      "tz": "CT",
      "sheet": "https://gamesheetstats.com/seasons/16444/games/3186607"
+    },
+    {
+     "day": "Fri",
+     "time": "9:00 PM",
+     "a": "Nashville Jr. Predators",
+     "b": "St George's School",
+     "rink": "Planet Ice Delta (American)",
+     "city": "Delta, BC",
+     "note": "Pat Quinn Classic, Flight 1",
+     "local": "8:00 PM PT",
+     "tz": "CT",
+     "sheet": "https://page.spordle.com/pat-quinn-classic/schedule/1016224"
     }
    ],
    "scorers_title": "NE Pack 14U scoring leaders (season to date)",
@@ -2459,7 +2471,7 @@
    "Goalies: Lucas Katona played all 60 minutes for the win with two against. Tyler Rydberg took the loss for Burnaby with four against.",
    "Standings: Delta Hockey Academy and Yale Hockey Academy are 2-0 in the six-team flight. Nashville and St George's School are 1-1. Burnaby and Pacific Coast Academy are 0-2.",
    "Ratings: no change. Burnaby is outside the rated pool, so the result does not move Nashville's rating (#13 in North America, USA #9, 96.36).",
-   "Next for Nashville: a placement game on Saturday; the time and opponent will be added when the bracket is posted."
+   "Next for Nashville: St George's School on Friday at 9:00 PM Central, the last round-robin game, then a placement game on Saturday."
   ],
   "2014|2026-11-20|Dallas Stars Elite|Victory Honda": [
    "Final: Victory Honda 5, Dallas Stars Elite 4, in Pool B of the STL AAA Blues Showcase.",
