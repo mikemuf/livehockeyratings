@@ -75,7 +75,7 @@ function solveLite(dv,extra){
     used.push(g)}
   const keys=Object.keys(T);
   for(let it=0;it<60;it++){const nr={};
-    for(const k of keys){const x=T[k];const m=x.opp.length;if(!m){nr[k]=x.r;continue}
+    for(const k of keys){const x=T[k];const m=x.opp.length;if(!m){nr[k]=x.R;continue}
       const N=x.n+m;const agd=(x.agd*x.n+x.dsum)/N;const sch=(x.sch*x.n+x.opp.reduce((s,o)=>s+T[o].r,0))/N;nr[k]=agd+sch+x.adj}
     const sh={};for(const d of LITE_DIVS){let top=-Infinity;for(const k of keys)if(T[k].dv===d)top=Math.max(top,nr[k]);sh[d]=used.some(g=>g[0]===d)?LITE_TOPS[d]-top:0}
     for(const k of keys)T[k].r=nr[k]+sh[T[k].dv]}
