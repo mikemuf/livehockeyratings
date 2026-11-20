@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Preview — all six birth years",
- "updated": "Fri Nov 20, 10:14 AM CT",
+ "updated": "Fri Nov 20, 10:28 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -42,7 +42,8 @@
      "city": "Delta, BC",
      "note": "Canadian rink",
      "local": "12:30 PM PT",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://page.spordle.com/pat-quinn-classic/schedule-stats-standings/0b7dd40b-e3bf-4b03-8a2a-9c7060714a65"
     },
     {
      "day": "Fri",
@@ -88,7 +89,8 @@
      "city": "Burnaby, BC",
      "note": "",
      "local": "10:00 AM PT",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://page.spordle.com/pat-quinn-classic/schedule-stats-standings/0b7dd40b-e3bf-4b03-8a2a-9c7060714a65"
     },
     {
      "day": "Fri",
@@ -188,7 +190,8 @@
      "city": "Delta, BC",
      "note": "American rink",
      "local": "8:00 PM PT",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://page.spordle.com/pat-quinn-classic/schedule-stats-standings/0b7dd40b-e3bf-4b03-8a2a-9c7060714a65"
     },
     {
      "day": "Sat",

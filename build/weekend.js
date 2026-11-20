@@ -1,5 +1,6 @@
 let WK_SEL=null;
 function renderWeekend(S){
+  if(WK_SEL&&WK_SEL.slice(0,2)==='t:')return renderTeamWk(S,WK_SEL.slice(2));
   if(WK_SEL)return renderGame(S,WK_SEL);
   const W=WEEKEND;let D=(W.divs||{})[div]||{};const rk={},rt={};S.rows.filter(x=>!canada.has(x.t)&&x.mhr).forEach((x,i)=>rk[x.t]=i+1);S.rows.forEach(x=>rt[x.t]=x.r);const rkc={};S.rows.filter(x=>canada.has(x.t)&&x.mhr).forEach((x,i)=>rkc[x.t]=i+1);const rkn={};S.rows.filter(x=>x.mhr).forEach((x,i)=>rkn[x.t]=i+1);const cty=t=>rk[t]?'USA #'+rk[t]:rkc[t]?'CAN #'+rkc[t]:'';const rkpre=t=>rt[t]===undefined?'':`<span class="small"><b>${rkn[t]?'#'+rkn[t]:'NR'}</b> </span>`; /* owner, Nov 19 2026: North American rank in front; country rank and rating in parentheses after */ // owner, Nov 19 2026: rank in front of every team, rating in parentheses after
   
@@ -13,11 +14,15 @@ function renderWeekend(S){
   const SEC=D.sections||[];
   if(!SEC.length){if((D.summary||[]).length)h+='<ul class="wk">'+D.summary.map(s=>`<li>${esc(s)}</li>`).join('')+'</ul>';else h+='<p class="small">No summary yet for this division.</p>'}
   h+='</div>';
+  { /* owner, Nov 20 2026 (10:27 AM): one tap to a single team's weekend */
+    const TS=new Set();(D.watch||[]).forEach(g=>{if(!Array.isArray(g)){TS.add(g.a);TS.add(g.b)}});WEEKEND_GAMES.filter(g=>g[0]===div).forEach(g=>{TS.add(g[2]);TS.add(g[4])});
+    const TL=[...TS].filter(Boolean).sort((x,y)=>(rkn[x]||9999)-(rkn[y]||9999)||x.localeCompare(y));
+    if(TL.length)h+=`<div class="card" style="padding:10px 14px"><label class="small" for="wkteamsel"><b>Find a team:</b> </label><select id="wkteamsel" data-wtsel="1" style="max-width:100%;font-size:16px;padding:6px"><option value="">Choose a team to see its weekend</option>`+TL.map(t=>`<option value="${esc(t)}">${rkn[t]?'#'+rkn[t]+' ':''}${esc(t)}</option>`).join('')+'</select></div>'}
   const __p1=h.length;
   if((D.events||[]).length)h+='<div class="card"><h3 style="margin-top:0">Events this weekend</h3>'+D.events.map(e=>`<p style="margin:6px 0"><b>${esc(e.name)}</b>${e.where?` <span class="small">· ${esc(e.where)}</span>`:''}<br><span class="small">${esc(e.result||'')}</span></p>`).join('')+'</div>';
   {const top=S.rows.filter(x=>x.mhr).slice(0,30); /* owner, Nov 19 2026 6:41 PM: follow the top 30 in the North American rank every weekend */ const OFF=new Set((D.off||[]).map(o=>typeof o==='string'?o:o.team));const lab=x=>'#'+rkn[x.t]; // owner, Nov 19 2026: one Weekend tab per birth year, USA and Ontario together
    const WG0=(D.watch||[]).filter(g=>!Array.isArray(g));
-   const line=x=>{const gs=WG0.filter(g=>g.a===x.t||g.b===x.t);if(!gs.length)return null;const where=[...new Set(gs.map(g=>g.city||g.rink).filter(Boolean))].join(' and ');return `<li><b>${lab(x)} ${esc(x.t)}</b> <span class="small">(${cty(x.t)}, ${f2(x.r)})</span>: ${gs.length} game${gs.length>1?'s':''}${where?', '+esc(where):''}</li>`};
+   const line=x=>{const gs=WG0.filter(g=>g.a===x.t||g.b===x.t);if(!gs.length)return null;const where=[...new Set(gs.map(g=>g.city||g.rink).filter(Boolean))].join(' and ');return `<li><b class="wkclick" data-wt="${esc(x.t)}" style="text-decoration:underline">${lab(x)} ${esc(x.t)}</b> <span class="small">(${cty(x.t)}, ${f2(x.r)})</span>: ${gs.length} game${gs.length>1?'s':''}${where?', '+esc(where):''}</li>`};
    const ls=top.map(line);const on=ls.filter(Boolean);const idle=top.filter((x,i)=>!ls[i]&&OFF.has(x.t)).map(x=>lab(x)+' '+x.t);const off=top.filter((x,i)=>!ls[i]&&!OFF.has(x.t)).map(x=>lab(x)+' '+x.t);
    if(on.length>=3)h+='<div class="card"><h3 style="margin-top:0">Where the top 30 are</h3><ul class="wk">'+on.join('')+(idle.length?`<li class="small">Off this weekend: ${esc(idle.join(', '))}</li>`:'')+(off.length?`<li class="small">No schedule found yet: ${esc(off.join(', '))}</li>`:'')+'</ul></div>'}
   SEC.forEach(sc=>{h+=`<div class="card"><h3 style="margin-top:0">${esc(sc.t)}</h3><ul class="wk">`+(sc.b||[]).map(x=>{const m=String(x).match(/^([^:]{2,40}): ([\s\S]+)$/);return m?`<li><b>${esc(m[1])}:</b> ${esc(m[2])}</li>`:`<li>${esc(x)}</li>`}).join('')+'</ul></div>'});
@@ -82,7 +87,7 @@ function renderGame(S,key){
   const rk0=t=>{if(canada.has(t))return 'CAN';if(M0[t]===undefined)return 'NR';return '#'+(S.rows.filter(x=>x.mhr&&!canada.has(x.t)&&M0[x.t]!==undefined).map(x=>x.t).sort((a,b)=>M0[b]-M0[a]).indexOf(t)+1)};
   const lr=t=>rk[t]?'#'+rk[t]:canada.has(t)?'CAN':'NR';
   const nice=d=>new Date(d+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric'});
-  const back=`<p style="margin:0 0 8px"><a href="#wk=${div}">← Weekend</a></p>`;
+  const back=`<p style="margin:0 0 8px"><a href="#wk=${div}">← Live Scores</a></p>`;
   let a,b,ga=null,gb=null,date='',when='',loc=null;
   if(key[0]==='r'){const g=WEEKEND_GAMES[+key.slice(1)];if(!g||g[0]!==div)return back+'<p class="small">Game not found.</p>';[a,ga,b,gb]=[g[2],g[3],g[4],g[5]];date=g[1];when=nice(g[1])}
   else if(key[0]==='b'){const B=(typeof WEEKEND_BOX!=='undefined'?WEEKEND_BOX:[])[+key.slice(1)];if(!B)return back+'<p class="small">Game not found.</p>';a=B.v;b=B.h;date=B.date;when=nice(B.date)+(B.time?' · '+B.time:'');loc={rink:B.rink,city:'',note:''};if(/^FINAL/.test(B.st)){ga=B.vs;gb=B.hs}}
@@ -109,10 +114,52 @@ function renderGame(S,key){
     return `<p style="margin:8px 0 2px"><b>${esc(t)}</b> <span class="small">${w}-${l}-${ti} this weekend</span></p>`+(L.length?L.map(g=>{const me=g[2]===t,mf=me?g[3]:g[5],of=me?g[5]:g[3],op=me?g[4]:g[2];return `<div class="small">${mf>of?'W':mf<of?'L':'T'} ${mf}-${of} vs ${esc(op)} <span>(${lr(op)})</span></div>`}).join(''):'<div class="small">No other games yet.</div>')}).join('')+'</div>';
   return h;
 }
-document.addEventListener('click',e=>{const g=e.target.closest&&e.target.closest('[data-gm]');if(g){location.hash='#game='+div+'-'+g.dataset.gm;return}
+document.addEventListener('change',e=>{const t=e.target;if(t&&t.dataset&&t.dataset.wtsel&&t.value)location.hash='#wkteam='+div+'|'+encodeURIComponent(t.value)},true);
+document.addEventListener('click',e=>{const wt=e.target.closest&&e.target.closest('[data-wt]');if(wt){location.hash='#wkteam='+div+'|'+encodeURIComponent(wt.dataset.wt);return}const g=e.target.closest&&e.target.closest('[data-gm]');if(g){location.hash='#game='+div+'-'+g.dataset.gm;return}
   if(e.target.closest&&e.target.closest('.seg button,nav.tabs button'))WK_SEL=null},true);
 
 /* owner, Nov 20 2026: from the weekend's first puck to the end of its last game the tab reads with a goal light on each side */
 function wkLiveOn(){const W=WEEKEND,n=Date.now();return !!(W.live_start&&W.live_end&&n>=Date.parse(W.live_start)&&n<=Date.parse(W.live_end))}
 function wkTabLabel(){const b=document.querySelector('button[data-view="wk"]');if(b)b.textContent=wkLiveOn()?'\u{1F6A8} Live Scores \u{1F6A8}':'Live Scores'}
 if(typeof window!=='undefined'&&typeof document!=='undefined'&&window.document===document){setTimeout(wkTabLabel,0);setInterval(wkTabLabel,60000)}
+
+/* Team weekend page (owner, Nov 20 2026, 10:27 AM): everything about ONE team this weekend, reached from the "Find a team" list,
+   the top-30 card or a team name on a game page; "← Live Scores" goes back to the full tab. */
+function renderTeamWk(S,team){
+  const W=WEEKEND,D=(W.divs||{})[div]||{};
+  const back=`<p style="margin:0 0 8px"><a href="#wk=${div}">← Live Scores (all teams)</a></p>`;
+  const rk={},rkc={},rkn={},rt={};S.rows.filter(x=>!canada.has(x.t)&&x.mhr).forEach((x,i)=>rk[x.t]=i+1);S.rows.filter(x=>canada.has(x.t)&&x.mhr).forEach((x,i)=>rkc[x.t]=i+1);S.rows.filter(x=>x.mhr).forEach((x,i)=>rkn[x.t]=i+1);S.rows.forEach(x=>rt[x.t]=x.r);
+  const cty=t=>rk[t]?'USA #'+rk[t]:rkc[t]?'CAN #'+rkc[t]:'';
+  const pre=t=>rt[t]===undefined?'':`<span class="small"><b>${rkn[t]?'#'+rkn[t]:'NR'}</b> </span>`;
+  const tag=t=>rt[t]===undefined?'':`<span class="small"> (${cty(t)?cty(t)+', ':''}${f2(rt[t])})</span>`;
+  const row=S.rows.find(x=>x.t===team);
+  const nice=d=>new Date(d+'T12:00:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+  const BX=(typeof WEEKEND_BOX!=='undefined'?WEEKEND_BOX:[]).map((x,i)=>Object.assign({bi:i},x)).filter(x=>x.div===div&&(x.v===team||x.h===team));
+  const FIN=WEEKEND_GAMES.map((g,i)=>Object.assign(g.slice(),{gi:i})).filter(g=>g[0]===div&&(g[2]===team||g[4]===team)).sort((a,b)=>a[1]<b[1]?-1:1);
+  const WT=(D.watch||[]).map((g,j)=>Array.isArray(g)?null:Object.assign({},g,{_j:j})).filter(g=>g&&(g.a===team||g.b===team));
+  const MON={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
+  const wdate=d=>{const DN=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(String(d||'').slice(0,3));if(DN>=0&&W.from&&W.to){for(let t=new Date(W.from+'T12:00:00Z');t<=new Date(W.to+'T12:00:00Z');t=new Date(t.getTime()+864e5)){if(t.getUTCDay()===DN)return t.toISOString().slice(0,10)}}return ''};
+  let w=0,l=0,ti=0;FIN.forEach(g=>{const me=g[2]===team?g[3]:g[5],op=g[2]===team?g[5]:g[3];me>op?w++:me<op?l++:ti++});
+  let h=back+`<div class="card"><p class="small" style="margin:0">${esc(W.label||'This weekend')} · ${div} age group</p><h2 style="margin:4px 0 0">${pre(team)}${esc(team)}${tag(team)}</h2>`+
+    `<p style="margin:8px 0 0">${row&&row.rec?`Season record <b>${row.rec.join('-')}</b> · `:''}This weekend <b>${w}-${l}-${ti}</b>${FIN.length?'':' (no games played yet)'}</p></div>`;
+  const live=BX.filter(x=>!/^FINAL/.test(x.st));
+  if(live.length)h+=`<div class="card" style="border-left:4px solid #c8102e"><h3 style="margin-top:0;color:#c8102e">Live now</h3>`+live.map(x=>`<div class="wkr wkclick" data-gm="b${x.bi}"><div>${pre(x.v)}${esc(x.v)} <span class="small" style="color:#c8102e">${esc(x.st||'')}</span></div><div class="sc num">${x.vs}</div><div>${pre(x.h)}${esc(x.h)}</div><div class="sc num">${x.hs}</div></div>`).join('')+'</div>';
+  h+='<div class="card"><h3 style="margin-top:0">Schedule this weekend <span class="small">· all times Central</span></h3>';
+  if(!WT.length&&!FIN.length)h+='<p class="small">No games found for this team this weekend.</p>';
+  const used=new Set();
+  h+=WT.map(g=>{const opp=g.a===team?g.b:g.a,dt=wdate(g.day),pr=[g.a,g.b].sort().join('|');
+    const f=FIN.find(x=>(!dt||x[1]===dt)&&[x[2],x[4]].sort().join('|')===pr&&!used.has(x.gi));if(f)used.add(f.gi);
+    const lv=live.find(x=>[x.v,x.h].sort().join('|')===pr&&(!dt||x.date===dt));
+    let st;if(f){const me=f[2]===team?f[3]:f[5],op=f[2]===team?f[5]:f[3];st=`<b style="color:${me>op?'#0a7d32':me<op?'#c8102e':'#555'}">${me>op?'W':me<op?'L':'T'} ${me}-${op}</b> <span class="small">Final</span>`}
+    else if(lv){const me=lv.v===team?lv.vs:lv.hs,op=lv.v===team?lv.hs:lv.vs;st=`<b style="color:#c8102e">LIVE ${me}-${op}</b>`}
+    else st=`<span class="small">${esc(g.time||'')}</span>`;
+    const q=encodeURIComponent(((g.rink||'')+' '+(g.city||'')).trim());
+    return `<div style="padding:8px 0;border-bottom:1px solid #eee"><div class="small">${esc(g.day)}${f||lv?' · '+esc(g.time||''):''}</div><div class="wkclick" data-gm="${f?'r'+f.gi:lv?'b'+lv.bi:'w'+g._j}">${g.b===team?'vs':'at'} ${pre(opp)}<b>${esc(opp)}</b>${tag(opp)} · ${st} <span class="small" style="color:#c8102e">›</span></div>`+
+      (g.rink?`<div class="small">📍 ${esc(g.rink)}${g.city?', '+esc(g.city):''} · <a href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener">Map</a> · ${g.sheet?`<a href="${esc(g.sheet)}" target="_blank" rel="noopener">Live scoring</a>`:'<span style="color:#888">Live scoring not available</span>'}</div>`:'')+'</div>'}).join('');
+  FIN.filter(g=>!used.has(g.gi)).forEach(g=>{const me=g[2]===team?g[3]:g[5],op=g[2]===team?g[5]:g[3],opp=g[2]===team?g[4]:g[2];h+=`<div style="padding:8px 0;border-bottom:1px solid #eee"><div class="small">${nice(g[1])}</div><div class="wkclick" data-gm="r${g.gi}">vs ${pre(opp)}<b>${esc(opp)}</b>${tag(opp)} · <b style="color:${me>op?'#0a7d32':me<op?'#c8102e':'#555'}">${me>op?'W':me<op?'L':'T'} ${me}-${op}</b> <span class="small">Final</span> <span class="small" style="color:#c8102e">›</span></div></div>`});
+  h+='<p class="legend">Tap a game for the matchup page, the goals and the recap.</p></div>';
+  const RC=Object.entries(W.recaps||{}).filter(([k])=>{const a=k.split('|');return a[0]===div&&a.slice(2).includes(team)}).sort((x,y)=>x[0].split('|')[1]<y[0].split('|')[1]?1:-1);
+  RC.forEach(([k,b])=>{h+=`<div class="card"><h3 style="margin-top:0">Game recap <span class="small">· ${nice(k.split('|')[1])}</span></h3><ul class="wk">`+b.map(x=>{const m=String(x).match(/^([^:]{2,40}): ([\s\S]+)$/);return m?`<li><b>${esc(m[1])}:</b> ${esc(m[2])}</li>`:`<li>${esc(x)}</li>`}).join('')+'</ul></div>'});
+  (D.sections||[]).filter(sc=>String(sc.t).includes(team)||(sc.b||[]).some(x=>String(x).includes(team))).forEach(sc=>{h+=`<div class="card"><h3 style="margin-top:0">${esc(sc.t)}</h3><ul class="wk">`+(sc.b||[]).map(x=>{const m=String(x).match(/^([^:]{2,40}): ([\s\S]+)$/);return m?`<li><b>${esc(m[1])}:</b> ${esc(m[2])}</li>`:`<li>${esc(x)}</li>`}).join('')+'</ul></div>'});
+  return h+back;
+}
