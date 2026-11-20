@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Preview — all six birth years",
- "updated": "Fri Nov 20, 5:30 PM CT",
+ "updated": "Fri Nov 20, 5:47 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -2536,6 +2536,22 @@
    "Standings: Florida Alliance is 2-0 in Pool A. Reapers and Vegas are 1-1. Philadelphia is 0-2 with an overtime loss.",
    "Ratings: Vegas goes from #29 to #30 in North America (USA #18, 95.43) after needing overtime. Philadelphia moves from #54 to #53 (USA #30, 93.72).",
    "Next: Vegas plays Florida Alliance on Saturday at 8:20 AM. Philadelphia plays Chicago Reapers on Saturday at 7:20 AM."
+  ],
+  "2014|2026-11-20|Chicago Mission|Victory Honda": [
+   "Final: Victory Honda 4, Chicago Mission 1, in Pool B of the STL AAA Blues Showcase.",
+   "Scoring: Treyson Pauley opened it in the first and set up Holden Puma's game winner early in the second. Xander Cullotta answered for Mission 26 seconds later to make it 2-1. Graham Thomson and Jack Collins scored late in the second to put it away. Pauley and Collins each had a goal and an assist.",
+   "Goalies: Lucas Dykema got the win for Victory Honda with one against. Carter Thomas took the loss for Mission with four against.",
+   "Standings: Victory Honda and St Louis Blues are 2-0 in Pool B and meet Saturday morning. Dallas Stars Elite and Chicago Mission are 0-2.",
+   "Ratings: Victory Honda stays #22 in North America (USA #13, 95.76). Mission goes from #44 to #47 (USA #26, 94.02).",
+   "Next: Victory Honda plays St Louis Blues on Saturday at 7:40 AM. Mission plays Dallas Stars Elite on Saturday at 7:50 AM."
+  ],
+  "2014|2026-11-20|Dallas Stars Elite|St Louis Blues": [
+   "Final: St Louis Blues 4, Dallas Stars Elite 1, in Pool B of the STL AAA Blues Showcase.",
+   "Scoring: Ethan Graves scored in the first. Alexander Tsediakov tied it for Dallas early in the second, then St Louis scored three straight in the period: Boden Lynch with the game winner, Thomas Daake and Augustus Lake. Lynch had a goal and an assist, and Geno Avenevoli had two assists. No scoring in the third.",
+   "Goalies: Nolan Blair got the win for St Louis with one against. Sebastian Masek took the loss for Dallas with four against.",
+   "Standings: St Louis Blues and Victory Honda are 2-0 in Pool B and meet Saturday morning. Dallas Stars Elite and Chicago Mission are 0-2.",
+   "Ratings: St Louis stays #16 in North America (USA #11), rating up from 96.28 to 96.32. Dallas stays #35 (USA #21), 94.85 to 94.79.",
+   "Next: St Louis plays Victory Honda on Saturday at 7:40 AM. Dallas plays Chicago Mission on Saturday at 7:50 AM."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",
