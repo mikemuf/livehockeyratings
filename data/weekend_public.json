@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Preview — all six birth years",
- "updated": "Fri Nov 20, 11:04 AM CT",
+ "updated": "Fri Nov 20, 11:13 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -35,13 +35,13 @@
    "watch": [
     {
      "day": "Thu",
-     "time": "2:30 PM",
+     "time": "1:30 PM",
      "a": "Nashville Jr. Predators",
      "b": "Delta Hockey Academy",
      "rink": "Planet Ice Delta",
      "city": "Delta, BC",
      "note": "Canadian rink",
-     "local": "12:30 PM PT",
+     "local": "12:30 PM",
      "tz": "CT",
      "sheet": "https://page.spordle.com/pat-quinn-classic/schedule-stats-standings/0b7dd40b-e3bf-4b03-8a2a-9c7060714a65"
     },
@@ -82,13 +82,13 @@
     },
     {
      "day": "Fri",
-     "time": "12:00 PM",
+     "time": "11:00 AM",
      "a": "Nashville Jr. Predators",
      "b": "Burnaby Winter Club Academy",
      "rink": "Burnaby Winter Club",
      "city": "Burnaby, BC",
-     "note": "",
-     "local": "10:00 AM PT",
+     "note": "Canadian rink",
+     "local": "10:00 AM",
      "tz": "CT",
      "sheet": "https://page.spordle.com/pat-quinn-classic/schedule-stats-standings/0b7dd40b-e3bf-4b03-8a2a-9c7060714a65"
     },
@@ -761,9 +761,9 @@
       "Thursday: Delta Hockey Academy 3, Nashville 0. Nashville was shut out in its opener.",
       "Delta scoring: Aleksandr Iaichkin two goals, one on the power play. Kayden Krestanovich a goal and an assist, with the game winner. Qirun Xie and Sajan Chatha two assists each.",
       "Goalies: Logan Wagner had the shutout for Delta. For Nashville, John Nolan Blankush allowed two in 20 minutes and Lucas Katona one in 40.",
-      "Still to play: Burnaby Winter Club Academy on Friday at 12:00 PM Central (10:00 AM at the rink). That is Nashville's last round-robin game.",
+      "Still to play: Burnaby Winter Club Academy on Friday at 11:00 AM Central (10:00 AM at the rink). That is Nashville's last round-robin game.",
       "Other Flight 1 scores Thursday: St George's School 5, Pacific Coast Academy 2. Yale Hockey Academy 3, Burnaby Winter Club Academy 2.",
-      "Finish: placement games Saturday at 11:15 AM, 6:15 PM and 7:30 PM Central, matchups set by the standings after Friday. Final Sunday at 3:00 PM."
+      "Finish: placement games Saturday at 10:15 AM, 5:15 PM and 6:30 PM Central, matchups set by the standings after Friday. Final on Sunday."
      ]
     },
     {
@@ -2287,7 +2287,7 @@
    "Goalies: Logan Wagner had the shutout for Delta. For Nashville, John Nolan Blankush allowed two in 20 minutes and Lucas Katona one in 40.",
    "Standings: Delta, St George's School and Yale Hockey Academy are 1-0 in the six-team flight. Nashville, Burnaby Winter Club Academy and Pacific Coast Academy are 0-1.",
    "Ratings: no change. Delta is outside the rated pool, so the result does not move Nashville's rating.",
-   "Next for Nashville: Burnaby Winter Club Academy on Friday at 12:00 PM, then a placement game on Saturday."
+   "Next for Nashville: Burnaby Winter Club Academy on Friday at 11:00 AM, then a placement game on Saturday."
   ],
   "2012|2026-11-20|Chicago Reapers|NJ Rockets": [
    "Final: NJ Rockets 6, Chicago Reapers 2, the first Northeast Pack game of the Pittsburgh Showcase.",
