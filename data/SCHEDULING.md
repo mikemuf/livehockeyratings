@@ -75,5 +75,5 @@ When a tracked game goes final, in the same check:
    - `Ratings:` how the live rating and North American rank moved for both teams (before and after), or "no change" with the reason.
    - `Next:` each team's next game, Central time.
 3. Refresh the birth year's summary bullets so the top of the tab tells the current story.
-4. Then the Instagram FINAL slide (team-centric, no player names there), 10 minutes from any other post.
+4. Then the Instagram FINAL post, 10 minutes from any other post. Owner, Nov 19, 10:10 PM: the mini write-up goes in the Instagram post too. Slide: FINAL, both teams with North American rank, the score, and one or two lines on what it means. Caption: the recap in short form: who scored (goal scorers and the game winner, from the game sheet), what it did to the standings, how the ratings and ranks moved, then "Full recap and live ratings: link in bio". Scorer names in a FINAL post are fine (they are the facts of the game); still never build a post around one player.
 Every number comes from the game sheet and the live build at that moment. Never mention the owner. Goal: a page people come back to after every game.
