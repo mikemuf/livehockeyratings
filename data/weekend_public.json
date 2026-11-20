@@ -1,6 +1,6 @@
 {
- "label": "Weekend of Nov 20–22",
- "status": "Preview — all six birth years",
+ "label": "Weekend of Nov 20\u201322",
+ "status": "Preview \u2014 all six birth years",
  "updated": "Fri Nov 20, 11:56 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
@@ -18,17 +18,17 @@
    "events": [
     {
      "name": "Northeast Pack Pittsburgh Showcase, 14U",
-     "where": "Fri–Sun, Nov 20–22 · UPMC Lemieux Sports Complex (Cranberry Twp), RMU Island Sports Center (Neville Island), Baierl Ice Complex (Warrendale)",
+     "where": "Fri\u2013Sun, Nov 20\u201322 \u00b7 UPMC Lemieux Sports Complex (Cranberry Twp), RMU Island Sports Center (Neville Island), Baierl Ice Complex (Warrendale)",
      "result": "12 league games, hosted by Pittsburgh Penguins Elite."
     },
     {
      "name": "Tier 1 Hockey Federation Pittsburgh Showcase",
-     "where": "Fri–Sun, Nov 20–22 · rinks around Pittsburgh",
+     "where": "Fri\u2013Sun, Nov 20\u201322 \u00b7 rinks around Pittsburgh",
      "result": "13U to 18U. Biggby Coffee plays Jersey Hitmen, Pittsburgh Stars, Palmyra Black Knights and Team Maryland."
     },
     {
      "name": "Pat Quinn Classic U15 Elite, Burnaby and Delta, BC",
-     "where": "Thu–Sun, Nov 19–22 · Planet Ice Delta and Burnaby Winter Club",
+     "where": "Thu\u2013Sun, Nov 19\u201322 \u00b7 Planet Ice Delta and Burnaby Winter Club",
      "result": "Teams on Nashville's side of the schedule: Nashville Jr. Predators, Delta Hockey Academy, Burnaby Winter Club Academy, St George's School, Yale Hockey Academy and Pacific Coast Academy. Round robin Thursday and Friday, placement games Saturday, final Sunday 3:00 PM."
     }
    ],
@@ -321,7 +321,7 @@
      "b": "Woodbridge Wolfpack",
      "rink": "UPMC Lemieux Sports Complex",
      "city": "Cranberry Township, PA",
-     "note": "Covestro Rink · Game of the weekend",
+     "note": "Covestro Rink \u00b7 Game of the weekend",
      "local": "4:00 PM ET",
      "tz": "CT"
     },
@@ -824,7 +824,7 @@
    "events": [
     {
      "name": "Northeast Pack Pittsburgh Showcase, 15U",
-     "where": "Fri–Sun, Nov 20–22 · UPMC Lemieux Sports Complex (Cranberry Twp), RMU Island Sports Center (Neville Island), Baierl Ice Complex (Warrendale)",
+     "where": "Fri\u2013Sun, Nov 20\u201322 \u00b7 UPMC Lemieux Sports Complex (Cranberry Twp), RMU Island Sports Center (Neville Island), Baierl Ice Complex (Warrendale)",
      "result": "12 league games, hosted by Pittsburgh Penguins Elite."
     }
    ],
@@ -1013,7 +1013,7 @@
      "b": "Pittsburgh Penguins Elite",
      "rink": "UPMC Lemieux Sports Complex",
      "city": "Cranberry Township, PA",
-     "note": "FedEx Rink 1 · Game of the weekend: #2 at #1",
+     "note": "FedEx Rink 1 \u00b7 Game of the weekend: #2 at #1",
      "local": "3:40 PM ET",
      "tz": "CT"
     },
@@ -1662,7 +1662,7 @@
    "events": [
     {
      "name": "Tournament at Centene Community Ice Center",
-     "where": "Fri–Sun, Nov 20–22 · Maryland Heights, MO (St. Louis)",
+     "where": "Fri\u2013Sun, Nov 20\u201322 \u00b7 Maryland Heights, MO (St. Louis)",
      "result": "Eight teams in two groups. Later rounds are Saturday afternoon and Sunday."
     }
    ],
@@ -2245,10 +2245,11 @@
      "time": "7:40 PM",
      "a": "St Louis Blues",
      "b": "Chicago Mission",
-     "rink": "Elk Grove Ice Arena",
+     "rink": "Elk Grove Ice Arena (West Rink)",
      "city": "Elk Grove Village, IL",
      "note": "#7 at #19",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15464/games/2968673"
     },
     {
      "day": "Sat",
