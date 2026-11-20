@@ -40,3 +40,18 @@ If two teams from different cities are playing each other in a third city (a Tor
 - The event Nashville Jr. Predators 2012 are in Nov 19-22, 2026 is the **Pat Quinn Classic - U15 Elite**, Burnaby BC (rinks: Burnaby Winter Club, Planet Ice Delta, Planet Ice Coquitlam). Annual, mid-November; a second Pat Quinn Classic (U11, U13, U17) runs Dec 27-31 in Burnaby.
 - Use the list each Thursday: any event on it that falls on the coming weekend and covers 2011-2016 boys goes on the Weekend tab check list.
 - Related find: MyHockeyRankings news posts a "Weekend Preview" and "Weekend Wrap" every week (myhockeyrankings.com/news) naming the big events and linking their schedules and results. Read it every Thursday and Monday. Other heavily scouted U15 events it names: Bauer U15 Elite Invite (Abbotsford BC, Canadian Thanksgiving weekend in October), U15 Elite Canadian Crown (Devon AB, first week of December).
+
+## THE WEEKLY ALGORITHM (owner, Nov 19, 2026, 6:41 PM) — run every Thursday, re-run Friday morning
+Goal: for every birth year 2011-2016, every team in the **top 30 of the North American rank** is accounted for: either its games are in the Weekend tab, or it is confirmed off.
+1. `cd /home/claude/player && python3 build/weekend_coverage.py 30` — lists every top-30 team with no game in `divs[year].watch` and not in `divs[year].off`. Those are the gaps.
+2. For each gap, walk the ladder, cheapest first, and stop at the first source that answers:
+   a. League schedule page (one read covers many teams): GTHL (section above), Northeast Pack GameSheet, and each league in `player/build/TEAM_SOURCES.md`.
+   b. Event lists for the weekend: `player/EVENTS.md`, Play Hockey's list, MHR news "Weekend Preview", GameSheet search by city / rink / date / team name (owner's method: two out-of-town teams in a third city means an event there).
+   c. MHR team schedule sweep (`tools/mhr_sched.js`, N=30, USA page and the Ontario page). "Nothing posted" on MHR is NOT confirmed off.
+   d. The team's own page: club site, then the team's Instagram (search `<club> <birth year>`; teams post "Weekend Matchup" graphics with dates, times and rink). Instagram found by a person counts as a lead; the team's own post is a valid source for its own schedule.
+   e. The opponent's pages (a home series is often posted only by the host).
+3. Record the result: games go into `watch` (times converted to Central, `local` keeps the rink's time); a team confirmed idle goes into `divs[year].off` as `{"team":..., "source":...}`. Anything still unknown stays a gap and shows on the tab as "No schedule found yet".
+4. **Every miss teaches a source.** When a game turns up that the ladder missed (the owner spots it, or it shows up in results), write down in `TEAM_SOURCES.md` where it was posted, and add that kind of place to the ladder above if it is new. Log of misses:
+   - Nov 19, 2026: Shattuck St Mary's at Little Caesars 2012, three games. MHR had nothing; it was on the team Instagram `little_caesars_2012`. Lesson: for top-30 teams with nothing on MHR, check the team's own Instagram before publishing (step d).
+   - Nov 19, 2026: Nashville 2012 in BC was listed as a nameless "U15 prep event"; it is the Pat Quinn Classic (Play Hockey). Lesson: check event companies' lists (step b).
+5. Before publishing: `weekend_check.py` OK, syntax guard OK, and report the coverage count per birth year to the owner (for example "2012: 27 of 30 accounted for").

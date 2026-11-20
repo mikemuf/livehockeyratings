@@ -144,6 +144,28 @@
     },
     {
      "day": "Fri",
+     "time": "7:15 PM",
+     "a": "Mississauga Senators",
+     "b": "Toronto Reps",
+     "rink": "Westwood",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "8:15 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Fri",
+     "time": "7:55 PM",
+     "a": "Vaughan Kings",
+     "b": "Toronto Red Wings",
+     "rink": "Chesswood",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "8:55 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Fri",
      "time": "10:00 PM",
      "a": "St George's School",
      "b": "Nashville Jr. Predators",
@@ -226,6 +248,17 @@
      "rink": "Canlan Ice Sports",
      "city": "West Dundee, IL",
      "note": "Tournament",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "1:25 PM",
+     "a": "Toronto Nationals",
+     "b": "Toronto Titans",
+     "rink": "Scotiabank Pond",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "2:25 PM ET",
      "tz": "CT"
     },
     {
@@ -357,6 +390,28 @@
      "city": "Detroit, MI",
      "note": "USA #2 at USA #3",
      "local": "12:00 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "2:15 PM",
+     "a": "Markham Majors",
+     "b": "Toronto Jr Canadiens",
+     "rink": "Scotiabank Pond",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "3:15 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "8:00 PM",
+     "a": "Toronto Marlboros",
+     "b": "Don Mills Flyers",
+     "rink": "Victoria Village",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "9:00 PM ET",
      "tz": "CT"
     }
    ],
@@ -641,6 +696,28 @@
      "tz": "CT"
     },
     {
+     "day": "Fri",
+     "time": "8:00 PM",
+     "a": "Toronto Reps",
+     "b": "Toronto Red Wings",
+     "rink": "Chesswood",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "9:00 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Fri",
+     "time": "8:10 PM",
+     "a": "Mississauga Senators",
+     "b": "Toronto Marlboros",
+     "rink": "CWENCH Centre Etobicoke",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "9:10 PM ET",
+     "tz": "CT"
+    },
+    {
      "day": "Sat",
      "time": "10:00 AM",
      "a": "HB Detroit",
@@ -708,6 +785,17 @@
     },
     {
      "day": "Sat",
+     "time": "1:00 PM",
+     "a": "Mississauga Rebels",
+     "b": "North York Rangers",
+     "rink": "Herbert Carnegie",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "2:00 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
      "time": "2:40 PM",
      "a": "Bishop Kearney Selects",
      "b": "Pittsburgh Penguins Elite",
@@ -715,6 +803,17 @@
      "city": "Cranberry Township, PA",
      "note": "FedEx Rink 1 · Game of the weekend: #2 at #1",
      "local": "3:40 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "2:55 PM",
+     "a": "Markham Majors",
+     "b": "Toronto Titans",
+     "rink": "Scotiabank Pond",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "3:55 PM ET",
      "tz": "CT"
     },
     {
@@ -814,6 +913,17 @@
      "city": "Cranberry Township, PA",
      "note": "FedEx Rink 1",
      "local": "1:40 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "12:45 PM",
+     "a": "Don Mills Flyers",
+     "b": "Markham Majors",
+     "rink": "Thornhill Centre West",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "1:45 PM ET",
      "tz": "CT"
     },
     {
@@ -1043,6 +1153,17 @@
     },
     {
      "day": "Fri",
+     "time": "6:40 PM",
+     "a": "North York Rangers",
+     "b": "Toronto Red Wings",
+     "rink": "Chesswood",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "7:40 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Fri",
      "time": "7:40 PM",
      "a": "Vaughan Kings",
      "b": "Toronto Marlboros",
@@ -1054,6 +1175,28 @@
     },
     {
      "day": "Sat",
+     "time": "11:40 AM",
+     "a": "Toronto Red Wings",
+     "b": "Vaughan Kings",
+     "rink": "Westwood",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "12:40 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "11:45 AM",
+     "a": "Toronto Reps",
+     "b": "Toronto Nationals",
+     "rink": "Herbert Carnegie",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "12:45 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
      "time": "3:00 PM",
      "a": "Ohio Jr Bluejackets",
      "b": "Philadelphia Jr Flyers",
@@ -1061,6 +1204,17 @@
      "city": "Worthington, OH",
      "note": "Game 2 of 3",
      "local": "4:00 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "4:25 PM",
+     "a": "Don Mills Flyers",
+     "b": "Toronto Titans",
+     "rink": "Scotiabank Pond",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "5:25 PM ET",
      "tz": "CT"
     },
     {
@@ -1124,6 +1278,50 @@
      "rink": "Centene Community Ice Center",
      "city": "Maryland Heights, MO",
      "note": "",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "12:55 PM",
+     "a": "Mississauga Rebels",
+     "b": "Toronto Jr Canadiens",
+     "rink": "Scotiabank Pond",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "1:55 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "2:15 PM",
+     "a": "North York Rangers",
+     "b": "Markham Majors",
+     "rink": "Thornhill Centre West",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "3:15 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "2:15 PM",
+     "a": "Mississauga Senators",
+     "b": "Toronto Reps",
+     "rink": "Westwood",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "3:15 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "6:45 PM",
+     "a": "Toronto Marlboros",
+     "b": "Don Mills Flyers",
+     "rink": "Victoria Village",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "7:45 PM ET",
      "tz": "CT"
     }
    ],
@@ -1241,6 +1439,28 @@
      "tz": "CT"
     },
     {
+     "day": "Fri",
+     "time": "6:25 PM",
+     "a": "Don Mills Flyers",
+     "b": "Toronto Marlboros",
+     "rink": "CWENCH Centre Etobicoke",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "7:25 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Fri",
+     "time": "6:45 PM",
+     "a": "Markham Majors",
+     "b": "Toronto Red Wings",
+     "rink": "Chesswood",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "7:45 PM ET",
+     "tz": "CT"
+    },
+    {
      "day": "Sat",
      "time": "7:40 AM",
      "a": "St Louis Blues",
@@ -1258,6 +1478,17 @@
      "rink": "Centene Community Ice Center",
      "city": "Maryland Heights, MO",
      "note": "Tournament",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "10:30 AM",
+     "a": "Toronto Jr Canadiens",
+     "b": "North York Rangers",
+     "rink": "Herbert Carnegie",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "11:30 AM ET",
      "tz": "CT"
     },
     {
@@ -1283,6 +1514,28 @@
      "tz": "CT"
     },
     {
+     "day": "Sat",
+     "time": "2:25 PM",
+     "a": "Toronto Red Wings",
+     "b": "Vaughan Kings",
+     "rink": "Westwood",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "3:25 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "4:15 PM",
+     "a": "Toronto Nationals",
+     "b": "Toronto Titans",
+     "rink": "Scotiabank Pond",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "5:15 PM ET",
+     "tz": "CT"
+    },
+    {
      "day": "Sun",
      "time": "8:00 AM",
      "a": "Cleveland Barons",
@@ -1295,6 +1548,28 @@
     },
     {
      "day": "Sun",
+     "time": "11:30 AM",
+     "a": "Don Mills Flyers",
+     "b": "Markham Majors",
+     "rink": "Thornhill Centre West",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "12:30 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "1:00 PM",
+     "a": "Toronto Marlboros",
+     "b": "Mississauga Senators",
+     "rink": "Westwood",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "2:00 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
      "time": "2:00 PM",
      "a": "Long Island Royals",
      "b": "New Jersey Colonials",
@@ -1302,6 +1577,17 @@
      "city": "Morristown, NJ",
      "note": "League game",
      "local": "3:00 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "2:55 PM",
+     "a": "Toronto Reps",
+     "b": "Toronto Jr Canadiens",
+     "rink": "Scotiabank Pond",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "3:55 PM ET",
      "tz": "CT"
     }
    ],
@@ -1339,6 +1625,17 @@
    "events": [],
    "watch": [
     {
+     "day": "Fri",
+     "time": "5:30 PM",
+     "a": "Mississauga Senators",
+     "b": "Toronto Red Wings",
+     "rink": "Chesswood",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "6:30 PM ET",
+     "tz": "CT"
+    },
+    {
      "day": "Sat",
      "time": "8:00 AM",
      "a": "Mid-Fairfield Hockey Club (Elite)",
@@ -1373,6 +1670,17 @@
     },
     {
      "day": "Sat",
+     "time": "12:10 PM",
+     "a": "Mississauga Rebels",
+     "b": "Toronto Nationals",
+     "rink": "Westwood",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "1:10 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
      "time": "12:15 PM",
      "a": "Mid-Fairfield Hockey Club (Elite)",
      "b": "Providence Capitals (Elite)",
@@ -1380,6 +1688,17 @@
      "city": "North Smithfield, RI",
      "note": "League game",
      "local": "1:15 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "1:15 PM",
+     "a": "Toronto Reps",
+     "b": "Vaughan Kings",
+     "rink": "Westwood",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "2:15 PM ET",
      "tz": "CT"
     },
     {
@@ -1427,6 +1746,17 @@
     },
     {
      "day": "Sun",
+     "time": "10:25 AM",
+     "a": "Toronto Reps",
+     "b": "Markham Majors",
+     "rink": "Thornhill Centre West",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "11:25 AM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
      "time": "10:30 AM",
      "a": "Oakland Jr Grizzlies",
      "b": "HB Detroit",
@@ -1455,6 +1785,17 @@
      "city": "Canton, MA",
      "note": "League game",
      "local": "1:20 PM ET",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "12:40 PM",
+     "a": "Toronto Red Wings",
+     "b": "Toronto Jr Canadiens",
+     "rink": "Scotiabank Pond",
+     "city": "Toronto area, ON",
+     "note": "GTHL",
+     "local": "1:40 PM ET",
      "tz": "CT"
     },
     {
