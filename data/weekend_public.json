@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Preview — all six birth years",
- "updated": "Fri Nov 20, 11:23 AM CT",
+ "updated": "Fri Nov 20, 11:34 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -109,10 +109,11 @@
      "time": "12:50 PM",
      "a": "Team Illinois",
      "b": "Madison Capitols",
-     "rink": "Canlan Ice Sports",
+     "rink": "Canlan Ice Sports (Rink 2)",
      "city": "West Dundee, IL",
-     "note": "Tournament",
-     "tz": "CT"
+     "note": "Team Illinois Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16444/games/3186600"
     },
     {
      "day": "Fri",
@@ -210,8 +211,9 @@
      "b": "Midwest Warriors",
      "rink": "Carol Stream Ice Rink",
      "city": "Carol Stream, IL",
-     "note": "Tournament",
-     "tz": "CT"
+     "note": "Team Illinois Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16444/games/3186614"
     },
     {
      "day": "Sat",
@@ -262,10 +264,11 @@
      "time": "1:10 PM",
      "a": "Team Illinois",
      "b": "Milwaukee Jr Admirals",
-     "rink": "Canlan Ice Sports",
+     "rink": "Canlan Ice Sports (Rink 3)",
      "city": "West Dundee, IL",
-     "note": "Tournament",
-     "tz": "CT"
+     "note": "Team Illinois Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16444/games/3186611"
     },
     {
      "day": "Sat",
@@ -439,8 +442,9 @@
      "b": "CarShield",
      "rink": "Canlan Ice Sports",
      "city": "West Dundee, IL",
-     "note": "Tournament",
-     "tz": "CT"
+     "note": "Team Illinois Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16444/games"
     },
     {
      "day": "Sun",
@@ -573,6 +577,28 @@
      "note": "GTHL",
      "local": "9:00 PM ET",
      "tz": "CT"
+    },
+    {
+     "day": "Fri",
+     "time": "7:00 PM",
+     "a": "CarShield",
+     "b": "Midwest Warriors",
+     "rink": "Carol Stream Ice Rink",
+     "city": "Carol Stream, IL",
+     "note": "Team Illinois Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16444/games/3186603"
+    },
+    {
+     "day": "Sat",
+     "time": "7:50 AM",
+     "a": "Madison Capitols",
+     "b": "CarShield",
+     "rink": "Canlan Ice Sports (Rink 2)",
+     "city": "West Dundee, IL",
+     "note": "Team Illinois Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16444/games/3186607"
     }
    ],
    "scorers_title": "NE Pack 14U scoring leaders (season to date)",
@@ -1144,6 +1170,39 @@
      "note": "Ontario #3 at #2",
      "local": "4:45 PM ET",
      "tz": "CT"
+    },
+    {
+     "day": "Fri",
+     "time": "2:50 PM",
+     "a": "CarShield",
+     "b": "Madison Capitols",
+     "rink": "Canlan Ice Sports (Rink 2)",
+     "city": "West Dundee, IL",
+     "note": "Team Illinois Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16444/games/3186601"
+    },
+    {
+     "day": "Sat",
+     "time": "10:00 AM",
+     "a": "Team Illinois",
+     "b": "CarShield",
+     "rink": "Carol Stream Ice Rink",
+     "city": "Carol Stream, IL",
+     "note": "Team Illinois Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16444/games/3186615"
+    },
+    {
+     "day": "Sat",
+     "time": "12:00 PM",
+     "a": "Chicago Fury",
+     "b": "Madison Capitols",
+     "rink": "Carol Stream Ice Rink",
+     "city": "Carol Stream, IL",
+     "note": "Team Illinois Showcase",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/16444/games/3186616"
     }
    ],
    "scorers_title": "NE Pack 15U scoring leaders (season to date)",
