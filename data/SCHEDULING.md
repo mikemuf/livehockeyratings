@@ -63,3 +63,17 @@ Mistake fixed the same day: "Where the top teams are" printed "Ontario #undefine
 - Ratings app has a North America tab (`renderNA`). `data/ratings.json` in the player repo carries `na` beside `rank` (country rank). `weekend_check.py` checks text mentions against `na`.
 - Ontario U13 (2014) and U12 (2015) rank pages are MHR `rank.php?y=2026&v=134` and `v=133` -> `data/nov18_on13.txt`, `data/nov18_on12.txt` (name|record|rating|agd|sched). Refresh them with the weekly MHR update, along with on14/on15/on16/on11. Ontario teams with no game in our log are listed with MHR's published numbers unchanged (`ANCH` in build.py).
 - Western Canada is not in the list yet; the owner is unsure those ratings compare.
+
+## After every final: a mini write-up (owner, Nov 19, 2026, 10:09 PM) — applies to every live check
+When a tracked game goes final, in the same check:
+1. Enter the result (`data/pending_games.json` for rated teams, `data/unrated_games.json` otherwise) and the box score in `data/gs_box.json` when the scoring system gives one. The game then leaves "Games to watch" and shows under "Final scores".
+2. Write a short recap into `data/weekend_public.json` under `recaps["<year>|<YYYY-MM-DD>|<team A>|<team B>"]` (the two team names in alphabetical order, exact app names). It shows as "Game recap" on that game's page. Four to six bullets, each starting with a label:
+   - `Final:` score and what the game was.
+   - `Scoring:` who scored and set up the goals, from the game sheet (GameSheet for Northeast Pack; the event's own scoring page elsewhere, for example Spordle for the Pat Quinn Classic). Power-play and game-winning goals when shown.
+   - `Goalies:` goals against only.
+   - `Standings:` what it did to the league or tournament standings (points, place, what each team needs next).
+   - `Ratings:` how the live rating and North American rank moved for both teams (before and after), or "no change" with the reason.
+   - `Next:` each team's next game, Central time.
+3. Refresh the birth year's summary bullets so the top of the tab tells the current story.
+4. Then the Instagram FINAL slide (team-centric, no player names there), 10 minutes from any other post.
+Every number comes from the game sheet and the live build at that moment. Never mention the owner. Goal: a page people come back to after every game.
