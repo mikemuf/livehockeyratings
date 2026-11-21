@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday: games under way, scores updating",
- "updated": "Sat Nov 21, 9:03 AM CT",
+ "updated": "Sat Nov 21, 9:21 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -1666,7 +1666,7 @@
   },
   "2014": {
    "summary": [
-    "St. Louis tournament: The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#6), St Louis Blues (#16), Victory Honda (#20), Chicago Reapers (#28), Vegas Jr Golden Knights (#30) and Dallas Stars Elite (#35), plus Chicago Mission and Philadelphia Hockey Club.",
+    "St. Louis tournament: The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#6), St Louis Blues (#16), Victory Honda (#21), Chicago Reapers (#28), Vegas Jr Golden Knights (#30) and Dallas Stars Elite (#34), plus Chicago Mission and Philadelphia Hockey Club.",
     "Group one: St Louis Blues, Chicago Mission, Dallas Stars Elite, Victory Honda.",
     "Group two: Vegas, Chicago Reapers, Philadelphia Hockey Club, Florida Alliance.",
     "Games to circle: Chicago Reapers vs Vegas on Friday at 9:00 AM (#16 against #17). St Louis Blues vs Dallas Stars Elite on Friday at 4:20 PM. Florida Alliance vs Vegas on Saturday at 8:20 AM."
@@ -1960,7 +1960,7 @@
     {
      "t": "St. Louis tournament",
      "b": [
-      "The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#6), St Louis Blues (#16), Victory Honda (#20), Chicago Reapers (#28), Vegas Jr Golden Knights (#30) and Dallas Stars Elite (#35), plus Chicago Mission and Philadelphia Hockey Club.",
+      "The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#6), St Louis Blues (#16), Victory Honda (#21), Chicago Reapers (#28), Vegas Jr Golden Knights (#30) and Dallas Stars Elite (#34), plus Chicago Mission and Philadelphia Hockey Club.",
       "Group one: St Louis Blues, Chicago Mission, Dallas Stars Elite, Victory Honda.",
       "Group two: Vegas, Chicago Reapers, Philadelphia Hockey Club, Florida Alliance.",
       "Games to circle: Chicago Reapers vs Vegas on Friday at 9:00 AM (#16 against #17). St Louis Blues vs Dallas Stars Elite on Friday at 4:20 PM. Florida Alliance vs Vegas on Saturday at 8:20 AM.",
@@ -2705,9 +2705,17 @@
   "2014|2026-11-21|St Louis Blues|Victory Honda": [
    "Final: Victory Honda 5, St Louis Blues 2, at the STL AAA Blues Showcase.",
    "Scoring: Treyson Pauley scored twice and George Blatchford assisted on three goals. Graham Thomson, Holden Puma and Jack Collins also scored. Victory Honda led 3-1 after two periods. For St Louis: Ethan Graves, a goal and an assist, and Augustus Lake.",
-   "Goalies: Owen Horning got the win with two against. William Salger was in goal for St Louis.",
+   "Goalies: Owen Horning got the win with two against. William Salger took the loss with five against.",
    "Standings: Victory Honda is 3-0 at the showcase after wins over Dallas and Chicago Mission on Friday. St Louis is 2-1.",
    "Ratings: Victory Honda goes from #22 to #20 in North America (USA #13, 95.85). St Louis Blues stays #16 in North America (USA #11, 96.21).",
+   "Next: placement games later today for both teams."
+  ],
+  "2014|2026-11-21|Chicago Mission|Dallas Stars Elite": [
+   "Final: Dallas Stars Elite 4, Chicago Mission 1, at the STL AAA Blues Showcase.",
+   "Scoring: Beckett Lampman scored twice for Dallas, once on the power play, and Christian Webb assisted on both. Holt Salyer scored the game winner in the second period and Landon Isaac followed 45 seconds later. Ean Stack scored for Mission on a first-period power play to tie it 1-1.",
+   "Goalies: Brayton Dubinsky got the win with one against. Cal Roloff took the loss with four against.",
+   "Standings: Dallas's first win of the showcase after losses to Victory Honda and St Louis. Mission is 0-3.",
+   "Ratings: Dallas Stars Elite goes from #35 to #34 in North America (USA #20, 94.86). Chicago Mission goes from #48 to #50 in North America (USA #28, 93.92).",
    "Next: placement games later today for both teams."
   ]
  },

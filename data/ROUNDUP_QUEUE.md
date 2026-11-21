@@ -20,3 +20,4 @@
 - SAT 2012: Chicago Mission (#10) 9, Pittsburgh Penguins Elite (#22) 3 (Northeast Pack). Pre 96.86 / 95.96. Cudio 3 goals, Cieslak 3 goals and an assist.
 - SAT 2014: Victory Honda (#22) 5, St Louis Blues (#16) 2 (STL Showcase). Pre 95.76 / 96.32. Pauley 2 goals.
 - (own slide Sat 9:15 AM: 2014 Philadelphia 4 Reapers 3 OT, rules B and C)
+- SAT 2014: Dallas Stars Elite 4, Chicago Mission 1 (STL Showcase). Lampman 2 goals.
