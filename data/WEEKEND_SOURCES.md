@@ -111,3 +111,8 @@ Nov 20-22, 2026 hits to open (not yet read): **STL AAA Blues Showcase (2014) –
 - Why: build/solver.js solveLite pins the division's top team to its published rating by shifting everyone each iteration. Teams with no new games started each iteration from their already-shifted rating, so the shift piled up 60 times.
 - Fix: teams with no new games now start each iteration from their published rating (nr[k]=x.R). Result: a single uniform shift (2011: -0.04), ranks unchanged.
 - Prevention: after EVERY build compare /tmp/r_old.json and /tmp/r_new.json for the whole division; if more than a handful of teams that did not play move by over 0.10, do not publish. OPEN QUESTION for the owner: 2011 is rated inside the 16U pool, so pinning its top team is probably wrong; the top team should simply be allowed to rise.
+
+## MISS LOG Nov 20, 6:10 PM: the Weekend text check had been reading a stale ratings file
+- What: build/weekend_check.py compares rank/rating mentions in the Weekend text with player/data/ratings.json. That file was only rewritten by the nightly sweep, so all day Friday the check passed against Wednesday's numbers while live ratings moved (56 mentions were out of date by 6 PM, e.g. 2012 NJ Rockets shown #25, now #19; 2014 Vegas #29, now #30).
+- Fix: build/weekend_refresh.py (player repo) rewrites every "Team (#rank[, rating])" in W['divs'] to current values; tools/live_pub.sh now regenerates ratings.json, refreshes, checks, and rebuilds on EVERY publish.
+- Prevention: live_pub.sh does it automatically. Free text like "top 28" or "#16 against #17" is not auto-fixed: re-read those lines after finals that move ranks. Recaps keep the numbers of their moment.
