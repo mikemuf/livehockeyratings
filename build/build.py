@@ -15,7 +15,7 @@ for g in BASE:
     if g[0]=='2013' and g[1]=='2026-10-05' and 'Woodbridge Wolfpack' in (g[2],g[4]): g[1]='2026-10-04'
 teams={dv:{x for g in BASE if g[0]==dv for x in (g[2],g[4])} for dv in ('2012','2013')}
 # new teams first seen this weekend (Mike: all games count, MHR records them)
-for dv,ns in {'2012':['Edina','OMGHA','Rochester Mustangs','Hill Academy','Prairie Storm U15 AA','Calgary CNHA Northstars','St Albert Sabres'],'2013':['HKMK Bled','Lafayette Locomotive (14U AA)']}.items(): teams[dv].update(ns)
+for dv,ns in {'2012':['Edina','OMGHA','Rochester Mustangs','Hill Academy','Prairie Storm U15 AA','Calgary CNHA Northstars','St Albert Sabres','Yale Hockey Academy','Delta Hockey Academy','Burnaby Winter Club Academy','Pacific Coast Academy'],'2013':['HKMK Bled','Lafayette Locomotive (14U AA)']}.items(): teams[dv].update(ns)
 have={(g[0],g[1],frozenset((g[2],g[4]))) for g in BASE}
 def add(g,report):
     if g[0] in ('2011','2014','2015','2016'):
@@ -53,7 +53,7 @@ EXTRA={'2012':{'Tri-Valley Bulls (#1) 14U AA':'Tri-Valley Bulls (14U AA)','West 
 X={'2012':[("Mauricie Estacades",92.09),("RHA Winnipeg",98.51),("Team Minnesota Red",98.31),("Team Minnesota Blue",97.64),("Minnesota Lakers",94.69),("Kuper Academy",94.07),("Cascades Elite",95.82),("North Shore Winter Club",95.95),("St George's School",94.68),("Long Island Gulls",82.28),("Prairie Storm U15 AA",94.40),("Calgary CNHA Northstars",94.79),("St Albert Sabres",94.58),("Calgary Edge School",96.11),("OHA Edmonton",97.83)],
    '2013':[("Biggby Coffee",82.94),("Red Bank Generals",82.85),("Hartford Jr Wolfpack",82.69),("Palmyra Black Knights",83.99),("Saginaw Jr Spirit (14U AA)",84.93),("Sioux Falls Power",85.48),("Lafayette Locomotive (14U AA)",87.31)]}
 files={'2012':['nov18_usa14.txt','nov18_on15.txt'],'2013':['nov18_usa13.txt','nov18_on14.txt']}
-M={};G={};R={}
+M={};G={};R={};WCAN=[]
 for dv,fs in files.items():
     al={**AL[dv],**EXTRA[dv]};M[dv]={};G[dv]={};R[dv]={};um=[]
     for f in fs:
@@ -64,6 +64,12 @@ for dv,fs in files.items():
             if n not in teams[dv]: um.append(p[0]);continue
             if n in M[dv]: continue
             w,lo,t=map(int,p[1].split('-'));M[dv][n]=float(p[2]);G[dv][n]=w+lo+t;R[dv][n]=p[1]
+    # Western Canada (owner, Nov 20 2026): BC academy teams MHR ranks (rank.php v=173, Western Canada U15 AAA) are rated teams, with MHR's record and games.
+    if dv=='2012':
+        for l in open('data/nov18_wc15.txt'):
+            p=l.strip().split('|')
+            if len(p)<5: continue
+            teams[dv].add(p[0]);w,lo,t=map(int,p[1].split('-'));M[dv][p[0]]=float(p[2]);G[dv][p[0]]=w+lo+t;R[dv][p[0]]=p[1];WCAN.append(p[0])
     for n,r in X[dv]:
         if n in teams[dv] and n not in M[dv]: M[dv][n]=r;G[dv][n]=0;R[dv][n]='0-0-0'
         elif n not in teams[dv]: print('extra not in app',dv,n)
@@ -132,6 +138,10 @@ for _dv,_fn in (('2014','data/nov18_on13.txt'),('2015','data/nov18_on12.txt')):
             _p=_l.strip().split('|')
             if len(_p)>=5: ANCH[_dv][_p[0]]=[float(_p[3]),float(_p[4])]
     except FileNotFoundError: pass
+ANCH['2012']={}
+for _l in open('data/nov18_wc15.txt'):
+    _p=_l.strip().split('|')
+    if len(_p)>=5: ANCH['2012'][_p[0]]=[float(_p[3]),float(_p[4])]
 _a="  rows.sort((a,b)=>b.r-a.r);\n  const byName=Object.fromEntries(rows.map(x=>[x.t,x]));\n  for(const [k,nd] of Object.entries(XMAP[dv]||{}))"
 assert h.count(_a)==1
 h=h.replace(_a,"  {const have=new Set(rows.map(x=>x.t));for(const [t,a] of Object.entries(ANCH[dv]||{})){if(have.has(t)||MHR[dv][t]===undefined)continue;const rc=((MHR_REC[dv]||{})[t]||'0-0-0').split('-').map(Number);rows.push({t,r:MHR[dv][t],rec:rc,agd:a[0],sched:a[1],gp:rc[0]+rc[1]+rc[2],mhr:true,adj:MHR[dv][t]-(a[0]+a[1]),anch:true})}}\n"+_a,1)
@@ -158,7 +168,7 @@ function renderNA(S){
 }
 """+_e,1)
 
-P2CA=list(P2CA)+[n for n in LITE_ON16 if n not in P2CA];P2CA+=[n for n in LITE_ON11 if n not in P2CA]
+P2CA=list(P2CA)+[n for n in LITE_ON16 if n not in P2CA];P2CA+=[n for n in LITE_ON11 if n not in P2CA];P2CA+=[n for n in WCAN if n not in P2CA]
 h=h.replace('CANADA_BASE = [','CANADA_BASE = ['+','.join(json.dumps(x) for x in P2CA)+(',' if P2CA else ''),1)
 h=h.replace('const BASE = ','const LITE='+json.dumps(LITE)+';\nconst BASE = ',1)
 i=h.index('const MHR=');j=h.index('\n',i);mh=json.loads(h[i+len('const MHR='):j].rstrip(';'))
