@@ -219,15 +219,16 @@ h=h.replace('<a class="back" data-view="rank">','<a class="back" data-view="na">
 h=h.replace('<section class="view on" id="v-rank">','<section class="view" id="v-rank">',1).replace('<section class="view" id="v-wk">','<section class="view on" id="v-wk">',1)
 # Rating change since the last published ratings, next to every rating on the North America, USA and Canada tabs (owner, Nov 20, 2026, 9:22 PM):
 # green +0.08 / red -0.11 = points gained or lost since MHR's Wednesday numbers, from games applied live. Hidden when under 0.01.
-# Shown ONLY for teams that have played since then: when a pool's top team wins big, every other team drifts a few hundredths (the top is pinned),
+# OWNER'S RULE (Nov 20, 9:26 PM): shown for teams that have played since then, AND for an idle team when a team that played has dropped below it
+# (so nobody looks penalised for playing while the idle team above shows nothing). Not for every idle team: when a pool's top team wins big, every other team drifts a few hundredths (the top is pinned),
 # and a red -0.07 on 150 teams that did not play would read as an error. The number shown for a team that played is its full change, drift included.
 _c='<td class="rating"><span class="num">${f2(x.r)}</span></td>'
 assert h.count(_c)==2
-h=h.replace(_c,'<td class="rating"><span class="num">${f2(x.r)}</span>${rd(x.t,x.r)}</td>')
+h=h.replace(_c,'<td class="rating" style="white-space:nowrap">${rd(x.t,x.r)}<span class="num">${f2(x.r)}</span></td>')   # change sits to the LEFT in parentheses so every rating lines up in one column (owner, 9:26 PM)
 _f="function naRanks(S){"
 assert h.count(_f)==1
-h=h.replace(_f,"function rd(t,r){const m=(MHR[div]||{})[t];if(m===undefined||r==null)return '';const n=newG(t);if(!(n[0]+n[1]+n[2]))return '';const d=Math.round((r-m)*100)/100;if(Math.abs(d)<0.01)return '';return `<span class=\"rd ${d>0?'up':'dn'}\" title=\"${d>0?'Up':'Down'} ${Math.abs(d).toFixed(2)} from ${m.toFixed(2)} in the ${MHR_PUBLISHED} ratings\">${d>0?'+':'−'}${Math.abs(d).toFixed(2)}</span>`}\n"+_f,1)
-h=h.replace('</style>','.rd{display:inline-block;margin-left:6px;font-size:12px;font-weight:700;white-space:nowrap}.rd.up{color:#1a7f37}.rd.dn{color:#c62828}</style>',1)
+h=h.replace(_f,"function rdIdle(){const key=div+'|'+allGames().length;if(rdIdle.k===key)return rdIdle.v;const m=MHR[div]||{},rows=solve(div).rows.filter(x=>m[x.t]!==undefined),pl=rows.filter(x=>{const n=newG(x.t);return n[0]+n[1]+n[2]>0}),v=new Set();rows.forEach(x=>{const n=newG(x.t);if(n[0]+n[1]+n[2])return;if(pl.some(p=>m[p.t]>m[x.t]&&p.r<x.r))v.add(x.t)});rdIdle.k=key;rdIdle.v=v;return v}\nfunction rd(t,r){const m=(MHR[div]||{})[t];if(m===undefined||r==null)return '';const n=newG(t);if(!(n[0]+n[1]+n[2])&&!rdIdle().has(t))return '';const d=Math.round((r-m)*100)/100;if(Math.abs(d)<0.01)return '';return `<span class=\"rd ${d>0?'up':'dn'}\" title=\"${d>0?'Up':'Down'} ${Math.abs(d).toFixed(2)} from ${m.toFixed(2)} in the ${MHR_PUBLISHED} ratings\">(${d>0?'+':'−'}${Math.abs(d).toFixed(2)})</span>`}\n"+_f,1)
+h=h.replace('</style>','.rd{display:inline-block;margin-right:6px;font-size:12px;font-weight:700;white-space:nowrap;vertical-align:middle}.rd.up{color:#1a7f37}.rd.dn{color:#c62828}</style>',1)
 _l="= spots moved in the North American order since the last published ratings ('+MHR_PUBLISHED+'), from games applied live.</p>"
 assert h.count(_l)==1
 h=h.replace(_l,_l.replace("from games applied live.","from games applied live. The green or red number beside a rating is the points gained or lost since then."))
