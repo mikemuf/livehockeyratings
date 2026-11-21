@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday: games under way, scores updating",
- "updated": "Sat Nov 21, 12:06 PM CT",
+ "updated": "Sat Nov 21, 12:26 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -833,7 +833,7 @@
   "2011": {
    "summary": [
     "Northeast Pack in Pittsburgh: The field: the top three 15U teams in the country are in the same building, and six of the league's eight teams are ranked in the top nine.",
-    "Standings: Bishop Kearney (#3, 95.59) 16 points. Mount St Charles (#4, 95.49) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#8, 94.29) 11. Woodbridge Wolfpack (#14, 93.27) 8. Chicago Mission (#13, 93.92) 7.",
+    "Standings: Bishop Kearney (#3, 95.59) 16 points. Mount St Charles (#4, 95.50) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#8, 94.29) 11. Woodbridge Wolfpack (#14, 93.27) 8. Chicago Mission (#13, 93.92) 7.",
     "Game of the weekend: Bishop Kearney at Pens Elite, Saturday 2:40 PM. #3 at #1, and the top two American teams; Bishop Kearney won 5-3 on Oct 3.",
     "Bishop Kearney: Wolfpack on Friday (won 3-2 the first time), Pens Elite on Saturday, at Chicago Reapers on Sunday at 7:00 AM. The Reapers gave Bishop Kearney its only league loss, 7-6 in a shootout."
    ],
@@ -1370,7 +1370,7 @@
      "t": "Northeast Pack in Pittsburgh",
      "b": [
       "The field: the top three 15U teams in the country are in the same building, and six of the league's eight teams are ranked in the top nine.",
-      "Standings: Bishop Kearney (#3, 95.59) 16 points. Mount St Charles (#4, 95.49) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#8, 94.29) 11. Woodbridge Wolfpack (#14, 93.27) 8. Chicago Mission (#13, 93.92) 7.",
+      "Standings: Bishop Kearney (#3, 95.59) 16 points. Mount St Charles (#4, 95.50) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#8, 94.29) 11. Woodbridge Wolfpack (#14, 93.27) 8. Chicago Mission (#13, 93.92) 7.",
       "Game of the weekend: Bishop Kearney at Pens Elite, Saturday 2:40 PM. #3 at #1, and the top two American teams; Bishop Kearney won 5-3 on Oct 3.",
       "Bishop Kearney: Wolfpack on Friday (won 3-2 the first time), Pens Elite on Saturday, at Chicago Reapers on Sunday at 7:00 AM. The Reapers gave Bishop Kearney its only league loss, 7-6 in a shootout.",
       "Mount St Charles can take first: Chicago Mission on Friday (won 5-2 on Oct 17), NJ Rockets on Saturday (won 8-1), Wolfpack on Sunday (won 3-1).",
@@ -1402,7 +1402,7 @@
     {
      "t": "Elsewhere",
      "b": [
-      "Toronto Marlboros (#7, 94.54) hosts Mississauga Senators (#31, 92.06) on Friday at 8:10 PM.",
+      "Toronto Marlboros (#7, 94.54) hosts Mississauga Senators (#31, 92.07) on Friday at 8:10 PM.",
       "Mississauga Rebels (#16, 93.14) at North York Rangers (#37, 91.68) on Saturday at 1:00 PM.",
       "Oakland Jr Grizzlies (#11) plays Fox Motors twice in league play.",
       "Pittsburgh Vengeance and Palmyra Black Knights meet three times at Alpha Ice Complex.",
@@ -2782,6 +2782,14 @@
    "Standings: Florida Alliance finishes pool play 3-0 and plays St Louis Blues in a placement game at 2:40 PM.",
    "Ratings: Florida Alliance stays #6 in North America (USA #4, 98.54). Vegas Jr Golden Knights goes from #30 to #29 in North America (USA #17, 95.46).",
    "Next: Florida Alliance plays St Louis Blues today at 2:40 PM."
+  ],
+  "2011|2026-11-21|Mount St Charles Hockey Academy|New Jersey Rockets (Premier)": [
+   "Final: Mount St Charles 5, NJ Rockets 0, in a Northeast Pack 15U league game in Pittsburgh.",
+   "Scoring: Jack Cross scored twice and added an assist. Jasper Goulet opened the scoring in the second period after a scoreless first; Adam Harris and Robert So also scored. Stratton Scarlette, Arjun Mangadu and Sam Archibald had two assists each.",
+   "Goalies: Mason Ecenrode got the shutout. Mark Dybas took the loss with five against.",
+   "Standings: a regulation win, worth three points in the league. The Rockets lost 11-1 to Pittsburgh Penguins Elite on Friday.",
+   "Ratings: Mount St Charles stays #4 in North America (USA #3, 95.50). NJ Rockets stays #48 in North America (USA #28, 90.77).",
+   "Next: Sunday league games for both teams."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",

@@ -25,3 +25,4 @@
 - SAT 2012: Team Illinois (#10) 7, Midwest Warriors (#132) 0 (Team Illinois Showcase). Third straight shutout.
 - SAT 2014: Florida Alliance (#6) 5, Vegas Jr Golden Knights (#30) 3 (STL Showcase). Pre 98.58 / 95.42. Von Bokern late winner.
 - (own slide Sat 10:25 AM: 2012 Reapers 5 Mount St Charles 4 OT, rules B and C)
+- SAT 2011: Mount St Charles 5, NJ Rockets 0 (Northeast Pack 15U). Ecenrode shutout, Cross 2 goals.
