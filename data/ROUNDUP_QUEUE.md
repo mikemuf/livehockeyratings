@@ -7,3 +7,4 @@
 - 2014: Victory Honda (#22) 4, Chicago Mission (#44) 1. Pre 95.73 / 94.07. Arrow: Victory Honda +1.3. Pauley and Collins a goal and an assist each.
 - 2014: St Louis Blues (#16) 4, Dallas Stars Elite (#35) 1. Pre 96.28 / 94.85. Arrow: St Louis +1.6. Three straight in the second.
 - (own slide posted 5:38 PM: 2014 Vegas 5 Philadelphia 4 OT)
+- 2012: Midwest Warriors (#130) 3, CarShield (#118) 1. Pre 90.33 / 90.85. Arrow: Warriors +2.5. Brunkhorst PP winner; Schinke goal and assist.

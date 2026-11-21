@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Preview — all six birth years",
- "updated": "Fri Nov 20, 8:38 PM CT",
+ "updated": "Fri Nov 20, 9:07 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -11,7 +11,7 @@
    "summary": [
     "Northeast Pack in Pittsburgh: The field: all eight 14U teams are ranked in the top 28 in North America (top 17 in the USA). Twelve league games Friday to Sunday, three per team.",
     "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#9, 96.78) 13. Bishop Kearney (#15, 96.20) and Mount St Charles (#11, 96.47) 11 each. Chicago Mission (#8, 96.86) 10. Pittsburgh Penguins Elite (#20, 95.96) 8. NJ Rockets (#19, 95.99) 6. Chicago Reapers (#28, 95.52) 4.",
-    "Also big: Shattuck St Mary's (#2, 99.68) plays three at Little Caesars (#6, 97.22) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
+    "Also big: Shattuck St Mary's (#2, 99.69) plays three at Little Caesars (#6, 97.22) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
     "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
     "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1)."
    ],
@@ -787,7 +787,7 @@
     {
      "t": "Shattuck St Mary's at Little Caesars, three games",
      "b": [
-      "The series: Shattuck St Mary's (#2, 99.68) at Little Caesars (#6, 97.22), three games at Belfor Training Center in Detroit.",
+      "The series: Shattuck St Mary's (#2, 99.69) at Little Caesars (#6, 97.22), three games at Belfor Training Center in Detroit.",
       "Game times: Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
       "Why it matters: second against third in the USA. Mid-Fairfield is the only American team ranked above both."
      ]
@@ -811,7 +811,7 @@
       "Head to head: the Marlboros won both meetings, 3-2 on Oct 11 and 2-0 on Oct 25.",
       "Marlboros to watch: Cal Reilly, 21 goals and 39 points in 25 games. In goal, Austin Kay-Schilke has allowed 1.50 goals a game in 12 games.",
       "The Jr Canadiens arrive off three wins in Chicago last weekend, the last one 3-1 over Team Illinois (#7, 97.03).",
-      "Right behind them: North York Rangers (#5, 98.14) hosts Vaughan Kings (#22, 95.93) on Saturday at 2:30 PM. The top three in Ontario are within 0.11 of each other.",
+      "Right behind them: North York Rangers (#5, 98.14) hosts Vaughan Kings (#22, 95.92) on Saturday at 2:30 PM. The top three in Ontario are within 0.11 of each other.",
       "Sunday: Jr Canadiens host Markham Majors at 2:15 PM. Marlboros at Don Mills Flyers at 8:00 PM."
      ]
     },
@@ -2250,7 +2250,7 @@
   },
   "2016": {
    "summary": [
-    "Friday night in Elk Grove: St Louis Blues (#11, 96.60) at Chicago Mission (#34, 94.60), Friday 7:40 PM, Elk Grove Ice Arena.",
+    "Friday night in Elk Grove: St Louis Blues (#12, 96.57) at Chicago Mission (#33, 94.63), Friday 7:40 PM, Elk Grove Ice Arena.",
     "It is the only game of the weekend between two top-25 Squirt teams."
    ],
    "events": [],
@@ -2392,7 +2392,7 @@
     {
      "t": "Friday night in Elk Grove",
      "b": [
-      "St Louis Blues (#11, 96.60) at Chicago Mission (#34, 94.60), Friday 7:40 PM, Elk Grove Ice Arena.",
+      "St Louis Blues (#12, 96.57) at Chicago Mission (#33, 94.63), Friday 7:40 PM, Elk Grove Ice Arena.",
       "It is the only game of the weekend between two top-25 Squirt teams."
      ]
     },
@@ -2576,6 +2576,22 @@
    "Standings: Shattuck leads the weekend set 1-0. This is an exhibition series, not a league game.",
    "Ratings: Shattuck stays #2 in North America (USA #2), rating up from 99.59 to 99.68. Little Caesars stays #6 (USA #3), 97.27 to 97.22.",
    "Next: game two on Saturday at 4:00 PM, game three on Sunday at 11:00 AM, both in Detroit."
+  ],
+  "2016|2026-11-20|Chicago Mission|St Louis Blues": [
+   "Final: St Louis Blues 3, Chicago Mission 2, decided after regulation, at Elk Grove.",
+   "Scoring: Mission scored twice in the second period to lead 2-0. St Louis got one back on the power play with 5:18 left in the third and tied it with 1:45 to play, then took the extra point after regulation. The scoresheet does not list the scorers.",
+   "Goalies: not listed on the scoresheet.",
+   "Standings: an exhibition game.",
+   "Ratings: St Louis goes from #11 to #12 in North America (USA #8, 96.57) after needing extra time against a lower-ranked team. Mission moves from #34 to #33 (USA #18, 94.63).",
+   "Next: no other games are listed for either team this weekend."
+  ],
+  "2012|2026-11-20|CarShield|Midwest Warriors": [
+   "Final: Midwest Warriors 3, CarShield 1, at the Team Illinois Showcase in Carol Stream.",
+   "Scoring: Keegan McCarty put CarShield ahead in the first and Brayden Fletcher tied it 40 seconds later. Calin Brunkhorst scored the game winner on the power play early in the second, from Isaiah Schinke, and Schinke added an empty-net goal with two seconds left.",
+   "Goalies: Jaxon Sturtz got the win for the Warriors with one against. Grady Schene took the loss for CarShield with two against plus the empty-netter.",
+   "Standings: Team Illinois and Midwest Warriors are 1-0 at the showcase. CarShield and Madison are 0-1.",
+   "Ratings: Midwest Warriors move from #130 to #127 in North America (USA #77, 90.41). CarShield goes from #118 to #119 (USA #72, 90.79).",
+   "Next: the Warriors play Team Illinois on Saturday at 8:00 AM. CarShield plays Madison Capitols on Saturday at 7:50 AM."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",
