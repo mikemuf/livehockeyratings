@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday: games under way, scores updating",
- "updated": "Sat Nov 21, 4:54 PM CT",
+ "updated": "Sat Nov 21, 4:59 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -1390,7 +1390,7 @@
     {
      "t": "Toronto Jr Canadiens at Vaughan Kings",
      "b": [
-      "The game: Toronto Jr Canadiens (#5, 95.25) at Vaughan Kings (#2, 96.04), Saturday 12:55 PM, Westwood Arenas in Toronto. First against second in Ontario.",
+      "The game: Toronto Jr Canadiens (#5, 95.21) at Vaughan Kings (#2, 96.09), Saturday 12:55 PM, Westwood Arenas in Toronto. First against second in Ontario.",
       "Vaughan is 25-0-1. Its only game without a win was a 3-3 tie with Toronto Marlboros on Nov 10.",
       "Head to head: Vaughan won both meetings, 6-4 on Oct 4 and 3-1 on Oct 11.",
       "Vaughan to watch: Preston Hebert, 18 goals and 43 points in 25 games. Jasper Wang, a defenseman with 37 points and plus 59. Niko Fegaras, 20 goals.",
@@ -2275,7 +2275,7 @@
       "Head to head: the Jr Canadiens won both meetings, 6-0 on Sep 27 and 5-2 on Oct 18.",
       "Jr Canadiens to watch: Patrick Middlebrook, 31 goals and 47 points in 20 games. Devin Price, a defenseman with 28 assists and plus 50.",
       "Marlboros to watch: George Zhang, 21 goals and 44 points in 19 games. The Marlboros have won five straight.",
-      "Also in Toronto: Vaughan Kings (#28, 90.81) hosts Toronto Reps on Saturday at 1:15 PM. Jr Canadiens host Toronto Red Wings on Sunday at 12:40 PM."
+      "Also in Toronto: Vaughan Kings (#28, 90.72) hosts Toronto Reps on Saturday at 1:15 PM. Jr Canadiens host Toronto Red Wings on Sunday at 12:40 PM."
      ]
     },
     {
@@ -2899,6 +2899,30 @@
    "Goalies: Payson Wagner got the win with two against. Sebastian Masek took the loss.",
    "Standings: a placement game; both teams went 1-2 in pool play.",
    "Ratings: Vegas stays #29 in North America (USA #17, 95.52). Dallas Stars Elite goes from #34 to #35 (USA #21, 94.81).",
+   "Next: not listed yet."
+  ],
+  "2011|2026-11-21|Toronto Jr Canadiens|Vaughan Kings": [
+   "Final: Vaughan Kings 2, Toronto Jr Canadiens 0, in a GTHL league game between Ontario's top two teams.",
+   "Scoring: goal scorers are not posted for this league.",
+   "Goalies: names are not posted for this league.",
+   "Standings: a league game.",
+   "Ratings: Vaughan Kings stays #2 in North America (CAN #1, 96.09). Toronto Jr Canadiens stays #5 (CAN #2, 95.21).",
+   "Next: Toronto Jr Canadiens host Toronto Marlboros on Sunday at 3:45 PM."
+  ],
+  "2015|2026-11-21|Toronto Reps|Vaughan Kings": [
+   "Final: Toronto Reps 2, Vaughan Kings 1, in a GTHL league game. The lower-ranked team won.",
+   "Scoring: goal scorers are not posted for this league.",
+   "Goalies: names are not posted for this league.",
+   "Standings: a league game.",
+   "Ratings: Toronto Reps stays #42 in North America (CAN #14, 90.06). Vaughan Kings stays #28 (CAN #10, 90.72).",
+   "Next: not listed yet."
+  ],
+  "2014|2026-11-21|Toronto Red Wings|Vaughan Kings": [
+   "Final: Vaughan Kings 6, Toronto Red Wings 0, in a GTHL league game.",
+   "Scoring: goal scorers are not posted for this league.",
+   "Goalies: names are not posted for this league.",
+   "Standings: a league game.",
+   "Ratings: Vaughan Kings goes from #27 to #23 in North America (CAN #10, 95.82). Toronto Red Wings goes from #59 to #62 (CAN #27, 93.35).",
    "Next: not listed yet."
   ]
  },

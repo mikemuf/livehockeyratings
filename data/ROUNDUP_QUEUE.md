@@ -34,3 +34,4 @@
 - SAT 2012: Team Illinois (#10) 5, Milwaukee Jr Admirals (#92) 3 (Team Illinois Showcase). Petersen 2 goals + assist; tied 3-3 in the third.
 - SAT 2014: Chicago Mission (#50) 3, Philadelphia HC (#52) 2 OT (STL showcase placement). Froelich OT winner with 27 seconds left.
 - SAT 2014: Vegas Jr Golden Knights (#29) 5, Dallas Stars Elite (#34) 2 (STL showcase placement). Golovan 2 goals.
+- SAT 2014 (U13): Vaughan Kings (#27) 6, Toronto Red Wings (#59) 0 (GTHL).
