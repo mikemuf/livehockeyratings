@@ -61,3 +61,4 @@ Scores 8:45: 2012 Mission 6 Penguins 3 (3rd, Cudio 3 goals), Reapers 2 Mount St 
 10:55 AM: 3175116 Rockets 0 Mount St Charles 0 (2011, just started; /tmp/pk11.txt -> /tmp/gs/sat11.jsonl, DIV 2011). 3186615 still blank.
 11:14 AM: no change (3175116 still 0-0, 3186615 blank). Next check 11:45, then Mission v Mid-Fairfield 2011 at 12:40 PM (3175117).
 11:48 AM: 3175116 Mount St Charles 2 Rockets 0 (2nd). 3186615 still blank (treat like Friday's blank sheets: result will appear when the scorer uploads).
+12:08 PM: 3175116 Mount St Charles 4 Rockets 0 (3rd). 3186615 and 3186616 (2011 Team Illinois showcase games at Carol Stream) blank. Next: 3175117 Mission v Mid-Fairfield 2011 12:40; GTHL read ~1:30.
