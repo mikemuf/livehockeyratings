@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday evening: where each event stands and what is left",
- "updated": "Sat Nov 21, 5:15 PM CT",
+ "updated": "Sat Nov 21, 5:21 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -787,7 +787,8 @@
       "The race for second: four teams within a point. Mount St Charles beat the Wolfpack 5-4 in overtime on Friday, then lost 5-4 in overtime to the Reapers on Saturday.",
       "Chicago Mission: lost 5-3 to Bishop Kearney on Friday, then beat Penguins Elite 9-3. Cash Cieslak has four goals in the two games.",
       "Chicago Reapers: lost 6-2 to NJ Rockets, then got their second league win, 5-4 in overtime over Mount St Charles."
-     ]
+     ],
+     "url": "https://gamesheetstats.com/seasons/15483/games"
     },
     {
      "t": "Northeast Pack 14U: what is left",
@@ -815,14 +816,16 @@
       "Big weekend: Sebastien Erat (Nashville) has four goals and four assists in three games, including three goals and two assists against St George's.",
       "Saturday 6:15 PM Central: Nashville against Delta Hockey Academy again, second against third in the standings, at Planet Ice Delta.",
       "Sunday: the final is at 3:00 PM Central."
-     ]
+     ],
+     "url": "https://page.spordle.com/pat-quinn-classic"
     },
     {
      "t": "Team Illinois Showcase",
      "b": [
       "Team Illinois (#10, 96.99) is 4-0: 5-0, 8-0, 7-0 and 5-3 over Milwaukee Jr Admirals, the only team to score on it.",
       "Big weekend: Declan Petersen (Team Illinois) has four goals and five assists. Against Milwaukee he scored twice and set up the game winner."
-     ]
+     ],
+     "url": "https://gamesheetstats.com/seasons/16444/games"
     },
     {
      "t": "Toronto",
@@ -1381,7 +1384,8 @@
       "Penguins Elite: beat NJ Rockets 11-1 on Friday, then lost to Bishop Kearney.",
       "Chicago Mission: lost 5-4 to Mount St Charles, then beat Mid-Fairfield 3-2 with all three goals on the power play. Lachlan Tantaro scored twice in the third, the second the winner.",
       "Big weekends: Smith Vantine (Bishop Kearney), three goals against the #1 team. Jack Carlson (Penguins Elite), five assists in two games."
-     ]
+     ],
+     "url": "https://gamesheetstats.com/seasons/15483/games"
     },
     {
      "t": "Northeast Pack 15U: what is left",
@@ -2013,7 +2017,8 @@
       "Semifinal two: Chicago Reapers (#28, 95.53) against Victory Honda, still being played Saturday evening. The live score is at the top of this page.",
       "Placement games: Chicago Mission (#49, 93.97) beat Philadelphia Hockey Club 3-2 in overtime, its first win of the event. Vegas Jr Golden Knights (#29, 95.52) beat Dallas Stars Elite (#35, 94.81) 5-2.",
       "Big weekends: Colton Von Bokern (Florida Alliance), five goals and two assists in four games, with two game winners on Saturday. Benjamin Bianco (Florida Alliance), five goals and two assists. Jack Collins (Victory Honda), four goals and two assists."
-     ]
+     ],
+     "url": "https://gamesheetstats.com/seasons/16484/games"
     },
     {
      "t": "STL AAA Blues Showcase: what is left",
@@ -2919,5 +2924,6 @@
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",
- "live_end": "2026-11-22T22:30:00-06:00"
+ "live_end": "2026-11-22T22:30:00-06:00",
+ "report": true
 }
