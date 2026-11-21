@@ -175,7 +175,11 @@ rep('<style>','<style>.bar{flex-wrap:wrap;row-gap:6px}@media (max-width:560px){.
 h=h.replace("div==='2012'?'2012 Bantam Major':'2013 Bantam Minor'","({'2011':'2011 Midget Minor (15U)','2012':'2012 Bantam Major','2013':'2013 Bantam Minor','2014':'2014 Peewee Major (12U)','2015':'2015 Peewee Minor (11U)','2016':'2016 Squirt Major (10U)'})[div]")
 # --- public site: Weekend tab; hide internal tabs (Schedule, Add scores, Handoff)
 WK=json.load(open('data/weekend_public.json'))
-WBOX=sorted([v for k,v in (json.load(open('data/gs_box.json')) if os.path.exists('data/gs_box.json') else {}).items() if WK['from']<=v['date']<=WK['to']],key=lambda v:(v['date'],v['time']))
+# each box score carries the address of its official scoresheet (owner, Nov 20 2026: "a link directly to that game ... for every game")
+def _sheet(k):
+    dv,sid,gid=k.split('|')
+    return ('https://page.spordle.com/pat-quinn-classic/schedule/'+gid) if sid=='900001' else ('https://gamesheetstats.com/seasons/%s/games/%s'%(sid,gid))
+WBOX=sorted([dict(v,url=_sheet(k)) for k,v in (json.load(open('data/gs_box.json')) if os.path.exists('data/gs_box.json') else {}).items() if WK['from']<=v['date']<=WK['to']],key=lambda v:(v['date'],v['time']))
 WG=[g[:6] for g in json.load(open('data/games_wk_nov6.json'))+json.load(open('data/pending_games.json')) if WK['from']<=g[1]<=WK['to']]
 # Games against teams outside the ratings (data/unrated_games.json) also show under Final scores; they never touch the ratings (owner, Nov 19, 2026).
 WG+=[g[:6] for g in json.load(open('data/unrated_games.json')) if WK['from']<=g[1]<=WK['to']]
