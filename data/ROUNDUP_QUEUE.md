@@ -17,3 +17,6 @@
 - 2014 (U13): Toronto Red Wings (#59) 2, Markham Majors (#85) 1. Pre 93.45 / 92.55. As expected.
 - 2016 (U11): Toronto Titans (#31) 4, Toronto Red Wings (#38) 3. Pre 94.80 / 94.40.
 - (own slides 11:50 PM: 2013 Marlboros 3 Vaughan 2 rule A; 2012 Red Wings 3 Vaughan 0 rule C; 2016 Marlboros 4 Vaughan 1 rule A)
+- SAT 2012: Chicago Mission (#10) 9, Pittsburgh Penguins Elite (#22) 3 (Northeast Pack). Pre 96.86 / 95.96. Cudio 3 goals, Cieslak 3 goals and an assist.
+- SAT 2014: Victory Honda (#22) 5, St Louis Blues (#16) 2 (STL Showcase). Pre 95.76 / 96.32. Pauley 2 goals.
+- (own slide Sat 9:15 AM: 2014 Philadelphia 4 Reapers 3 OT, rules B and C)
