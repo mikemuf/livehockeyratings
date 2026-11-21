@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday evening: where each event stands and what is left",
- "updated": "Sat Nov 21, 5:51 PM CT",
+ "updated": "Sat Nov 21, 5:53 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -10,8 +10,8 @@
   "2012": {
    "summary": [
     "Northeast Pack in Pittsburgh: The field: all eight 14U teams are ranked in the top 28 in North America (top 17 in the USA). Twelve league games Friday to Sunday, three per team.",
-    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.74) 13. Bishop Kearney (#17, 96.20) and Mount St Charles (#14, 96.37) 11 each. Chicago Mission (#9, 97.04) 10. Pittsburgh Penguins Elite (#27, 95.78) 8. NJ Rockets (#21, 95.98) 6. Chicago Reapers (#30, 95.57) 4.",
-    "Also big: Shattuck St Mary's (#2, 99.70) plays three at Little Caesars (#6, 97.22) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
+    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.74) 13. Bishop Kearney (#18, 96.20) and Mount St Charles (#14, 96.37) 11 each. Chicago Mission (#9, 97.05) 10. Pittsburgh Penguins Elite (#27, 95.77) 8. NJ Rockets (#21, 95.97) 6. Chicago Reapers (#30, 95.58) 4.",
+    "Also big: Shattuck St Mary's (#2, 99.83) plays three at Little Caesars (#7, 97.15) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
     "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
     "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1)."
    ],
@@ -781,7 +781,7 @@
     {
      "t": "Northeast Pack 14U: where it stands",
      "b": [
-      "Standings with one Saturday game still being played: Mid-Fairfield (#1, 99.99) 27 points. Bishop Kearney (#17, 96.20), Mount St Charles (#14, 96.37) and Woodbridge Wolfpack (#11, 96.74) 14 each. Chicago Mission (#9, 97.04) 13. NJ Rockets (#21, 95.98) 9. Pittsburgh Penguins Elite (#27, 95.78) 8. Chicago Reapers (#30, 95.57) 6.",
+      "Standings with one Saturday game still being played: Mid-Fairfield (#1, 99.99) 27 points. Bishop Kearney (#18, 96.20), Mount St Charles (#14, 96.37) and Woodbridge Wolfpack (#11, 96.74) 14 each. Chicago Mission (#9, 97.05) 13. NJ Rockets (#21, 95.97) 9. Pittsburgh Penguins Elite (#27, 95.77) 8. Chicago Reapers (#30, 95.58) 6.",
       "Still playing Saturday evening: Bishop Kearney against NJ Rockets. The live score is at the top of this page.",
       "Mid-Fairfield: beat Penguins Elite 6-0 on Friday and the Wolfpack 7-3 on Saturday. It was 3-3 after two periods; Mid-Fairfield scored four in three minutes early in the third. Jack Brayman had two goals and two assists.",
       "The race for second: four teams within a point. Mount St Charles beat the Wolfpack 5-4 in overtime on Friday, then lost 5-4 in overtime to the Reapers on Saturday.",
@@ -802,8 +802,8 @@
     {
      "t": "Shattuck St Mary's at Little Caesars, three games",
      "b": [
-      "Game one, Friday: Shattuck St Mary's (#2, 99.70) 5, Little Caesars (#6, 97.22) 1.",
-      "Game two was Saturday at 4:00 PM. The result has not been posted yet.",
+      "Game one, Friday: Shattuck St Mary's (#2, 99.83) 5, Little Caesars (#7, 97.15) 1.",
+      "Game two, Saturday: Shattuck 8, Little Caesars 3. Shattuck leads the series 2-0 and is 0.16 behind Mid-Fairfield for #1.",
       "Game three: Sunday at 11:00 AM."
      ]
     },
@@ -811,7 +811,7 @@
      "t": "Nashville in British Columbia",
      "b": [
       "The event: the Pat Quinn Classic U15 Elite in Burnaby and Delta.",
-      "Round-robin standings: Yale Hockey Academy (#8) 3-0. Delta Hockey Academy (#7) 2-1. Nashville Jr. Predators (#15, 96.28) 2-1. Pacific Coast Academy 2-2. St George's School 1-2. Burnaby Winter Club Academy 0-4.",
+      "Round-robin standings: Yale Hockey Academy (#8) 3-0. Delta Hockey Academy (#6) 2-1. Nashville Jr. Predators (#15, 96.28) 2-1. Pacific Coast Academy 2-2. St George's School 1-2. Burnaby Winter Club Academy 0-4.",
       "Nashville so far: lost 3-0 to Delta on Thursday, then beat Burnaby Winter Club Academy 4-2 and St George's School 7-4 on Friday.",
       "Big weekend: Sebastien Erat (Nashville) has four goals and four assists in three games, including three goals and two assists against St George's.",
       "Saturday 6:15 PM Central: Nashville against Delta Hockey Academy again, second against third in the standings, at Planet Ice Delta.",
@@ -831,7 +831,7 @@
      "t": "Toronto",
      "b": [
       "Friday: Toronto Jr Canadiens (#3, 98.24) 2, Toronto Marlboros (#4, 98.18) 0, first against second in Ontario.",
-      "Friday: Toronto Red Wings (#58, 93.57) 3, Vaughan Kings (#29, 95.70) 0.",
+      "Friday: Toronto Red Wings (#59, 93.57) 3, Vaughan Kings (#29, 95.70) 0.",
       "Saturday: Vaughan Kings against North York Rangers (#5, 98.15). The result has not been posted yet."
      ]
     }
@@ -2959,6 +2959,14 @@
    "Standings: Victory Honda is 4-0 at the event.",
    "Ratings: Victory Honda stays #20 in North America (USA #13, 95.91). Chicago Reapers goes from #28 to #29 (USA #17, 95.49).",
    "Next: Sunday 8:40 AM, Victory Honda against Florida Alliance for the championship. Sunday 7:00 AM, Chicago Reapers against St Louis Blues for third place."
+  ],
+  "2012|2026-11-21|Little Caesars|Shattuck St Mary's": [
+   "Final: Shattuck St Mary's 8, Little Caesars 3, game two of a three-game series in Michigan. Shattuck has won both games.",
+   "Scoring: goal scorers have not been posted for this game.",
+   "Goalies: not posted.",
+   "Standings: Shattuck leads the series 2-0, 5-1 on Friday and 8-3 on Saturday.",
+   "Ratings: Shattuck St Mary's stays #2 in North America (USA #2, 99.83), up 0.13 and now 0.16 behind Mid-Fairfield. Little Caesars goes from #6 to #7 (USA #3, 97.15).",
+   "Next: game three is Sunday at 11:00 AM."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",
