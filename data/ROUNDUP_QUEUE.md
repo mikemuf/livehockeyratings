@@ -33,3 +33,4 @@
 - SAT 2011: Chicago Mission (#13) 3, Mid-Fairfield (#49) 2 (Northeast Pack 15U). Tantaro 2 goals incl. winner; all three Mission goals on the power play.
 - SAT 2012: Team Illinois (#10) 5, Milwaukee Jr Admirals (#92) 3 (Team Illinois Showcase). Petersen 2 goals + assist; tied 3-3 in the third.
 - SAT 2014: Chicago Mission (#50) 3, Philadelphia HC (#52) 2 OT (STL showcase placement). Froelich OT winner with 27 seconds left.
+- SAT 2014: Vegas Jr Golden Knights (#29) 5, Dallas Stars Elite (#34) 2 (STL showcase placement). Golovan 2 goals.
