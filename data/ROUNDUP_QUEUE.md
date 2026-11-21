@@ -12,3 +12,8 @@
 - 2013 (U14): Toronto Red Wings (#25) 9, North York Rangers (#116) 0. Pre 90.51 / 85.77. Arrow: Red Wings +2.3 (margin capped at 7).
 - 2015 (U12): Mississauga Senators (#54) 3, Toronto Red Wings (#71) 3, tie. Pre 89.36 / 88.67.
 - (own slides: 2016 St Louis-Mission OT/SO; 2012 Jr Canadiens 2 Marlboros 0; 2014 Marlboros 4 Don Mills 1)
+- 2012: Nashville Jr. Predators (#16) 7, St George's School (#32) 4 (Pat Quinn Classic). Pre 96.24 / 95.19. Arrow: Nashville +2.0. Erat 3 goals 2 assists; A. Katona goal and 2 assists.
+- 2011 (U16): Toronto Marlboros (#7) 5, Mississauga Senators (#30) 0. Pre 94.44 / 92.18. Arrow: Marlboros +2.7.
+- 2014 (U13): Toronto Red Wings (#59) 2, Markham Majors (#85) 1. Pre 93.45 / 92.55. As expected.
+- 2016 (U11): Toronto Titans (#31) 4, Toronto Red Wings (#38) 3. Pre 94.80 / 94.40.
+- (own slides 11:50 PM: 2013 Marlboros 3 Vaughan 2 rule A; 2012 Red Wings 3 Vaughan 0 rule C; 2016 Marlboros 4 Vaughan 1 rule A)
