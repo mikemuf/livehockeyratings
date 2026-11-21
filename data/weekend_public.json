@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday: games under way, scores updating",
- "updated": "Sat Nov 21, 2:16 PM CT",
+ "updated": "Sat Nov 21, 2:52 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -833,7 +833,7 @@
   "2011": {
    "summary": [
     "Northeast Pack in Pittsburgh: The field: the top three 15U teams in the country are in the same building, and six of the league's eight teams are ranked in the top nine.",
-    "Standings: Bishop Kearney (#3, 95.59) 16 points. Mount St Charles (#4, 95.50) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#8, 94.29) 11. Woodbridge Wolfpack (#14, 93.27) 8. Chicago Mission (#13, 93.92) 7.",
+    "Standings: Bishop Kearney (#3, 95.59) 16 points. Mount St Charles (#4, 95.50) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#8, 94.29) 11. Woodbridge Wolfpack (#14, 93.27) 8. Chicago Mission (#13, 93.86) 7.",
     "Game of the weekend: Bishop Kearney at Pens Elite, Saturday 2:40 PM. #3 at #1, and the top two American teams; Bishop Kearney won 5-3 on Oct 3.",
     "Bishop Kearney: Wolfpack on Friday (won 3-2 the first time), Pens Elite on Saturday, at Chicago Reapers on Sunday at 7:00 AM. The Reapers gave Bishop Kearney its only league loss, 7-6 in a shootout."
    ],
@@ -1370,7 +1370,7 @@
      "t": "Northeast Pack in Pittsburgh",
      "b": [
       "The field: the top three 15U teams in the country are in the same building, and six of the league's eight teams are ranked in the top nine.",
-      "Standings: Bishop Kearney (#3, 95.59) 16 points. Mount St Charles (#4, 95.50) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#8, 94.29) 11. Woodbridge Wolfpack (#14, 93.27) 8. Chicago Mission (#13, 93.92) 7.",
+      "Standings: Bishop Kearney (#3, 95.59) 16 points. Mount St Charles (#4, 95.50) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#8, 94.29) 11. Woodbridge Wolfpack (#14, 93.27) 8. Chicago Mission (#13, 93.86) 7.",
       "Game of the weekend: Bishop Kearney at Pens Elite, Saturday 2:40 PM. #3 at #1, and the top two American teams; Bishop Kearney won 5-3 on Oct 3.",
       "Bishop Kearney: Wolfpack on Friday (won 3-2 the first time), Pens Elite on Saturday, at Chicago Reapers on Sunday at 7:00 AM. The Reapers gave Bishop Kearney its only league loss, 7-6 in a shootout.",
       "Mount St Charles can take first: Chicago Mission on Friday (won 5-2 on Oct 17), NJ Rockets on Saturday (won 8-1), Wolfpack on Sunday (won 3-1).",
@@ -1965,6 +1965,28 @@
      "note": "STL AAA Blues Showcase placement game",
      "tz": "CT",
      "sheet": "https://gamesheetstats.com/seasons/16484/games/3159135"
+    },
+    {
+     "day": "Sat",
+     "rink": "Centene Community Ice Center",
+     "city": "Maryland Heights, MO",
+     "note": "STL AAA Blues Showcase placement game",
+     "tz": "CT",
+     "time": "3:00 PM",
+     "a": "Chicago Mission",
+     "b": "Philadelphia Hockey Club",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159139"
+    },
+    {
+     "day": "Sat",
+     "rink": "Centene Community Ice Center",
+     "city": "Maryland Heights, MO",
+     "note": "STL AAA Blues Showcase placement game",
+     "tz": "CT",
+     "time": "3:10 PM",
+     "a": "Vegas Jr Golden Knights",
+     "b": "Dallas Stars Elite",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159141"
     },
     {
      "day": "Sat",
@@ -2830,6 +2852,14 @@
    "Standings: a league game.",
    "Ratings: Mississauga Rebels goes from #75 to #69 in North America (CAN #27, 88.73). Toronto Nationals goes from #34 to #35 in North America (CAN #12, 90.30).",
    "Next: not listed yet."
+  ],
+  "2011|2026-11-21|Chicago Mission|Mid-Fairfield Hockey Club (National)": [
+   "Final: Chicago Mission 3, Mid-Fairfield 2, in a Northeast Pack 15U league game in Pittsburgh.",
+   "Scoring: all three Mission goals came on the power play. Parker Stewart opened the scoring in the first; John Shannon and Kacper Godzwon (power play) put Mid-Fairfield ahead 2-1 in the second. Lachlan Tantaro tied it early in the third and scored the game winner with 9:09 left. Stewart and Jackson Wallace each had two points besides; Jaxson Wakefield had two assists for Mid-Fairfield.",
+   "Goalies: Nolan O'Brien got the win with two against. Henry Gilbert took the loss with three against.",
+   "Standings: a regulation win, worth three points in the league.",
+   "Ratings: Chicago Mission stays #13 in North America (USA #8, 93.86). Mid-Fairfield goes from #49 to #48 in North America (USA #28, 90.78).",
+   "Next: Sunday league games for both teams."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",
