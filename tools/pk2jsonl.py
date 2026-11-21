@@ -10,7 +10,7 @@ out=[]
 for l in sys.stdin:
     l=l.strip()
     if not l: continue
-    head,_,gs=l.partition(' :: ')
+    head,_,gs=l.partition(' ::');gs=gs.strip()
     m=re.match(r'(\d+) (.*?) (\d+|null)-(\d+|null) G (.*)$',head)
     gid,st,vs,hs,gl=m.groups();meta=M[gid]
     goals=[]
