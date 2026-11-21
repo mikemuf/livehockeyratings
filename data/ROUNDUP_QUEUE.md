@@ -8,3 +8,7 @@
 - 2014: St Louis Blues (#16) 4, Dallas Stars Elite (#35) 1. Pre 96.28 / 94.85. Arrow: St Louis +1.6. Three straight in the second.
 - (own slide posted 5:38 PM: 2014 Vegas 5 Philadelphia 4 OT)
 - 2012: Midwest Warriors (#130) 3, CarShield (#118) 1. Pre 90.33 / 90.85. Arrow: Warriors +2.5. Brunkhorst PP winner; Schinke goal and assist.
+- 2012 (U15): Mississauga Senators (#31) 3, Toronto Reps (#124) 3, tie. Pre 95.07 / 90.63. Arrow: Reps +4.4.
+- 2013 (U14): Toronto Red Wings (#25) 9, North York Rangers (#116) 0. Pre 90.51 / 85.77. Arrow: Red Wings +2.3 (margin capped at 7).
+- 2015 (U12): Mississauga Senators (#54) 3, Toronto Red Wings (#71) 3, tie. Pre 89.36 / 88.67.
+- (own slides: 2016 St Louis-Mission OT/SO; 2012 Jr Canadiens 2 Marlboros 0; 2014 Marlboros 4 Don Mills 1)

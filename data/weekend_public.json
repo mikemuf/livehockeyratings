@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Preview — all six birth years",
- "updated": "Fri Nov 20, 9:07 PM CT",
+ "updated": "Fri Nov 20, 9:12 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -10,7 +10,7 @@
   "2012": {
    "summary": [
     "Northeast Pack in Pittsburgh: The field: all eight 14U teams are ranked in the top 28 in North America (top 17 in the USA). Twelve league games Friday to Sunday, three per team.",
-    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#9, 96.78) 13. Bishop Kearney (#15, 96.20) and Mount St Charles (#11, 96.47) 11 each. Chicago Mission (#8, 96.86) 10. Pittsburgh Penguins Elite (#20, 95.96) 8. NJ Rockets (#19, 95.99) 6. Chicago Reapers (#28, 95.52) 4.",
+    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#9, 96.78) 13. Bishop Kearney (#15, 96.20) and Mount St Charles (#11, 96.46) 11 each. Chicago Mission (#8, 96.86) 10. Pittsburgh Penguins Elite (#20, 95.96) 8. NJ Rockets (#19, 95.99) 6. Chicago Reapers (#28, 95.52) 4.",
     "Also big: Shattuck St Mary's (#2, 99.69) plays three at Little Caesars (#6, 97.22) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
     "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
     "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1)."
@@ -766,7 +766,7 @@
      "t": "Northeast Pack in Pittsburgh",
      "b": [
       "The field: all eight 14U teams are ranked in the top 28 in North America (top 17 in the USA). Twelve league games Friday to Sunday, three per team.",
-      "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#9, 96.78) 13. Bishop Kearney (#15, 96.20) and Mount St Charles (#11, 96.47) 11 each. Chicago Mission (#8, 96.86) 10. Pittsburgh Penguins Elite (#20, 95.96) 8. NJ Rockets (#19, 95.99) 6. Chicago Reapers (#28, 95.52) 4.",
+      "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#9, 96.78) 13. Bishop Kearney (#15, 96.20) and Mount St Charles (#11, 96.46) 11 each. Chicago Mission (#8, 96.86) 10. Pittsburgh Penguins Elite (#20, 95.96) 8. NJ Rockets (#19, 95.99) 6. Chicago Reapers (#28, 95.52) 4.",
       "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
       "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1).",
       "Chicago Mission: at Bishop Kearney on Friday (won 7-4 on Oct 4), home to Pens Elite on Saturday (lost 4-3 in overtime on Oct 17), at NJ Rockets on Sunday (won 5-1). Three regulation wins would make 19 points.",
@@ -795,7 +795,7 @@
     {
      "t": "Nashville in British Columbia",
      "b": [
-      "The event: the Pat Quinn Classic U15 Elite in Burnaby and Delta, Thursday to Sunday. Nashville Jr. Predators (#13, 96.29) is in the field.",
+      "The event: the Pat Quinn Classic U15 Elite in Burnaby and Delta, Thursday to Sunday. Nashville Jr. Predators (#13, 96.30) is in the field.",
       "Thursday: Delta Hockey Academy 3, Nashville 0. Nashville was shut out in its opener.",
       "Delta scoring: Aleksandr Iaichkin two goals, one on the power play. Kayden Krestanovich a goal and an assist, with the game winner. Qirun Xie and Sajan Chatha two assists each.",
       "Goalies: Logan Wagner had the shutout for Delta. For Nashville, John Nolan Blankush allowed two in 20 minutes and Lucas Katona one in 40.",
@@ -807,11 +807,11 @@
     {
      "t": "Toronto Jr Canadiens at Toronto Marlboros",
      "b": [
-      "The game: Toronto Jr Canadiens (#4, 98.17) at Toronto Marlboros (#3, 98.27), Friday 6:40 PM, CWENCH Centre in Etobicoke. First against second in Ontario, 0.09 rating points apart.",
+      "The game: Toronto Jr Canadiens (#3, 98.25) at Toronto Marlboros (#4, 98.20), Friday 6:40 PM, CWENCH Centre in Etobicoke. First against second in Ontario, 0.09 rating points apart.",
       "Head to head: the Marlboros won both meetings, 3-2 on Oct 11 and 2-0 on Oct 25.",
       "Marlboros to watch: Cal Reilly, 21 goals and 39 points in 25 games. In goal, Austin Kay-Schilke has allowed 1.50 goals a game in 12 games.",
       "The Jr Canadiens arrive off three wins in Chicago last weekend, the last one 3-1 over Team Illinois (#7, 97.03).",
-      "Right behind them: North York Rangers (#5, 98.14) hosts Vaughan Kings (#22, 95.92) on Saturday at 2:30 PM. The top three in Ontario are within 0.11 of each other.",
+      "Right behind them: North York Rangers (#5, 98.15) hosts Vaughan Kings (#22, 95.93) on Saturday at 2:30 PM. The top three in Ontario are within 0.11 of each other.",
       "Sunday: Jr Canadiens host Markham Majors at 2:15 PM. Marlboros at Don Mills Flyers at 8:00 PM."
      ]
     },
@@ -1634,7 +1634,7 @@
      "t": "Quiet in the USA, busy in Toronto",
      "b": [
       "Most of the top 20 American teams are off this weekend.",
-      "In Toronto, the unbeaten Toronto Marlboros (#3, 94.22) host Vaughan Kings (#10, 92.59) on Friday.",
+      "In Toronto, the unbeaten Toronto Marlboros (#3, 94.23) host Vaughan Kings (#10, 92.60) on Friday.",
       "Next weekend is Thanksgiving weekend, when the International Silver Stick in Whitby and other big tournaments begin."
      ]
     },
@@ -1649,17 +1649,17 @@
     {
      "t": "Vaughan Kings at Toronto Marlboros",
      "b": [
-      "The game: Vaughan Kings (#10, 92.59) at Toronto Marlboros (#3, 94.22), Friday 7:40 PM, CWENCH Centre in Etobicoke.",
-      "The Marlboros are 19-0-1. The only game they have not won was a 1-1 tie with Toronto Jr Canadiens (#8, 92.92) on Nov 6.",
+      "The game: Vaughan Kings (#10, 92.60) at Toronto Marlboros (#3, 94.23), Friday 7:40 PM, CWENCH Centre in Etobicoke.",
+      "The Marlboros are 19-0-1. The only game they have not won was a 1-1 tie with Toronto Jr Canadiens (#8, 92.93) on Nov 6.",
       "Marlboros to watch: Jackson Ross, a defenseman with 45 points and plus 50 in 26 games. Jonathan Beauclair, 39 points in 23.",
       "Vaughan to watch: Nathan O'Sullivan, 25 goals and 40 points in 23 games. Vaughan has won its last five, including 4-1 over the Jr Canadiens.",
-      "Rest of the weekend: Vaughan hosts Toronto Red Wings (#25, 90.51) Saturday at 11:40 AM. Jr Canadiens host Mississauga Rebels Sunday at 12:55 PM. Marlboros at Don Mills Flyers Sunday at 6:45 PM."
+      "Rest of the weekend: Vaughan hosts Toronto Red Wings (#24, 90.61) Saturday at 11:40 AM. Jr Canadiens host Mississauga Rebels Sunday at 12:55 PM. Marlboros at Don Mills Flyers Sunday at 6:45 PM."
      ]
     },
     {
      "t": "Elsewhere",
      "b": [
-      "Little Caesars (#6, 93.41) hosts Compuware on Sunday at 10:40 AM at USA Hockey Arena.",
+      "Little Caesars (#6, 93.42) hosts Compuware on Sunday at 10:40 AM at USA Hockey Arena.",
       "HB Detroit plays Belle Tire on Sunday at 9:00 AM in Lincoln Park.",
       "Windy City Storm hosts Indiana Elite on Sunday at 12:00 PM at Orbit Ice Arena.",
       "St Louis Blues plays Madison Capitols twice at Centene Community Ice Center."
@@ -1975,7 +1975,7 @@
      "t": "Elsewhere",
      "b": [
       "Toronto Jr Canadiens (#7, 98.42) at North York Rangers on Saturday at 10:30 AM.",
-      "Don Mills Flyers (#12, 97.11) at Toronto Marlboros on Friday at 6:25 PM.",
+      "Don Mills Flyers (#12, 97.05) at Toronto Marlboros on Friday at 6:25 PM.",
       "Woodbridge Wolfpack hosts Red Bank Generals on Saturday.",
       "Long Island Royals plays New York City Hockey Club and New Jersey Colonials.",
       "Cleveland Barons plays LA Jr Kings on Sunday in Michigan.",
@@ -1988,7 +1988,7 @@
    "summary": [
     "Mid-Fairfield's New England road trip: Mid-Fairfield (#6) has the busiest weekend of any top team: four league games in two days.",
     "Saturday: at Providence Capitals (#15) twice, 8:00 AM and 12:15 PM, Rhode Island Sports Center.",
-    "Sunday: at Bay State Breakers (#20) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
+    "Sunday: at Bay State Breakers (#21) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
    ],
    "events": [],
    "watch": [
@@ -2217,7 +2217,7 @@
      "b": [
       "Mid-Fairfield (#6) has the busiest weekend of any top team: four league games in two days.",
       "Saturday: at Providence Capitals (#15) twice, 8:00 AM and 12:15 PM, Rhode Island Sports Center.",
-      "Sunday: at Bay State Breakers (#20) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
+      "Sunday: at Bay State Breakers (#21) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
      ]
     },
     {
@@ -2592,6 +2592,46 @@
    "Standings: Team Illinois and Midwest Warriors are 1-0 at the showcase. CarShield and Madison are 0-1.",
    "Ratings: Midwest Warriors move from #130 to #127 in North America (USA #77, 90.41). CarShield goes from #118 to #119 (USA #72, 90.79).",
    "Next: the Warriors play Team Illinois on Saturday at 8:00 AM. CarShield plays Madison Capitols on Saturday at 7:50 AM."
+  ],
+  "2012|2026-11-20|Toronto Jr Canadiens|Toronto Marlboros": [
+   "Final: Toronto Jr Canadiens 2, Toronto Marlboros 0, in a GTHL league game in Etobicoke.",
+   "Scoring: goal scorers are not posted for this league.",
+   "Goalies: a shutout for the Jr Canadiens. Names are not posted.",
+   "Standings: a league game between the top two Ontario teams in this birth year.",
+   "Ratings: the Jr Canadiens pass the Marlboros, moving from #4 to #3 in North America (CAN #1, 98.25). The Marlboros go from #3 to #4 (CAN #2, 98.20).",
+   "Next: the Jr Canadiens play Markham Majors on Sunday at 2:15 PM. The Marlboros play Don Mills Flyers on Sunday at 8:00 PM."
+  ],
+  "2012|2026-11-20|Mississauga Senators|Toronto Reps": [
+   "Final: Mississauga Senators 3, Toronto Reps 3, a tie in a GTHL league game.",
+   "Scoring: goal scorers are not posted for this league.",
+   "Goalies: not posted.",
+   "Standings: a point each in the GTHL.",
+   "Ratings: the Senators stay #31 in North America (CAN #14), rating down from 95.07 to 94.90 after a tie with a much lower-ranked team. The Reps move from #124 to #119 (CAN #48, 90.79).",
+   "Next: see the weekend list for each team's next game."
+  ],
+  "2013|2026-11-20|North York Rangers|Toronto Red Wings": [
+   "Final: Toronto Red Wings 9, North York Rangers 0, in a GTHL league game.",
+   "Scoring: goal scorers are not posted for this league.",
+   "Goalies: a shutout for the Red Wings. Names are not posted.",
+   "Standings: two points for the Red Wings in the GTHL.",
+   "Ratings: the Red Wings move from #25 to #24 in North America (CAN #8, 90.61). North York goes from #116 to #117 (CAN #42, 85.67).",
+   "Next: see the weekend list for each team's next game."
+  ],
+  "2014|2026-11-20|Don Mills Flyers|Toronto Marlboros": [
+   "Final: Toronto Marlboros 4, Don Mills Flyers 1, in a GTHL league game in Etobicoke.",
+   "Scoring: goal scorers are not posted for this league.",
+   "Goalies: not posted.",
+   "Standings: two points for the Marlboros in a game between two of Ontario's top four.",
+   "Ratings: the Marlboros stay #5 in North America (CAN #2), rating up from 98.63 to 98.70. Don Mills stays #12 (CAN #4), 97.11 to 97.05.",
+   "Next: the Marlboros play Mississauga Senators on Sunday at 1:00 PM. Don Mills plays Markham Majors on Sunday at 11:30 AM."
+  ],
+  "2015|2026-11-20|Mississauga Senators|Toronto Red Wings": [
+   "Final: Mississauga Senators 3, Toronto Red Wings 3, a tie in a GTHL league game.",
+   "Scoring: goal scorers are not posted for this league.",
+   "Goalies: not posted.",
+   "Standings: a point each in the GTHL.",
+   "Ratings: the Senators stay #54 in North America (CAN #19, 89.33). The Red Wings move from #71 to #70 (CAN #28, 88.70).",
+   "Next: see the weekend list for each team's next game."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",
