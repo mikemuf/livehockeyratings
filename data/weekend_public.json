@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday: games under way, scores updating",
- "updated": "Sat Nov 21, 3:55 PM CT",
+ "updated": "Sat Nov 21, 4:13 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -1666,7 +1666,7 @@
   },
   "2014": {
    "summary": [
-    "St. Louis tournament: The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#6), St Louis Blues (#16), Victory Honda (#21), Chicago Reapers (#28), Vegas Jr Golden Knights (#29) and Dallas Stars Elite (#34), plus Chicago Mission and Philadelphia Hockey Club.",
+    "St. Louis tournament: The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#6), St Louis Blues (#16), Victory Honda (#20), Chicago Reapers (#28), Vegas Jr Golden Knights (#29) and Dallas Stars Elite (#34), plus Chicago Mission and Philadelphia Hockey Club.",
     "Group one: St Louis Blues, Chicago Mission, Dallas Stars Elite, Victory Honda.",
     "Group two: Vegas, Chicago Reapers, Philadelphia Hockey Club, Florida Alliance.",
     "Games to circle: Chicago Reapers vs Vegas on Friday at 9:00 AM (#16 against #17). St Louis Blues vs Dallas Stars Elite on Friday at 4:20 PM. Florida Alliance vs Vegas on Saturday at 8:20 AM."
@@ -2004,7 +2004,7 @@
     {
      "t": "St. Louis tournament",
      "b": [
-      "The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#6), St Louis Blues (#16), Victory Honda (#21), Chicago Reapers (#28), Vegas Jr Golden Knights (#29) and Dallas Stars Elite (#34), plus Chicago Mission and Philadelphia Hockey Club.",
+      "The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#6), St Louis Blues (#16), Victory Honda (#20), Chicago Reapers (#28), Vegas Jr Golden Knights (#29) and Dallas Stars Elite (#34), plus Chicago Mission and Philadelphia Hockey Club.",
       "Group one: St Louis Blues, Chicago Mission, Dallas Stars Elite, Victory Honda.",
       "Group two: Vegas, Chicago Reapers, Philadelphia Hockey Club, Florida Alliance.",
       "Games to circle: Chicago Reapers vs Vegas on Friday at 9:00 AM (#16 against #17). St Louis Blues vs Dallas Stars Elite on Friday at 4:20 PM. Florida Alliance vs Vegas on Saturday at 8:20 AM.",
@@ -2016,7 +2016,7 @@
      "t": "Elsewhere",
      "b": [
       "Toronto Jr Canadiens (#7, 98.43) at North York Rangers on Saturday at 10:30 AM.",
-      "Don Mills Flyers (#12, 97.06) at Toronto Marlboros on Friday at 6:25 PM.",
+      "Don Mills Flyers (#12, 97.07) at Toronto Marlboros on Friday at 6:25 PM.",
       "Woodbridge Wolfpack hosts Red Bank Generals on Saturday.",
       "Long Island Royals plays New York City Hockey Club and New Jersey Colonials.",
       "Cleveland Barons plays LA Jr Kings on Sunday in Michigan.",
@@ -2271,11 +2271,11 @@
     {
      "t": "Toronto Jr Canadiens at Toronto Marlboros",
      "b": [
-      "The game: Toronto Jr Canadiens (#1, 95.03) at Toronto Marlboros (#9, 93.24), Saturday 11:15 AM, CWENCH Centre in Etobicoke.",
+      "The game: Toronto Jr Canadiens (#1, 95.03) at Toronto Marlboros (#9, 93.25), Saturday 11:15 AM, CWENCH Centre in Etobicoke.",
       "Head to head: the Jr Canadiens won both meetings, 6-0 on Sep 27 and 5-2 on Oct 18.",
       "Jr Canadiens to watch: Patrick Middlebrook, 31 goals and 47 points in 20 games. Devin Price, a defenseman with 28 assists and plus 50.",
       "Marlboros to watch: George Zhang, 21 goals and 44 points in 19 games. The Marlboros have won five straight.",
-      "Also in Toronto: Vaughan Kings (#28, 90.80) hosts Toronto Reps on Saturday at 1:15 PM. Jr Canadiens host Toronto Red Wings on Sunday at 12:40 PM."
+      "Also in Toronto: Vaughan Kings (#28, 90.81) hosts Toronto Reps on Saturday at 1:15 PM. Jr Canadiens host Toronto Red Wings on Sunday at 12:40 PM."
      ]
     },
     {
@@ -2867,6 +2867,14 @@
    "Goalies: Grady Macejko got the win with three against. Benjamin Van Den Bosch took the loss with five against.",
    "Standings: Team Illinois is 4-0 at the showcase. Milwaukee's goals were the first Team Illinois has allowed in the event (5-0, 8-0, 7-0 before this).",
    "Ratings: Team Illinois stays #10 in North America (USA #5, 96.99). Milwaukee goes from #92 to #90 in North America (USA #46, 92.42).",
+   "Next: not listed yet."
+  ],
+  "2014|2026-11-21|Florida Alliance|St Louis Blues": [
+   "Final: Florida Alliance 3, St Louis Blues 2 in overtime, in a placement game at the STL AAA Blues Showcase.",
+   "Scoring: Colton Von Bokern won it with 40 seconds left in overtime, from Tyson Steckel. St Louis led 1-0 after one on a goal by Augustus Lake. Steckel tied it in the second and Demid Kondrashov put Florida Alliance ahead midway through the third, before Ethan Graves tied it 2-2 with 5:28 left. Von Bokern and Steckel each had a goal and an assist.",
+   "Goalies: Kayden Mancari got the win with two against. Nolan Blair took the overtime loss with three against.",
+   "Standings: Florida Alliance is 4-0 at the showcase. St Louis went 2-1 in pool play.",
+   "Ratings: Florida Alliance stays #6 in North America (USA #4, 98.49). St Louis Blues stays #16 in North America (USA #11, 96.26).",
    "Next: not listed yet."
   ]
  },
