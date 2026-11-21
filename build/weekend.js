@@ -71,7 +71,7 @@ function renderWeekend(S){
   let BIGH='';{const isBig=g=>{const x=rkn[g.a],y=rkn[g.b];return x&&y&&((x<=10&&y<=10)||(Math.min(x,y)===1&&Math.max(x,y)<=15))};
     const BG=(D.watch||[]).map((g,j)=>Object.assign(Array.isArray(g)?{day:g[0],time:g[1],a:g[2],b:g[3],rink:g[4]||''}:Object.assign({},g),{_j:j})).filter(isBig).filter(g=>!played(g));
     if(BG.length){const BXW=(typeof WEEKEND_BOX!=='undefined'?WEEKEND_BOX:[]);
-      BIGH='<div class="card" style="border:2px solid #f4d35e;background:#fffdf3"><h3 style="margin-top:0">\u2B50 Big games this weekend <span class="small">· all times Central</span></h3>'+BG.map(g=>{const dt=wdate(g.day),pr=[g.a,g.b].sort().join('|');
+      BIGH='<div class="card" style="border:2px solid #f4d35e"><h3 style="margin-top:0;color:#f4d35e">\u2B50 Big games this weekend <span class="small">· all times Central</span></h3>'+BG.map(g=>{const dt=wdate(g.day),pr=[g.a,g.b].sort().join('|');
         const bi=BXW.findIndex(x=>x.div===div&&(!dt||x.date===dt)&&[x.v,x.h].sort().join('|')===pr);const B=bi>=0?BXW[bi]:null;
         const gi=WEEKEND_GAMES.findIndex(x=>x[0]===div&&(!dt||x[1]===dt)&&[x[2],x[4]].sort().join('|')===pr);const F=gi>=0?WEEKEND_GAMES[gi]:null;
         let key='w'+g._j,st=`<span class="small">${esc(g.day)} ${esc(g.time||'')}</span>`,sa='',sb='';
