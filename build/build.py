@@ -150,11 +150,11 @@ _e="function renderCan(S){"
 assert h.count(_e)==1
 h=h.replace(_e,"""function naRanks(S){const na={},us={},ca={};let u=0,c=0;S.rows.filter(x=>x.mhr).forEach((x,i)=>{na[x.t]=i+1;if(canada.has(x.t))ca[x.t]=++c;else us[x.t]=++u});return {na,us,ca}}
 function renderNA(S){
-  const K=naRanks(S),rows=S.rows.filter(x=>x.mhr);
+  const K=naRanks(S),rows=S.rows.filter(x=>x.mhr),pv=prevRanks(rows);   // movement arrows on the North America tab too (owner, Nov 20 2026)
   let h=`<p class="meta">North America: ${rows.length} ranked teams, USA and Canada together, ordered by rating. Each team's rank in its own country is in parentheses.</p>`;
   h+='<div class="wrap"><table><thead><tr><th></th><th class="t">Team</th><th>Rating</th><th>Rec</th><th>AGD</th><th>Sched</th><th>GP</th></tr></thead><tbody>';
-  rows.forEach((x,k)=>{h+=`<tr class="click" data-t="${esc(x.t)}"><td class="rk num">${k+1}</td><td class="t">${esc(x.t)} <span class="small">(${K.ca[x.t]?'CAN #'+K.ca[x.t]:'USA #'+K.us[x.t]})</span></td><td class="rating"><span class="num">${f2(x.r)}</span></td><td>${recL(x.t,x)}</td><td class="${x.agd>=0?'pos':'neg'}">${fs(x.agd)}</td><td>${f2(x.sched)}</td><td>${gpL(x.t,x)}</td></tr>`});
-  return h+'</tbody></table></div>';
+  rows.forEach((x,k)=>{h+=`<tr class="click" data-t="${esc(x.t)}"><td class="rk num">${k+1}</td><td class="t">${esc(x.t)} <span class="small">(${K.ca[x.t]?'CAN #'+K.ca[x.t]:'USA #'+K.us[x.t]})</span>${mv(pv[x.t],k+1)}</td><td class="rating"><span class="num">${f2(x.r)}</span></td><td>${recL(x.t,x)}</td><td class="${x.agd>=0?'pos':'neg'}">${fs(x.agd)}</td><td>${f2(x.sched)}</td><td>${gpL(x.t,x)}</td></tr>`});
+  return h+'</tbody></table></div><p class="legend"><span class="mv up">▲</span> <span class="mv dn">▼</span> = spots moved in the North American order since the last published ratings ('+MHR_PUBLISHED+'), from games applied live.</p>';
 }
 """+_e,1)
 
