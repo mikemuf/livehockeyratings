@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday evening: where each event stands and what is left",
- "updated": "Sat Nov 21, 5:35 PM CT",
+ "updated": "Sat Nov 21, 5:51 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -1650,7 +1650,7 @@
   },
   "2014": {
    "summary": [
-    "St. Louis tournament: The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#6), St Louis Blues (#16), Victory Honda (#20), Chicago Reapers (#28), Vegas Jr Golden Knights (#29) and Dallas Stars Elite (#35), plus Chicago Mission and Philadelphia Hockey Club.",
+    "St. Louis tournament: The field: eight teams at Centene Community Ice Center, six of them in the top 20: Florida Alliance (#6), St Louis Blues (#16), Victory Honda (#20), Chicago Reapers (#29), Vegas Jr Golden Knights (#28) and Dallas Stars Elite (#35), plus Chicago Mission and Philadelphia Hockey Club.",
     "Group one: St Louis Blues, Chicago Mission, Dallas Stars Elite, Victory Honda.",
     "Group two: Vegas, Chicago Reapers, Philadelphia Hockey Club, Florida Alliance.",
     "Games to circle: Chicago Reapers vs Vegas on Friday at 9:00 AM (#16 against #17). St Louis Blues vs Dallas Stars Elite on Friday at 4:20 PM. Florida Alliance vs Vegas on Saturday at 8:20 AM."
@@ -2005,6 +2005,28 @@
      "b": "Chicago Mission",
      "note": "STL AAA Blues Showcase placement game",
      "sheet": "https://gamesheetstats.com/seasons/16484/games/3159147"
+    },
+    {
+     "day": "Sun",
+     "rink": "Centene Community Ice Center",
+     "city": "Maryland Heights, MO",
+     "tz": "CT",
+     "time": "7:00 AM",
+     "a": "Chicago Reapers",
+     "b": "St Louis Blues",
+     "note": "STL AAA Blues Showcase, third place",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159145"
+    },
+    {
+     "day": "Sun",
+     "rink": "Centene Community Ice Center",
+     "city": "Maryland Heights, MO",
+     "tz": "CT",
+     "time": "8:40 AM",
+     "a": "Florida Alliance",
+     "b": "Victory Honda",
+     "note": "STL AAA Blues Showcase CHAMPIONSHIP",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159148"
     }
    ],
    "sections": [
@@ -2012,10 +2034,10 @@
      "t": "STL AAA Blues Showcase: where it stands",
      "b": [
       "Format: two pools of four, three pool games each. The top two in each pool crossed over for Saturday's semifinals. The winners play for the championship on Sunday.",
-      "Pool play: Florida Alliance (#6, 98.49) and Victory Honda (#20, 95.87) both went 3-0. St Louis Blues (#16, 96.26) went 2-1.",
+      "Pool play: Florida Alliance (#6, 98.49) and Victory Honda (#20, 95.91) both went 3-0. St Louis Blues (#16, 96.26) went 2-1.",
       "Semifinal one: Florida Alliance 3, St Louis Blues 2 in overtime. Colton Von Bokern scored with 40 seconds left in overtime.",
-      "Semifinal two: Chicago Reapers (#28, 95.53) against Victory Honda, still being played Saturday evening. The live score is at the top of this page.",
-      "Placement games: Chicago Mission (#49, 93.97) beat Philadelphia Hockey Club 3-2 in overtime, its first win of the event. Vegas Jr Golden Knights (#29, 95.52) beat Dallas Stars Elite (#35, 94.81) 5-2.",
+      "Semifinal two: Victory Honda 4, Chicago Reapers (#29, 95.49) 2. Ricky Brogan scored the winner 24 seconds into the third period.",
+      "Placement games: Chicago Mission (#49, 93.97) beat Philadelphia Hockey Club 3-2 in overtime, its first win of the event. Vegas Jr Golden Knights (#28, 95.52) beat Dallas Stars Elite (#35, 94.81) 5-2.",
       "Big weekends: Colton Von Bokern (Florida Alliance), five goals and two assists in four games, with two game winners on Saturday. Benjamin Bianco (Florida Alliance), five goals and two assists. Jack Collins (Victory Honda), four goals and two assists."
      ],
      "url": "https://gamesheetstats.com/seasons/16484/games"
@@ -2023,8 +2045,8 @@
     {
      "t": "STL AAA Blues Showcase: what is left",
      "b": [
-      "Championship, Sunday 8:40 AM: Florida Alliance against the winner of Reapers and Victory Honda.",
-      "Third place, Sunday 7:00 AM: St Louis Blues against the team that loses that semifinal.",
+      "Championship, Sunday 8:40 AM: Florida Alliance (#6, 98.49) against Victory Honda (#20, 95.91). Both are 4-0 at the event.",
+      "Third place, Sunday 7:00 AM: Chicago Reapers against St Louis Blues (#16, 96.26).",
       "Sunday 7:50 AM: Vegas Jr Golden Knights against Chicago Mission.",
       "Sunday 7:20 AM: Philadelphia Hockey Club against Dallas Stars Elite."
      ]
@@ -2929,6 +2951,14 @@
    "Standings: Mid-Fairfield is unbeaten in the league and has 27 points. The Wolfpack stays on 14.",
    "Ratings: Mid-Fairfield stays #1 in North America (USA #1, 99.99). Woodbridge Wolfpack stays #11 (USA #6, 96.74).",
    "Next: Sunday at 9:15 AM, Mid-Fairfield against Chicago Reapers. Sunday at 7:00 AM, the Wolfpack at Pittsburgh Penguins Elite."
+  ],
+  "2014|2026-11-21|Chicago Reapers|Victory Honda": [
+   "Final: Victory Honda 4, Chicago Reapers 2, in a semifinal at the STL AAA Blues Showcase. Victory Honda plays Florida Alliance for the championship.",
+   "Scoring: Jack Collins had a goal and an assist, and Walter Anderson a goal and an assist. Ricky Brogan scored the game winner 24 seconds into the third and George Blatchford added one with 28 seconds left. The Reapers scored on a power play (Kujundzic) and shorthanded (Krates) to stay within a goal until the last minute.",
+   "Goalies: Lucas Dykema got the win with two against. Bergerson took the loss with four against.",
+   "Standings: Victory Honda is 4-0 at the event.",
+   "Ratings: Victory Honda stays #20 in North America (USA #13, 95.91). Chicago Reapers goes from #28 to #29 (USA #17, 95.49).",
+   "Next: Sunday 8:40 AM, Victory Honda against Florida Alliance for the championship. Sunday 7:00 AM, Chicago Reapers against St Louis Blues for third place."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",
