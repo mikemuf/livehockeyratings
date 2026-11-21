@@ -13,7 +13,7 @@ for k,x in b.items():
                 x['time']='%d:%s %s'%((h-1)%12+1,mm.group(2),'AM' if h<12 else 'PM'); x['_ct']=1
         print(k,x['v'],x['vs'],x['h'],x['hs'],x['st'],x['time'])
 # Other GameSheet seasons (times already Central): season -> {sheet name: app name}
-OTHER={'16484':{'St. Louis Aaa Blues':'St Louis Blues','Dallas Stars':'Dallas Stars Elite'},'16444':{'Carshield':'CarShield'}}
+OTHER={'16484':{'St. Louis Aaa Blues':'St Louis Blues','Dallas Stars':'Dallas Stars Elite'},'16444':{'Carshield':'CarShield'},'15464':{'St.louis':'St Louis Blues','St.Louis':'St Louis Blues','ST.LOUIS':'St Louis Blues'}}
 for k,x in b.items():
     sid=k.split('|')[1]
     if sid in OTHER:
