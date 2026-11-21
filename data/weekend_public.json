@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday evening: where each event stands and what is left",
- "updated": "Sat Nov 21, 5:10 PM CT",
+ "updated": "Sat Nov 21, 5:11 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -617,6 +617,16 @@
      "local": "8:00 PM PT",
      "tz": "CT",
      "sheet": "https://page.spordle.com/pat-quinn-classic/schedule/1016224"
+    },
+    {
+     "day": "Sat",
+     "time": "6:15 PM",
+     "a": "Nashville Jr. Predators",
+     "b": "Delta Hockey Academy",
+     "rink": "Planet Ice Delta",
+     "city": "Delta, BC",
+     "note": "Pat Quinn Classic, second against third",
+     "tz": "CT"
     }
    ],
    "scorers_title": "NE Pack 14U scoring leaders (season to date)",
@@ -1969,6 +1979,28 @@
      "note": "STL AAA Blues Showcase placement game",
      "tz": "CT",
      "sheet": "https://gamesheetstats.com/seasons/16484/games/3159142"
+    },
+    {
+     "day": "Sun",
+     "rink": "Centene Community Ice Center",
+     "city": "Maryland Heights, MO",
+     "tz": "CT",
+     "time": "7:20 AM",
+     "a": "Philadelphia Hockey Club",
+     "b": "Dallas Stars Elite",
+     "note": "STL AAA Blues Showcase placement game",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159146"
+    },
+    {
+     "day": "Sun",
+     "rink": "Centene Community Ice Center",
+     "city": "Maryland Heights, MO",
+     "tz": "CT",
+     "time": "7:50 AM",
+     "a": "Vegas Jr Golden Knights",
+     "b": "Chicago Mission",
+     "note": "STL AAA Blues Showcase placement game",
+     "sheet": "https://gamesheetstats.com/seasons/16484/games/3159147"
     }
    ],
    "sections": [
