@@ -22,3 +22,6 @@
 - (own slide Sat 9:15 AM: 2014 Philadelphia 4 Reapers 3 OT, rules B and C)
 - SAT 2014: Dallas Stars Elite 4, Chicago Mission 1 (STL Showcase). Lampman 2 goals.
 - SAT 2012: Madison Capitols 7, CarShield 1 (Team Illinois Showcase). Low-ranked pair; roundup only if space.
+- SAT 2012: Team Illinois (#10) 7, Midwest Warriors (#132) 0 (Team Illinois Showcase). Third straight shutout.
+- SAT 2014: Florida Alliance (#6) 5, Vegas Jr Golden Knights (#30) 3 (STL Showcase). Pre 98.58 / 95.42. Von Bokern late winner.
+- (own slide Sat 10:25 AM: 2012 Reapers 5 Mount St Charles 4 OT, rules B and C)

@@ -10,7 +10,7 @@
   "s": 15483,
   "v": "MOUNT ST. CHARLES",
   "h": "CHICAGO REAPERS",
-  "when": "Nov 21, 2026, 9:00 AM",
+  "when": "Nov 21, 2026, 9:01 AM",
   "rink": "ROBERT MORRIS RMU ISLAND SPORTS CENTER CLEARVIEW RINK"
  },
  "3159131": {
@@ -53,6 +53,13 @@
   "v": "MIDWEST WARRIORS",
   "h": "TEAM ILLINOIS",
   "when": "Nov 21, 2026, 8:00 AM",
+  "rink": "Carol Stream Ice Rink"
+ },
+ "3186615": {
+  "s": 16444,
+  "v": "CARSHIELD",
+  "h": "TEAM ILLINOIS",
+  "when": "Nov 21, 2026, 10:00 AM",
   "rink": "Carol Stream Ice Rink"
  }
 }
