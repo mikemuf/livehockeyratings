@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday: games under way, scores updating",
- "updated": "Sat Nov 21, 9:21 AM CT",
+ "updated": "Sat Nov 21, 9:39 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -10,8 +10,8 @@
   "2012": {
    "summary": [
     "Northeast Pack in Pittsburgh: The field: all eight 14U teams are ranked in the top 28 in North America (top 17 in the USA). Twelve league games Friday to Sunday, three per team.",
-    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.79) 13. Bishop Kearney (#17, 96.22) and Mount St Charles (#14, 96.48) 11 each. Chicago Mission (#9, 97.06) 10. Pittsburgh Penguins Elite (#27, 95.79) 8. NJ Rockets (#21, 96.00) 6. Chicago Reapers (#30, 95.55) 4.",
-    "Also big: Shattuck St Mary's (#2, 99.73) plays three at Little Caesars (#6, 97.25) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
+    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.79) 13. Bishop Kearney (#17, 96.22) and Mount St Charles (#14, 96.48) 11 each. Chicago Mission (#9, 97.06) 10. Pittsburgh Penguins Elite (#27, 95.80) 8. NJ Rockets (#21, 96.00) 6. Chicago Reapers (#30, 95.55) 4.",
+    "Also big: Shattuck St Mary's (#2, 99.73) plays three at Little Caesars (#6, 97.24) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
     "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
     "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1)."
    ],
@@ -770,7 +770,7 @@
      "t": "Northeast Pack in Pittsburgh",
      "b": [
       "The field: all eight 14U teams are ranked in the top 28 in North America (top 17 in the USA). Twelve league games Friday to Sunday, three per team.",
-      "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.79) 13. Bishop Kearney (#17, 96.22) and Mount St Charles (#14, 96.48) 11 each. Chicago Mission (#9, 97.06) 10. Pittsburgh Penguins Elite (#27, 95.79) 8. NJ Rockets (#21, 96.00) 6. Chicago Reapers (#30, 95.55) 4.",
+      "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.79) 13. Bishop Kearney (#17, 96.22) and Mount St Charles (#14, 96.48) 11 each. Chicago Mission (#9, 97.06) 10. Pittsburgh Penguins Elite (#27, 95.80) 8. NJ Rockets (#21, 96.00) 6. Chicago Reapers (#30, 95.55) 4.",
       "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
       "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1).",
       "Chicago Mission: at Bishop Kearney on Friday (won 7-4 on Oct 4), home to Pens Elite on Saturday (lost 4-3 in overtime on Oct 17), at NJ Rockets on Sunday (won 5-1). Three regulation wins would make 19 points.",
@@ -791,7 +791,7 @@
     {
      "t": "Shattuck St Mary's at Little Caesars, three games",
      "b": [
-      "The series: Shattuck St Mary's (#2, 99.73) at Little Caesars (#6, 97.25), three games at Belfor Training Center in Detroit.",
+      "The series: Shattuck St Mary's (#2, 99.73) at Little Caesars (#6, 97.24), three games at Belfor Training Center in Detroit.",
       "Game times: Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
       "Why it matters: second against third in the USA. Mid-Fairfield is the only American team ranked above both."
      ]
@@ -2717,6 +2717,14 @@
    "Standings: Dallas's first win of the showcase after losses to Victory Honda and St Louis. Mission is 0-3.",
    "Ratings: Dallas Stars Elite goes from #35 to #34 in North America (USA #20, 94.86). Chicago Mission goes from #48 to #50 in North America (USA #28, 93.92).",
    "Next: placement games later today for both teams."
+  ],
+  "2012|2026-11-21|CarShield|Madison Capitols": [
+   "Final: Madison Capitols 7, CarShield 1, at the Team Illinois Showcase.",
+   "Scoring: Adrian Graf and Calvin Wroblewski each scored twice for Madison; Wroblewski's two came 22 seconds apart in the second period. Wade Sieja scored the game winner late in the first. Mason Beale and Ford Springer also scored. George Jost scored for CarShield.",
+   "Goalies: Johnny Weberg got the win with one against. Keegan Ritter took the loss.",
+   "Standings: Madison's first win of the showcase after an 8-0 loss to Team Illinois on Friday. CarShield lost to the Midwest Warriors on Friday.",
+   "Ratings: Madison Capitols goes from #140 to #139 in North America (USA #83, 90.18). CarShield goes from #125 to #129 in North America (USA #74, 90.61).",
+   "Next: not listed yet."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",

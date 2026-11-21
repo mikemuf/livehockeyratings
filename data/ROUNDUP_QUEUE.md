@@ -21,3 +21,4 @@
 - SAT 2014: Victory Honda (#22) 5, St Louis Blues (#16) 2 (STL Showcase). Pre 95.76 / 96.32. Pauley 2 goals.
 - (own slide Sat 9:15 AM: 2014 Philadelphia 4 Reapers 3 OT, rules B and C)
 - SAT 2014: Dallas Stars Elite 4, Chicago Mission 1 (STL Showcase). Lampman 2 goals.
+- SAT 2012: Madison Capitols 7, CarShield 1 (Team Illinois Showcase). Low-ranked pair; roundup only if space.
