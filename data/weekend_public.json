@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday: games under way, scores updating",
- "updated": "Sat Nov 21, 1:36 PM CT",
+ "updated": "Sat Nov 21, 1:37 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -2007,7 +2007,7 @@
    "summary": [
     "Mid-Fairfield's New England road trip: Mid-Fairfield (#6) has the busiest weekend of any top team: four league games in two days.",
     "Saturday: at Providence Capitals (#15) twice, 8:00 AM and 12:15 PM, Rhode Island Sports Center.",
-    "Sunday: at Bay State Breakers (#21) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
+    "Sunday: at Bay State Breakers (#20) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
    ],
    "events": [],
    "watch": [
@@ -2236,20 +2236,20 @@
      "b": [
       "Mid-Fairfield (#6) has the busiest weekend of any top team: four league games in two days.",
       "Saturday: at Providence Capitals (#15) twice, 8:00 AM and 12:15 PM, Rhode Island Sports Center.",
-      "Sunday: at Bay State Breakers (#21) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
+      "Sunday: at Bay State Breakers (#20) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
      ]
     },
     {
      "t": "Chicago",
      "b": [
       "Chicago Mission (#11) at Windy City Storm, Saturday 2:40 PM, Orbit Ice Arena.",
-      "Chicago Fury (#22) vs Windy City Storm, Sunday 11:20 AM, Arctic Ice Arena."
+      "Chicago Fury (#21) vs Windy City Storm, Sunday 11:20 AM, Arctic Ice Arena."
      ]
     },
     {
      "t": "Toronto Jr Canadiens at Toronto Marlboros",
      "b": [
-      "The game: Toronto Jr Canadiens (#2, 94.87) at Toronto Marlboros (#7, 93.48), Saturday 11:15 AM, CWENCH Centre in Etobicoke.",
+      "The game: Toronto Jr Canadiens (#1, 95.03) at Toronto Marlboros (#9, 93.24), Saturday 11:15 AM, CWENCH Centre in Etobicoke.",
       "Head to head: the Jr Canadiens won both meetings, 6-0 on Sep 27 and 5-2 on Oct 18.",
       "Jr Canadiens to watch: Patrick Middlebrook, 31 goals and 47 points in 20 games. Devin Price, a defenseman with 28 assists and plus 50.",
       "Marlboros to watch: George Zhang, 21 goals and 44 points in 19 games. The Marlboros have won five straight.",
@@ -2262,7 +2262,7 @@
       "South Shore Kings (#12) plays Top Gun (#14) on Sunday at 8:25 AM in Salem, NH.",
       "Providence Capitals finishes against Boston Jr Terriers on Sunday.",
       "Oakland Jr Grizzlies hosts HB Detroit. Philadelphia Little Flyers plays North Jersey Avalanche twice on Saturday. Dallas Stars Elite (#10) plays Houston twice.",
-      "Off this weekend: Little Caesars (#1), Pittsburgh Penguins Elite (#4) and Worcester Shamrocks (#5)."
+      "Off this weekend: Little Caesars (#2), Pittsburgh Penguins Elite (#4) and Worcester Shamrocks (#5)."
      ]
     }
    ]
@@ -2797,6 +2797,38 @@
    "Goalies: Caleb Hudson got the win with one against. Anthony Ranieri took the loss with three against.",
    "Standings: CarShield is 2-0 at the showcase after a 4-0 win over Madison on Friday.",
    "Ratings: CarShield goes from #66 to #64 in North America (USA #35, 89.97). Team Illinois goes from #93 to #94 in North America (USA #56, 88.73).",
+   "Next: not listed yet."
+  ],
+  "2016|2026-11-21|Markham Majors|Vaughan Kings": [
+   "Final: Vaughan Kings 5, Markham Majors 0, in a GTHL league game.",
+   "Scoring: goal scorers are not posted for this league.",
+   "Goalies: a shutout for Vaughan Kings. Names are not posted.",
+   "Standings: a league game.",
+   "Ratings: Vaughan Kings stays #7 in North America (CAN #4, 97.44). Markham Majors stays #71 in North America (CAN #36, 92.31).",
+   "Next: not listed yet."
+  ],
+  "2015|2026-11-21|Toronto Jr Canadiens|Toronto Marlboros": [
+   "Final: Toronto Jr Canadiens 7, Toronto Marlboros 1, in a GTHL league game.",
+   "Scoring: goal scorers are not posted for this league.",
+   "Goalies: names are not posted for this league.",
+   "Standings: a league game.",
+   "Ratings: Toronto Jr Canadiens goes from #2 to #1 in North America (CAN #1, 95.03). Toronto Marlboros goes from #7 to #9 in North America (CAN #3, 93.24).",
+   "Next: not listed yet."
+  ],
+  "2013|2026-11-21|Toronto Red Wings|Vaughan Kings": [
+   "Final: Vaughan Kings 5, Toronto Red Wings 3, in a GTHL league game.",
+   "Scoring: goal scorers are not posted for this league.",
+   "Goalies: names are not posted for this league.",
+   "Standings: a league game.",
+   "Ratings: Vaughan Kings stays #10 in North America (CAN #3, 92.64). Toronto Red Wings stays #24 in North America (CAN #8, 90.63).",
+   "Next: not listed yet."
+  ],
+  "2015|2026-11-21|Mississauga Rebels|Toronto Nationals": [
+   "Final: Mississauga Rebels 3, Toronto Nationals 2, in a GTHL league game.",
+   "Scoring: goal scorers are not posted for this league.",
+   "Goalies: names are not posted for this league.",
+   "Standings: a league game.",
+   "Ratings: Mississauga Rebels goes from #75 to #69 in North America (CAN #27, 88.73). Toronto Nationals goes from #34 to #35 in North America (CAN #12, 90.30).",
    "Next: not listed yet."
   ]
  },

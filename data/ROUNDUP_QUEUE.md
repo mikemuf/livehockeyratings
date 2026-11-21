@@ -27,3 +27,6 @@
 - (own slide Sat 10:25 AM: 2012 Reapers 5 Mount St Charles 4 OT, rules B and C)
 - SAT 2011: Mount St Charles 5, NJ Rockets 0 (Northeast Pack 15U). Ecenrode shutout, Cross 2 goals.
 - SAT 2011: CarShield (#66) 3, Team Illinois (#93) 1 (Team Illinois Showcase).
+- SAT 2016 (U11): Vaughan Kings (#7) 5, Markham Majors (#71) 0.
+- SAT 2015 (U12): Mississauga Rebels (#75) 3, Toronto Nationals (#34) 2.
+- (own slides Sat 1:50 PM: 2015 Jr Canadiens 7 Marlboros 1, rule A, JRC to #1 NA; 2013 Vaughan 5 Red Wings 3, rule A top 30)
