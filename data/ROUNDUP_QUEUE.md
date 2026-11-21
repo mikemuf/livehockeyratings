@@ -31,3 +31,4 @@
 - SAT 2015 (U12): Mississauga Rebels (#75) 3, Toronto Nationals (#34) 2.
 - (own slides Sat 1:50 PM: 2015 Jr Canadiens 7 Marlboros 1, rule A, JRC to #1 NA; 2013 Vaughan 5 Red Wings 3, rule A top 30)
 - SAT 2011: Chicago Mission (#13) 3, Mid-Fairfield (#49) 2 (Northeast Pack 15U). Tantaro 2 goals incl. winner; all three Mission goals on the power play.
+- SAT 2012: Team Illinois (#10) 5, Milwaukee Jr Admirals (#92) 3 (Team Illinois Showcase). Petersen 2 goals + assist; tied 3-3 in the third.
