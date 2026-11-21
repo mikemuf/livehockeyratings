@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday: games under way, scores updating",
- "updated": "Sat Nov 21, 10:11 AM CT",
+ "updated": "Sat Nov 21, 10:32 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -2404,6 +2404,17 @@
      "city": "San Diego, CA",
      "note": "League",
      "local": "6:00 PM PT",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "9:25 AM",
+     "a": "Toronto Nationals",
+     "b": "North York Rangers",
+     "rink": "",
+     "city": "Toronto, ON",
+     "note": "GTHL league game",
+     "local": "10:25 AM ET",
      "tz": "CT"
     }
    ],
