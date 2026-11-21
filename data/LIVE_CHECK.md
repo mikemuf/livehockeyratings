@@ -47,3 +47,4 @@ TO DO at the first idle gap (owed from Friday): six Friday games with no result 
 Instagram grid slots today: questions 7/10/1/4/7, answers 8:30/11:30/2:30/5:30/8:30, game-day slide 8:15 AM: stories are fine any time; keep 10 minutes between grid posts.
 7:32 AM: 3175115 Mission 2 Penguins 1 in the 1st (live box /tmp/gs/sat1.jsonl); 3159131 Reapers 0 Philadelphia 0 in progress; rest not started. READER NOTE: on tab 339723979 do NOT await two __gsread calls in one javascript call (45 s timeout): start it with `window.__gsread([...]).then(s=>{window.__st=window.__gsout.slice();window.__sts=s})`, return, and read window.__sts / __st in a second call about 20 s later. One season per call.
 7:46 AM: Mission 2 Penguins 1 still (late 1st); Reapers 1 Philadelphia 1 (1st); Victory Honda 0 St Louis 0 just started.
+8:03 AM: Mission 4 Penguins 1 (2nd); Philadelphia 2 Reapers 1 (2nd); VH 0 StL 0; Mission 0 Dallas 0 (2014). MSC-Reapers 2012 (3175127) sheet not started at 8:00.
