@@ -37,3 +37,12 @@ All live-ratings work moved to the player-database thread on Nov 18. This file h
 ## Scheduled tasks
 - The player-database thread (see the private notes) owns the Wednesday MHR update, the Sat/Sun 7:12 planner and the Friday live-check start.
 - All tasks bound to the old live-ratings thread are disabled. delete_trigger is blocked, so disable with update_trigger enabled=false.
+
+## Western Canada: plan for the Wednesday Nov 25 update (written Nov 20, 10:45 PM)
+Done tonight: 2012 only, five teams (Yale, Delta, St George's, Burnaby Winter Club Academy, Pacific Coast Academy) via data/nov18_wc15.txt. Nashville's two Pat Quinn games moved from unrated_games.json to pending_games.json (Nashville 96.30 to 96.24).
+Wednesday:
+1. For each birth year find the MHR Western Canada list on the age page (/rankings/bantam, /rankings/peewee, /rankings/squirt, /rankings/midget-minor): link text "Western Canada AAA". 2012 = v=173. Write the v ids here.
+2. Read every row (name|record|rating|agd|sched|team id) with JS in a hidden iframe into data/nov25_wc<age>.txt. Strip " U15 Prep (BC)" style suffixes; map names to app names with EXTRA/aliases (the app already has many of these teams from earlier games: Okanagan Rockets, North Shore Winter Club, Shawnigan Lake, RHA Winnipeg, OHA Edmonton, Calgary Edge...). Replace the hand-typed X anchors for Western teams with the file.
+3. Decide with the owner: one Canada rank (as now) or a separate Western Canada rank. Also 2011 and 2014-2016 use the lite solver (LITE lists): add the Western lists there the same way the Ontario lists were added.
+4. Missing-game sweep ("cmp") for the Western teams that played rated teams, so their games are in the log. The other Pat Quinn Flight 1 games (Thu: St George's 5 Pacific Coast 2, Yale 3 Burnaby 2; Fri and weekend games) are NOT in our log; MHR will have them Wednesday.
+5. Drift check as always: idle teams must not move more than 0.10.
