@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
- "status": "Preview — all six birth years",
- "updated": "Fri Nov 20, 11:33 PM CT",
+ "status": "Saturday: games under way, scores updating",
+ "updated": "Sat Nov 21, 7:13 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -191,7 +191,8 @@
      "city": "Cranberry Township, PA",
      "note": "FedEx Rink 1",
      "local": "8:00 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175115"
     },
     {
      "day": "Sat",
@@ -224,7 +225,8 @@
      "city": "Pittsburgh, PA",
      "note": "Clearview Rink",
      "local": "9:00 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175127"
     },
     {
      "day": "Sat",
@@ -323,7 +325,8 @@
      "city": "Cranberry Township, PA",
      "note": "Covestro Rink · Game of the weekend",
      "local": "4:00 PM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175125"
     },
     {
      "day": "Sat",
@@ -367,7 +370,8 @@
      "city": "Pittsburgh, PA",
      "note": "Olympic Rink",
      "local": "5:45 PM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175130"
     },
     {
      "day": "Sat",
@@ -953,7 +957,8 @@
      "city": "Cranberry Township, PA",
      "note": "FedEx Rink 1",
      "local": "11:40 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175116"
     },
     {
      "day": "Sat",
@@ -964,7 +969,8 @@
      "city": "Cranberry Township, PA",
      "note": "FedEx Rink 1",
      "local": "1:40 PM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175117"
     },
     {
      "day": "Sat",
@@ -1019,7 +1025,8 @@
      "city": "Cranberry Township, PA",
      "note": "FedEx Rink 1 · Game of the weekend: #2 at #1",
      "local": "3:40 PM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175118"
     },
     {
      "day": "Sat",
@@ -1052,7 +1059,8 @@
      "city": "Cranberry Township, PA",
      "note": "FedEx Rink 1",
      "local": "5:40 PM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175119"
     },
     {
      "day": "Sat",
