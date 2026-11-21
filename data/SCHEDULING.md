@@ -101,6 +101,7 @@ Ways in (ADDED; nothing else changed): the "Find a team" list at the top of the 
 A section shows on a team's page only if its title or a bullet contains the team's exact app name, so write the full name at least once in each section about a team.
 
 ## Scoresheet link on every game (owner, Nov 20 2026, 8:37 PM)
+- APPROVED EXCEPTION to the no-source rule (owner, 8:40 PM): links to scoresheets and tournament/league sites are fine for game results; player data stays unsourced (see player/RUNBOOK.md).
 - Every live and final game with a stored box score shows "Scoresheet ↗" in its row (Live now, Final scores) and "Official scoresheet ↗" on its game page. The address is built in build.py from the gs_box key (season + game id; Spordle for the Pat Quinn games).
 - Upcoming games show "Live scoring" when the watch entry has `sheet`. TO DO at entry time for EVERY game (and in the Saturday 7:12 AM planner for this weekend): set `sheet` to the game's own page. Northeast Pack 2011 ids seen for Nov 21: 3175116-3175119, Nov 22: 3175133, 3175135, 3175141, 3175144 (matchups not yet matched to ids); 2012 division still to list. A final entered by hand (no box score) has no link until its sheet is found.
 - Also wanted by the owner: a link to each event's own stats page (tournament or league site) in that event's section. Add `link` to the section and render it under the section title.
