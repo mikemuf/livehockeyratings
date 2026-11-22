@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Sunday: championship day. Scores update as games go final",
- "updated": "Sun Nov 22, 9:06 AM CT",
+ "updated": "Sun Nov 22, 9:08 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -428,7 +428,8 @@
      "city": "Cranberry Township, PA",
      "note": "FedEx Rink 1",
      "local": "8:00 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175131"
     },
     {
      "day": "Sun",
@@ -439,7 +440,8 @@
      "city": "Cranberry Township, PA",
      "note": "Covestro Rink",
      "local": "8:00 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175134"
     },
     {
      "day": "Sun",
@@ -450,7 +452,7 @@
      "city": "West Dundee, IL",
      "note": "Team Illinois Showcase",
      "tz": "CT",
-     "sheet": "https://gamesheetstats.com/seasons/16444/games"
+     "sheet": "https://gamesheetstats.com/seasons/16444/games/3186619"
     },
     {
      "day": "Sun",
@@ -461,7 +463,8 @@
      "city": "Warrendale, PA",
      "note": "Galaxy Rink",
      "local": "9:35 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175146"
     },
     {
      "day": "Sun",
@@ -472,7 +475,8 @@
      "city": "Pittsburgh, PA",
      "note": "Clearview Rink",
      "local": "10:15 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175139"
     },
     {
      "day": "Sun",
@@ -1188,7 +1192,8 @@
      "city": "Warrendale, PA",
      "note": "World Rink",
      "local": "8:00 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175144"
     },
     {
      "day": "Sun",
@@ -1210,7 +1215,8 @@
      "city": "Pittsburgh, PA",
      "note": "Olympic Rink",
      "local": "8:30 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175141"
     },
     {
      "day": "Sun",
@@ -1221,7 +1227,8 @@
      "city": "Cranberry Township, PA",
      "note": "Covestro Rink",
      "local": "10:00 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175135"
     },
     {
      "day": "Sun",
@@ -1254,7 +1261,8 @@
      "city": "Cranberry Township, PA",
      "note": "FedEx Rink 1",
      "local": "1:40 PM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15483/games/3175133"
     },
     {
      "day": "Sun",
@@ -1646,7 +1654,8 @@
      "city": "Lincoln Park, MI",
      "note": "League game",
      "local": "10:00 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15477/games/3199739"
     },
     {
      "day": "Sun",
