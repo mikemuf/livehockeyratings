@@ -806,16 +806,16 @@
        "19"
       ],
       [
+       "Chicago Mission",
+       "15"
+      ],
+      [
        "Woodbridge Wolfpack",
        "14"
       ],
       [
        "Mount St Charles",
        "14"
-      ],
-      [
-       "Chicago Mission",
-       "13"
       ],
       [
        "NJ Rockets",
@@ -833,6 +833,7 @@
      "b": [
       "Sunday: Bishop Kearney beat Mount St Charles 4-2 for a third win of the weekend. Luc Genest: two power-play goals and an assist.",
       "Sunday: Penguins Elite beat Wolfpack 3-2 after regulation. Otto Kiehlmeier tied it in the third.",
+      "Sunday: the Mission beat the Rockets 4-1 with three goals in the second. Cash Cieslak: two goals and an assist.",
       "Mid-Fairfield: two more wins on Friday and Saturday, 13 goals for and 3 against."
      ],
      "url": "https://gamesheetstats.com/seasons/15483/games"
@@ -3465,6 +3466,14 @@
    "Standings: placement game. The Mission finishes the showcase 2-3, Vegas 2-3.",
    "Ratings: Mission 94.05 to 94.28, North America #49 to #45. Vegas 95.61 to 95.68, #28 to #29.",
    "Next: both teams are done at the showcase."
+  ],
+  "2012|2026-11-22|Chicago Mission|NJ Rockets": [
+   "Final: Chicago Mission 4, NJ Rockets 1, in Northeast Pack league play outside Pittsburgh.",
+   "Scoring: the Rockets led 1-0 after one on a Boston Guinn goal. The Mission answered with three in the second: Matthew Cudio, then Cash Cieslak twice, the first of his the winner. Kaleb Johnson added one in the third. Cieslak finished with two goals and an assist.",
+   "Goalies: Evan Monahan got the win with one against. Hudson DePiero took the loss.",
+   "Standings: the Mission goes to 15 points, third in the league behind Mid-Fairfield and Bishop Kearney. The Rockets stay on 9.",
+   "Ratings: Mission 97.07 to 97.13, North America #9 to #8. Rockets 95.71 to 95.65, still #29.",
+   "Next: both teams are done for the weekend in Pittsburgh."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",
