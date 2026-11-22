@@ -158,3 +158,4 @@ TIME CORRECTION: the entries above stamped '8:40 AM', '8:44 AM' and '8:50 AM' we
 12:48: FINAL 2012 Shattuck 4 LC 1 (sweep): pending, recap, section, watch link removed, story POSTED (st_slc3.png). 3175133 (2011 MF v Rockets) live, first import done. __G: drop 3164062. MBS: hooked input attached with position fixed + opacity .01 works (ref_112).
 12:59: FINAL 2013 Islanders 5 Providence 2 (pending, roundup, recap OWED). __G drop 2942718.
 13:01: IG 1:00 question posted (2013 pp). FOLLOWER SCORE TO CONFIRM: 2013 Long Island Royals (USA #32) 4, PAL Islanders (USA #41) 1, Sat Nov 21 8:30 (AM or PM unknown), from DM spencer_goldblatt. Find on a league/scoring site (AYHL / LIAHL / GameSheet search by date), then enter in pending_games + recap/roundup. Not entered yet.
+13:25: FINAL 2011 Oakland 5 Fox 4 (pending, recap, roundup). __G drop 2979440. STRIPE: $39 price created and two members moved (player member/NOTES.md).
