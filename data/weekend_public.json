@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Sunday: championship day. Scores update as games go final",
- "updated": "Sun Nov 22, 9:23 AM CT",
+ "updated": "Sun Nov 22, 9:29 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -900,7 +900,8 @@
       ]
      ],
      "b": [
-      "Outscored its opponents 25-3. Declan Petersen: four goals and five assists."
+      "Sunday: beat CarShield 13-0 to finish the showcase unbeaten.",
+      "Declan Petersen: four goals and five assists through Saturday."
      ],
      "url": "https://gamesheetstats.com/seasons/16444/games"
     },
@@ -1480,7 +1481,7 @@
       ],
       [
        "Mount St Charles Hockey Academy",
-       "20"
+       "22"
       ],
       [
        "Pittsburgh Penguins Elite",
@@ -1501,7 +1502,7 @@
      ],
      "b": [
       "Sunday: Bishop Kearney beat the Reapers 4-1. Smith Vantine: two goals and an assist, a day after his hat trick against Penguins Elite.",
-      "Mount St Charles: seven straight league wins going into Sunday."
+      "Sunday: Mount St Charles beat Wolfpack 4-1, its eighth straight league win."
      ],
      "url": "https://gamesheetstats.com/seasons/15483/games"
     },
@@ -3407,6 +3408,22 @@
    "Standings: league game.",
    "Ratings: see the team pages for the change.",
    "Next: no more games this weekend for either team on our list."
+  ],
+  "2011|2026-11-22|Mount St Charles Hockey Academy|Woodbridge Wolfpack": [
+   "Final: Mount St Charles Hockey Academy 4, Woodbridge Wolfpack 1, in Northeast Pack league play in Pittsburgh.",
+   "Scoring: Jack Cross opened it on the power play. Sam Archibald and Robert So scored 24 seconds apart in the second, and Gavin Thomas added a power-play goal in the third. Owen Baxendell scored for Wolfpack.",
+   "Goalies: Evan Ladd got the win with one against. Jordan Silvetti took the loss.",
+   "Standings: Mount St Charles goes to 22 points, two behind Bishop Kearney. That is eight straight league wins.",
+   "Ratings: Mount St Charles 95.63 to 95.66, still North America #4. Wolfpack 93.46 to 93.44, still #14.",
+   "Next: both teams are done for the weekend in Pittsburgh."
+  ],
+  "2012|2026-11-22|CarShield|Team Illinois": [
+   "Final: Team Illinois 13, CarShield 0, at the Team Illinois Showcase in West Dundee.",
+   "Scoring: Team Illinois led throughout and scored in every period.",
+   "Goalies: a shutout for Team Illinois.",
+   "Standings: Team Illinois finishes its showcase 4-0.",
+   "Ratings: Team Illinois 96.99 to 97.01, still North America #10. CarShield 90.62 to 90.60, still #129.",
+   "Next: both teams are done at the showcase."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",
