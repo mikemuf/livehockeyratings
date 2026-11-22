@@ -150,3 +150,18 @@ Nov 20-22, 2026 hits to open (not yet read): **STL AAA Blues Showcase (2014) –
 | Pat Quinn Classic | event | page.spordle.com/pat-quinn-classic | team schedule page gives finals; game links need the event scoreboard |
 CAUTION (Nov 21): the GameSheet games list only puts about 15-25 rows on the page; for a big league filter by division (tick the division, Apply) or read each age division separately, or games will be missed. On Nov 21 the OMHA and Alliance reads were all-division reads, so they are PARTIAL: re-read by division on Sunday.
 SEARCH OUTPUT: tool output containing "name = id; name = id" gets blocked; use "name #id / name #id".
+
+### League table additions, Nov 22 overnight
+| League | Covers | Where scores live | Notes |
+|---|---|---|---|
+| MAHA Youth Tier 1 (Michigan) | Little Caesars, HB Detroit, Victory Honda, Oakland Jr Grizzlies, Fox Motors, Belle Tire, Compuware, Biggby; also "Non-MAHA Teams" visiting (Shattuck at Little Caesars was HERE) | GameSheet 15477 | divisions: 15 Only=2011, 14U Major=2012, 13 Only=2013, 12U Major=2014, 12U Minor=2015, 10U Major=2016; times EASTERN; found by searching "MAHA 2026" |
+| MAHA Exhibition Games | Michigan non-league games | GameSheet 15346 | not opened yet |
+| Ohio AAA Blue Jackets home games | Ohio Blue Jackets (all ages) and visitors | GameSheet 15647 | "13O" = 2013; "Flyers" with no city = unclear club for 12U/11U: do not enter those until confirmed |
+| Windy City Storm home games | Storm and visitors | GameSheet 15759 | row layout differs: home team sits in the column after the score |
+| St Louis AAA Blues home games | Blues and visitors | GameSheet 15475 | |
+| Cleveland Barons Showcase Series / 14U-16U season | | GameSheet 15033 / 15596 | 15033 had nothing Nov 20-22 |
+| Atlantic Coast Hockey Conference | Carolinas A and AA only | GameSheet 15300 | NOT our Atlantic Coast Academy: ignore |
+| Jr Flyers Fall/Winter | | GameSheet 16136 | nothing Nov 20-22 |
+HOW TO READ A BIG LEAGUE (works): on the games page define __readDivs (open Division list, Clear Selection, tick the age divisions, Apply, then scroll-collect rows), one age group per call; long calls can time out at 45 s: start them without await and poll a done flag. Then paste "AGE~day~visitor~vs-hs~home~OT" lines into a file and run tools/league_import.py <file> (prints unresolved names; --write adds to pending). tools/missing.py lists watch-list games still without a result.
+SEARCHES LOGGED Nov 22 1:00-1:30 AM (GameSheet search box): Biggby (none), THF (none), Honeybaked (old tournaments only), Victory Honda (own events only), Oakland Jr Grizzlies (none), Fox Motors (Sept showcase), PAL Jr Islanders (none), Pittsburgh Vengeance (none), Indiana Elite (10U season 15301 only), "Nov 20-22, 2026" (lists events, none ours beyond those known), "MAHA 2026" (FOUND 15477), Atlantic Youth Hockey (none), AHF (none), Dallas Stars (none), Cleveland Barons (15033, 15596), St Louis AAA Blues (15475), Little Caps (none).
+STILL NO SOURCE after these searches (24 games): PAL Jr Islanders v Atlantic Coast Academy x2 (2012), Seacoast v South Kent, Pittsburgh Vengeance v Palmyra x2, HB Detroit v BioSteel, Victory Honda v Indiana Elite x2, Notre Dame HA v Atlantic Coast Academy, Peterborough v Upper Canada College, Chicago Fury v Madison (2011); Ohio v Jr Flyers game 1 (2013); Wolfpack v Red Bank, LI Royals v NYC HC, Sun County v Cleveland Barons (2014); Little Flyers v North Jersey Avalanche x2, Dallas Stars Elite v Houston (2015); NJ Rockets v LI Royals, Washington Little Caps v NJ Colonials x2 (2016); Biggby THF showcase x3 (2012). Next ideas: Atlantic district league (AYHL / "Atlantic Hockey Federation") site, THF showcase site, Indiana Elite / MidAm independent 15U season, teams' Instagram.

@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday night: where each event stands and what is left on Sunday",
- "updated": "Sun Nov 22, 12:08 AM CT",
+ "updated": "Sun Nov 22, 12:10 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -1744,6 +1744,28 @@
      "note": "GTHL",
      "local": "7:45 PM ET",
      "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "8:00 AM",
+     "a": "Minuteman Flames",
+     "b": "Bay State Breakers",
+     "rink": "Rockland Ice Rink",
+     "city": "Rockland, MA",
+     "note": "League game",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15008/games/2942709"
+    },
+    {
+     "day": "Sun",
+     "time": "11:20 AM",
+     "a": "Middlesex Islanders",
+     "b": "Providence Capitals",
+     "rink": "Rhode Island Sports Center",
+     "city": "North Smithfield, RI",
+     "note": "League game",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15008/games/2942718"
     }
    ],
    "sections": [
@@ -2176,6 +2198,17 @@
      "b": "Victory Honda",
      "note": "STL AAA Blues Showcase CHAMPIONSHIP",
      "sheet": "https://gamesheetstats.com/seasons/16484/games/3159148"
+    },
+    {
+     "day": "Sun",
+     "time": "8:25 AM",
+     "a": "Middlesex Islanders East (Elite)",
+     "b": "Providence Capitals (Elite)",
+     "rink": "Rhode Island Sports Center",
+     "city": "North Smithfield, RI",
+     "note": "League game",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15008/games/2942713"
     }
    ],
    "sections": [
@@ -2366,7 +2399,8 @@
      "city": "Salem, NH",
      "note": "#9 vs #11",
      "local": "9:25 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15008/games/2942714"
     },
     {
      "day": "Sun",
@@ -2388,7 +2422,8 @@
      "city": "Kingston, MA",
      "note": "League game",
      "local": "10:30 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15008/games/2942716"
     },
     {
      "day": "Sun",
@@ -2442,7 +2477,8 @@
      "city": "Canton, MA",
      "note": "League game",
      "local": "1:20 PM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15008/games/2942720"
     },
     {
      "day": "Sun",
@@ -2464,7 +2500,8 @@
      "city": "Kingston, MA",
      "note": "League game",
      "local": "2:30 PM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15008/games/2942721"
     }
    ],
    "sections": [
@@ -2603,7 +2640,8 @@
      "city": "Canton, MA",
      "note": "League game",
      "local": "9:20 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15008/games/2942712"
     },
     {
      "day": "Sun",
@@ -2659,6 +2697,17 @@
      "note": "GTHL league game",
      "local": "10:25 AM ET",
      "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "8:10 AM",
+     "a": "Boston Jr Eagles (Elite)",
+     "b": "Bay State Breakers (Elite)",
+     "rink": "The Bog",
+     "city": "Kingston, MA",
+     "note": "League game",
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15008/games/2942710"
     }
    ],
    "sections": [
