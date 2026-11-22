@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Weekend wrap. Late results are added as they are posted",
- "updated": "Sun Nov 22, 4:33 PM CT",
+ "updated": "Sun Nov 22, 4:38 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -10,7 +10,7 @@
   "2012": {
    "summary": [
     "Northeast Pack in Pittsburgh: The field: all eight 14U teams are ranked in the top 28 in North America (top 17 in the USA). Twelve league games Friday to Sunday, three per team.",
-    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.75) 13. Bishop Kearney (#14, 96.56) and Mount St Charles (#16, 96.36) 11 each. Chicago Mission (#8, 97.21) 10. Pittsburgh Penguins Elite (#27, 95.91) 8. NJ Rockets (#29, 95.72) 6. Chicago Reapers (#30, 95.72) 4.",
+    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.75) 13. Bishop Kearney (#14, 96.56) and Mount St Charles (#16, 96.36) 11 each. Chicago Mission (#9, 97.21) 10. Pittsburgh Penguins Elite (#27, 95.91) 8. NJ Rockets (#29, 95.72) 6. Chicago Reapers (#30, 95.72) 4.",
     "Also big: Shattuck St Mary's (#2, 99.95) plays three at Little Caesars (#7, 97.24) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
     "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
     "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1)."
@@ -803,7 +803,7 @@
       "Upset of the weekend: the Chicago Reapers (#30, 95.72) beat Mount St Charles (#16, 96.36) 5-4 in overtime on Saturday.",
       "Bishop Kearney (#14, 96.56) won all three at the Northeast Pack, 5-3 over the Chicago Mission, 9-1 over the Rockets and 4-2 over Mount St Charles, and is second in the league.",
       "Team Illinois (#10, 97.09) won its own showcase at 4-0 and outscored its opponents 33-3.",
-      "Pat Quinn Classic: Yale (#9, 97.17) and Delta (#6, 97.37) played for the title Sunday afternoon. The score will be added when it is posted."
+      "Pat Quinn Classic: Yale Hockey Academy won the title, 3-2 over Delta Hockey Academy in the final, and finished 5-0."
      ]
     },
     {
@@ -871,15 +871,15 @@
     },
     {
      "t": "Pat Quinn Classic (U15 Elite)",
-     "rh": "Record through the semifinals",
+     "rh": "Final record",
      "rows": [
       [
        "Yale Hockey Academy",
-       "4-0"
+       "5-0, champion"
       ],
       [
        "Delta Hockey Academy",
-       "3-1"
+       "3-2, runner-up"
       ],
       [
        "Pacific Coast Academy",
@@ -899,7 +899,7 @@
       ]
      ],
      "b": [
-      "Championship: Yale against Delta, Sunday at 3:00 PM.",
+      "Championship: Yale 3, Delta 2.",
       "Semifinals: Delta 9, Nashville 6 and Yale 2, St George's 0. Nashville's event is over.",
       "Sebastien Erat (Nashville): {{pts:Sebastien Erat|Nashville Jr. Predators|2026-11-19}}."
      ],
@@ -3637,6 +3637,11 @@
    "Standings: one league win each. The morning loss was Mid-Fairfield's first in league play.",
    "Ratings: Mid-Fairfield came into the day #6 in North America (USA #4); the Breakers came in #22 (USA #16). The morning result was the upset; the afternoon result went the way the ratings pointed, and by more.",
    "Next: no more games for either team this weekend."
+  ],
+  "2012|2026-11-22|Yale Hockey Academy|Delta Hockey Academy": [
+   "Final: Yale Hockey Academy 3, Delta Hockey Academy 2, in the Pat Quinn Classic championship game.",
+   "Yale finished the event 5-0. Delta, which beat Nashville 9-6 in its semifinal, finished 3-2.",
+   "Goal-by-goal details have not been posted for this game."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",

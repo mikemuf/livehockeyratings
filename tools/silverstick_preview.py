@@ -39,7 +39,7 @@ WRAP={
  "Upset of the weekend: the Chicago Reapers (#30, 95.72) beat Mount St Charles (#16, 96.36) 5-4 in overtime on Saturday.",
  "Bishop Kearney (#14, 96.56) won all three at the Northeast Pack, 5-3 over the Chicago Mission, 9-1 over the Rockets and 4-2 over Mount St Charles, and is second in the league.",
  "Team Illinois (#10, 97.09) won its own showcase at 4-0 and outscored its opponents 33-3.",
- "Pat Quinn Classic: Yale (#9, 97.17) and Delta (#6, 97.37) played for the title Sunday afternoon. The score will be added when it is posted."],
+ "Pat Quinn Classic: Yale Hockey Academy won the title, 3-2 over Delta Hockey Academy in the final, and finished 5-0."],
 '2011':["Bishop Kearney (#3, 95.86) had the best weekend in the age group: 3-0 in Pittsburgh, including a 4-2 win over Pittsburgh Penguins Elite (#1, 96.84). It leads the Northeast Pack with 24 points.",
  "Mount St Charles (#4, 95.61) has won eight straight league games and sits two points back.",
  "Chicago Mission (#13, 93.91) went 1-2: a 5-4 loss to Mount St Charles, a 3-2 win over Mid-Fairfield with three power-play goals, and a 7-3 loss to Penguins Elite.",
