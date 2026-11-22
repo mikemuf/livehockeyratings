@@ -39,3 +39,4 @@
 - 2013 Sun Nov 22: Bay State Breakers (#45) 5, Minuteman Flames (#82) 4, EHF. No story.
 - 2012 Sun Nov 22: Team Illinois (#10) 13, CarShield (#129) 0, TI Showcase. No story (blowout, one team outside top 30).
 - 2015 Sun Nov 22: HB Detroit (#87) 4, Oakland Jr Grizzlies (#32) 0, MAHA league. No story (beaten team outside top 30). Recap done.
+- 2013 Sun Nov 22: Little Caesars (#6) 10, Compuware (#56) 1, MAHA league. No story. Recap OWED.
