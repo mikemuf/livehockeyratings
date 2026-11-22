@@ -70,3 +70,4 @@ Detail files: SCHEDULING.md (page and planner rules), LIVE_CHECK.md (weekend log
 - Nov 22 11:45 AM: event tables: result next to the team on wide screens (SCHEDULING.md UI section, item 4).
 - Nov 22 11:47 AM: owner-sent stream link = 'Watch live now' button on that Live now row (SCHEDULING.md last section). No Map/LiveBarn rule unchanged.
 - Nov 22 11:54 AM (owner): game page 'The teams' table: rank then rating in parentheses ('#2 (94.78)') instead of '#2, 94.78' which read like a money figure. Backup /tmp/weekend.js.bak8.
+- Nov 22 11:58 AM: live game pages mirror the scoresheet (goals, scorers, periods) every cycle: MISTAKE LOG 3 in SCHEDULING.md.
