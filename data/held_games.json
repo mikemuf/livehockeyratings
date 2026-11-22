@@ -1,0 +1,24 @@
+[
+ {
+  "game": [
+   "2016",
+   "2026-11-21",
+   "Little Caesars",
+   16,
+   "Fox Motors",
+   1
+  ],
+  "why": "Nov 22 1:40 AM: pinned #1 Little Caesars (99.90) beat #134 Fox Motors (89.00) 16-1 and 15-0. With the margin capped, the pinned team 'underperforms' and the solver lifts the whole 2016 field +0.22. Held out of the ratings until the owner decides how lopsided wins by the top team should count."
+ },
+ {
+  "game": [
+   "2016",
+   "2026-11-21",
+   "Little Caesars",
+   15,
+   "Fox Motors",
+   0
+  ],
+  "why": "Nov 22 1:40 AM: pinned #1 Little Caesars (99.90) beat #134 Fox Motors (89.00) 16-1 and 15-0. With the margin capped, the pinned team 'underperforms' and the solver lifts the whole 2016 field +0.22. Held out of the ratings until the owner decides how lopsided wins by the top team should count."
+ }
+]
