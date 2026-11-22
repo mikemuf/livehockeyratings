@@ -1,0 +1,1766 @@
+{
+"2015": {
+"pools": {
+"A": [
+"Boston South Shore Kings",
+"London Jr Knights",
+"Oakville Rangers",
+"Toronto Jr Canadiens",
+"York Simcoe Express"
+],
+"B": [
+"Chicago Mission",
+"Providence Capitals",
+"Quinte Red Devils",
+"Toronto Young Nationals",
+"Worcester Shamrocks"
+],
+"C": [
+"Boston Top Gun",
+"Chicago Fury",
+"Don Mills Flyers",
+"Elgin Middlesex Canucks",
+"Middlesex Islanders"
+],
+"D": [
+"Buffalo Jr Sabres",
+"Detroit Little Caesars",
+"Kitchener Jr Rangers",
+"Niagara North Stars",
+"Upper Canada Cyclones"
+],
+"E": [
+"Cleveland Barons",
+"Mid Fairfield Jr Rangers",
+"Ottawa Jr 67's",
+"Pittsburgh Penguins",
+"Whitby Wildcats"
+],
+"F": [
+"Boston Jr Eagles",
+"Florida Surf",
+"Oakland Jr Grizzlies",
+"Sudbury Wolves",
+"Toronto Marlboros"
+]
+},
+"games": [
+{
+"pool": "F",
+"day": "Thu",
+"ct": "12:30 PM",
+"sort": 750,
+"rink": "Iroq#6",
+"a": "Sudbury Wolves",
+"b": "Toronto Marlboros"
+},
+{
+"pool": "A",
+"day": "Thu",
+"ct": "1:00 PM",
+"sort": 780,
+"rink": "Iroq#5",
+"a": "Toronto Jr Canadiens",
+"b": "York Simcoe Express"
+},
+{
+"pool": "B",
+"day": "Thu",
+"ct": "1:30 PM",
+"sort": 810,
+"rink": "Iroq#2",
+"a": "Quinte Red Devils",
+"b": "Toronto Young Nationals"
+},
+{
+"pool": "D",
+"day": "Thu",
+"ct": "1:30 PM",
+"sort": 810,
+"rink": "Iroq#4",
+"a": "Kitchener Jr Rangers",
+"b": "Niagara North Stars"
+},
+{
+"pool": "E",
+"day": "Thu",
+"ct": "1:45 PM",
+"sort": 825,
+"rink": "Iroq#6",
+"a": "Cleveland Barons",
+"b": "Whitby Wildcats"
+},
+{
+"pool": "A",
+"day": "Thu",
+"ct": "3:30 PM",
+"sort": 930,
+"rink": "McK#1",
+"a": "London Jr Knights",
+"b": "Oakville Rangers"
+},
+{
+"pool": "C",
+"day": "Thu",
+"ct": "3:35 PM",
+"sort": 935,
+"rink": "Iroq#5",
+"a": "Don Mills Flyers",
+"b": "Middlesex Islanders"
+},
+{
+"pool": "D",
+"day": "Thu",
+"ct": "4:05 PM",
+"sort": 965,
+"rink": "Iroq#2",
+"a": "Buffalo Jr Sabres",
+"b": "Detroit Little Caesars"
+},
+{
+"pool": "F",
+"day": "Thu",
+"ct": "4:30 PM",
+"sort": 990,
+"rink": "Iroq#4",
+"a": "Boston Jr Eagles",
+"b": "Oakland Jr Grizzlies"
+},
+{
+"pool": "B",
+"day": "Thu",
+"ct": "5:15 PM",
+"sort": 1035,
+"rink": "McK#2",
+"a": "Chicago Mission",
+"b": "Worcester Shamrocks"
+},
+{
+"pool": "B",
+"day": "Fri",
+"ct": "7:00 AM",
+"sort": 10420,
+"rink": "Field2",
+"a": "Providence Capitals",
+"b": "Quinte Red Devils"
+},
+{
+"pool": "E",
+"day": "Fri",
+"ct": "7:15 AM",
+"sort": 10435,
+"rink": "Iroq#2",
+"a": "Ottawa Jr 67's",
+"b": "Whitby Wildcats"
+},
+{
+"pool": "A",
+"day": "Fri",
+"ct": "8:35 AM",
+"sort": 10515,
+"rink": "Field1",
+"a": "Boston South Shore Kings",
+"b": "Toronto Jr Canadiens"
+},
+{
+"pool": "C",
+"day": "Fri",
+"ct": "9:30 AM",
+"sort": 10570,
+"rink": "THCC-W",
+"a": "Boston Top Gun",
+"b": "Chicago Fury"
+},
+{
+"pool": "B",
+"day": "Fri",
+"ct": "9:50 AM",
+"sort": 10590,
+"rink": "McK#1",
+"a": "Chicago Mission",
+"b": "Toronto Young Nationals"
+},
+{
+"pool": "C",
+"day": "Fri",
+"ct": "9:50 AM",
+"sort": 10590,
+"rink": "Field1",
+"a": "Don Mills Flyers",
+"b": "Elgin Middlesex Canucks"
+},
+{
+"pool": "D",
+"day": "Fri",
+"ct": "10:05 AM",
+"sort": 10605,
+"rink": "Iroq#5",
+"a": "Buffalo Jr Sabres",
+"b": "Upper Canada Cyclones"
+},
+{
+"pool": "D",
+"day": "Fri",
+"ct": "10:05 AM",
+"sort": 10605,
+"rink": "McK#2",
+"a": "Detroit Little Caesars",
+"b": "Niagara North Stars"
+},
+{
+"pool": "F",
+"day": "Fri",
+"ct": "12:00 PM",
+"sort": 10720,
+"rink": "Iroq#2",
+"a": "Florida Surf",
+"b": "Toronto Marlboros"
+},
+{
+"pool": "E",
+"day": "Fri",
+"ct": "12:20 PM",
+"sort": 10740,
+"rink": "Can#1",
+"a": "Cleveland Barons",
+"b": "Pittsburgh Penguins"
+},
+{
+"pool": "F",
+"day": "Fri",
+"ct": "12:20 PM",
+"sort": 10740,
+"rink": "McK#1",
+"a": "Oakland Jr Grizzlies",
+"b": "Sudbury Wolves"
+},
+{
+"pool": "B",
+"day": "Fri",
+"ct": "12:40 PM",
+"sort": 10760,
+"rink": "Iroq#5",
+"a": "Providence Capitals",
+"b": "Worcester Shamrocks"
+},
+{
+"pool": "A",
+"day": "Fri",
+"ct": "1:35 PM",
+"sort": 10815,
+"rink": "Can#1",
+"a": "Boston South Shore Kings",
+"b": "York Simcoe Express"
+},
+{
+"pool": "A",
+"day": "Fri",
+"ct": "1:35 PM",
+"sort": 10815,
+"rink": "McK#1",
+"a": "London Jr Knights",
+"b": "Toronto Jr Canadiens"
+},
+{
+"pool": "E",
+"day": "Fri",
+"ct": "1:35 PM",
+"sort": 10815,
+"rink": "Iroq#3",
+"a": "Mid Fairfield Jr Rangers",
+"b": "Ottawa Jr 67's"
+},
+{
+"pool": "C",
+"day": "Fri",
+"ct": "3:10 PM",
+"sort": 10910,
+"rink": "McK#2",
+"a": "Boston Top Gun",
+"b": "Middlesex Islanders"
+},
+{
+"pool": "B",
+"day": "Fri",
+"ct": "3:30 PM",
+"sort": 10930,
+"rink": "Iroq#4",
+"a": "Chicago Mission",
+"b": "Quinte Red Devils"
+},
+{
+"pool": "F",
+"day": "Fri",
+"ct": "4:10 PM",
+"sort": 10970,
+"rink": "McK#1",
+"a": "Boston Jr Eagles",
+"b": "Toronto Marlboros"
+},
+{
+"pool": "C",
+"day": "Fri",
+"ct": "4:45 PM",
+"sort": 11005,
+"rink": "Iroq#4",
+"a": "Chicago Fury",
+"b": "Elgin Middlesex Canucks"
+},
+{
+"pool": "D",
+"day": "Fri",
+"ct": "4:50 PM",
+"sort": 11010,
+"rink": "Iroq#6",
+"a": "Kitchener Jr Rangers",
+"b": "Upper Canada Cyclones"
+},
+{
+"pool": "B",
+"day": "Fri",
+"ct": "5:25 PM",
+"sort": 11045,
+"rink": "Iroq#5",
+"a": "Toronto Young Nationals",
+"b": "Worcester Shamrocks"
+},
+{
+"pool": "E",
+"day": "Fri",
+"ct": "6:30 PM",
+"sort": 11110,
+"rink": "Field2",
+"a": "Mid Fairfield Jr Rangers",
+"b": "Pittsburgh Penguins"
+},
+{
+"pool": "F",
+"day": "Fri",
+"ct": "6:40 PM",
+"sort": 11120,
+"rink": "McK#1",
+"a": "Florida Surf",
+"b": "Sudbury Wolves"
+},
+{
+"pool": "A",
+"day": "Fri",
+"ct": "6:55 PM",
+"sort": 11135,
+"rink": "McK#2",
+"a": "Oakville Rangers",
+"b": "York Simcoe Express"
+},
+{
+"pool": "E",
+"day": "Sat",
+"ct": "7:15 AM",
+"sort": 20435,
+"rink": "Iroq#6",
+"a": "Mid Fairfield Jr Rangers",
+"b": "Whitby Wildcats"
+},
+{
+"pool": "C",
+"day": "Sat",
+"ct": "8:15 AM",
+"sort": 20495,
+"rink": "Field2",
+"a": "Chicago Fury",
+"b": "Don Mills Flyers"
+},
+{
+"pool": "D",
+"day": "Sat",
+"ct": "8:15 AM",
+"sort": 20495,
+"rink": "McK#1",
+"a": "Niagara North Stars",
+"b": "Upper Canada Cyclones"
+},
+{
+"pool": "D",
+"day": "Sat",
+"ct": "8:30 AM",
+"sort": 20510,
+"rink": "Can#1",
+"a": "Detroit Little Caesars",
+"b": "Kitchener Jr Rangers"
+},
+{
+"pool": "F",
+"day": "Sat",
+"ct": "9:00 AM",
+"sort": 20540,
+"rink": "Iroq#4",
+"a": "Florida Surf",
+"b": "Oakland Jr Grizzlies"
+},
+{
+"pool": "A",
+"day": "Sat",
+"ct": "9:30 AM",
+"sort": 20570,
+"rink": "McK#1",
+"a": "Oakville Rangers",
+"b": "Toronto Jr Canadiens"
+},
+{
+"pool": "B",
+"day": "Sat",
+"ct": "9:45 AM",
+"sort": 20585,
+"rink": "Can#1",
+"a": "Chicago Mission",
+"b": "Providence Capitals"
+},
+{
+"pool": "C",
+"day": "Sat",
+"ct": "9:55 AM",
+"sort": 20595,
+"rink": "Field1",
+"a": "Boston Top Gun",
+"b": "Elgin Middlesex Canucks"
+},
+{
+"pool": "F",
+"day": "Sat",
+"ct": "10:45 AM",
+"sort": 20645,
+"rink": "McK#1",
+"a": "Boston Jr Eagles",
+"b": "Sudbury Wolves"
+},
+{
+"pool": "A",
+"day": "Sat",
+"ct": "10:50 AM",
+"sort": 20650,
+"rink": "Iroq#5",
+"a": "Boston South Shore Kings",
+"b": "London Jr Knights"
+},
+{
+"pool": "E",
+"day": "Sat",
+"ct": "11:15 AM",
+"sort": 20675,
+"rink": "McK#2",
+"a": "Cleveland Barons",
+"b": "Ottawa Jr 67's"
+},
+{
+"pool": "B",
+"day": "Sat",
+"ct": "11:20 AM",
+"sort": 20680,
+"rink": "Iroq#3",
+"a": "Quinte Red Devils",
+"b": "Worcester Shamrocks"
+},
+{
+"pool": "E",
+"day": "Sat",
+"ct": "11:35 AM",
+"sort": 20695,
+"rink": "Iroq#6",
+"a": "Pittsburgh Penguins",
+"b": "Whitby Wildcats"
+},
+{
+"pool": "C",
+"day": "Sat",
+"ct": "1:20 PM",
+"sort": 20800,
+"rink": "McK#1",
+"a": "Chicago Fury",
+"b": "Middlesex Islanders"
+},
+{
+"pool": "D",
+"day": "Sat",
+"ct": "1:30 PM",
+"sort": 20810,
+"rink": "Can#1",
+"a": "Buffalo Jr Sabres",
+"b": "Niagara North Stars"
+},
+{
+"pool": "D",
+"day": "Sat",
+"ct": "1:45 PM",
+"sort": 20825,
+"rink": "Field1",
+"a": "Detroit Little Caesars",
+"b": "Upper Canada Cyclones"
+},
+{
+"pool": "F",
+"day": "Sat",
+"ct": "3:00 PM",
+"sort": 20900,
+"rink": "Field1",
+"a": "Oakland Jr Grizzlies",
+"b": "Toronto Marlboros"
+},
+{
+"pool": "B",
+"day": "Sat",
+"ct": "4:00 PM",
+"sort": 20960,
+"rink": "Field2",
+"a": "Providence Capitals",
+"b": "Toronto Young Nationals"
+},
+{
+"pool": "E",
+"day": "Sat",
+"ct": "4:15 PM",
+"sort": 20975,
+"rink": "Field1",
+"a": "Cleveland Barons",
+"b": "Mid Fairfield Jr Rangers"
+},
+{
+"pool": "A",
+"day": "Sat",
+"ct": "4:20 PM",
+"sort": 20980,
+"rink": "Iroq#4",
+"a": "Boston South Shore Kings",
+"b": "Oakville Rangers"
+},
+{
+"pool": "A",
+"day": "Sat",
+"ct": "4:30 PM",
+"sort": 20990,
+"rink": "Iroq#1",
+"a": "London Jr Knights",
+"b": "York Simcoe Express"
+},
+{
+"pool": "C",
+"day": "Sat",
+"ct": "4:30 PM",
+"sort": 20990,
+"rink": "Iroq#6",
+"a": "Boston Top Gun",
+"b": "Don Mills Flyers"
+},
+{
+"pool": "F",
+"day": "Sat",
+"ct": "5:30 PM",
+"sort": 21050,
+"rink": "Iroq#2",
+"a": "Boston Jr Eagles",
+"b": "Florida Surf"
+},
+{
+"pool": "E",
+"day": "Sat",
+"ct": "5:35 PM",
+"sort": 21055,
+"rink": "McK#2",
+"a": "Ottawa Jr 67's",
+"b": "Pittsburgh Penguins"
+},
+{
+"pool": "C",
+"day": "Sat",
+"ct": "5:45 PM",
+"sort": 21065,
+"rink": "Iroq#6",
+"a": "Elgin Middlesex Canucks",
+"b": "Middlesex Islanders"
+},
+{
+"pool": "D",
+"day": "Sat",
+"ct": "5:45 PM",
+"sort": 21065,
+"rink": "Iroq#1",
+"a": "Buffalo Jr Sabres",
+"b": "Kitchener Jr Rangers"
+}
+]
+},
+"2013": {
+"pools": {
+"A": [
+"Boston Minuteman Flames",
+"Milwaukee Jr Admirals",
+"Toronto Jr Canadiens",
+"Waterloo Wolves",
+"York Simcoe Express"
+],
+"B": [
+"Detroit Little Caesars",
+"Elgin Middlesex Canucks",
+"Niagara North Stars",
+"Ottawa Valley Tiitans",
+"Pittsburgh Penguins"
+],
+"C": [
+"Barrie Colts",
+"Chicago Reapers",
+"Mid Fairfield Jr Rangers",
+"Ottawa 67's",
+"Whitby Wildcats"
+],
+"D": [
+"Buffalo Jr Sabres",
+"Huron Perth Lakers",
+"Ottawa Myers Automotive",
+"Rochester Saints Hockey Club",
+"Vaughan Kings"
+],
+"E": [
+"Connecticut Nor'Easter",
+"Hamilton Steel",
+"Sudbury Wolves",
+"Syracuse Nationals",
+"Toronto Marlboros"
+],
+"F": [
+"Chicago Mission",
+"Credit River Capitals",
+"Middlesex Islanders",
+"Quinte Red Devils",
+"Toronto Young Nationals"
+]
+},
+"games": [
+{
+"pool": "F",
+"day": "Thu",
+"ct": "1:15 PM",
+"sort": 795,
+"rink": "Iroq#3",
+"a": "Credit River Capitals",
+"b": "Toronto Young Nationals"
+},
+{
+"pool": "E",
+"day": "Thu",
+"ct": "2:15 PM",
+"sort": 855,
+"rink": "Iroq#5",
+"a": "Hamilton Steel",
+"b": "Sudbury Wolves"
+},
+{
+"pool": "A",
+"day": "Thu",
+"ct": "2:45 PM",
+"sort": 885,
+"rink": "Iroq#2",
+"a": "Toronto Jr Canadiens",
+"b": "Waterloo Wolves"
+},
+{
+"pool": "D",
+"day": "Thu",
+"ct": "3:00 PM",
+"sort": 900,
+"rink": "Iroq#6",
+"a": "Buffalo Jr Sabres",
+"b": "Vaughan Kings"
+},
+{
+"pool": "B",
+"day": "Thu",
+"ct": "4:00 PM",
+"sort": 960,
+"rink": "Iroq#1",
+"a": "Elgin Middlesex Canucks",
+"b": "Pittsburgh Penguins"
+},
+{
+"pool": "A",
+"day": "Thu",
+"ct": "4:20 PM",
+"sort": 980,
+"rink": "Iroq#6",
+"a": "Boston Minuteman Flames",
+"b": "York Simcoe Express"
+},
+{
+"pool": "B",
+"day": "Thu",
+"ct": "4:45 PM",
+"sort": 1005,
+"rink": "McK#1",
+"a": "Detroit Little Caesars",
+"b": "Ottawa Valley Tiitans"
+},
+{
+"pool": "C",
+"day": "Thu",
+"ct": "6:05 PM",
+"sort": 1085,
+"rink": "Iroq#5",
+"a": "Barrie Colts",
+"b": "Whitby Wildcats"
+},
+{
+"pool": "D",
+"day": "Thu",
+"ct": "6:05 PM",
+"sort": 1085,
+"rink": "McK#1",
+"a": "Huron Perth Lakers",
+"b": "Ottawa Myers Automotive"
+},
+{
+"pool": "F",
+"day": "Thu",
+"ct": "6:05 PM",
+"sort": 1085,
+"rink": "Iroq#3",
+"a": "Chicago Mission",
+"b": "Quinte Red Devils"
+},
+{
+"pool": "B",
+"day": "Fri",
+"ct": "7:00 AM",
+"sort": 10420,
+"rink": "Iroq#5",
+"a": "Ottawa Valley Tiitans",
+"b": "Pittsburgh Penguins"
+},
+{
+"pool": "A",
+"day": "Fri",
+"ct": "7:15 AM",
+"sort": 10435,
+"rink": "Field1",
+"a": "Milwaukee Jr Admirals",
+"b": "Waterloo Wolves"
+},
+{
+"pool": "B",
+"day": "Fri",
+"ct": "7:30 AM",
+"sort": 10450,
+"rink": "McK#2",
+"a": "Elgin Middlesex Canucks",
+"b": "Niagara North Stars"
+},
+{
+"pool": "E",
+"day": "Fri",
+"ct": "8:30 AM",
+"sort": 10510,
+"rink": "McK#1",
+"a": "Connecticut Nor'Easter",
+"b": "Hamilton Steel"
+},
+{
+"pool": "C",
+"day": "Fri",
+"ct": "8:45 AM",
+"sort": 10525,
+"rink": "Iroq#1",
+"a": "Mid Fairfield Jr Rangers",
+"b": "Whitby Wildcats"
+},
+{
+"pool": "D",
+"day": "Fri",
+"ct": "9:30 AM",
+"sort": 10570,
+"rink": "Field2",
+"a": "Rochester Saints Hockey Club",
+"b": "Vaughan Kings"
+},
+{
+"pool": "A",
+"day": "Fri",
+"ct": "10:05 AM",
+"sort": 10605,
+"rink": "Iroq#1",
+"a": "Toronto Jr Canadiens",
+"b": "York Simcoe Express"
+},
+{
+"pool": "E",
+"day": "Fri",
+"ct": "10:30 AM",
+"sort": 10630,
+"rink": "Iroq#3",
+"a": "Syracuse Nationals",
+"b": "Toronto Marlboros"
+},
+{
+"pool": "C",
+"day": "Fri",
+"ct": "10:45 AM",
+"sort": 10645,
+"rink": "Iroq#6",
+"a": "Chicago Reapers",
+"b": "Ottawa 67's"
+},
+{
+"pool": "D",
+"day": "Fri",
+"ct": "11:05 AM",
+"sort": 10665,
+"rink": "Field1",
+"a": "Buffalo Jr Sabres",
+"b": "Huron Perth Lakers"
+},
+{
+"pool": "F",
+"day": "Fri",
+"ct": "11:20 AM",
+"sort": 10680,
+"rink": "McK#2",
+"a": "Chicago Mission",
+"b": "Toronto Young Nationals"
+},
+{
+"pool": "F",
+"day": "Fri",
+"ct": "11:20 AM",
+"sort": 10680,
+"rink": "Iroq#5",
+"a": "Credit River Capitals",
+"b": "Middlesex Islanders"
+},
+{
+"pool": "B",
+"day": "Fri",
+"ct": "12:25 PM",
+"sort": 10745,
+"rink": "Field1",
+"a": "Detroit Little Caesars",
+"b": "Pittsburgh Penguins"
+},
+{
+"pool": "C",
+"day": "Fri",
+"ct": "1:20 PM",
+"sort": 10800,
+"rink": "Iroq#2",
+"a": "Barrie Colts",
+"b": "Mid Fairfield Jr Rangers"
+},
+{
+"pool": "B",
+"day": "Fri",
+"ct": "1:45 PM",
+"sort": 10825,
+"rink": "Field1",
+"a": "Elgin Middlesex Canucks",
+"b": "Ottawa Valley Tiitans"
+},
+{
+"pool": "D",
+"day": "Fri",
+"ct": "2:35 PM",
+"sort": 10875,
+"rink": "Field2",
+"a": "Ottawa Myers Automotive",
+"b": "Rochester Saints Hockey Club"
+},
+{
+"pool": "A",
+"day": "Fri",
+"ct": "2:50 PM",
+"sort": 10890,
+"rink": "McK#1",
+"a": "Boston Minuteman Flames",
+"b": "Milwaukee Jr Admirals"
+},
+{
+"pool": "E",
+"day": "Fri",
+"ct": "2:50 PM",
+"sort": 10890,
+"rink": "Iroq#3",
+"a": "Connecticut Nor'Easter",
+"b": "Syracuse Nationals"
+},
+{
+"pool": "E",
+"day": "Fri",
+"ct": "3:05 PM",
+"sort": 10905,
+"rink": "Field1",
+"a": "Sudbury Wolves",
+"b": "Toronto Marlboros"
+},
+{
+"pool": "C",
+"day": "Fri",
+"ct": "3:55 PM",
+"sort": 10955,
+"rink": "Field2",
+"a": "Chicago Reapers",
+"b": "Whitby Wildcats"
+},
+{
+"pool": "F",
+"day": "Fri",
+"ct": "4:25 PM",
+"sort": 10985,
+"rink": "Field1",
+"a": "Middlesex Islanders",
+"b": "Quinte Red Devils"
+},
+{
+"pool": "B",
+"day": "Fri",
+"ct": "6:10 PM",
+"sort": 11090,
+"rink": "Iroq#2",
+"a": "Detroit Little Caesars",
+"b": "Niagara North Stars"
+},
+{
+"pool": "C",
+"day": "Fri",
+"ct": "7:25 PM",
+"sort": 11165,
+"rink": "Iroq#6",
+"a": "Barrie Colts",
+"b": "Ottawa 67's"
+},
+{
+"pool": "F",
+"day": "Sat",
+"ct": "6:55 AM",
+"sort": 20415,
+"rink": "Field2",
+"a": "Quinte Red Devils",
+"b": "Toronto Young Nationals"
+},
+{
+"pool": "E",
+"day": "Sat",
+"ct": "7:15 AM",
+"sort": 20435,
+"rink": "Field1",
+"a": "Connecticut Nor'Easter",
+"b": "Sudbury Wolves"
+},
+{
+"pool": "D",
+"day": "Sat",
+"ct": "8:15 AM",
+"sort": 20495,
+"rink": "Iroq#5",
+"a": "Buffalo Jr Sabres",
+"b": "Rochester Saints Hockey Club"
+},
+{
+"pool": "A",
+"day": "Sat",
+"ct": "8:35 AM",
+"sort": 20515,
+"rink": "McK#2",
+"a": "Boston Minuteman Flames",
+"b": "Waterloo Wolves"
+},
+{
+"pool": "E",
+"day": "Sat",
+"ct": "8:35 AM",
+"sort": 20515,
+"rink": "Field1",
+"a": "Hamilton Steel",
+"b": "Syracuse Nationals"
+},
+{
+"pool": "B",
+"day": "Sat",
+"ct": "8:45 AM",
+"sort": 20525,
+"rink": "Iroq#3",
+"a": "Niagara North Stars",
+"b": "Ottawa Valley Tiitans"
+},
+{
+"pool": "D",
+"day": "Sat",
+"ct": "9:30 AM",
+"sort": 20570,
+"rink": "Field2",
+"a": "Huron Perth Lakers",
+"b": "Vaughan Kings"
+},
+{
+"pool": "C",
+"day": "Sat",
+"ct": "9:55 AM",
+"sort": 20595,
+"rink": "McK#2",
+"a": "Barrie Colts",
+"b": "Chicago Reapers"
+},
+{
+"pool": "A",
+"day": "Sat",
+"ct": "10:15 AM",
+"sort": 20615,
+"rink": "Iroq#6",
+"a": "Milwaukee Jr Admirals",
+"b": "York Simcoe Express"
+},
+{
+"pool": "F",
+"day": "Sat",
+"ct": "10:15 AM",
+"sort": 20615,
+"rink": "Iroq#4",
+"a": "Chicago Mission",
+"b": "Middlesex Islanders"
+},
+{
+"pool": "C",
+"day": "Sat",
+"ct": "10:50 AM",
+"sort": 20650,
+"rink": "Field2",
+"a": "Mid Fairfield Jr Rangers",
+"b": "Ottawa 67's"
+},
+{
+"pool": "F",
+"day": "Sat",
+"ct": "11:20 AM",
+"sort": 20680,
+"rink": "Iroq#2",
+"a": "Credit River Capitals",
+"b": "Quinte Red Devils"
+},
+{
+"pool": "E",
+"day": "Sat",
+"ct": "12:00 PM",
+"sort": 20720,
+"rink": "McK#1",
+"a": "Connecticut Nor'Easter",
+"b": "Toronto Marlboros"
+},
+{
+"pool": "B",
+"day": "Sat",
+"ct": "12:25 PM",
+"sort": 20745,
+"rink": "Field1",
+"a": "Detroit Little Caesars",
+"b": "Elgin Middlesex Canucks"
+},
+{
+"pool": "E",
+"day": "Sat",
+"ct": "1:25 PM",
+"sort": 20805,
+"rink": "Field2",
+"a": "Sudbury Wolves",
+"b": "Syracuse Nationals"
+},
+{
+"pool": "D",
+"day": "Sat",
+"ct": "1:45 PM",
+"sort": 20825,
+"rink": "McK#2",
+"a": "Buffalo Jr Sabres",
+"b": "Ottawa Myers Automotive"
+},
+{
+"pool": "A",
+"day": "Sat",
+"ct": "2:35 PM",
+"sort": 20875,
+"rink": "McK#1",
+"a": "Boston Minuteman Flames",
+"b": "Toronto Jr Canadiens"
+},
+{
+"pool": "B",
+"day": "Sat",
+"ct": "3:55 PM",
+"sort": 20955,
+"rink": "McK#1",
+"a": "Niagara North Stars",
+"b": "Pittsburgh Penguins"
+},
+{
+"pool": "A",
+"day": "Sat",
+"ct": "4:10 PM",
+"sort": 20970,
+"rink": "Iroq#2",
+"a": "Waterloo Wolves",
+"b": "York Simcoe Express"
+},
+{
+"pool": "C",
+"day": "Sat",
+"ct": "6:05 PM",
+"sort": 21085,
+"rink": "Iroq#5",
+"a": "Chicago Reapers",
+"b": "Mid Fairfield Jr Rangers"
+},
+{
+"pool": "C",
+"day": "Sat",
+"ct": "6:30 PM",
+"sort": 21110,
+"rink": "McK#1",
+"a": "Ottawa 67's",
+"b": "Whitby Wildcats"
+},
+{
+"pool": "F",
+"day": "Sat",
+"ct": "6:30 PM",
+"sort": 21110,
+"rink": "Field2",
+"a": "Middlesex Islanders",
+"b": "Toronto Young Nationals"
+},
+{
+"pool": "E",
+"day": "Sat",
+"ct": "6:35 PM",
+"sort": 21115,
+"rink": "Iroq#3",
+"a": "Hamilton Steel",
+"b": "Toronto Marlboros"
+},
+{
+"pool": "A",
+"day": "Sat",
+"ct": "6:50 PM",
+"sort": 21130,
+"rink": "McK#2",
+"a": "Milwaukee Jr Admirals",
+"b": "Toronto Jr Canadiens"
+},
+{
+"pool": "D",
+"day": "Sat",
+"ct": "6:50 PM",
+"sort": 21130,
+"rink": "Iroq#4",
+"a": "Huron Perth Lakers",
+"b": "Rochester Saints Hockey Club"
+},
+{
+"pool": "D",
+"day": "Sat",
+"ct": "7:00 PM",
+"sort": 21140,
+"rink": "Iroq#6",
+"a": "Ottawa Myers Automotive",
+"b": "Vaughan Kings"
+},
+{
+"pool": "F",
+"day": "Sat",
+"ct": "7:00 PM",
+"sort": 21140,
+"rink": "Iroq#1",
+"a": "Chicago Mission",
+"b": "Credit River Capitals"
+}
+]
+},
+"2011": {
+"pools": {
+"A": [
+"Chicago Mission",
+"Hamilton Steel",
+"Mississauga Senators",
+"Ottawa Valley Titans",
+"Whitby Wildcats"
+],
+"B": [
+"Central Ontario Wolves",
+"Halton Hurricanes",
+"Kingston Jr Gaels",
+"Mississauga Rebels",
+"Pittsburgh Penguins"
+],
+"C": [
+"Chatham Kent Cyclones",
+"Oakland Jr Grizzlies",
+"Ottawa 67's",
+"Rochester Bishop Kearney Selects",
+"Toronto Jr Canadiens"
+],
+"D": [
+"Elgin Middlesex Canucks",
+"North Shore White Caps",
+"Pittsburgh Vengeance",
+"Thunder Bay Kings",
+"Toronto Marlboros"
+],
+"E": [
+"Chicago Windy City Storm",
+"Ottawa Myers Automotive",
+"Soo Jr Greyhounds",
+"Vaughan Kings",
+"York Simcoe Express"
+],
+"F": [
+"Detroit Little Caesars",
+"Palmyra Black Knights",
+"Toronto Young Nationals",
+"Upper Canada College",
+"Waterloo Wolves"
+]
+},
+"games": [
+{
+"pool": "B",
+"day": "Thu",
+"ct": "2:15 PM",
+"sort": 855,
+"rink": "Iroq#1",
+"a": "Central Ontario Wolves",
+"b": "Mississauga Rebels"
+},
+{
+"pool": "D",
+"day": "Thu",
+"ct": "2:35 PM",
+"sort": 875,
+"rink": "Iroq#3",
+"a": "Elgin Middlesex Canucks",
+"b": "North Shore White Caps"
+},
+{
+"pool": "E",
+"day": "Thu",
+"ct": "2:45 PM",
+"sort": 885,
+"rink": "Iroq#4",
+"a": "Vaughan Kings",
+"b": "York Simcoe Express"
+},
+{
+"pool": "F",
+"day": "Thu",
+"ct": "4:20 PM",
+"sort": 980,
+"rink": "Iroq#3",
+"a": "Detroit Little Caesars",
+"b": "Palmyra Black Knights"
+},
+{
+"pool": "A",
+"day": "Thu",
+"ct": "5:20 PM",
+"sort": 1040,
+"rink": "Iroq#2",
+"a": "Hamilton Steel",
+"b": "Mississauga Senators"
+},
+{
+"pool": "F",
+"day": "Thu",
+"ct": "5:40 PM",
+"sort": 1060,
+"rink": "Iroq#6",
+"a": "Toronto Young Nationals",
+"b": "Waterloo Wolves"
+},
+{
+"pool": "A",
+"day": "Thu",
+"ct": "5:45 PM",
+"sort": 1065,
+"rink": "Iroq#1",
+"a": "Chicago Mission",
+"b": "Whitby Wildcats"
+},
+{
+"pool": "D",
+"day": "Thu",
+"ct": "5:45 PM",
+"sort": 1065,
+"rink": "Iroq#4",
+"a": "Pittsburgh Vengeance",
+"b": "Toronto Marlboros"
+},
+{
+"pool": "B",
+"day": "Thu",
+"ct": "7:05 PM",
+"sort": 1145,
+"rink": "Iroq#2",
+"a": "Halton Hurricanes",
+"b": "Pittsburgh Penguins"
+},
+{
+"pool": "E",
+"day": "Thu",
+"ct": "7:25 PM",
+"sort": 1165,
+"rink": "Iroq#3",
+"a": "Chicago Windy City Storm",
+"b": "Soo Jr Greyhounds"
+},
+{
+"pool": "C",
+"day": "Thu",
+"ct": "7:30 PM",
+"sort": 1170,
+"rink": "Iroq#1",
+"a": "Oakland Jr Grizzlies",
+"b": "Ottawa 67's"
+},
+{
+"pool": "C",
+"day": "Thu",
+"ct": "7:30 PM",
+"sort": 1170,
+"rink": "Iroq#4",
+"a": "Rochester Bishop Kearney Selects",
+"b": "Toronto Jr Canadiens"
+},
+{
+"pool": "D",
+"day": "Fri",
+"ct": "7:00 AM",
+"sort": 10420,
+"rink": "Iroq#3",
+"a": "Elgin Middlesex Canucks",
+"b": "Pittsburgh Vengeance"
+},
+{
+"pool": "D",
+"day": "Fri",
+"ct": "7:00 AM",
+"sort": 10420,
+"rink": "Iroq#1",
+"a": "North Shore White Caps",
+"b": "Thunder Bay Kings"
+},
+{
+"pool": "A",
+"day": "Fri",
+"ct": "7:15 AM",
+"sort": 10435,
+"rink": "Iroq#6",
+"a": "Ottawa Valley Titans",
+"b": "Whitby Wildcats"
+},
+{
+"pool": "B",
+"day": "Fri",
+"ct": "7:15 AM",
+"sort": 10435,
+"rink": "Iroq#4",
+"a": "Kingston Jr Gaels",
+"b": "Mississauga Rebels"
+},
+{
+"pool": "A",
+"day": "Fri",
+"ct": "8:20 AM",
+"sort": 10500,
+"rink": "Iroq#5",
+"a": "Chicago Mission",
+"b": "Mississauga Senators"
+},
+{
+"pool": "E",
+"day": "Fri",
+"ct": "8:30 AM",
+"sort": 10510,
+"rink": "Iroq#2",
+"a": "Ottawa Myers Automotive",
+"b": "Vaughan Kings"
+},
+{
+"pool": "C",
+"day": "Fri",
+"ct": "8:45 AM",
+"sort": 10525,
+"rink": "Iroq#3",
+"a": "Chatham Kent Cyclones",
+"b": "Oakland Jr Grizzlies"
+},
+{
+"pool": "B",
+"day": "Fri",
+"ct": "9:00 AM",
+"sort": 10540,
+"rink": "Iroq#4",
+"a": "Central Ontario Wolves",
+"b": "Pittsburgh Penguins"
+},
+{
+"pool": "F",
+"day": "Fri",
+"ct": "9:00 AM",
+"sort": 10540,
+"rink": "Iroq#6",
+"a": "Detroit Little Caesars",
+"b": "Toronto Young Nationals"
+},
+{
+"pool": "F",
+"day": "Fri",
+"ct": "10:15 AM",
+"sort": 10615,
+"rink": "Iroq#2",
+"a": "Palmyra Black Knights",
+"b": "Upper Canada College"
+},
+{
+"pool": "C",
+"day": "Fri",
+"ct": "10:45 AM",
+"sort": 10645,
+"rink": "Iroq#4",
+"a": "Ottawa 67's",
+"b": "Toronto Jr Canadiens"
+},
+{
+"pool": "E",
+"day": "Fri",
+"ct": "11:25 AM",
+"sort": 10685,
+"rink": "Iroq#1",
+"a": "Chicago Windy City Storm",
+"b": "York Simcoe Express"
+},
+{
+"pool": "A",
+"day": "Fri",
+"ct": "11:50 AM",
+"sort": 10710,
+"rink": "Iroq#3",
+"a": "Hamilton Steel",
+"b": "Ottawa Valley Titans"
+},
+{
+"pool": "B",
+"day": "Fri",
+"ct": "12:30 PM",
+"sort": 10750,
+"rink": "Iroq#4",
+"a": "Halton Hurricanes",
+"b": "Kingston Jr Gaels"
+},
+{
+"pool": "C",
+"day": "Fri",
+"ct": "1:10 PM",
+"sort": 10790,
+"rink": "Iroq#1",
+"a": "Chatham Kent Cyclones",
+"b": "Rochester Bishop Kearney Selects"
+},
+{
+"pool": "D",
+"day": "Fri",
+"ct": "1:20 PM",
+"sort": 10800,
+"rink": "Iroq#6",
+"a": "Thunder Bay Kings",
+"b": "Toronto Marlboros"
+},
+{
+"pool": "E",
+"day": "Fri",
+"ct": "1:55 PM",
+"sort": 10835,
+"rink": "Iroq#5",
+"a": "Soo Jr Greyhounds",
+"b": "Vaughan Kings"
+},
+{
+"pool": "A",
+"day": "Fri",
+"ct": "2:40 PM",
+"sort": 10880,
+"rink": "Iroq#2",
+"a": "Mississauga Senators",
+"b": "Whitby Wildcats"
+},
+{
+"pool": "D",
+"day": "Fri",
+"ct": "2:55 PM",
+"sort": 10895,
+"rink": "Iroq#1",
+"a": "North Shore White Caps",
+"b": "Pittsburgh Vengeance"
+},
+{
+"pool": "F",
+"day": "Fri",
+"ct": "3:05 PM",
+"sort": 10905,
+"rink": "Iroq#6",
+"a": "Detroit Little Caesars",
+"b": "Waterloo Wolves"
+},
+{
+"pool": "C",
+"day": "Fri",
+"ct": "3:40 PM",
+"sort": 10940,
+"rink": "Iroq#5",
+"a": "Oakland Jr Grizzlies",
+"b": "Toronto Jr Canadiens"
+},
+{
+"pool": "B",
+"day": "Fri",
+"ct": "4:25 PM",
+"sort": 10985,
+"rink": "Iroq#2",
+"a": "Mississauga Rebels",
+"b": "Pittsburgh Penguins"
+},
+{
+"pool": "E",
+"day": "Fri",
+"ct": "5:25 PM",
+"sort": 11045,
+"rink": "Iroq#3",
+"a": "Chicago Windy City Storm",
+"b": "Ottawa Myers Automotive"
+},
+{
+"pool": "D",
+"day": "Fri",
+"ct": "5:55 PM",
+"sort": 11075,
+"rink": "Iroq#1",
+"a": "Elgin Middlesex Canucks",
+"b": "Toronto Marlboros"
+},
+{
+"pool": "A",
+"day": "Fri",
+"ct": "6:00 PM",
+"sort": 11080,
+"rink": "Iroq#4",
+"a": "Chicago Mission",
+"b": "Hamilton Steel"
+},
+{
+"pool": "F",
+"day": "Fri",
+"ct": "6:40 PM",
+"sort": 11120,
+"rink": "Iroq#5",
+"a": "Toronto Young Nationals",
+"b": "Upper Canada College"
+},
+{
+"pool": "C",
+"day": "Fri",
+"ct": "7:10 PM",
+"sort": 11150,
+"rink": "Iroq#3",
+"a": "Ottawa 67's",
+"b": "Rochester Bishop Kearney Selects"
+},
+{
+"pool": "B",
+"day": "Fri",
+"ct": "7:30 PM",
+"sort": 11170,
+"rink": "Iroq#2",
+"a": "Central Ontario Wolves",
+"b": "Halton Hurricanes"
+},
+{
+"pool": "F",
+"day": "Fri",
+"ct": "7:40 PM",
+"sort": 11180,
+"rink": "Iroq#1",
+"a": "Palmyra Black Knights",
+"b": "Waterloo Wolves"
+},
+{
+"pool": "E",
+"day": "Fri",
+"ct": "7:45 PM",
+"sort": 11185,
+"rink": "Iroq#4",
+"a": "Soo Jr Greyhounds",
+"b": "York Simcoe Express"
+},
+{
+"pool": "C",
+"day": "Sat",
+"ct": "7:00 AM",
+"sort": 20420,
+"rink": "Iroq#3",
+"a": "Chatham Kent Cyclones",
+"b": "Ottawa 67's"
+},
+{
+"pool": "B",
+"day": "Sat",
+"ct": "7:15 AM",
+"sort": 20435,
+"rink": "Iroq#4",
+"a": "Central Ontario Wolves",
+"b": "Kingston Jr Gaels"
+},
+{
+"pool": "A",
+"day": "Sat",
+"ct": "8:10 AM",
+"sort": 20490,
+"rink": "Iroq#1",
+"a": "Mississauga Senators",
+"b": "Ottawa Valley Titans"
+},
+{
+"pool": "F",
+"day": "Sat",
+"ct": "8:15 AM",
+"sort": 20495,
+"rink": "Iroq#2",
+"a": "Detroit Little Caesars",
+"b": "Upper Canada College"
+},
+{
+"pool": "D",
+"day": "Sat",
+"ct": "8:30 AM",
+"sort": 20510,
+"rink": "Iroq#6",
+"a": "Elgin Middlesex Canucks",
+"b": "Thunder Bay Kings"
+},
+{
+"pool": "E",
+"day": "Sat",
+"ct": "9:55 AM",
+"sort": 20595,
+"rink": "Iroq#1",
+"a": "Ottawa Myers Automotive",
+"b": "Soo Jr Greyhounds"
+},
+{
+"pool": "E",
+"day": "Sat",
+"ct": "12:05 PM",
+"sort": 20725,
+"rink": "Iroq#5",
+"a": "Chicago Windy City Storm",
+"b": "Vaughan Kings"
+},
+{
+"pool": "C",
+"day": "Sat",
+"ct": "12:35 PM",
+"sort": 20755,
+"rink": "Iroq#3",
+"a": "Oakland Jr Grizzlies",
+"b": "Rochester Bishop Kearney Selects"
+},
+{
+"pool": "A",
+"day": "Sat",
+"ct": "12:40 PM",
+"sort": 20760,
+"rink": "Iroq#2",
+"a": "Hamilton Steel",
+"b": "Whitby Wildcats"
+},
+{
+"pool": "F",
+"day": "Sat",
+"ct": "12:50 PM",
+"sort": 20770,
+"rink": "Iroq#4",
+"a": "Palmyra Black Knights",
+"b": "Toronto Young Nationals"
+},
+{
+"pool": "B",
+"day": "Sat",
+"ct": "1:00 PM",
+"sort": 20780,
+"rink": "Iroq#1",
+"a": "Kingston Jr Gaels",
+"b": "Pittsburgh Penguins"
+},
+{
+"pool": "F",
+"day": "Sat",
+"ct": "1:00 PM",
+"sort": 20780,
+"rink": "Iroq#6",
+"a": "Upper Canada College",
+"b": "Waterloo Wolves"
+},
+{
+"pool": "D",
+"day": "Sat",
+"ct": "1:50 PM",
+"sort": 20830,
+"rink": "Iroq#5",
+"a": "Pittsburgh Vengeance",
+"b": "Thunder Bay Kings"
+},
+{
+"pool": "C",
+"day": "Sat",
+"ct": "2:20 PM",
+"sort": 20860,
+"rink": "Iroq#3",
+"a": "Chatham Kent Cyclones",
+"b": "Toronto Jr Canadiens"
+},
+{
+"pool": "B",
+"day": "Sat",
+"ct": "2:25 PM",
+"sort": 20865,
+"rink": "Iroq#2",
+"a": "Halton Hurricanes",
+"b": "Mississauga Rebels"
+},
+{
+"pool": "E",
+"day": "Sat",
+"ct": "2:35 PM",
+"sort": 20875,
+"rink": "Iroq#4",
+"a": "Ottawa Myers Automotive",
+"b": "York Simcoe Express"
+},
+{
+"pool": "A",
+"day": "Sat",
+"ct": "2:45 PM",
+"sort": 20885,
+"rink": "Iroq#1",
+"a": "Chicago Mission",
+"b": "Ottawa Valley Titans"
+},
+{
+"pool": "D",
+"day": "Sat",
+"ct": "2:45 PM",
+"sort": 20885,
+"rink": "Iroq#6",
+"a": "North Shore White Caps",
+"b": "Toronto Marlboros"
+}
+]
+}
+}

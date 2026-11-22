@@ -1,11 +1,11 @@
 {
  "label": "Weekend of Nov 20–22",
- "status": "Sunday: championship day. Scores update as games go final",
- "updated": "Sun Nov 22, 3:17 PM CT",
+ "status": "Weekend wrap. Late results are added as they are posted",
+ "updated": "Sun Nov 22, 4:33 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
- "next": "More games will be added through the weekend.",
+ "next": "Next: the International Silver Stick in Whitby, Nov 26–29.",
  "divs": {
   "2012": {
    "summary": [
@@ -796,6 +796,17 @@
    ],
    "sections": [
     {
+     "t": "Weekend wrap",
+     "b": [
+      "Shattuck St Mary's (#2, 99.95) swept three games at Little Caesars (#7, 97.24): 5-1, 8-3 and 4-1.",
+      "Mid-Fairfield (#1, 99.99) went 3-0 in Pittsburgh and is 32-0-3. The Chicago Reapers pushed it on Sunday before losing 5-3.",
+      "Upset of the weekend: the Chicago Reapers (#30, 95.72) beat Mount St Charles (#16, 96.36) 5-4 in overtime on Saturday.",
+      "Bishop Kearney (#14, 96.56) won all three at the Northeast Pack, 5-3 over the Chicago Mission, 9-1 over the Rockets and 4-2 over Mount St Charles, and is second in the league.",
+      "Team Illinois (#10, 97.09) won its own showcase at 4-0 and outscored its opponents 33-3.",
+      "Pat Quinn Classic: Yale (#9, 97.17) and Delta (#6, 97.37) played for the title Sunday afternoon. The score will be added when it is posted."
+     ]
+    },
+    {
      "t": "Northeast Pack 14U",
      "rh": "League standings (points)",
      "rows": [
@@ -1477,6 +1488,34 @@
    ],
    "sections": [
     {
+     "t": "Weekend wrap",
+     "b": [
+      "Bishop Kearney (#3, 95.86) had the best weekend in the age group: 3-0 in Pittsburgh, including a 4-2 win over Pittsburgh Penguins Elite (#1, 96.84). It leads the Northeast Pack with 24 points.",
+      "Mount St Charles (#4, 95.61) has won eight straight league games and sits two points back.",
+      "Chicago Mission (#13, 93.91) went 1-2: a 5-4 loss to Mount St Charles, a 3-2 win over Mid-Fairfield with three power-play goals, and a 7-3 loss to Penguins Elite.",
+      "In Toronto, Vaughan Kings (#2, 96.04) shut out Toronto Jr Canadiens (#5, 95.16) 2-0 and are still unbeaten at 26-0-1.",
+      "Oakland Jr Grizzlies (#12, 93.99) held off Fox Motors 5-4."
+     ]
+    },
+    {
+     "t": "Next: International Silver Stick, Nov 26–29 (Whitby, Ontario)",
+     "b": [
+      "The field: 30 teams in six pools of five. 7 of the top 10 in North America and 19 of the top 30 are entered: #1 Pittsburgh Penguins Elite, #2 Vaughan Kings, #3 Bishop Kearney Selects, #5 Toronto Jr Canadiens, #7 Toronto Marlboros, #9 Hamilton Steel, #10 Halton Hurricanes.",
+      "Not in the field: #4 Mount St Charles, #6 Shattuck St Mary's, #8 Chicago Reapers.",
+      "Format: Four pool games each from Thursday to Saturday. A win is 2 points and a tie is 1; there is no overtime in pool play. The six pool winners and two wildcards reach the quarterfinals, and the champion is crowned Sunday.",
+      "Wildcards: The two best teams that do not win a pool. Ties in points go to head-to-head, then wins, then share of goals scored, so every goal counts.",
+      "Pool A: #9 Hamilton Steel (94.24), #13 Chicago Mission (93.91), #31 Mississauga Senators (92.15), #42 Ottawa Valley Titans (91.19), #89 Whitby Wildcats (88.96).",
+      "Pool B: #1 Pittsburgh Penguins Elite (96.84), #10 Halton Hurricanes (94.16), #15 Mississauga Rebels (93.30), #21 Central Ontario Wolves (92.92), #36 Kingston Jr Gaels (91.78).",
+      "Pool C: #3 Bishop Kearney Selects (95.86), #5 Toronto Jr Canadiens (95.16), #12 Oakland Jr Grizzlies (93.99), #27 Ottawa Jr 67's (92.34), #62 Chatham-Kent Cyclones (90.12).",
+      "Pool D: #7 Toronto Marlboros (94.62), #23 North Shore Whitecaps (92.74), #25 Pittsburgh Vengeance (92.41), #32 Elgin Middlesex Canucks (91.97), #84 Thunder Bay Kings (89.15).",
+      "Pool E: #2 Vaughan Kings (96.04), #16 York Simcoe Express (93.23), #34 Ottawa Myers Automotive (91.96), #58 Soo Jr Greyhounds (90.22), #73 Windy City Storm (89.55).",
+      "Pool F: #11 Little Caesars (94.00), #17 Waterloo Wolves (93.22), #20 Toronto Nationals (92.94), #30 Palmyra Black Knights (92.22), Upper Canada College (not rated).",
+      "Toughest pool: Pool C, with #3 Bishop Kearney Selects, #5 Toronto Jr Canadiens, #12 Oakland Jr Grizzlies chasing one automatic spot.",
+      "Games to circle: #10 Halton Hurricanes against #1 Pittsburgh Penguins Elite, Thu 7:05 PM; #3 Bishop Kearney Selects against #5 Toronto Jr Canadiens, Thu 7:30 PM; #12 Oakland Jr Grizzlies against #5 Toronto Jr Canadiens, Fri 3:40 PM; #15 Mississauga Rebels against #1 Pittsburgh Penguins Elite, Fri 4:25 PM; #12 Oakland Jr Grizzlies against #3 Bishop Kearney Selects, Sat 12:35 PM.",
+      "First game: Thursday at 2:15 PM Central. Scores and the pool tables will be here all weekend."
+     ]
+    },
+    {
      "t": "Northeast Pack 15U",
      "rh": "League standings (points)",
      "rows": [
@@ -1809,6 +1848,34 @@
     }
    ],
    "sections": [
+    {
+     "t": "Weekend wrap",
+     "b": [
+      "Most of the top 20 were off ahead of the Silver Stick.",
+      "Toronto Marlboros (#3, 94.32) beat Vaughan Kings (#10, 92.75) 3-2 and are still unbeaten at 20-0-1.",
+      "Little Caesars (#5, 93.58) beat Compuware 10-1. Mid-Fairfield (#6, 93.54) swept Providence 8-2 and 9-3.",
+      "Middlesex Islanders (#23, 90.85) won twice in New England, 5-3 over South Shore Kings and 5-2 over Providence.",
+      "The Chicago Reapers' two games at Milwaukee on Sunday have not been posted yet."
+     ]
+    },
+    {
+     "t": "Next: International Silver Stick, Nov 26–29 (Whitby, Ontario)",
+     "b": [
+      "The field: 30 teams in six pools of five. 7 of the top 10 in North America and 17 of the top 30 are entered: #2 Chicago Reapers, #3 Toronto Marlboros, #5 Little Caesars, #6 Mid-Fairfield, #8 Toronto Jr Canadiens, #9 Syracuse Nationals, #10 Vaughan Kings.",
+      "Not in the field: #1 MN Lakers, #4 Anaheim Jr Ducks, #7 Woodbridge Wolfpack.",
+      "Format: Four pool games each from Thursday to Saturday. A win is 2 points and a tie is 1; there is no overtime in pool play. The six pool winners and two wildcards reach the quarterfinals, and the champion is crowned Sunday.",
+      "Wildcards: The two best teams that do not win a pool. Ties in points go to head-to-head, then wins, then share of goals scored, so every goal counts.",
+      "Pool A: #8 Toronto Jr Canadiens (93.03), #13 Waterloo Wolves (91.55), #27 Milwaukee Jr Admirals (90.48), #42 York Simcoe Express (89.39), #81 Minuteman Flames (87.46).",
+      "Pool B: #5 Little Caesars (93.58), #19 Pittsburgh Penguins Elite (91.07), #31 Niagara North Stars (90.16), #40 Elgin Middlesex Canucks (89.52), #41 Ottawa Valley Titans (89.49).",
+      "Pool C: #2 Chicago Reapers (94.79), #6 Mid-Fairfield (93.54), #72 Ottawa Jr 67's (87.82), #74 Barrie Colts (87.74), #150 Whitby Wildcats (83.98).",
+      "Pool D: #10 Vaughan Kings (92.75), #21 Huron-Perth Lakers (90.94), #28 Ottawa Myers Automotive (90.37), #46 Buffalo Jr Sabres (89.08), #76 Rochester Saints (87.68).",
+      "Pool E: #3 Toronto Marlboros (94.32), #9 Syracuse Nationals (92.85), #17 Nor'easters (91.27), #84 Hamilton Steel (87.37), #99 Sudbury Wolves (86.72).",
+      "Pool F: #11 Toronto Nationals (92.56), #14 Chicago Mission (91.40), #15 Quinte Red Devils (91.37), #23 Middlesex Islanders (90.85), #64 Credit River Capitals (88.43).",
+      "Toughest pool: Pool E, with #3 Toronto Marlboros, #9 Syracuse Nationals, #17 Nor'easters chasing one automatic spot.",
+      "Games to circle: #8 Toronto Jr Canadiens against #13 Waterloo Wolves, Thu 2:45 PM; #9 Syracuse Nationals against #3 Toronto Marlboros, Fri 10:30 AM; #5 Little Caesars against #19 Pittsburgh Penguins Elite, Fri 12:25 PM; #17 Nor'easters against #3 Toronto Marlboros, Sat 12:00 PM; #2 Chicago Reapers against #6 Mid-Fairfield, Sat 6:05 PM.",
+      "First game: Thursday at 1:15 PM Central. Scores and the pool tables will be here all weekend."
+     ]
+    },
     {
      "t": "Toronto (GTHL)",
      "rh": "This weekend",
@@ -2253,6 +2320,15 @@
    ],
    "sections": [
     {
+     "t": "Weekend wrap",
+     "b": [
+      "Florida Alliance (#6, 98.64) won the St. Louis showcase at 5-0, beating Victory Honda (#19, 96.16) 8-6 in the final.",
+      "Chicago Mission (#45, 94.28) lost its first three, then won twice in overtime: 3-2 over Philadelphia and 4-3 over Vegas (#29, 95.68).",
+      "Chicago Reapers (#28, 95.70) finished fourth after a 4-3 loss to St Louis Blues (#16, 96.48). They trailed 4-0.",
+      "In Toronto, Toronto Marlboros (#5, 98.93) beat Don Mills (#12, 97.11) 4-1. Don Mills then tied Markham 1-1 on Sunday."
+     ]
+    },
+    {
      "t": "STL AAA Blues Showcase",
      "rh": "Record at the event",
      "rows": [
@@ -2552,6 +2628,33 @@
    ],
    "sections": [
     {
+     "t": "Weekend wrap",
+     "b": [
+      "Toronto Jr Canadiens (#1, 95.25) beat Toronto Marlboros (#8, 93.47) 7-1 and moved to #1 in North America.",
+      "Mid-Fairfield (#6, 93.96) went 3-1 on its New England trip: 5-2 and 7-2 at Providence, then a 4-3 loss and a 6-0 win at Bay State Breakers.",
+      "Upset: HB Detroit shut out Oakland Jr Grizzlies (#39, 90.40) 4-0 on Sunday, a day after Oakland tied Victory Honda 4-4.",
+      "Providence Capitals (#16, 92.16) bounced back with a 3-1 win over the Jr Terriers."
+     ]
+    },
+    {
+     "t": "Next: International Silver Stick, Nov 26–29 (Whitby, Ontario)",
+     "b": [
+      "The field: 30 teams in six pools of five. 8 of the top 10 in North America and 19 of the top 30 are entered: #1 Toronto Jr Canadiens, #2 Little Caesars, #3 Don Mills Flyers, #4 Pittsburgh Penguins Elite, #5 Worcester Shamrocks, #6 Mid-Fairfield, #8 Toronto Marlboros, #9 Boston Jr Eagles.",
+      "Not in the field: #7 Lovell Winter Club, #10 Dallas Stars Elite.",
+      "Format: Four pool games each from Thursday to Saturday. A win is 2 points and a tie is 1; there is no overtime in pool play. The six pool winners and two wildcards reach the quarterfinals, and the champion is crowned Sunday.",
+      "Wildcards: The two best teams that do not win a pool. Ties in points go to head-to-head, then wins, then share of goals scored, so every goal counts.",
+      "Pool A: #1 Toronto Jr Canadiens (95.25), #14 South Shore Kings (92.60), #25 London Jr Knights (91.08), #51 Oakville Rangers (89.74), #71 York Simcoe Express (88.94).",
+      "Pool B: #5 Worcester Shamrocks (94.13), #11 Chicago Mission (92.79), #16 Providence Capitals (92.16), #34 Toronto Nationals (90.53), #58 Quinte Red Devils (89.24).",
+      "Pool C: #3 Don Mills Flyers (94.35), #12 Top Gun (92.78), #19 Elgin Middlesex Canucks (91.89), #20 Chicago Fury (91.85), #64 Middlesex Islanders (89.10).",
+      "Pool D: #2 Little Caesars (95.19), #24 Kitchener Jr Rangers (91.41), #36 Buffalo Jr Sabres (90.45), #42 Niagara North Stars (90.25), #76 Upper Canada Cyclones (88.79).",
+      "Pool E: #4 Pittsburgh Penguins Elite (94.21), #6 Mid-Fairfield (93.96), #18 Whitby Wildcats (91.90), #21 Cleveland Barons (91.80), #83 Ottawa Jr 67's (88.28).",
+      "Pool F: #8 Toronto Marlboros (93.47), #9 Boston Jr Eagles (93.46), #17 Florida Surf (91.99), #39 Oakland Jr Grizzlies (90.40), #90 Sudbury Wolves (87.74).",
+      "Toughest pool: Pool E, with #4 Pittsburgh Penguins Elite, #6 Mid-Fairfield, #18 Whitby Wildcats chasing one automatic spot.",
+      "Games to circle: #11 Chicago Mission against #5 Worcester Shamrocks, Thu 5:15 PM; #14 South Shore Kings against #1 Toronto Jr Canadiens, Fri 8:35 AM; #9 Boston Jr Eagles against #8 Toronto Marlboros, Fri 4:10 PM; #6 Mid-Fairfield against #4 Pittsburgh Penguins Elite, Fri 6:30 PM; #12 Top Gun against #3 Don Mills Flyers, Sat 4:30 PM.",
+      "First game: Thursday at 12:30 PM Central. Scores and the pool tables will be here all weekend."
+     ]
+    },
+    {
      "t": "Toronto (GTHL)",
      "rh": "This weekend",
      "rows": [
@@ -2757,6 +2860,14 @@
     }
    ],
    "sections": [
+    {
+     "t": "Weekend wrap",
+     "b": [
+      "St Louis Blues (#12, 96.57) won the only top-25 matchup of the weekend, 3-2 at Chicago Mission (#33, 94.63).",
+      "In Toronto, Toronto Marlboros (#4, 97.90) beat Vaughan Kings (#7, 97.43) 4-1. Vaughan answered with a 5-0 win over Markham.",
+      "Markham lost again Sunday, 2-1 to North York Rangers."
+     ]
+    },
     {
      "t": "Toronto (GTHL)",
      "rh": "This weekend",
