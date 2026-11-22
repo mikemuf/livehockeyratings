@@ -1,0 +1,12 @@
+# Team and club schedule pages (research department). Started Nov 22, 2026 after the 2013 Reapers at Milwaukee games were missed.
+PURPOSE: games between two clubs that keep their own schedules are on no league list, no tournament list and often not on MHR. The club's own schedule page has them.
+WHEN TO READ: every Thursday (build the weekend list) and every game-day morning (planner step 1), for every club below; add any game missing from the watch lists; after the game, read the same page for the final score.
+HOW TO FIND A CLUB'S PAGE (owner's method, Nov 22 10:23 AM): Google "<club name> Hockey Association" -> the club site -> Teams -> the age group -> Schedule. For Instagram: type the first letters in Instagram search ("rea" / "reapers 2013"); team accounts are usually <club>hockey<birth year>. SAVE every page found here.
+
+| Club | Whole-club day schedule (one page lists every team's games that day) | Team labels | Instagram | Notes |
+|---|---|---|---|---|
+| Chicago Reapers | https://www.reapershockey.org/schedule/day/league_instance/230289/YYYY/MM/DD?subseason=961709 (SportsEngine; read `table tr`; columns VISITOR, HOME, LOCATION, time with zone; score appears in the row after the game) | 15O = 2011, Bantam Major U14 = 2012, Bantam Minor U13 = 2013, Peewee Major U12 = 2014, Peewee Minor U11 = 2015, Squirt Major U10 = 2016; "MJA" = Milwaukee Jr Admirals, "STL" = St. Louis, "BK Selects" = Bishop Kearney | 2013: @reapershockey2013 (posts "Schedule this weekend" graphics, last one Nov 5; bio says NE Pack member); 2012: @chicagoreapers2012 | GameSheet club season 15356 = HOME games only, younger teams this weekend. reapershockey.com is NOT the club (parked). |
+
+TO ADD NEXT (same method): Milwaukee Jr Admirals, Chicago Mission, Team Illinois, Windy City Storm (windycitystorm.com/team/<id>/games), Chicago Fury, CarShield, Madison Capitols (madisoncapitols.com.app.crossbar.org/team/<id>/games), Ohio Blue Jackets (aaabluejackets.com/team/<id>/games), then the top 10 of each birth year.
+
+FOUND WITH IT: Sun Nov 22 2026: 2013 Reapers at Milwaukee Jr Admirals, Pettit National Ice Center, 10:00 AM and 3:30 PM Central (two games). No live scoresheet found; final scores from the Reapers page after the games.

@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Sunday: championship day. Scores update as games go final",
- "updated": "Sun Nov 22, 10:22 AM CT",
+ "updated": "Sun Nov 22, 10:25 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -1779,6 +1779,26 @@
      "note": "League game",
      "tz": "CT",
      "sheet": "https://gamesheetstats.com/seasons/15008/games/2942718"
+    },
+    {
+     "day": "Sun",
+     "time": "10:00 AM",
+     "a": "Chicago Reapers",
+     "b": "Milwaukee Jr Admirals",
+     "rink": "Pettit National Ice Center",
+     "city": "Milwaukee, WI",
+     "note": "#2 at #27",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "3:30 PM",
+     "a": "Chicago Reapers",
+     "b": "Milwaukee Jr Admirals",
+     "rink": "Pettit National Ice Center",
+     "city": "Milwaukee, WI",
+     "note": "#2 at #27",
+     "tz": "CT"
     }
    ],
    "sections": [
