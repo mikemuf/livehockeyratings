@@ -43,3 +43,4 @@
 - 2013 Sun Nov 22: Middlesex Islanders (#23) 5, Providence Capitals (#88) 2, EHF. No story. Recap OWED.
 - 2011 Sun Nov 22: Oakland Jr Grizzlies (#11) 5, Fox Motors (#55) 4, MAHA league. No story (Fox outside top 30). Recap done.
 - 2015 Sun Nov 22: Providence Capitals (#16) 3, Boston Jr Terriers (#47) 1, EHF. No story. Recap OWED.
+- 2011 Sun Nov 22: New Jersey Rockets (#49) 4, Mid-Fairfield National (#48) 2, NE Pack 15U. No story. Recap + NE Pack 15U section row OWED.

@@ -161,3 +161,4 @@ TIME CORRECTION: the entries above stamped '8:40 AM', '8:44 AM' and '8:50 AM' we
 13:25: FINAL 2011 Oakland 5 Fox 4 (pending, recap, roundup). __G drop 2979440. STRIPE: $39 price created and two members moved (player member/NOTES.md).
 13:36: FINAL 2015 Providence 3 Terriers 1 (pending, roundup; recap OWED). 2942721 (2015 MF-Breakers rematch) live. __G drop 2942720.
 14:19: 3175133 (2011 MF v Rockets) frozen at 1-3 since 1:24 PM; sheet shows fighting majors at 1:05 of the 2nd: scorekeeper stopped or game halted. If still IN PROGRESS 1-3 at 3:00 PM, check the league page and tell the owner (game with no working live source).
+14:34: FINAL 2011 Rockets 4 MF 2 (pending, roundup; recap/section OWED). IG 2:30 answer done (2012 inv). __G: drop 3175133; only 2942721 + 3199739 left on GameSheet. NEXT: Pat Quinn final 3:00 PM (Yale v Delta, spordle), Reapers at Milwaukee 3:30 PM, Marlboros v JRC 3:45 PM; GTHL games.
