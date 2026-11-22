@@ -2231,11 +2231,11 @@
      "rows": [
       [
        "Florida Alliance",
-       "4-0"
+       "5-0, champion"
       ],
       [
        "Victory Honda",
-       "4-0"
+       "4-1, runner-up"
       ],
       [
        "St Louis Blues",
@@ -2247,9 +2247,9 @@
       ]
      ],
      "b": [
-      "Championship: Florida Alliance against Victory Honda, Sunday 8:40 AM.",
+      "Championship: Florida Alliance 8, Victory Honda 6. Benjamin Bianco had a hat trick; Jaxson Hartlieb scored the winner on the power play.",
       "Third place: St Louis Blues 4, Chicago Reapers 3. The Reapers trailed 4-0.",
-      "Placement: Dallas Stars Elite 9, Philadelphia Hockey Club 1."
+      "Placement: Chicago Mission 4, Vegas Jr Golden Knights 3 in overtime. Dallas Stars Elite 9, Philadelphia Hockey Club 1."
      ],
      "url": "https://gamesheetstats.com/seasons/16484/games"
     },
@@ -3426,6 +3426,22 @@
    "Goalies: a shutout for Team Illinois.",
    "Standings: Team Illinois finishes its showcase 4-0.",
    "Ratings: Team Illinois 96.99 to 97.01, still North America #10. CarShield 90.62 to 90.60, still #129.",
+   "Next: both teams are done at the showcase."
+  ],
+  "2014|2026-11-22|Florida Alliance|Victory Honda": [
+   "Final: Florida Alliance 8, Victory Honda 6, in the championship game of the STL AAA Blues Showcase.",
+   "Scoring: Benjamin Bianco had a hat trick and an assist. Tommy Huston scored twice in the third, and Jaxson Hartlieb's power-play goal at 6:05 of the third stood as the winner. Colton Von Bokern and Tyson Steckel had the others. For Victory Honda, Treyson Pauley and Holden Puma scored twice each, with George Blatchford and Graham Thomson adding one apiece.",
+   "Goalies: Sebastien Beyrak got the win with six against. Owen Horning took the loss.",
+   "Standings: Florida Alliance wins the showcase at 5-0. Victory Honda finishes second at 4-1.",
+   "Ratings: Florida Alliance 98.55 to 98.64, still North America #6. Victory Honda 96.01 to 96.16, still #19.",
+   "Next: the showcase is over."
+  ],
+  "2014|2026-11-22|Chicago Mission|Vegas Jr Golden Knights": [
+   "Final: Chicago Mission 4, Vegas Jr Golden Knights 3 in overtime, in a Sunday placement game at the STL AAA Blues Showcase.",
+   "Scoring: Vegas led 3-2 in the third before the Mission tied it and won in overtime.",
+   "Goalies: three against for the Mission, four for Vegas.",
+   "Standings: placement game. The Mission finishes the showcase 2-3, Vegas 2-3.",
+   "Ratings: Mission 94.05 to 94.28, North America #49 to #45. Vegas 95.61 to 95.68, #28 to #29.",
    "Next: both teams are done at the showcase."
   ]
  },
