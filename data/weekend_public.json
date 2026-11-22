@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday night: where each event stands and what is left on Sunday",
- "updated": "Sat Nov 21, 11:44 PM CT",
+ "updated": "Sat Nov 21, 11:55 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -1461,42 +1461,73 @@
    ],
    "sections": [
     {
-     "t": "Northeast Pack 15U: where it stands",
+     "t": "Northeast Pack 15U",
+     "rh": "League standings (points)",
+     "rows": [
+      [
+       "Bishop Kearney Selects",
+       "22"
+      ],
+      [
+       "Mount St Charles Hockey Academy",
+       "20"
+      ],
+      [
+       "Pittsburgh Penguins Elite",
+       "16"
+      ],
+      [
+       "Chicago Reapers",
+       "14"
+      ],
+      [
+       "Woodbridge Wolfpack",
+       "11"
+      ],
+      [
+       "Chicago Mission",
+       "10"
+      ]
+     ],
      "b": [
-      "The headline: Bishop Kearney (#3, 95.85) beat Pittsburgh Penguins Elite (#1, 96.84) 4-2 on Saturday. Smith Vantine had a hat trick.",
-      "Standings after Saturday: Bishop Kearney 22 points. Mount St Charles (#4, 95.63) 20. Penguins Elite 16. Chicago Reapers (#8, 94.35) 14. Woodbridge Wolfpack (#14, 93.46) 11. Chicago Mission (#13, 93.99) 10.",
-      "Bishop Kearney: two regulation wins, 3-1 over the Wolfpack and 4-2 over the Penguins. It has widened its lead at the top.",
-      "Mount St Charles: two wins, 5-4 over Chicago Mission and 5-0 over NJ Rockets. Seven straight league wins.",
-      "Penguins Elite: beat NJ Rockets 11-1 on Friday, then lost to Bishop Kearney.",
-      "Chicago Mission: lost 5-4 to Mount St Charles, then beat Mid-Fairfield 3-2 with all three goals on the power play. Lachlan Tantaro scored twice in the third, the second the winner.",
-      "Saturday night: the Wolfpack beat the Reapers 4-3 after leading 4-0; the Reapers scored three in the third.",
-      "Big weekends: Smith Vantine (Bishop Kearney), three goals against the #1 team. Jack Carlson (Penguins Elite), five assists in two games."
+      "Bishop Kearney beat #1 Penguins Elite 4-2 on Saturday. Smith Vantine had a hat trick.",
+      "Mount St Charles: seven straight league wins."
      ],
      "url": "https://gamesheetstats.com/seasons/15483/games"
     },
     {
-     "t": "Northeast Pack 15U: what is left",
-     "b": [
-      "Sunday 7:00 AM: Bishop Kearney at Chicago Reapers. The Reapers gave Bishop Kearney its only league loss, 7-6 in a shootout.",
-      "Sunday 9:00 AM: Chicago Mission against Penguins Elite.",
-      "Sunday: Mount St Charles against Woodbridge Wolfpack. A Mount St Charles win and a Bishop Kearney loss would tighten the top of the table.",
-      "Sunday 12:40 PM: Mid-Fairfield against NJ Rockets, the two teams at the bottom."
-     ]
+     "t": "Toronto (GTHL)",
+     "rh": "This weekend",
+     "rows": [
+      [
+       "Vaughan Kings",
+       "beat Jr Canadiens 2-0"
+      ],
+      [
+       "Toronto Marlboros",
+       "beat Senators 5-0"
+      ],
+      [
+       "Mississauga Rebels",
+       "beat North York 5-1"
+      ],
+      [
+       "Markham Majors",
+       "beat Titans 6-2"
+      ]
+     ],
+     "b": []
     },
     {
-     "t": "Toronto",
-     "b": [
-      "Saturday: Vaughan Kings (#2, 96.09) 2, Toronto Jr Canadiens (#5, 95.21) 0, first against second in Ontario. Vaughan has beaten the Jr Canadiens three times this season.",
-      "Friday: Toronto Marlboros (#7, 94.67) 5, Mississauga Senators (#31, 92.20) 0.",
-      "Left: Jr Canadiens host the Marlboros on Sunday at 3:45 PM."
-     ]
-    },
-    {
-     "t": "Elsewhere",
-     "b": [
-      "Team Illinois Showcase: CarShield (#62, 90.11) is 2-0, 4-0 over Madison Capitols and 3-1 over Team Illinois.",
-      "Saturday: Mississauga Rebels (#15) beat North York Rangers 5-1, and Markham Majors beat Toronto Titans 6-2. Results not posted yet: Oakland Jr Grizzlies against Fox Motors, Pittsburgh Vengeance against Palmyra, Victory Honda against Indiana Elite."
-     ]
+     "t": "Team Illinois Showcase",
+     "rh": "Record",
+     "rows": [
+      [
+       "CarShield",
+       "2-0"
+      ]
+     ],
+     "b": []
     }
    ]
   },
@@ -1716,22 +1747,52 @@
    ],
    "sections": [
     {
-     "t": "Toronto: where it stands",
+     "t": "Toronto (GTHL)",
+     "rh": "This weekend",
+     "rows": [
+      [
+       "Toronto Marlboros",
+       "beat Vaughan Kings 3-2"
+      ],
+      [
+       "Vaughan Kings",
+       "beat Red Wings 5-3"
+      ],
+      [
+       "Toronto Red Wings",
+       "beat North York 9-0"
+      ],
+      [
+       "Toronto Nationals",
+       "beat Reps 7-1"
+      ],
+      [
+       "Toronto Titans",
+       "beat Don Mills 6-1"
+      ]
+     ],
      "b": [
-      "Friday: Toronto Marlboros (#3, 94.24) 3, Vaughan Kings (#10, 92.66) 2. The Marlboros are still unbeaten.",
-      "Saturday: Vaughan Kings 5, Toronto Red Wings (#24, 90.65) 3.",
-      "Friday: Toronto Red Wings 9, North York Rangers 0."
+      "The Marlboros are still unbeaten."
      ]
     },
     {
-     "t": "What is left",
-     "b": [
-      "Sunday 12:55 PM: Toronto Jr Canadiens host Mississauga Rebels.",
-      "Sunday 6:45 PM: Toronto Marlboros at Don Mills Flyers.",
-      "Sunday 10:10 AM: Ohio Blue Jackets against Philadelphia Jr Flyers, game three in Columbus. Results of the first two games have not been posted yet.",
-      "Sunday: Little Caesars (#6, 93.44) hosts Compuware at 10:40 AM. Windy City Storm hosts Indiana Elite at 12:00 PM.",
-      "Most of the top 20 American teams are off. Next weekend is Thanksgiving weekend, when the International Silver Stick in Whitby and other big tournaments begin."
-     ]
+     "t": "New England (EHF)",
+     "rh": "This weekend",
+     "rows": [
+      [
+       "Mid-Fairfield",
+       "beat Providence 8-2, 9-3"
+      ],
+      [
+       "Middlesex Islanders",
+       "beat South Shore Kings 5-3"
+      ],
+      [
+       "Bay State Breakers",
+       "beat Jr Terriers 4-1"
+      ]
+     ],
+     "b": []
     }
    ]
   },
@@ -2118,33 +2179,61 @@
    ],
    "sections": [
     {
-     "t": "STL AAA Blues Showcase: where it stands",
+     "t": "STL AAA Blues Showcase",
+     "rh": "Record at the event",
+     "rows": [
+      [
+       "Florida Alliance",
+       "4-0"
+      ],
+      [
+       "Victory Honda",
+       "4-0"
+      ],
+      [
+       "St Louis Blues",
+       "2-2"
+      ]
+     ],
      "b": [
-      "Format: two pools of four, three pool games each. The top two in each pool crossed over for Saturday's semifinals. The winners play for the championship on Sunday.",
-      "Pool play: Florida Alliance (#6, 98.55) and Victory Honda (#19, 95.98) both went 3-0. St Louis Blues (#16, 96.32) went 2-1.",
-      "Semifinal one: Florida Alliance 3, St Louis Blues 2 in overtime. Colton Von Bokern scored with 40 seconds left in overtime.",
-      "Semifinal two: Victory Honda 4, Chicago Reapers (#29, 95.56) 2. Ricky Brogan scored the winner 24 seconds into the third period.",
-      "Placement games: Chicago Mission (#49, 94.04) beat Philadelphia Hockey Club 3-2 in overtime, its first win of the event. Vegas Jr Golden Knights (#28, 95.59) beat Dallas Stars Elite (#35, 94.87) 5-2.",
-      "Big weekends: Colton Von Bokern (Florida Alliance), five goals and two assists in four games, with two game winners on Saturday. Benjamin Bianco (Florida Alliance), five goals and two assists. Jack Collins (Victory Honda), four goals and two assists."
+      "Championship: Florida Alliance against Victory Honda, Sunday at 8:40 AM.",
+      "Colton Von Bokern (Florida Alliance): five goals, two game winners on Saturday."
      ],
      "url": "https://gamesheetstats.com/seasons/16484/games"
     },
     {
-     "t": "STL AAA Blues Showcase: what is left",
-     "b": [
-      "Championship, Sunday 8:40 AM: Florida Alliance (#6, 98.55) against Victory Honda (#19, 95.98). Both are 4-0 at the event.",
-      "Third place, Sunday 7:00 AM: Chicago Reapers against St Louis Blues (#16, 96.32).",
-      "Sunday 7:50 AM: Vegas Jr Golden Knights against Chicago Mission.",
-      "Sunday 7:20 AM: Philadelphia Hockey Club against Dallas Stars Elite."
-     ]
+     "t": "Toronto (GTHL)",
+     "rh": "This weekend",
+     "rows": [
+      [
+       "Toronto Marlboros",
+       "beat Don Mills 4-1"
+      ],
+      [
+       "Toronto Jr Canadiens",
+       "beat North York 8-0"
+      ],
+      [
+       "Vaughan Kings",
+       "beat Red Wings 6-0"
+      ],
+      [
+       "Toronto Nationals",
+       "beat Titans 5-2"
+      ]
+     ],
+     "b": []
     },
     {
-     "t": "Toronto",
-     "b": [
-      "Friday: Toronto Marlboros (#5, 98.78) 4, Don Mills Flyers (#12, 97.13) 1.",
-      "Saturday: Vaughan Kings (#23, 95.88) 6, Toronto Red Wings 0. Vaughan moved up four places.",
-      "Saturday: Toronto Jr Canadiens (#7, 98.48) beat North York Rangers 8-0, and Toronto Nationals beat Toronto Titans 5-2."
-     ]
+     "t": "New England (EHF)",
+     "rh": "This weekend",
+     "rows": [
+      [
+       "Middlesex Islanders East (Elite)",
+       "beat South Shore Kings 5-3"
+      ]
+     ],
+     "b": []
     }
    ]
   },
@@ -2379,21 +2468,44 @@
    ],
    "sections": [
     {
-     "t": "Toronto: where it stands",
+     "t": "Toronto (GTHL)",
+     "rh": "This weekend",
+     "rows": [
+      [
+       "Toronto Jr Canadiens",
+       "beat Marlboros 7-1"
+      ],
+      [
+       "Toronto Reps",
+       "beat Vaughan Kings 2-1"
+      ],
+      [
+       "Mississauga Rebels",
+       "beat Nationals 3-2"
+      ]
+     ],
      "b": [
-      "Saturday: Toronto Jr Canadiens (#1, 95.09) 7, Toronto Marlboros (#8, 93.32) 1. The Jr Canadiens moved to #1 in North America and have beaten the Marlboros three times this season.",
-      "Upset: Toronto Reps (#41, 90.13) 2, Vaughan Kings (#28, 90.79) 1.",
-      "Saturday: Mississauga Rebels 3, Toronto Nationals (#35, 90.37) 2."
+      "The Jr Canadiens are #1 in North America."
      ]
     },
     {
-     "t": "What is left",
-     "b": [
-      "Sunday 12:40 PM: Toronto Jr Canadiens host Toronto Red Wings.",
-      "Saturday: Mid-Fairfield (#6, 93.80) swept Providence Capitals on the road, 5-2 and 7-2. Sunday: Mid-Fairfield at Bay State Breakers (#22) twice, 9:30 AM and 1:30 PM.",
-      "Sunday 8:25 AM: South Shore Kings (#12) against Top Gun (#14) in Salem, NH.",
-      "Sunday 11:20 AM: Chicago Fury (#20) against Windy City Storm."
-     ]
+     "t": "New England (EHF)",
+     "rh": "This weekend",
+     "rows": [
+      [
+       "Mid-Fairfield Hockey Club (Elite)",
+       "beat Providence 5-2, 7-2"
+      ],
+      [
+       "Top Gun (Elite)",
+       "tied Jr Eagles 4-4"
+      ],
+      [
+       "Boston Jr Terriers (Elite)",
+       "beat Breakers 4-2"
+      ]
+     ],
+     "b": []
     }
    ]
   },
@@ -2550,20 +2662,42 @@
    ],
    "sections": [
     {
-     "t": "Where it stands",
-     "b": [
-      "Friday in Elk Grove: St Louis Blues (#12, 96.57) 3, Chicago Mission (#33, 94.63) 2.",
-      "Toronto, Friday: Toronto Marlboros (#4, 97.90) 4, Vaughan Kings (#7, 97.44) 1. Toronto Titans (#29, 94.82) 4, Toronto Red Wings 3.",
-      "Toronto, Saturday: Vaughan Kings 5, Markham Majors 0."
-     ]
+     "t": "Toronto (GTHL)",
+     "rh": "This weekend",
+     "rows": [
+      [
+       "Toronto Marlboros",
+       "beat Vaughan Kings 4-1"
+      ],
+      [
+       "Vaughan Kings",
+       "beat Markham 5-0"
+      ],
+      [
+       "Toronto Titans",
+       "beat Red Wings 4-3"
+      ],
+      [
+       "Toronto Nationals",
+       "beat North York 2-1"
+      ]
+     ],
+     "b": []
     },
     {
-     "t": "What is left",
-     "b": [
-      "Sunday 8:20 AM: Middlesex Islanders East (#10) against Boston Jr Terriers in Canton, MA.",
-      "Sunday: New Jersey Rockets against Palmyra Black Knights twice.",
-      "Off this weekend: Little Caesars (#1), Buffalo Jr Sabres (#5), Mid-Fairfield (#6), Team Illinois (#8) and Top Gun (#9)."
-     ]
+     "t": "Elsewhere",
+     "rh": "This weekend",
+     "rows": [
+      [
+       "St Louis Blues",
+       "beat Chicago Mission 3-2"
+      ],
+      [
+       "Middlesex Islanders East (Elite)",
+       "beat Jr Eagles 5-3"
+      ]
+     ],
+     "b": []
     }
    ]
   }
