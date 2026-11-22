@@ -160,3 +160,4 @@ TIME CORRECTION: the entries above stamped '8:40 AM', '8:44 AM' and '8:50 AM' we
 13:01: IG 1:00 question posted (2013 pp). FOLLOWER SCORE TO CONFIRM: 2013 Long Island Royals (USA #32) 4, PAL Islanders (USA #41) 1, Sat Nov 21 8:30 (AM or PM unknown), from DM spencer_goldblatt. Find on a league/scoring site (AYHL / LIAHL / GameSheet search by date), then enter in pending_games + recap/roundup. Not entered yet.
 13:25: FINAL 2011 Oakland 5 Fox 4 (pending, recap, roundup). __G drop 2979440. STRIPE: $39 price created and two members moved (player member/NOTES.md).
 13:36: FINAL 2015 Providence 3 Terriers 1 (pending, roundup; recap OWED). 2942721 (2015 MF-Breakers rematch) live. __G drop 2942720.
+14:19: 3175133 (2011 MF v Rockets) frozen at 1-3 since 1:24 PM; sheet shows fighting majors at 1:05 of the 2nd: scorekeeper stopped or game halted. If still IN PROGRESS 1-3 at 3:00 PM, check the league page and tell the owner (game with no working live source).
