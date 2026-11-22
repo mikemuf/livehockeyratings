@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday night: where each event stands and what is left on Sunday",
- "updated": "Sun Nov 22, 12:02 AM CT",
+ "updated": "Sun Nov 22, 12:08 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -10,8 +10,8 @@
   "2012": {
    "summary": [
     "Northeast Pack in Pittsburgh: The field: all eight 14U teams are ranked in the top 28 in North America (top 17 in the USA). Twelve league games Friday to Sunday, three per team.",
-    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.74) 13. Bishop Kearney (#14, 96.43) and Mount St Charles (#15, 96.37) 11 each. Chicago Mission (#9, 97.06) 10. Pittsburgh Penguins Elite (#27, 95.79) 8. NJ Rockets (#28, 95.71) 6. Chicago Reapers (#30, 95.58) 4.",
-    "Also big: Shattuck St Mary's (#2, 99.84) plays three at Little Caesars (#7, 97.17) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
+    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.74) 13. Bishop Kearney (#14, 96.43) and Mount St Charles (#15, 96.37) 11 each. Chicago Mission (#9, 97.06) 10. Pittsburgh Penguins Elite (#27, 95.78) 8. NJ Rockets (#29, 95.71) 6. Chicago Reapers (#30, 95.58) 4.",
+    "Also big: Shattuck St Mary's (#2, 99.84) plays three at Little Caesars (#7, 97.16) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
     "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
     "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1)."
    ],
@@ -494,7 +494,8 @@
      "city": "Detroit, MI",
      "note": "USA #2 at USA #3",
      "local": "12:00 PM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15477/games/3164062"
     },
     {
      "day": "Sun",
@@ -2511,7 +2512,7 @@
   },
   "2016": {
    "summary": [
-    "Friday night in Elk Grove: St Louis Blues (#12, 96.57) at Chicago Mission (#33, 94.63), Friday 7:40 PM, Elk Grove Ice Arena.",
+    "Friday night in Elk Grove: St Louis Blues (#12, 96.80) at Chicago Mission (#33, 94.86), Friday 7:40 PM, Elk Grove Ice Arena.",
     "It is the only game of the weekend between two top-25 Squirt teams."
    ],
    "events": [],
