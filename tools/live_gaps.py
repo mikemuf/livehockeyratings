@@ -22,3 +22,15 @@ for y,d in W['divs'].items():
         if any(str(x.get('div'))==y and x.get('date')==iso and {x.get('v'),x.get('h')}==pr for x in B): continue
         n+=1; print('NO LIVE SCORE ON PAGE:',y,g['time'],g.get('a'),'v',g.get('b'),'|',g.get('note','')[:30],'| sheet' if g.get('sheet') else '| no sheet link')
 print('live gaps',n)
+
+# STALE-TEXT GUARD (owner, Nov 22 2026 12:23 PM): hand-typed player totals or "first N games" in section bullets go stale. Flag them at every publish.
+try:
+    import json as _j, re as _r
+    _w=_j.load(open('/home/claude/livehockeyratings/data/weekend_public.json'))
+    for _d,_D in (_w.get('divs') or {}).items():
+        for _s in _D.get('sections',[]):
+            for _b in _s.get('b',[]):
+                if '{{pts:' in _b: continue
+                if _r.search(r'\b(first|last|through|in (his|her|their))\s+(\w+\s+)?(one|two|three|four|five|six|\d+)\s+games?\b|\b(one|two|three|four|five|six|seven|eight|nine|ten|\d+) (goals?|assists?|points?)\b',_b,_r.I):
+                    print('STALE RISK (use {{pts:Player|Team|date}} or reword):',_d,'|',_s.get('t'),'|',_b[:110])
+except Exception as _e: print('stale guard error',_e)
