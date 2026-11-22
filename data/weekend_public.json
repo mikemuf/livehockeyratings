@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Sunday: championship day. Scores update as games go final",
- "updated": "Sun Nov 22, 12:40 PM CT",
+ "updated": "Sun Nov 22, 12:46 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -10,8 +10,8 @@
   "2012": {
    "summary": [
     "Northeast Pack in Pittsburgh: The field: all eight 14U teams are ranked in the top 28 in North America (top 17 in the USA). Twelve league games Friday to Sunday, three per team.",
-    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.75) 13. Bishop Kearney (#14, 96.56) and Mount St Charles (#16, 96.36) 11 each. Chicago Mission (#8, 97.21) 10. Pittsburgh Penguins Elite (#27, 95.92) 8. NJ Rockets (#29, 95.72) 6. Chicago Reapers (#30, 95.72) 4.",
-    "Also big: Shattuck St Mary's (#2, 99.93) plays three at Little Caesars (#7, 97.24) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
+    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.75) 13. Bishop Kearney (#14, 96.56) and Mount St Charles (#16, 96.36) 11 each. Chicago Mission (#8, 97.21) 10. Pittsburgh Penguins Elite (#27, 95.91) 8. NJ Rockets (#29, 95.72) 6. Chicago Reapers (#30, 95.72) 4.",
+    "Also big: Shattuck St Mary's (#2, 99.95) plays three at Little Caesars (#7, 97.24) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
     "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
     "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1)."
    ],
@@ -501,8 +501,7 @@
      "note": "USA #2 at USA #3",
      "local": "12:00 PM ET",
      "tz": "CT",
-     "sheet": "https://gamesheetstats.com/seasons/15477/games/3164062",
-     "watch": "https://www.youtube.com/live/qssWmjhoBlM"
+     "sheet": "https://gamesheetstats.com/seasons/15477/games/3164062"
     },
     {
      "day": "Sun",
@@ -847,7 +846,7 @@
      "rows": [
       [
        "Shattuck St Mary's",
-       "2"
+       "3"
       ],
       [
        "Little Caesars",
@@ -855,7 +854,8 @@
       ]
      ],
      "b": [
-      "Scores: 5-1 and 8-3. Game three is Sunday at 11:00 AM."
+      "Shattuck swept the series: 5-1, 8-3 and 4-1.",
+      "Sunday: Jack Keiser scored the game winner in the second period; Shattuck added two in the third."
      ]
     },
     {
@@ -3502,6 +3502,14 @@
    "Standings: a league win for HB Detroit, which came in 2-0-1 in league play; Oakland came in 4-2-1.",
    "Ratings: HB Detroit moves from #87 to #84 in North America (87.95 to 88.16). Oakland drops from #32 to #39 (90.66 to 90.40).",
    "Next: no more games for either team this weekend."
+  ],
+  "2012|2026-11-22|Little Caesars|Shattuck St Mary's": [
+   "Final: Shattuck St Mary's 4, Little Caesars 1 at Belfor Training Center. Shattuck sweeps the three-game series (5-1, 8-3, 4-1).",
+   "Scoring: Vinny Defazio opened it for Shattuck and Isaac Lee tied it for Little Caesars in the first. Jack Keiser scored the game winner in the second. Dean Zuccaro and Christian Talapila, on the power play, added goals in the third. Keiser finished with a goal and an assist; Talapila a goal and an assist; Miles Maruk two assists.",
+   "Goalies: Liam Mayhew allowed one goal for Shattuck. Asher Schwartz allowed four for Little Caesars.",
+   "Standings: three games, three Shattuck wins, 17-5 on aggregate.",
+   "Ratings: Shattuck came in #2 in North America (99.93); Little Caesars #7 (USA #3, 97.24).",
+   "Next: both teams are done for the weekend."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",
