@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday evening: where each event stands and what is left",
- "updated": "Sat Nov 21, 7:17 PM CT",
+ "updated": "Sat Nov 21, 7:21 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -2090,7 +2090,8 @@
      "city": "North Smithfield, RI",
      "note": "League game",
      "local": "9:00 AM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15008/games/2942690"
     },
     {
      "day": "Sat",
@@ -2134,7 +2135,8 @@
      "city": "North Smithfield, RI",
      "note": "League game",
      "local": "1:15 PM ET",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://gamesheetstats.com/seasons/15008/games/2942695"
     },
     {
      "day": "Sat",
@@ -2987,11 +2989,11 @@
   ],
   "2015|2026-11-21|Mid-Fairfield Hockey Club (Elite)|Providence Capitals (Elite)": [
    "Final: Mid-Fairfield 5, Providence Capitals 2 in the morning game, then Mid-Fairfield 7, Providence Capitals 2 in the afternoon. A two-game sweep on the road in North Smithfield.",
-   "Scoring: goal scorers not read yet.",
-   "Goalies: not read yet.",
-   "Standings: two league wins for Mid-Fairfield.",
+   "Scoring: the morning game was 1-1 after one period and 3-2 Mid-Fairfield after two. In the afternoon Mid-Fairfield led 3-1 after one and 5-1 after two. This league does not post goal scorers for this age group.",
+   "Goalies: not posted for this age group.",
+   "Standings: two league wins. Mid-Fairfield is unbeaten in its league (4-0-2); Providence is 7-6-1.",
    "Ratings: Mid-Fairfield stays #6 in North America (USA #4) and goes from 93.60 to 93.73. Providence slips from #15 to #16 (USA #13, 91.95).",
-   "Next: Mid-Fairfield plays Bay State Breakers twice on Sunday."
+   "Next: Mid-Fairfield plays Bay State Breakers twice on Sunday, 9:30 AM and 1:30 PM CT."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",
