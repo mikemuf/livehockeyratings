@@ -16,3 +16,12 @@ json.dump(M,open('data/gs_meta.json','w'))
 f=f'/tmp/gs/ls_{div}_{os.getpid()}.jsonl'; os.makedirs('/tmp/gs',exist_ok=True)
 open(f,'w').write(''.join(json.dumps(o)+'\n' for o in out))
 print(subprocess.run(['python3','build/gs_import.py',div,f],capture_output=True,text=True).stdout.strip(), [ (o['v'],o['vs'],o['h'],o['hs'],o['st']) for o in out])
+
+# EXACT names: gs_import title-cases names it does not know ("Hb Detroit", "St Mary'S"); put back the names exactly as passed when they are app names.
+B=json.load(open('data/gs_box.json')); R=json.load(open('/tmp/r_new.json')).get(div,{})
+for o in out:
+    k=f"{div}|{o['s']}|{o['id']}"
+    if k in B:
+        for f in ('v','h'):
+            if o[f] in R: B[k][f]=o[f]
+json.dump(B,open('data/gs_box.json','w'),ensure_ascii=False)
