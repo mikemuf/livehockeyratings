@@ -174,3 +174,4 @@ TIME CORRECTION: the entries above stamped '8:40 AM', '8:44 AM' and '8:50 AM' we
 16:34: OWNER 4:28 PM: weekend wrap now + all-out Silver Stick preview. DONE 4:33 PM: 'Weekend wrap' section on all six birth years; 'Next: International Silver Stick' section on 2011, 2013, 2015 (pools with ranks, format, wildcards, toughest pool, games to circle). weekend_check caught short names (Marlboros/Jr Canadiens): use full rating names with (#rank, rating).
 16:39: Pat Quinn FINAL Yale 3 Delta 2 entered (wrap, section, recap, roundup: story held). Yale #9->#8. Left: Milwaukee x2, GTHL.
 17:05: cycle: nothing new (Milwaukee x2 Scheduled; GTHL same 3).
+17:36: GTHL: six JRC results entered (2011 3-1 Marlboros; 2012 3-0 Markham; 2013 9-0 Rebels; 2014 7-2 Reps; 2015 10-1 Red Wings; 2016 2-1 Titans). Still blank: U13 Marlboros v Senators, U11 Rebels v Don Mills, U14 Senators v Reps, evening Marlboros v Don Mills x2.
