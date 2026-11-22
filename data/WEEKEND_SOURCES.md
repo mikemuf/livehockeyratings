@@ -134,3 +134,19 @@ Nov 20-22, 2026 hits to open (not yet read): **STL AAA Blues Showcase (2014) –
   STANDING RULE: the Thursday planner runs this club+league sweep for every team on the watch list that has no sheet, and records per game which searches were run.
   MORE HITS from the same sweep (5:55 PM), all 2026-27 seasons on GameSheet: Shattuck-St Mary's Exhibition Season 2026-2027 (Shattuck v Little Caesars!); Little Caesars Amateur Hockey League - Regular Season 2026/2x (LCAHL: check Michigan league games, HB Detroit v Victory Honda etc.); OMHA AAA 2026-2027 Season (Barrie, Kingston, York Simcoe, Peterborough, Oakville, Halton, Niagara, Credit River...); Prep Hockey Conference 2026-2027 (South Kent, Seacoast?); Central States Developmental Hockey League 2026-2027; Madison Capitols AAA 2026/2027; Windy City Storm 2026/27; Greater New York City Ice Hockey League 2026/2027; Cleveland Barons 14U/16U 2026-2027 and Showcase Series; Chicago Fury 9U only. Season ids still to fetch for every one of these.
 - Nov 21 7:35 PM: EASTERN HOCKEY FEDERATION is on GameSheet: season 15008 (gamesheetstats.com/seasons/15008/games). Division filter ids: 2015 Elite = 80179 (others: open the Division list, tick the division, Apply, read filter[division] from the address). URL: ?filter[division]=ID&filter[status]=all&filter[start]=YYYY-MM-DD. Team spelled "Mid Farifield Jr Rangers" there (their typo) = Mid-Fairfield Hockey Club (Elite). First use: a follower's DM tip (2015 Mid-Fairfield 5-2, 7-2 at Providence) CONFIRMED here before entry. RULE (owner, Nov 21 7:13 PM): a score from a follower/DM is never entered on their word: confirm it on a scoring site, the league/club site or the teams' Instagram first.
+
+## LEAGUE TABLE (read FIRST every Thursday; add a row whenever a league's scoring home is found). GameSheet address: gamesheetstats.com/seasons/<id>/games?filter[status]=all&filter[start]=YYYY-MM-DD
+| League | Covers | Where scores live | Notes |
+|---|---|---|---|
+| Northeast Pack | 2011, 2012 top US teams | GameSheet 15483 | division filter 83551 = 14U |
+| Eastern Hockey Federation (EHF) | New England Elite, 2012-2016 | GameSheet 15008 | Elite division ids 80179 (2015), 80185, 80158, 80161, 80160; "IHC" = Middlesex Islanders; "Mid Farifield Jr Rangers" = Mid-Fairfield Elite; times EASTERN; player names hidden for 2015 and younger |
+| GTHL | Toronto AAA, all years | gthlcanada.com/schedule/ (agilex form: ddlDiv ALL, ddlCat A3, date) | results only; U16=2011 ... U11=2016; late games post by about 9 PM CT |
+| OMHA AAA (ETA East/West) | York Simcoe, Oakville, Barrie, Kingston, Quinte, Central Ontario, Peterborough, North Central, Grey-Bruce, Halton, Southern Tier, Ajax-Pickering, Niagara North, Credit River, North Shore, Markham Waxers | GameSheet 15488 | U16=2011 ... U11=2016 |
+| ALLIANCE Pavilion (AAA) | London, Elgin-Middlesex, Huron-Perth, Chatham-Kent, Waterloo, Windsor, Sun County, Sarnia, Kitchener, Cambridge, Brantford, Soo | GameSheet 15447 | same age mapping |
+| Atlantic Coast Hockey Conference | Atlantic Coast Academy, PAL?, Notre Dame HA? (to confirm) | GameSheet 15300 | not opened yet |
+| Ohio AAA Blue Jackets | home games | GameSheet 15647 | not opened yet |
+| Jr Flyers Fall/Winter | Philadelphia Jr Flyers / Little Flyers home games | GameSheet 16136 | not opened yet |
+| Windy City Storm | home games | GameSheet 15759 | not opened yet |
+| Pat Quinn Classic | event | page.spordle.com/pat-quinn-classic | team schedule page gives finals; game links need the event scoreboard |
+CAUTION (Nov 21): the GameSheet games list only puts about 15-25 rows on the page; for a big league filter by division (tick the division, Apply) or read each age division separately, or games will be missed. On Nov 21 the OMHA and Alliance reads were all-division reads, so they are PARTIAL: re-read by division on Sunday.
+SEARCH OUTPUT: tool output containing "name = id; name = id" gets blocked; use "name #id / name #id".

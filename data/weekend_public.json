@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday evening: where each event stands and what is left",
- "updated": "Sat Nov 21, 8:55 PM CT",
+ "updated": "Sat Nov 21, 9:05 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -10,7 +10,7 @@
   "2012": {
    "summary": [
     "Northeast Pack in Pittsburgh: The field: all eight 14U teams are ranked in the top 28 in North America (top 17 in the USA). Twelve league games Friday to Sunday, three per team.",
-    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.73) 13. Bishop Kearney (#14, 96.42) and Mount St Charles (#15, 96.36) 11 each. Chicago Mission (#9, 97.06) 10. Pittsburgh Penguins Elite (#26, 95.78) 8. NJ Rockets (#28, 95.71) 6. Chicago Reapers (#30, 95.57) 4.",
+    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.73) 13. Bishop Kearney (#14, 96.42) and Mount St Charles (#15, 96.37) 11 each. Chicago Mission (#9, 97.06) 10. Pittsburgh Penguins Elite (#26, 95.78) 8. NJ Rockets (#28, 95.71) 6. Chicago Reapers (#30, 95.58) 4.",
     "Also big: Shattuck St Mary's (#2, 99.84) plays three at Little Caesars (#7, 97.16) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
     "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
     "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1)."
@@ -781,7 +781,7 @@
     {
      "t": "Northeast Pack 14U: where it stands",
      "b": [
-      "Standings after Saturday: Mid-Fairfield (#1, 99.99) 27 points. Bishop Kearney (#14, 96.42) 17. Mount St Charles (#15, 96.36) and Woodbridge Wolfpack (#11, 96.73) 14 each. Chicago Mission (#9, 97.06) 13. NJ Rockets (#28, 95.71) 9. Pittsburgh Penguins Elite 8. Chicago Reapers 6.",
+      "Standings after Saturday: Mid-Fairfield (#1, 99.99) 27 points. Bishop Kearney (#14, 96.42) 17. Mount St Charles (#15, 96.37) and Woodbridge Wolfpack (#11, 96.73) 14 each. Chicago Mission (#9, 97.06) 13. NJ Rockets (#28, 95.71) 9. Pittsburgh Penguins Elite 8. Chicago Reapers 6.",
       "Bishop Kearney: beat Chicago Mission 5-3 on Friday and NJ Rockets 9-1 on Saturday, and is alone in second. Gavin McCann had a hat trick against the Rockets.",
       "Mid-Fairfield: beat Penguins Elite 6-0 on Friday and the Wolfpack 7-3 on Saturday. It was 3-3 after two periods; Mid-Fairfield scored four in three minutes early in the third. Jack Brayman had two goals and two assists.",
       "The race for second: four teams within a point. Mount St Charles beat the Wolfpack 5-4 in overtime on Friday, then lost 5-4 in overtime to the Reapers on Saturday.",
@@ -811,7 +811,7 @@
      "t": "Nashville in British Columbia",
      "b": [
       "The event: the Pat Quinn Classic U15 Elite in Burnaby and Delta.",
-      "Round-robin standings: Yale Hockey Academy (#8) 3-0. Delta Hockey Academy (#6) 2-1. Nashville Jr. Predators (#17, 96.24) 2-1. Pacific Coast Academy 2-2. St George's School 1-2. Burnaby Winter Club Academy 0-4.",
+      "Round-robin standings: Yale Hockey Academy (#8) 3-0. Delta Hockey Academy (#6) 2-1. Nashville Jr. Predators (#17, 96.25) 2-1. Pacific Coast Academy 2-2. St George's School 1-2. Burnaby Winter Club Academy 0-4.",
       "Nashville so far: lost 3-0 to Delta on Thursday, then beat Burnaby Winter Club Academy 4-2 and St George's School 7-4 on Friday.",
       "Big weekend: Sebastien Erat (Nashville) has four goals and four assists in three games, including three goals and two assists against St George's.",
       "Saturday 6:15 PM Central: Nashville against Delta Hockey Academy again, second against third in the standings, at Planet Ice Delta.",
@@ -822,7 +822,7 @@
     {
      "t": "Team Illinois Showcase",
      "b": [
-      "Team Illinois (#10, 96.98) is 4-0: 5-0, 8-0, 7-0 and 5-3 over Milwaukee Jr Admirals, the only team to score on it.",
+      "Team Illinois (#10, 96.99) is 4-0: 5-0, 8-0, 7-0 and 5-3 over Milwaukee Jr Admirals, the only team to score on it.",
       "Big weekend: Declan Petersen (Team Illinois) has four goals and five assists. Against Milwaukee he scored twice and set up the game winner."
      ],
      "url": "https://gamesheetstats.com/seasons/16444/games"
@@ -831,7 +831,7 @@
      "t": "Toronto",
      "b": [
       "Friday: Toronto Jr Canadiens (#3, 98.25) 2, Toronto Marlboros (#4, 98.19) 0, first against second in Ontario.",
-      "Friday: Toronto Red Wings (#59, 93.58) 3, Vaughan Kings (#29, 95.69) 0.",
+      "Friday: Toronto Red Wings (#59, 93.59) 3, Vaughan Kings (#29, 95.69) 0.",
       "Saturday: Vaughan Kings against North York Rangers (#5, 98.18). The result has not been posted yet."
      ]
     }
@@ -1632,8 +1632,8 @@
     {
      "t": "Toronto: where it stands",
      "b": [
-      "Friday: Toronto Marlboros (#3, 94.22) 3, Vaughan Kings (#10, 92.65) 2. The Marlboros are still unbeaten.",
-      "Saturday: Vaughan Kings 5, Toronto Red Wings (#24, 90.64) 3.",
+      "Friday: Toronto Marlboros (#3, 94.24) 3, Vaughan Kings (#10, 92.66) 2. The Marlboros are still unbeaten.",
+      "Saturday: Vaughan Kings 5, Toronto Red Wings (#24, 90.65) 3.",
       "Friday: Toronto Red Wings 9, North York Rangers 0."
      ]
     },
@@ -1643,7 +1643,7 @@
       "Sunday 12:55 PM: Toronto Jr Canadiens host Mississauga Rebels.",
       "Sunday 6:45 PM: Toronto Marlboros at Don Mills Flyers.",
       "Sunday 10:10 AM: Ohio Blue Jackets against Philadelphia Jr Flyers, game three in Columbus. Results of the first two games have not been posted yet.",
-      "Sunday: Little Caesars (#6, 93.43) hosts Compuware at 10:40 AM. Windy City Storm hosts Indiana Elite at 12:00 PM.",
+      "Sunday: Little Caesars (#6, 93.44) hosts Compuware at 10:40 AM. Windy City Storm hosts Indiana Elite at 12:00 PM.",
       "Most of the top 20 American teams are off. Next weekend is Thanksgiving weekend, when the International Silver Stick in Whitby and other big tournaments begin."
      ]
     }
@@ -2035,7 +2035,7 @@
      "t": "STL AAA Blues Showcase: where it stands",
      "b": [
       "Format: two pools of four, three pool games each. The top two in each pool crossed over for Saturday's semifinals. The winners play for the championship on Sunday.",
-      "Pool play: Florida Alliance (#6, 98.55) and Victory Honda (#19, 95.97) both went 3-0. St Louis Blues (#16, 96.32) went 2-1.",
+      "Pool play: Florida Alliance (#6, 98.55) and Victory Honda (#19, 95.98) both went 3-0. St Louis Blues (#16, 96.32) went 2-1.",
       "Semifinal one: Florida Alliance 3, St Louis Blues 2 in overtime. Colton Von Bokern scored with 40 seconds left in overtime.",
       "Semifinal two: Victory Honda 4, Chicago Reapers (#29, 95.56) 2. Ricky Brogan scored the winner 24 seconds into the third period.",
       "Placement games: Chicago Mission (#49, 94.04) beat Philadelphia Hockey Club 3-2 in overtime, its first win of the event. Vegas Jr Golden Knights (#28, 95.59) beat Dallas Stars Elite (#35, 94.87) 5-2.",
@@ -2046,7 +2046,7 @@
     {
      "t": "STL AAA Blues Showcase: what is left",
      "b": [
-      "Championship, Sunday 8:40 AM: Florida Alliance (#6, 98.55) against Victory Honda (#19, 95.97). Both are 4-0 at the event.",
+      "Championship, Sunday 8:40 AM: Florida Alliance (#6, 98.55) against Victory Honda (#19, 95.98). Both are 4-0 at the event.",
       "Third place, Sunday 7:00 AM: Chicago Reapers against St Louis Blues (#16, 96.32).",
       "Sunday 7:50 AM: Vegas Jr Golden Knights against Chicago Mission.",
       "Sunday 7:20 AM: Philadelphia Hockey Club against Dallas Stars Elite."
