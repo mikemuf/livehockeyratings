@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Sunday: championship day. Scores update as games go final",
- "updated": "Sun Nov 22, 8:51 AM CT",
+ "updated": "Sun Nov 22, 8:58 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -10,7 +10,7 @@
   "2012": {
    "summary": [
     "Northeast Pack in Pittsburgh: The field: all eight 14U teams are ranked in the top 28 in North America (top 17 in the USA). Twelve league games Friday to Sunday, three per team.",
-    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.74) 13. Bishop Kearney (#14, 96.43) and Mount St Charles (#15, 96.37) 11 each. Chicago Mission (#9, 97.06) 10. Pittsburgh Penguins Elite (#27, 95.78) 8. NJ Rockets (#29, 95.71) 6. Chicago Reapers (#30, 95.58) 4.",
+    "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.73) 13. Bishop Kearney (#14, 96.49) and Mount St Charles (#16, 96.29) 11 each. Chicago Mission (#9, 97.06) 10. Pittsburgh Penguins Elite (#27, 95.78) 8. NJ Rockets (#29, 95.71) 6. Chicago Reapers (#30, 95.58) 4.",
     "Also big: Shattuck St Mary's (#2, 99.84) plays three at Little Caesars (#7, 97.16) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
     "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
     "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1)."
@@ -799,7 +799,7 @@
       ],
       [
        "Bishop Kearney Selects",
-       "17"
+       "19"
       ],
       [
        "Woodbridge Wolfpack",
@@ -827,7 +827,7 @@
       ]
      ],
      "b": [
-      "Bishop Kearney: two wins, now alone in second. Gavin McCann had a hat trick Saturday.",
+      "Sunday: Bishop Kearney beat Mount St Charles 4-2 for a third win of the weekend. Luc Genest: two power-play goals and an assist.",
       "Mid-Fairfield: two more wins, 13 goals for and 3 against."
      ],
      "url": "https://gamesheetstats.com/seasons/15483/games"
@@ -3372,6 +3372,14 @@
    "Goalies: James Hickey got the win with one against. Nolan Schmidt took the loss.",
    "Standings: Bishop Kearney moves to 24 points and stays first in the league. The Reapers stay on 14.",
    "Ratings: Bishop Kearney 95.85 to 95.91, still North America #3. The Reapers 94.35 to 94.31, still #8.",
+   "Next: both teams are done for the weekend in Pittsburgh."
+  ],
+  "2012|2026-11-22|Bishop Kearney Selects|Mount St Charles": [
+   "Final: Bishop Kearney Selects 4, Mount St Charles 2, in Northeast Pack league play outside Pittsburgh.",
+   "Scoring: Luc Genest scored twice on the power play, including the winner early in the third, and set up Maddox Peddle's shorthanded goal. Jude Sestito added the fourth. Jayden Widen and Henry Losh scored for Mount St Charles.",
+   "Goalies: Clay Kramer got the win with two against. Justin Charbonneau took the loss.",
+   "Standings: Bishop Kearney goes to 19 points, second behind Mid-Fairfield. Mount St Charles stays on 14.",
+   "Ratings: Bishop Kearney 96.43 to 96.49, still North America #14. Mount St Charles 96.37 to 96.29, #15 to #16.",
    "Next: both teams are done for the weekend in Pittsburgh."
   ]
  },
