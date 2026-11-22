@@ -66,3 +66,4 @@ Detail files: SCHEDULING.md (page and planner rules), LIVE_CHECK.md (weekend log
 - Nov 22 8:50 AM: mistake log + prevention for 'live score not available' (SCHEDULING.md last section; tools/live_gaps.py runs in live_pub.sh).
 - Nov 22 9:06 AM: owner restated: nothing about games in the chat; mistake log 2 (blank reads, sheet links, 'fixed' claims) in SCHEDULING.md.
 - Nov 22 10:30 AM: research: data/TEAM_PAGES.md = club schedule pages, read Thursdays and game-day mornings (owner's method).
+- Nov 22 11:29 AM: Live Scores UI: wide-screen score spacing, darker light background, bold team names in Live now (SCHEDULING.md last section).
