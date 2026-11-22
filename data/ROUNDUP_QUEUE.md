@@ -40,3 +40,4 @@
 - 2012 Sun Nov 22: Team Illinois (#10) 13, CarShield (#129) 0, TI Showcase. No story (blowout, one team outside top 30).
 - 2015 Sun Nov 22: HB Detroit (#87) 4, Oakland Jr Grizzlies (#32) 0, MAHA league. No story (beaten team outside top 30). Recap done.
 - 2013 Sun Nov 22: Little Caesars (#6) 10, Compuware (#56) 1, MAHA league. No story. Recap OWED.
+- 2013 Sun Nov 22: Middlesex Islanders (#23) 5, Providence Capitals (#88) 2, EHF. No story. Recap OWED.
