@@ -62,3 +62,4 @@ Detail files: SCHEDULING.md (page and planner rules), LIVE_CHECK.md (weekend log
 - Free-page link went nowhere: click every new link (10:30 PM).
 - Event section stale three hours after the final: sections update with every final (11:25 PM).
 - Published before the drift check and lifted a whole birth year by 0.22: check before publishing; hold pinned-#1 blowouts (Nov 22, 1:45 AM).
+- Nov 22 8:29 AM: live checks no longer message scores to the owner; page only, one-line reply (SCHEDULING.md, last section).
