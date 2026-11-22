@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Saturday evening: where each event stands and what is left",
- "updated": "Sat Nov 21, 6:35 PM CT",
+ "updated": "Sat Nov 21, 7:14 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -2065,8 +2065,8 @@
   "2015": {
    "summary": [
     "Mid-Fairfield's New England road trip: Mid-Fairfield (#6) has the busiest weekend of any top team: four league games in two days.",
-    "Saturday: at Providence Capitals (#15) twice, 8:00 AM and 12:15 PM, Rhode Island Sports Center.",
-    "Sunday: at Bay State Breakers (#20) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
+    "Saturday: at Providence Capitals (#16) twice, 8:00 AM and 12:15 PM, Rhode Island Sports Center.",
+    "Sunday: at Bay State Breakers (#22) twice, 9:30 AM and 1:30 PM, the Bog Ice Arena."
    ],
    "events": [],
    "watch": [
@@ -2302,9 +2302,9 @@
      "t": "What is left",
      "b": [
       "Sunday 12:40 PM: Toronto Jr Canadiens host Toronto Red Wings.",
-      "Sunday: Mid-Fairfield (#6) at Bay State Breakers (#20) twice, 9:30 AM and 1:30 PM. Results of its two Saturday games at Providence Capitals have not been posted yet.",
-      "Sunday 8:25 AM: South Shore Kings (#12) against Top Gun (#14) in Salem, NH.",
-      "Sunday 11:20 AM: Chicago Fury (#21) against Windy City Storm."
+      "Sunday: Mid-Fairfield (#6) at Bay State Breakers (#22) twice, 9:30 AM and 1:30 PM. Results of its two Saturday games at Providence Capitals have not been posted yet.",
+      "Sunday 8:25 AM: South Shore Kings (#13) against Top Gun (#14) in Salem, NH.",
+      "Sunday 11:20 AM: Chicago Fury (#20) against Windy City Storm."
      ]
     }
    ]
@@ -2984,6 +2984,14 @@
    "Standings: the Wolfpack moves to 11 points. The Reapers stay on 14.",
    "Ratings: Woodbridge Wolfpack stays #14 in North America (USA #9, 93.46). Chicago Reapers stays #8 (USA #5, 94.35).",
    "Next: Sunday 7:00 AM, Bishop Kearney at Chicago Reapers. Sunday 7:30 AM, the Wolfpack against Mount St Charles."
+  ],
+  "2015|2026-11-21|Mid-Fairfield Hockey Club (Elite)|Providence Capitals (Elite)": [
+   "Final: Mid-Fairfield 5, Providence Capitals 2 in the morning game, then Mid-Fairfield 7, Providence Capitals 2 in the afternoon. A two-game sweep on the road in North Smithfield.",
+   "Scoring: goal scorers not read yet.",
+   "Goalies: not read yet.",
+   "Standings: two league wins for Mid-Fairfield.",
+   "Ratings: Mid-Fairfield stays #6 in North America (USA #4) and goes from 93.60 to 93.73. Providence slips from #15 to #16 (USA #13, 91.95).",
+   "Next: Mid-Fairfield plays Bay State Breakers twice on Sunday, 9:30 AM and 1:30 PM CT."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",
