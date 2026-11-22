@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Sunday: championship day. Scores update as games go final",
- "updated": "Sun Nov 22, 10:28 AM CT",
+ "updated": "Sun Nov 22, 10:29 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -1788,7 +1788,8 @@
      "rink": "Pettit National Ice Center",
      "city": "Milwaukee, WI",
      "note": "#2 at #27",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://www.milwaukeejradmirals.com/game/show/45723534?subseason=960740"
     },
     {
      "day": "Sun",
@@ -1798,7 +1799,8 @@
      "rink": "Pettit National Ice Center",
      "city": "Milwaukee, WI",
      "note": "#2 at #27",
-     "tz": "CT"
+     "tz": "CT",
+     "sheet": "https://www.milwaukeejradmirals.com/game/show/45723536?subseason=960740"
     }
    ],
    "sections": [
