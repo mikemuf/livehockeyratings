@@ -48,3 +48,6 @@
 - 2015 Sun Nov 22 (GTHL): Toronto Reps (#42) 1, Markham Majors (#96) 1, tie. No story.
 - 2014 Sun Nov 22 (GTHL): Don Mills Flyers (#12) 1, Markham Majors (#82) 1, tie: a point dropped by a top-15 team (worth a line in the GTHL section).
 - 2012 Sun Nov 22: Yale Hockey Academy (#9) 3, Delta Hockey Academy (#6) 2, Pat Quinn Classic FINAL. Rule A (both top 30): story held (no stories for now).
+- 2011 Sun Nov 22 (GTHL): Toronto Jr Canadiens (#5) 3, Toronto Marlboros (#7) 1. Rule A (both top 30): story held (no stories for now).
+- 2016 Sun Nov 22 (GTHL): Toronto Jr Canadiens (#3) 2, Toronto Titans (#29) 1. Rule A (both top 30): story held.
+- Sun Nov 22 (GTHL) Jr Canadiens sweep, no story: 2015 10-1 Red Wings; 2013 9-0 Rebels; 2012 3-0 Markham; 2014 7-2 Reps.

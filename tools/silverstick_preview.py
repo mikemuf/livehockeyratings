@@ -44,6 +44,7 @@ WRAP={
  "Mount St Charles (#4, 95.61) has won eight straight league games and sits two points back.",
  "Chicago Mission (#13, 93.91) went 1-2: a 5-4 loss to Mount St Charles, a 3-2 win over Mid-Fairfield with three power-play goals, and a 7-3 loss to Penguins Elite.",
  "In Toronto, Vaughan Kings (#2, 96.04) shut out Toronto Jr Canadiens (#5, 95.16) 2-0 and are still unbeaten at 26-0-1.",
+ "Toronto Jr Canadiens (#5, 95.16) answered Sunday with a 3-1 win over Toronto Marlboros (#7, 94.62).",
  "Oakland Jr Grizzlies (#12, 93.99) held off Fox Motors 5-4."],
 '2013':["Most of the top 20 were off ahead of the Silver Stick.",
  "Toronto Marlboros (#3, 94.32) beat Vaughan Kings (#10, 92.75) 3-2 and are still unbeaten at 20-0-1.",
@@ -60,7 +61,8 @@ WRAP={
  "Providence Capitals (#16, 92.16) bounced back with a 3-1 win over the Jr Terriers."],
 '2016':["St Louis Blues (#12, 96.57) won the only top-25 matchup of the weekend, 3-2 at Chicago Mission (#33, 94.63).",
  "In Toronto, Toronto Marlboros (#4, 97.90) beat Vaughan Kings (#7, 97.43) 4-1. Vaughan answered with a 5-0 win over Markham.",
- "Markham lost again Sunday, 2-1 to North York Rangers."]}
+ "Markham lost again Sunday, 2-1 to North York Rangers.",
+ "Toronto Jr Canadiens (#3, 97.90) edged Toronto Titans (#29, 94.82) 2-1 on Sunday."]}
 for y,d in W['divs'].items():
     d['sections']=[s for s in d['sections'] if s['t']!='Weekend wrap' and not s['t'].startswith('Next: International Silver Stick')]
     new=[{'t':'Weekend wrap','b':WRAP[y]}]
