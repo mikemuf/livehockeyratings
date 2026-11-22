@@ -23,3 +23,4 @@ Co-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01VFEdd2WZ5V98gBRHcarm83"
 git push -q
 /home/claude/player/build/ratings_to_site.sh | tail -1
+python3 tools/live_gaps.py || true
