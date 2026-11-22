@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Sunday: championship day. Scores update as games go final",
- "updated": "Sun Nov 22, 11:12 AM CT",
+ "updated": "Sun Nov 22, 11:13 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -799,7 +799,7 @@
      "rows": [
       [
        "Mid-Fairfield",
-       "27"
+       "29"
       ],
       [
        "Bishop Kearney Selects",
@@ -834,7 +834,7 @@
       "Sunday: Bishop Kearney beat Mount St Charles 4-2 for a third win of the weekend. Luc Genest: two power-play goals and an assist.",
       "Sunday: Penguins Elite beat Wolfpack 3-2 after regulation. Otto Kiehlmeier tied it in the third.",
       "Sunday: the Mission beat the Rockets 4-1 with three goals in the second. Cash Cieslak: two goals and an assist.",
-      "Mid-Fairfield: two more wins on Friday and Saturday, 13 goals for and 3 against."
+      "Sunday: Mid-Fairfield beat the Reapers 5-3 to finish a 3-0 weekend. Still unbeaten in the league."
      ],
      "url": "https://gamesheetstats.com/seasons/15483/games"
     },
@@ -1487,7 +1487,7 @@
       ],
       [
        "Pittsburgh Penguins Elite",
-       "16"
+       "18"
       ],
       [
        "Chicago Reapers",
@@ -1504,7 +1504,8 @@
      ],
      "b": [
       "Sunday: Bishop Kearney beat the Reapers 4-1. Smith Vantine: two goals and an assist, a day after his hat trick against Penguins Elite.",
-      "Sunday: Mount St Charles beat Wolfpack 4-1, its eighth straight league win."
+      "Sunday: Mount St Charles beat Wolfpack 4-1, its eighth straight league win.",
+      "Sunday: Penguins Elite beat the Mission 7-3. Cameron Pelle: a goal and two assists."
      ],
      "url": "https://gamesheetstats.com/seasons/15483/games"
     },
@@ -3474,6 +3475,22 @@
    "Standings: the Mission goes to 15 points, third in the league behind Mid-Fairfield and Bishop Kearney. The Rockets stay on 9.",
    "Ratings: Mission 97.07 to 97.13, North America #9 to #8. Rockets 95.71 to 95.65, still #29.",
    "Next: both teams are done for the weekend in Pittsburgh."
+  ],
+  "2012|2026-11-22|Chicago Reapers|Mid-Fairfield": [
+   "Final: Mid-Fairfield 5, Chicago Reapers 3, in Northeast Pack league play in Pittsburgh.",
+   "Scoring: Mid-Fairfield led 2-0 after one on goals from Jax Tardif and Austin Jarvi. Leonardo Odoardi and Edmund Martin, shorthanded, made it 4-1 in the second. The Reapers got within one in the third on goals from William Stewart and Thomas Halack before Egor Karpovtsev scored into the empty net. Noah Keen had a goal and an assist for the Reapers.",
+   "Goalies: Landon Sherwood got the win with three against. Matthew Ignoffo took the loss.",
+   "Standings: Mid-Fairfield goes to 29 points and stays unbeaten in the league at 10-0. The Reapers stay on 6.",
+   "Ratings: Mid-Fairfield stays 99.99 and North America #1. The Reapers go 95.59 to 95.72 and stay #30.",
+   "Next: both teams are done for the weekend in Pittsburgh."
+  ],
+  "2011|2026-11-22|Chicago Mission|Pittsburgh Penguins Elite": [
+   "Final: Pittsburgh Penguins Elite 7, Chicago Mission 3, in Northeast Pack league play outside Pittsburgh.",
+   "Scoring: Penguins Elite scored three in the first and three more in the second. Cameron Pelle had a goal and two assists; Jack Carlson, Cameron Cline and Dangelo Flume each had a goal and an assist. Cullen Hall, Tyler Bowlus and Jimmy Halliday had the others. Luke Georgy, Mason Marek and Finn Helminen scored for the Mission.",
+   "Goalies: Nicholas Ryan got the win with three against. Gavin Carnow took the loss.",
+   "Standings: Penguins Elite goes to 18 points, third in the league. The Mission stays on 10.",
+   "Ratings: Penguins Elite stays 96.84 and North America #1. The Mission goes 93.99 to 93.91 and stays #13.",
+   "Next: both teams are done for the weekend."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",
