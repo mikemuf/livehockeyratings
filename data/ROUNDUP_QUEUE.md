@@ -38,3 +38,4 @@
 - 2014 Sun Nov 22: Dallas Stars Elite (#35) 9, Philadelphia Hockey Club (#53) 1, STL placement. No story (neither top 30).
 - 2013 Sun Nov 22: Bay State Breakers (#45) 5, Minuteman Flames (#82) 4, EHF. No story.
 - 2012 Sun Nov 22: Team Illinois (#10) 13, CarShield (#129) 0, TI Showcase. No story (blowout, one team outside top 30).
+- 2015 Sun Nov 22: HB Detroit (#87) 4, Oakland Jr Grizzlies (#32) 0, MAHA league. No story (beaten team outside top 30). Recap done.

@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Sunday: championship day. Scores update as games go final",
- "updated": "Sun Nov 22, 11:41 AM CT",
+ "updated": "Sun Nov 22, 11:42 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -3491,6 +3491,14 @@
    "Standings: Penguins Elite goes to 18 points, third in the league. The Mission stays on 10.",
    "Ratings: Penguins Elite stays 96.84 and North America #1. The Mission goes 93.99 to 93.91 and stays #13.",
    "Next: both teams are done for the weekend."
+  ],
+  "2015|2026-11-22|HB Detroit|Oakland Jr Grizzlies": [
+   "Final: HB Detroit 4, Oakland Jr Grizzlies 0 at Buffalo Wild Wings Arena. A road shutout for the lower-ranked team.",
+   "Scoring: HB Detroit scored three in the first period and one in the second; the third was scoreless.",
+   "Goalies: HB Detroit did not allow a goal.",
+   "Standings: a league win for HB Detroit, which came in 2-0-1 in league play; Oakland came in 4-2-1.",
+   "Ratings: HB Detroit came in #87 in North America (USA #47, 87.95) and Oakland #32 (USA #21, 90.66). Both numbers move with this result.",
+   "Next: no more games for either team this weekend."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",
