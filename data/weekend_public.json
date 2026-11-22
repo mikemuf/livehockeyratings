@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Sunday: championship day. Scores update as games go final",
- "updated": "Sun Nov 22, 9:17 AM CT",
+ "updated": "Sun Nov 22, 9:18 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -832,7 +832,8 @@
      ],
      "b": [
       "Sunday: Bishop Kearney beat Mount St Charles 4-2 for a third win of the weekend. Luc Genest: two power-play goals and an assist.",
-      "Mid-Fairfield: two more wins, 13 goals for and 3 against."
+      "Sunday: Penguins Elite beat Wolfpack 3-2 after regulation. Otto Kiehlmeier tied it in the third.",
+      "Mid-Fairfield: two more wins on Friday and Saturday, 13 goals for and 3 against."
      ],
      "url": "https://gamesheetstats.com/seasons/15483/games"
     },
@@ -3390,6 +3391,22 @@
    "Standings: Bishop Kearney goes to 19 points, second behind Mid-Fairfield. Mount St Charles stays on 14.",
    "Ratings: Bishop Kearney 96.43 to 96.49, still North America #14. Mount St Charles 96.37 to 96.29, #15 to #16.",
    "Next: both teams are done for the weekend in Pittsburgh."
+  ],
+  "2012|2026-11-22|Pittsburgh Penguins Elite|Woodbridge Wolfpack": [
+   "Final: Pittsburgh Penguins Elite 3, Woodbridge Wolfpack 2, decided after regulation in Northeast Pack league play.",
+   "Scoring: Wolfpack led 2-1 after two on goals from Andrew Amlinger and Connor Bunten, the second on the power play. Tristan Leduc scored on the power play for Penguins Elite and Otto Kiehlmeier tied it 2-2 at 5:06 of the third.",
+   "Goalies: Nathaniel Kinney got the win with two against. Kirby Rayner took the loss.",
+   "Standings: Penguins Elite pick up a win over a team six places above them in the league. Mid-Fairfield still leads.",
+   "Ratings: Penguins Elite 95.78 to 95.84, still North America #27. Wolfpack 96.73 to 96.68, still #11.",
+   "Next: both teams are done for the weekend in Pittsburgh."
+  ],
+  "2013|2026-11-22|Bay State Breakers|Minuteman Flames": [
+   "Final: Bay State Breakers 5, Minuteman Flames 4, in New England league play at Rockland.",
+   "Scoring: a one-goal game throughout; it was 1-1, 2-2 and 3-3 before the Breakers went ahead for good.",
+   "Goalies: not listed on the sheet summary.",
+   "Standings: league game.",
+   "Ratings: see the team pages for the change.",
+   "Next: no more games this weekend for either team on our list."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",

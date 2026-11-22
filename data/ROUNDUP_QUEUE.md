@@ -36,3 +36,4 @@
 - SAT 2014: Vegas Jr Golden Knights (#29) 5, Dallas Stars Elite (#34) 2 (STL showcase placement). Golovan 2 goals.
 - SAT 2014 (U13): Vaughan Kings (#27) 6, Toronto Red Wings (#59) 0 (GTHL).
 - 2014 Sun Nov 22: Dallas Stars Elite (#35) 9, Philadelphia Hockey Club (#53) 1, STL placement. No story (neither top 30).
+- 2013 Sun Nov 22: Bay State Breakers (#45) 5, Minuteman Flames (#82) 4, EHF. No story.
