@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Sunday: championship day. Scores update as games go final",
- "updated": "Sun Nov 22, 8:42 AM CT",
+ "updated": "Sun Nov 22, 8:51 AM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -927,7 +927,7 @@
   "2011": {
    "summary": [
     "Northeast Pack in Pittsburgh: The field: the top three 15U teams in the country are in the same building, and six of the league's eight teams are ranked in the top nine.",
-    "Standings: Bishop Kearney (#3, 95.85) 16 points. Mount St Charles (#4, 95.63) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#8, 94.35) 11. Woodbridge Wolfpack (#14, 93.46) 8. Chicago Mission (#13, 93.99) 7.",
+    "Standings: Bishop Kearney (#3, 95.91) 16 points. Mount St Charles (#4, 95.63) 14, with five straight wins. Pittsburgh Penguins Elite (#1, 96.84) 13. Chicago Reapers (#8, 94.31) 11. Woodbridge Wolfpack (#14, 93.46) 8. Chicago Mission (#13, 93.99) 7.",
     "Game of the weekend: Bishop Kearney at Pens Elite, Saturday 2:40 PM. #3 at #1, and the top two American teams; Bishop Kearney won 5-3 on Oct 3.",
     "Bishop Kearney: Wolfpack on Friday (won 3-2 the first time), Pens Elite on Saturday, at Chicago Reapers on Sunday at 7:00 AM. The Reapers gave Bishop Kearney its only league loss, 7-6 in a shootout."
    ],
@@ -1467,7 +1467,7 @@
      "rows": [
       [
        "Bishop Kearney Selects",
-       "22"
+       "24"
       ],
       [
        "Mount St Charles Hockey Academy",
@@ -1491,8 +1491,8 @@
       ]
      ],
      "b": [
-      "Bishop Kearney beat #1 Penguins Elite 4-2 on Saturday. Smith Vantine had a hat trick.",
-      "Mount St Charles: seven straight league wins."
+      "Sunday: Bishop Kearney beat the Reapers 4-1. Smith Vantine: two goals and an assist, a day after his hat trick against Penguins Elite.",
+      "Mount St Charles: seven straight league wins going into Sunday."
      ],
      "url": "https://gamesheetstats.com/seasons/15483/games"
     },
@@ -2226,12 +2226,17 @@
       ],
       [
        "St Louis Blues",
-       "2-2"
+       "3-2, third"
+      ],
+      [
+       "Chicago Reapers",
+       "1-4, fourth"
       ]
      ],
      "b": [
-      "Championship: Florida Alliance against Victory Honda, Sunday at 8:40 AM.",
-      "Colton Von Bokern (Florida Alliance): five goals, two game winners on Saturday."
+      "Championship: Florida Alliance against Victory Honda, Sunday 8:40 AM.",
+      "Third place: St Louis Blues 4, Chicago Reapers 3. The Reapers trailed 4-0.",
+      "Placement: Dallas Stars Elite 9, Philadelphia Hockey Club 1."
      ],
      "url": "https://gamesheetstats.com/seasons/16484/games"
     },
@@ -3352,6 +3357,22 @@
    "Standings: placement game only. Dallas finishes the showcase 2-3, Philadelphia 1-4.",
    "Ratings: Dallas 94.88 to 95.10, North America #35 to #34. Philadelphia 93.87 to 93.69, #53 to #57.",
    "Next: both teams are done at the showcase."
+  ],
+  "2014|2026-11-22|Chicago Reapers|St Louis Blues": [
+   "Final: St Louis Blues 4, Chicago Reapers 3, in the third-place game at the STL AAA Blues Showcase.",
+   "Scoring: St Louis led 3-0 after one period, with goals from Thomas Daake and Jacob Prest 24 seconds apart, and Cruze Wulkopf made it 4-0 in the second. The Reapers answered with three straight from Eichelberger on the power play, Triptow and Tenjiku, the last with 3:09 left.",
+   "Goalies: Nolan Blair got the win with three against. Boden Lynch took the loss.",
+   "Standings: St Louis finishes third at its own showcase at 3-2. The Reapers finish fourth at 1-4.",
+   "Ratings: almost no movement. St Louis stays 96.34 and North America #16. The Reapers go 95.57 to 95.56 and stay #29.",
+   "Next: the championship, Florida Alliance against Victory Honda, follows on the same rink."
+  ],
+  "2011|2026-11-22|Bishop Kearney Selects|Chicago Reapers": [
+   "Final: Bishop Kearney Selects 4, Chicago Reapers 1, in Northeast Pack league play outside Pittsburgh.",
+   "Scoring: Smith Vantine scored twice and set up another. Brody Trost had the winner on a second-period power play and Cristophe Chabot added a power-play goal in the third. Jaxson Daughenbaugh scored for the Reapers.",
+   "Goalies: James Hickey got the win with one against. Nolan Schmidt took the loss.",
+   "Standings: Bishop Kearney moves to 24 points and stays first in the league. The Reapers stay on 14.",
+   "Ratings: Bishop Kearney 95.85 to 95.91, still North America #3. The Reapers 94.35 to 94.31, still #8.",
+   "Next: both teams are done for the weekend in Pittsburgh."
   ]
  },
  "live_start": "2026-11-20T06:00:00-06:00",
