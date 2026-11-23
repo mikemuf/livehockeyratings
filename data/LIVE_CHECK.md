@@ -178,3 +178,4 @@ TIME CORRECTION: the entries above stamped '8:40 AM', '8:44 AM' and '8:50 AM' we
 18:37: GTHL 2016 Don Mills 5 Rebels 1 entered. Milwaukee x2 still Scheduled.
 19:32: owner's scores entered: 2013 Reapers 8-0 and 2-5 at Milwaukee (no story, owner). Doubleheader bug fixed (MISTAKE LOG 5 in SCHEDULING.md). Milwaukee chain item DONE; remaining GTHL only.
 19:38: GTHL nothing new. Next (last) sweep ~8:53 PM, then one at ~10:45 PM.
+20:54: GTHL entered: 2014 Marlboros 5 Senators 1; 2013 Reps 5 Senators 0; 2013 Marlboros 5 Don Mills 1. Left: U15 (2012) Marlboros v Don Mills 8:00 PM CT.
