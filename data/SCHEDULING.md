@@ -176,3 +176,9 @@ WHAT: 14U table showed Mid-Fairfield 29, Bishop Kearney 19, Mission 15, Wolfpack
 WHY: the section rows were typed in during the weekend and added to by hand after each final (3 for a regulation win, 2/1 after regulation), and some sheets were finalized or corrected later.
 FIX: rows replaced with the league page's numbers; wrap text corrected (Bishop Kearney 25).
 PREVENTION: league tables are READ, never added up: at the last final of each day (and before any standings slide) open gamesheetstats.com/seasons/<season>/standings (no filter: all divisions on one page; rows via tr cells: RK, TEAM, GP, W, L, T, OTW, OTL, SOW, SOL, PTS) and replace the section rows. Northeast Pack = season 15483.
+
+### MISTAKE LOG 7 (Sun Nov 22, 2026, 10:50 PM): event table ran off the phone screen
+- WHAT: owner's phone screenshot, 2012 tab, "Toronto (GTHL)" table: result text in the right column ran past the edge and the whole page slid sideways.
+- WHY: during the evening I added full result sentences ("beat Marlboros 2-0, Markham 3-0") to section rows. That right-hand cell was built for a short value (points, a record) and was set to never wrap. I checked the page on a wide screen only.
+- FIX (build/weekend.js + build/build.py): a row value longer than 8 characters now goes on its own line under the team name (class wkres; inline again at 700px+). Short values stay on the right on one line. Team-name cell wraps inside the card.
+- PREVENTION: after any change to section rows or build/weekend.js, load /live/ in a 390px-wide frame and run the width check on all six birth-year tabs: page scrollWidth minus clientWidth must be 0 and no .card wider than itself. Steps: iframe 390px on myplayerdata.com/live/, inner iframe document, click each 201x button, read the numbers. Keep row values short; a sentence belongs in the bullets.
