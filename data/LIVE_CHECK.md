@@ -179,3 +179,4 @@ TIME CORRECTION: the entries above stamped '8:40 AM', '8:44 AM' and '8:50 AM' we
 19:32: owner's scores entered: 2013 Reapers 8-0 and 2-5 at Milwaukee (no story, owner). Doubleheader bug fixed (MISTAKE LOG 5 in SCHEDULING.md). Milwaukee chain item DONE; remaining GTHL only.
 19:38: GTHL nothing new. Next (last) sweep ~8:53 PM, then one at ~10:45 PM.
 20:54: GTHL entered: 2014 Marlboros 5 Senators 1; 2013 Reps 5 Senators 0; 2013 Marlboros 5 Don Mills 1. Left: U15 (2012) Marlboros v Don Mills 8:00 PM CT.
+22:46: FINAL SWEEP: 2012 Marlboros 7 Don Mills 1 entered; every GTHL game for Nov 22 now has a score; status set to 'Weekend wrap. Final'. Chain ended. Still without a source: three 2012 Ontario league games (Oakville v Halton, York Simcoe v Peterborough, Barrie v Kingston): pick up Monday.
