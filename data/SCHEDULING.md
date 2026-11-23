@@ -170,3 +170,9 @@ WHAT: owner gave 2013 Reapers at Milwaukee, 8-0 then 2-5. After entry the Reaper
 WHY: build.py add() skips a 2012/2013 pending game when the same division, date and pair of teams is already present (a guard against the same game arriving from two sources), unless the game has a 7th element. Nothing reported the skip.
 FIX: tools/dh_mark.py marks the later game 'dh' when the scores differ; tools/live_pub.sh runs it before every build and prints "DOUBLEHEADER marked". Both games now count (Reapers 35-4-2, #2).
 PREVENTION: after entering any final, compare the team's record before and after (it must change by exactly the games entered): the post-publish rating comparison now prints the record too. Two games with the SAME score on the same day still need the 7th element added by hand.
+
+## MISTAKE LOG 6 (Nov 22 2026, 7:50 PM): Northeast Pack standings on the page were a point or two behind the league's
+WHAT: 14U table showed Mid-Fairfield 29, Bishop Kearney 19, Mission 15, Wolfpack 14, Rockets 9, Penguins Elite 8; the league page says 30, 20, 16, 15, 9, 10. 15U showed 24/22/18; the league says 25/23/19. Found while building the weekend results slide.
+WHY: the section rows were typed in during the weekend and added to by hand after each final (3 for a regulation win, 2/1 after regulation), and some sheets were finalized or corrected later.
+FIX: rows replaced with the league page's numbers; wrap text corrected (Bishop Kearney 25).
+PREVENTION: league tables are READ, never added up: at the last final of each day (and before any standings slide) open gamesheetstats.com/seasons/<season>/standings (no filter: all divisions on one page; rows via tr cells: RK, TEAM, GP, W, L, T, OTW, OTL, SOW, SOL, PTS) and replace the section rows. Northeast Pack = season 15483.

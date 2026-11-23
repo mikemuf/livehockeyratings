@@ -40,7 +40,7 @@ WRAP={
  "Bishop Kearney (#14, 96.56) won all three at the Northeast Pack, 5-3 over the Chicago Mission, 9-1 over the Rockets and 4-2 over Mount St Charles, and is second in the league.",
  "Team Illinois (#10, 97.09) won its own showcase at 4-0 and outscored its opponents 33-3.",
  "Pat Quinn Classic: Yale Hockey Academy won the title, 3-2 over Delta Hockey Academy in the final, and finished 5-0."],
-'2011':["Bishop Kearney (#3, 95.86) had the best weekend in the age group: 3-0 in Pittsburgh, including a 4-2 win over Pittsburgh Penguins Elite (#1, 96.84). It leads the Northeast Pack with 24 points.",
+'2011':["Bishop Kearney (#3, 95.86) had the best weekend in the age group: 3-0 in Pittsburgh, including a 4-2 win over Pittsburgh Penguins Elite (#1, 96.84). It leads the Northeast Pack with 25 points.",
  "Mount St Charles (#4, 95.61) has won eight straight league games and sits two points back.",
  "Chicago Mission (#13, 93.91) went 1-2: a 5-4 loss to Mount St Charles, a 3-2 win over Mid-Fairfield with three power-play goals, and a 7-3 loss to Penguins Elite.",
  "In Toronto, Vaughan Kings (#2, 96.04) shut out Toronto Jr Canadiens (#5, 95.16) 2-0 and are still unbeaten at 26-0-1.",
