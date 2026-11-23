@@ -3,6 +3,7 @@
 set -e
 cd /home/claude/livehockeyratings
 python3 tools/gs_fix.py
+python3 tools/dh_mark.py
 python3 - <<'P'
 import json,datetime,zoneinfo
 W=json.load(open('data/weekend_public.json'))
