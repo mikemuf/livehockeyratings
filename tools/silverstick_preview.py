@@ -69,7 +69,7 @@ for y,d in W['divs'].items():
     new=[{'t':'Weekend wrap','b':WRAP[y]}]
     if y in SS: new.append(ss_section(y))
     d['sections']=new+d['sections']
-W['status']='Weekend wrap. Late results are added as they are posted'
+W['status']='Weekend wrap. Final'
 W['updated']=subprocess.check_output(['date','+%a %b %-d, %-I:%M %p CT']).decode().strip()
 W['next']='Next: the International Silver Stick in Whitby, Nov 26–29.'
 json.dump(W,open('data/weekend_public.json','w'),indent=1,ensure_ascii=False)

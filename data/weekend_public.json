@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
- "status": "Weekend wrap. Late results are added as they are posted",
- "updated": "Sun Nov 22, 8:54 PM CT",
+ "status": "Weekend wrap. Final",
+ "updated": "Sun Nov 22, 10:46 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -11,7 +11,7 @@
    "summary": [
     "Northeast Pack in Pittsburgh: The field: all eight 14U teams are ranked in the top 28 in North America (top 17 in the USA). Twelve league games Friday to Sunday, three per team.",
     "Standings: Mid-Fairfield (#1, 99.99) 21 points, 7-0 in the league and 29-0-3 overall. Woodbridge Wolfpack (#11, 96.75) 13. Bishop Kearney (#14, 96.56) and Mount St Charles (#16, 96.36) 11 each. Chicago Mission (#9, 97.21) 10. Pittsburgh Penguins Elite (#27, 95.92) 8. NJ Rockets (#29, 95.72) 6. Chicago Reapers (#30, 95.72) 4.",
-    "Also big: Shattuck St Mary's (#2, 99.96) plays three at Little Caesars (#7, 97.24) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
+    "Also big: Shattuck St Mary's (#2, 99.95) plays three at Little Caesars (#7, 97.24) in Detroit, Friday 5:00 PM, Saturday 4:00 PM, Sunday 11:00 AM.",
     "Game of the weekend: Mid-Fairfield at Woodbridge Wolfpack, Saturday 3:00 PM. The Wolfpack scored five in a 7-5 loss on Oct 18; no one else in the league has scored more than three on Mid-Fairfield.",
     "Mid-Fairfield's other two: at Pens Elite on Friday (won 5-0 the first time), home to Chicago Reapers on Sunday (won 5-1)."
    ],
@@ -798,7 +798,7 @@
     {
      "t": "Weekend wrap",
      "b": [
-      "Shattuck St Mary's (#2, 99.96) swept three games at Little Caesars (#7, 97.24): 5-1, 8-3 and 4-1.",
+      "Shattuck St Mary's (#2, 99.95) swept three games at Little Caesars (#7, 97.24): 5-1, 8-3 and 4-1.",
       "Mid-Fairfield (#1, 99.99) went 3-0 in Pittsburgh and is 32-0-3. The Chicago Reapers pushed it on Sunday before losing 5-3.",
       "Upset of the weekend: the Chicago Reapers (#30, 95.72) beat Mount St Charles (#16, 96.36) 5-4 in overtime on Saturday.",
       "Bishop Kearney (#14, 96.56) won all three at the Northeast Pack, 5-3 over the Chicago Mission, 9-1 over the Rockets and 4-2 over Mount St Charles, and is second in the league.",
@@ -939,6 +939,10 @@
       [
        "Toronto Red Wings",
        "beat Vaughan Kings 3-0"
+      ],
+      [
+       "Toronto Marlboros",
+       "beat Don Mills 7-1"
       ]
      ],
      "b": []
