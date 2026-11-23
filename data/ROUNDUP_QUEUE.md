@@ -53,3 +53,4 @@
 - Sun Nov 22 (GTHL) Jr Canadiens sweep, no story: 2015 10-1 Red Wings; 2013 9-0 Rebels; 2012 3-0 Markham; 2014 7-2 Reps.
 - 2016 Sun Nov 22 (GTHL): Don Mills Flyers 5, Mississauga Rebels 1. No story.
 - 2013 Sun Nov 22: Milwaukee Jr Admirals (#27) 5, Chicago Reapers (#2) 2 (after Reapers 8-0 in game one). Rule C upset, but NO STORY (owner 7:31 PM: the score is a few hours old). Scores from the owner (7:31 PM); Milwaukee pages 45723534/45723536 still 'Scheduled': confirm there when posted.
+- Sun Nov 22 (GTHL) no story: 2014 Marlboros 5 Senators 1; 2013 Reps 5 Senators 0; 2013 Marlboros 5 Don Mills 1.

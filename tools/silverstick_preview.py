@@ -48,7 +48,7 @@ WRAP={
  "Oakland Jr Grizzlies (#12, 93.99) held off Fox Motors 5-4."],
 '2013':["Upset: Milwaukee Jr Admirals (#27, 90.48) beat the Chicago Reapers (#2, 94.80) 5-2 on Sunday afternoon, hours after the Reapers won the first game 8-0.",
  "Most of the rest of the top 20 were off ahead of the Silver Stick.",
- "Toronto Marlboros (#3, 94.32) beat Vaughan Kings (#10, 92.75) 3-2 and are still unbeaten at 20-0-1.",
+ "Toronto Marlboros (#3, 94.32) beat Vaughan Kings (#10, 92.75) 3-2 and Don Mills 5-1, and are still unbeaten at 21-0-1.",
  "Little Caesars (#5, 93.58) beat Compuware 10-1. Mid-Fairfield (#6, 93.54) swept Providence 8-2 and 9-3.",
  "Middlesex Islanders (#23, 90.85) won twice in New England, 5-3 over South Shore Kings and 5-2 over Providence.",
  ],
