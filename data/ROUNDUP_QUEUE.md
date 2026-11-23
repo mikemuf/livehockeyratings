@@ -51,3 +51,4 @@
 - 2011 Sun Nov 22 (GTHL): Toronto Jr Canadiens (#5) 3, Toronto Marlboros (#7) 1. Rule A (both top 30): story held (no stories for now).
 - 2016 Sun Nov 22 (GTHL): Toronto Jr Canadiens (#3) 2, Toronto Titans (#29) 1. Rule A (both top 30): story held.
 - Sun Nov 22 (GTHL) Jr Canadiens sweep, no story: 2015 10-1 Red Wings; 2013 9-0 Rebels; 2012 3-0 Markham; 2014 7-2 Reps.
+- 2016 Sun Nov 22 (GTHL): Don Mills Flyers 5, Mississauga Rebels 1. No story.
