@@ -177,3 +177,4 @@ TIME CORRECTION: the entries above stamped '8:40 AM', '8:44 AM' and '8:50 AM' we
 17:36: GTHL: six JRC results entered (2011 3-1 Marlboros; 2012 3-0 Markham; 2013 9-0 Rebels; 2014 7-2 Reps; 2015 10-1 Red Wings; 2016 2-1 Titans). Still blank: U13 Marlboros v Senators, U11 Rebels v Don Mills, U14 Senators v Reps, evening Marlboros v Don Mills x2.
 18:37: GTHL 2016 Don Mills 5 Rebels 1 entered. Milwaukee x2 still Scheduled.
 19:32: owner's scores entered: 2013 Reapers 8-0 and 2-5 at Milwaukee (no story, owner). Doubleheader bug fixed (MISTAKE LOG 5 in SCHEDULING.md). Milwaukee chain item DONE; remaining GTHL only.
+19:38: GTHL nothing new. Next (last) sweep ~8:53 PM, then one at ~10:45 PM.
