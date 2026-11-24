@@ -75,3 +75,4 @@ Detail files: SCHEDULING.md (page and planner rules), LIVE_CHECK.md (weekend log
 - Nov 22 3:27 PM: INSTAGRAM PAUSED (account disabled, appeal pending): no posts, stories, follows or Instagram pages until the owner says so (player/build/IG_SLOT.md).
 - Nov 22 3:41 PM: never open Instagram in Chrome to read scores or find handles (likely trigger of the Nov 22 account disable); no automated follows (owner 3:36 PM).
 - Nov 23, 8:37 AM: the owner handed day-to-day decisions to Claude ("your company to run"). What Claude decides alone, what still needs his yes, and the one-report-a-day shape: top of /home/claude/player/build/SALES.md. Separate Monday review switched off; the 9:10 PM report covers it.
+- Nov 23, 8:36 PM: InStat sweep moved from 1:00 AM to 7:00 AM Central (Sunday 6:00 AM). Details and the timing study: /home/claude/player/data/NIGHTLY.md.
