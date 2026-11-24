@@ -225,7 +225,8 @@ assert _nav
 h=h.replace(_nav.group(0),'<button data-view="wk" class="on">Live Scores</button>\n  <button data-view="na">North America</button>\n  <button data-view="rank">USA</button>\n  <button data-view="can">Canada</button>\n  <button data-view="team">Team math</button>\n  <button data-view="log">Game log</button>',1)
 h=h.replace('nav.tabs button[data-view="team"]{display:none!important}','nav.tabs button[data-view="team"],nav.tabs button[data-view="log"]{display:none!important}',1)
 assert h.count("let div='2012', view='rank', selTeam=null;")==1 and h.count("view='rank';selTeam=null;return}")==1
-h=h.replace("let div='2012', view='rank', selTeam=null;","let div='2012', view='wk', selTeam=null;",1).replace("view='rank';selTeam=null;return}","view='na';selTeam=null;return}",1)
+# SILVER STICK WEEK (owner Nov 24 4:22 PM): the page opens on 2013, whose Weekend tab is the Silver Stick preview. Put '2012' back Mon Nov 30.
+h=h.replace("let div='2012', view='rank', selTeam=null;","let div='2013', view='wk', selTeam=null;",1).replace("view='rank';selTeam=null;return}","view='na';selTeam=null;return}",1)
 h=h.replace('<a class="back" data-view="rank">','<a class="back" data-view="na">')
 h=h.replace('<section class="view on" id="v-rank">','<section class="view" id="v-rank">',1).replace('<section class="view" id="v-wk">','<section class="view on" id="v-wk">',1)
 # Rating change since the last published ratings, next to every rating on the North America, USA and Canada tabs (owner, Nov 20, 2026, 9:22 PM):
