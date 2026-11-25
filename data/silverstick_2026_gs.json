@@ -1,0 +1,1841 @@
+{
+"season": 16542,
+"url": "https://gamesheetstats.com/seasons/16542/games",
+"note": "Whitby International Silver Stick Finals Nov 26-29 2026 (GameSheet spells it \"Internaltional\"). Divisions on the sheet: U16 15U AAA (2011), U14 13U AAA (2013), U12 11U AAA (2015), U10 9U AAA (2017, not ours). Sheet times are Eastern. v/h below are RATING names (visitor, home as the sheet lists them). names = sheet name -> rating name per birth year. Found Nov 25 2026 2:30 AM through gamesheetinc.com search \"Whitby Silver Stick\" (owner). All 180 games matched our schedule by date, time and rink.",
+"names": {
+"2011": {
+"North Shore White Caps": "North Shore Whitecaps",
+"Detroit Little Caesars": "Little Caesars",
+"Toronto Young Nationals": "Toronto Nationals",
+"Pittsburgh Penguins": "Pittsburgh Penguins Elite",
+"Chicago Windy City Storm": "Windy City Storm",
+"Rochester Bishop Kearney Selects": "Bishop Kearney Selects",
+"Chatham Kent Cyclones": "Chatham-Kent Cyclones"
+},
+"2013": {
+"Toronto Young Nationals": "Toronto Nationals",
+"Pittsburgh Penguins": "Pittsburgh Penguins Elite",
+"Boston Minuteman Flames": "Minuteman Flames",
+"Detroit Little Caesars": "Little Caesars",
+"Ottawa Valley Tiitans": "Ottawa Valley Titans",
+"Huron Perth Lakers": "Huron-Perth Lakers",
+"Connecticut Nor'Easter": "Nor'easters",
+"Mid Fairfield Jr Rangers": "Mid-Fairfield",
+"Rochester Saints Hockey Club": "Rochester Saints",
+"Ottawa 67's": "Ottawa Jr 67's"
+},
+"2015": {
+"Toronto Young Nationals": "Toronto Nationals",
+"Middlesex Islanders": "Middlesex Islanders East (Elite)",
+"Detroit Little Caesars": "Little Caesars",
+"Boston Jr Eagles": "Boston Jr Eagles (Elite)",
+"Providence Capitals": "Providence Capitals (Elite)",
+"Boston South Shore Kings": "South Shore Kings (Elite)",
+"Boston Top Gun": "Top Gun (Elite)",
+"Pittsburgh Penguins": "Pittsburgh Penguins Elite (Mueller)",
+"Mid Fairfield Jr Rangers": "Mid-Fairfield Hockey Club (Elite)"
+}
+},
+"games": {
+"3183157": {
+"y": "2015",
+"k": 0,
+"v": "Sudbury Wolves",
+"h": "Toronto Marlboros",
+"date": "2026-11-26",
+"ct": "12:30 PM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "F"
+},
+"3183160": {
+"y": "2015",
+"k": 1,
+"v": "Toronto Jr Canadiens",
+"h": "York Simcoe Express",
+"date": "2026-11-26",
+"ct": "1:00 PM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "A"
+},
+"3183161": {
+"y": "2015",
+"k": 3,
+"v": "Niagara North Stars",
+"h": "Kitchener Jr Rangers",
+"date": "2026-11-26",
+"ct": "1:30 PM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "D"
+},
+"3183162": {
+"y": "2015",
+"k": 2,
+"v": "Toronto Nationals",
+"h": "Quinte Red Devils",
+"date": "2026-11-26",
+"ct": "1:30 PM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "B"
+},
+"3183163": {
+"y": "2015",
+"k": 4,
+"v": "Cleveland Barons",
+"h": "Whitby Wildcats",
+"date": "2026-11-26",
+"ct": "1:45 PM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "E"
+},
+"3183164": {
+"y": "2015",
+"k": 5,
+"v": "Oakville Rangers",
+"h": "London Jr Knights",
+"date": "2026-11-26",
+"ct": "3:30 PM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "A"
+},
+"3183165": {
+"y": "2015",
+"k": 6,
+"v": "Don Mills Flyers",
+"h": "Middlesex Islanders East (Elite)",
+"date": "2026-11-26",
+"ct": "3:35 PM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "C"
+},
+"3183166": {
+"y": "2015",
+"k": 7,
+"v": "Little Caesars",
+"h": "Buffalo Jr Sabres",
+"date": "2026-11-26",
+"ct": "4:05 PM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "D"
+},
+"3183167": {
+"y": "2015",
+"k": 8,
+"v": "Boston Jr Eagles (Elite)",
+"h": "Oakland Jr Grizzlies",
+"date": "2026-11-26",
+"ct": "4:30 PM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "F"
+},
+"3183168": {
+"y": "2015",
+"k": 9,
+"v": "Chicago Mission",
+"h": "Worcester Shamrocks",
+"date": "2026-11-26",
+"ct": "5:15 PM",
+"rink": "McKinney Centre, Rink 2, Whitby",
+"p": "B"
+},
+"3183193": {
+"y": "2011",
+"k": 0,
+"v": "Central Ontario Wolves",
+"h": "Mississauga Rebels",
+"date": "2026-11-26",
+"ct": "2:15 PM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "B"
+},
+"3183194": {
+"y": "2011",
+"k": 1,
+"v": "Elgin Middlesex Canucks",
+"h": "North Shore Whitecaps",
+"date": "2026-11-26",
+"ct": "2:35 PM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "D"
+},
+"3183195": {
+"y": "2011",
+"k": 2,
+"v": "York Simcoe Express",
+"h": "Vaughan Kings",
+"date": "2026-11-26",
+"ct": "2:45 PM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "E"
+},
+"3183196": {
+"y": "2011",
+"k": 3,
+"v": "Little Caesars",
+"h": "Palmyra Black Knights",
+"date": "2026-11-26",
+"ct": "4:20 PM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "F"
+},
+"3183197": {
+"y": "2011",
+"k": 4,
+"v": "Mississauga Senators",
+"h": "Hamilton Steel",
+"date": "2026-11-26",
+"ct": "5:20 PM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "A"
+},
+"3183198": {
+"y": "2011",
+"k": 5,
+"v": "Waterloo Wolves",
+"h": "Toronto Nationals",
+"date": "2026-11-26",
+"ct": "5:40 PM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "F"
+},
+"3183199": {
+"y": "2011",
+"k": 7,
+"v": "Pittsburgh Vengeance",
+"h": "Toronto Marlboros",
+"date": "2026-11-26",
+"ct": "5:45 PM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "D"
+},
+"3183200": {
+"y": "2011",
+"k": 6,
+"v": "Chicago Mission",
+"h": "Whitby Wildcats",
+"date": "2026-11-26",
+"ct": "5:45 PM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "A"
+},
+"3183201": {
+"y": "2011",
+"k": 8,
+"v": "Pittsburgh Penguins Elite",
+"h": "Halton Hurricanes",
+"date": "2026-11-26",
+"ct": "7:05 PM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "B"
+},
+"3183202": {
+"y": "2011",
+"k": 9,
+"v": "Soo Jr Greyhounds",
+"h": "Windy City Storm",
+"date": "2026-11-26",
+"ct": "7:25 PM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "E"
+},
+"3183203": {
+"y": "2011",
+"k": 11,
+"v": "Toronto Jr Canadiens",
+"h": "Bishop Kearney Selects",
+"date": "2026-11-26",
+"ct": "7:30 PM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "C"
+},
+"3183204": {
+"y": "2011",
+"k": 10,
+"v": "Ottawa Jr 67's",
+"h": "Oakland Jr Grizzlies",
+"date": "2026-11-26",
+"ct": "7:30 PM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "C"
+},
+"3183228": {
+"y": "2013",
+"k": 0,
+"v": "Toronto Nationals",
+"h": "Credit River Capitals",
+"date": "2026-11-26",
+"ct": "1:15 PM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "F"
+},
+"3183229": {
+"y": "2013",
+"k": 1,
+"v": "Sudbury Wolves",
+"h": "Hamilton Steel",
+"date": "2026-11-26",
+"ct": "2:15 PM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "E"
+},
+"3183230": {
+"y": "2013",
+"k": 2,
+"v": "Waterloo Wolves",
+"h": "Toronto Jr Canadiens",
+"date": "2026-11-26",
+"ct": "2:45 PM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "A"
+},
+"3183231": {
+"y": "2013",
+"k": 3,
+"v": "Buffalo Jr Sabres",
+"h": "Vaughan Kings",
+"date": "2026-11-26",
+"ct": "3:00 PM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "D"
+},
+"3183232": {
+"y": "2013",
+"k": 4,
+"v": "Elgin Middlesex Canucks",
+"h": "Pittsburgh Penguins Elite",
+"date": "2026-11-26",
+"ct": "4:00 PM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "B"
+},
+"3183233": {
+"y": "2013",
+"k": 5,
+"v": "York Simcoe Express",
+"h": "Minuteman Flames",
+"date": "2026-11-26",
+"ct": "4:20 PM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "A"
+},
+"3183234": {
+"y": "2013",
+"k": 6,
+"v": "Little Caesars",
+"h": "Ottawa Valley Titans",
+"date": "2026-11-26",
+"ct": "4:45 PM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "B"
+},
+"3183235": {
+"y": "2013",
+"k": 9,
+"v": "Chicago Mission",
+"h": "Quinte Red Devils",
+"date": "2026-11-26",
+"ct": "6:05 PM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "F"
+},
+"3183236": {
+"y": "2013",
+"k": 8,
+"v": "Ottawa Myers Automotive",
+"h": "Huron-Perth Lakers",
+"date": "2026-11-26",
+"ct": "6:05 PM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "D"
+},
+"3183237": {
+"y": "2013",
+"k": 7,
+"v": "Barrie Colts",
+"h": "Whitby Wildcats",
+"date": "2026-11-26",
+"ct": "6:05 PM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "C"
+},
+"3183423": {
+"y": "2013",
+"k": 10,
+"v": "Ottawa Valley Titans",
+"h": "Pittsburgh Penguins Elite",
+"date": "2026-11-27",
+"ct": "7:00 AM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "B"
+},
+"3183693": {
+"y": "2015",
+"k": 10,
+"v": "Quinte Red Devils",
+"h": "Providence Capitals (Elite)",
+"date": "2026-11-27",
+"ct": "7:00 AM",
+"rink": "Fieldgate Sports Complex, Rink 2",
+"p": "B"
+},
+"3183694": {
+"y": "2015",
+"k": 11,
+"v": "Whitby Wildcats",
+"h": "Ottawa Jr 67's",
+"date": "2026-11-27",
+"ct": "7:15 AM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "E"
+},
+"3183695": {
+"y": "2015",
+"k": 12,
+"v": "South Shore Kings (Elite)",
+"h": "Toronto Jr Canadiens",
+"date": "2026-11-27",
+"ct": "8:35 AM",
+"rink": "Fieldgate Sports Complex, Rink 1",
+"p": "A"
+},
+"3183696": {
+"y": "2015",
+"k": 13,
+"v": "Chicago Fury",
+"h": "Top Gun (Elite)",
+"date": "2026-11-27",
+"ct": "9:30 AM",
+"rink": "Thornhill Community Centre (West), Markham",
+"p": "C"
+},
+"3183697": {
+"y": "2015",
+"k": 14,
+"v": "Chicago Mission",
+"h": "Toronto Nationals",
+"date": "2026-11-27",
+"ct": "9:50 AM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "B"
+},
+"3183698": {
+"y": "2015",
+"k": 15,
+"v": "Elgin Middlesex Canucks",
+"h": "Don Mills Flyers",
+"date": "2026-11-27",
+"ct": "9:50 AM",
+"rink": "Fieldgate Sports Complex, Rink 1",
+"p": "C"
+},
+"3183699": {
+"y": "2015",
+"k": 17,
+"v": "Niagara North Stars",
+"h": "Little Caesars",
+"date": "2026-11-27",
+"ct": "10:05 AM",
+"rink": "McKinney Centre, Rink 2, Whitby",
+"p": "D"
+},
+"3183700": {
+"y": "2015",
+"k": 16,
+"v": "Upper Canada Cyclones",
+"h": "Buffalo Jr Sabres",
+"date": "2026-11-27",
+"ct": "10:05 AM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "D"
+},
+"3183737": {
+"y": "2011",
+"k": 12,
+"v": "Pittsburgh Vengeance",
+"h": "Elgin Middlesex Canucks",
+"date": "2026-11-27",
+"ct": "7:00 AM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "D"
+},
+"3183738": {
+"y": "2011",
+"k": 13,
+"v": "North Shore Whitecaps",
+"h": "Thunder Bay Kings",
+"date": "2026-11-27",
+"ct": "7:00 AM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "D"
+},
+"3183739": {
+"y": "2011",
+"k": 14,
+"v": "Whitby Wildcats",
+"h": "Ottawa Valley Titans",
+"date": "2026-11-27",
+"ct": "7:15 AM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "A"
+},
+"3183740": {
+"y": "2011",
+"k": 15,
+"v": "Mississauga Rebels",
+"h": "Kingston Jr Gaels",
+"date": "2026-11-27",
+"ct": "7:15 AM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "B"
+},
+"3183741": {
+"y": "2011",
+"k": 16,
+"v": "Mississauga Senators",
+"h": "Chicago Mission",
+"date": "2026-11-27",
+"ct": "8:20 AM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "A"
+},
+"3183742": {
+"y": "2011",
+"k": 17,
+"v": "Ottawa Myers Automotive",
+"h": "Vaughan Kings",
+"date": "2026-11-27",
+"ct": "8:30 AM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "E"
+},
+"3183743": {
+"y": "2011",
+"k": 18,
+"v": "Oakland Jr Grizzlies",
+"h": "Chatham-Kent Cyclones",
+"date": "2026-11-27",
+"ct": "8:45 AM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "C"
+},
+"3183744": {
+"y": "2011",
+"k": 20,
+"v": "Toronto Nationals",
+"h": "Little Caesars",
+"date": "2026-11-27",
+"ct": "9:00 AM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "F"
+},
+"3183745": {
+"y": "2011",
+"k": 19,
+"v": "Pittsburgh Penguins Elite",
+"h": "Central Ontario Wolves",
+"date": "2026-11-27",
+"ct": "9:00 AM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "B"
+},
+"3183746": {
+"y": "2011",
+"k": 21,
+"v": "Palmyra Black Knights",
+"h": "Upper Canada College",
+"date": "2026-11-27",
+"ct": "10:15 AM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "F"
+},
+"3183747": {
+"y": "2011",
+"k": 22,
+"v": "Toronto Jr Canadiens",
+"h": "Ottawa Jr 67's",
+"date": "2026-11-27",
+"ct": "10:45 AM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "C"
+},
+"3183764": {
+"y": "2013",
+"k": 11,
+"v": "Milwaukee Jr Admirals",
+"h": "Waterloo Wolves",
+"date": "2026-11-27",
+"ct": "7:15 AM",
+"rink": "Fieldgate Sports Complex, Rink 1",
+"p": "A"
+},
+"3183765": {
+"y": "2013",
+"k": 12,
+"v": "Niagara North Stars",
+"h": "Elgin Middlesex Canucks",
+"date": "2026-11-27",
+"ct": "7:30 AM",
+"rink": "McKinney Centre, Rink 2, Whitby",
+"p": "B"
+},
+"3183766": {
+"y": "2013",
+"k": 13,
+"v": "Hamilton Steel",
+"h": "Nor'easters",
+"date": "2026-11-27",
+"ct": "8:30 AM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "E"
+},
+"3183767": {
+"y": "2013",
+"k": 14,
+"v": "Whitby Wildcats",
+"h": "Mid-Fairfield",
+"date": "2026-11-27",
+"ct": "8:45 AM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "C"
+},
+"3183768": {
+"y": "2013",
+"k": 15,
+"v": "Rochester Saints",
+"h": "Vaughan Kings",
+"date": "2026-11-27",
+"ct": "9:30 AM",
+"rink": "Fieldgate Sports Complex, Rink 2",
+"p": "D"
+},
+"3183769": {
+"y": "2013",
+"k": 16,
+"v": "Toronto Jr Canadiens",
+"h": "York Simcoe Express",
+"date": "2026-11-27",
+"ct": "10:05 AM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "A"
+},
+"3183770": {
+"y": "2013",
+"k": 17,
+"v": "Toronto Marlboros",
+"h": "Syracuse Nationals",
+"date": "2026-11-27",
+"ct": "10:30 AM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "E"
+},
+"3183771": {
+"y": "2013",
+"k": 18,
+"v": "Chicago Reapers",
+"h": "Ottawa Jr 67's",
+"date": "2026-11-27",
+"ct": "10:45 AM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "C"
+},
+"3184183": {
+"y": "2015",
+"k": 18,
+"v": "Toronto Marlboros",
+"h": "Florida Surf",
+"date": "2026-11-27",
+"ct": "12:00 PM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "F"
+},
+"3184184": {
+"y": "2015",
+"k": 19,
+"v": "Cleveland Barons",
+"h": "Pittsburgh Penguins Elite (Mueller)",
+"date": "2026-11-27",
+"ct": "12:20 PM",
+"rink": "Canlan Ice Sports, Rink 1, Oshawa",
+"p": "E"
+},
+"3184185": {
+"y": "2015",
+"k": 20,
+"v": "Oakland Jr Grizzlies",
+"h": "Sudbury Wolves",
+"date": "2026-11-27",
+"ct": "12:20 PM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "F"
+},
+"3184186": {
+"y": "2015",
+"k": 21,
+"v": "Worcester Shamrocks",
+"h": "Providence Capitals (Elite)",
+"date": "2026-11-27",
+"ct": "12:40 PM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "B"
+},
+"3184187": {
+"y": "2015",
+"k": 24,
+"v": "Mid-Fairfield Hockey Club (Elite)",
+"h": "Ottawa Jr 67's",
+"date": "2026-11-27",
+"ct": "1:35 PM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "E"
+},
+"3184188": {
+"y": "2015",
+"k": 23,
+"v": "Toronto Jr Canadiens",
+"h": "London Jr Knights",
+"date": "2026-11-27",
+"ct": "1:35 PM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "A"
+},
+"3184189": {
+"y": "2015",
+"k": 22,
+"v": "York Simcoe Express",
+"h": "South Shore Kings (Elite)",
+"date": "2026-11-27",
+"ct": "1:35 PM",
+"rink": "Canlan Ice Sports, Rink 1, Oshawa",
+"p": "A"
+},
+"3184212": {
+"y": "2011",
+"k": 23,
+"v": "Windy City Storm",
+"h": "York Simcoe Express",
+"date": "2026-11-27",
+"ct": "11:25 AM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "E"
+},
+"3184213": {
+"y": "2011",
+"k": 24,
+"v": "Ottawa Valley Titans",
+"h": "Hamilton Steel",
+"date": "2026-11-27",
+"ct": "11:50 AM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "A"
+},
+"3184214": {
+"y": "2011",
+"k": 25,
+"v": "Kingston Jr Gaels",
+"h": "Halton Hurricanes",
+"date": "2026-11-27",
+"ct": "12:30 PM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "B"
+},
+"3184215": {
+"y": "2011",
+"k": 26,
+"v": "Chatham-Kent Cyclones",
+"h": "Bishop Kearney Selects",
+"date": "2026-11-27",
+"ct": "1:10 PM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "C"
+},
+"3184216": {
+"y": "2011",
+"k": 27,
+"v": "Thunder Bay Kings",
+"h": "Toronto Marlboros",
+"date": "2026-11-27",
+"ct": "1:20 PM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "D"
+},
+"3184217": {
+"y": "2011",
+"k": 28,
+"v": "Vaughan Kings",
+"h": "Soo Jr Greyhounds",
+"date": "2026-11-27",
+"ct": "1:55 PM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "E"
+},
+"3184218": {
+"y": "2011",
+"k": 29,
+"v": "Whitby Wildcats",
+"h": "Mississauga Senators",
+"date": "2026-11-27",
+"ct": "2:40 PM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "A"
+},
+"3184335": {
+"y": "2013",
+"k": 19,
+"v": "Huron-Perth Lakers",
+"h": "Buffalo Jr Sabres",
+"date": "2026-11-27",
+"ct": "11:05 AM",
+"rink": "Fieldgate Sports Complex, Rink 1",
+"p": "D"
+},
+"3184336": {
+"y": "2013",
+"k": 20,
+"v": "Chicago Mission",
+"h": "Toronto Nationals",
+"date": "2026-11-27",
+"ct": "11:20 AM",
+"rink": "McKinney Centre, Rink 2, Whitby",
+"p": "F"
+},
+"3184337": {
+"y": "2013",
+"k": 21,
+"v": "Credit River Capitals",
+"h": "Middlesex Islanders",
+"date": "2026-11-27",
+"ct": "11:20 AM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "F"
+},
+"3184338": {
+"y": "2013",
+"k": 22,
+"v": "Pittsburgh Penguins Elite",
+"h": "Little Caesars",
+"date": "2026-11-27",
+"ct": "12:25 PM",
+"rink": "Fieldgate Sports Complex, Rink 1",
+"p": "B"
+},
+"3184339": {
+"y": "2013",
+"k": 23,
+"v": "Mid-Fairfield",
+"h": "Barrie Colts",
+"date": "2026-11-27",
+"ct": "1:20 PM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "C"
+},
+"3184340": {
+"y": "2013",
+"k": 24,
+"v": "Elgin Middlesex Canucks",
+"h": "Ottawa Valley Titans",
+"date": "2026-11-27",
+"ct": "1:45 PM",
+"rink": "Fieldgate Sports Complex, Rink 1",
+"p": "B"
+},
+"3184341": {
+"y": "2013",
+"k": 25,
+"v": "Ottawa Myers Automotive",
+"h": "Rochester Saints",
+"date": "2026-11-27",
+"ct": "2:35 PM",
+"rink": "Fieldgate Sports Complex, Rink 2",
+"p": "D"
+},
+"3184342": {
+"y": "2013",
+"k": 27,
+"v": "Syracuse Nationals",
+"h": "Nor'easters",
+"date": "2026-11-27",
+"ct": "2:50 PM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "E"
+},
+"3184343": {
+"y": "2013",
+"k": 26,
+"v": "Milwaukee Jr Admirals",
+"h": "Minuteman Flames",
+"date": "2026-11-27",
+"ct": "2:50 PM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "A"
+},
+"3185040": {
+"y": "2015",
+"k": 25,
+"v": "Top Gun (Elite)",
+"h": "Middlesex Islanders East (Elite)",
+"date": "2026-11-27",
+"ct": "3:10 PM",
+"rink": "McKinney Centre, Rink 2, Whitby",
+"p": "C"
+},
+"3185041": {
+"y": "2015",
+"k": 26,
+"v": "Quinte Red Devils",
+"h": "Chicago Mission",
+"date": "2026-11-27",
+"ct": "3:30 PM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "B"
+},
+"3185042": {
+"y": "2015",
+"k": 27,
+"v": "Toronto Marlboros",
+"h": "Boston Jr Eagles (Elite)",
+"date": "2026-11-27",
+"ct": "4:10 PM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "F"
+},
+"3185043": {
+"y": "2015",
+"k": 28,
+"v": "Elgin Middlesex Canucks",
+"h": "Chicago Fury",
+"date": "2026-11-27",
+"ct": "4:45 PM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "C"
+},
+"3185044": {
+"y": "2015",
+"k": 29,
+"v": "Kitchener Jr Rangers",
+"h": "Upper Canada Cyclones",
+"date": "2026-11-27",
+"ct": "4:50 PM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "D"
+},
+"3185045": {
+"y": "2015",
+"k": 30,
+"v": "Toronto Nationals",
+"h": "Worcester Shamrocks",
+"date": "2026-11-27",
+"ct": "5:25 PM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "B"
+},
+"3185064": {
+"y": "2011",
+"k": 30,
+"v": "North Shore Whitecaps",
+"h": "Pittsburgh Vengeance",
+"date": "2026-11-27",
+"ct": "2:55 PM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "D"
+},
+"3185065": {
+"y": "2011",
+"k": 31,
+"v": "Waterloo Wolves",
+"h": "Little Caesars",
+"date": "2026-11-27",
+"ct": "3:05 PM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "F"
+},
+"3185066": {
+"y": "2011",
+"k": 32,
+"v": "Oakland Jr Grizzlies",
+"h": "Toronto Jr Canadiens",
+"date": "2026-11-27",
+"ct": "3:40 PM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "C"
+},
+"3185067": {
+"y": "2011",
+"k": 33,
+"v": "Mississauga Rebels",
+"h": "Pittsburgh Penguins Elite",
+"date": "2026-11-27",
+"ct": "4:25 PM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "B"
+},
+"3185068": {
+"y": "2011",
+"k": 34,
+"v": "Windy City Storm",
+"h": "Ottawa Myers Automotive",
+"date": "2026-11-27",
+"ct": "5:25 PM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "E"
+},
+"3185069": {
+"y": "2011",
+"k": 35,
+"v": "Toronto Marlboros",
+"h": "Elgin Middlesex Canucks",
+"date": "2026-11-27",
+"ct": "5:55 PM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "D"
+},
+"3185070": {
+"y": "2011",
+"k": 36,
+"v": "Hamilton Steel",
+"h": "Chicago Mission",
+"date": "2026-11-27",
+"ct": "6:00 PM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "A"
+},
+"3185071": {
+"y": "2011",
+"k": 37,
+"v": "Upper Canada College",
+"h": "Toronto Nationals",
+"date": "2026-11-27",
+"ct": "6:40 PM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "F"
+},
+"3185093": {
+"y": "2013",
+"k": 28,
+"v": "Sudbury Wolves",
+"h": "Toronto Marlboros",
+"date": "2026-11-27",
+"ct": "3:05 PM",
+"rink": "Fieldgate Sports Complex, Rink 1",
+"p": "E"
+},
+"3185094": {
+"y": "2013",
+"k": 29,
+"v": "Whitby Wildcats",
+"h": "Chicago Reapers",
+"date": "2026-11-27",
+"ct": "3:55 PM",
+"rink": "Fieldgate Sports Complex, Rink 2",
+"p": "C"
+},
+"3185095": {
+"y": "2013",
+"k": 30,
+"v": "Middlesex Islanders",
+"h": "Quinte Red Devils",
+"date": "2026-11-27",
+"ct": "4:25 PM",
+"rink": "Fieldgate Sports Complex, Rink 1",
+"p": "F"
+},
+"3185096": {
+"y": "2013",
+"k": 31,
+"v": "Niagara North Stars",
+"h": "Little Caesars",
+"date": "2026-11-27",
+"ct": "6:10 PM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "B"
+},
+"3185185": {
+"y": "2015",
+"k": 31,
+"v": "Pittsburgh Penguins Elite (Mueller)",
+"h": "Mid-Fairfield Hockey Club (Elite)",
+"date": "2026-11-27",
+"ct": "6:30 PM",
+"rink": "Fieldgate Sports Complex, Rink 2",
+"p": "E"
+},
+"3185186": {
+"y": "2015",
+"k": 32,
+"v": "Sudbury Wolves",
+"h": "Florida Surf",
+"date": "2026-11-27",
+"ct": "6:40 PM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "F"
+},
+"3185187": {
+"y": "2015",
+"k": 33,
+"v": "York Simcoe Express",
+"h": "Oakville Rangers",
+"date": "2026-11-27",
+"ct": "6:55 PM",
+"rink": "McKinney Centre, Rink 2, Whitby",
+"p": "A"
+},
+"3185202": {
+"y": "2011",
+"k": 38,
+"v": "Bishop Kearney Selects",
+"h": "Ottawa Jr 67's",
+"date": "2026-11-27",
+"ct": "7:10 PM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "C"
+},
+"3185203": {
+"y": "2011",
+"k": 39,
+"v": "Halton Hurricanes",
+"h": "Central Ontario Wolves",
+"date": "2026-11-27",
+"ct": "7:30 PM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "B"
+},
+"3185204": {
+"y": "2011",
+"k": 40,
+"v": "Palmyra Black Knights",
+"h": "Waterloo Wolves",
+"date": "2026-11-27",
+"ct": "7:40 PM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "F"
+},
+"3185205": {
+"y": "2011",
+"k": 41,
+"v": "York Simcoe Express",
+"h": "Soo Jr Greyhounds",
+"date": "2026-11-27",
+"ct": "7:45 PM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "E"
+},
+"3185211": {
+"y": "2013",
+"k": 32,
+"v": "Barrie Colts",
+"h": "Ottawa Jr 67's",
+"date": "2026-11-27",
+"ct": "7:25 PM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "C"
+},
+"3186040": {
+"y": "2015",
+"k": 34,
+"v": "Whitby Wildcats",
+"h": "Mid-Fairfield Hockey Club (Elite)",
+"date": "2026-11-28",
+"ct": "7:15 AM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "E"
+},
+"3186041": {
+"y": "2015",
+"k": 36,
+"v": "Upper Canada Cyclones",
+"h": "Niagara North Stars",
+"date": "2026-11-28",
+"ct": "8:15 AM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "D"
+},
+"3186042": {
+"y": "2015",
+"k": 35,
+"v": "Chicago Fury",
+"h": "Don Mills Flyers",
+"date": "2026-11-28",
+"ct": "8:15 AM",
+"rink": "Fieldgate Sports Complex, Rink 2",
+"p": "C"
+},
+"3186043": {
+"y": "2015",
+"k": 37,
+"v": "Kitchener Jr Rangers",
+"h": "Little Caesars",
+"date": "2026-11-28",
+"ct": "8:30 AM",
+"rink": "Canlan Ice Sports, Rink 1, Oshawa",
+"p": "D"
+},
+"3186044": {
+"y": "2015",
+"k": 38,
+"v": "Florida Surf",
+"h": "Oakland Jr Grizzlies",
+"date": "2026-11-28",
+"ct": "9:00 AM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "F"
+},
+"3186045": {
+"y": "2015",
+"k": 39,
+"v": "Oakville Rangers",
+"h": "Toronto Jr Canadiens",
+"date": "2026-11-28",
+"ct": "9:30 AM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "A"
+},
+"3186046": {
+"y": "2015",
+"k": 40,
+"v": "Providence Capitals (Elite)",
+"h": "Chicago Mission",
+"date": "2026-11-28",
+"ct": "9:45 AM",
+"rink": "Canlan Ice Sports, Rink 1, Oshawa",
+"p": "B"
+},
+"3186047": {
+"y": "2015",
+"k": 41,
+"v": "Top Gun (Elite)",
+"h": "Elgin Middlesex Canucks",
+"date": "2026-11-28",
+"ct": "9:55 AM",
+"rink": "Fieldgate Sports Complex, Rink 1",
+"p": "C"
+},
+"3186061": {
+"y": "2013",
+"k": 33,
+"v": "Quinte Red Devils",
+"h": "Toronto Nationals",
+"date": "2026-11-28",
+"ct": "6:55 AM",
+"rink": "Fieldgate Sports Complex, Rink 2",
+"p": "F"
+},
+"3186062": {
+"y": "2013",
+"k": 34,
+"v": "Nor'easters",
+"h": "Sudbury Wolves",
+"date": "2026-11-28",
+"ct": "7:15 AM",
+"rink": "Fieldgate Sports Complex, Rink 1",
+"p": "E"
+},
+"3186063": {
+"y": "2013",
+"k": 35,
+"v": "Rochester Saints",
+"h": "Buffalo Jr Sabres",
+"date": "2026-11-28",
+"ct": "8:15 AM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "D"
+},
+"3186064": {
+"y": "2013",
+"k": 37,
+"v": "Hamilton Steel",
+"h": "Syracuse Nationals",
+"date": "2026-11-28",
+"ct": "8:35 AM",
+"rink": "Fieldgate Sports Complex, Rink 1",
+"p": "E"
+},
+"3186065": {
+"y": "2013",
+"k": 36,
+"v": "Minuteman Flames",
+"h": "Waterloo Wolves",
+"date": "2026-11-28",
+"ct": "8:35 AM",
+"rink": "McKinney Centre, Rink 2, Whitby",
+"p": "A"
+},
+"3186066": {
+"y": "2013",
+"k": 38,
+"v": "Ottawa Valley Titans",
+"h": "Niagara North Stars",
+"date": "2026-11-28",
+"ct": "8:45 AM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "B"
+},
+"3186067": {
+"y": "2013",
+"k": 39,
+"v": "Vaughan Kings",
+"h": "Huron-Perth Lakers",
+"date": "2026-11-28",
+"ct": "9:30 AM",
+"rink": "Fieldgate Sports Complex, Rink 2",
+"p": "D"
+},
+"3186068": {
+"y": "2013",
+"k": 40,
+"v": "Chicago Reapers",
+"h": "Barrie Colts",
+"date": "2026-11-28",
+"ct": "9:55 AM",
+"rink": "McKinney Centre, Rink 2, Whitby",
+"p": "C"
+},
+"3186069": {
+"y": "2013",
+"k": 42,
+"v": "Middlesex Islanders",
+"h": "Chicago Mission",
+"date": "2026-11-28",
+"ct": "10:15 AM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "F"
+},
+"3186070": {
+"y": "2013",
+"k": 41,
+"v": "York Simcoe Express",
+"h": "Milwaukee Jr Admirals",
+"date": "2026-11-28",
+"ct": "10:15 AM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "A"
+},
+"3186071": {
+"y": "2013",
+"k": 43,
+"v": "Ottawa Jr 67's",
+"h": "Mid-Fairfield",
+"date": "2026-11-28",
+"ct": "10:50 AM",
+"rink": "Fieldgate Sports Complex, Rink 2",
+"p": "C"
+},
+"3186077": {
+"y": "2011",
+"k": 42,
+"v": "Ottawa Jr 67's",
+"h": "Chatham-Kent Cyclones",
+"date": "2026-11-28",
+"ct": "7:00 AM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "C"
+},
+"3186078": {
+"y": "2011",
+"k": 43,
+"v": "Central Ontario Wolves",
+"h": "Kingston Jr Gaels",
+"date": "2026-11-28",
+"ct": "7:15 AM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "B"
+},
+"3186079": {
+"y": "2011",
+"k": 44,
+"v": "Ottawa Valley Titans",
+"h": "Mississauga Senators",
+"date": "2026-11-28",
+"ct": "8:10 AM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "A"
+},
+"3186080": {
+"y": "2011",
+"k": 45,
+"v": "Little Caesars",
+"h": "Upper Canada College",
+"date": "2026-11-28",
+"ct": "8:15 AM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "F"
+},
+"3186081": {
+"y": "2011",
+"k": 46,
+"v": "Elgin Middlesex Canucks",
+"h": "Thunder Bay Kings",
+"date": "2026-11-28",
+"ct": "8:30 AM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "D"
+},
+"3186082": {
+"y": "2011",
+"k": 47,
+"v": "Soo Jr Greyhounds",
+"h": "Ottawa Myers Automotive",
+"date": "2026-11-28",
+"ct": "9:55 AM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "E"
+},
+"3186791": {
+"y": "2015",
+"k": 42,
+"v": "Boston Jr Eagles (Elite)",
+"h": "Sudbury Wolves",
+"date": "2026-11-28",
+"ct": "10:45 AM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "F"
+},
+"3186792": {
+"y": "2015",
+"k": 43,
+"v": "London Jr Knights",
+"h": "South Shore Kings (Elite)",
+"date": "2026-11-28",
+"ct": "10:50 AM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "A"
+},
+"3186793": {
+"y": "2015",
+"k": 44,
+"v": "Ottawa Jr 67's",
+"h": "Cleveland Barons",
+"date": "2026-11-28",
+"ct": "11:15 AM",
+"rink": "McKinney Centre, Rink 2, Whitby",
+"p": "E"
+},
+"3186794": {
+"y": "2015",
+"k": 45,
+"v": "Worcester Shamrocks",
+"h": "Quinte Red Devils",
+"date": "2026-11-28",
+"ct": "11:20 AM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "B"
+},
+"3186795": {
+"y": "2015",
+"k": 46,
+"v": "Pittsburgh Penguins Elite (Mueller)",
+"h": "Whitby Wildcats",
+"date": "2026-11-28",
+"ct": "11:35 AM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "E"
+},
+"3186796": {
+"y": "2015",
+"k": 47,
+"v": "Middlesex Islanders East (Elite)",
+"h": "Chicago Fury",
+"date": "2026-11-28",
+"ct": "1:20 PM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "C"
+},
+"3186797": {
+"y": "2015",
+"k": 48,
+"v": "Buffalo Jr Sabres",
+"h": "Niagara North Stars",
+"date": "2026-11-28",
+"ct": "1:30 PM",
+"rink": "Canlan Ice Sports, Rink 1, Oshawa",
+"p": "D"
+},
+"3186798": {
+"y": "2015",
+"k": 49,
+"v": "Little Caesars",
+"h": "Upper Canada Cyclones",
+"date": "2026-11-28",
+"ct": "1:45 PM",
+"rink": "Fieldgate Sports Complex, Rink 1",
+"p": "D"
+},
+"3186813": {
+"y": "2013",
+"k": 44,
+"v": "Quinte Red Devils",
+"h": "Credit River Capitals",
+"date": "2026-11-28",
+"ct": "11:20 AM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "F"
+},
+"3186814": {
+"y": "2013",
+"k": 45,
+"v": "Nor'easters",
+"h": "Toronto Marlboros",
+"date": "2026-11-28",
+"ct": "12:00 PM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "E"
+},
+"3186815": {
+"y": "2013",
+"k": 46,
+"v": "Little Caesars",
+"h": "Elgin Middlesex Canucks",
+"date": "2026-11-28",
+"ct": "12:25 PM",
+"rink": "Fieldgate Sports Complex, Rink 1",
+"p": "B"
+},
+"3186816": {
+"y": "2013",
+"k": 47,
+"v": "Syracuse Nationals",
+"h": "Sudbury Wolves",
+"date": "2026-11-28",
+"ct": "1:25 PM",
+"rink": "Fieldgate Sports Complex, Rink 2",
+"p": "E"
+},
+"3186817": {
+"y": "2013",
+"k": 48,
+"v": "Buffalo Jr Sabres",
+"h": "Ottawa Myers Automotive",
+"date": "2026-11-28",
+"ct": "1:45 PM",
+"rink": "McKinney Centre, Rink 2, Whitby",
+"p": "D"
+},
+"3186818": {
+"y": "2013",
+"k": 49,
+"v": "Minuteman Flames",
+"h": "Toronto Jr Canadiens",
+"date": "2026-11-28",
+"ct": "2:35 PM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "A"
+},
+"3186829": {
+"y": "2011",
+"k": 48,
+"v": "Vaughan Kings",
+"h": "Windy City Storm",
+"date": "2026-11-28",
+"ct": "12:05 PM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "E"
+},
+"3186830": {
+"y": "2011",
+"k": 49,
+"v": "Bishop Kearney Selects",
+"h": "Oakland Jr Grizzlies",
+"date": "2026-11-28",
+"ct": "12:35 PM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "C"
+},
+"3186831": {
+"y": "2011",
+"k": 50,
+"v": "Hamilton Steel",
+"h": "Whitby Wildcats",
+"date": "2026-11-28",
+"ct": "12:40 PM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "A"
+},
+"3186832": {
+"y": "2011",
+"k": 51,
+"v": "Toronto Nationals",
+"h": "Palmyra Black Knights",
+"date": "2026-11-28",
+"ct": "12:50 PM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "F"
+},
+"3186833": {
+"y": "2011",
+"k": 52,
+"v": "Kingston Jr Gaels",
+"h": "Pittsburgh Penguins Elite",
+"date": "2026-11-28",
+"ct": "1:00 PM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "B"
+},
+"3186834": {
+"y": "2011",
+"k": 53,
+"v": "Upper Canada College",
+"h": "Waterloo Wolves",
+"date": "2026-11-28",
+"ct": "1:00 PM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "F"
+},
+"3186835": {
+"y": "2011",
+"k": 54,
+"v": "Thunder Bay Kings",
+"h": "Pittsburgh Vengeance",
+"date": "2026-11-28",
+"ct": "1:50 PM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "D"
+},
+"3186836": {
+"y": "2011",
+"k": 55,
+"v": "Chatham-Kent Cyclones",
+"h": "Toronto Jr Canadiens",
+"date": "2026-11-28",
+"ct": "2:20 PM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "C"
+},
+"3186837": {
+"y": "2011",
+"k": 56,
+"v": "Halton Hurricanes",
+"h": "Mississauga Rebels",
+"date": "2026-11-28",
+"ct": "2:25 PM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "B"
+},
+"3186838": {
+"y": "2011",
+"k": 57,
+"v": "Ottawa Myers Automotive",
+"h": "York Simcoe Express",
+"date": "2026-11-28",
+"ct": "2:35 PM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "E"
+},
+"3186839": {
+"y": "2011",
+"k": 59,
+"v": "Toronto Marlboros",
+"h": "North Shore Whitecaps",
+"date": "2026-11-28",
+"ct": "2:45 PM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "D"
+},
+"3186840": {
+"y": "2011",
+"k": 58,
+"v": "Chicago Mission",
+"h": "Ottawa Valley Titans",
+"date": "2026-11-28",
+"ct": "2:45 PM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "A"
+},
+"3187435": {
+"y": "2015",
+"k": 50,
+"v": "Oakland Jr Grizzlies",
+"h": "Toronto Marlboros",
+"date": "2026-11-28",
+"ct": "3:00 PM",
+"rink": "Fieldgate Sports Complex, Rink 1",
+"p": "F"
+},
+"3187436": {
+"y": "2015",
+"k": 51,
+"v": "Providence Capitals (Elite)",
+"h": "Toronto Nationals",
+"date": "2026-11-28",
+"ct": "4:00 PM",
+"rink": "Fieldgate Sports Complex, Rink 2",
+"p": "B"
+},
+"3187437": {
+"y": "2015",
+"k": 52,
+"v": "Mid-Fairfield Hockey Club (Elite)",
+"h": "Cleveland Barons",
+"date": "2026-11-28",
+"ct": "4:15 PM",
+"rink": "Fieldgate Sports Complex, Rink 1",
+"p": "E"
+},
+"3187438": {
+"y": "2015",
+"k": 53,
+"v": "South Shore Kings (Elite)",
+"h": "Oakville Rangers",
+"date": "2026-11-28",
+"ct": "4:20 PM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "A"
+},
+"3187439": {
+"y": "2015",
+"k": 55,
+"v": "Don Mills Flyers",
+"h": "Top Gun (Elite)",
+"date": "2026-11-28",
+"ct": "4:30 PM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "C"
+},
+"3187440": {
+"y": "2015",
+"k": 54,
+"v": "London Jr Knights",
+"h": "York Simcoe Express",
+"date": "2026-11-28",
+"ct": "4:30 PM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "A"
+},
+"3187441": {
+"y": "2015",
+"k": 56,
+"v": "Florida Surf",
+"h": "Boston Jr Eagles (Elite)",
+"date": "2026-11-28",
+"ct": "5:30 PM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "F"
+},
+"3187442": {
+"y": "2015",
+"k": 57,
+"v": "Ottawa Jr 67's",
+"h": "Pittsburgh Penguins Elite (Mueller)",
+"date": "2026-11-28",
+"ct": "5:35 PM",
+"rink": "McKinney Centre, Rink 2, Whitby",
+"p": "E"
+},
+"3187443": {
+"y": "2015",
+"k": 58,
+"v": "Middlesex Islanders East (Elite)",
+"h": "Elgin Middlesex Canucks",
+"date": "2026-11-28",
+"ct": "5:45 PM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "C"
+},
+"3187444": {
+"y": "2015",
+"k": 59,
+"v": "Buffalo Jr Sabres",
+"h": "Kitchener Jr Rangers",
+"date": "2026-11-28",
+"ct": "5:45 PM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "D"
+},
+"3187453": {
+"y": "2013",
+"k": 50,
+"v": "Pittsburgh Penguins Elite",
+"h": "Niagara North Stars",
+"date": "2026-11-28",
+"ct": "3:55 PM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "B"
+},
+"3187454": {
+"y": "2013",
+"k": 51,
+"v": "Waterloo Wolves",
+"h": "York Simcoe Express",
+"date": "2026-11-28",
+"ct": "4:10 PM",
+"rink": "Iroquois Park Sports Centre, Rink 2, Whitby",
+"p": "A"
+},
+"3187455": {
+"y": "2013",
+"k": 52,
+"v": "Mid-Fairfield",
+"h": "Chicago Reapers",
+"date": "2026-11-28",
+"ct": "6:05 PM",
+"rink": "Iroquois Park Sports Centre, Rink 5, Whitby",
+"p": "C"
+},
+"3187456": {
+"y": "2013",
+"k": 54,
+"v": "Toronto Nationals",
+"h": "Middlesex Islanders",
+"date": "2026-11-28",
+"ct": "6:30 PM",
+"rink": "Fieldgate Sports Complex, Rink 2",
+"p": "F"
+},
+"3187457": {
+"y": "2013",
+"k": 53,
+"v": "Ottawa Jr 67's",
+"h": "Whitby Wildcats",
+"date": "2026-11-28",
+"ct": "6:30 PM",
+"rink": "McKinney Centre, Rink 1, Whitby",
+"p": "C"
+},
+"3187458": {
+"y": "2013",
+"k": 55,
+"v": "Toronto Marlboros",
+"h": "Hamilton Steel",
+"date": "2026-11-28",
+"ct": "6:35 PM",
+"rink": "Iroquois Park Sports Centre, Rink 3, Whitby",
+"p": "E"
+},
+"3187459": {
+"y": "2013",
+"k": 56,
+"v": "Toronto Jr Canadiens",
+"h": "Milwaukee Jr Admirals",
+"date": "2026-11-28",
+"ct": "6:50 PM",
+"rink": "McKinney Centre, Rink 2, Whitby",
+"p": "A"
+},
+"3187460": {
+"y": "2013",
+"k": 57,
+"v": "Huron-Perth Lakers",
+"h": "Rochester Saints",
+"date": "2026-11-28",
+"ct": "6:50 PM",
+"rink": "Iroquois Park Sports Centre, Rink 4, Whitby",
+"p": "D"
+},
+"3188900": {
+"y": "2013",
+"k": 58,
+"v": "Vaughan Kings",
+"h": "Ottawa Myers Automotive",
+"date": "2026-11-28",
+"ct": "7:00 PM",
+"rink": "Iroquois Park Sports Centre, Rink 6, Whitby",
+"p": "D"
+},
+"3188901": {
+"y": "2013",
+"k": 59,
+"v": "Credit River Capitals",
+"h": "Chicago Mission",
+"date": "2026-11-28",
+"ct": "7:00 PM",
+"rink": "Iroquois Park Sports Centre, Rink 1, Whitby",
+"p": "F"
+}
+}
+}

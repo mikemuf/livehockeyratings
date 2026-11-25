@@ -26,6 +26,10 @@ for y in SS:
         for t in ts:
             k=key.get((y,t)); sk=sorted([s for s in byteam.get(k,[]) if s[5]>=5 and s[3]!='G'],key=lambda s:-s[8]/s[5])[:3]
             if sk: ptw[t]=[[s[2],s[6],s[7],s[5]] for s in sk]
+    try:
+        _gs=json.load(open('data/silverstick_2026_gs.json'))['games']; _bk={(x['y'],x['k']):gid for gid,x in _gs.items()}
+        for _k,_g in enumerate(games): _g['gs']=_bk.get((y,_k),'')
+    except FileNotFoundError: pass
     W['ss'][y]={'pools':pools,'games':games,'ptw':ptw}
     # Nov 24 2026 10:10 PM (owner: "too much reading, like a school book report"): the Weekend tab now draws Silver Stick as a news card with tables
     # (build/weekend.js ssNews) from this data. circle = the games-to-circle pairs (rating names), watch = three scorers a pool, 8+ games.
