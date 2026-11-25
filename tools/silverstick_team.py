@@ -31,7 +31,7 @@ for y in SS:
     b=["The top scorers coming to Whitby in each pool, by points a game this season (eight or more games on record)."]
     for p,ts in pools.items():
         cand=sorted([(v[1]+v[2])/v[3] and ((v[1]+v[2])/v[3],v,t) for t in ts for v in [x for x in ptw.get(t,[]) if x[3]>=8][:2]],key=lambda x:-x[0])[:3]
-        if cand: b.append(f"Pool {p}: "+'; '.join(f"{v[0]}, {lab(t)}: {v[1]} goals and {v[2]} assists in {v[3]} games" for _,v,t in cand)+'.')
+        if cand: b.append(f"Pool {p}: "+'; '.join(f"{v[0]}, {lab(t)}: {v[1]} goal{'' if v[1]==1 else 's'} and {v[2]} assist{'' if v[2]==1 else 's'} in {v[3]} games" for _,v,t in cand)+'.')
     b.append("Open any team's page for its pool, its four games and its own players to watch.")
     d=W['divs'][y]; d['sections']=[s for s in d['sections'] if s['t']!='Silver Stick: players to watch']
     i=1 if d['sections'] and 'International Silver Stick' in d['sections'][0]['t'] else 0

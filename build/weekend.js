@@ -186,7 +186,7 @@ function renderTeamWk(S,team){
     const tl=t=>`<a href="#wkteam=${div}|${encodeURIComponent(t)}" style="color:inherit;text-decoration:none">${pre(t)}<b>${esc(t)}</b>${tag(t)}</a>`;
     const pool=SSD.pools[ssP].slice().sort((a,b)=>(rt[b]||0)-(rt[a]||0)),gs=SSD.games.filter(g=>g.a===team||g.b===team).sort((a,b)=>a.date<b.date?-1:a.date>b.date?1:a.sort-b.sort);
     const pos=pool.indexOf(team)+1,ord=['','best','second-best','third-best','fourth-best','fifth-best'][pos]||'';
-    const pl=(t,n)=>((SSD.ptw||{})[t]||[]).slice(0,n).map(v=>`<a href="${(typeof PDB!=='undefined'&&PDB[div]&&PDB[div][t])?'players/#team='+PDB[div][t]:'players/#year='+div}" style="color:inherit"><b>${esc(v[0])}</b></a> <span class="small">${v[1]} goals, ${v[2]} assists in ${v[3]} games</span>`);
+    const pl=(t,n)=>((SSD.ptw||{})[t]||[]).slice(0,n).map(v=>`<a href="${(typeof PDB!=='undefined'&&PDB[div]&&PDB[div][t])?'players/#team='+PDB[div][t]:'players/#year='+div}" style="color:inherit"><b>${esc(v[0])}</b></a> <span class="small">${v[1]} goal${v[1]==1?'':'s'}, ${v[2]} assist${v[2]==1?'':'s'} in ${v[3]} games</span>`);
     h+=`<div class="card" style="border-left:4px solid #1652aa"><p class="small" style="margin:0">Whitby, Ontario · Thu–Sun, Nov 26–29 · all times Central</p><h3 style="margin:4px 0 8px">International Silver Stick · Pool ${ssP}</h3>`+
       gs.map(g=>{const opp=g.a===team?g.b:g.a;return `<div style="padding:8px 0;border-bottom:1px solid #eee"><div class="small">${nice(g.date)} · <b>${esc(g.ct)}</b></div><div>vs ${tl(opp)}</div><div class="small">📍 ${esc(g.rink)}</div></div>`}).join('')+
       `<h3 style="margin:14px 0 4px">Pool ${ssP}</h3>`+pool.map(t=>`<div style="padding:3px 0">${t===team?pre(t)+'<b>'+esc(t)+'</b>'+tag(t):tl(t)}</div>`).join('')+
