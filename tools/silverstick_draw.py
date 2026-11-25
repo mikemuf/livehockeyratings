@@ -40,6 +40,23 @@ for y in SS:
     nb=draw(y); adv=nb[:3]; drw=nb[3:]
     j=next((k for k,x in enumerate(keep) if x.startswith('Games to circle:')),len(keep))
     s['b']=keep[:i]+adv+keep[i:j]+drw+keep[j:]
+    # Nov 24 2026 10 PM: the Pool lines, "The field" and "Not in the field" were written once and went stale when ranks moved (page said #14 Mission while the team page said #15). Rebuilt from the ratings every run.
+    pools=SS[y]['pools']; rk={t:(info(y,t)[1] or 999) for ts in pools.values() for t in ts}
+    def rat(t):
+        n=MP.get(f'{y}|{t}'); d0=R[y].get(n) if n else None
+        return f" ({d0['rating']:.2f})" if d0 and d0.get('rating') else ''
+    pl={p:f"Pool {p}: "+', '.join(lab(y,t)+rat(t) for t in sorted(ts,key=lambda t:rk[t]))+'.' for p,ts in pools.items()}
+    inn=sorted((k,t) for t,k in rk.items() if k<=10); names_in={MP.get(f'{y}|{t}') for t in rk}
+    out=sorted((d0['na'],n) for n,d0 in R[y].items() if d0.get('na') and d0['na']<=10 and n not in names_in)
+    cl=lambda n:{'Mid-Fairfield Hockey Club':'Mid-Fairfield','Middlesex Islanders East':'Middlesex Islanders'}.get(re.sub(r' \((Elite|Mueller)\)$','',n),re.sub(r' \((Elite|Mueller)\)$','',n))
+    nb2=[]
+    for x in s['b']:
+        m=re.match(r'Pool ([A-F]): ',x)
+        if m: x=pl[m.group(1)]
+        elif x.startswith('The field:'): x=f"The field: 30 teams in six pools of five. {len(inn)} of the top 10 in North America and {sum(k<=30 for k in rk.values())} of the top 30 are entered: "+', '.join(lab(y,t) for k,t in inn)+'.'
+        elif x.startswith('Not in the field:') and out: x='Not in the field: '+', '.join(f'#{k} {cl(n)}' for k,n in out)+'.'
+        nb2.append(x)
+    s['b']=nb2
     s['t']='International Silver Stick preview, Nov 26–29 (Whitby, Ontario)'
     d['sections']=[s]+[x for x in d['sections'] if x is not s]
     print('=====',y); [print(' -',x) for x in s['b'] if not x.startswith('Pool ')]
