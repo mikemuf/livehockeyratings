@@ -39,3 +39,6 @@ Long Island Gulls 2015), opponents outside our lists (2011 Calgary U17 teams, So
 2015 Houston; 2016 NJ Devils, Mercer), and the two held 2016 Little Caesars v Fox Motors games.
 MISTAKE Nov 24: the first team-id pattern caught the year in `y=2026` and loaded one wrong team 30 times in the test; caught on the 3-team test run before any list was used. Check: always test with N=3 and read the team names.
 STILL OPEN: Western Canada U13 list for the 2014 page (list number not found yet).
+
+## WHEN TO RUN (owner, Nov 24 2026 9:00 PM): MONDAY NIGHT ONLY. Never Tuesday night: the official weekly update lands about 1 AM Wednesday and replaces it.
+The Nov 24 Tuesday run (145 games) is live but only stands until the 1:15 AM Wednesday update; nothing from it needs redoing.
