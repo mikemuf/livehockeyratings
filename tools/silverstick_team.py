@@ -27,6 +27,20 @@ for y in SS:
             k=key.get((y,t)); sk=sorted([s for s in byteam.get(k,[]) if s[5]>=5 and s[3]!='G'],key=lambda s:-s[8]/s[5])[:3]
             if sk: ptw[t]=[[s[2],s[6],s[7],s[5]] for s in sk]
     W['ss'][y]={'pools':pools,'games':games,'ptw':ptw}
+    # Nov 24 2026 10:10 PM (owner: "too much reading, like a school book report"): the Weekend tab now draws Silver Stick as a news card with tables
+    # (build/weekend.js ssNews) from this data. circle = the games-to-circle pairs (rating names), watch = three scorers a pool, 8+ games.
+    short=lambda n:{'Mid-Fairfield Hockey Club':'Mid-Fairfield','Middlesex Islanders East':'Middlesex Islanders'}.get(re.sub(r' \((Elite|Mueller)\)$','',n),re.sub(r' \((Elite|Mueller)\)$','',n))
+    rev={short(t):t for ts in pools.values() for t in ts}
+    circ=[]
+    for sc in W['divs'][y]['sections']:
+        if 'International Silver Stick' in sc['t']:
+            for x in sc['b']:
+                if x.startswith('Games to circle:'):
+                    for m in re.finditer(r'(?:#\d+ )?([^;#]+?) against (?:#\d+ )?([^;#,]+?), (?:Thu|Fri|Sat|Sun)',x[16:]):
+                        a,b2=rev.get(m.group(1).strip()),rev.get(m.group(2).strip())
+                        if a and b2: circ.append([a,b2])
+    W['ss'][y]['circle']=circ
+    W['ss'][y]['watch']={p:[[v[0],t,v[1],v[2],v[3]] for _,v,t in sorted([((v[1]+v[2])/v[3],v,t) for t in ts for v in [x for x in ptw.get(t,[]) if x[3]>=8][:2]],key=lambda x:-x[0])[:3]] for p,ts in pools.items()}
     lab=lambda t:(f"{t} (#{R[y][t]['na']}, {R[y][t]['rating']:.2f})" if t in R[y] and R[y][t].get('na') else t)
     b=["The top scorers coming to Whitby in each pool, by points a game this season (eight or more games on record)."]
     for p,ts in pools.items():

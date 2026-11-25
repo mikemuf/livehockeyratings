@@ -1,7 +1,7 @@
 {
  "label": "Weekend of Nov 20–22",
  "status": "Weekend wrap. Final",
- "updated": "Tue Nov 24, 10:02 PM CT",
+ "updated": "Tue Nov 24, 10:05 PM CT",
  "from": "2026-11-19",
  "to": "2026-11-23",
  "note": "All times are Central.",
@@ -4778,6 +4778,168 @@
       20
      ]
     ]
+   },
+   "circle": [
+    [
+     "Chicago Mission",
+     "Worcester Shamrocks"
+    ],
+    [
+     "South Shore Kings (Elite)",
+     "Toronto Jr Canadiens"
+    ],
+    [
+     "Boston Jr Eagles (Elite)",
+     "Toronto Marlboros"
+    ],
+    [
+     "Mid-Fairfield Hockey Club (Elite)",
+     "Pittsburgh Penguins Elite (Mueller)"
+    ],
+    [
+     "Top Gun (Elite)",
+     "Don Mills Flyers"
+    ]
+   ],
+   "watch": {
+    "A": [
+     [
+      "Patrick Middlebrook",
+      "Toronto Jr Canadiens",
+      33,
+      17,
+      21
+     ],
+     [
+      "Nolan Barrett",
+      "Toronto Jr Canadiens",
+      23,
+      17,
+      21
+     ],
+     [
+      "Sebastian Zafka",
+      "London Jr Knights",
+      18,
+      11,
+      21
+     ]
+    ],
+    "B": [
+     [
+      "Chase Ryan",
+      "Worcester Shamrocks",
+      11,
+      6,
+      10
+     ],
+     [
+      "Brayden Martin",
+      "Toronto Nationals",
+      15,
+      9,
+      15
+     ],
+     [
+      "Brayden Purchase",
+      "Toronto Nationals",
+      12,
+      8,
+      15
+     ]
+    ],
+    "C": [
+     [
+      "Cameron Boll",
+      "Elgin Middlesex Canucks",
+      9,
+      23,
+      22
+     ],
+     [
+      "Luke McShane",
+      "Elgin Middlesex Canucks",
+      12,
+      16,
+      22
+     ],
+     [
+      "Julian Scanlon",
+      "Chicago Fury",
+      10,
+      13,
+      25
+     ]
+    ],
+    "D": [
+     [
+      "Dylan Kline",
+      "Kitchener Jr Rangers",
+      27,
+      14,
+      22
+     ],
+     [
+      "Landon Martin",
+      "Kitchener Jr Rangers",
+      11,
+      11,
+      22
+     ],
+     [
+      "Greyson Mckenna",
+      "Upper Canada Cyclones",
+      12,
+      7,
+      28
+     ]
+    ],
+    "E": [
+     [
+      "Ace Lasso",
+      "Pittsburgh Penguins Elite (Mueller)",
+      18,
+      13,
+      16
+     ],
+     [
+      "Connor Wilson",
+      "Pittsburgh Penguins Elite (Mueller)",
+      15,
+      10,
+      16
+     ],
+     [
+      "Ian Wilkosz",
+      "Cleveland Barons",
+      10,
+      8,
+      21
+     ]
+    ],
+    "F": [
+     [
+      "George Zhang",
+      "Toronto Marlboros",
+      21,
+      24,
+      20
+     ],
+     [
+      "Christian Curciarello",
+      "Toronto Marlboros",
+      11,
+      18,
+      20
+     ],
+     [
+      "Jason Anderson",
+      "Oakland Jr Grizzlies",
+      18,
+      7,
+      26
+     ]
+    ]
    }
   },
   "2013": {
@@ -5988,6 +6150,168 @@
       22
      ]
     ]
+   },
+   "circle": [
+    [
+     "Toronto Jr Canadiens",
+     "Waterloo Wolves"
+    ],
+    [
+     "Syracuse Nationals",
+     "Toronto Marlboros"
+    ],
+    [
+     "Little Caesars",
+     "Pittsburgh Penguins Elite"
+    ],
+    [
+     "Nor'easters",
+     "Toronto Marlboros"
+    ],
+    [
+     "Chicago Reapers",
+     "Mid-Fairfield"
+    ]
+   ],
+   "watch": {
+    "A": [
+     [
+      "Ralph Su",
+      "Toronto Jr Canadiens",
+      12,
+      23,
+      23
+     ],
+     [
+      "Tristan Hingtgen",
+      "Milwaukee Jr Admirals",
+      17,
+      25,
+      30
+     ],
+     [
+      "James Hao",
+      "Toronto Jr Canadiens",
+      18,
+      19,
+      27
+     ]
+    ],
+    "B": [
+     [
+      "Julian Wiles",
+      "Little Caesars",
+      38,
+      33,
+      32
+     ],
+     [
+      "Brian Charlebois",
+      "Ottawa Valley Titans",
+      25,
+      20,
+      21
+     ],
+     [
+      "Hayes Kirian",
+      "Little Caesars",
+      31,
+      25,
+      32
+     ]
+    ],
+    "C": [
+     [
+      "Harley George",
+      "Chicago Reapers",
+      40,
+      45,
+      39
+     ],
+     [
+      "Kellen Cicerchia",
+      "Mid-Fairfield",
+      10,
+      16,
+      12
+     ],
+     [
+      "David Mullen",
+      "Mid-Fairfield",
+      14,
+      12,
+      12
+     ]
+    ],
+    "D": [
+     [
+      "Preston Ostapyk",
+      "Ottawa Myers Automotive",
+      19,
+      28,
+      27
+     ],
+     [
+      "Nathan O'Sullivan",
+      "Vaughan Kings",
+      25,
+      15,
+      24
+     ],
+     [
+      "Giacomo De Bartolo",
+      "Vaughan Kings",
+      14,
+      13,
+      21
+     ]
+    ],
+    "E": [
+     [
+      "Zander Millas",
+      "Syracuse Nationals",
+      17,
+      9,
+      10
+     ],
+     [
+      "Walker Trew",
+      "Syracuse Nationals",
+      11,
+      10,
+      10
+     ],
+     [
+      "Deklan Mattern",
+      "Nor'easters",
+      11,
+      9,
+      10
+     ]
+    ],
+    "F": [
+     [
+      "Kash Nelson",
+      "Quinte Red Devils",
+      19,
+      15,
+      21
+     ],
+     [
+      "Noah Pizzuto",
+      "Toronto Nationals",
+      13,
+      22,
+      22
+     ],
+     [
+      "Jack Schwab",
+      "Toronto Nationals",
+      22,
+      13,
+      22
+     ]
+    ]
    }
   },
   "2011": {
@@ -7195,6 +7519,168 @@
       "Gryphon Turner",
       11,
       19,
+      23
+     ]
+    ]
+   },
+   "circle": [
+    [
+     "Halton Hurricanes",
+     "Pittsburgh Penguins Elite"
+    ],
+    [
+     "Bishop Kearney Selects",
+     "Toronto Jr Canadiens"
+    ],
+    [
+     "Oakland Jr Grizzlies",
+     "Toronto Jr Canadiens"
+    ],
+    [
+     "Mississauga Rebels",
+     "Pittsburgh Penguins Elite"
+    ],
+    [
+     "Oakland Jr Grizzlies",
+     "Bishop Kearney Selects"
+    ]
+   ],
+   "watch": {
+    "A": [
+     [
+      "Hudson Bryan",
+      "Hamilton Steel",
+      21,
+      25,
+      23
+     ],
+     [
+      "Brett Rossetto",
+      "Hamilton Steel",
+      22,
+      20,
+      23
+     ],
+     [
+      "Mason Marek",
+      "Chicago Mission",
+      8,
+      17,
+      17
+     ]
+    ],
+    "B": [
+     [
+      "Beckham Hunter",
+      "Halton Hurricanes",
+      48,
+      30,
+      27
+     ],
+     [
+      "Isaac Cartier",
+      "Halton Hurricanes",
+      24,
+      36,
+      27
+     ],
+     [
+      "Cameron Cline",
+      "Pittsburgh Penguins Elite",
+      25,
+      23,
+      25
+     ]
+    ],
+    "C": [
+     [
+      "Shihan Wang",
+      "Toronto Jr Canadiens",
+      19,
+      24,
+      22
+     ],
+     [
+      "Smith Vantine",
+      "Bishop Kearney Selects",
+      15,
+      29,
+      26
+     ],
+     [
+      "Kade O'Rourke",
+      "Toronto Jr Canadiens",
+      19,
+      18,
+      22
+     ]
+    ],
+    "D": [
+     [
+      "Nicholas Nacevic",
+      "North Shore Whitecaps",
+      23,
+      25,
+      25
+     ],
+     [
+      "Jayden Challenger",
+      "Toronto Marlboros",
+      20,
+      26,
+      24
+     ],
+     [
+      "Jake Mancino",
+      "Toronto Marlboros",
+      17,
+      29,
+      25
+     ]
+    ],
+    "E": [
+     [
+      "Preston Hebert",
+      "Vaughan Kings",
+      18,
+      25,
+      26
+     ],
+     [
+      "Niko Fegaras",
+      "Vaughan Kings",
+      21,
+      18,
+      26
+     ],
+     [
+      "Joshua Muise",
+      "Ottawa Myers Automotive",
+      8,
+      22,
+      23
+     ]
+    ],
+    "F": [
+     [
+      "Drystan Thomas",
+      "Little Caesars",
+      21,
+      32,
+      27
+     ],
+     [
+      "Keaton Niereisel",
+      "Waterloo Wolves",
+      20,
+      18,
+      21
+     ],
+     [
+      "Liam Weiss",
+      "Waterloo Wolves",
+      17,
+      21,
       23
      ]
     ]
