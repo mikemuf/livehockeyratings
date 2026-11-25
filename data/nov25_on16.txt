@@ -1,0 +1,51 @@
+Vaughan Kings|26-0-2|95.95|4.00|91.95|4121
+Toronto Jr Canadiens|21-5-1|95.21|2.96|92.25|4113
+Toronto Marlboros|18-7-2|94.57|2.25|92.31|4115
+Halton Hurricanes|24-3-1|94.29|4.03|90.25|4183
+Hamilton Steel|21-4-1|94.13|3.23|90.90|4185
+Mississauga Rebels|20-7-3|93.35|1.43|91.92|4107
+York Simcoe Express|17-4-3|93.34|2.87|90.47|4173
+Waterloo Wolves|19-5-0|93.26|3.12|90.14|4145
+Toronto Nationals|21-4-3|93.12|2.25|90.87|4119
+Central Ontario Wolves|21-4-1|93.08|2.80|90.27|4153
+North Shore Whitecaps|20-5-2|92.73|2.81|89.92|4155
+Peterborough Jr Petes|12-9-2|92.54|0.78|91.76|4163
+Ottawa Jr 67's|14-6-2|92.25|1.45|90.80|32820
+Elgin Middlesex Canucks|20-7-2|92.03|1.86|90.17|4131
+Mississauga Senators|11-11-3|91.99|0.32|91.67|4109
+Ottawa Myers Automotive|18-6-1|91.99|1.04|90.95|32821
+North York Rangers|14-13-2|91.87|0.44|91.43|4111
+London Jr Knights|16-4-3|91.76|1.78|89.98|4141
+Kingston Jr Gaels|15-9-1|91.65|1.84|89.81|1772
+Ottawa Valley Titans|7-9-2|91.08|-0.16|91.25|32822
+Southern Tier Admirals|13-8-3|90.67|0.62|90.04|4193
+Upper Canada Cyclones|13-11-4|90.44|0.17|90.26|32823
+Soo Jr Greyhounds|11-7-0|90.39|0.88|89.50|35011
+Markham Waxers|12-10-1|90.34|0.26|90.08|4157
+Windsor Jr Spitfires|12-13-1|90.31|0.03|90.27|4147
+Oakville Rangers|9-12-1|90.23|-0.59|90.82|4189
+Eastern Ontario Wild|10-15-2|90.22|-0.59|90.82|32819
+Chatham-Kent Cyclones|15-11-3|90.14|0.65|89.48|4129
+Burlington Eagles|10-14-0|90.12|-0.66|90.79|4177
+Don Mills Flyers|3-8-3|89.96|-2.35|92.32|4101
+Markham Majors|6-15-2|89.72|-1.56|91.29|4103
+Niagara North Stars|8-12-3|89.58|-0.95|90.53|4191
+Thunder Bay Kings|12-6-4|89.30|1.50|87.80|7157
+Huron-Perth Lakers|7-13-3|89.28|-0.91|90.19|4135
+Toronto Red Wings|3-12-4|89.21|-2.00|91.21|4117
+Brantford 99ers|8-13-3|89.07|-1.00|90.07|4125
+Whitby Wildcats|8-14-2|89.00|-1.58|90.59|4171
+Guelph Gryphons|6-17-0|88.96|-1.34|90.31|4181
+Toronto Reps|4-15-4|88.93|-2.21|91.15|4105
+Toronto Titans|2-15-4|88.71|-2.47|91.19|4123
+North Bay Trappers|3-11-0|88.31|-1.71|90.02|34081
+North Central Predators|9-15-1|88.24|-1.44|89.68|4159
+Credit River Capitals|6-14-5|88.23|-1.52|89.75|4175
+Kitchener Jr Rangers|4-21-2|87.97|-2.22|90.19|4137
+Ajax Pickering Raiders|6-17-0|87.76|-2.43|90.20|4149
+Sudbury Wolves|3-15-0|87.48|-2.77|90.26|5654
+Sarnia-Lambton Jr Sting|3-21-0|86.42|-2.87|89.30|4139
+Barrie Colts|3-19-2|86.39|-3.87|90.26|4151
+Cambridge Hawks|5-18-0|86.21|-3.43|89.65|4127
+Grey Bruce Highlanders|0-19-0|85.00|-6.10|91.10|4179
+Quinte Red Devils|1-19-0|84.82|-4.35|89.17|4165

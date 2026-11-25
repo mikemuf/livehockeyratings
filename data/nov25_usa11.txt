@@ -1,0 +1,97 @@
+Little Caesars|19-8-1|95.29|2.67|92.61
+Pittsburgh Penguins Elite (Mueller)|22-8-1|94.32|2.00|92.32
+Worcester Shamrocks|26-9-1|94.21|1.58|92.62
+Mid-Fairfield Hockey Club (Elite)|26-8-3|94.06|1.48|92.57
+Lovell Winter Club (Elite)|16-9-3|93.63|1.25|92.38
+Boston Jr Eagles (Elite)|20-6-6|93.46|1.62|91.83
+Dallas Stars Elite|26-10-0|93.11|2.05|91.06
+Chicago Mission|17-9-0|92.95|1.65|91.30
+Top Gun (Elite)|13-6-3|92.92|1.68|91.24
+St Louis Blues|27-15-0|92.82|1.92|90.89
+South Shore Kings (Elite)|22-7-1|92.76|1.66|91.09
+Biggby Coffee|22-6-0|92.47|2.37|90.10
+Providence Capitals (Elite)|15-12-1|92.31|0.75|91.56
+Florida Surf|19-9-1|92.10|1.24|90.86
+Cleveland Barons|13-10-4|91.98|0.29|91.68
+Chicago Fury|13-17-0|91.90|-0.06|91.97
+Bay State Breakers (Elite)|15-15-1|91.83|0.32|91.51
+PAL Jr Islanders (Blue)|20-17-2|91.16|0.10|91.06
+Victory Honda|19-12-2|91.00|0.78|90.22
+Chicago Reapers|14-15-1|90.78|0.41|90.37
+Philadelphia Little Flyers|19-17-2|90.77|0.76|90.00
+North Jersey Avalanche|18-13-6|90.75|1.08|89.67
+Philadelphia Hockey Club|21-2-0|90.70|4.21|86.48
+Buffalo Jr Sabres|11-10-5|90.65|0.68|89.97
+Vegas Jr Golden Knights|20-10-0|90.60|2.10|88.50
+Florida Alliance|12-12-0|90.57|0.21|90.35
+Oakland Jr Grizzlies|12-11-4|90.54|-0.07|90.62
+Phoenix Jr Coyotes|16-4-2|90.53|2.86|87.67
+Mid-Fairfield Hockey Club (T1)|21-14-3|90.39|1.15|89.24
+Rochester Saints|23-9-0|90.33|1.12|89.20
+Indiana Elite|21-7-0|90.21|2.32|87.88
+Boston Jr Terriers (Elite)|12-12-1|90.08|-0.36|90.44
+Washington Little Capitals|20-8-1|89.91|2.41|87.50
+Ohio Blue Jackets|22-10-0|89.82|2.21|87.60
+Anaheim Jr Ducks (#2) 11U AA|14-14-0|89.80|0.14|89.66
+Philadelphia Flyers Elite|20-15-0|89.71|0.37|89.33
+Middlesex Islanders East (Elite)|9-16-2|89.44|-0.84|90.29
+Madison Capitols|19-7-1|89.40|2.03|87.36
+Connecticut Jr Rangers|24-6-0|89.37|2.53|86.84
+West Seneca Wings (Gold) 11U AA|17-13-2|89.20|0.90|88.30
+Valley Jr Warriors (Elite)|16-6-0|89.19|2.54|86.65
+Battle Creek Bombers 11U A|25-8-0|89.13|2.37|86.76
+Team Illinois|23-19-0|89.08|0.30|88.77
+East Coast Wizards (Elite)|14-12-1|88.98|1.07|87.91
+Mount St Charles Jr Mounties|20-8-1|88.62|1.55|87.07
+HB Detroit|15-16-2|88.45|0.21|88.24
+Toledo Cherokee 11U A|20-8-5|88.15|1.57|86.57
+Woodbridge Wolfpack|19-10-2|88.14|0.51|87.62
+Buffalo Regals|12-15-3|87.89|0.03|87.86
+Utica Jr Comets|14-19-2|87.78|-1.00|88.78
+Windy City Storm|10-14-1|87.73|-0.92|88.65
+Crystal Lake Yellowjackets (CSDHL) 11U AA|19-5-0|87.72|3.33|84.39
+Texas Tigers 11U AA|19-9-0|87.69|2.08|85.61
+NY Dynamo|17-14-1|87.49|0.64|86.84
+Jersey Hitmen|16-12-2|87.38|1.03|86.35
+Syracuse Nationals|5-15-2|87.32|-1.57|88.89
+Long Island Royals|17-13-1|87.28|1.12|86.15
+Valley Forge Minutemen|13-16-1|87.15|-0.93|88.08
+Philadelphia Jr Flyers|10-17-1|87.06|-1.00|88.06
+CarShield|13-23-1|87.04|-0.48|87.52
+Minuteman Flames (Elite)|2-15-0|87.03|-3.76|90.80
+New York City Hockey Club|20-9-3|87.03|1.48|85.55
+New Jersey Devils|19-12-1|87.00|0.37|86.63
+Bay State Breakers (T1-Platinum)|13-5-2|86.95|1.90|85.05
+Carolina Junior Canes|10-15-0|86.83|-1.44|88.27
+New England Bulldogs|13-3-3|86.80|1.73|85.07
+Boston Advantage (Elite)|11-9-0|86.62|0.55|86.07
+Queen City Royals|12-14-1|86.59|-0.88|87.48
+Casco Bay Mariners|9-11-4|86.47|0.54|85.93
+Compuware|8-28-2|86.46|-1.57|88.04
+Mercer Chiefs|14-11-2|86.40|0.55|85.85
+Boston Junior Rangers|15-9-1|86.39|0.88|85.51
+Boston Jr Terriers (T1-Platinum-Red)|9-5-2|86.39|1.37|85.01
+Amherst Knights|13-11-3|86.11|-0.03|86.15
+Pittsburgh Penguins Elite (Anderson)|15-18-2|86.05|-0.97|87.02
+Tampa Bay Jr Lightning|6-16-0|86.02|-2.04|88.07
+Middlesex Islanders West (T1-Platinum)|13-9-2|85.77|0.91|84.86
+Nashville Jr Predators|14-13-4|85.77|-0.19|85.96
+New Jersey Rockets|13-8-2|85.74|0.21|85.52
+Connecticut Chiefs|8-17-0|85.67|-1.32|86.99
+Connecticut Elite Hockey Academy|17-14-3|85.63|0.85|84.78
+Lehigh Valley Phantoms|11-15-2|85.58|-0.64|86.22
+Seacoast Spartans (T1-Platinum)|17-3-0|85.57|2.60|82.97
+New Jersey Colonials|9-15-0|85.57|-1.20|86.78
+PAL Jr Islanders (Orange)|10-11-2|85.55|0.00|85.55
+Minuteman Flames (T1-Platinum)|11-5-3|85.53|0.68|84.84
+Belle Tire|8-19-1|85.48|-2.14|87.63
+Team Maryland|8-18-0|85.48|-0.38|85.86
+Pittsburgh Predators|10-18-1|85.47|-0.55|86.02
+Boston Jr Eagles (T1)|11-6-5|85.47|0.59|84.88
+Boston Jr Terriers (T1-Platinum-White)|7-10-2|85.42|0.35|85.07
+Milwaukee Jr Admirals|11-23-2|85.40|-1.94|87.34
+Greater Boston Jr Bruins|7-11-3|85.33|-0.66|85.99
+Palmyra Black Knights|8-19-1|85.09|-1.21|86.30
+Top Gun (McGuirk)|16-5-0|84.66|1.76|82.90
+Fox Motors|6-23-0|84.54|-3.24|87.78
+Northern CT Nor'Easter|11-13-4|84.41|-0.32|84.73

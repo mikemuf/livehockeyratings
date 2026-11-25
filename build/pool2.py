@@ -43,14 +43,14 @@ def build():
         if db!=da:
             al=nb+(' (12U)' if db=='2014' else ' (11U)'); xmap[da][al]=db+'|'+nb; nb=al
         for _ in range(c): out.append([da,dt,na,sa,nb,sb])
-    r12=load_rank('data/nov18_usa12.txt','11U');r11=load_rank('data/nov18_usa11.txt','12U')
+    r12=load_rank('data/nov25_usa12.txt','11U');r11=load_rank('data/nov25_usa11.txt','12U')
     M={'2014':{},'2015':{}};G={'2014':{},'2015':{}};R={'2014':{},'2015':{}}
     for dv,rk in (('2014',r12),('2015',r11)):
         for n,(r,gp,rec) in rk.items(): M[dv][n]=r;G[dv][n]=gp;R[dv][n]=rec
     # Ontario U13 AAA (2014) and U12 AAA (2015) rank pages, MHR rank.php?y=2026&v=134 and v=133 (added Nov 19, 2026: the owner wants every
     # Ontario team ranked, not only those that happened to play American teams). Refresh with the weekly MHR update.
     import os
-    for dv,fn in (('2014','data/nov18_on13.txt'),('2015','data/nov18_on12.txt')):
+    for dv,fn in (('2014','data/nov25_on13.txt'),('2015','data/nov25_on12.txt')):
         if not os.path.exists(fn): continue
         for n,(r,gp,rec) in load_rank(fn,'\x00').items():
             M[dv][n]=r;G[dv][n]=gp;R[dv][n]=rec;canada.add(n)
