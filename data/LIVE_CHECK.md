@@ -188,3 +188,9 @@ TIME CORRECTION: the entries above stamped '8:40 AM', '8:44 AM' and '8:50 AM' we
  2) WHY: the Silver Stick preview's "Pool X", "The field" and "Not in the field" lines were written once by tools/silverstick_preview.py and never rebuilt; live_pub's rank refresh does not touch them, so after any ratings change they
     disagreed with the team pages (Pool F said #14 Mission while the team page said #15). FIX: tools/silverstick_draw.py now rebuilds those lines from /tmp/r_new.json on every run.
     DO NOT rerun tools/silverstick_preview.py: it re-adds an old "Next:" section and replaces the Weekend wrap. Order after any ratings change: ratings_from_site.js -> silverstick_draw.py -> silverstick_team.py -> live_pub.sh.
+23:10 Tue Nov 24: MISTAKE (owner's iPhone screenshots 11:04 PM): the new Silver Stick news card ran off the side of a phone screen and made the whole page scroll sideways.
+ WHY: the app's style sheet sets every table cell to one line (td white-space:nowrap); my new tables inherited it, and I published after checking a desktop-width screen only (I said so, but shipped anyway).
+ FIX: the card's cells wrap (white-space:normal), label cells stay on one line, the pool grid drops to one column on a phone, the card clips overflow. Checked at 375 px: page width = screen width, nothing wider than the screen.
+ CHECK FROM NOW ON, before telling the owner a layout is done: load the page in a 390 px frame (snippet below) and confirm page width equals screen width, then LOOK at it.
+   f=document.createElement('iframe');f.src='/live/?y=2013';f.style.cssText='position:fixed;left:0;top:0;width:390px;height:780px;z-index:99999;background:#fff';document.body.appendChild(f)
+   then: d=f.contentDocument.querySelector('iframe').contentDocument; d.documentElement.scrollWidth must equal d.documentElement.clientWidth. Most visitors come from Instagram on a phone: the phone is the first screen to check, not the second.
