@@ -16,6 +16,8 @@ function renderWeekend(S){
   h+='</div>';
   { /* owner, Nov 20 2026 (10:27 AM): one tap to a single team's weekend */
     const TS=new Set();(D.watch||[]).forEach(g=>{if(!Array.isArray(g)){TS.add(g.a);TS.add(g.b)}});WEEKEND_GAMES.filter(g=>g[0]===div).forEach(g=>{TS.add(g[2]);TS.add(g[4])});
+    /* Nov 24 2026 10 PM: the picker left out teams with no game last weekend (Chicago Mission 2013 and 20 other Silver Stick teams). Every event team and every ranked team is listed now. */
+    Object.values((((W.ss||{})[div]||{}).pools)||{}).forEach(p=>p.forEach(t=>TS.add(t)));S.rows.filter(x=>x.mhr).forEach(x=>TS.add(x.t));
     const TL=[...TS].filter(Boolean).sort((x,y)=>(rkn[x]||9999)-(rkn[y]||9999)||x.localeCompare(y));
     if(TL.length)h+=`<div class="card" style="padding:10px 14px"><label class="small" for="wkteamsel"><b>Find a team:</b> </label><select id="wkteamsel" data-wtsel="1" style="max-width:100%;font-size:16px;padding:6px"><option value="">Choose a team to see its weekend</option>`+TL.map(t=>`<option value="${esc(t)}">${rkn[t]?'#'+rkn[t]+' ':''}${esc(t)}</option>`).join('')+'</select></div>'}
   const __p1=h.length;
