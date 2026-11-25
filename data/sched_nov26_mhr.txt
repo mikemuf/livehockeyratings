@@ -1,0 +1,40 @@
+# MHR schedule sweep run Wed Nov 25 2026 ~1:50 AM CT, dates Nov 26-29. USA top 25 (2012 v=114, 2014 v=124, 2016 v=122), Ontario top 20 (U15 v=136, U13 v=134, U11 v=132). Times are local (Eastern). "IDLE n" = n teams with nothing posted.
+#2012 USA (v=114) IDLE 24 of 25: US Thanksgiving weekend. Checked by hand: Chicago Mission, Team Illinois, Shattuck next play Dec 5.
+2012|18 Boston Jr Eagles (Elite)|29|2:00pm|Minuteman Flames (Elite)|*|Boston Sports Institute
+#2014 USA (v=124) IDLE 24
+2014|8 Buffalo Jr Sabres|27|7:45pm|Buffalo Regals (Rainey)||Holiday Rinks
+2014|8 Buffalo Jr Sabres|29|10:30am|Rochester Saints||Bud Bakewell Ice Rink
+#2016 USA (v=122) IDLE 23
+2016|9 Bay State Breakers (Elite)|29|8:00pm|Boston Jr Terriers (Elite)|*|Canton Sportsplex
+2016|13 Boston Jr Eagles (Elite)|28|11:40am|Boston Jr Terriers (Elite)|*|Canton Sportsplex
+#2012 Ontario U15 (v=136) IDLE 10 (Toronto clubs post on the GTHL site, not here)
+2012|York Simcoe Express|28|6:30pm|Markham Waxers|*|La Brier Family Arena
+2012|York Simcoe Express|29|1:00pm|Quinte Red Devils|*|Campbellford/Seymour Arena
+2012|Chatham-Kent Cyclones|28|1:30pm|Soo Jr Greyhounds|*|Chatham Memorial Arena
+2012|Chatham-Kent Cyclones|29|1:30pm|Sarnia-Lambton Jr Sting|*|Blenheim Community and Recreation Centre
+2012|Niagara North Stars|28|2:00pm|Grey Bruce Highlanders|*|Durham Community Centre
+2012|Mississauga Rebels|27|1:15pm|Belle Tire|**|Harbor Center
+2012|Mississauga Rebels|27|4:45pm|Sylvania North Stars|**|Harbor Center
+2012|Mississauga Rebels|28|8:30am|Hill Academy|**|Harbor Center
+2012|Mississauga Rebels|28|3:45pm|Buffalo Regals|**|Harbor Center
+2012|Brantford 99ers|27|11:45am|Buffalo Regals|**|Harbor Center
+2012|Brantford 99ers|27|6:15pm|Hill Academy|**|Harbor Center
+2012|Brantford 99ers|28|8:15am|Mississauga Senators|**|Harbor Center
+2012|Brantford 99ers|28|5:15pm|Belle Tire|**|Harbor Center
+2012|Hamilton Steel|28|7:00pm|Credit River Capitals|*|Dave Andreychuk Arena
+2012|Hamilton Steel|29|2:00pm|Upper Canada College||Wilder Arena & Sports Complex
+2012|Mississauga Senators|27|1:00pm|Buffalo Jr Sabres|**|Harbor Center
+2012|Mississauga Senators|27|5:15pm|Buffalo Regals|**|Harbor Center
+2012|Mississauga Senators|28|4:00pm|Sylvania North Stars|**|Harbor Center
+2012|Elgin Middlesex Canucks|28|3:15pm|Cambridge Hawks|*|Middlesex Wellness Centre
+2012|Soo Jr Greyhounds|27|8:00pm|Sun County Panthers|*|Essex Centre Sports Complex
+2012|Soo Jr Greyhounds|28|7:00pm|Windsor Jr Spitfires|*|Central Park Athletics
+2012|Halton Hurricanes|26|8:15pm|Burlington Eagles|*|Sherwood Community Centre & Library
+2012|Halton Hurricanes|28|6:30pm|Southern Tier Admirals|*|Welland Arena
+2012|Halton Hurricanes|29|12:25pm|Credit River Capitals|*|Susan Fennell Sportsplex
+#2014 Ontario U13 (v=134) IDLE 20 (most are at the Silver Stick? no: U13 is not a Silver Stick age; nothing posted)
+#2016 Ontario U11 (v=132) IDLE 18
+2016|Elgin Middlesex Canucks|28|12:15pm|Sarnia-Lambton Jr Sting|*|Middlesex Wellness Centre
+2016|Elgin Middlesex Canucks|29|12:15pm|Windsor Jr Spitfires|*|Middlesex Wellness Centre
+2016|Windsor Jr Spitfires|26|6:00pm|Chatham-Kent Cyclones|*|Central Park Athletics
+2016|Windsor Jr Spitfires|28|4:00pm|Cambridge Hawks|*|Central Park Athletics
