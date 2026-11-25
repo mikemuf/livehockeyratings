@@ -209,5 +209,5 @@ TIME CORRECTION: the entries above stamped '8:40 AM', '8:44 AM' and '8:50 AM' we
  NOT DONE: step 4 score-by-score check of last week's games against team pages (Monday and Tuesday reconciles covered ranked teams), and the top-25 rating-math check (50 team math pages). Do the math check before Friday's first non-Silver-Stick results if time allows.
  Accuracy of our live numbers against the new official ones (top 25 by North America rank): 2011 17/25 exact, mean error 0.03; 2012 8/25, 0.10 (whole pool moved down 0.10: Shattuck is the new 99.99 anchor, Mid-Fairfield 99.91);
   2013 18/25, 0.06; 2014 14/25, 0.05; 2015 22/25, 0.11; 2016 14/25, 0.27 (pool moved up 0.27).
- Player site: ratings.json, db build, inject, landing page and member data republished 1:5x AM (artifact left for the 7:00 AM sweep).
+ Player site: ratings.json, db build, inject, landing page and member data republished about 1:40 AM (artifact left for the 7:00 AM sweep).
  New weekend set up: see data/weekend_nov26.txt. Live pool tables built and tested with made-up results.
