@@ -194,3 +194,20 @@ TIME CORRECTION: the entries above stamped '8:40 AM', '8:44 AM' and '8:50 AM' we
  CHECK FROM NOW ON, before telling the owner a layout is done: load the page in a 390 px frame (snippet below) and confirm page width equals screen width, then LOOK at it.
    f=document.createElement('iframe');f.src='/live/?y=2013';f.style.cssText='position:fixed;left:0;top:0;width:390px;height:780px;z-index:99999;background:#fff';document.body.appendChild(f)
    then: d=f.contentDocument.querySelector('iframe').contentDocument; d.documentElement.scrollWidth must equal d.documentElement.clientWidth. Most visitors come from Instagram on a phone: the phone is the first screen to check, not the second.
+01:41 Wed Nov 25: WEDNESDAY UPDATE done (official ratings dated 11/25 on all 13 lists).
+ HOW THE LISTS CAME ACROSS THIS WEEK (GitHub is signed OUT in Chrome and in the built-in browser, so the clipboard-to-GitHub route is gone; the Mac shell is a Linux box with no clipboard):
+  1) tools note: __grab(tag,minRating) on each rank page stores raw rows in localStorage 'wk_dump' (13 pages, about 10 s each, one batch per 6-7 pages).
+  2) A second script turns rows into "index|record|rating|agd(+/-)" where index = position of the team in the SORTED keys of const MHR[year] of the live site (fetched from the rank page; same list as /tmp/pred.html here),
+     "=name|..." when the team is not in the site yet; the trailing + or - says the Sched column is 0.01 (0.1 on the one-decimal 10U/U11 lists) below or above rating minus AGD.
+  3) The rows are put in <main><article><pre> and read with get_page_text (safe: the body was replaced, so no 300-team table), typed into /tmp/n25/*.i, converted by a short python step into data/nov25_*.txt.
+  4) CHECK: the browser and python each compute (rows, sum of ratings x100, sum of all record numbers) per list. All 12 matched exactly. Do this check every week.
+  Cut-offs: usa14 = teams already in the 2012 app plus the 25 alias names (124 rows; other AA rows are ignored by the build anyway), usa13 >= 84, usa12 AAA >= 84.3 / others >= 87, usa11 AAA >= 84.3 / others >= 87.5, usa15 all 115, usa10 top 150, Ontario lists whole.
+  Western Canada (v=173): five BC academies in data/nov25_wc15.txt; the hand-kept X anchors in build.py were updated (RHA Winnipeg 98.71, OHA Edmonton 97.44, Calgary Edge 95.70, North Shore WC 95.29, CNHA 94.73, Prairie Storm 93.97, St Albert 93.97).
+  NOT refreshed: X anchors with no list this week (Team Minnesota Red/Blue, Mauricie, Kuper, Cascades, Minnesota Lakers 2012, Long Island Gulls).
+ Build: nov18_ -> nov25_ in build.py and pool2.py; MHR_THROUGH 2026-11-24, MHR_PUBLISHED Nov 25; the 447 pending games moved to data/games_wk_nov20.json (added to the three places build.py lists weekly files); pending_games.json emptied.
+  2012 anchored 198, 0 unmatched; baseline equals the published ratings.
+ NOT DONE: step 4 score-by-score check of last week's games against team pages (Monday and Tuesday reconciles covered ranked teams), and the top-25 rating-math check (50 team math pages). Do the math check before Friday's first non-Silver-Stick results if time allows.
+ Accuracy of our live numbers against the new official ones (top 25 by North America rank): 2011 17/25 exact, mean error 0.03; 2012 8/25, 0.10 (whole pool moved down 0.10: Shattuck is the new 99.99 anchor, Mid-Fairfield 99.91);
+  2013 18/25, 0.06; 2014 14/25, 0.05; 2015 22/25, 0.11; 2016 14/25, 0.27 (pool moved up 0.27).
+ Player site: ratings.json, db build, inject, landing page and member data republished 1:5x AM (artifact left for the 7:00 AM sweep).
+ New weekend set up: see data/weekend_nov26.txt. Live pool tables built and tested with made-up results.
