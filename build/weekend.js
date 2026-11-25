@@ -178,9 +178,26 @@ function renderTeamWk(S,team){
   let w=0,l=0,ti=0;FIN.forEach(g=>{const me=g[2]===team?g[3]:g[5],op=g[2]===team?g[5]:g[3];me>op?w++:me<op?l++:ti++});
   let h=back+`<div class="card"><p class="small" style="margin:0">${esc(W.label||'This weekend')} · ${div} age group</p><h2 style="margin:4px 0 0">${pre(team)}${esc(team)}${tag(team)}</h2>`+
     `<p style="margin:8px 0 0">${row&&row.rec?`Season record <b>${row.rec.join('-')}</b> · `:''}This weekend <b>${w}-${l}-${ti}</b>${FIN.length?'':' (no games played yet)'}</p></div>`;
+  // Silver Stick card (owner, Nov 24 2026): pool, four games, what it takes, players to watch. Data: WEEKEND.ss[div] from tools/silverstick_team.py.
+  const SSD=(W.ss||{})[div],ssP=SSD?Object.keys(SSD.pools).find(p=>SSD.pools[p].includes(team)):null;
+  const past=!!(W.to&&Date.now()>Date.parse(W.to+'T23:59:59-06:00'));
+  if(past)h=h.replace('This weekend <b>','Last weekend <b>');
+  if(ssP){
+    const tl=t=>`<a href="#wkteam=${div}|${encodeURIComponent(t)}" style="color:inherit;text-decoration:none">${pre(t)}<b>${esc(t)}</b>${tag(t)}</a>`;
+    const pool=SSD.pools[ssP].slice().sort((a,b)=>(rt[b]||0)-(rt[a]||0)),gs=SSD.games.filter(g=>g.a===team||g.b===team).sort((a,b)=>a.date<b.date?-1:a.date>b.date?1:a.sort-b.sort);
+    const pos=pool.indexOf(team)+1,ord=['','best','second-best','third-best','fourth-best','fifth-best'][pos]||'';
+    const pl=(t,n)=>((SSD.ptw||{})[t]||[]).slice(0,n).map(v=>`<a href="${(typeof PDB!=='undefined'&&PDB[div]&&PDB[div][t])?'players/#team='+PDB[div][t]:'players/#year='+div}" style="color:inherit"><b>${esc(v[0])}</b></a> <span class="small">${v[1]} goals, ${v[2]} assists in ${v[3]} games</span>`);
+    h+=`<div class="card" style="border-left:4px solid #1652aa"><p class="small" style="margin:0">Whitby, Ontario · Thu–Sun, Nov 26–29 · all times Central</p><h3 style="margin:4px 0 8px">International Silver Stick · Pool ${ssP}</h3>`+
+      gs.map(g=>{const opp=g.a===team?g.b:g.a;return `<div style="padding:8px 0;border-bottom:1px solid #eee"><div class="small">${nice(g.date)} · <b>${esc(g.ct)}</b></div><div>vs ${tl(opp)}</div><div class="small">📍 ${esc(g.rink)}</div></div>`}).join('')+
+      `<h3 style="margin:14px 0 4px">Pool ${ssP}</h3>`+pool.map(t=>`<div style="padding:3px 0">${t===team?pre(t)+'<b>'+esc(t)+'</b>'+tag(t):tl(t)}</div>`).join('')+
+      `<h3 style="margin:14px 0 4px">What it takes</h3><ul class="wk"><li>Win the pool and you are in the quarterfinals. Only the two best second-place teams of the six pools join the winners.</li><li>Second place is compared on points, then wins, then share of goals scored, so every goal counts. No overtime in pool play.</li>`+(ord?`<li>By rating, ${esc(team)} is the ${ord} team in Pool ${ssP}.</li>`:'')+'</ul>'+
+      (pl(team,3).length?`<h3 style="margin:14px 0 4px">Players to watch</h3>`+pl(team,3).map(x=>`<div style="padding:3px 0">${x}</div>`).join(''):'')+
+      (()=>{const o=pool.filter(t=>t!==team&&pl(t,1).length).map(t=>`<div style="padding:3px 0">${pl(t,1)[0]} <span class="small">· ${esc(t)}</span></div>`).join('');return o?`<h3 style="margin:14px 0 4px">Their top scorers</h3>`+o:''})()+
+      `<p class="legend">Scores and the pool table will be here all weekend.</p></div>`;
+  }
   const live=BX.filter(x=>!/^FINAL/.test(x.st));
   if(live.length)h+=`<div class="card" style="border-left:4px solid #c8102e"><h3 style="margin-top:0;color:#c8102e">Live now</h3>`+live.map(x=>`<div class="wkr wkclick" data-gm="b${x.bi}"><div>${pre(x.v)}${esc(x.v)} <span class="small" style="color:#c8102e">${esc(x.st||'')}</span></div><div class="sc num">${x.vs}</div><div>${pre(x.h)}${esc(x.h)}</div><div class="sc num">${x.hs}</div></div>`).join('')+'</div>';
-  h+='<div class="card"><h3 style="margin-top:0">Schedule this weekend <span class="small">· all times Central</span></h3>';
+  h+='<div class="card"><h3 style="margin-top:0">'+(past?'Last weekend'+(W.label?' · '+esc(String(W.label).replace(/^Weekend of /,'')):''):'Schedule this weekend')+' <span class="small">· all times Central</span></h3>';
   if(!WT.length&&!FIN.length)h+='<p class="small">No games found for this team this weekend.</p>';
   const used=new Set();
   h+=WT.map(g=>{const opp=g.a===team?g.b:g.a,dt=wdate(g.day),pr=[g.a,g.b].sort().join('|');
