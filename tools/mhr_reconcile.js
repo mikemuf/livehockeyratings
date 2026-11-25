@@ -30,3 +30,17 @@ window.__rc=async function(y,N,SINCE,DRE){
     f.remove();await new Promise(r=>setTimeout(r,400))}
   localStorage.setItem('rc_lines',(localStorage.getItem('rc_lines')||'')+out.join('\n')+'\n');W.__st='done '+ids.length+' teams, '+out.length+' lines, ours '+G.length;return W.__st};
 'ready'
+
+// EXPORT (run after the lists are done, on the same site): turns rc_lines into compact rows "yy,day,a,gf,b,ga" where a and b are indexes into the
+// SORTED list of our team names for that year (python rebuilds the same list from site/members/ratings/index.html: keys of const MHR[year] plus every
+// BASE / WEEKEND_GAMES team of that year). Exact name first, then word overlap with the raw words as tie-break (so "(Elite)" does not become "(Barravecchio)").
+// window.__alias = {'2013 Ohio Blue Jackets':'Ohio Jr Bluejackets'} for names that never match. Read window.__rows about 55 at a time (output is cut near 1,000 characters);
+// window.__un lists names with no match (teams outside our ratings).
+window.__alias=window.__alias||{'2013 Ohio Blue Jackets':'Ohio Jr Bluejackets'};
+window.__exp=async function(){const h=await (await fetch('https://myplayerdata.com/members/ratings/?v='+Date.now())).text();const grab=n=>JSON.parse(h.match(new RegExp('const '+n+'\\s*=\\s*(\\[\\[.*?\\]\\]);'))[1]);const B=grab('BASE').concat(grab('WEEKEND_GAMES'));const M=JSON.parse(h.match(/const MHR=(\{.*?\}\});/)[1]);
+  const w=s=>{s=s.toLowerCase().replace(/\b(1[0-6]u|u1[0-6]|aaa|hockey|club|academy|elite|jr\.?|the|premier|national|tier|new jersey|nj)\b/g,' ').replace(/\([^)]*\)/g,' ');return new Set(s.replace(/[^a-z0-9 ]/g,' ').split(' ').filter(x=>x.length>2))};
+  const raww=s=>new Set(s.toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(' ').filter(Boolean));const jac=(a,b)=>{let i=0;a.forEach(x=>{if(b.has(x))i++});return i/Math.max(1,a.size+b.size-i)};
+  const N={};for(const y of ['2011','2012','2013','2014','2015','2016']){const s=new Set(Object.keys(M[y]||{}));B.forEach(g=>{if(g[0]===y){s.add(g[2]);s.add(g[4])}});N[y]=[...s].sort()}
+  const find=(y,name)=>{name=name.replace(/\^+$/,'').replace(/ (1[0-6]U|U1[0-6])( AAA?| Prep)?$/,'');const al=window.__alias[y+' '+name];if(al)return N[y].indexOf(al);const ex=N[y].indexOf(name);if(ex>=0)return ex;const tw=w(name),rw=raww(name);let bi=-1,sc=0,tb=-1;N[y].forEach((n,i)=>{const v=jac(w(n),tw),t=jac(raww(n),rw);if(v>sc+1e-9||(Math.abs(v-sc)<1e-9&&t>tb)){sc=v;bi=i;tb=t}});return sc>=0.6?bi:-1};
+  const rows=[],un={};(localStorage.getItem('rc_lines')||'').split('\n').forEach(l=>{if(!l||/OURS-ONLY|NO PAGE|ERR /.test(l))return;const p=l.split('|'),y=p[0],a=find(y,p[2]),b=find(y,p[5]),m=p[6].match(/([WLT]) (\d+)-(\d+)/);if(a<0)un[y+' '+p[2]]=1;if(b<0)un[y+' '+p[5]]=1;if(a>=0&&b>=0)rows.push([y.slice(2),p[4],a,m[2],b,m[3]].join(','))});
+  window.__rows=rows;window.__un=Object.keys(un);return rows.length+' rows, '+window.__un.length+' unmatched'};
