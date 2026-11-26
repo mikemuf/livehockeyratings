@@ -10,6 +10,23 @@ _now=datetime.datetime.now(zoneinfo.ZoneInfo('America/Chicago'))
 def _young(i):  # a row with no LIVE word reads as FINAL; do not believe that for a game that started under 50 minutes ago
     g=G[i]; t0=datetime.datetime.strptime(g['date']+' '+g['ct'],'%Y-%m-%d %I:%M %p').replace(tzinfo=_now.tzinfo); return (_now-t0).total_seconds()<3000
 rows=[(r.replace('FINAL (OT)','IN PROGRESS').replace('FINAL (SO)','IN PROGRESS').replace('FINAL','IN PROGRESS') if 'FINAL' in r and _young(r.split('~')[0]) else r) for r in rows]
+# The game's own page beats the list (Nov 26 2:42 PM: as game 3183161 was being closed the LIST showed '0-0 LIVE' while its page said FINAL 1-5).
+_ov={}
+for _l in (sys.argv[2] if len(sys.argv)>2 else '').replace('PARTIAL ','').split(' @@ '):
+    _m=re.match(r'^(\d+) (.*?) (\d+)-(\d+) G ',_l.strip())
+    if _m: _ov[_m.group(1)]='~'.join([_m.group(1),_m.group(3),_m.group(4),'FINAL' if 'FINAL' in _m.group(2) else 'IN PROGRESS'])
+_lp='/tmp/ss_last.json'; _last=json.load(open(_lp)) if os.path.exists(_lp) else {}
+def _fixrow(r):
+    i=r.split('~')[0]
+    if i in _ov: return _ov[i]
+    o=_last.get(i)
+    if o:  # never let a list row take goals away or reopen a final
+        po,pn=o.split('~'),r.split('~')
+        try:
+            if 'FINAL' in po[3] or int(pn[1])+int(pn[2])<int(po[1])+int(po[2]): return o
+        except Exception: pass
+    return r
+rows=[_fixrow(r) for r in rows]
 cur={r.split('~')[0]:r for r in rows}
 lp='/tmp/ss_last.json'; last=json.load(open(lp)) if os.path.exists(lp) else {}
 ch=[i for i in cur if last.get(i)!=cur[i]]
