@@ -18,4 +18,5 @@ window.__ssbox1=async(id)=>{const f=document.createElement('iframe');f.style.css
  f.remove();return line};
 window.__ssboxgo=(day)=>{const ids=[];Object.entries(window.__ssraw||{}).forEach(([id,t])=>{if(t.indexOf(day)<0||/\(2017\)/.test(t))return;const parts=t.split(/\(20\d\d\)/);if(parts.length<3)return;if(!/^\s*\d+\s*[-–]\s*\d+/.test(parts[1]))return;const live=/^\s*\d+\s*[-–]\s*\d+\s+LIVE\b/i.test(parts[1]);if(live||!window.__ssfin[id])ids.push(id)});
  window.__pkdone=false;window.__pk=[];(async()=>{for(let i=0;i<ids.length;i+=3){const r=await Promise.all(ids.slice(i,i+3).map(x=>window.__ssbox1(x)));r.forEach(x=>{if(x)window.__pk.push(x)})}window.__pkdone=true})();return ids.length};
-window.__ssw=async()=>{for(let k=0;k<80&&!window.__pkdone;k++)await new Promise(r=>setTimeout(r,500));return (window.__pkdone?'':'PARTIAL ')+window.__pk.join(' @@ ')};
+window.__pklast=window.__pklast||{};window.__ssw=async()=>{for(let k=0;k<80&&!window.__pkdone;k++)await new Promise(r=>setTimeout(r,500));const ch=window.__pk.filter(l=>{const id=l.split(' ')[0];if(window.__pklast[id]===l)return false;window.__pklast[id]=l;return true});return (window.__pkdone?'':'PARTIAL ')+ch.join(' @@ ')};
+// __ssw returns ONLY the lines that changed since the last call (Nov 26 1:40 PM), so an unchanged game costs nothing to pass on.
