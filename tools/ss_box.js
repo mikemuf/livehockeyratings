@@ -2,6 +2,7 @@
 // AFTER tools/ss_list.js. Each check: `const r=await window.__ssl(DAY);window.__ssboxgo(DAY);r` then `await window.__ssw()` -> compact lines
 // "id STATUS vs-hs G [goalies] :: goals" joined by ' @@ ' (the format tools/live_full.py reads). Reads each live game's Box score tab in a hidden
 // frame, three at a time; a final game is read once more after it ends (window.__ssfin remembers). 2017-division rows are skipped.
+// HALF-SAVED FINAL SHEET (seen Nov 26 1:47 PM, game 3183157): for a minute or so as a game is closed, every player and goalie reads 'NOT AVAILABLE' and the goalie list is empty; a minute later the names are back with (W)/(L) and PP/GWG tags. The wrapper at the bottom throws such a read away (returns '', does not mark the game read) so the next check reads it again. Names are NOT hidden by the league.
 // Goal = period digit + clock + v|h + ':' + 'num NAME/num ASSIST/...'. Names DO show for the 2015 division (seen Nov 26).
 window.__ssfin=window.__ssfin||{};
 window.__ssbox1=async(id)=>{const f=document.createElement('iframe');f.style.cssText='position:absolute;left:-6000px;width:1200px;height:900px';document.body.appendChild(f);f.src='/seasons/16542/games/'+id+'?tab=box-score';
@@ -11,7 +12,7 @@ window.__ssbox1=async(id)=>{const f=document.createElement('iframe');f.style.css
   const sec=(a,b)=>{const i=L.indexOf(a),j=b?L.indexOf(b):L.length;return i<0?[]:L.slice(i+1,j<0?L.length:j)};
   const PER=/^(1ST|2ND|3RD|OT\d*|\dTH|SO|OVERTIME|SHOOTOUT)$/,NONE=/^NO (GOALS|PENALTIES)$/i,TAG=/^(PP|SH|EN|PS|GW|GWG|SO|ENG|PPG|SHG)$/;
   const gl=[];let side=-1;for(const x of sec('GOALTENDING','GOALS BY PERIOD')){if(/^GOALIE/.test(x)){side++;continue}if(/^#\d+ /.test(x))gl.push([side,x])}
-  const goals=[];let per='',cur=null;for(const x of sec('GOALS BY PERIOD','PENALTIES BY PERIOD')){if(PER.test(x)){per=x;continue}if(NONE.test(x))continue;if(/^\d{1,2}:\d\d$/.test(x)){cur={p:per,t:x,tags:[],pl:[],team:''};goals.push(cur);continue}if(!cur)continue;if(TAG.test(x)){cur.tags.push(x);continue}if(/^#/.test(x)){cur.pl.push(x);continue}if(!cur.team)cur.team=x}
+  const goals=[];let per='',cur=null;for(const x of sec('GOALS BY PERIOD','PENALTIES BY PERIOD')){if(PER.test(x)){per=x;continue}if(NONE.test(x))continue;if(/^\d{1,2}:\d\d$/.test(x)){cur={p:per,t:x,tags:[],pl:[],team:''};goals.push(cur);continue}if(!cur)continue;if(TAG.test(x)){cur.tags.push(x);continue}if(/^#/.test(x)){cur.pl.push(x);continue}if(/^NOT AVAILABLE$/i.test(x)){cur.pl.push('#- NOT AVAILABLE');continue}if(!cur.team)cur.team=x}
   const sd=t=>{const a=(t||'').toUpperCase(),V=(v||'').toUpperCase().replace(/\s*\(.*$/,''),H=(h||'').toUpperCase().replace(/\s*\(.*$/,'');return a&&(a===H||a.indexOf(H)===0||H.indexOf(a)===0)?'h':a&&(a===V||a.indexOf(V)===0||V.indexOf(a)===0)?'v':'?'};
   const pk=goals.map(g=>(g.p==='OVERTIME'?'O':g.p==='SHOOTOUT'?'S':g.p[0])+g.t+sd(g.team)+':'+g.pl.map(x=>x.replace(/ \(\d+\)/,'').replace('#','')).join('/')+(g.tags.length?'['+g.tags.join(',')+']':'')).join(';');
   if(!isNaN(vs)&&!isNaN(hs)){line=id+' '+st+' '+vs+'-'+hs+' G '+JSON.stringify(gl)+' :: '+pk;if(/FINAL/.test(st))window.__ssfin[id]=1}else line='';window.__ssboxraw=window.__ssboxraw||{};window.__ssboxraw[id]=L.slice(0,80).join(' | ')}catch(e){line=''}
@@ -20,3 +21,5 @@ window.__ssboxgo=(day)=>{const ids=[];Object.entries(window.__ssraw||{}).forEach
  window.__pkdone=false;window.__pk=[];(async()=>{for(let i=0;i<ids.length;i+=3){const r=await Promise.all(ids.slice(i,i+3).map(x=>window.__ssbox1(x)));r.forEach(x=>{if(x)window.__pk.push(x)})}window.__pkdone=true})();return ids.length};
 window.__pklast=window.__pklast||{};window.__ssw=async()=>{for(let k=0;k<80&&!window.__pkdone;k++)await new Promise(r=>setTimeout(r,500));const ch=window.__pk.filter(l=>{const id=l.split(' ')[0];if(window.__pklast[id]===l)return false;window.__pklast[id]=l;return true});return (window.__pkdone?'':'PARTIAL ')+ch.join(' @@ ')};
 // __ssw returns ONLY the lines that changed since the last call (Nov 26 1:40 PM), so an unchanged game costs nothing to pass on.
+
+window.__ssbox1o=window.__ssbox1;window.__ssbox1=async id=>{const l=await window.__ssbox1o(id);if(/NOT AVAILABLE/.test(l)||(/ FINAL/.test(l)&&/ G \[\] /.test(l))){delete window.__ssfin[id];return ''}return l};
