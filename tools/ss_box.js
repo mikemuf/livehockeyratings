@@ -24,13 +24,14 @@ window.__ssboxgo=(day)=>{const ids=[];Object.entries(window.__ssraw||{}).forEach
 // if it ends with ' MORE', call window.__sspage() until it does not. tools/ss_check.py keeps the full lists (/tmp/gs/ss_pk_state.json) and prints
 // RESYNC NEEDED if the two sides disagree: then run window.__ssresync(id) and the next check sends that game whole.
 window.__pkst=window.__pkst||{};window.__more=[];
-window.__sspage=()=>{let out='';while(window.__more.length&&(out.length+window.__more[0].length<880||!out)){out+=(out?' @@ ':'')+window.__more.shift()}return out+(window.__more.length?' MORE':'')};
+// PAGING (Nov 26 5:20 PM): a final sheet's full goal list can be longer than one answer, so the text is cut at a ';' or ' @@ ' near 820 characters and ends with '<MORE>': call window.__sspage() for the rest and join the pieces with nothing between them (drop the <MORE> marks).
+window.__buf='';window.__sspage=()=>{if(!window.__buf)return '';if(window.__buf.length<=820){const o=window.__buf;window.__buf='';return o}let cut=Math.max(window.__buf.lastIndexOf(';',820),window.__buf.lastIndexOf(' @@ ',820));if(cut<200)cut=820;else if(window.__buf[cut]===';')cut+=1;const o=window.__buf.slice(0,cut);window.__buf=window.__buf.slice(cut);return o+'<MORE>'};
 window.__ssw=async()=>{for(let k=0;k<110&&!window.__pkdone;k++)await new Promise(r=>setTimeout(r,500));const res=[];
  for(const l of window.__pk){const m=l.match(/^(\d+) (.*?) (\d+-\d+) G (.*?) :: (.*)$/);if(!m)continue;const id=m[1],hd=m[2]+' '+m[3],gl=m[4],goals=m[5].split(';').filter(Boolean);const p=window.__pkst[id]||{n:0,g:null,h:''};
   const reset=goals.length<p.n||(p.sig&&goals.slice(0,p.n).join(';')!==p.sig);const start=reset?0:p.n;const nw=goals.slice(start);
   if(!reset&&!nw.length&&hd===p.h&&gl===p.g)continue;
   res.push(id+' '+hd+' G '+(gl===p.g?'same':gl)+' :: +'+start+':'+nw.join(';'));window.__pkst[id]={n:goals.length,g:gl,h:hd,sig:goals.join(';')}}
- window.__more=res;return (window.__pkdone?'':'PARTIAL ')+window.__sspage()};
+ window.__buf=res.join(' @@ ');return (window.__pkdone?'':'PARTIAL ')+window.__sspage()};
 window.__ssresync=id=>{delete window.__pkst[id]};
 window.__ssbox1o=window.__ssbox1;
 // Nov 26 4:55 PM: with six or more live games the hidden frames often come back HALF LOADED (goalie list empty, or a goal with '-' for the player).
