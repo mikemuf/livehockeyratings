@@ -89,3 +89,6 @@ Detail files: SCHEDULING.md (page and planner rules), LIVE_CHECK.md (weekend log
 - OWNER, Nov 25 2026 2:29 AM: after the Wednesday update the official page is the truth. Do NOT re-verify last week's scores and do NOT run the top-25 game-by-game math check: whatever the official pages show is the new base, last week's scores no longer matter.
   The Wednesday routine is now: lists in, checksums match, baseline equals the published ratings, publish. (The stored Wednesday task text still lists the old steps 4 and 5: skip them.)
 - OWNER, Nov 25 2026 2:29 AM: tournament game sheets are found through gamesheetinc.com search (Scores & Stats), then Game Status = All. Look there FIRST for any event, before waiting for a tournament site to post a link.
+- Nov 26: Instagram collaborator invites back on for SAVED handles only, in Meta's composer, 2-3 per post; owner finds new handles and sends them (player/build/IG_POSTING.md, last section).
+- Nov 26: Helper Desk (Grok) for mail reading, weekend score research, event scouting: player/build/HELPER_DESK.md. Scores are a trial; Claude verifies before import.
+- Nov 26: top bar = Game Day | Ratings | Players (site/nav.js; app not changed). player/member/NOTES.md last section.
