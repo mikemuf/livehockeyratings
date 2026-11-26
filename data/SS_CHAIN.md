@@ -3,7 +3,7 @@
 Each firing, in this order. Keep it short: three tool calls when nothing is final.
 
 1. send_later the SAME short message ('SS LIVE CHECK (the one 7-minute chain). Read ... SS_CHAIN.md ...'), delay 7 minutes. If step 3 then prints a later 'NEXT CHECK' time, that is fine for one extra firing: the next firing reads the printout and schedules the later time instead of 7 minutes. Never two copies of the chain. An old message that says '15 min from now' is retired: do nothing, do not reschedule it.
-2. Chrome tab 339724668 (https://gamesheetstats.com/seasons/16542/games?filter%5Bstatus%5D=all): `await window.__ssl('Nov 26')` (Fri 'Nov 27', Sat 'Nov 28', Sun 'Nov 29'). If window.__ssl is undefined: paste tools/ss_list.js (from line 7) first. If the tab is gone: tabs_context, new tab, navigate, paste.
+2. Chrome tab 339724668 (https://gamesheetstats.com/seasons/16542/games?filter%5Bstatus%5D=all): `await window.__ssl('Nov 26')` (Fri 'Nov 27', Sat 'Nov 28', Sun 'Nov 29'). If window.__ssl is undefined: paste tools/ss_list.js (the window.__ssl=... part) first. FINAL = a score with no LIVE word (fixed Nov 26 1:22 PM). If the tab is gone: tabs_context, new tab, navigate, paste.
 3. Shell, in /home/claude/livehockeyratings: `python3 tools/ss_check.py "<the whole string>"`. It publishes only when a tracked score or status changed, lists NEW FINAL lines, unparsed rows, live gaps, and prints NEXT CHECK.
 4. For each NEW FINAL:
    - first final of the weekend: confirm the FINAL row format in window.__ssraw[id]; look at the 2011/2013/2015 pages at phone width (/tmp/t_live.py pattern), leaders and harder-road blocks.
