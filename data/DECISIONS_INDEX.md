@@ -94,3 +94,4 @@ Detail files: SCHEDULING.md (page and planner rules), LIVE_CHECK.md (weekend log
 - Nov 26: top bar = Game Day | Ratings | Players (site/nav.js; app not changed). player/member/NOTES.md last section.
 - Nov 26: Instagram lists: no power-play time category; skip any list with 3+ of the top five from one team (player/build/ig_make.py pick_question).
 - Nov 26 8:17 AM: owner allows tags and collaborator invites on instagram.com again, human pace only (limits in player/build/IG_POSTING.md, last section).
+- Nov 26 8:41 AM: tournament scoring leaderboards (plain + adjusted) and road difficulty ARE shown on the live event card (reverses the Nov 21 no-leaders rule for events covered live only). data/weekend_nov26.txt top.
