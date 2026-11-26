@@ -1,8 +1,14 @@
 # Silver Stick live check: the ONE chain (owner Nov 26 12:38 PM: every 7 minutes during live games)
 
+>>> OWNER, Nov 26 2:30 PM: "If you need me, then you should buzz me. But if you don't need me, you shouldn't write a message." EVERY turn that ends buzzes his phone, whatever it says. So:
+(a) a routine check ends with NO text at all (never 'check done', never 'nothing needs you');
+(b) checks run BACK TO BACK INSIDE ONE TURN: at the start of the turn send_later this chain message for 62 minutes ahead (one safety net, not one per check), then loop: check (steps 2-4), `sleep 400` in the shell (timeout 420000), check, ... for 8 rounds, then end the turn silently; the 62-minute message starts the next hour. If ss_check prints a NEXT CHECK time later than 7 minutes, sleep until then instead (in pieces of at most 580 s). An older chain message that fires in the middle of a loop is read and ignored (no second chain).
+(c) the hourly Helper Desk skim happens inside the loop at about 20 past, without its own turn where possible; its own trigger, when it fires, is read, rescheduled and ends with no text.
+(d) message the owner (SendUserMessage or the final text) ONLY for: something broken that he must know, a decision that is his, a story-worthy mistake with why/fix/prevention, or an answer to his question.
+
 Each firing, in this order. Keep it short: four tool calls when nothing is final.
 
-1. send_later the SAME short message ('SS LIVE CHECK (the one 7-minute chain). Read ... SS_CHAIN.md ...'), delay 7 minutes. If step 3 then prints a later 'NEXT CHECK' time, that is fine for one extra firing: the next firing reads the printout and schedules the later time instead of 7 minutes. Never two copies of the chain. An old message that says '15 min from now' is retired: do nothing, do not reschedule it.
+1. send_later the SAME short message ('SS LIVE CHECK (the one 7-minute chain). Read ... SS_CHAIN.md ...'), delay 62 minutes (see (b) above; it was 7 minutes per check until 2:30 PM). If step 3 then prints a later 'NEXT CHECK' time, that is fine for one extra firing: the next firing reads the printout and schedules the later time instead of 7 minutes. Never two copies of the chain. An old message that says '15 min from now' is retired: do nothing, do not reschedule it.
 2. Chrome tab 339724668 (https://gamesheetstats.com/seasons/16542/games?filter%5Bstatus%5D=all), ONE javascript call (Fri 'Nov 27', Sat 'Nov 28', Sun 'Nov 29'):
    `await window.__ssgo('Nov 26')`
    Left of %% = the score rows; right = goal-detail DELTA lines (only what changed). If the answer ends with ' MORE' (or is cut with [TRUNCATED]): call `window.__sspage()` until no MORE; if a line was cut, run window.__ssresync(id) for that id and it comes whole next check. If window.__ssl / __ssboxgo is undefined: paste tools/ss_list.js (the window.__ssl=... part) then tools/ss_box.js. If the tab is gone: tabs_context, new tab, navigate, paste both, and delete /tmp/gs/ss_pk_state.json.
@@ -13,6 +19,6 @@ Each firing, in this order. Keep it short: four tool calls when nothing is final
    - STORY if it qualifies (rule A both teams NA top 30; B overtime/shootout with a top-30 team; C upset 10+ ranks apart with the beaten team top 30; ranks from BEFORE the game). Build with player/build/ig_story2.py (theme color, three-line wording: result with both names and ranks / how it went / who scored by name from the Box score tab), post through Meta Business Suite with the link sticker SILVER STICK COVERAGE -> https://myplayerdata.com/live/?y=YEAR (coordinates in player/build/IG_POSTING.md, last lines). Limits: 12 slides a day, 5+ minutes apart, keep 3 for the evening. Count used today is the last line of this file.
    - stop rule: a result that moves the rest of a birth year by more than about 0.15: hold it (data/held_games.json), tell the owner in one line.
 5. Evening after the last final: late sweep, pool standings + leaders story slides, hand-written drama lines per birth year (weekend_nov26.txt), then schedule the next day's first tracked start + 3 minutes. Saturday night: bracket teams and Sunday games onto the watch lists (new sheet ids into silverstick_2026_gs.json). Sunday bracket: every 5 minutes.
-6. Say nothing to the owner unless something is wrong or needs him (one line). No scores in chat.
+6. Say NOTHING AT ALL to the owner unless (d) above applies. No scores in chat.
 
 STORY SLIDES USED Thu Nov 26: 2 (11:26 AM video, 12:00 PM link slide)
