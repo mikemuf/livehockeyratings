@@ -1,3 +1,11 @@
+>>> ADDED Nov 26 8:46 AM (owner 8:44 AM: "we have to be the Silver Stick hub"; stories for pool standings and results by birth year, storylines, every story links to the Silver Stick page)
+STORY PLAN, Thu-Sun (inside the story rule: 12 slides a day, 3 a sitting, sittings an hour apart, 5+ minutes between slides, Meta Business Suite only, check for a red Failed badge):
+- Thu sittings about 2:30, 4:30, 6:30, 8:45 PM (3 slides each). Fri/Sat about 11:30 AM, 1:30, 3:30, 5:30, 7:30, 9:00 PM picking the best 12.
+- WHAT GETS A SLIDE (the existing rule still decides single games: an upset, or two top-30 teams): (a) RESULT slide for those games, with one line of story from the game sheet ("up 2-0 after one, three goals from <player>"); (b) one ROUNDUP slide per birth year per sitting when there are 3+ new finals (scores list, upsets marked); (c) end of day: POOL STANDINGS slide per birth year (six pools, leader + points, wildcards as it stands) and a LEADERS slide (top 5 plain, top 5 adjusted) once sheets carry scorers.
+- EVERY slide carries the link sticker "SILVER STICK COVERAGE" -> https://myplayerdata.com/live/?y=YEAR (sticker in the empty band y 878-1050).
+- Every game still gets its recap on the SITE (matchup page: goals by period + recap); stories point there. Do not try to story all 39 games a day.
+- Builders needed before 2:30 PM: roundup slide and pool-standings slide (player/build/ig_story.py makes the single-result slide already). Save their commands in player/build/IG_POSTING.md.
+
 >>> ADDED Nov 26 8:44 AM (owner 8:41 AM: "sell the drama... the easiest route... actual leaderboards and the adjusted score leaderboards... we're using adjusted scoring live")
 - The event card now also draws, by itself once finals with game sheets are in: "Who has had the harder road" (average rating of opponents played, toughest 3 / softest 3, needs 6 teams with 2+ games) and "Scoring leaders" + "Adjusted scoring leaders" (top 8 each; weighting never printed). Functions ssRoad / ssLeaders in build/weekend.js; tested with made-up games (/tmp/t_ss.py pattern). This REVERSES the Nov 21 no-leaders-tables rule FOR THE LIVE EVENT CARD ONLY.
 - AT THE FIRST REAL FINAL: check the leaders show (goal lists need the game sheet; if a division's sheets carry no scorers, the block stays hidden: say so in the storylines, do not fake it) and check at phone width.
