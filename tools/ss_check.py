@@ -28,7 +28,7 @@ if ch or anylive or (len(sys.argv)>2 and sys.argv[2].strip()):  # owner Nov 26 1
                 if l.strip(): print('BAD DELTA LINE',l[:70])
                 continue
             i,st,sc,gl,start,new=m.groups(); e=S0.get(i,{'g':'[]','goals':[]}); start=int(start); new=[x for x in new.split(';') if x]
-            if gl!='=': e['g']=gl
+            if gl not in ('=','same'): e['g']=gl
             if start==0: e['goals']=new
             elif start==len(e['goals']): e['goals']+=new
             else: print('RESYNC NEEDED',i,'(run window.__ssresync("%s") in the tab; have %d goals, delta starts at %d)'%(i,len(e['goals']),start)); continue

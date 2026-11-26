@@ -20,7 +20,7 @@ window.__ssbox1=async(id)=>{const f=document.createElement('iframe');f.style.css
 window.__ssboxgo=(day)=>{const ids=[];Object.entries(window.__ssraw||{}).forEach(([id,t])=>{if(t.indexOf(day)<0||/\(2017\)/.test(t))return;const parts=t.split(/\(20\d\d\)/);if(parts.length<3)return;if(!/^\s*\d+\s*[-–]\s*\d+/.test(parts[1]))return;const live=/^\s*\d+\s*[-–]\s*\d+\s+LIVE\b/i.test(parts[1]);if(live||!window.__ssfin[id])ids.push(id)});
  window.__pkdone=false;window.__pk=[];(async()=>{for(let i=0;i<ids.length;i+=3){const r=await Promise.all(ids.slice(i,i+3).map(x=>window.__ssbox1(x)));r.forEach(x=>{if(x)window.__pk.push(x)})}window.__pkdone=true})();return ids.length};
 // DELTAS (Nov 26 2:05 PM): javascript results are cut at about 1,000 characters, and five live games' full goal lists do not fit. __ssw now returns,
-// per changed game, 'id ST v-h G <goalies json, or = when unchanged> :: +START:<only the goals after the first START>' and pages the answer:
+// per changed game, 'id ST v-h G <goalies json, or the word same when unchanged (an '=' got the whole answer blocked as 'query string data')> :: +START:<only the goals after the first START>' and pages the answer:
 // if it ends with ' MORE', call window.__sspage() until it does not. tools/ss_check.py keeps the full lists (/tmp/gs/ss_pk_state.json) and prints
 // RESYNC NEEDED if the two sides disagree: then run window.__ssresync(id) and the next check sends that game whole.
 window.__pkst=window.__pkst||{};window.__more=[];
@@ -29,7 +29,7 @@ window.__ssw=async()=>{for(let k=0;k<80&&!window.__pkdone;k++)await new Promise(
  for(const l of window.__pk){const m=l.match(/^(\d+) (.*?) (\d+-\d+) G (.*?) :: (.*)$/);if(!m)continue;const id=m[1],hd=m[2]+' '+m[3],gl=m[4],goals=m[5].split(';').filter(Boolean);const p=window.__pkst[id]||{n:0,g:null,h:''};
   const reset=goals.length<p.n||(p.sig&&goals.slice(0,p.n).join(';')!==p.sig);const start=reset?0:p.n;const nw=goals.slice(start);
   if(!reset&&!nw.length&&hd===p.h&&gl===p.g)continue;
-  res.push(id+' '+hd+' G '+(gl===p.g?'=':gl)+' :: +'+start+':'+nw.join(';'));window.__pkst[id]={n:goals.length,g:gl,h:hd,sig:goals.join(';')}}
+  res.push(id+' '+hd+' G '+(gl===p.g?'same':gl)+' :: +'+start+':'+nw.join(';'));window.__pkst[id]={n:goals.length,g:gl,h:hd,sig:goals.join(';')}}
  window.__more=res;return (window.__pkdone?'':'PARTIAL ')+window.__sspage()};
 window.__ssresync=id=>{delete window.__pkst[id]};
 window.__ssbox1o=window.__ssbox1;window.__ssbox1=async id=>{const l=await window.__ssbox1o(id);if(/NOT AVAILABLE/.test(l)||(/ FINAL/.test(l)&&/ G \[\] /.test(l))){delete window.__ssfin[id];return ''}return l};
