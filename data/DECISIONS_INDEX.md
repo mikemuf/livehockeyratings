@@ -92,3 +92,5 @@ Detail files: SCHEDULING.md (page and planner rules), LIVE_CHECK.md (weekend log
 - Nov 26: Instagram collaborator invites back on for SAVED handles only, in Meta's composer, 2-3 per post; owner finds new handles and sends them (player/build/IG_POSTING.md, last section).
 - Nov 26: Helper Desk (Grok) for mail reading, weekend score research, event scouting: player/build/HELPER_DESK.md. Scores are a trial; Claude verifies before import.
 - Nov 26: top bar = Game Day | Ratings | Players (site/nav.js; app not changed). player/member/NOTES.md last section.
+- Nov 26: Instagram lists: no power-play time category; skip any list with 3+ of the top five from one team (player/build/ig_make.py pick_question).
+- Nov 26 8:17 AM: owner allows tags and collaborator invites on instagram.com again, human pace only (limits in player/build/IG_POSTING.md, last section).
