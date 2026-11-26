@@ -215,6 +215,8 @@ rep("\nrender();\n</script>","\nfunction fromHash(){let hh=location.hash;try{hh=
 h=h.replace('GameSheet score, provisional','Weekend score, provisional').replace('GS = GameSheet score','GS = weekend score')
 # Nov 19, 2026 (owner): members should not see the fine print about how ratings are calculated or where numbers come from.
 # The lines stay in the page (hidden) so the code that fills them keeps working; remove the style line to show them again.
+# Nov 25, 2026 (owner: in iPhone dark mode the 'Roster and player stats' link on a team page was unreadable, dark blue/purple on navy). WHY: .plink was only styled inside .tabs, so this link and any other unstyled link fell back to the browser's default link colors. FIX: a zero-weight default for every link (theme blue, readable in both modes) and the red label style for .plink anywhere.
+h=h.replace('<style>','<style>:where(a){color:var(--blue)}:where(a:visited){color:var(--blue)}a.plink{color:var(--red);font:600 15px Barlow,sans-serif;text-decoration:none}',1)
 h=h.replace('<style>','<style>p.meta,p.legend,.fineprint{display:none!important}nav.tabs button[data-view="team"]{display:none!important}',1)  # Team math tab hidden too (owner, Nov 19): the same games are in the Game log; tapping a team still opens its page
 for _a in ('<p class="small" style="margin:10px 0 0">This list has','<p class="small" style="margin:10px 0 0">MHR adjustment','<p class="small" style="margin:4px 0 0">${esc(W.note)}','<p class="small" style="margin:0 0 6px">Each team\'s goal differential','<p class="small" style="margin:0 0 6px">${esc(D.scorers_note)}','<p class="small" style="margin:0 0 6px">${esc(D.goalies_blurb)}'):
     if _a not in h: print('fine print line not found:',_a[:60])
