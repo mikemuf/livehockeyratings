@@ -11,12 +11,13 @@ lp='/tmp/ss_last.json'; last=json.load(open(lp)) if os.path.exists(lp) else {}
 ch=[i for i in cur if last.get(i)!=cur[i]]
 newfin=[i for i in ch if 'FINAL' in cur[i] and 'FINAL' not in last.get(i,'')]
 odd=[cur[i] for i in cur if '?:' in cur[i]]
-if ch:
+anylive=any('IN PROGRESS' in v for v in cur.values())
+if ch or anylive:  # owner Nov 26 1:00 PM: the page's 'updated' time must move with every check while a game is live, even at the same score
     print(subprocess.run(['python3','tools/ss_score.py',' ## '.join(rows)],capture_output=True,text=True).stdout.strip()[-300:])
     o=subprocess.run(['tools/live_pub.sh','Silver Stick live'],capture_output=True,text=True).stdout
     print('\n'.join(l for l in o.split('\n') if re.search(r'published|live gaps|IN PROGRESS ·|HELD|held|moved',l))[-600:])
     last.update(cur); json.dump(last,open(lp,'w'))
-else: print('no change: nothing published')
+else: print('no change, nothing live: nothing published')
 for i in newfin:
     g=G[i]; p=cur[i].split('~'); print('NEW FINAL',g['y'],'Pool',g.get('pool'),'|',g['v'],p[1],'-',g['h'],p[2],'| id',i)
 if odd: print('UNPARSED ROWS (fix tools/ss_list.js):',odd)
