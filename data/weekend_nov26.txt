@@ -5,6 +5,7 @@
    The page fills by itself: live scores, pool tables, "Standings so far", the UPSETS list (a final won by the team ranked 5+ places lower; build/weekend.js, added Nov 25), Games to circle, team cards. Ids not in silverstick_2026_gs.json (the 2017 division, bracket games) are reported and skipped.
 4. Thursday has 32 tracked games: first 12:30 PM CT, the last starts in the evening (read the watch list). Chain rules as in data/SCHEDULING.md (15 min while a game is live or starts within 30 min). Goal scorers: open a game's Box score only for games on the 'Games to circle' list and for upsets (one line in the write-up), not for all 180.
 5. First real result: look at the 2011, 2013 and 2015 pages at phone width. Owner (8:29 PM Nov 25): "live updates for every game... keep track of standings and upsets. Silver Stick is going to be huge for us." No scores to him as messages.
+5b. STORY STICKER WORDING (owner, 8:37 PM Nov 25: not "Silver Stick scores"; say complete coverage): the link sticker reads "SILVER STICK FULL COVERAGE" on every event story from Thursday, linking to /live/?y=YEAR. This replaces step 4 of the 12:05 PM scheduled message.
 6. Stop rule still applies: if a single result moves the rest of a birth year by more than about 0.15, hold that game (data/held_games.json) and tell the owner in one line.
 
 WEEKEND NOV 26-29 (Silver Stick week). Set up Wed Nov 25 2026 by the Wednesday update run.
