@@ -13,7 +13,7 @@ Each planner run:
 3. Otherwise it uses send_later for the first check at the first game's start + 3 min (Nov 26: +15 left the lights on with no score), then every 15. It sends no score message at this point. The final reply is only a one-line plan, e.g. "Today: first puck 8:30 AM — live checks start 8:45."
 
 ## Live checks (send_later chain)
-- Run every 15 min while any tracked game is in progress or starts within 30 min.
+- Run every 7 min while any tracked game is in progress or starts within 10 min (owner, Nov 26 2026 12:38 PM; was 15). Publish only when a score or status changed.
 - Run every 5 min during tournament semifinals and championship games.
 - Gap rule: if no game is live and the next start is more than 45 min away, schedule the next check for that start time + 15 min. Do not run during idle gaps.
 - After the day's last tracked game is final:
