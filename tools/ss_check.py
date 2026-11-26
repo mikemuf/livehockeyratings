@@ -6,6 +6,10 @@ import json,sys,subprocess,datetime,zoneinfo,re,os
 G=json.load(open('data/silverstick_2026_gs.json'))['games']
 raw=sys.argv[1].split('|',1)[-1]
 rows=[r.strip() for r in raw.split('##') if r.strip() and r.strip().split('~')[0] in G]
+_now=datetime.datetime.now(zoneinfo.ZoneInfo('America/Chicago'))
+def _young(i):  # a row with no LIVE word reads as FINAL; do not believe that for a game that started under 50 minutes ago
+    g=G[i]; t0=datetime.datetime.strptime(g['date']+' '+g['ct'],'%Y-%m-%d %I:%M %p').replace(tzinfo=_now.tzinfo); return (_now-t0).total_seconds()<3000
+rows=[(r.replace('FINAL (OT)','IN PROGRESS').replace('FINAL (SO)','IN PROGRESS').replace('FINAL','IN PROGRESS') if 'FINAL' in r and _young(r.split('~')[0]) else r) for r in rows]
 cur={r.split('~')[0]:r for r in rows}
 lp='/tmp/ss_last.json'; last=json.load(open(lp)) if os.path.exists(lp) else {}
 ch=[i for i in cur if last.get(i)!=cur[i]]
