@@ -32,4 +32,6 @@ window.__ssw=async()=>{for(let k=0;k<80&&!window.__pkdone;k++)await new Promise(
   res.push(id+' '+hd+' G '+(gl===p.g?'same':gl)+' :: +'+start+':'+nw.join(';'));window.__pkst[id]={n:goals.length,g:gl,h:hd,sig:goals.join(';')}}
  window.__more=res;return (window.__pkdone?'':'PARTIAL ')+window.__sspage()};
 window.__ssresync=id=>{delete window.__pkst[id]};
-window.__ssbox1o=window.__ssbox1;window.__ssbox1=async id=>{const l=await window.__ssbox1o(id);if(/NOT AVAILABLE/.test(l)||(/ FINAL/.test(l)&&/ G \[\] /.test(l))){delete window.__ssfin[id];return ''}return l};
+window.__ssbox1o=window.__ssbox1;window.__ssbox1=async id=>{const l=await window.__ssbox1o(id);const gs=(l.split(' :: ')[1]||'').split(';').filter(Boolean);const allna=gs.length>0&&gs.every(g=>/NOT AVAILABLE/.test(g));if(allna||(/ FINAL/.test(l)&&/ G \[\] /.test(l))){delete window.__ssfin[id];return ''}return l};
+// ONE CALL PER CHECK (Nov 26 2:20 PM): await window.__ssgo('Nov 26') -> '<score rows of the tracked divisions> %% <delta lines>'.
+window.__ssgo=async(day)=>{await window.__ssl(day);window.__ssboxgo(day);const p=await window.__ssw();const rows=[];Object.entries(window.__ssraw).forEach(([id,t])=>{if(t.indexOf(day)<0||/\(2017\)/.test(t))return;const parts=t.split(/\(20\d\d\)/);const m=(parts[1]||'').match(/^\s*(\d+)\s*[-\u2013]\s*(\d+)(\s+LIVE)?/);if(m)rows.push(id+'~'+m[1]+'~'+m[2]+'~'+(m[3]?'IN PROGRESS':'FINAL'))});return rows.join(' ## ')+' %% '+p};
