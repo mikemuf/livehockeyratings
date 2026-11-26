@@ -19,7 +19,21 @@ anylive=any('IN PROGRESS' in v for v in cur.values())
 if ch or anylive or (len(sys.argv)>2 and sys.argv[2].strip()):  # owner Nov 26 1:00 PM: the page's 'updated' time must move with every check while a game is live, even at the same score
     print(subprocess.run(['python3','tools/ss_score.py',' ## '.join(rows)],capture_output=True,text=True).stdout.strip()[-300:])
     if len(sys.argv)>2 and sys.argv[2].strip():   # box-score lines from window.__ssw(): goals, scorers, goalies (tools/ss_box.js)
-        os.makedirs('/tmp/gs',exist_ok=True); open('/tmp/gs/ss_pk.txt','w').write(sys.argv[2].replace('PARTIAL ',''))
+        os.makedirs('/tmp/gs',exist_ok=True)
+        # DELTA LINES (tools/ss_box.js __ssw, Nov 26 2:05 PM): 'id ST v-h G <goalies json or => :: +START:<new goals>' ; the full goal list is kept here
+        sp='/tmp/gs/ss_pk_state.json'; S0=json.load(open(sp)) if os.path.exists(sp) else {}; full=[]
+        for l in sys.argv[2].replace('PARTIAL ','').replace(' MORE','').split(' @@ '):
+            m=re.match(r'^(\d+) (.*?) (\d+-\d+) G (.*?) :: \+(\d+):(.*)$',l.strip())
+            if not m: 
+                if l.strip(): print('BAD DELTA LINE',l[:70])
+                continue
+            i,st,sc,gl,start,new=m.groups(); e=S0.get(i,{'g':'[]','goals':[]}); start=int(start); new=[x for x in new.split(';') if x]
+            if gl!='=': e['g']=gl
+            if start==0: e['goals']=new
+            elif start==len(e['goals']): e['goals']+=new
+            else: print('RESYNC NEEDED',i,'(run window.__ssresync("%s") in the tab; have %d goals, delta starts at %d)'%(i,len(e['goals']),start)); continue
+            S0[i]=e; full.append(f"{i} {st} {sc} G {e['g']} :: {';'.join(e['goals'])}")
+        json.dump(S0,open(sp,'w')); open('/tmp/gs/ss_pk.txt','w').write(' @@ '.join(full))
         r=subprocess.run(['python3','tools/live_full.py','/tmp/gs/ss_pk.txt'],capture_output=True,text=True); print((r.stdout.strip()+r.stderr.strip()[-300:])[-500:])
         subprocess.run(['python3','tools/ss_score.py',' ## '.join(rows)],capture_output=True,text=True)  # finals the box read confirmed go to pending
     o=subprocess.run(['tools/live_pub.sh','Silver Stick live'],capture_output=True,text=True).stdout
