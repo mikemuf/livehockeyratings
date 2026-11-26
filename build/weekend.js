@@ -1,8 +1,20 @@
-/* Silver Stick pool standings (Nov 25 2026). Pool games only (the two teams share a pool, game date inside pool play). Order: points, wins, share of goals
-   scored, fewest goals against, most goals for. Head-to-head (the tournament's second tie-break) is not applied here; the page says so. */
-function ssStand(teams,games){const T={};teams.forEach(t=>T[t]={t,gp:0,w:0,l:0,d:0,gf:0,ga:0,pts:0});
-  (games||[]).forEach(g=>{const a=T[g[2]],b=T[g[4]];if(!a||!b)return;const x=+g[3],y=+g[5];a.gp++;b.gp++;a.gf+=x;a.ga+=y;b.gf+=y;b.ga+=x;if(x>y){a.w++;b.l++;a.pts+=2}else if(y>x){b.w++;a.l++;b.pts+=2}else{a.d++;b.d++;a.pts++;b.pts++}});
-  const sh=r=>r.gf+r.ga?r.gf/(r.gf+r.ga):0;return Object.values(T).sort((a,b)=>b.pts-a.pts||b.w-a.w||sh(b)-sh(a)||a.ga-b.ga||b.gf-a.gf)}
+/* Silver Stick pool standings. Order is the tournament's own rule 8 (2026 Tournament Rules, read Nov 25 2026 from the event site):
+   1 points (win 2, tie 1) · 2 head-to-head among the tied teams, only when they have all played each other · 3 most wins ·
+   4 goal share GF/(GF+GA) · 5 fewest goals against · 6 most goals for · 7 fewest penalty minutes (not tracked here) · 8 coin toss.
+   Each row gets r.tb = the step that separated it from the team below ('' when points did). The two wildcards use the same steps
+   without head-to-head (second-place teams from different pools never met). */
+function ssStand(teams,games){const T={};teams.forEach(t=>T[t]={t,gp:0,w:0,l:0,d:0,gf:0,ga:0,pts:0,tb:''});const G=(games||[]).filter(g=>T[g[2]]&&T[g[4]]);
+  G.forEach(g=>{const a=T[g[2]],b=T[g[4]];const x=+g[3],y=+g[5];a.gp++;b.gp++;a.gf+=x;a.ga+=y;b.gf+=y;b.ga+=x;if(x>y){a.w++;b.l++;a.pts+=2}else if(y>x){b.w++;a.l++;b.pts+=2}else{a.d++;b.d++;a.pts++;b.pts++}});
+  const sh=r=>r.gf+r.ga?r.gf/(r.gf+r.ga):0;const rest=(a,b)=>b.w-a.w||sh(b)-sh(a)||a.ga-b.ga||b.gf-a.gf;
+  const why=(a,b)=>b.w-a.w?'wins':sh(b)-sh(a)?'goal share':a.ga-b.ga?'goals against':b.gf-a.gf?'goals for':'still tied';
+  const rows=Object.values(T).sort((a,b)=>b.pts-a.pts||rest(a,b));const out=[];
+  for(let i=0;i<rows.length;){let k=i;while(k<rows.length&&rows[k].pts===rows[i].pts)k++;const grp=rows.slice(i,k);
+    if(grp.length>1&&grp[0].gp>0){const names=new Set(grp.map(r=>r.t)),hg=G.filter(g=>names.has(g[2])&&names.has(g[4])),need=grp.length*(grp.length-1)/2;
+      if(hg.length>=need){const hp={};grp.forEach(r=>hp[r.t]=0);hg.forEach(g=>{const x=+g[3],y=+g[5];if(x>y)hp[g[2]]+=2;else if(y>x)hp[g[4]]+=2;else{hp[g[2]]++;hp[g[4]]++}});
+        grp.sort((a,b)=>hp[b.t]-hp[a.t]||rest(a,b));grp.forEach((r,q)=>{const nx=grp[q+1];if(nx)r.tb=hp[r.t]!==hp[nx.t]?'head-to-head':why(r,nx)})}
+      else grp.forEach((r,q)=>{const nx=grp[q+1];if(nx)r.tb=why(r,nx)})}
+    out.push(...grp);i=k}
+  return out}
 function ssPoolGames(dv,SSD){const ds=new Set((SSD.games||[]).map(g=>g.date));const pr=new Set((SSD.games||[]).map(g=>[g.a,g.b].sort().join('|')));const seen={};
   return WEEKEND_GAMES.filter(g=>g[0]===dv&&ds.has(g[1])&&pr.has([g[2],g[4]].sort().join('|'))).filter(g=>{const k=[g[2],g[4]].sort().join('|');if(seen[k])return false;seen[k]=1;return true})}
 let WK_SEL=null;
@@ -53,7 +65,7 @@ function renderWeekend(S){
     const H=x=>`<h4 style="margin:14px 0 6px;font-size:14px;text-transform:uppercase;letter-spacing:.04em">${x}</h4>`;
     let n=`<div class="card" style="overflow:hidden"><h3 style="margin-top:0">International Silver Stick</h3><p class="small" style="margin:0 0 8px">Whitby, Ontario · Thu Nov 26 to Sun Nov 29 · all times Central</p>`;
     n+=`<div>${chip('30 teams')}${chip('6 pools of 5')}${chip('8 advance')}${chip(t10.length+' of the top 10')}${chip(t30+' of the top 30')}${first?chip('First game '+first.day+' '+first.ct):''}</div>`;
-    n+=H('How it works')+`<table style="width:100%;border-collapse:collapse">`+[['Pool play','4 games each, Thu to Sat'],['Points','Win 2 · Tie 1 · no overtime'],['Who advances','6 pool winners + the 2 best second-place teams'],['Tie-breaks','Points → head-to-head → wins → goal share → fewest goals against'],['Quarterfinals','Best record plays the worst · no pool rematch before the final'],['Final','Sunday']].map(r=>`<tr><td style="${td};white-space:nowrap!important;width:1%"><b>${r[0]}</b></td><td style="${td}">${r[1]}</td></tr>`).join('')+'</table>';
+    n+=H('How it works')+`<table style="width:100%;border-collapse:collapse">`+[['Pool play','4 games each, Thu to Sat'],['Points','Win 2 · Tie 1 · no overtime'],['Who advances','6 pool winners + the 2 best second-place teams'],['Tie-breaks','1 Points · 2 Head-to-head · 3 Wins · 4 Goal share: goals for ÷ all goals in your games · 5 Fewest goals against · 6 Most goals for · 7 Fewest penalty minutes'],['Quarterfinals','Best record plays the worst · no pool rematch before the final'],['Final','Sunday']].map(r=>`<tr><td style="${td};white-space:nowrap!important;width:1%"><b>${r[0]}</b></td><td style="${td}">${r[1]}</td></tr>`).join('')+'</table>';
     const dr=[];dr.push(['Hardest pool',`Pool ${hard}: ${P[hard].filter(t=>R(t)<=20).map(tl).join(' · ')}. One automatic spot.`]);
     if(gap(easy)>0)dr.push(['Easiest road',`${tl(P[easy][0])} in Pool ${easy}. Next best in the pool: ${tl(P[easy][1])}.`]);
     edge.forEach(p=>{const g=gm(P[p][0],P[p][1]);dr.push(['Wildcard edge',`Pool ${p}: ${tl(P[p][0])} and ${tl(P[p][1])}, then nobody inside the top ${R(P[p][2])-1}.${g?' They meet '+g.day+' '+g.ct+'.':''} The loser can still pile up points.`])});
@@ -63,7 +75,16 @@ function renderWeekend(S){
     const tagp=p=>p===hard?' · hardest':(p===easy&&gap(easy)>0)?' · easiest road':'';
     const PG=ssPoolGames(div,SSN),ST={};ps.forEach(p=>ST[p]=ssStand(P[p],PG));const started=PG.length>0,nr='text-align:right!important;padding-right:6px;white-space:nowrap';
     if(started){const done=ps.every(p=>ST[p].every(r=>r.gp>=4));const sec=ps.map(p=>Object.assign({p},ST[p][1])).sort((a,b)=>b.pts-a.pts||b.w-a.w||((b.gf+b.ga?b.gf/(b.gf+b.ga):0)-(a.gf+a.ga?a.gf/(a.gf+a.ga):0))||a.ga-b.ga||b.gf-a.gf);
-      n+=H(done?'Who is through':'Standings so far')+`<table style="width:100%;border-collapse:collapse">`+[['Pool leaders',ps.map(p=>`${p}: ${tl(ST[p][0].t)} (${ST[p][0].pts} pts)`).join(' · ')],['Wildcards '+(done?'':'as it stands'),sec.slice(0,2).map(r=>`${tl(r.t)} (Pool ${r.p}, ${r.pts} pts)`).join(' · ')],['Next in line',sec.slice(2,4).map(r=>`${tl(r.t)} (Pool ${r.p}, ${r.pts} pts)`).join(' · ')]].map(r=>`<tr><td style="${td};white-space:nowrap!important;width:1%"><b>${r[0]}</b></td><td style="${td}">${r[1]}</td></tr>`).join('')+'</table>'+`<p class="small" style="margin:6px 0 0">Win 2 points, tie 1. Ties in the table are settled by head-to-head first; this page orders tied teams by wins, then share of goals scored.</p>`}
+      n+=H(done?'Who is through':'Standings so far')+`<table style="width:100%;border-collapse:collapse">`+[['Pool leaders',ps.map(p=>`${p}: ${tl(ST[p][0].t)} (${ST[p][0].pts} pts)`).join(' · ')],['Wildcards '+(done?'':'as it stands'),sec.slice(0,2).map(r=>`${tl(r.t)} (Pool ${r.p}, ${r.pts} pts)`).join(' · ')],['Next in line',sec.slice(2,4).map(r=>`${tl(r.t)} (Pool ${r.p}, ${r.pts} pts)`).join(' · ')]].map(r=>`<tr><td style="${td};white-space:nowrap!important;width:1%"><b>${r[0]}</b></td><td style="${td}">${r[1]}</td></tr>`).join('')+'</table>'+`<p class="small" style="margin:6px 0 0">Win 2 points, tie 1, no overtime in pool play. Tied teams are ordered by the tournament's rule: head-to-head, wins, goal share, fewest goals against, most goals for.</p>`;
+      /* Storylines (owner, Nov 25 2026: close games, one goal makes the difference, the tie-break formula). Built from the finals only. */
+      {const SL=[];const one=PG.filter(g=>Math.abs(g[3]-g[5])===1).length,tie=PG.filter(g=>g[3]===g[5]).length;
+       if(PG.length>=3)SL.push(['Margins',`${one} of ${PG.length} games decided by one goal`+(tie?` · ${tie} tied`:'')+'. No overtime in pool play, so a late goal is worth a full point.']);
+       const shp=r=>r.gf+r.ga?(r.gf/(r.gf+r.ga)).toFixed(3).replace(/^0/,''):'-';
+       ps.forEach(p=>{const a=ST[p][0],b=ST[p][1];if(a.gp>=2&&b.gp>=2&&a.pts===b.pts)SL.push(['Pool '+p,`${tl(a.t)} and ${tl(b.t)} level on ${a.pts} points. ${a.t} ahead on ${a.tb||'points'}`+(a.tb==='goal share'?` (${shp(a)} to ${shp(b)})`:a.tb==='goals against'?` (${a.ga} to ${b.ga})`:'')+'.'])});
+       const unb=[];ps.forEach(p=>ST[p].forEach(r=>{if(r.gp>=2&&r.l===0&&r.d===0)unb.push(r)}));if(unb.length)SL.push(['Perfect so far',unb.sort((x,y)=>y.gp-x.gp||(y.gf-y.ga)-(x.gf-x.ga)).slice(0,8).map(r=>`${tl(r.t)} ${r.w}-0-0`).join(' · ')]);
+       const stingy=[];ps.forEach(p=>ST[p].forEach(r=>{if(r.gp>=2)stingy.push(r)}));stingy.sort((x,y)=>x.ga/x.gp-y.ga/y.gp);if(stingy.length>=3)SL.push(['Fewest goals against',stingy.slice(0,3).map(r=>`${tl(r.t)} ${r.ga} in ${r.gp}`).join(' · ')+'. Goals against is the fifth tie-break.']);
+       const w2=sec[1],w3=sec[2];if(w2&&w3&&w2.gp>=2&&w3.gp>=2){const why=w2.pts!==w3.pts?`${w2.pts} points to ${w3.pts}`:w2.w!==w3.w?`${w2.w} wins to ${w3.w}`:shp(w2)!==shp(w3)?`goal share ${shp(w2)} to ${shp(w3)}`:w2.ga!==w3.ga?`goals against ${w2.ga} to ${w3.ga}`:`goals for ${w2.gf} to ${w3.gf}`;SL.push(['Wildcard line',`${tl(w2.t)} holds the last spot over ${tl(w3.t)}: ${why}.`+(w2.pts===w3.pts?' One goal either way moves it.':'')])}
+       if(SL.length)n+=H('Storylines')+`<table style="width:100%;border-collapse:collapse">`+SL.map(r=>`<tr><td style="${td};white-space:nowrap!important;width:1%"><b>${r[0]}</b></td><td style="${td}">${r[1]}</td></tr>`).join('')+'</table>'}}
       /* Upsets (owner, Nov 25 2026: "keep track of standings and upsets"): a pool-play final won by the team ranked at least 5 places lower in North America, biggest gap first. */
       {const poolOf=t=>ps.find(p=>P[p].indexOf(t)>=0)||'';const ups=PG.filter(g=>g[3]!==g[5]).map(g=>{const w=g[3]>g[5]?[g[2],g[3]]:[g[4],g[5]],l=g[3]>g[5]?[g[4],g[5]]:[g[2],g[3]];return {w,l,gap:R(w[0])-R(l[0])}}).filter(u=>R(u.w[0])<999&&R(u.l[0])<999&&u.gap>=5).sort((x,y)=>y.gap-x.gap);
        if(ups.length)n+=H('Upsets')+`<table style="width:100%;border-collapse:collapse">`+ups.slice(0,8).map(u=>`<tr><td style="${td}">${tl(u.w[0])} <b>${u.w[1]}</b>, ${tl(u.l[0])} <b>${u.l[1]}</b></td><td style="${td};white-space:nowrap!important;width:1%;color:var(--slate)">Pool ${poolOf(u.w[0])}</td></tr>`).join('')+'</table>'}
