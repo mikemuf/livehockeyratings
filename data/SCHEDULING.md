@@ -10,7 +10,7 @@ Each planner run:
    - MHR PREVIEW lines for top-25 teams.
    - The Reapers/Mission accounts.
 2. If there are no tracked games that day, it sends one short line ("No tracked games today") and stops.
-3. Otherwise it uses send_later for the first check at the first game's start + 15 min. It sends no score message at this point. The final reply is only a one-line plan, e.g. "Today: first puck 8:30 AM — live checks start 8:45."
+3. Otherwise it uses send_later for the first check at the first game's start + 3 min (Nov 26: +15 left the lights on with no score), then every 15. It sends no score message at this point. The final reply is only a one-line plan, e.g. "Today: first puck 8:30 AM — live checks start 8:45."
 
 ## Live checks (send_later chain)
 - Run every 15 min while any tracked game is in progress or starts within 30 min.
