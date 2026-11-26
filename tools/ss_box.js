@@ -18,21 +18,24 @@ window.__ssbox1=async(id)=>{const f=document.createElement('iframe');f.style.css
   if(!isNaN(vs)&&!isNaN(hs)){line=id+' '+st+' '+vs+'-'+hs+' G '+JSON.stringify(gl)+' :: '+pk;if(/FINAL/.test(st))window.__ssfin[id]=1}else line='';window.__ssboxraw=window.__ssboxraw||{};window.__ssboxraw[id]=L.slice(0,80).join(' | ')}catch(e){line=''}
  f.remove();return line};
 window.__ssboxgo=(day)=>{const ids=[];Object.entries(window.__ssraw||{}).forEach(([id,t])=>{if(t.indexOf(day)<0||/\(2017\)/.test(t))return;const parts=t.split(/\(20\d\d\)/);if(parts.length<3)return;if(!/^\s*\d+\s*[-–]\s*\d+/.test(parts[1]))return;const live=/^\s*\d+\s*[-–]\s*\d+\s+LIVE\b/i.test(parts[1]);if(live||!window.__ssfin[id])ids.push(id)});
- window.__pkdone=false;window.__pk=[];(async()=>{for(let i=0;i<ids.length;i+=3){const r=await Promise.all(ids.slice(i,i+3).map(x=>window.__ssbox1(x)));r.forEach(x=>{if(x)window.__pk.push(x)})}window.__pkdone=true})();return ids.length};
+ window.__pkdone=false;window.__pk=[];(async()=>{for(let i=0;i<ids.length;i+=2){const r=await Promise.all(ids.slice(i,i+2).map(x=>window.__ssbox1(x)));r.forEach(x=>{if(x)window.__pk.push(x)})}window.__pkdone=true})();return ids.length};
 // DELTAS (Nov 26 2:05 PM): javascript results are cut at about 1,000 characters, and five live games' full goal lists do not fit. __ssw now returns,
 // per changed game, 'id ST v-h G <goalies json, or the word same when unchanged (an '=' got the whole answer blocked as 'query string data')> :: +START:<only the goals after the first START>' and pages the answer:
 // if it ends with ' MORE', call window.__sspage() until it does not. tools/ss_check.py keeps the full lists (/tmp/gs/ss_pk_state.json) and prints
 // RESYNC NEEDED if the two sides disagree: then run window.__ssresync(id) and the next check sends that game whole.
 window.__pkst=window.__pkst||{};window.__more=[];
 window.__sspage=()=>{let out='';while(window.__more.length&&(out.length+window.__more[0].length<880||!out)){out+=(out?' @@ ':'')+window.__more.shift()}return out+(window.__more.length?' MORE':'')};
-window.__ssw=async()=>{for(let k=0;k<80&&!window.__pkdone;k++)await new Promise(r=>setTimeout(r,500));const res=[];
+window.__ssw=async()=>{for(let k=0;k<110&&!window.__pkdone;k++)await new Promise(r=>setTimeout(r,500));const res=[];
  for(const l of window.__pk){const m=l.match(/^(\d+) (.*?) (\d+-\d+) G (.*?) :: (.*)$/);if(!m)continue;const id=m[1],hd=m[2]+' '+m[3],gl=m[4],goals=m[5].split(';').filter(Boolean);const p=window.__pkst[id]||{n:0,g:null,h:''};
   const reset=goals.length<p.n||(p.sig&&goals.slice(0,p.n).join(';')!==p.sig);const start=reset?0:p.n;const nw=goals.slice(start);
   if(!reset&&!nw.length&&hd===p.h&&gl===p.g)continue;
   res.push(id+' '+hd+' G '+(gl===p.g?'same':gl)+' :: +'+start+':'+nw.join(';'));window.__pkst[id]={n:goals.length,g:gl,h:hd,sig:goals.join(';')}}
  window.__more=res;return (window.__pkdone?'':'PARTIAL ')+window.__sspage()};
 window.__ssresync=id=>{delete window.__pkst[id]};
-window.__ssbox1o=window.__ssbox1;window.__ssbox1=async id=>{let l=await window.__ssbox1o(id);if(!l)l=await window.__ssbox1o(id);/* one retry: with 6+ live games a frame sometimes loads too slowly */const gs=(l.split(' :: ')[1]||'').split(';').filter(Boolean);const allna=gs.length>0&&gs.every(g=>/NOT AVAILABLE/.test(g));if(allna||/ G \[\] /.test(l)){delete window.__ssfin[id];return ''}return l};
+window.__ssbox1o=window.__ssbox1;
+// Nov 26 4:55 PM: with six or more live games the hidden frames often come back HALF LOADED (goalie list empty, or a goal with '-' for the player).
+// Up to three tries per game, 1.2 s apart; a read that is still bad is thrown away (the next check reads it again). Frames run TWO at a time, and __ssw waits up to 55 s.
+window.__ssbox1=async id=>{let l='';for(let k=0;k<3;k++){l=await window.__ssbox1o(id);const gs=(l.split(' :: ')[1]||'').split(';').filter(Boolean);const bad=!l||/ G \[\] /.test(l)||(gs.length>0&&gs.every(g=>/NOT AVAILABLE/.test(g)))||gs.some(g=>/:-?$/.test(g)&&!/\[/.test(g));if(!bad)return l;await new Promise(r=>setTimeout(r,1200))}delete window.__ssfin[id];return ''};
 // ONE CALL PER CHECK (Nov 26 2:20 PM): await window.__ssgo('Nov 26') -> '<score rows of the tracked divisions> %% <delta lines>'.
 // A FINAL row is sent ONCE (window.__ssfr remembers); tools/ss_check.py keeps finals itself. Without this the answer outgrew the 1,000-character cut by mid-afternoon.
 window.__ssfr=window.__ssfr||{};window.__ssgo=async(day)=>{await window.__ssl(day);window.__ssboxgo(day);const p=await window.__ssw();const rows=[];Object.entries(window.__ssraw).forEach(([id,t])=>{if(t.indexOf(day)<0||/\(2017\)/.test(t))return;const parts=t.split(/\(20\d\d\)/);const m=(parts[1]||'').match(/^\s*(\d+)\s*[-\u2013]\s*(\d+)(\s+LIVE)?/);if(!m)return;const r=id+'~'+m[1]+'~'+m[2]+'~'+(m[3]?'IN PROGRESS':'FINAL');if(!m[3]){if(window.__ssfr[id]===r)return;window.__ssfr[id]=r}rows.push(r)});return rows.join(' ## ')+' %% '+p};
