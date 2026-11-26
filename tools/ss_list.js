@@ -3,7 +3,7 @@
 // (feed everything after "| " to tools/ss_score.py). The list is virtualized inside a scrolling DIV; the reader scrolls it in 450 px steps (240 rows, about 8 s).
 // TESTED Nov 25 8:40 PM on scheduled games only. A scheduled row reads:
 //   "Nov 26, 2026 Sudbury Wolves U12 11U AAA (2015) 1:30 PM Toronto Marlboros U12 11U AAA (2015) Iroquois Park Sports Centre #6 10 Tournament"
-// The start time (EASTERN) sits between the two teams; once a game is live the score takes that place. THE LIVE ROW FORMAT IS NOT YET SEEN:
+// The start time (EASTERN) sits between the two teams; once a game is live the score takes that place. LIVE ROW FORMAT CONFIRMED Nov 26 12:27 PM: '... (2017) 0-1 LIVE Whitby ...' (score then the word LIVE; parsed as IN PROGRESS, mid '0-1'). FINAL row still to confirm at the first final. Old note:
 // at the first live game read window.__ssraw[id] and window.__ssmid[id], confirm the parse below, fix it here if needed. Unknown middles come back as status "?:<middle text>".
 window.__ssl=async(day)=>{const sc=[...document.querySelectorAll('div')].find(d=>/overflow-auto/.test(d.className)&&d.scrollHeight>d.clientHeight+200)||document.scrollingElement;
  const rows=new Map();sc.scrollTop=0;await new Promise(r=>setTimeout(r,500));let still=0;
