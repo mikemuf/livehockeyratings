@@ -16,8 +16,12 @@ ch=[i for i in cur if last.get(i)!=cur[i]]
 newfin=[i for i in ch if 'FINAL' in cur[i] and 'FINAL' not in last.get(i,'')]
 odd=[cur[i] for i in cur if '?:' in cur[i]]
 anylive=any('IN PROGRESS' in v for v in cur.values())
-if ch or anylive:  # owner Nov 26 1:00 PM: the page's 'updated' time must move with every check while a game is live, even at the same score
+if ch or anylive or (len(sys.argv)>2 and sys.argv[2].strip()):  # owner Nov 26 1:00 PM: the page's 'updated' time must move with every check while a game is live, even at the same score
     print(subprocess.run(['python3','tools/ss_score.py',' ## '.join(rows)],capture_output=True,text=True).stdout.strip()[-300:])
+    if len(sys.argv)>2 and sys.argv[2].strip():   # box-score lines from window.__ssw(): goals, scorers, goalies (tools/ss_box.js)
+        os.makedirs('/tmp/gs',exist_ok=True); open('/tmp/gs/ss_pk.txt','w').write(sys.argv[2].replace('PARTIAL ',''))
+        r=subprocess.run(['python3','tools/live_full.py','/tmp/gs/ss_pk.txt'],capture_output=True,text=True); print((r.stdout.strip()+r.stderr.strip()[-300:])[-500:])
+        subprocess.run(['python3','tools/ss_score.py',' ## '.join(rows)],capture_output=True,text=True)  # finals the box read confirmed go to pending
     o=subprocess.run(['tools/live_pub.sh','Silver Stick live'],capture_output=True,text=True).stdout
     print('\n'.join(l for l in o.split('\n') if re.search(r'published|live gaps|IN PROGRESS ·|HELD|held|moved',l))[-600:])
     last.update(cur); json.dump(last,open(lp,'w'))
