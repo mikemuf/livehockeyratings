@@ -19,3 +19,13 @@ for r in sys.argv[1].replace('done ','').replace('wait ','').split('##'):
 for y,rows in first.items():
     print(subprocess.run(['python3','tools/live_score.py',y,' ## '.join(rows)],capture_output=True,text=True).stdout.strip()[:400])
 print(subprocess.run(['python3','tools/live_auto.py',sys.argv[1]],capture_output=True,text=True).stdout.strip())
+# FINALS: every Silver Stick game that is FINAL in gs_box goes into data/pending_games.json once ([year,date,visitor,goals,home,goals]),
+# which is what the pool tables, 'Standings so far', the upsets list and the live ratings read. Run tools/live_pub.sh after this.
+B=json.load(open('data/gs_box.json')); P=json.load(open('data/pending_games.json')); have={(r[0],r[1],frozenset((r[2],r[4]))) for r in P}; add=0
+for k,x in B.items():
+    i=k.split('|')[2]
+    if i in g and str(x.get('st','')).startswith('FINAL'):
+        gg=g[i]; key=(gg['y'],gg['date'],frozenset((gg['v'],gg['h'])))
+        if key not in have: P.append([gg['y'],gg['date'],gg['v'],int(x['vs']),gg['h'],int(x['hs'])]); have.add(key); add+=1
+json.dump(P,open('data/pending_games.json','w'),ensure_ascii=False)
+print('finals added to pending:',add,'| pending now',len(P))

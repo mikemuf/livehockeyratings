@@ -1,3 +1,12 @@
+>>> THURSDAY LIVE RUN: DO THIS (written 8:32 PM Nov 25; it replaces steps 1 and 2 of the 12:05 PM scheduled message, which were written before the season id was known) <<<
+1. Chrome: one tab on https://gamesheetstats.com/seasons/16542/games?filter%5Bstatus%5D=all ; paste tools/ss_list.js once (the tab group was closed Wednesday: every old reader is gone).
+2. Each check: `await window.__ssl('Nov 26')` (Fri 'Nov 27', Sat 'Nov 28', Sun 'Nov 29'). FIRST LIVE GAME: read window.__ssraw[id] and window.__ssmid[id] and confirm the score parse (the live row format had not been seen when the reader was written; the 2017 division starts at noon Central and is a good first look). Fix tools/ss_list.js if the format differs and write the real format into its header.
+3. Shell: python3 tools/ss_score.py "<everything after '| '>" . It imports new games, updates live scores, and puts every FINAL into data/pending_games.json once. Then tools/live_pub.sh "Silver Stick live".
+   The page fills by itself: live scores, pool tables, "Standings so far", the UPSETS list (a final won by the team ranked 5+ places lower; build/weekend.js, added Nov 25), Games to circle, team cards. Ids not in silverstick_2026_gs.json (the 2017 division, bracket games) are reported and skipped.
+4. Thursday has 32 tracked games: first 12:30 PM CT, the last starts in the evening (read the watch list). Chain rules as in data/SCHEDULING.md (15 min while a game is live or starts within 30 min). Goal scorers: open a game's Box score only for games on the 'Games to circle' list and for upsets (one line in the write-up), not for all 180.
+5. First real result: look at the 2011, 2013 and 2015 pages at phone width. Owner (8:29 PM Nov 25): "live updates for every game... keep track of standings and upsets. Silver Stick is going to be huge for us." No scores to him as messages.
+6. Stop rule still applies: if a single result moves the rest of a birth year by more than about 0.15, hold that game (data/held_games.json) and tell the owner in one line.
+
 WEEKEND NOV 26-29 (Silver Stick week). Set up Wed Nov 25 2026 by the Wednesday update run.
 IN data/weekend_public.json (from 2026-11-26 to 2026-11-29, live_start Thu 12:15 PM CT, live_end Sun 10:30 PM CT):
 - 2011, 2013, 2015: the International Silver Stick, Whitby. All 60 pool games of each year are on the watch list as {day,time,a,b,rink,note:'Silver Stick · Pool X'} with Central times,
