@@ -1,3 +1,4 @@
+>>> Nov 26 9:00 AM: BEFORE THE FIRST GAME read the two newest lines of data/DECISIONS_INDEX.md (what changed from last week, what did not, and the three-line story wording).
 >>> Nov 26 8:50 AM: Game Day page order in an event week = Live now, Events this weekend, the Silver Stick card, Big games, Games to watch, last weekend, other games, finals (owner 8:49 AM). weekend.js __pS.
 >>> ADDED Nov 26 8:46 AM (owner 8:44 AM: "we have to be the Silver Stick hub"; stories for pool standings and results by birth year, storylines, every story links to the Silver Stick page)
 STORY PLAN, Thu-Sun (inside the story rule: 12 slides a day, 3 a sitting, sittings an hour apart, 5+ minutes between slides, Meta Business Suite only, check for a red Failed badge):
