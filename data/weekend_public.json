@@ -1,7 +1,7 @@
 {
  "label": "Silver Stick week, Nov 26–29",
  "status": "Live coverage",
- "updated": "Fri Nov 27, 11:46 AM CT",
+ "updated": "Fri Nov 27, 11:58 AM CT",
  "from": "2026-11-26",
  "to": "2026-11-29",
  "note": "All times are Central.",
@@ -1012,7 +1012,44 @@
       "Oakland Jr Grizzlies (#12, 94.12) held off Fox Motors 5-4."
      ]
     }
-   ]
+   ],
+   "report": {
+    "title": "Silver Stick report card",
+    "teams": [
+     "Bishop Kearney Selects",
+     "Central Ontario Wolves",
+     "Chatham-Kent Cyclones",
+     "Chicago Mission",
+     "Elgin Middlesex Canucks",
+     "Halton Hurricanes",
+     "Hamilton Steel",
+     "Kingston Jr Gaels",
+     "Little Caesars",
+     "Mississauga Rebels",
+     "Mississauga Senators",
+     "North Shore Whitecaps",
+     "Oakland Jr Grizzlies",
+     "Ottawa Jr 67's",
+     "Ottawa Myers Automotive",
+     "Ottawa Valley Titans",
+     "Palmyra Black Knights",
+     "Pittsburgh Penguins Elite",
+     "Pittsburgh Vengeance",
+     "Soo Jr Greyhounds",
+     "Thunder Bay Kings",
+     "Toronto Jr Canadiens",
+     "Toronto Marlboros",
+     "Toronto Nationals",
+     "Upper Canada College",
+     "Vaughan Kings",
+     "Waterloo Wolves",
+     "Whitby Wildcats",
+     "Windy City Storm",
+     "York Simcoe Express"
+    ],
+    "from": "2026-11-26",
+    "to": "2026-11-29"
+   }
   },
   "2013": {
    "summary": [],
@@ -1733,7 +1770,44 @@
       "Middlesex Islanders (#23, 90.79) won twice in New England, 5-3 over South Shore Kings and 5-2 over Providence."
      ]
     }
-   ]
+   ],
+   "report": {
+    "title": "Silver Stick report card",
+    "teams": [
+     "Barrie Colts",
+     "Buffalo Jr Sabres",
+     "Chicago Mission",
+     "Chicago Reapers",
+     "Credit River Capitals",
+     "Elgin Middlesex Canucks",
+     "Hamilton Steel",
+     "Huron-Perth Lakers",
+     "Little Caesars",
+     "Mid-Fairfield",
+     "Middlesex Islanders",
+     "Milwaukee Jr Admirals",
+     "Minuteman Flames",
+     "Niagara North Stars",
+     "Nor'easters",
+     "Ottawa Jr 67's",
+     "Ottawa Myers Automotive",
+     "Ottawa Valley Titans",
+     "Pittsburgh Penguins Elite",
+     "Quinte Red Devils",
+     "Rochester Saints",
+     "Sudbury Wolves",
+     "Syracuse Nationals",
+     "Toronto Jr Canadiens",
+     "Toronto Marlboros",
+     "Toronto Nationals",
+     "Vaughan Kings",
+     "Waterloo Wolves",
+     "Whitby Wildcats",
+     "York Simcoe Express"
+    ],
+    "from": "2026-11-26",
+    "to": "2026-11-29"
+   }
   },
   "2014": {
    "summary": [],
@@ -2605,7 +2679,44 @@
       "Providence Capitals (#16, 92.34) bounced back with a 3-1 win over the Jr Terriers."
      ]
     }
-   ]
+   ],
+   "report": {
+    "title": "Silver Stick report card",
+    "teams": [
+     "Boston Jr Eagles (Elite)",
+     "Buffalo Jr Sabres",
+     "Chicago Fury",
+     "Chicago Mission",
+     "Cleveland Barons",
+     "Don Mills Flyers",
+     "Elgin Middlesex Canucks",
+     "Florida Surf",
+     "Kitchener Jr Rangers",
+     "Little Caesars",
+     "London Jr Knights",
+     "Mid-Fairfield Hockey Club (Elite)",
+     "Middlesex Islanders East (Elite)",
+     "Niagara North Stars",
+     "Oakland Jr Grizzlies",
+     "Oakville Rangers",
+     "Ottawa Jr 67's",
+     "Pittsburgh Penguins Elite (Mueller)",
+     "Providence Capitals (Elite)",
+     "Quinte Red Devils",
+     "South Shore Kings (Elite)",
+     "Sudbury Wolves",
+     "Top Gun (Elite)",
+     "Toronto Jr Canadiens",
+     "Toronto Marlboros",
+     "Toronto Nationals",
+     "Upper Canada Cyclones",
+     "Whitby Wildcats",
+     "Worcester Shamrocks",
+     "York Simcoe Express"
+    ],
+    "from": "2026-11-26",
+    "to": "2026-11-29"
+   }
   },
   "2016": {
    "summary": [],
