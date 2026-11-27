@@ -1,7 +1,7 @@
 {
  "label": "Silver Stick week, Nov 26–29",
  "status": "Live coverage",
- "updated": "Fri Nov 27, 8:12 AM CT",
+ "updated": "Fri Nov 27, 8:22 AM CT",
  "from": "2026-11-26",
  "to": "2026-11-29",
  "note": "All times are Central.",
@@ -953,6 +953,16 @@
      "note": "Silver Stick · Pool D",
      "tz": "CT",
      "sheet": "https://gamesheetstats.com/seasons/16542/games/3186839"
+    },
+    {
+     "day": "Sun",
+     "time": "3:15 PM",
+     "a": "Peterborough Jr Petes",
+     "b": "Quinte Red Devils",
+     "rink": "Healthy Planet (Sign-A-Field)",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
     }
    ],
    "sections": [
@@ -1740,6 +1750,46 @@
      "tz": "CT"
     },
     {
+     "day": "Sat",
+     "time": "10:30 AM",
+     "a": "Chatham-Kent Cyclones",
+     "b": "Huron-Perth Lakers",
+     "rink": "Blenheim (Blenheim)",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "2:30 PM",
+     "a": "Sun County Panthers",
+     "b": "Brantford 99ers",
+     "rink": "Essex (Libro)",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "4:30 PM",
+     "a": "Windsor Jr Spitfires",
+     "b": "Huron-Perth Lakers",
+     "rink": "Central Park (North)",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "5:15 PM",
+     "a": "Ottawa Myers Automotive",
+     "b": "Upper Canada Cyclones",
+     "rink": "Sportsplex (2)",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
+    },
+    {
      "day": "Sun",
      "time": "9:30 AM",
      "a": "Buffalo Jr Sabres",
@@ -1747,6 +1797,36 @@
      "rink": "Bud Bakewell Ice Rink",
      "city": "",
      "note": "",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "2:30 PM",
+     "a": "Sun County Panthers",
+     "b": "Huron-Perth Lakers",
+     "rink": "Essex (Shaheen)",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "3:30 PM",
+     "a": "Ottawa Valley Titans",
+     "b": "Eastern Ontario Wild",
+     "rink": "Cavanagh Sensplex",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "5:00 PM",
+     "a": "Ottawa Jr 67's",
+     "b": "Ottawa Myers Automotive",
+     "rink": "RSP (Canadian Tire)",
+     "city": "",
+     "note": "League",
      "tz": "CT"
     }
    ],
@@ -2266,6 +2346,16 @@
     },
     {
      "day": "Sat",
+     "time": "11:00 AM",
+     "a": "Grey Bruce Highlanders",
+     "b": "Southern Tier Admirals",
+     "rink": "Chesley (Chesley)",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
      "time": "11:15 AM",
      "a": "Cleveland Barons",
      "b": "Ottawa Jr 67's",
@@ -2274,6 +2364,16 @@
      "note": "Silver Stick · Pool E",
      "tz": "CT",
      "sheet": "https://gamesheetstats.com/seasons/16542/games/3186793"
+    },
+    {
+     "day": "Sat",
+     "time": "11:15 AM",
+     "a": "Credit River Capitals",
+     "b": "Guelph Gryphons",
+     "rink": "Susan Fennell (2)",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
     },
     {
      "day": "Sat",
@@ -2329,6 +2429,16 @@
      "note": "Silver Stick · Pool D",
      "tz": "CT",
      "sheet": "https://gamesheetstats.com/seasons/16542/games/3186798"
+    },
+    {
+     "day": "Sat",
+     "time": "2:00 PM",
+     "a": "Grey Bruce Highlanders",
+     "b": "Southern Tier Admirals",
+     "rink": "Chesley (Chesley)",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
     },
     {
      "day": "Sat",
@@ -2439,6 +2549,16 @@
      "note": "Silver Stick · Pool D",
      "tz": "CT",
      "sheet": "https://gamesheetstats.com/seasons/16542/games/3187444"
+    },
+    {
+     "day": "Sun",
+     "time": "4:00 PM",
+     "a": "Guelph Gryphons",
+     "b": "Grey Bruce Highlanders",
+     "rink": "WERC (1) / West End Recreation Centre (1)",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
     }
    ],
    "sections": [
@@ -2502,6 +2622,26 @@
      "tz": "CT"
     },
     {
+     "day": "Fri",
+     "time": "5:45 PM",
+     "a": "North Shore Whitecaps",
+     "b": "Whitby Wildcats",
+     "rink": "Delpark Homes (4)",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "9:40 AM",
+     "a": "Chicago Fury",
+     "b": "Team Illinois",
+     "rink": "Arctic Ice Arena, 10700 W 160th St, Orland Park IL",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
+    },
+    {
      "day": "Sat",
      "time": "10:40 AM",
      "a": "Boston Jr Eagles (Elite)",
@@ -2523,10 +2663,40 @@
     },
     {
      "day": "Sat",
+     "time": "1:25 PM",
+     "a": "Oakville Rangers",
+     "b": "Southern Tier Admirals",
+     "rink": "Joshua Creek (Red)",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
      "time": "3:00 PM",
      "a": "Windsor Jr Spitfires",
      "b": "Cambridge Hawks",
      "rink": "Central Park Athletics",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
+    },
+    {
+     "day": "Sat",
+     "time": "3:15 PM",
+     "a": "Kitchener Jr Rangers",
+     "b": "Huron-Perth Lakers",
+     "rink": "Activa (Tom Graham)",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "9:40 AM",
+     "a": "Chicago Fury",
+     "b": "Team Illinois",
+     "rink": "Arctic Ice Arena, Orland Park IL",
      "city": "",
      "note": "League",
      "tz": "CT"
@@ -2537,6 +2707,26 @@
      "a": "Elgin Middlesex Canucks",
      "b": "Windsor Jr Spitfires",
      "rink": "Middlesex Wellness Centre",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "1:45 PM",
+     "a": "Kitchener Jr Rangers",
+     "b": "Brantford 99ers",
+     "rink": "Activa (Tom Graham)",
+     "city": "",
+     "note": "League",
+     "tz": "CT"
+    },
+    {
+     "day": "Sun",
+     "time": "1:45 PM",
+     "a": "Peterborough Jr Petes",
+     "b": "Whitby Wildcats",
+     "rink": "Healthy Planet (Sign-A-Field)",
      "city": "",
      "note": "League",
      "tz": "CT"
