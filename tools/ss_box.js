@@ -18,11 +18,12 @@ window.__ssbox1=async(id)=>{const f=document.createElement('iframe');f.style.css
   if(!isNaN(vs)&&!isNaN(hs)){line=id+' '+st+' '+vs+'-'+hs+' G '+JSON.stringify(gl)+' :: '+pk;if(/FINAL/.test(st))window.__ssfin[id]=1}else line='';window.__ssboxraw=window.__ssboxraw||{};window.__ssboxraw[id]=L.slice(0,80).join(' | ')}catch(e){line=''}
  f.remove();return line};
 // NAMES FIX (Nov 26 8:08 PM): the page first paints NOT AVAILABLE in place of every player for about a second, then fills the names in. The reader now waits until no NOT AVAILABLE is left (up to about 10 s) before it reads.
+// OWNER Nov 26 8:45 PM: checks every 15 minutes; a game page is read when its score or status CHANGED since the last read (live games too), one try, never re-read otherwise. This replaces the read-only-at-final rule below.
 // LIGHTEST (owner Nov 26 6:53 PM): a game page is read ONCE, when the game goes FINAL; live games are score-only from the list.
 // LIGHTER (Nov 26 6:50 PM): a game's box score is read ONLY when its list score or status changed since the last good read (window.__ssgot), not on every check.
 // Reason: at about 6:35 PM every game page began showing 'NOT AVAILABLE' for all players and goalies (finished games too): a source-side fault or a limit on roster lookups. Fewer reads = less load either way.
 window.__ssgot=window.__ssgot||{};
-window.__ssboxgo=(day)=>{const ids=[];Object.entries(window.__ssraw||{}).forEach(([id,t])=>{if(t.indexOf(day)<0||/\(2017\)/.test(t))return;const parts=t.split(/\(20\d\d\)/);if(parts.length<3)return;const m=parts[1].match(/^\s*(\d+)\s*[-\u2013]\s*(\d+)(\s+LIVE)?/);if(!m||m[3])return;const key=m[1]+'-'+m[2]+(m[3]?'L':'F');if(window.__ssgot[id]===key)return;ids.push([id,key])});
+window.__ssboxgo=(day)=>{const ids=[];Object.entries(window.__ssraw||{}).forEach(([id,t])=>{if(t.indexOf(day)<0||/\(2017\)/.test(t))return;const parts=t.split(/\(20\d\d\)/);if(parts.length<3)return;const m=parts[1].match(/^\s*(\d+)\s*[-\u2013]\s*(\d+)(\s+LIVE)?/);if(!m)return;const key=m[1]+'-'+m[2]+(m[3]?'L':'F');if(window.__ssgot[id]===key)return;ids.push([id,key])});
  window.__pkdone=false;window.__pk=[];(async()=>{for(let i=0;i<ids.length;i+=2){const r=await Promise.all(ids.slice(i,i+2).map(x=>window.__ssbox1(x[0])));r.forEach((x,j)=>{window.__ssgot[ids[i+j][0]]=ids[i+j][1];if(x){window.__pk.push(x)}})}window.__pkdone=true})();return ids.length};
 // DELTAS (Nov 26 2:05 PM): javascript results are cut at about 1,000 characters, and five live games' full goal lists do not fit. __ssw now returns,
 // per changed game, 'id ST v-h G <goalies json, or the word same when unchanged (an '=' got the whole answer blocked as 'query string data')> :: +START:<only the goals after the first START>' and pages the answer:
