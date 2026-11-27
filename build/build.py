@@ -199,6 +199,15 @@ rep('  <button data-view="add">Add scores</button>\n','')
 rep('  <button data-view="export">Handoff</button>\n','')
 rep('<button data-view="rank" class="on">USA</button>','<button data-view="rank" class="on">USA</button>\n  <button data-view="wk">Weekend</button>')
 rep(' <section class="view" id="v-can"></section>',' <section class="view" id="v-wk"></section>\n <section class="view" id="v-can"></section>')
+def _nosrc(o):  # Nov 26 2026 (owner 6:33 PM): the published page never names a data source, not even in its hidden data: a sheet address becomes 1
+    import re as _re
+    if isinstance(o,dict):
+        for k in list(o):
+            if k in ('sheet','url') and isinstance(o[k],str) and _re.search(r'gamesheet|spordle',o[k],_re.I): o[k]=1 if k=='sheet' else ''
+            else: _nosrc(o[k])
+    elif isinstance(o,list):
+        for v in o: _nosrc(v)
+_nosrc(WK); _nosrc(WBOX)
 rep("let cache={};","const WEEKEND="+json.dumps(WK)+";\nconst WEEKEND_GAMES="+json.dumps(WG)+";\nconst WEEKEND_BOX="+json.dumps(WBOX,ensure_ascii=False)+";\n"+open('build/weekend.js').read()+"let cache={};")
 rep("  if(view==='can')","  if(view==='wk')document.getElementById('v-wk').innerHTML=renderWeekend(S);\n  if(view==='can')")
 rep('--ice:#F3F7FA','--ice:#E6EDF3')
