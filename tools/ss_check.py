@@ -68,6 +68,6 @@ pend=sorted((st(g),i) for i,g in G.items() if i not in fin and i not in live)
 due=[x for x in pend if x[0]<=now]  # should have started, not on the sheet yet
 nxt=[x for x in pend if x[0]>now]
 print('now',now.strftime('%a %I:%M %p'),'| live',len(live),'| started but not on sheet',len(due),'| finals so far',len(fin))
-if live or due or (nxt and (nxt[0][0]-now).total_seconds()<=600): print('NEXT CHECK: 7 minutes')
+if live or due or (nxt and (nxt[0][0]-now).total_seconds()<=600): print('NEXT CHECK: 30 minutes')
 elif nxt: print('NEXT CHECK:',(nxt[0][0]+datetime.timedelta(minutes=3)).strftime('%a %b %d %I:%M %p'),'CT (next start + 3)')
 else: print('NEXT CHECK: none, all games final')
