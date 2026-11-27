@@ -390,6 +390,7 @@ function wkNav0(){const R=document.getElementById('v-wk');if(!R||!R.querySelecto
     if(el.tagName==='H3'&&el.closest('details'))return;const m=t.match(/^Pool ([A-H])\b/);if(m){if(!P.some(x=>x[0]===m[1]))P.push([m[1],el]);return}
     const short={'Adjusted scoring leaders':'Top scorers','Goalies: adjusted goals against average':'Goalies','Who has had the harder road':'Toughest road','Who controls their pool':'Who controls','Standings so far':'Standings','Other games this weekend':'Other games','How it works':'How it works','Full schedule':'Schedule'}[t]||t;
     if(short.length>26||T.some(x=>x[0]===short))return;T.push([short,el])});
+  for(let i=T.length-1;i>=0;i--)if(/Silver Stick$/.test(T[i][0]))T.splice(i,1);const ORD=['Up next','Schedule','Standings','Pool tables','Top scorers','Goalies','Storylines','Upsets','Who controls','Toughest road','Games to watch','Other games','Final scores','How it works','The draw','Last weekend'];T.sort((x,y)=>((ORD.indexOf(x[0])+1)||50)-((ORD.indexOf(y[0])+1)||50));
   if(T.length+P.length<4)return;
   const chip='display:inline-block;margin:3px 6px 3px 0;padding:7px 12px;border:1.5px solid #1b2a4a;border-radius:999px;font-weight:700;font-size:14px;color:#1b2a4a;background:#fff;cursor:pointer';
   const N=document.createElement('div');N.id='wknav';N.className='card';N.style.cssText='padding:10px 14px';
