@@ -1,5 +1,6 @@
 # Silver Stick live check: the ONE chain (owner Nov 26 12:38 PM: every 7 minutes during live games)
 
+>>> A message titled "SS LIVE CHECK (the one chain; hourly loop)" is RETIRED (one is still queued for about 6:45 PM): when it fires do nothing, schedule nothing, end with no text. The live chain message is "SS LIVE CHECK (one check per turn)".
 >>> OWNER, Nov 26 6:13 PM (REPLACES the long-loop rule below): "I don't like how your thing is always running... I can easily just turn off the notification settings so you don't have to do the thing where you're constantly always running." So: NO long loop inside one turn. Back to ONE CHECK PER TURN: each firing = send_later the chain message for 7 minutes (or the later NEXT CHECK time), do the check (steps 2-4), and END THE TURN WITH NO TEXT. He turns his phone notifications off himself. Messages to him only for (d) below. Blocks (b), (b2), (c) below are OFF; the Helper Desk skim goes back to its own hourly chain (silent).
 
 >>> OWNER, Nov 26 2:30 PM: "If you need me, then you should buzz me. But if you don't need me, you shouldn't write a message." EVERY turn that ends buzzes his phone, whatever it says. So:
