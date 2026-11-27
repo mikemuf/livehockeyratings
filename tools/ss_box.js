@@ -6,7 +6,7 @@
 // Goal = period digit + clock + v|h + ':' + 'num NAME/num ASSIST/...'. Names DO show for the 2015 division (seen Nov 26).
 window.__ssfin=window.__ssfin||{};
 window.__ssbox1=async(id)=>{const f=document.createElement('iframe');f.style.cssText='position:absolute;left:-6000px;width:1200px;height:900px';document.body.appendChild(f);f.src='/seasons/16542/games/'+id+'?tab=box-score';
- await new Promise(r=>{f.onload=r;setTimeout(r,12000)});let L=[];for(let k=0;k<12;k++){await new Promise(r=>setTimeout(r,600));try{L=f.contentDocument.body.innerText.split('\n').map(s=>s.trim()).filter(Boolean)}catch(e){}if(L.includes('PENALTIES BY PERIOD'))break}
+ await new Promise(r=>{f.onload=r;setTimeout(r,12000)});let L=[];for(let k=0;k<16;k++){await new Promise(r=>setTimeout(r,600));try{L=f.contentDocument.body.innerText.split('\n').map(s=>s.trim()).filter(Boolean)}catch(e){}if(L.includes('PENALTIES BY PERIOD')&&!L.some(x=>/NOT AVAILABLE/.test(x)))break}
  let line='';try{const vi=L.findIndex(x=>/VISITOR$/.test(x)),hi=L.findIndex(x=>/^HOME\b/.test(x));const v=L[vi+1],h=L[hi+1];const dash=L.indexOf('-',vi);const vs=+L[dash-2],hs=+L[dash+1];
   const st=L.slice(vi+2,dash-2).find(x=>/^(FINAL.*|UNOFFICIAL FINAL|IN PROGRESS|INTERMISSION.*|.*PERIOD|OVERTIME|SHOOTOUT)$/.test(x))||'';
   const sec=(a,b)=>{const i=L.indexOf(a),j=b?L.indexOf(b):L.length;return i<0?[]:L.slice(i+1,j<0?L.length:j)};
@@ -17,6 +17,7 @@ window.__ssbox1=async(id)=>{const f=document.createElement('iframe');f.style.css
   const pk=goals.map(g=>(g.p==='OVERTIME'?'O':g.p==='SHOOTOUT'?'S':g.p[0])+g.t+sd(g.team)+':'+g.pl.map(x=>x.replace(/ \(\d+\)/,'').replace('#','')).join('/')+(g.tags.length?'['+g.tags.join(',')+']':'')).join(';');
   if(!isNaN(vs)&&!isNaN(hs)){line=id+' '+st+' '+vs+'-'+hs+' G '+JSON.stringify(gl)+' :: '+pk;if(/FINAL/.test(st))window.__ssfin[id]=1}else line='';window.__ssboxraw=window.__ssboxraw||{};window.__ssboxraw[id]=L.slice(0,80).join(' | ')}catch(e){line=''}
  f.remove();return line};
+// NAMES FIX (Nov 26 8:08 PM): the page first paints NOT AVAILABLE in place of every player for about a second, then fills the names in. The reader now waits until no NOT AVAILABLE is left (up to about 10 s) before it reads.
 // LIGHTEST (owner Nov 26 6:53 PM): a game page is read ONCE, when the game goes FINAL; live games are score-only from the list.
 // LIGHTER (Nov 26 6:50 PM): a game's box score is read ONLY when its list score or status changed since the last good read (window.__ssgot), not on every check.
 // Reason: at about 6:35 PM every game page began showing 'NOT AVAILABLE' for all players and goalies (finished games too): a source-side fault or a limit on roster lookups. Fewer reads = less load either way.
