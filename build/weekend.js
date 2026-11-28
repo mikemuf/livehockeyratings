@@ -463,7 +463,7 @@ function wkNav0(){const R=document.getElementById('v-wk');if(!R||!R.querySelecto
   const G=[
     grp('Schedule and scores',inner(F['Full schedule'])),
     grp('Pool play and standings',[F['Standings so far'],F['Who is likely to get in'],F['What each team needs'],allBtn,poolGrid]),
-    grp('Silver Stick players · top 100 scorers · free',inner(F['Adjusted scoring leaders'])),
+    grp('Silver Stick players · top 100 scorers',(()=>{const x=inner(F['Adjusted scoring leaders']);if(!x.length)return x;const p=document.createElement('p');p.className='small';p.style.cssText='margin:0 0 8px;padding:8px 10px;border:1px solid rgba(128,128,128,.35);border-radius:8px';p.innerHTML='These are this tournament\'s scorers, free for everyone. Full-season stats for every player (ice time, power play, scoring) are in the members\' <a href="players/#year='+div+'" style="color:var(--blue);font-weight:700">Player Database &rsaquo;</a>';return [p].concat(x)})()),
     grp('Goalies',inner(F['Goalies: adjusted goals against average'])),
     grp('Report card · who is over and under their rating',repNodes),
     grp('More · storylines, upsets, how it works',[F['Storylines'],F['Upsets'],F['Who has had the harder road'],hiw])];
