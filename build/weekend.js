@@ -105,12 +105,12 @@ function renderWeekend(S){ssLocal();setTimeout(wkNav,0);
     const __i0=n.length;
     n+=H('How it works')+`<table style="width:100%;border-collapse:collapse">`+[['Pool play','4 games each, Thu to Sat'],['Points','Win 2 · Tie 1 · no overtime'],['Who advances','6 pool winners + the 2 best second-place teams'],['Tie-breaks','1 Points · 2 Head-to-head · 3 Wins · 4 Goal share: goals for ÷ all goals in your games · 5 Fewest goals against · 6 Most goals for · 7 Fewest penalty minutes'],['Quarterfinals','Best record plays the worst · no pool rematch before the final'],['Final','Sunday']].map(r=>`<tr><td style="${td};white-space:nowrap!important;width:1%"><b>${r[0]}</b></td><td style="${td}">${r[1]}</td></tr>`).join('')+'</table>';
     const dr=[];dr.push(['Hardest pool',`Pool ${hard}: ${P[hard].filter(t=>R(t)<=20).map(tl).join(' · ')}. One automatic spot.`]);
-    if(gap(easy)>0)dr.push(['Easiest road',`${tl(P[easy][0])} in Pool ${easy}. Next best in the pool: ${tl(P[easy][1])}.`]);
+    if(gap(easy)>0)dr.push(['Clearest favorite',`${tl(P[easy][0])} in Pool ${easy}. Next best in the pool: ${tl(P[easy][1])}.`]);
     edge.forEach(p=>{const g=gm(P[p][0],P[p][1]);dr.push(['Wildcard edge',`Pool ${p}: ${tl(P[p][0])} and ${tl(P[p][1])}, then nobody inside the top ${R(P[p][2])-1}.${g?' They meet '+g.day+' '+g.ct+'.':''} The loser can still pile up points.`])});
     nof.forEach(p=>dr.push(['No favorite',`Pool ${p}: ${P[p].filter(t=>R(t)<=20).map(tl).join(' · ')}. No top-10 team; they take points off each other.`]));
     if(out.length)dr.push(['Not here',out.map(tl).join(' · ')]);
     n+=H('The draw')+`<table style="width:100%;border-collapse:collapse">`+dr.map(r=>`<tr><td style="${td};white-space:nowrap!important;width:1%"><b>${r[0]}</b></td><td style="${td}">${r[1]}</td></tr>`).join('')+'</table>';
-    const tagp=p=>p===hard?' · hardest':(p===easy&&gap(easy)>0)?' · easiest road':'';
+    const tagp=p=>p===hard?' · hardest':(p===easy&&gap(easy)>0)?' · clearest favorite':'';
     const PG=ssPoolGames(div,SSN),ST={};ps.forEach(p=>ST[p]=ssStand(P[p],PG));let __LD='';
     /* owner, Nov 26 2026 8:31 PM: "it would be nice to just have the schedule... forget about which pool... when's the next game coming up?" One schedule of every game in time order, and an Up next table at the top of the card. */
     const __T=g=>{const m=/(\d+):(\d+) (AM|PM)/.exec(g.ct||'');if(!m||!g.date)return 0;const hh=(+m[1]%12)+(m[3]==='PM'?12:0);return Date.parse(g.date+'T'+String(hh).padStart(2,'0')+':'+m[2]+':00-06:00')-SS_TZH()*3600e3};
