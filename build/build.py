@@ -219,7 +219,37 @@ for k,t in PT.items(): PDB.setdefault(str(t['yr']),{})[t['name']]=k
 # (the "Listed in the USA division / Move to Canada" line was removed from team pages on Nov 17, 2026; the roster link now follows the notes)
 rep("not in this log.</p>`:''}\n  </div>`;",
     "not in this log.</p>`:''}\n  ${(PDB[div]||{})[x.t]?`<p style=\"margin:12px 0 0\"><a class=\"plink\" style=\"padding:0\" href=\"players/#team=${PDB[div][x.t]}\">Roster and player stats &rsaquo;</a></p>`:''}</div>`;")
-rep("let cache={};","const PDB="+json.dumps(PDB)+";\nlet cache={};")
+# --- positions for event scorers (owner Nov 27 2026 8:52 PM: "you don't know what positions the players are... forward or defenseman").
+#     F or D only, for players who appear as scorers in a covered event, looked up in the player database by team + name
+#     (else team + sweater number + same last initial). Kept in data/ss_pos.json so a build without the database still has them.
+def _ss_pos():
+    import ast as _ast, re as _re, unicodedata as _ud, os as _os
+    out={}
+    try: out=json.load(open('data/ss_pos.json'))
+    except Exception: out={}
+    dbp='/home/claude/player/data/db.json'
+    if not _os.path.exists(dbp): return out
+    try:
+        S=json.load(open(dbp))['S']; S=_ast.literal_eval(S) if isinstance(S,str) else S
+        nrm=lambda x:_re.sub(r'[^a-z]','',_ud.normalize('NFKD',str(x)).encode('ascii','ignore').decode().lower())
+        bt={}
+        for r in S: bt.setdefault(r[0],[]).append(r)
+        BXS=json.load(open('data/gs_box.json')); SSD=json.load(open('data/silverstick_2026.json'))
+        for k,g in BXS.items():
+            yr=k[:4]
+            if yr not in SSD or '|16542|' not in k: continue
+            gl=_ast.literal_eval(g['goals']) if isinstance(g.get('goals'),str) else (g.get('goals') or [])
+            for x in gl:
+                tm=g['v'] if x[2]==0 else g['h']; rows=bt.get(PDB.get(yr,{}).get(tm),[])
+                for pl in x[3]:
+                    if not pl or not pl[1]: continue
+                    m=[r for r in rows if nrm(r[2])==nrm(pl[1])] or [r for r in rows if str(r[1])==str(pl[0]) and nrm(r[2].split()[-1])[:1]==nrm(pl[1].split()[-1])[:1]]
+                    if m and m[0][3] in ('F','D'): out.setdefault(yr,{})[tm+'|'+pl[1]]=m[0][3]
+        json.dump(out,open('data/ss_pos.json','w'),sort_keys=True)
+    except Exception as e: print('ss_pos skipped:',e)
+    return out
+SS_POS=_ss_pos()
+rep("let cache={};","const PDB="+json.dumps(PDB)+";\nconst SS_POS="+json.dumps(SS_POS,separators=(',',':'))+";\nlet cache={};")
 rep("\nrender();\n</script>","\nfunction fromHash(){let hh=location.hash;try{hh=decodeURIComponent(hh)}catch(e){}const tmw=hh.match(/^#wkteam=(\\d{4})\\|(.+)$/);if(tmw&&LITE_OK(tmw[1])){div=tmw[1];view='wk';WK_SEL='t:'+tmw[2];return}const gm=hh.match(/^#game=(\\d{4})[|-]([rwb]\\d+)$/);if(gm&&LITE_OK(gm[1])){div=gm[1];view='wk';WK_SEL=gm[2];return}WK_SEL=null;const wk=location.hash.match(/^#wk=(\\d{4})$/);if(wk&&LITE_OK(wk[1])){div=wk[1];view='wk';return}const d=location.hash.match(/^#div=(\\d{4})$/);if(d&&LITE_OK(d[1])){div=d[1];view='rank';selTeam=null;return}let m=null;try{m=decodeURIComponent(location.hash).match(/^#team=(\\d{4})\\|(.+)$/)}catch(e){}if(!m)return;div=m[1];selTeam=m[2];view='team'}\nfunction LITE_OK(y){return !!document.querySelector('button[data-div=\"'+y+'\"]')}\n// The Player Database link opens the birth year being viewed here.\ndocument.addEventListener('pointerdown',e=>{const a=e.target.closest&&e.target.closest('.tabs a.plink');if(a)a.href='players/#year='+div},true);\nwindow.addEventListener('hashchange',()=>{fromHash();render();window.scrollTo(0,0)});\nfromHash();render();\n</script>")
 h=h.replace('GameSheet score, provisional','Weekend score, provisional').replace('GS = GameSheet score','GS = weekend score')
 # Nov 19, 2026 (owner): members should not see the fine print about how ratings are calculated or where numbers come from.
