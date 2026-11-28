@@ -62,3 +62,4 @@ STORY WORDING (owner 6:21 PM): headline may carry the score ("Worcester Shamrock
 STORY SLIDES USED Fri Nov 27: 26 of 30 (last: ~7:30 PM 12U Penguins Elite 3 Mid-Fairfield 1, top-10 team lost); 12U Pool E Mid-Fairfield v Penguins Elite tonight. Re-read the numbers from the site first.
 
 - NOTE Nov 27 7:30 PM: story composer file input is created detached; the click hook must append it to the page: HTMLInputElement.prototype.click=function(){if(this.type==='file'){if(!this.isConnected){this.style.display='block';document.body.appendChild(this)}window.__fi=this}} then click Add photo/video, then find 'input type=file'.
+- Nov 27 7:45 PM: 16U Chicago Mission 4 Hamilton Steel 2 (#13 over #10) qualified under rule (b) but NO story: the last 4 of today's 30 are held for the end-of-day posts (one per age + report card), as told to the owner at 7:41 PM.
