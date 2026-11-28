@@ -463,7 +463,7 @@ function wkNav0(){const R=document.getElementById('v-wk');if(!R||!R.querySelecto
   const G=[
     grp('Schedule and scores',inner(F['Full schedule'])),
     grp('Pool play and standings',[F['Standings so far'],F['Who is likely to get in'],F['What each team needs'],allBtn,poolGrid]),
-    grp('Players · top 100 scorers',inner(F['Adjusted scoring leaders'])),
+    grp('Silver Stick players · top 100 scorers · free',inner(F['Adjusted scoring leaders'])),
     grp('Goalies',inner(F['Goalies: adjusted goals against average'])),
     grp('Report card · who is over and under their rating',repNodes),
     grp('More · storylines, upsets, how it works',[F['Storylines'],F['Upsets'],F['Who has had the harder road'],hiw])];
